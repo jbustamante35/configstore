@@ -2377,3 +2377,68 @@ l
 vim todo.plugin.bash 
 bash-it disable plugin todo
 bash-it enable plugin todo 
+cd go/bin/
+cd src/
+cd apps/
+go get gopkg.in/alecthomas/kingpin.v2
+git clone git://github.com/alecthomas/devtodo2.git
+bat README.rst 
+..
+cd devtodo2/
+make
+make install 
+sudo make install 
+cd /usr/local/
+la
+ls *
+cd bin
+t -A
+vim todo.plugin.bash 
+bash-it disable plugin todo
+bash-it enable plugin todo 
+bi
+cd available/
+zi
+cd plugins/
+bat rsync/rsync.plugin.zsh 
+ccat rsync/rsync.plugin.zsh 
+bb
+cd ~/Dropbox/ComputerProgramming/configstore/rintohsaka/
+rsync  -avzu --delete --progress -h /home/jbustamante/.bash_aliases .
+h
+cd -
+syncconfigs.sh 
+bat .zsh*
+bat .bash_*
+bat .bashrc
+export TERM=xterm
+ncdu
+l
+ll
+exit
+ls *
+cd bin
+t -A
+bi
+cd plugins/
+cd available/
+vim todo.plugin.bash 
+bash-it disable plugin todo
+bash-it enable plugin todo 
+vim syncconfigs.zsh 
+term
+export TERM=xterm
+mv syncconfigs.zsh syncconfigs.sh 
+sudo chmod +x syncconfigs.sh 
+dr
+cd ComputerProgramming/configstore/
+mv rin_180923/ rintohsaka
+ll
+syncconfigs.sh 
+gvim ~/bin/syncconfigs.sh 
+vim ~/bin/syncconfigs.sh 
+l
+h
+bb
+vim syncconfigs.sh 
+exit
