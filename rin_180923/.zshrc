@@ -24,6 +24,10 @@ plugins=(
     vagrant
     git-extras
     cp
+    vi-mode
+    colorize
+    sublime
+    rsync 
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -141,3 +145,6 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.shortcuts
+
+# fasd configuration
+eval "$(fasd --int auto)"

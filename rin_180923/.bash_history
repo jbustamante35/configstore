@@ -2065,3 +2065,315 @@ cd .GlobalProtect/
 ll
 h
 ls
+cd bash_scripts/
+tree
+la
+cd DocumentsMATLAB/
+cd Add-Ons/
+zi
+cd bin
+cd bash_scripts/
+cd bash_scripts/
+cd DocumentsMATLAB/
+cd Add-Ons/
+la
+tree
+cd ResearchArticles/
+cd computational_biology/
+pwd
+pcupdate 
+pwd
+pcupdate 
+la
+la
+la
+cd EdgarSpalding/
+cd Software/
+cd sphinctolyzer/
+cd sphinctolyzer/
+randomize_nwinkler 
+randomize_nwinkler 
+dr
+git clone https://github.com/jbustamante35/configstore
+cd bash_scripts/
+cd bashrc/
+mv bashrc/ ../configstore/
+cd ../configstore/
+cd bashrc/
+mv bashrc/ 180807_general
+mvcd rin_180923
+cp ~/.zsh* .
+cp ~/.bash* .
+cp -r ~/.bash* .
+vim .bashrc.bak
+source .bashrc
+la
+cff
+cd .bash_it
+bash-it aliases
+bash-it show aliases
+cbr
+bash-it show aliases 
+cd .bash_it/themes/
+cd EdgarSpalding/
+cd Software/
+randomize_nwinkler 
+randomize_nwinkler 
+cd sphinctolyzer/
+cd quantdracala/
+man sudo
+ls /*
+cd ~/Dropbox/ResearchArticles/computational_biology/edgarspalding/
+la
+cd image_analysis/
+cd ../kinematics/
+cd ../kinematics/
+pwd
+cd sphinctolyzer/
+cd sphinctolyzer/
+cdes
+cd hypoquantyl/
+cd themes/
+bi
+cd completion/
+cd plugins/
+cd available/
+bat history.plugin.bash 
+bat extract.plugin.bash 
+bat explain
+bat explain.plugin.bash 
+bat browser.plugin.bash 
+bat jump
+bat jump.plugin.bash 
+bat latex.plugin.bash 
+bat fasd
+app search fasd
+app install fasd
+man fasd
+fasd
+sbc
+ls
+cd
+cd Dropbox/EdgarSpalding/
+a 6
+f vim
+vim .zshrc
+cd Dropbox/
+cd ComputerProgramming/
+h
+cd -
+okular EASEMaster_Manual.pdf 
+cd configstore/
+cd rin_180923/
+vim .bash_aliases 
+vim .bashrc
+.
+cd Arduino_Projects/
+mv Arduino_Projects/ arduino
+cd arduino/
+cat ArduinoMain_shortcut.lnk 
+..
+a
+f okular
+f
+s
+s okular
+s bash
+ll
+zz
+bat fasd.plugin.bash 
+bat gradle.plugin.bash 
+app search gradle
+bat less-pretty-cat.plugin.bash 
+bat nvm.plugin.bash 
+bat textmate.plugin.bash 
+bat xterm.plugin.bash 
+bat visual-studio-code.plugin.bash 
+bat battery.plugin.bash 
+l
+bat visual-studio-code.plugin.bash 
+bat battery.plugin.bash 
+ll
+h
+bi
+cd plugins/
+l
+bash-it show plugins 
+bash-it plugin history extract fasd explain edit-mode-vi less-pretty-cat battery
+bash-it plugin enable history extract fasd explain edit-mode-vi less-pretty-cat battery
+bash-it enable plubin history extract fasd explain edit-mode-vi less-pretty-cat battery
+bash-it enable plugin history extract fasd explain edit-mode-vi less-pretty-cat battery
+bash-it show plugins 
+bash-it enable plugin extract fasd explain edit-mode-vi less-pretty-cat battery
+bash-it enable plugin fasd explain edit-mode-vi less-pretty-cat battery
+bash-it enable plugin explain edit-mode-vi less-pretty-cat battery
+bash-it enable plugin edit-mode-vi less-pretty-cat battery
+bash-it enable plugin fasd explain edit-mode-vi less-pretty-cat battery
+bash-it enable plugin explain edit-mode-vi less-pretty-cat battery
+bash-it enable plugin edit-mode-vi 
+bash-it enable plugin edit-mode-vi less-pretty-cat battery
+bash-it enable plugin less-pretty-cat battery
+cd hypoquantyl/
+cdes
+cd sphinctolyzer/
+cd themes/
+cd hypoquantyl/
+cd hypoquantyl/
+cdes
+cd sphinctolyzer/
+cd themes/
+pcupdate 
+cfr
+ls /*
+an sudo
+man bat
+vim .bashrc
+fasd
+z
+z EdgarSpalding
+vv
+ll
+bi
+cd plugins/
+l
+h
+cbf
+cbr
+sbc
+bash-it enable plugin fasd explain edit-mode-vi less-pretty-cat battery
+bash-it enable plugin explain edit-mode-vi less-pretty-cat battery
+bash-it enable plugin edit-mode-vi 
+bash-it enable plugin edit-mode-vi less-pretty-cat battery
+bash-it enable plugin less-pretty-cat battery
+bash-it enable plugin battery
+bash-it show plugins 
+man sudo
+explain sudo
+explain python
+explain cat
+explain fasd
+man cat
+cat available/fzf.plugin.bash 
+cd available/
+l
+bat jump.plugin.bash 
+cat jump.plugin.bash 
+bat pipsi.plugin.bash 
+bash-it disable plugin less-pretty-cat
+l
+app search pipsi
+bat java
+bat java.plugin.bash 
+bash-it enable plugin java
+bash-it enable plugin java
+bat javascript.plugin.bash 
+l
+history 
+man history
+bat history.plugin.bash 
+bash-it enable plugin less-pretty-cat 
+l
+vim less-pretty-cat.plugin.bash 
+bash-it enable plugin less-pretty-cat 
+ccat pipsi.plugin.bash 
+app search ccat
+app search ccrpyt
+app search ccrypt
+bash-it disable plugin less-pretty-cat 
+bash-it enable plugin less-pretty-cat 
+bash-it enable plugin less-pretty-cat 
+ccat node
+cat node.plugin.bash 
+ccat node.plugin.bash 
+ccat osx.plugin.bash 
+cat osx.plugin.bash 
+bat osx.plugin.bash 
+less osx.plugin.bash 
+ll
+l
+vim less-pretty-cat.plugin.bash 
+bash-it disable plugin less-pretty-cat 
+bash-it enable plugin less-pretty-cat 
+bash-it disable plugin less-pretty-cat 
+bash-it enable plugin less-pretty-cat 
+lless pipsi.plugin.bash 
+less osx.plugin.bash 
+lless osx.plugin.bash 
+ll
+cat todo.plugin.bash 
+ccat todo.plugin.bash 
+app search todo
+app install gnome-todo gnome-todo-common libgnome-todo
+todo
+gnome-todo 
+man gnome-todo
+gnome-todo --help
+gnome-todo --help-all
+l
+bat todo.plugin.bash 
+bash-it enable plugin todo 
+man gnome-todo
+gnome-todo --help
+gnome-todo --help-all
+sudo updatedb
+locate todo.sh
+l
+bash-it enable plugin todo 
+bat todo.plugin.bash 
+t
+sbc
+vim todo.plugin.bash 
+bash-it disable plugin todo
+bash-it enable plugin todo 
+less osx.plugin.bash 
+lless osx.plugin.bash 
+cat todo.plugin.bash 
+ccat todo.plugin.bash 
+app search todo
+app install gnome-todo gnome-todo-common libgnome-todo
+gnome-todo 
+man gnome-todo
+gnome-todo --help
+gnome-todo --help-all
+bat todo.plugin.bash 
+bash-it enable plugin todo 
+man gnome-todo
+gnome-todo --help
+gnome-todo --help-all
+sudo updatedb
+locate todo.sh
+bash-it enable plugin todo 
+bat todo.plugin.bash 
+sbc
+bash-it enable plugin todo 
+t -a Configure all these cool updates on WinryRockbell
+todo
+t
+t -s
+g
+gg
+cd go/bin/
+cd src/
+cd apps/
+go get gopkg.in/alecthomas/kingpin.v2
+git clone git://github.com/alecthomas/devtodo2.git
+bat README.rst 
+..
+cd devtodo2/
+make
+make install 
+sudo make install 
+cd /usr/local/
+ll
+la
+ls *
+cd bin
+h
+t -A
+bi
+cd plugins/
+cd available/
+l
+vim todo.plugin.bash 
+bash-it disable plugin todo
+bash-it enable plugin todo 

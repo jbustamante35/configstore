@@ -7,6 +7,17 @@ export BASH_IT="/home/jbustamante/.bash_it"
 # location /.bash_it/themes/
 export BASH_IT_THEME='roderik'
 
+#plugins=(
+#    alias-completion
+#    history
+#    extract
+#    fasd
+#    explain
+#    edit-mode-vi
+#    less-pretty-cat
+#    battery
+#)
+
 # (Advanced): Change this to the name of your remote repo if you
 # cloned bash-it with a remote other than origin such as `bash-it`.
 # export BASH_IT_REMOTE='bash-it'
@@ -55,3 +66,13 @@ export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
 source "$BASH_IT"/bash_it.sh
 source ~/.scripts/shortcuts.sh
 source ~/.shortcuts
+
+# fasd configuration
+fasd_cache="$HOME/.fasd-init-bash"
+if [ "$(command -v fasd)" -nt "$fasd_cache" -o ! -s "$fasd_cache" ]; then
+    fasd --init posix-alias bash-hook bash-ccomp bash-ccomp-install >| "$fasd_cache"
+fi
+
+source "$fasd_cache"
+unset fasd_cache
+
