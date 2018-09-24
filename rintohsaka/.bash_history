@@ -2442,3 +2442,102 @@ h
 bb
 vim syncconfigs.sh 
 exit
+cd hypoquantyl/
+cdes
+cd sphinctolyzer/
+cd themes/
+pcupdate 
+cfr
+ls /*
+an sudo
+man bat
+vim .bashrc
+fasd
+z
+z EdgarSpalding
+vv
+bi
+cd plugins/
+cbf
+htop
+cbr
+bat .todo 
+todo --help
+locate todo
+sudo updatedb
+locate todo.sh
+which todo2
+sudo mv /usr/bin/todo /usr/local/bin/
+cd /usr/local/
+cd bin
+which devtodo
+sudo mv /usr/bin/devtodo /usr/local/bin/
+which todo
+sbc
+t -A
+l
+cd Dropbox/ComputerProgramming/configstore/
+syncconfigs.sh 
+h
+ll
+cleanpc 
+exit
+cd image_analysis/
+cd ../kinematics/
+bi
+cd themes/
+cd ../kinematics/
+pwd
+cd hypoquantyl/
+bi
+cd themes/
+cd hypoquantyl/
+bi
+cd themes/
+cd hypoquantyl/
+cd hypoquantyl/
+bi
+cd themes/
+pcupdate 
+cfr
+cbr
+cd .GlobalProtect/
+ls
+man sudo
+ls /*
+cdes
+cd sphinctolyzer/
+D
+extract todo.txt_cli-2.11.0.tar.gz 
+cd todo.txt_cli-2.11.0/
+bat todo_completion 
+cat todo_completion 
+./todo.sh 
+bat todo.sh 
+bat todo.cfg 
+less todo.cfg 
+..
+app search todo
+app install devtodo
+man todo
+RM todo.txt_cli-2.11.0*
+h
+todo --add
+ll
+cat .todo 
+todo --help
+bat .todo 
+l
+la
+todo
+sbc
+t
+t -s
+exit
+t
+which t
+t --help
+l
+exit
+l
+exit
