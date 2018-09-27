@@ -2541,3 +2541,1765 @@ l
 exit
 l
 exit
+cd .GlobalProtect/
+ls
+man sudo
+ls /*
+D
+extract todo.txt_cli-2.11.0.tar.gz 
+cd todo.txt_cli-2.11.0/
+bat todo_completion 
+cat todo_completion 
+./todo.sh 
+bat todo.sh 
+bat todo.cfg 
+less todo.cfg 
+app search todo
+app install devtodo
+man todo
+RM todo.txt_cli-2.11.0*
+todo --add
+cat .todo 
+todo --help
+bat .todo 
+todo
+sbc
+t -s
+exit
+which t
+t --help
+exit
+exit
+cdes
+cd ~/Dropbox/EdgarSpalding/Software/carrotsweeper/scripts/
+bat dependencies 
+locate showmyPCA.m
+locate tdate.m
+locate sweep2.m
+h
+cbr
+cba
+dr
+cd EdgarSpalding/
+cd Software/
+git clone https://github.com/jbustamante35/phytomorph
+cd phytomorph/
+la
+git remote show origin
+git fetch
+git status
+git branch -a
+git branch -r
+htop
+..
+cd sphinctolyzer/
+l
+ll
+t
+apt search plank
+app install plank libplank-common
+sbc
+vim todo.plugin.bash 
+bash-it disable plugin todo
+bash-it enable plugin todo 
+less osx.plugin.bash 
+lless osx.plugin.bash 
+cat todo.plugin.bash 
+ccat todo.plugin.bash 
+app search todo
+app install gnome-todo gnome-todo-common libgnome-todo
+gnome-todo 
+man gnome-todo
+gnome-todo --help
+gnome-todo --help-all
+bat todo.plugin.bash 
+bash-it enable plugin todo 
+man gnome-todo
+gnome-todo --help
+gnome-todo --help-all
+locate todo.sh
+bash-it enable plugin todo 
+bat todo.plugin.bash 
+sbc
+bash-it enable plugin todo 
+t -a Configure all these cool updates on WinryRockbell
+todo
+t -s
+g
+gg
+cd go/bin/
+cd src/
+cd apps/
+go get gopkg.in/alecthomas/kingpin.v2
+git clone git://github.com/alecthomas/devtodo2.git
+bat README.rst 
+cd devtodo2/
+make
+make install 
+sudo make install 
+cd /usr/local/
+cd bin
+t -A
+bi
+cd plugins/
+cd available/
+vim todo.plugin.bash 
+bash-it disable plugin todo
+bash-it enable plugin todo 
+cd go/bin/
+cd src/
+cd apps/
+go get gopkg.in/alecthomas/kingpin.v2
+git clone git://github.com/alecthomas/devtodo2.git
+bat README.rst 
+cd devtodo2/
+make
+make install 
+sudo make install 
+cd /usr/local/
+cd bin
+t -A
+vim todo.plugin.bash 
+bash-it disable plugin todo
+bash-it enable plugin todo 
+bi
+cd available/
+zi
+cd plugins/
+bat rsync/rsync.plugin.zsh 
+ccat rsync/rsync.plugin.zsh 
+bb
+cd ~/Dropbox/ComputerProgramming/configstore/rintohsaka/
+rsync  -avzu --delete --progress -h /home/jbustamante/.bash_aliases .
+cd -
+syncconfigs.sh 
+bat .zsh*
+bat .bash_*
+bat .bashrc
+export TERM=xterm
+exit
+cd bin
+t -A
+bi
+cd plugins/
+cd available/
+vim todo.plugin.bash 
+bash-it disable plugin todo
+bash-it enable plugin todo 
+vim syncconfigs.zsh 
+term
+export TERM=xterm
+mv syncconfigs.zsh syncconfigs.sh 
+sudo chmod +x syncconfigs.sh 
+dr
+cd ComputerProgramming/configstore/
+mv rin_180923/ rintohsaka
+syncconfigs.sh 
+gvim ~/bin/syncconfigs.sh 
+vim ~/bin/syncconfigs.sh 
+bb
+vim syncconfigs.sh 
+exit
+cdes
+cd themes/
+pcupdate 
+cfr
+ls /*
+an sudo
+man bat
+vim .bashrc
+fasd
+z
+z EdgarSpalding
+vv
+bi
+cd plugins/
+cbf
+htop
+cbr
+bat .todo 
+todo --help
+locate todo
+locate todo.sh
+which todo2
+sudo mv /usr/bin/todo /usr/local/bin/
+cd /usr/local/
+cd bin
+which devtodo
+sudo mv /usr/bin/devtodo /usr/local/bin/
+which todo
+sbc
+t -A
+cd Dropbox/ComputerProgramming/configstore/
+syncconfigs.sh 
+cleanpc 
+exit
+cd image_analysis/
+cd ../kinematics/
+bi
+cd themes/
+cd ../kinematics/
+pwd
+bi
+cd themes/
+bi
+cd themes/
+bi
+cd themes/
+pcupdate 
+cfr
+cbr
+cd .GlobalProtect/
+man sudo
+ls /*
+cdes
+D
+extract todo.txt_cli-2.11.0.tar.gz 
+cd todo.txt_cli-2.11.0/
+bat todo_completion 
+cat todo_completion 
+./todo.sh 
+bat todo.sh 
+bat todo.cfg 
+less todo.cfg 
+app search todo
+app install devtodo
+man todo
+RM todo.txt_cli-2.11.0*
+todo --add
+cat .todo 
+todo --help
+bat .todo 
+todo
+sbc
+t -s
+exit
+which t
+t --help
+exit
+exit
+cd Documents
+cd MATLAB/
+mv ~/DocumentsMATLAB/Add-Ons/ .
+rmdir DocumentsMATLAB/
+la
+ls
+cd Documents/
+man wal
+wal --help
+cd pywal/
+locate wal
+locate pywal
+locate -w pywal
+cd Dropbox/
+cd Screenshots/
+cd EdgarSpalding/
+cd tmp_data/
+mv tmp_data/ Data/
+cd Data/
+mv tmp_data/ jin_yang/
+cd jin_yang/
+cd tetra_tmp/
+cd guosheng_wu/
+cd germination_rates/
+cd manual/
+cd ashley_henry/
+cd rootkinematics/
+cd Col-0_1/
+cd Software/
+ncdu
+cd misc/
+mv HYPOTrace/ hypotrace
+mv KineRoot/ kineroot
+mv HYPOTrace-PC/ hypotrace
+cd sample_image_series/
+cd hypotrace/
+cd kineroot/
+cd Example/ example
+mv Example/ example
+mv Program/ program
+mv Doc/ doc
+cd program/
+bat kineroot.m 
+bat smoothcoeff.m 
+bat correlation.m 
+bat contourplot.m 
+cd doc/
+mv KineRoot\ User\ Guide.pdf KineRoot_UserGuide.pdf
+bat LICENSE.txt 
+okular KineRoot_UserGuide.pdf 
+okular RootTrace_UserGuide.pdf 
+cd cad
+cd bak_HQ/
+gst
+git status 
+ls s*
+rm classes_bak.zip 
+mv 180317_QD2_bak/ ../bak_QD
+mkdir backups
+mv bak* backups/
+cp -r sphinctolyzer/ backups/bak_SP
+cd backups/
+mv bak_HQ/ hq
+mv bak_QD/ qd
+mv bak_SP/ sp
+cp -r hq 180909
+cd hq
+RM hq
+mkdir hq
+mv 180909/ hq
+mv qd 180920
+mv sp 180924
+mkdir qd sp
+mv 180920/ qd
+mv 180924/ sp
+ls *
+cd segnet/
+cd quantdracala/
+cd sphinctolyzer/
+ssh2sub 
+vim .gitignore
+git status
+cd sampledata/
+cd images/
+git add -A
+git commit -m "Fixed plotting tools"
+git push origin master
+cd plots
+t --add Check out Ford Foundation Fellowship application
+t --add Do 1 module of SafetyServe traffic school
+t --add Get bananas
+t --add Get peach cups
+t
+man irb
+cd hypoquantyl/
+cd soulsearch/
+.. | l
+l
+cd phytomorph/
+git config credential.helper store
+..
+ll
+vim .gitconfig 
+h
+apt search conky
+app install conky conky-all
+conky --help
+conky
+plank
+sudo plank
+plank --help
+plank --help-all
+man plank
+i3
+pt search i3
+apt search i3
+app install i3 i3-wm
+Efficient window size manipulation
+sudo updatedb
+which i3
+echo $WINDOW
+env
+env
+h
+cd .con
+cd .config/
+l
+zsh
+apt search i3
+app install i3 i3-wm
+Efficient window size manipulation
+sudo updatedb
+which i3
+echo $WINDOW
+env
+gnome-terminal --help
+vim .config/i3/config 
+app search glances
+app install glances
+glances 
+app install xbacklight
+xbacklight 
+xbacklight --help
+xbacklight -get
+xbacklight -dec 20
+man xbacklight 
+echo $DISPLAY 
+xbacklight -d 0 -20
+xbacklight --display :0 -dec 20
+xbacklight -display :0 -dec 20
+xbacklight -set 100
+app search xorg-xbacklight
+locate xorg.conf
+cd /usr/share/X11/
+cd /etc/X11/
+cat default-display-manager 
+xrandr --verbose
+vim xorg.conf
+ll
+app search alsamixer
+app install alsamixergui gnome-alsamixer
+l
+h
+alsamixergui 
+man alsamixer
+zsh
+cd /usr/share/X11/
+cd /etc/X11/
+cat default-display-manager 
+xrandr --verbose
+vim xorg.conf
+ll
+app search alsamixer
+app install alsamixergui gnome-alsamixer
+alsamixergui 
+man alsamixer
+zsh
+LL
+L
+H
+sudo sensors-detect 
+yes | sudo sensors-detect 
+sudo updatedn
+sudo updatedb
+cd .scripts/
+bat shortcuts.zsh 
+cd .config/qutebrowser/
+bat config.py 
+bat shortcuts.py 
+cd ranger/
+bat rc.conf 
+bat shortcuts.conf 
+bat bookmarks 
+bat tagged 
+..
+cd i3/
+bat config 
+l
+h
+htop
+h
+plank
+apt search plank
+conky
+man conky
+shutdown -r
+exit
+exit
+exit
+exit
+cd ranger/
+bat rc.conf 
+bat shortcuts.conf 
+bat bookmarks 
+bat tagged 
+..
+cd i3/
+bat config 
+l
+htop
+plank
+apt search plank
+conky
+man conky
+shutdown -r
+exit
+vim startup.sh
+sudo chmod +x startup.sh 
+ll
+h
+bb
+man gnome-terminal
+gnome-terminal --profile="Wolfen" --geometry 960x960
+gnome-terminal --profile="Wolfen" --geometry 540x504
+gnome-terminal --profile="Wolfen" --geometry=540x504
+gnome-terminal --profile="Wolfen" --geometry=100x50x960x960
+gnome-terminal --profile="Wolfen" --geometry=150x80x960x960
+gnome-terminal --profile="Wolfen" --geometry=48x48-540x960
+gnome-terminal --profile="Wolfen" --geometry=150x40x540x960
+gnome-terminal --profile="Wolfen" --geometry=48x48-0+0
+gnome-terminal --profile="Wolfen" --geometry=48x50-0+0
+gnome-terminal --profile="Wolfen" --geometry=148x50-0+0
+gnome-terminal --profile="Wolfen" --geometry=148x50+0+0
+gnome-terminal --profile="Wolfen" --geometry=150x80+0+0
+gnome-terminal --profile="Wolfen" --geometry=150x90+0+0
+gnome-terminal --profile="Wolfen" --geometry=120x90+0+0
+gnome-terminal --profile="Wolfen" --geometry=100x95+0+0
+gnome-terminal --profile="Landmaster" --geometry=80x95+0+0
+gnome-terminal --profile="Landmaster" --geometry=95x100+0+0
+gnome-terminal --profile="Landmaster" --geometry=100x105+0+0
+gnome-terminal --profile="Landmaster" --geometry=105x105+0+0
+gnome-terminal --profile="Landmaster" --geometry=105x105+0-0
+gnome-terminal --profile="Landmaster" --geometry=105x110+0-0
+gnome-terminal --profile="Landmaster" --geometry=110x110+0-0
+gnome-terminal --profile="Landmaster" --geometry=120x40+0-0
+gnome-terminal --profile="Arwing" --geometry=120x25+0+0
+gnome-terminal --profile="Arwing" --geometry=120x28+0+0
+gnome-terminal --profile="Landmaster" --geometry=120x28+0-0
+gnome-terminal --profile="Arwing" --geometry=120x29+0+0
+gnome-terminal --profile="Landmaster" --geometry=120x30+0-0
+vim startup.sh 
+gnome-terminal --profile="Arwing" --geometry=120x30+0+0
+gnome-terminal --profile="Landmaster" --geometry=120x29+0-0
+gnome-terminal --profile="Wolfen" --geometry=120x60+60+0
+gnome-terminal --profile="Wolfen" --geometry=120x60+60+60
+gnome-terminal --profile="Wolfen" --geometry=120x60+120+60
+gnome-terminal --profile="Wolfen" --geometry=120x60+120+120
+gnome-terminal --profile="Wolfen" --geometry=120x60+200-0
+gnome-terminal --profile="Wolfen" --geometry=120x60+300-0
+gnome-terminal --profile="Wolfen" --geometry=120x60+1080-0
+gnome-terminal --profile="Wolfen" --geometry=120x65+1080-0
+gnome-terminal --profile="Wolfen" --geometry=120x65+1080+0
+gnome-terminal --profile="Wolfen" --geometry=120x85+1080-0
+gnome-terminal --profile="Wolfen" --geometry=120x85+1080+0
+gnome-terminal --profile="Wolfen" --geometry=150x80+1080+0
+gnome-terminal --profile="Arwing" --geometry=150x60+0+0
+gnome-terminal --profile="Arwing" --geometry=140x50+0+0
+~                                                                                                                                                     
+gnome-terminal --profile="Arwing" --geometry=135x40+0+0
+gnome-terminal --profile="Landmaster" --geometry=135x40+0-0
+gnome-terminal --profile="Arwing" --geometry=136x35+0+0
+gnome-terminal --profile="Landmaster" --geometry=137x36+0-0
+gnome-terminal --profile="Arwing" --geometry=137x34+0+0
+gnome-terminal --profile="Arwing" --geometry=137x33+0+0
+gnome-terminal --profile="Landmaster" --geometry=137x34+0-0
+gnome-terminal --profile="Wolfen" --geometry=136x80+1080+0
+gnome-terminal --profile="Wolfen" --geometry=137x80+1080+0
+man google-chrome
+startup.sh 
+zsh
+~                                                                                                                                                     
+gnome-terminal --profile="Arwing" --geometry=135x40+0+0
+gnome-terminal --profile="Landmaster" --geometry=135x40+0-0
+gnome-terminal --profile="Arwing" --geometry=136x35+0+0
+gnome-terminal --profile="Landmaster" --geometry=137x36+0-0
+gnome-terminal --profile="Arwing" --geometry=137x34+0+0
+gnome-terminal --profile="Arwing" --geometry=137x33+0+0
+gnome-terminal --profile="Landmaster" --geometry=137x34+0-0
+gnome-terminal --profile="Wolfen" --geometry=136x80+1080+0
+gnome-terminal --profile="Wolfen" --geometry=137x80+1080+0
+man google-chrome
+startup.sh 
+zsh
+d
+h
+cd Documents/LukeSmithStuff/voidrice/
+cd .scripts/
+./tutorialvids 
+./tutorialvids i3
+echo $SHELL
+bash tutorialvids 
+app search youtube
+app search youtube-dl
+ll
+vim bottomleft 
+./bottomleft 
+bat speedvid.sh 
+l
+d
+vim .bash_aliases 
+bash-it show plugins 
+bash-it disable plugin history explain
+bash-it show plugins 
+bash-it disable plugin explain
+ll
+bash-it show plugins 
+bash-it enable git
+bash-it enable plugin git
+app search youtube-dl
+vim bottomleft 
+./bottomleft 
+bat speedvid.sh 
+d
+vim .bash_aliases 
+bash-it disable plugin history explain
+bash-it disable plugin explain
+bash-it enable git
+bash-it enable plugin git
+bash-it show plugins 
+h
+cd .config/i3
+xrandr --query 
+arandr 
+xrandr --output eDP1 --auto --output HDMI1 --auto --right-of eDP1
+cp config config.bak
+head -30 config.bak
+bat config
+mv config.bak.luke config
+i3 --help
+i3 -c config
+ll
+l
+vim config
+l
+vim bottomleft 
+./bottomleft 
+bat speedvid.sh 
+d
+vim .bash_aliases 
+bash-it show plugins 
+bash-it disable plugin history explain
+bash-it show plugins 
+bash-it disable plugin explain
+bash-it show plugins 
+bash-it enable git
+bash-it enable plugin git
+app search youtube-dl
+vim bottomleft 
+./bottomleft 
+bat speedvid.sh 
+d
+vim .bash_aliases 
+bash-it disable plugin history explain
+bash-it disable plugin explain
+bash-it enable git
+bash-it enable plugin git
+bash-it show plugins 
+xrandr --query 
+arandr 
+xrandr --output eDP1 --auto --output HDMI1 --auto --right-of eDP1
+cp config config.bak
+head -30 config.bak
+bat config
+mv config.bak.luke config
+i3 --help
+i3 -c config
+p
+P
+pp
+cd Wallpapers/
+ranger
+cd Documents/LukeSmithStuff/voidrice/.scripts/
+vim shortcuts.sh 
+cp shortcuts.sh ~/.scripts/shortcuts.sh 
+~/.scripts/shortcuts.sh 
+bat ~/.shortcuts 
+bat ~/.config/ranger/shortcuts.conf 
+cd -
+cd .scripts/
+..
+cd .config/
+cd ranger/
+bat commands.py 
+vim commands_full.py 
+bat luke_ranger_readme.md 
+vim scope.sh 
+vim rifle.conf 
+vim rc.conf 
+sbc
+st
+app search compton
+app install compton compton-conf
+compton --help
+compton -cCGfF -b -i 0.75 --vsync opengl
+compton -cCGfF -b -i 0.85 --vsync opengl-swc
+compton -cCGfF -b -i 0.85 --vsync opengl
+compton -cCGfF -b -i 0.65 --vsync opengl
+compton -cCGfF -b -i 0.55 --vsync opengl
+vim .config/compton.conf 
+compton -cCGfF -b -i 0.55 
+compton -cCGfF -b -i 0.70
+compton -cCGfF -b -i 0.99
+compton -cCGfF -b -i 0.55
+compton -cCGfF -b -i 0.75
+h
+locate .XResources
+vim .XResources
+vim .XResources 
+rm .XResources 
+cd .config/i3
+l
+vim config
+ll
+cfi
+h
+cd .config/i3
+l
+cp config config.luke
+mv config.bak config
+vim config
+mv config.bak config
+vim config
+compton
+l
+h
+history 
+bb
+vim setupi3.sh
+sudo chmod +x setupi3.sh 
+setupi3.sh 
+vim setupi3.sh 
+vim config
+compton
+history 
+bb
+vim setupi3.sh
+sudo chmod +x setupi3.sh 
+setupi3.sh 
+vim setupi3.sh 
+Hll
+h
+app search zathura
+ranger
+xbacklight -dec 15
+xbacklight -inc 15
+xbacklight -set 15
+app search toggletouchpad
+app search synclient
+man synclient
+man toggletouchpad
+app search xserver-xorg-input-synaptics
+app install xserver-xorg-input-synaptics 
+synclient --help
+pulseaudio --help
+app search lmc
+apt search lmc
+lmc --help
+pactl --help
+xmodmap -pke
+xev
+man xev
+man xinput
+xinput list
+xinput list-props 14
+cd /usr/local/bin/
+mv toggletouchpad toggletouchpad.sh
+sudo mv toggletouchpad toggletouchpad.sh
+ll
+vim toggletouchpad.sh 
+l
+./toggletouchpad.sh 
+sudo ./toggletouchpad.sh 
+synaptic --help
+mv config.bak config
+mv config.bak config
+compton
+history 
+bb
+vim setupi3.sh
+sudo chmod +x setupi3.sh 
+setupi3.sh 
+vim setupi3.sh 
+cd .config/i3blocks/
+vim config 
+..
+cd i3
+cd bin
+cd /usr/local/bin
+vim toggletouchpad
+svim toggletouchpad
+sudo chomd +x toggletouchpad 
+sudo chmod +x toggletouchpad 
+vim toggletouchpad 
+svim toggletouchpad 
+h
+cd .config/i3
+l
+vim config
+la
+ll
+vim config.luke 
+app search scratchpad
+vim config 
+cd i3
+cd bin
+cd /usr/local/bin
+vim toggletouchpad
+svim toggletouchpad
+sudo chomd +x toggletouchpad 
+sudo chmod +x toggletouchpad 
+vim toggletouchpad 
+svim toggletouchpad 
+cd .config/i3
+vim config
+la
+ll
+vim config.luke 
+app search scratchpad
+pp
+cd Wallpapers/
+d
+cd Documents/
+cd pywal/
+..
+bat README.md 
+sudo pip3 install pywall
+sudo apt install pip3
+sudo pip install pip3
+python --version
+python3 --version
+sudo apt install pip
+pping google.com
+app install pip3
+app install pip
+app install python3-pip python-pip
+pip3 install pywal
+pip3 update
+sudo pip3 upgrade
+man pip3
+pip3 list
+h
+sudo pip3 install setuptools
+sudo pip3 install pywal
+cd .config/
+l
+wal -i wall.png 
+h
+bb
+ll
+vim setupi3.sh 
+setupi3.sh 
+locate i3bar
+cd /usr/bin/
+l
+locate i3blocks
+which i3blocks
+man i3blocks
+locate client
+which client
+client --help
+app search client
+h
+ll
+l
+sudo pip3 upgrade
+man pip3
+pip3 list
+sudo pip3 install setuptools
+sudo pip3 install pywal
+cd .config/
+wal -i wall.png 
+cd .scripts/
+ll
+cd i3/
+vim config
+i3-config-wizard 
+h
+locate i3status
+cd /etc/t
+cd /etc/
+bat i3blocks.conf 
+crontab -l
+i3bar 
+man i3bar
+cd ~/.config/i3
+l
+vim config.luke 
+l
+h
+cfi
+ll
+cd .config/i3
+l
+vim config.luke 
+vim config
+cfi
+cd .config/i3
+vim config.luke 
+pcupdate 
+pip3 list
+sudo pip3 install setuptools
+sudo pip3 install pywal
+cd .config/
+wal -i wall.png 
+cd .scripts/
+cd i3/
+vim config
+i3-config-wizard 
+locate i3status
+cd /etc/t
+cd /etc/
+bat i3blocks.conf 
+crontab -l
+i3bar 
+man i3bar
+cd ~/.config/i3
+cfi
+vim config
+cfi
+pcupdate 
+cd .config/i3
+vim config.luke 
+.
+cd evolution/
+cd sources/
+cd xplayer/
+bat state.ini 
+cd enchant/
+cd yelp/
+ll
+..
+cd sublime-text-3/
+ncdu
+h
+zi
+bi
+cd te
+cd test
+l
+ls s*
+ls *
+bash-it show completions 
+bash-it enable completion ssh pip pip3
+bash-it enable completion makefile go git defaults conda dirs
+bash-it show completions 
+bash-it enable completion todo git
+bash-it enable completion conda defaults
+app search argcomplete
+app install python-argcomplete python3-argcomplete
+bash-it enable completion conda
+bash-it show completions 
+bash-it enable completion defaults dirs git
+bash-it show completions 
+bash-it enable completion dirs git
+bash-it show completions 
+bash-it enable completion git
+bash-it show completions 
+bash-it enable completion go
+bash-it enable completion pip
+bash-it enable completion pip3
+bash-it show completions 
+go list 
+go list
+l
+ip3 app install python-pip3 python-pip
+app install python-pip3 python-pip
+app install python3-pip python-pip
+which pip
+which pip3
+bash-it show aliases 
+bash-it enable alias vim
+bash-it enable alias apt
+bash-it enable alias fuck
+bash-it enable alias vagrant
+bash-it enable alias git
+bash-it enable alias systemd 
+bash-it enable alias vim
+bash-it enable alias apt
+bash-it enable alias fuck
+bash-it enable alias vagrant
+bash-it enable alias git
+bash-it enable alias systemd 
+gg --help
+dr
+cdse
+cdes
+cd sphinctolyzer/
+gg
+gll --help
+gl
+gll
+bi
+cd aliases/
+cd available/
+bat git
+bat git.aliases.bash 
+l
+bat todo.txt-cli.aliases.bash 
+tls
+bash-it show aliases 
+bash-it enable alias todo.txt-cli 
+vim config.luke 
+vim config
+cfi
+cd .config/i3
+vim config.luke 
+pcupdate 
+pip3 list
+sudo pip3 install setuptools
+sudo pip3 install pywal
+wal -i wall.png 
+cd .scripts/
+cd i3/
+vim config
+i3-config-wizard 
+locate i3status
+cd /etc/t
+cd /etc/
+bat i3blocks.conf 
+crontab -l
+i3bar 
+man i3bar
+cd ~/.config/i3
+cfi
+vim config
+cfi
+pcupdate 
+cd .config/i3
+vim config.luke 
+.
+cd evolution/
+cd sources/
+cd xplayer/
+bat state.ini 
+cd enchant/
+cd yelp/
+cd sublime-text-3/
+ncdu
+bi
+cd te
+cd test
+ls s*
+bash-it show completions 
+bash-it enable completion ssh pip pip3
+bash-it enable completion makefile go git defaults conda dirs
+bash-it show completions 
+bash-it enable completion todo git
+bash-it enable completion conda defaults
+app search argcomplete
+app install python-argcomplete python3-argcomplete
+bash-it enable completion conda
+bash-it show completions 
+bash-it enable completion defaults dirs git
+bash-it show completions 
+bash-it enable completion dirs git
+bash-it show completions 
+bash-it enable completion git
+bash-it show completions 
+bash-it enable completion go
+bash-it enable completion pip
+bash-it enable completion pip3
+bash-it show completions 
+go list 
+go list
+ip3 app install python-pip3 python-pip
+app install python-pip3 python-pip
+app install python3-pip python-pip
+which pip
+which pip3
+bash-it show aliases 
+bash-it enable alias vim
+bash-it enable alias apt
+bash-it enable alias fuck
+bash-it enable alias vagrant
+bash-it enable alias git
+bash-it enable alias systemd 
+bash-it enable alias vim
+bash-it enable alias apt
+bash-it enable alias fuck
+bash-it enable alias vagrant
+bash-it enable alias git
+bash-it enable alias systemd 
+gg --help
+dr
+cdse
+cdes
+cd sphinctolyzer/
+gg
+gll --help
+gl
+gll
+bi
+cd aliases/
+cd available/
+bat git
+bat git.aliases.bash 
+bash-it show aliases 
+bash-it enable alias todo.txt-cli 
+tls
+bat todo.txt-cli.aliases.bash 
+echo $TODO
+which todo
+which todo2
+which t
+bat systemd.aliases.bash 
+sc --help
+bat atom.aliases.bash 
+bat ag
+bat ag.aliases.bash 
+app search ag
+app search silversearcher
+appinstall silversearcher-ag
+app install silversearcher-ag
+man ack
+ag vim .
+ag vim
+man ag
+ag --print-long-lines vim
+ag --print-long-lines vim -c
+ag --print-long-lines vim -C
+ag --help
+ag -C jbustamante35
+ag -c jbustamante35
+cd Documents/
+ag -c jbustamante
+ag -c jb
+ag -C jb
+cfv
+ruby --help
+ruby --version
+cd .config
+cd ranger/
+ls -asho
+ls -hos
+cd Dropbox/
+d
+type d
+type dd
+type D
+type c
+type C
+type do
+type doc
+cfc
+cff
+sbc
+typc dc
+dc
+type dc
+cd LukeSmithStuff/voidrice/
+cd .config/
+cd rofi/
+cd i3blocks/
+bat config 
+dotify list
+dotify edit .java
+dotify help
+dotify github jbustamante35/dots-rintohsaka
+cd .dotify/
+dotify github jbustamante35/dots
+ag .git
+ag -r .git
+ag config
+ag config .*
+ag -G \.git$ .*
+ag  \.git$ .*
+ag  \.git$ .* -C
+ag  \.git$ .* -c
+cd .gvfs
+cd .dbus
+cd .julia
+cd config/
+vim startup.jl 
+cd .conda
+ls *
+cd pkgs/
+type k
+bat *
+ls
+vim .dotr
+vim .dotrc
+git init
+la
+git status
+vim .gitignore
+git rm --cached .bash/themes/agnoster-bash/
+git rm --cached .bash/themes/agnoster-bash
+git help submodule
+vim .gitignore 
+git submodule add https://github.com/speedenator/agnoster-bash .bash/themes/agnoster-bash/
+git submodule add https://github.com/Bash-it/bash-it .bash_it
+git add -A
+ll
+h
+zi
+cfz
+..
+cd plugins/
+l
+sudo pip3 install pywal
+cd .config/
+wal -i wall.png 
+cd .scripts/
+cd i3/
+vim config
+i3-config-wizard 
+locate i3status
+cd /etc/t
+cd /etc/
+bat i3blocks.conf 
+crontab -l
+i3bar 
+man i3bar
+cd ~/.config/i3
+cfi
+vim config
+cfi
+pcupdate 
+cd .config/i3
+vim config.luke 
+.
+cd evolution/
+cd sources/
+cd xplayer/
+bat state.ini 
+cd enchant/
+cd yelp/
+cd sublime-text-3/
+ncdu
+cd te
+cd test
+ls s*
+ls *
+bash-it show completions 
+bash-it enable completion ssh pip pip3
+bash-it enable completion makefile go git defaults conda dirs
+bash-it show completions 
+bash-it enable completion todo git
+bash-it enable completion conda defaults
+app search argcomplete
+app install python-argcomplete python3-argcomplete
+bash-it enable completion conda
+bash-it show completions 
+bash-it enable completion defaults dirs git
+bash-it show completions 
+bash-it enable completion dirs git
+bash-it show completions 
+bash-it enable completion git
+bash-it show completions 
+bash-it enable completion go
+bash-it enable completion pip
+bash-it enable completion pip3
+bash-it show completions 
+go list 
+go list
+ip3 app install python-pip3 python-pip
+app install python-pip3 python-pip
+app install python3-pip python-pip
+which pip
+which pip3
+bash-it show aliases 
+bash-it enable alias vim
+bash-it enable alias apt
+bash-it enable alias fuck
+bash-it enable alias vagrant
+bash-it enable alias git
+bash-it enable alias systemd 
+bash-it enable alias vim
+bash-it enable alias apt
+bash-it enable alias fuck
+bash-it enable alias vagrant
+bash-it enable alias git
+bash-it enable alias systemd 
+gg --help
+dr
+cdse
+cdes
+cd sphinctolyzer/
+gg
+gll --help
+gl
+gll
+cd aliases/
+cd available/
+bat git
+bat git.aliases.bash 
+bat todo.txt-cli.aliases.bash 
+tls
+bash-it show aliases 
+bash-it enable alias todo.txt-cli 
+vim .vimrc.bak 
+sbc
+htop
+zi
+bi
+cd -
+h
+bat .face
+bat .conkyrc 
+bat .dmrc 
+bat .dotrc 
+cd .dropbox-dist/
+cd dropbox-lnx.x86_64-59.3.89/
+bat .exclude.txt.swp 
+rm .exclude.txt.swp 
+bat .fasd
+bat .fasd-init-bash 
+bat .fehbg 
+cd .gconf/
+cd apps/
+cd gnome-alsamixer/
+h | cd .dotify
+cd .java
+cd fonts/
+cd 1.8.0_152/
+bat fcinfo-1-RinTohsaka-LinuxMint-19-en.properties 
+cd ../../..
+tree .java
+tree .julia
+ll .julia
+cd .dotify/
+tree .julia/
+ll .julia/
+ll .julia/*
+ncdu .julia/
+bat .lesshst 
+cd .linuxmint/
+tree .linuxmint/
+bat .linuxmint/mintwelcome/norun.flag 
+cd .local/
+ncdu .local/
+tree .local/
+cd .macromedia/
+tree .macromedia/
+tree .mozilla/
+bat .nwinkler_random_colors 
+tree .oracle_jre_usage/
+tree .pki/
+bat .sqltools-setup 
+tree .ssh/
+tree .subversion/
+cd .subversion/
+bat README.txt 
+bat config 
+bat servers 
+cd auth/
+cd ../..
+tree .synaptic/
+bat .sudo_as_admin_successful 
+cd .synaptic/
+bat options 
+bat synaptic.conf 
+tree .themes/
+cd .themes/
+tree .tldr/
+ncdu .tldr/
+ncdu .themes/
+bat .todo 
+tree .vim
+bat .viminfo 
+tree .vscode/
+ncdu .vscode/
+bat .wget-hsts 
+bat .xinputrc 
+bat .xscreensaver 
+bat .xsession-errors
+ll'
+ll
+bat .zcompdump
+bat .zcompdump-RinTohsaka-5.4.2
+bat .zcompdump-RinTohsaka-5.4.2.RinTohsaka.4891 
+tree .calcurse/
+cd .calcurse/
+bat conf 
+..
+bat .Bookmarks.SQLToolsStorage.json 
+tree .cinnamon/
+ncdu .cinnamon/
+tree .conda/
+tree .config/
+l
+bat dots2exclude.txt 
+bat addSubmodules.sh 
+la
+exit
+sudo chmod +x setupi3.sh 
+setupi3.sh 
+vim setupi3.sh 
+Hll
+app search zathura
+ranger
+xbacklight -dec 15
+xbacklight -inc 15
+xbacklight -set 15
+app search toggletouchpad
+app search synclient
+man synclient
+man toggletouchpad
+app search xserver-xorg-input-synaptics
+app install xserver-xorg-input-synaptics 
+synclient --help
+pulseaudio --help
+app search lmc
+apt search lmc
+lmc --help
+pactl --help
+xmodmap -pke
+xev
+man xev
+man xinput
+xinput list
+xinput list-props 14
+cd /usr/local/bin/
+mv toggletouchpad toggletouchpad.sh
+sudo mv toggletouchpad toggletouchpad.sh
+vim toggletouchpad.sh 
+./toggletouchpad.sh 
+sudo ./toggletouchpad.sh 
+synaptic --help
+mv config.bak config
+mv config.bak config
+compton
+history 
+bb
+vim setupi3.sh
+sudo chmod +x setupi3.sh 
+setupi3.sh 
+vim setupi3.sh 
+cd .config/i3blocks/
+vim config 
+cd i3
+cd bin
+cd /usr/local/bin
+vim toggletouchpad
+svim toggletouchpad
+sudo chomd +x toggletouchpad 
+sudo chmod +x toggletouchpad 
+vim toggletouchpad 
+svim toggletouchpad 
+cd .config/i3
+vim config
+vim config.luke 
+app search scratchpad
+vim config 
+cd i3
+cd bin
+cd /usr/local/bin
+vim toggletouchpad
+svim toggletouchpad
+sudo chomd +x toggletouchpad 
+sudo chmod +x toggletouchpad 
+vim toggletouchpad 
+svim toggletouchpad 
+cd .config/i3
+vim config
+vim config.luke 
+app search scratchpad
+pp
+cd Wallpapers/
+cd Documents/
+cd pywal/
+bat README.md 
+sudo pip3 install pywall
+sudo apt install pip3
+sudo pip install pip3
+python --version
+python3 --version
+sudo apt install pip
+pping google.com
+app install pip3
+app install pip
+app install python3-pip python-pip
+pip3 install pywal
+pip3 update
+sudo pip3 upgrade
+man pip3
+pip3 list
+sudo pip3 install setuptools
+sudo pip3 install pywal
+wal -i wall.png 
+bb
+vim setupi3.sh 
+setupi3.sh 
+locate i3bar
+cd /usr/bin/
+locate i3blocks
+which i3blocks
+man i3blocks
+locate client
+which client
+client --help
+app search client
+sudo pip3 upgrade
+man pip3
+pip3 list
+sudo pip3 install setuptools
+sudo pip3 install pywal
+wal -i wall.png 
+cd i3/
+vim config
+i3-config-wizard 
+locate i3status
+cd /etc/t
+cd /etc/
+bat i3blocks.conf 
+crontab -l
+i3bar 
+man i3bar
+cd ~/.config/i3
+vim config.luke 
+cfi
+cd .config/i3
+vim config.luke 
+vim config
+cfi
+cd .config/i3
+vim config.luke 
+pcupdate 
+d
+cd Documents/LukeSmithStuff/voidrice/
+cd .scripts/
+bat i3mpdupdate 
+bat i3mpd
+app search mpc
+app search mpd
+ccat submodules_manifest.txt 
+vim addSubmodules.sh 
+./addSubmodules.sh 
+gcam "First upload of RinTohsaka dotfiles"
+git commit -m "First upload of RinTohsaka dotfiles"
+git config -list
+git config --list
+git config --get remote.origin.url
+git remote get-url origin
+git log
+git remote add origin https://github.com/jbustamante35/dots-rintohsaka
+git remote -v
+git pull
+git pull origin master
+git fetch origin
+git push origin master -f
+vim README.md
+git commit -m "Added README.md and whatever config files updated within the past hour...I need to unlink a lot of these"
+cd .cache/
+ls *
+dotify unlink .cache
+dotify unlink .dbus
+dotify unlink .gvfs
+cat .gtkrc-xfce 
+cat .gtkrc-2.0 
+cd .adobe/
+cd Flash_Player/
+bat cert9.db 
+bat key4.db 
+cd AssetCache/
+cd 4EQQ2GW9/
+h
+git list
+vim exclude.txt
+mv exclude.txt dots2exclude.txt
+ls
+touch excludeDots.sh
+sudo chmod +x excludeDots.sh 
+l
+bat dots2exclude.txt 
+pwd
+vim excludeDots.sh 
+y
+vim dots2exclude.txt 
+ncdu
+dotify help
+history | ag gem
+sudo dotify save
+dotify save
+git commit -m "Removed many useless dotfiles from RinTohsaka"
+git push origin master 
+dotify unlink .zcompdump-RinTohsaka-5.4.2.RinTohsaka.4891 
+bat .dotify/dots2exclude.txt 
+dotify list
+ncdu .dotify/
+vim .dotify/dots2exclude.txt 
+cd .dotify/
+./excludeDots.sh 
+dotify setup
+cd .config/
+dotify unlink .config/google-chrome
+ll
+..
+la
+vim .gitignore 
+git status
+git add -A
+git commit -m "hopefulle .config/google-chrome and .config/Code get excluded?"
+git push origin master
+bat .gitignore 
+shutdown 
+exit
+./excludeDots.sh 
+dotify setup
+cd .config/
+dotify unlink .config/google-chrome
+ll
+vim .gitignore 
+git status
+git add -A
+git commit -m "hopefulle .config/google-chrome and .config/Code get excluded?"
+git push origin master
+bat .gitignore 
+shutdown 
+pp
+cd Downloads/
+..
+mvcd acsii
+vim triforce.txt
+bat triforce.txt 
+subl triforce2.txt
+subl triforce2.txt 
+subl .
+rm triforce3.txt 
+subl triforce3.txt
+cd
+h
+cd .config/i3
+vim config
+cfv
+la
+bat i3_guide.rmd 
+subl i3_guide.rmd 
+vim i3_guide.rmd 
+exit
+h
+bb
+htop
+cfv
+exit
+cd .config
+la
+cd i3
+l
+vim config.luke 
+echo $TERMINAL
+h
+source .profile 
+vim config
+cfv
+la
+bat i3_guide.rmd 
+subl i3_guide.rmd 
+vim i3_guide.rmd 
+exit
+htop
+cfv
+exit
+cd .config
+la
+cd i3
+echo $TERMINAL
+echo $TERM
+$TERM
+source .profile && $TERMINAL
+$BROWSER
+l
+echo $TERMINAL 
+source .profile 
+$TERMINAL
+a
+h
+cd
+cd .config/i3
+ls
+vim config.luke 
+bb
+setupi3.sh 
+$TERMINAL 
+setupi3.sh 
+source .profile 
+$TERMINAL
+echo $TERMINAL
+source .profile 
+$TERMINAL
+cd .config/i3
+vim config.luke 
+h
+vim .profile 
+htop
+$TERMINAL
+bb
+setupi3.sh 
+$TERMINAL 
+setupi3.sh 
+source .profile 
+echo $TERMINAL
+source .profile 
+cd .config/i3
+vim config.luke 
+h
+vim .profile 
+source .profile
+$TERMINAL
+cfv
+htop
+echo $TERM
+$TERM
+source .profile && $TERMINAL
+$BROWSER
+echo $TERMINAL 
+source .profile 
+$TERMINAL
+a
+bb
+setupi3.sh 
+$TERMINAL 
+setupi3.sh 
+source .profile 
+$TERMINAL
+echo $TERMINAL
+source .profile 
+$TERMINAL
+vim .profile 
+cd .config/i3
+vim config.luke 
+pactl set-sink-volume 0 + 10%
+pulseaudio --help
+pulseaudio --check
+pulseaudio -D
+man pulseaudio 
+pactl --sample
+pactl play-sample 
+man pactl
+alsactl --help
+alsactl init
+pulseaudio -v --log-target=stderr 
+pulseaudio 
+ls /etc/init.d/
+which pulseaudio 
+locate pulseaudio
+locate ini.d
+locate init.d
+locate init.d/pulseaudio
+locate -w pulseaudio
+sudo service pulseaudio restart
+locate pulseaudio.sercice
+locate pulseaudio.service
+sudo /usr/lib/systemd/user/*
+cd /usr/lib/systemd/user
+ll
+sudo pulseaudio restart
+sudo pulseaudio.service restart
+pwd
+sudo /usr/lib/systemd/user/pulseaudio.service restart
+cd
+hhelp
+history
+pactl list
+pactl help
+pactl --help
+pactl stat
+lspci
+pactl list cards short
+pactl list cards short | egrep -o bluez.*[[:space:]]]`
+pactl list cards short | egrep -o bluez.*[[:space:]]]
+pactl list cards short | egrep -o bluez.*[[:space:]]] | echo
+pactl list cards short | egrep -o bluez.* | echo
+pactl list cards short | egrep -o bluez.* 
+pactl list cards short 
+pactl list cards short | egrep -o bluez.*[[:space:]]
+echo @DEFAULT_SINK
+echo $DEFAULT_SINK
+BLUEZCARD=`pactl list cards short | egrep -o bluez.*[[:space:]]`
+l
+echo $BLUEZCARD
+pactl set-card-profile $BLUEZCARD hsp
+pactl set-card-profile $BLUEZCARD a2dp
+pactl info $BLUEZCARD
+d
+type d
+echo $SHELL
+h
+ls
+bash-it disable plugin fasd 
+cfv
+exit
+cfi
+cd .config/i3
+l
+vim config
+cd .config/i3blocks/
+h
+d
+cd Documents/LukeSmithStuff/voidrice/.config/i3blocks/
+l
+vim config 
+pactl info $BLUEZCARD
+echo $SHELL
+h
+ls
+bash-it disable plugin fasd 
+type d
+szc
+sbc
+~/.scripts/shortcuts.sh 
+source ~/.shortcuts 
+d
+cff
+dc
