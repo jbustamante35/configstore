@@ -1,4 +1,3 @@
-ll
 sudo vim lxc-usernet
 l
 lxc-create -t download -n archlinux
@@ -1998,3 +1997,4 @@ bat chsh
 cat chsh
 cat chpasswd 
 sudo chsh -s /bin/zsh jbustamante35 
+which lsof

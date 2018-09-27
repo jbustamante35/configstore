@@ -48,6 +48,8 @@ alias rm='rm -I'
 alias RM='sudo rm -Ird'
 
 # other aliases
+alias app='sudo aptitude '
+alias pping='prettyping '
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/Screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias term='export TERM=xterm'
 
