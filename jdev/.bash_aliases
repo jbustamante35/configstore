@@ -66,5 +66,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 export EDITOR='vim'
 #export PKG_CONFIG_PATH='/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig:/home/jbustamante/anaconda3/lib/pkgconfig'
 
-# alias to take a full-screen screenshot with shutter and save in Pictures/Screenshots
+# shortcuts for starting my terminals
+alias hal="gnome-terminal --profile='HAL9000'"
+alias marv="gnome-terminal --profile='Marvin the Paranoid Android'"
 
