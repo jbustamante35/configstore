@@ -53,6 +53,10 @@ alias pping='prettyping '
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/Screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias term='export TERM=xterm'
 
+# ssh aliases for UW Madison
+alias ssh2sub='ssh -C submit'
+alias sshx='ssh -C jdev'
+
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|ta
