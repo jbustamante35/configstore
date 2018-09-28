@@ -55,7 +55,7 @@ alias RM='sudo rm -Ird'
 # other aliases
 alias ranger='python ~/Misc/ranger/ranger.py'
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/Screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
-alias term='export TERM=xterm'
+alias term='export TERM=xterm-256color'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

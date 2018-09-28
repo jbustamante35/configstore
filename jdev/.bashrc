@@ -123,3 +123,5 @@ export SHORT_TERM_LINE=true
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
 source ~/.shortcuts
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
