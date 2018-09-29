@@ -1,8 +1,3 @@
-sudo vim lxc-usernet
-l
-lxc-create -t download -n archlinux
-l
-sudo rm lxc-usernet 
 l
 h
 cd .config/lxc/
@@ -1998,3 +1993,8 @@ cat chsh
 cat chpasswd 
 sudo chsh -s /bin/zsh jbustamante35 
 which lsof
+ssh2sub
+ssh -C sub
+ssh -C submit
+h
+tigervncconfig 
