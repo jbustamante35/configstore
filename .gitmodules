@@ -1,0 +1,45 @@
+[submodule "rintohsaka/dots/.bash/themes/agnoster-bash"]
+	path = rintohsaka/dots/.bash/themes/agnoster-bash
+	url = https://github.com/speedenator/agnoster-bash
+[submodule "rintohsaka/dots/.bash_it"]
+	path = rintohsaka/dots/.bash_it
+	url = https://github.com/Bash-it/bash-it
+[submodule "rintohsaka/dots/.oh-my-zsh"]
+	path = rintohsaka/dots/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh
+[submodule "rintohsaka/dots/.tldr/tldr"]
+	path = rintohsaka/dots/.tldr/tldr
+	url = https://github.com/tldr-pages/tldr
+[submodule "rintohsaka/dots/.vim/bundle/ack.vim"]
+	path = rintohsaka/dots/.vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "rintohsaka/dots/.vim/bundle/ag.vim"]
+	path = rintohsaka/dots/.vim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim
+[submodule "rintohsaka/dots/.vim/bundle/vim-joy"]
+	path = rintohsaka/dots/.vim/bundle/vim-joy
+	url = https://github.com/rking/vim-joy
+[submodule "rintohsaka/main/rintohsaka/main/.bash/themes/agnoster-bash"]
+	path = rintohsaka/main/rintohsaka/main/.bash/themes/agnoster-bash
+	url = https://github.com/speedenator/agnoster-bash
+[submodule "rintohsaka/main/rintohsaka/main/.bash_it"]
+	path = rintohsaka/main/rintohsaka/main/.bash_it
+	url = https://github.com/Bash-it/bash-it
+[submodule "rintohsaka/main/rintohsaka/main/.oh-my-zsh"]
+	path = rintohsaka/main/rintohsaka/main/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh
+[submodule "rintohsaka/main/rintohsaka/main/.vim/bundle/ack.vim"]
+	path = rintohsaka/main/rintohsaka/main/.vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "rintohsaka/main/rintohsaka/main/.vim/bundle/ag.vim"]
+	path = rintohsaka/main/rintohsaka/main/.vim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim
+[submodule "rintohsaka/main/rintohsaka/main/.vim/bundle/vim-joy"]
+	path = rintohsaka/main/rintohsaka/main/.vim/bundle/vim-joy
+	url = https://github.com/rking/vim-joy
+[submodule "rintohsaka/main/rintohsaka/main/.vim/bundle/vim-sensible"]
+	path = rintohsaka/main/rintohsaka/main/.vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule "rintohsaka/main/.tldr/tldr"]
+	path = rintohsaka/main/.tldr/tldr
+	url = https://github.com/tldr-pages/tldr
