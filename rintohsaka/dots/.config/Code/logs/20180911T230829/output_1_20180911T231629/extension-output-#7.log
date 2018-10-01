@@ -1,0 +1,56 @@
+[variant] Loaded new set of variants
+[kit] Found Kit: GCC for c89 7.3.0
+[kit] Found Kit: GCC for c99 7.3.0
+[kit] Found Kit: Clang 6.0.0
+[kit] Found Kit: GCC 7.3.0
+[kit] Found Kit: GCC 7.3.0
+[kit] Found Kit: GCC for x86_64-linux-gnu 7.3.0
+[kit] Found Kit: GCC for x86_64-linux-gnu 7.3.0
+[cms-client] Configuring using the "Unix Makefiles" CMake generator
+[cms-client] Configuring using the "Unix Makefiles" CMake generator
+[cmake] The C compiler identification is GNU 7.3.0
+[cmake] The CXX compiler identification is unknown
+[cmake] Check for working C compiler: /usr/bin/cc
+[cmake] Check for working C compiler: /usr/bin/cc -- works
+[cmake] Detecting C compiler ABI info
+[cmake] Detecting C compiler ABI info - done
+[cmake] Detecting C compile features
+[cmake] Detecting C compile features - done
+[cmake] CMake Error at CMakeLists.txt:2 (project):
+[cmake]   No CMAKE_CXX_COMPILER could be found.
+[cmake] 
+[cmake]   Tell CMake where to find the compiler by setting either the environment
+[cmake]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[cmake]   to the compiler, or to the compiler name if it is in the PATH.
+[cmake] 
+[cmake] 
+[cmake] Configuring incomplete, errors occurred!
+[cmake] See also "/home/jbustamante/Dropbox/ComputerProgramming/CodingFun/c++/apps/funstuff/classpractice/TestVSCode/build/CMakeFiles/CMakeOutput.log".
+[cmake] See also "/home/jbustamante/Dropbox/ComputerProgramming/CodingFun/c++/apps/funstuff/classpractice/TestVSCode/build/CMakeFiles/CMakeError.log".
+[cms-driver] Error during CMake configure: [cmake-server] Configuration failed.
+[cmake] The CXX compiler identification is unknown
+[cmake] CMake Error at CMakeLists.txt:2 (project):
+[cmake]   No CMAKE_CXX_COMPILER could be found.
+[cmake] 
+[cmake]   Tell CMake where to find the compiler by setting either the environment
+[cmake]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[cmake]   to the compiler, or to the compiler name if it is in the PATH.
+[cmake] 
+[cmake] 
+[cmake] Configuring incomplete, errors occurred!
+[cmake] See also "/home/jbustamante/Dropbox/ComputerProgramming/CodingFun/c++/apps/funstuff/classpractice/TestVSCode/build/CMakeFiles/CMakeOutput.log".
+[cmake] See also "/home/jbustamante/Dropbox/ComputerProgramming/CodingFun/c++/apps/funstuff/classpractice/TestVSCode/build/CMakeFiles/CMakeError.log".
+[cms-driver] Error during CMake configure: [cmake-server] Configuration failed.
+[cmake] The CXX compiler identification is unknown
+[cmake] CMake Error at CMakeLists.txt:2 (project):
+[cmake]   No CMAKE_CXX_COMPILER could be found.
+[cmake] 
+[cmake]   Tell CMake where to find the compiler by setting either the environment
+[cmake]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[cmake]   to the compiler, or to the compiler name if it is in the PATH.
+[cmake] 
+[cmake] 
+[cmake] Configuring incomplete, errors occurred!
+[cmake] See also "/home/jbustamante/Dropbox/ComputerProgramming/CodingFun/c++/apps/funstuff/classpractice/TestVSCode/build/CMakeFiles/CMakeOutput.log".
+[cmake] See also "/home/jbustamante/Dropbox/ComputerProgramming/CodingFun/c++/apps/funstuff/classpractice/TestVSCode/build/CMakeFiles/CMakeError.log".
+[cms-driver] Error during CMake configure: [cmake-server] Configuration failed.
