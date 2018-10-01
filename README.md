@@ -20,7 +20,7 @@ Any device can load either the '*main*' or '*dots*' config files of another devi
 
 For example, __Potato__ can load the profile __RinTohsaka__ via:
 ```
-bash loadProfile.sh main rintohsaka
+bash loadProfile.sh rintohsaka main 
 ```
 This will save a backup of the *bash*, *zsh*, and *vim* config files and copy the respective version from __RinTohsaka__ into __Potato__'s home directory. 
 To revert back to __Potato__'s configuration, use the **revertProfile.sh** script from this program's main directory. Simply run the following command: **[NOT YET FUNCTIONAL]**
