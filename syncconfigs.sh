@@ -1,9 +1,11 @@
 #!/bin/bash
+# synchronize all bash/zsh/vim configuration files to configstore repository
 
-# synchronize all configuration files to configstore repository
-repo=~/Dropbox/ComputerProgramming/configstore/rintohsaka/
 sync="rsync -avzu --delete --progress -h"
+repo=~/Documents/configstore/rintohsaka/
 
 ${sync} ~/.bash* ${repo}
 ${sync} ~/.zsh* ${repo}
+${sync} ~/.oh-my-zsh ${repo}
+${sync} ~/.vim* ${repo}
 
