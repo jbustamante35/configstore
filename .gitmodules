@@ -43,3 +43,39 @@
 [submodule "rintohsaka/main/.tldr/tldr"]
 	path = rintohsaka/main/.tldr/tldr
 	url = https://github.com/tldr-pages/tldr
+[submodule "winryrockbell/main/.bash/themes/agnoster-bash"]
+	path = winryrockbell/main/.bash/themes/agnoster-bash
+	url = https://github.com/speedenator/agnoster-bash
+[submodule "winryrockbell/main/.vim/bundle/ack.vim"]
+	path = winryrockbell/main/.vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "winryrockbell/main/.vim/bundle/ag.vim"]
+	path = winryrockbell/main/.vim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim
+[submodule "winryrockbell/main/.vim/bundle/vim-joy"]
+	path = winryrockbell/main/.vim/bundle/vim-joy
+	url = https://github.com/rking/vim-joy
+[submodule "winryrockbell/main/.vim/bundle/vim-sensible"]
+	path = winryrockbell/main/.vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule "winryrockbell/main/.tldr/tldr"]
+	path = winryrockbell/main/.tldr/tldr
+	url = https://github.com/tldr-pages/tldr
+[submodule "winryrockbell/main/.fzf"]
+	path = winryrockbell/main/.fzf
+	url = https://github.com/junegunn/fzf
+[submodule "winryrockbell/dots/.bash/themes/agnoster-bash"]
+	path = winryrockbell/dots/.bash/themes/agnoster-bash
+	url = https://github.com/speedenator/agnoster-bash
+[submodule "winryrockbell/dots/.vim/bundle/ack.vim"]
+	path = winryrockbell/dots/.vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "winryrockbell/dots/.vim/bundle/ag.vim"]
+	path = winryrockbell/dots/.vim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim
+[submodule "winryrockbell/dots/.vim/bundle/vim-joy"]
+	path = winryrockbell/dots/.vim/bundle/vim-joy
+	url = https://github.com/rking/vim-joy
+[submodule "winryrockbell/dots/.vim/bundle/vim-sensible"]
+	path = winryrockbell/dots/.vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible
