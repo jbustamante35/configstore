@@ -17,6 +17,7 @@ export BASH_IT_THEME='roderik'
 #    battery
 #)
 
+# Aliases
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
@@ -89,3 +90,4 @@ fi
 source "$fasd_cache"
 unset fasd_cache
 
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
