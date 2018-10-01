@@ -1,0 +1,22 @@
+[1]
+ActiveTab=0
+Urls[$e]=file:$HOME/Dropbox/Classes/UW Madison/SciMed GRS/Logistics/SciMed GRS Confirmation of Acceptance (Julian Bustamante\\, SFSU).pdf
+
+[2]
+ActiveTab=0
+Urls[$e]=\\0
+
+[Number]
+NumberOfWindows=2
+
+[WindowProperties1]
+ClassName=Shell
+ObjectName=okular::Shell#1
+State=AAAA/wAAAAD9AAAAAAAABaAAAAOcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Window-Maximized 1080x1920=true
+
+[WindowProperties2]
+ClassName=Shell
+ObjectName=okular::Shell#2
+State=AAAA/wAAAAD9AAAAAAAABaAAAAOcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Window-Maximized 1080x1920=true
