@@ -21,7 +21,7 @@ if [ -x /usr/bin/dircolors ]; then
  export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
  
  # some more ls aliases
-alias ll='ls -alFh'
+alias ll='ls -alh'
 alias la='ls -A'
 alias l='ls -CF'
 alias lsl='ll | less'
@@ -60,23 +60,24 @@ alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu --username jbustam
 alias vnc2me='vncviewer localhost:5902'
 
 # alias to ssh to X11
-alias sshy='ssh -Y jbustamante@128.104.98.13 -p 50013'
+alias sshy='ssh -YC jdev'
 alias ssh2me='ssh -p 50013 jbustamante@128.104.98.13 -L 5902:localhost:5902'
 alias ssh2off='ssh -Y -p 50118 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
 alias ssh2off2='ssh -Y -p 22 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
 alias sshx='ssh -C jdev'
 alias ssh2sub='ssh -C submit'
 
-# usefult docker aliases
+# useful docker aliases
 alias dkb='docker build -t  '
 alias dkt='docker tag '
 alias dkp='docker push '
 alias dkP='docker pull '
 alias dki='docker images -a'
 
-# alias to take a full-screen screenshot with shutter and save in Pictures/Screenshots
+# misc aliases
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/Screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
-alias term='export TERM=xterm'
-
+alias term='export TERM=xterm-256color'
+alias medit='matlab -nodesktop -nosplash -nodisplay'
+alias mconsole='matlab -nodesktop -nosplash'
 
 

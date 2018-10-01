@@ -1,187 +1,4 @@
 l
-ll
-..
-cd Data/scott_brainard/
-l
-zip -r cal2018.zip cal2018/
-ll
-me2you cal2018.zip ~/Downloads
-ll
-rm cal2018.zip 
-ll
-..
-ll
-ls *
-cd Printing/
-ll
-cd Tests/
-ll
-..
-ll
-..
-mv Printing/ CAD
-ll
-mv CAD cadd
-mv cadd cad
-ll
-dropbox statys
-dropbox status
-ll
-mv ashley/ ashley_henry
-ll
-cd quantdracala/
-l
-cd 180328_SampleRun/
-l
-cd ../..
-l
-ll
-mv quantdracala/ jin_yang
-ll
-cd hypoquantyl/
-l
-ls *
-..
-l
-ll
-mv semanticSegmentation/ semantic_segmentation
-ll
-cd semantic_segmentation/
-l
-cd segnet/
-l
-mv Demo/ demos
-cd demos/
-l
-..
-ll
-..
-l
-ll
-ls *
-cd ashley_henry/rootkinematics/
-l
-cd Col-0_1/
-l
-lsl
-ll
-l
-la
-ls
-feh image_2018-05-30-151437-0001.tif 
-ll
-l
-..
-l
-..
-l
-..
-l
-mv irods-icommands-4.1.11-ubuntu14-x86_64.deb ~/Downloads/
-D
-sudo dpkg -i irods-icommands-4.1.11-ubuntu14-x86_64.deb 
-l
-ll
-rm irods-icommands-4.1.11-ubuntu14-x86_64.deb 
-cd matlab2018b/
-l
-..
-ll
-RM matlab2018b/
-ll
-okular OSG_Calling_Card_110515.pdf 
-exit
-sshx
-man ssh
-ssh -CX jbustamante@128.104.98.13 -p 50013
-exit
-sshx
-ll
-..
-ll
-cd HypoQuantyl/Helpers/
-ll
-cd pca/
-ll
-cd multiPCA/
-l
-..
-l
-..
-l
-..
-ll
-cd TestProgram/
-l
-.
-ll
-exit
-triplethreat.sh 
-pcupdate 
-dok
-cd phytoshell/
-ll
-mkdir 180920
-mv 180920/ ..
-mv * ../180920/
-ll
-cp ../condadock/* .
-cp -r ../condadock/* .
-sudo cp -r ../condadock/* .
-ll
-cd bak_wrapper/
-ll
-..
-ll
-..
-ll
-mv 180920/ phytoshell/
-cd phytoshell/
-ll
-mv 180920/ .180920_backup
-ll
-cd ver
-l
-..
-cd bak_wrapper/
-l
-ll
-mv ../ver/ .
-ll
-..
-ll
-mv .180920_backup/ bak_wrapper/
-mv bak_wrapper/ .backup
-ll
-git add -A
-git commit -m "Docker image nstalls 5 languages, wrapper and runner determine CyVerse or OSG configuration, ticket parsing, etc"
-git push -u origin master
-l
-docker build -t phytoshell .
-docker tag phytoshell:latest jbustamante35/testphytoshell:phytoshell 
-docker push jbustamante35/testphytoshell:phytoshell 
-cdes
-cd carrotsweeper/
-ll
-subl README.md 
-..
-bat */README.md
-cd HypoQuantyl/
-subl README.md 
-dok
-cd phytoshell/
-ll
-git pull origin master
-ll
-vim README.md 
-ll
-git pull origin master
-ll
-bat LICENSE 
-ll
-docker run -it phytoshell 0 na b__
-exit
-l
 sshx
 cba
 sbc
@@ -998,3 +815,1508 @@ bash-it enable plugin edit-mode-vi
 bash-it enable plugin battery
 vim less-pretty-cat.plugin.bash 
 bash-it enable plugin less-pretty-cat 
+bash-it show plugins 
+bash-it enable plugin extract
+bash-it enable plugin history 
+bash-it enable plugin fasd
+bash-it enable plugin edit-mode-vi
+bash-it enable plugin battery
+vim less-pretty-cat.plugin.bash 
+bash-it enable plugin less-pretty-cat 
+term
+dr
+cd EdgarSpalding/Software/hypoquantyl/
+git status
+..
+l
+htop
+h
+cd Dropbox/ComputerProgramming/configstore/
+gaa
+szc
+source ~/.zshrc
+echo $SHELL
+ll
+exit
+triplethreat.sh 
+sbc
+zsh
+naut
+triplethreat.sh 
+sbc
+zsh
+D
+naut
+zip -r 180924_cyverse_fail.zip 180924_cyverse_fail/
+RM 180924_cyverse_fail/
+l
+sbc
+dok
+cd phytoshell/
+l
+docker run -it phytoshell 0 na p_o_DEwrapper test args
+docker run -it phytoshell 0 na p_o_DEwrapper
+docker run -it phytoshell 0 na p_o_DEwrapper asdf asdf
+dki
+docker system prune 
+docker system info
+docker system events 
+docker system events --help
+docker system df --help
+docker system df
+docker image --help
+docker image ls
+docker image prune
+docker images
+docker images --help
+docker images -q
+docker run -it phytoshell "0" na p_o_DEwrapper asdf
+vim runner 
+D
+mkdir 180924_cyverse_fail
+l
+naut
+vim less-pretty-cat.plugin.bash 
+bash-it enable plugin less-pretty-cat 
+bash-it show plugins 
+bash-it enable plugin extract
+bash-it enable plugin history 
+bash-it enable plugin fasd
+bash-it enable plugin edit-mode-vi
+bash-it enable plugin battery
+vim less-pretty-cat.plugin.bash 
+bash-it enable plugin less-pretty-cat 
+term
+dr
+cd EdgarSpalding/Software/hypoquantyl/
+git status
+htop
+h
+cd Dropbox/ComputerProgramming/configstore/
+gaa
+szc
+source ~/.zshrc
+echo $SHELL
+exit
+triplethreat.sh 
+sbc
+dok
+cd phytoshell/langtest/
+vim DEwrapper.py
+vim DEwrapper.
+vim DEwrapper.py 
+python DEwrapper.py 
+naut
+l
+ll
+python DEwrapper.py asdf asdf
+RM thisdir/
+..
+vim runner 
+vim Dockerfile 
+term
+l
+sshx
+exit
+term
+sshx
+exit
+ll
+triplethreat.sh 
+sbc
+term
+cd Documents/
+h
+cd Dropbox/EdgarSpalding/Software/
+l
+ls *
+exit
+source ~/.zshrc
+echo $SHELL
+dr
+cd ComputerProgramming/configstore/
+gaa
+zi
+cd -
+zbr
+zfr
+cff
+cfc
+cfz
+term
+ll
+h
+l
+htop
+exit
+bash-it enable plugin less-pretty-cat 
+l
+sshx
+exit
+bash-it show plugins 
+ccat less-pretty-cat.plugin.bash 
+l
+h
+ll
+vim .bash_aliases 
+sbc
+cbr
+cfr
+cff
+cfc
+cfb
+h
+vim .bashrcbak 
+source .bashrc
+sbc
+h
+l
+ls
+l
+h
+ll
+h
+l
+bb
+vim syncconfigs.sh 
+crontab -l
+crontab -e
+h
+syncconfigs.sh 
+cd Dropbox/ComputerProgramming/configstore/
+l
+cd winryrockbell/
+ll
+bat *
+bat .*
+ll
+..
+ll
+crontab -l
+h
+cd -
+l
+ll
+git status
+vim Dockerfile 
+dok
+cd phytoshell/
+l
+ls
+docker build -t phytoshell .
+docker login
+docker tag phytoshell:latest jbustamante35/testphytoshell:phytoshell 
+docker push jbustamante35/testphytoshell:phytoshell 
+docker run -it phytoshell 0 na b__
+dok
+cd phytoshell/
+vim Dockerfile 
+l
+l
+sshx
+vim .zshrc
+subl .zshrc
+vim Dockerfile 
+sshx
+vim .zshrc
+subl .zshrc
+subl .bahrc
+subl .bashrc
+sshx -c zsh
+ssh -C jdev -c zsh
+man ssh
+ssh -C jdev zsh
+ssh -C jdev `echo hello`
+ssh -C jdev `echo "hello"`
+ssh -C jdev echo "hello"
+cfb
+bash-it show plugins 
+bi
+cd plugins/
+cd available/
+l
+bat git.plugin.bash 
+vim Dockerfile 
+subl .zshrc
+vim .zshrc
+cd .scr
+h
+cd .scripts/
+l
+szc
+vim shortcuts.sh 
+sshx
+sshx
+ll
+cd .config/
+cd ranger/
+l
+h
+syncconfigs.sh 
+cd Dropbox/ComputerProgramming/configstore/
+cd winryrockbell/
+bat *
+bat .*
+crontab -l
+h
+cd -
+git status
+ls
+docker build -t phytoshell .
+docker login
+docker tag phytoshell:latest jbustamante35/testphytoshell:phytoshell 
+docker push jbustamante35/testphytoshell:phytoshell 
+docker run -it phytoshell 0 na b__
+sshx
+vim .zshrc
+subl .zshrc
+sshx
+vim .zshrc
+subl .zshrc
+subl .bahrc
+subl .bashrc
+sshx -c zsh
+ssh -C jdev -c zsh
+man ssh
+ssh -C jdev zsh
+ssh -C jdev `echo hello`
+ssh -C jdev `echo "hello"`
+ssh -C jdev echo "hello"
+cfb
+bash-it show plugins 
+bi
+cd plugins/
+cd available/
+bat git.plugin.bash 
+subl .zshrc
+vim .zshrc
+cd .scr
+h
+cd .scripts/
+szc
+vim shortcuts.sh 
+sshx
+app search xvfb
+pip search requirements.txt
+pip list
+app install python-pip python3-pip
+man pip
+pip search requirements
+pip search pywal
+pip3 search pywal
+pip3 search requirements
+pip3 search requirements.txt
+sudo updatedb
+locate requirements.txt
+bat /usr/share/doc/python-setuptools/requirements.txt 
+dok
+cd condadock/
+l
+dki
+echo $USER
+app search octave
+docker run -p 5902 -it condadock 2 na p_o_DEwrapper
+docker run -p 5902 -e DISPLAY=$DISPLAY -it condadock 2 na p_o_DEwrapper
+docker run -p 5902 -e DISPLAY=:20 -it condadock 2 na p_o_DEwrapper
+vim wrq
+vim wrapper 
+docker run -p 5920:20 -e DISPLAY=:20 -it condadock 2 na p_o_DEwrapper
+docker run -p 5920 -e DISPLAY=:20 -it condadock 2 na p_o_DEwrapper
+docker run -p 5920 -e DISPLAY=:20 -it condadock 2 na b__
+docker run -p 5920 -e DISPLAY=:20 -it condadock 0 na b__
+docker run -it -p 5920:5920 condadock 0 na p_o_DEwrapper
+docker run -it -p 5920:5920 condadock 2 na p_o_DEwrapper
+vim runner 
+docker build -t condadock .
+docker run -p 5920:6083 -it condadock 2 na p_o_DEwrapper
+octave --no-window-system ../phytoshell/langtest/DEwrapper.m
+octave ../phytoshell/langtest/DEwrapper.m
+bat ../phytoshell/langtest/DEwrapper.m 
+which octave
+echo $DISPLAY 
+octave ../phytoshell/langtest/octave/DEwrapper.m
+ls ../phytoshell/langtest/octave/
+ls ../phytoshell/langtest/matlab/
+ls ../phytoshell/langtest/
+ls ../phytoshell/langtest/*
+ls langtest/
+octave langtest/DEwrapper.m 
+octave --verbose ../phytoshell/langtest/DEwrapper.m 
+docker run -p 5920:6080 -it condadock 2 na p_o_DEwrapper
+docker run -p 5920:5920 -it condadock 2 na p_o_DEwrapper
+app install octave
+octave
+octave -W langtest/DEwrapper.m
+octave --help
+octave --no-gui langtest/DEwrapper.
+octave --no-gui langtest/DEwrapper.m
+octave --eval langtest/DEwrapper.m
+octave --eval "print("hwlleo")"
+octave --eval print("hwlleo")
+octave --eval "fprintf("hellow")"
+octave --eval "fprintf('hellow')"
+octave --eval "fprintf('\n\n\nhellow\n\n\n')"
+octave --eval "run('./langtest/DEwrapper.m')"
+vim Dockerfile 
+docker run -p 5920:5920 -it condadock 2 na j_o_DEwrapper
+..
+cd phytoshell/
+ll
+cd Dropbox/EdgarSpalding/Software/
+exit
+source ~/.zshrc
+echo $SHELL
+dr
+cd ComputerProgramming/configstore/
+gaa
+zi
+cd -
+zbr
+zfr
+cff
+cfc
+cfz
+term
+h
+htop
+exit
+bash-it enable plugin less-pretty-cat 
+sshx
+exit
+bash-it show plugins 
+ccat less-pretty-cat.plugin.bash 
+h
+vim .bash_aliases 
+sbc
+cbr
+cfr
+cff
+cfc
+cfb
+h
+vim .bashrcbak 
+source .bashrc
+sbc
+h
+ls
+h
+h
+bb
+vim syncconfigs.sh 
+crontab -l
+crontab -e
+h
+syncconfigs.sh 
+cd Dropbox/ComputerProgramming/configstore/
+cd winryrockbell/
+bat *
+bat .*
+crontab -l
+h
+cd -
+git status
+ls
+docker build -t phytoshell .
+docker login
+docker tag phytoshell:latest jbustamante35/testphytoshell:phytoshell 
+docker push jbustamante35/testphytoshell:phytoshell 
+docker run -it phytoshell 0 na b__
+sshx
+vim .zshrc
+subl .zshrc
+sshx
+vim .zshrc
+subl .zshrc
+subl .bahrc
+subl .bashrc
+sshx -c zsh
+ssh -C jdev -c zsh
+man ssh
+ssh -C jdev zsh
+ssh -C jdev `echo hello`
+ssh -C jdev `echo "hello"`
+ssh -C jdev echo "hello"
+cfb
+bash-it show plugins 
+bi
+cd plugins/
+cd available/
+bat git.plugin.bash 
+subl .zshrc
+vim .zshrc
+cd .scr
+h
+cd .scripts/
+szc
+vim shortcuts.sh 
+sshx
+app search python3-pytest
+pip search pytest
+pip3 search pytest
+app search python-pip
+app search python3-pip
+which pip
+which pip3
+app sarch xvfb
+app search xvfb
+app install xvfb
+man xvfb
+dok
+cd condadock/
+app search noNVC
+apt search nonvc
+apt search fluxbox
+docker ps
+app install net-tools
+netstat
+vncviewer localhost:4767
+pping localhost:5920
+vncviewer localhost:5900
+vncviewer 5920
+vncviewer localhost 
+vncviewer localhost 5902
+vncviewer localhost 5920
+vncviewer localhost:2
+vncviewer localhost:5902
+vim Dockerfile 
+vncviewer :20
+vncviewer :5920
+vncviewer localhost:20
+app search xutils
+app search x11
+git clone https://github.com/novnc/noVNC
+cd utils/
+bat README.md 
+cd noVNC/
+ls *
+ls */*
+bat vnc.html 
+sudo updatedb
+locate vnc_auto.html
+locate vnc.html
+locate index.html
+docker run -p 5920:5920 -it condadock 2 na p_o_DEwrapper
+app install fluxbox
+man fluxbox
+startfluxbox --help
+man startfluxbox
+firefox http://localhost:5920
+vim wrapper 
+man octave
+octave --help
+vim runner 
+docker build -t condadock .
+vncviewer localhost:5920
+..
+cd phytoshell/
+cd langtest/
+./testoctave.sh 
+l
+octave --no-gui
+octave -W
+ll
+octave DEwrapper.m
+octave DEwrapper.m DEwrapper
+octave -W --no-gui DEwrapper.m DEwrapper
+term
+sshx
+exit
+l
+term
+sshxl
+sshx
+exit
+term
+sshx
+exit
+subl .zshrc
+vim .zshrc
+cd .scr
+cd .scripts/
+szc
+vim shortcuts.sh 
+sshx
+term
+bb
+h
+du
+d -h
+a
+d
+s
+cfi
+ll
+l
+exit
+h
+h
+ls
+h
+h
+bb
+vim syncconfigs.sh 
+crontab -l
+crontab -e
+h
+syncconfigs.sh 
+cd Dropbox/ComputerProgramming/configstore/
+cd winryrockbell/
+bat .*
+crontab -l
+h
+cd -
+git status
+ls
+docker login
+docker run -it phytoshell 0 na b__
+sshx
+vim .zshrc
+subl .zshrc
+sshx
+vim .zshrc
+subl .zshrc
+subl .bahrc
+subl .bashrc
+sshx -c zsh
+ssh -C jdev -c zsh
+man ssh
+ssh -C jdev zsh
+ssh -C jdev `echo hello`
+ssh -C jdev `echo "hello"`
+ssh -C jdev echo "hello"
+cfb
+bash-it show plugins 
+bi
+cd plugins/
+cd available/
+bat git.plugin.bash 
+subl .zshrc
+vim .zshrc
+cd .scr
+h
+cd .scripts/
+szc
+vim shortcuts.sh 
+sshx
+cd ../vncdock/
+bat Dockerfile 
+bat entrypoint.sh 
+vim configOSG.sh 
+docker run -it phytoshell 
+l
+vim wrapper 
+docker run -it phytoshell
+docker tag phytoshell:latest jbustamante35/testphytoshell:phytoshell 
+docker push jbustamante35/testphytoshell:phytoshell 
+subl runner 
+docker run -it phytoshell 0 na p_o_DEwrapper
+docker run -it phytoshell 0 na j_o_DEwrapper
+docker run -it phytoshell 0 na r_o_DEwrapper
+docker run -it phytoshell 0 na p2_o_DEwrapper
+cd vncdock/
+bat *
+vncviewer localhost:5920
+vncviewer localhost:20
+vncviewer :5920
+cd phytoshell/
+docker run -it -p 5900:5900 phytoshell 0 na o_o_DEwrapper
+vim Dockerfile 
+docker build -t phytoshell .
+vim runner 
+dok
+cd condadock/
+docker tag condadock:latest jbustamante35/vnccontainer:condadock
+docker push jbustamante35/vnccontainer:condadock 
+docker rm 4f4e6f945c91
+docker rmi 4f4e6f945c91
+docker rm fdece9a5e9f5
+docker system prune
+..
+cd vnccontainer/
+docker build -t main .
+docker tag main:latest jbustamante35/vnccontainer:main
+docker push jbustamante35/vnccontainer:main 
+ll
+docker rmi 588257bfe5f5
+docker rm 588257bfe5f5
+docker images
+docker rm condadock
+docker rmi b9e15a5d1e1a
+docker rmi 135bc1f0b262
+docker rmi fdece9a5e9f5
+dki
+dki
+term
+sshx
+exit
+l
+exit
+term
+sshx
+exit
+l
+term
+sshx
+exit
+l
+term
+sshx
+exit
+dok
+cd vnccontainer/
+la
+docker run -p 5920:5920 -it main 2 na p_o_DEwrapper
+docker run -p 5920:5920 -it main 0 na b__
+docker rmi b9e15a5d1e1a
+docker rmi 135bc1f0b262
+docker rmi fdece9a5e9f5
+dki
+ll
+h
+dok
+cd phytoshell/
+a
+s
+l
+octave
+..
+cd vnccontainer/
+la
+docker run -p 5920:5920 -it main 2 na p_o_DEwrapper
+vim runner 
+docker build -t main .
+docker tag main:latest jbustamante35/vnccontainer:main
+docker push jbustamante35/vnccontainer:main 
+ll
+docker rmi 588257bfe5f5
+docker rm 588257bfe5f5
+docker images
+docker rm condadock
+docker rmi b9e15a5d1e1a
+docker rmi 135bc1f0b262
+docker rmi fdece9a5e9f5
+dki
+h
+man git commit
+la
+dok
+cd phytoshell/
+l
+docker run -it phytoshell 0 na o_o_DEwrapper
+docker build -t phytoshell .
+docker tag phytoshell:latest jbustamante35/testphytoshell:phytoshell 
+docker push jbustamante35/testphytoshell:phytoshell 
+docker run -it phytoshell 0 na p3_o_DEwrapper
+docker tag phytoshell:latest jbustamante35/phytoshell:phytoshell 
+docker push jbustamante35/phytoshell:phytoshell 
+vim wrapper 
+vim runner 
+dki
+ll
+h
+sshx
+dki
+screen
+term
+sshx
+shutdown 
+dropbox status
+h
+dr
+la
+ll
+cd ComputerProgramming/configstore/
+l
+git status
+eit
+exit
+h
+vim .profile 
+zsh
+man zsh
+shutdown 
+dropbox status
+dr
+cd ComputerProgramming/configstore/
+l
+git status
+eit
+echo $SHELL
+s
+echo $0
+bb
+cfa
+cfz
+cza
+vim .zsh_aliases 
+term
+szc
+sbc
+ls
+ll
+cd .ssh
+vim config 
+h
+vim .bash_aliases 
+la
+exit
+ls
+sshx
+exit
+sshx
+exit
+sshx
+exit
+ls
+cd .ssh
+vim config 
+h
+vim .bash_aliases 
+la
+exit
+ls
+sshx
+exit
+sshx
+exit
+sshx
+exit
+neofetch
+cd .ssh/
+cat config 
+ssh -Y -p 22 root@localhost 
+ssh -Y -p 22 root@localhost -vvv
+mkdir bak
+mv id* bak/
+mv known_hosts* bak/
+ll
+ssh -Y -p 22 root@localhost -v
+ssh -Y -p 22 root@localhost
+dki
+a
+s
+octave
+cd vnccontainer/
+docker run -p 5920:5920 -it main 2 na p_o_DEwrapper
+vim runner 
+docker build -t main .
+docker tag main:latest jbustamante35/vnccontainer:main
+docker push jbustamante35/vnccontainer:main 
+docker rmi 588257bfe5f5
+docker rm 588257bfe5f5
+docker images
+docker rm condadock
+docker rmi b9e15a5d1e1a
+docker rmi 135bc1f0b262
+docker rmi fdece9a5e9f5
+dki
+man git commit
+docker run -it phytoshell 0 na o_o_DEwrapper
+docker build -t phytoshell .
+docker tag phytoshell:latest jbustamante35/testphytoshell:phytoshell 
+docker push jbustamante35/testphytoshell:phytoshell 
+docker run -it phytoshell 0 na p3_o_DEwrapper
+docker tag phytoshell:latest jbustamante35/phytoshell:phytoshell 
+docker push jbustamante35/phytoshell:phytoshell 
+vim wrapper 
+vim runner 
+dki
+sshx
+dki
+screen
+term
+sshx
+shutdown 
+dropbox status
+dr
+cd ComputerProgramming/configstore/
+eit
+exit
+vim .profile 
+echo $0
+git diff
+git difftool 
+git diff master
+l
+cd Dropbox/ComputerProgramming/configstore/
+git remote rename origin winry
+git submodule add https://github.com/speedenator/agnoster-bash rintohsaka/.bash/themes/agnoster-bash
+git add -A
+git commit -m "updated WinryRockbell"
+git branch -A
+git stash save "Accidental commit from WinryRockbell on RinTohsaka branch"
+git checkout master
+git remote -v
+git pull winry master 
+git branch -a
+git stash list
+git log
+vim ~/bin/syncconfigs.sh 
+cd rintohsaka/
+cd winryrockbell/
+crontab -l
+crontab -e
+ll >> 180927_0750_state.txt
+bat 180927_0750_state.txt 
+..
+cd -
+git rm -A
+git rm --cached *
+git rm --cached 
+git rm --cached rintohsaka/*
+git status
+ll
+h
+cd .electron/
+apt search electron
+)dok
+dok
+cd phytoshell/
+la
+vim ../vnccontainer/Dockerfile 
+vim Dockerfile 
+cd ../vnccontainer/
+ls
+subl debugServer.txt 
+subl Dockerfile 
+dki
+sshx
+dki
+screen
+term
+sshx
+shutdown 
+dropbox status
+dr
+cd ComputerProgramming/configstore/
+git status
+eit
+exit
+vim .profile 
+echo $0
+h
+cdes
+cd hypoquantyl/
+git remote -v
+l
+dok
+cd vnccontainer/
+ll
+docker run -it phytoshell 0 na b__
+la
+docker run -p 22 -it main na b__
+docker run -p 22 -it main 0 na b__
+docker run -it main 0 na b__
+vim Dockerfile 
+apt search gnuph-curl
+apt search gnupg-curl
+apt search gnupg-
+docker build -t main .
+docker run -p 22:22 -it main 0 na b__
+docker run -p 22:22 -it main 0 na b__
+dok
+ls *
+cd phytoshell/
+l
+cd ../vnccontainer/
+vim Dockerfile 
+dok
+cd vnccontainer/
+ll
+sshx
+exit
+ls
+sshx
+exit
+vim wrapper 
+vim runner 
+dki
+sshx
+dki
+screen
+sshx
+shutdown 
+dropbox status
+cd ComputerProgramming/configstore/
+git status
+eit
+vim .profile 
+zsh
+man zsh
+shutdown 
+dropbox status
+cd ComputerProgramming/configstore/
+git status
+eit
+echo $SHELL
+s
+echo $0
+bb
+cfa
+cfz
+cza
+vim .zsh_aliases 
+cd .ssh
+vim config 
+vim .bash_aliases 
+sshx
+sshx
+sshx
+dr
+cd EdgarSpalding/Software/hypoquantyl/
+app install silversearcher-ag
+cd /usr/local/lib/MATLAB/R2018b/
+ag .xml
+app search rzr
+app search fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+find * f | fzf
+which fzf
+cd ~/.fzf
+ls
+cd -
+term
+szc
+sbc
+find * -type f | fzf
+vim $(fzf)
+cd .matlab/
+cd R2018b/
+ag vim
+ls *
+vim shortcuts_2.xml 
+ll
+la
+vim thisMatlab.pem 
+vim run_commands.m 
+vim matlabCompiler.settings 
+vim MATLAB_Editor_State.xml 
+vim matlab.prf 
+vim matlab.settings 
+cd LightweightBrowser/
+cd HtmlPanel/
+cd GenICamXMLCache/
+..
+cd R2018a/
+l
+h
+exit
+term
+sshx
+exit
+vim shortcuts_2.xml 
+vim thisMatlab.pem 
+vim run_commands.m 
+vim matlabCompiler.settings 
+vim MATLAB_Editor_State.xml 
+vim matlab.prf 
+vim matlab.settings 
+cd LightweightBrowser/
+cd HtmlPanel/
+cd GenICamXMLCache/
+cd R2018a/
+h
+exit
+term
+sshx
+exit
+dok
+la
+vim README.md
+git init
+git add -A
+git commit -m "First upload of files"
+git remote set-url https://github.com/jbustamante35/vnccontainer
+git remote set-url origin https://github.com/jbustamante35/vnccontainer
+git remote add origin https://github.com/jbustamante35/vnccontainer.git
+git push -u origin master
+ncdu
+mkdir vnccontainer
+cp -r * vnccontainer/
+RM vnccontainer/
+mkdir ../bak
+cp * ../bak
+cp -r * ../bak
+sudo cp -r * ../bak
+..
+l
+mv bak/ vnccontainer/
+cd vnccontainer/
+zip -r vnccontainer.zip bak
+ls -asho
+naut
+ll
+git status
+shutdown 
+exit
+matlab -nodesktop -nosplash -nojvm -noawt
+cdes
+cd soulsearch/
+matlab -nodesktop
+l
+vim matlab.vim 
+exit
+..
+cd ftplugin/
+vim matlab.vim 
+exit
+cp -r * ../bak
+sudo cp -r * ../bak
+mv bak/ vnccontainer/
+cd vnccontainer/
+zip -r vnccontainer.zip bak
+ls -asho
+naut
+git status
+shutdown 
+exit
+matlab -nodesktop -nosplash -nojvm -noawt
+cdes
+cd soulsearch/
+matlab -nodesktop
+cd .vim
+vim .vimrc 
+locate .vim
+cd /usr/share/vim/vim80/syntax/
+vim matlab.vim 
+D
+git clone https://github.com/Answeror/vim-matlab
+cd vim-matlab/
+..
+bat README 
+cd syntax/
+screen
+cd /usr/share/vim/vim80
+sudo updatedb
+locate matlab.vim
+cd ftplugin/
+la
+cp ~/Downloads/vim-matlab/ftplugin/ matlabB.vim
+cp ~/Downloads/vim-matlab/ftplugin/matlab.vim matlabB.vim
+sudo cp ~/Downloads/vim-matlab/ftplugin/matlab.vim matlabB.vim
+l
+mv matlab.vim matlab.vim.bak
+sudo mv matlab.vim matlab.vim.bak
+sudo su
+ls
+ll
+h
+git status
+shutdown 
+cdes
+cd soulsearch/
+la
+term
+matlab -nodesktop
+matlab -noawt
+l
+matlab -nojava 
+matlab -nojvm
+matlab -nodesktop -nosplash 
+bb
+cza
+cfa
+cba
+sbc
+medit
+cd -
+vim SoulSearch.m 
+exit
+git status
+shutdown 
+cdes
+cd soulsearch/
+la
+vim dataSetup.m 
+term
+matlab -nodesktop
+matlab -nogui
+matlab -nodesktop -nodisplay
+sbc
+medit
+exit
+cd vnccontainer/
+zip -r vnccontainer.zip bak
+ls -asho
+naut
+git status
+shutdown 
+dr
+cd EdgarSpalding/Software/
+cd soulsearch/
+a
+history
+la
+ls
+ll
+man matlab
+matlab -nodesktop
+sbc
+term
+mconsole 
+exit
+a
+history
+ls
+man matlab
+matlab -nodesktop
+sbc
+term
+mconsole 
+exit
+/usr/bin/zsh 
+bash
+man zsh5
+zsh5 --help
+dok
+cd vnccontainer/
+RM .git
+ll
+mv vnccontainer/ vnccontainer_bak
+git clone https://github.com/jbustamante35/vnccontainer
+l
+cd vnccontainer
+..
+la
+zsh
+la
+zsh
+mv "Screenshot from 2018-09-28 14-17-39.png" bash_it-alternatives.png
+ll
+bshwa
+bshsc
+bshha
+bshsa
+bshena apt
+bshena fuck
+bshena vagrant
+bshena systemd
+bshsa
+bshsc
+bshenc pip
+bshenc pip3
+bshenc todo
+bshenc vagrant
+bshenc git
+bshenc export
+bshsp
+bshenp todo
+bshenp ssh
+bshenp gif
+bshenp git
+bshenp docker
+bshenp browser
+bshena vagrant
+bshena systemd
+bshsa
+bshsc
+bshenc pip
+bshenc pip3
+bshenc todo
+bshenc vagrant
+bshenc git
+bshenc export
+bshsp
+bshenp todo
+bshenp ssh
+bshenp gif
+bshenp git
+bshenp docker
+bshenp browser
+bing potato
+apt search bing
+h
+dr
+ls
+cd Photos/
+cd Screenshots/
+cd Misc/
+ls */*
+cd cars/
+ls *
+..
+...
+cd jbustamante/
+l
+bb
+la
+ll
+matlab -noawt
+matlab -nojava 
+matlab -nojvm
+matlab -nodesktop -nosplash 
+bb
+cza
+cfa
+medit
+cd -
+vim SoulSearch.m 
+exit
+git status
+shutdown 
+cdes
+cd soulsearch/
+vim dataSetup.m 
+term
+matlab -nodesktop
+matlab -nogui
+matlab -nodesktop -nodisplay
+medit
+exit
+cd vnccontainer/
+zip -r vnccontainer.zip bak
+ls -asho
+naut
+git status
+shutdown 
+dr
+cd EdgarSpalding/Software/
+cd soulsearch/
+a
+history
+man matlab
+matlab -nodesktop
+term
+mconsole 
+exit
+a
+history
+man matlab
+matlab -nodesktop
+term
+mconsole 
+exit
+/usr/bin/zsh 
+bash
+man zsh5
+zsh5 --help
+dok
+cd vnccontainer/
+RM .git
+mv vnccontainer/ vnccontainer_bak
+git clone https://github.com/jbustamante35/vnccontainer
+cd vnccontainer
+zsh
+apt search vimir
+vimir
+apt search vidir
+okular 180505_ViberPhishing_EmailConfirmation.pdf 
+vidir
+ls */*
+mv Gaming/ games
+cd games/
+ls Scans/
+mv Scans/ documents
+ls Screenshots/
+mv Screenshots/ sc
+mv eagleheight_tv_channels.xlsx  TV/
+ls TV
+mv sc screenshots
+cd screenshots/
+mv ScreenRecordings/ recordings
+mv QuantDRaCALA_shots quantracala_screenshots
+ls DayOfBlackSun_170821/
+mv DayOfBlackSun_170821/ 170221_DayOfBlackSun
+la
+mv TV tvguide
+mv AutoHotKey/ autohotkey-configs
+cd autohotkey-configs/
+..
+ls *
+zip -r wallpapers.zip Wallpapers
+rm Wallpapers.zip 
+mv "Wallpapers (Case Conflict).zip" Wallpapers.zip
+ls -a
+ls -al
+ls -alf
+ls -alhfF
+ls -alhf
+ls -alh
+ls -h
+ls --help
+ls -f
+sbc
+ls
+lsl
+l
+source ~/.bashrc
+echo $SHELL
+. ~/.profile 
+cba
+source ~/.bash_aliases 
+ll
+bash-it show aliases 
+bat ~/.bash_it/aliases/available/
+bat ~/.bash_it/aliases/available/general.aliases.bash 
+==
+term
+mconsole 
+exit
+term
+medit 
+exit
+term
+medit 
+exit
+bash-it show aliases 
+bat ~/.bash_it/aliases/available/
+bat ~/.bash_it/aliases/available/general.aliases.bash 
+==
+shit
+h
+batshit update
+batshit help
+batshit --help
+clear
+shit reload
+batshit show aliases 
+pp
+ll
+naut
+mv "Screenshot from 2018-09-28 14-17-39.png" bash_it-alternatives.png
+bshwa
+bshsc
+bshha
+bshsa
+bshena apt
+bshena fuck
+bshena vagrant
+bshena systemd
+bshsa
+bshsc
+bshenc pip
+bshenc pip3
+bshenc todo
+bshenc vagrant
+bshenc git
+bshenc export
+bshsp
+bshenp todo
+bshenp ssh
+bshenp gif
+bshenp git
+bshenp docker
+bshenp browser
+bshena vagrant
+bshena systemd
+bshsa
+bshsc
+bshenc pip
+bshenc pip3
+bshenc todo
+bshenc vagrant
+bshenc git
+bshenc export
+bshsp
+bshenp todo
+bshenp ssh
+bshenp gif
+bshenp git
+bshenp docker
+bshenp browser
+bing potato
+apt search bing
+cd Photos/
+cd Screenshots/
+cd Misc/
+cd cars/
+...
+cd jbustamante/
+bb
+a
+s
+cd
+dok
+cd vnccontainers/
+vim Dockerfile 
+dr
+cdes
+cd ca
+cd cad
+locate openscad
+..
+ls *
+ls */*
+ls
+la
+locate Image
+locate Image | fzf
+locate AppImage
+cd .local/share/Trash/files/
+mv OpenSCAD-Nightly-0-Build2364.1.glibc2.14-x86_64.AppImage ~/Documents/
+d
+doc
+dd
+h
+cd Documents/
+l
+cff
+sbc
+dc
+sudo ln -s /usr/local/bin/ /home/jbustamante/Documents/OpenSCAD-Nightly-0-Build2364.1.glibc2.14-x86_64.AppImage 
+sudo ln -s /usr/local/bin/scad /home/jbustamante/Documents/OpenSCAD-Nightly-0-Build2364.1.glibc2.14-x86_64.AppImage 
+./OpenSCAD-Nightly-0-Build2364.1.glibc2.14-x86_64.AppImage 
+ll
+sudo ln -s /home/jbustamante/Documents/OpenSCAD-Nightly-0-Build2364.1.glibc2.14-x86_64.AppImage /usr/local/bin/scad
+scad
+cd ~/Desktop/
+touch {0..100}.dmg
+rm *.dmg
+sshx
+exit
+sshx
+exit
+sshx
+exit
+git remote set-url https://github.com/jbustamante35/vnccontainer
+git remote set-url origin https://github.com/jbustamante35/vnccontainer
+git remote add origin https://github.com/jbustamante35/vnccontainer.git
+git push -u origin master
+ncdu
+mkdir vnccontainer
+cp -r * vnccontainer/
+RM vnccontainer/
+mkdir ../bak
+cp * ../bak
+cp -r * ../bak
+sudo cp -r * ../bak
+..
+mv bak/ vnccontainer/
+cd vnccontainer/
+zip -r vnccontainer.zip bak
+ls -asho
+naut
+git status
+exit
+screen
+killall
+killall -l
+man killall
+killall firefox
+b
+bb
+thankyoucomputer 
+vim .bashrc
+vim. vim
+vim .vim
+apt search pathogen
+app install vim-pathogen
+la
+h
+vim .vimrc
+cd .vim
+l
+mkdir bundle
+cd bundle/
+ll
+git clone https://github.com/tomtom/tcomment_vim
+cfa
+cba
+cd ~/Documents/coding-fun/c++/apps/funstuff/classpractice/MaxClass/
+vim main.cpp 
+vim MaxClass.
+vim MaxClass.cpp 
+cd -
+cfv
+shutdown 
