@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="double_click" mtime="1519343673" type="int" value="500"/>
+	<entry name="drag_threshold" mtime="1519343640" type="int" value="7"/>
+	<entry name="motion_threshold" mtime="1519343636" type="int" value="5"/>
+	<entry name="motion_acceleration" mtime="1519343625" type="float" value="3"/>
+	<entry name="locate_pointer" mtime="1519343620" type="bool" value="true"/>
+	<entry name="cursor_size" mtime="1519343044" type="int" value="24"/>
+	<entry name="cursor_theme" mtime="1519343044" type="string">
+		<stringvalue>dmz-aa</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,2 @@
+/home/jbustamante/anaconda3/envs/jdev
+/home/jbustamante/anaconda3
