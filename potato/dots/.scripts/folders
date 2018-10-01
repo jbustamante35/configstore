@@ -1,0 +1,14 @@
+# You can add comments to these files with #
+h	~/
+bb	~/bin
+gg	~/go
+d	~/Documents
+D	~/Downloads
+M   ~/Misc
+m	~/Music
+pp	~/Pictures
+vv	~/Videos
+pyenv	~/environments
+s	~/.scripts
+cf	~/.config
+zi  ~/.oh-my-zsh
