@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="captions" mtime="1519342642" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>none</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>size</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>date_modified</stringvalue>
+		</li>
+	</entry>
+	<entry name="labels_beside_icons" mtime="1519342585" type="bool" value="false"/>
+	<entry name="default_use_tighter_layout" mtime="1519342583" type="bool" value="false"/>
+	<entry name="default_zoom_level" mtime="1519342580" type="string">
+		<stringvalue>standard</stringvalue>
+	</entry>
+</gconf>
