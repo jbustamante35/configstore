@@ -1,0 +1,4 @@
+Starting inspector on 127.0.0.1:6010 failed: address already in use
+Defining data for /api/status
+Defining data for /api/create-connection
+SQLTools http server is listening on port 41347

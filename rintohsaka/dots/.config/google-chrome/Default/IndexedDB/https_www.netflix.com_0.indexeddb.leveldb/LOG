@@ -1,0 +1,18 @@
+2018/09/30-14:17:58.608 6606 Reusing MANIFEST /home/jbustamante/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/09/30-14:17:58.609 6606 Recovering log #29
+2018/09/30-14:17:58.611 6606 Reusing old log /home/jbustamante/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000029.log 
+2018/09/30-15:00:11.144 28001 Level-0 table #33: started
+2018/09/30-15:00:11.190 28001 Level-0 table #33: 1945701 bytes OK
+2018/09/30-15:00:11.193 28001 Delete type=0 #29
+2018/09/30-15:00:11.194 28001 Compacting 4@0 + 1@1 files
+2018/09/30-15:00:11.221 28001 Generated table #34@0: 16 keys, 13284 bytes
+2018/09/30-15:00:11.221 28001 Compacted 4@0 + 1@1 files => 13284 bytes
+2018/09/30-15:00:11.223 28001 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/09/30-15:00:11.224 28001 Delete type=2 #30
+2018/09/30-15:00:11.225 28001 Delete type=2 #27
+2018/09/30-15:00:11.225 28001 Delete type=2 #21
+2018/09/30-15:00:11.226 28001 Delete type=2 #24
+2018/09/30-15:00:11.226 28001 Delete type=2 #33
+2018/09/30-15:52:58.790 28001 Level-0 table #36: started
+2018/09/30-15:52:58.830 28001 Level-0 table #36: 1923518 bytes OK
+2018/09/30-15:52:58.836 28001 Delete type=0 #32

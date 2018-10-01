@@ -1,0 +1,28 @@
+[Data Source]
+DisplayName=jbustamante35@gmail.com
+Enabled=true
+Parent=980bd9820e8beaaa79e7f2be9051a166e3d081a4
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=jbustamante35@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=308d3e12be77042864354aec214eb10bb3e49d6d
+RepliesToOriginFolder=false
+UseSentFolder=true
