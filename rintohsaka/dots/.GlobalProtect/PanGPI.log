@@ -1,0 +1,304 @@
+P11536-T1952823040 Sep 09 03:08:15:316460 Info ( 676): debug thread starts
+P11536-T1973135168 Sep 09 03:08:15:316539 Info (  85): message queue created.
+P11536-T1973135168 Sep 09 03:08:15:316559 Debug( 316): 3 obsolete to GPI messages have been cleaned up.
+P11536-T1973135168 Sep 09 03:08:15:316628 Debug(  58): Retrieve portal info.
+P11536-T1973135168 Sep 09 03:08:15:316656 Debug( 385): Command = <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><portal-certificate-verification>yes</portal-certificate-verification></request>
+P11536-T1973135168 Sep 09 03:08:15:316663 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P11536-T1944430336 Sep 09 03:08:16:765757 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>no</on-demand></response>.
+P11536-T1944430336 Sep 09 03:08:16:826066 Debug( 127): From GPA: <response><type>status</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>no</on-demand></response>.
+P11536-T1944430336 Sep 09 03:08:16:826087 Debug( 127): From GPA: <response><type>invalid_server_cert</type><error>0</error><server>uwmadison.vpn.wisc.edu</server><can-continue>yes</can-continue><disable>no</disable><on-demand>no</on-demand></response>.
+P11536-T1973135168 Sep 09 03:08:17:319848 Debug( 419): Receive status message with state Retrieving configuration....
+P11536-T1973135168 Sep 09 03:08:17:320271 Debug( 419): Receive status message with state Disconnected.
+P11536-T1973135168 Sep 09 03:08:29:73935 Debug( 385): Command = <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><portal-certificate-verification>no</portal-certificate-verification></request>
+P11536-T1944430336 Sep 09 03:08:30:922395 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>no</on-demand></response>.
+P11536-T1944430336 Sep 09 03:08:30:982732 Debug( 127): From GPA: <response><type>status</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>no</on-demand></response>.
+P11536-T1944430336 Sep 09 03:08:30:982749 Debug( 127): From GPA: <response><type>user_credential</type><error></error><auth-message>Enter NetID username/password</auth-message><server>uwmadison.vpn.wisc.edu</server><user-name>jbustamante</user-name><gateway></gateway><disable>no</disable><on-demand>no</on-demand></response>.
+P11536-T1973135168 Sep 09 03:08:31:76801 Debug( 419): Receive status message with state Retrieving configuration....
+P11536-T1973135168 Sep 09 03:08:31:87302 Debug( 419): Receive status message with state Disconnected.
+P11536-T1973135168 Sep 09 03:08:37:21411 Debug( 376): Command Quque= <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><password>************</password><portal-certificate-verification>no</portal-certificate-verification></request>
+P11536-T1944430336 Sep 09 03:08:39:102879 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>no</on-demand></response>.
+P11536-T1944430336 Sep 09 03:08:39:555596 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P11536-T1944430336 Sep 09 03:08:39:555609 Debug( 127): From GPA: <response><disable>no</disable><on-demand>yes</on-demand></response>.
+P11536-T1944430336 Sep 09 03:08:39:555613 Debug( 127): From GPA: <response><type>status</type><state>Discovering network...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P11536-T1944430336 Sep 09 03:08:39:917638 Debug( 127): From GPA: <response><type>status</type><state>Connecting...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P11536-T1973135168 Sep 09 03:08:40:25224 Debug( 419): Receive status message with state Retrieving configuration....
+P11536-T1973135168 Sep 09 03:08:40:25735 Debug( 419): Receive status message with state Retrieving configuration....
+P11536-T1973135168 Sep 09 03:08:40:26701 Debug( 419): Receive status message with state Discovering network....
+P11536-T1973135168 Sep 09 03:08:40:27141 Debug( 419): Receive status message with state Connecting....
+P11536-T1944430336 Sep 09 03:08:40:218633 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P11536-T1944430336 Sep 09 03:08:40:369124 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P11536-T1973135168 Sep 09 03:08:41:29673 Debug( 593): Command is done with .
+P11536-T1944430336 Sep 09 03:08:41:29803 Info ( 147): Stop reading messgae from GPA.
+P11536-T1952823040 Sep 09 03:08:41:321464 Info ( 682): debug thread ends
+P22814-T964933376 Sep 11 00:14:08:67380 Info ( 676): debug thread starts
+P22814-T985241408 Sep 11 00:14:08:67629 Info (  85): message queue created.
+P22814-T985241408 Sep 11 00:14:08:67659 Debug( 316): 3 obsolete to GPI messages have been cleaned up.
+P22814-T985241408 Sep 11 00:14:08:68167 Debug(  58): Retrieve portal info.
+P22814-T985241408 Sep 11 00:14:08:68228 Debug( 385): Command = <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><portal-certificate-verification>yes</portal-certificate-verification></request>
+P22814-T985241408 Sep 11 00:14:08:68236 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P22814-T956540672 Sep 11 00:14:09:939798 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>no</on-demand></response>.
+P22814-T985241408 Sep 11 00:14:10:72648 Debug( 419): Receive status message with state Retrieving configuration....
+P22814-T956540672 Sep 11 00:14:10:120619 Debug( 127): From GPA: <response><type>status</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>no</on-demand></response>.
+P22814-T956540672 Sep 11 00:14:10:150759 Debug( 127): From GPA: <response><type>user_credential</type><error></error><auth-message>Authentication Failed. Enter NetID username/password</auth-message><server>uwmadison.vpn.wisc.edu</server><user-name>jbustamante</user-name><gateway></gateway><disable>no</disable><on-demand>no</on-demand></response>.
+P22814-T985241408 Sep 11 00:14:11:74216 Debug( 419): Receive status message with state Disconnected.
+P22814-T985241408 Sep 11 00:14:16:732266 Debug( 376): Command Quque= <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><password>************</password><portal-certificate-verification>yes</portal-certificate-verification></request>
+P22814-T956540672 Sep 11 00:14:19:51540 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>no</on-demand></response>.
+P22814-T956540672 Sep 11 00:14:19:624485 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22814-T956540672 Sep 11 00:14:19:624495 Debug( 127): From GPA: <response><disable>no</disable><on-demand>yes</on-demand></response>.
+P22814-T956540672 Sep 11 00:14:19:624499 Debug( 127): From GPA: <response><type>status</type><state>Discovering network...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22814-T985241408 Sep 11 00:14:19:736169 Debug( 419): Receive status message with state Retrieving configuration....
+P22814-T985241408 Sep 11 00:14:19:747623 Debug( 419): Receive status message with state Retrieving configuration....
+P22814-T985241408 Sep 11 00:14:19:750339 Debug( 419): Receive status message with state Discovering network....
+P22814-T956540672 Sep 11 00:14:20:197693 Debug( 127): From GPA: <response><type>status</type><state>Connecting...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22814-T956540672 Sep 11 00:14:20:439831 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22814-T956540672 Sep 11 00:14:20:560274 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22814-T985241408 Sep 11 00:14:20:751881 Debug( 419): Receive status message with state Connecting....
+P22814-T985241408 Sep 11 00:14:20:752425 Debug( 593): Command is done with .
+P22814-T956540672 Sep 11 00:14:20:752469 Info ( 147): Stop reading messgae from GPA.
+P22814-T964933376 Sep 11 00:14:21:70332 Info ( 682): debug thread ends
+P32173-T669423360 Sep 12 20:32:08:376326 Info ( 676): debug thread starts
+P32173-T689731392 Sep 12 20:32:08:376439 Info (  85): message queue created.
+P32173-T689731392 Sep 12 20:32:08:376479 Debug( 316): 16 obsolete to GPI messages have been cleaned up.
+P32173-T689731392 Sep 12 20:32:08:377003 Debug(  58): Retrieve portal info.
+P32173-T689731392 Sep 12 20:32:08:377084 Debug( 385): Command = <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><portal-certificate-verification>yes</portal-certificate-verification></request>
+P32173-T689731392 Sep 12 20:32:08:377090 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P32173-T661030656 Sep 12 20:32:09:250012 Debug( 127): From GPA: <response><type>status</type><state>Disconnecting...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P32173-T689731392 Sep 12 20:32:09:380130 Debug( 419): Receive status message with state Disconnecting....
+P32173-T661030656 Sep 12 20:32:09:972668 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P32173-T689731392 Sep 12 20:32:10:381400 Debug( 419): Receive status message with state Retrieving configuration....
+P32173-T661030656 Sep 12 20:32:12:533903 Debug( 127): From GPA: <response><type>status</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P32173-T661030656 Sep 12 20:32:12:533928 Debug( 127): From GPA: <response><type>user_credential</type><error></error><auth-message>Authentication Failed. Enter NetID username/password</auth-message><server>uwmadison.vpn.wisc.edu</server><user-name>jbustamante</user-name><gateway></gateway><disable>no</disable><on-demand>yes</on-demand></response>.
+P32173-T689731392 Sep 12 20:32:13:394696 Debug( 419): Receive status message with state Disconnected.
+P32173-T689731392 Sep 12 20:32:20:470739 Debug( 376): Command Quque= <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><password>************</password><portal-certificate-verification>yes</portal-certificate-verification></request>
+P32173-T661030656 Sep 12 20:32:22:148205 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P32173-T689731392 Sep 12 20:32:22:473041 Debug( 419): Receive status message with state Retrieving configuration....
+P32173-T661030656 Sep 12 20:32:22:720391 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P32173-T661030656 Sep 12 20:32:22:720415 Debug( 127): From GPA: <response><disable>no</disable><on-demand>yes</on-demand></response>.
+P32173-T661030656 Sep 12 20:32:22:720421 Debug( 127): From GPA: <response><type>status</type><state>Discovering network...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P32173-T661030656 Sep 12 20:32:23:262629 Debug( 127): From GPA: <response><type>status</type><state>Connecting...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P32173-T689731392 Sep 12 20:32:23:476661 Debug( 419): Receive status message with state Retrieving configuration....
+P32173-T689731392 Sep 12 20:32:23:477391 Debug( 419): Receive status message with state Discovering network....
+P32173-T689731392 Sep 12 20:32:23:477862 Debug( 419): Receive status message with state Connecting....
+P32173-T661030656 Sep 12 20:32:23:534390 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P32173-T661030656 Sep 12 20:32:23:624660 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P32173-T689731392 Sep 12 20:32:24:480375 Debug( 593): Command is done with .
+P32173-T661030656 Sep 12 20:32:24:480493 Info ( 147): Stop reading messgae from GPA.
+P32173-T669423360 Sep 12 20:32:25:379124 Info ( 682): debug thread ends
+P22069-T1322272512 Sep 20 00:23:29:697584  nfo (  85):                                           Info ( 676): message queue created.
+                    P22069-T1342576448 Sep 20 00:23:29:697637 Debug( 316): 2 obsolete to GPI messages have been cleaned up.
+P22069-T1342576448 Sep 20 00:23:29:698155 Debug(  58): Retrieve portal info.
+P22069-T1342576448 Sep 20 00:23:29:698203 Debug( 385): Command = <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><portal-certificate-verification>yes</portal-certificate-verification></request>
+P22069-T1342576448 Sep 20 00:23:29:698206 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P22069-T1313879808 Sep 20 00:23:30:572937 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22069-T1342576448 Sep 20 00:23:30:701404 Debug( 419): Receive status message with state Retrieving configuration....
+P22069-T1313879808 Sep 20 00:23:30:753902 Debug( 127): From GPA: <response><type>status</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22069-T1313879808 Sep 20 00:23:30:753955 Debug( 127): From GPA: <response><type>user_credential</type><error></error><auth-message>Authentication Failed. Enter NetID username/password</auth-message><server>uwmadison.vpn.wisc.edu</server><user-name>jbustamante</user-name><gateway></gateway><disable>no</disable><on-demand>yes</on-demand></response>.
+P22069-T1342576448 Sep 20 00:23:31:702962 Debug( 419): Receive status message with state Disconnected.
+P22069-T1342576448 Sep 20 00:23:36:808741 Debug( 376): Command Quque= <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><password>************</password><portal-certificate-verification>yes</portal-certificate-verification></request>
+P22069-T1313879808 Sep 20 00:23:37:664299 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22069-T1342576448 Sep 20 00:23:37:810429 Debug( 419): Receive status message with state Retrieving configuration....
+P22069-T1313879808 Sep 20 00:23:38:327916 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22069-T1313879808 Sep 20 00:23:38:327945 Debug( 127): From GPA: <response><disable>no</disable><on-demand>yes</on-demand></response>.
+P22069-T1313879808 Sep 20 00:23:38:327953 Debug( 127): From GPA: <response><type>status</type><state>Discovering network...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22069-T1342576448 Sep 20 00:23:38:822446 Debug( 419): Receive status message with state Retrieving configuration....
+P22069-T1342576448 Sep 20 00:23:38:825254 Debug( 419): Receive status message with state Discovering network....
+P22069-T1313879808 Sep 20 00:23:38:901402 Debug( 127): From GPA: <response><type>status</type><state>Connecting...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22069-T1313879808 Sep 20 00:23:39:112061 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22069-T1313879808 Sep 20 00:23:39:564629 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P22069-T1342576448 Sep 20 00:23:39:827773 Debug( 419): Receive status message with state Connecting....
+P22069-T1342576448 Sep 20 00:23:39:829194 Debug( 593): Command is done with .
+P22069-T1313879808 Sep 20 00:23:39:829299 Info ( 147): Stop reading messgae from GPA.
+P22069-T1322272512 Sep 20 00:23:40:700193 Info ( 682): debug thread ends
+P3344-T-878700800 Sep 22 20:18:02:13380 Info ( 676): debug thread starts
+P3344-T-858396864 Sep 22 20:18:02:13439 Info (  85): message queue created.
+P3344-T-858396864 Sep 22 20:18:02:13455 Debug( 316): 2 obsolete to GPI messages have been cleaned up.
+P3344-T-858396864 Sep 22 20:18:02:13934 Debug(  58): Retrieve portal info.
+P3344-T-858396864 Sep 22 20:18:02:13995 Debug( 385): Command = <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><portal-certificate-verification>yes</portal-certificate-verification></request>
+P3344-T-858396864 Sep 22 20:18:02:13998 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P3344-T-887093504 Sep 22 20:18:02:735827 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P3344-T-887093504 Sep 22 20:18:02:886339 Debug( 127): From GPA: <response><type>status</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P3344-T-887093504 Sep 22 20:18:02:886352 Debug( 127): From GPA: <response><type>user_credential</type><error></error><auth-message>Authentication Failed. Enter NetID username/password</auth-message><server>uwmadison.vpn.wisc.edu</server><user-name>jbustamante</user-name><gateway></gateway><disable>no</disable><on-demand>yes</on-demand></response>.
+P3344-T-858396864 Sep 22 20:18:03:16852 Debug( 419): Receive status message with state Retrieving configuration....
+P3344-T-858396864 Sep 22 20:18:03:16927 Debug( 419): Receive status message with state Disconnected.
+P3344-T-858396864 Sep 22 20:18:09:119929 Debug( 376): Command Quque= <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><password>************</password><portal-certificate-verification>yes</portal-certificate-verification></request>
+P3344-T-887093504 Sep 22 20:18:09:866849 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P3344-T-858396864 Sep 22 20:18:10:121114 Debug( 419): Receive status message with state Retrieving configuration....
+P3344-T-887093504 Sep 22 20:18:10:498786 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P3344-T-887093504 Sep 22 20:18:10:498799 Debug( 127): From GPA: <response><disable>no</disable><on-demand>yes</on-demand></response>.
+P3344-T-887093504 Sep 22 20:18:10:498803 Debug( 127): From GPA: <response><type>status</type><state>Discovering network...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P3344-T-887093504 Sep 22 20:18:11:70334 Debug( 127): From GPA: <response><type>status</type><state>Connecting...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P3344-T-858396864 Sep 22 20:18:11:125893 Debug( 419): Receive status message with state Retrieving configuration....
+P3344-T-858396864 Sep 22 20:18:11:126732 Debug( 419): Receive status message with state Discovering network....
+P3344-T-858396864 Sep 22 20:18:11:127121 Debug( 419): Receive status message with state Connecting....
+P3344-T-887093504 Sep 22 20:18:11:281379 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P3344-T-887093504 Sep 22 20:18:11:852823 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P3344-T-858396864 Sep 22 20:18:12:128554 Debug( 593): Command is done with .
+P3344-T-887093504 Sep 22 20:18:12:128587 Info ( 147): Stop reading messgae from GPA.
+P3344-T-878700800 Sep 22 20:18:13:14665 Info ( 682): debug thread ends
+P26572-T2128742208 Sep 23 02:46:15:412047 Error( 119): Run GPI into prompt mode.
+P26572-T2108438272 Sep 23 02:46:15:412069 Info ( 676): debug thread starts
+P26572-T2128742208 Sep 23 02:46:15:412193 Info (  85): message queue created.
+P26572-T2128742208 Sep 23 02:46:15:412233 Debug( 316): 6 obsolete to GPI messages have been cleaned up.
+P26572-T2128742208 Sep 23 02:46:15:412364 Debug( 385): Command = <request><type>retrieve-last</type><uid>1000</uid></request>
+P26572-T2128742208 Sep 23 02:46:15:412376 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P26572-T2100045568 Sep 23 02:46:16:106095 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P26572-T2128742208 Sep 23 02:46:16:416235 Debug( 593): Command is done with Current GlobalProtect status: Connected.
+P26572-T2128742208 Sep 23 02:46:16:416299 Debug( 593): Command is done with 
+.
+P26572-T2128742208 Sep 23 02:46:20:897865 Debug( 385): Command = <request><type>disconnect</type><uid>1000</uid></request>
+P26572-T2100045568 Sep 23 02:46:21:231740 Debug( 127): From GPA: <response><type>status</type><state>Disconnecting...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P26572-T2100045568 Sep 23 02:46:21:472771 Debug( 127): From GPA: <response><type>status</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P26572-T2100045568 Sep 23 02:46:21:502921 Debug( 127): From GPA: <response><type>status</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P26572-T2100045568 Sep 23 02:46:21:502963 Debug( 127): From GPA: <response><type>disconnect</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P26572-T2128742208 Sep 23 02:46:21:913151 Debug( 593): Command is done with GlobalProtect status: Disconnected.
+P26572-T2128742208 Sep 23 02:46:21:913214 Debug( 593): Command is done with 
+.
+P26572-T2100045568 Sep 23 02:46:29:401678 Info ( 147): Stop reading messgae from GPA.
+P26572-T2108438272 Sep 23 02:46:29:414277 Info ( 682): debug thread ends
+P28013-T-1267488960 Sep 24 00:14:15:916402 Info (  85): message queue created.
+P28013-T-1267488960 Sep 24 00:14:15:916822 Debug( 316): 2 obsolete to GPI messages have been cleaned up.
+P28013-T-1287792896 Sep 24 00:14:15:917181 Info ( 676): debug thread starts
+P28013-T-1267488960 Sep 24 00:14:15:917470 Debug(  58): Retrieve portal info.
+P28013-T-1267488960 Sep 24 00:14:15:917694 Debug( 385): Command = <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><portal-certificate-verification>yes</portal-certificate-verification></request>
+P28013-T-1267488960 Sep 24 00:14:15:917728 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P28013-T-1296185600 Sep 24 00:14:17:664178 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P28013-T-1296185600 Sep 24 00:14:17:875084 Debug( 127): From GPA: <response><type>status</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P28013-T-1296185600 Sep 24 00:14:17:875116 Debug( 127): From GPA: <response><type>user_credential</type><error></error><auth-message>Authentication Failed. Enter NetID username/password</auth-message><server>uwmadison.vpn.wisc.edu</server><user-name>jbustamante</user-name><gateway></gateway><disable>no</disable><on-demand>yes</on-demand></response>.
+P28013-T-1267488960 Sep 24 00:14:17:922132 Debug( 419): Receive status message with state Retrieving configuration....
+P28013-T-1267488960 Sep 24 00:14:17:922422 Debug( 419): Receive status message with state Disconnected.
+P28013-T-1267488960 Sep 24 00:14:23:972309 Debug( 376): Command Quque= <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><password>************</password><portal-certificate-verification>yes</portal-certificate-verification></request>
+P28013-T-1296185600 Sep 24 00:14:25:796528 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P28013-T-1267488960 Sep 24 00:14:25:974787 Debug( 419): Receive status message with state Retrieving configuration....
+P28013-T-1296185600 Sep 24 00:14:26:338880 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P28013-T-1296185600 Sep 24 00:14:26:338909 Debug( 127): From GPA: <response><disable>no</disable><on-demand>yes</on-demand></response>.
+P28013-T-1296185600 Sep 24 00:14:26:338917 Debug( 127): From GPA: <response><type>status</type><state>Discovering network...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P28013-T-1296185600 Sep 24 00:14:26:911138 Debug( 127): From GPA: <response><type>status</type><state>Connecting...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P28013-T-1267488960 Sep 24 00:14:26:978776 Debug( 419): Receive status message with state Retrieving configuration....
+P28013-T-1267488960 Sep 24 00:14:26:979704 Debug( 419): Receive status message with state Discovering network....
+P28013-T-1267488960 Sep 24 00:14:26:980190 Debug( 419): Receive status message with state Connecting....
+P28013-T-1296185600 Sep 24 00:14:27:151966 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P28013-T-1267488960 Sep 24 00:14:27:983286 Debug( 593): Command is done with .
+P28013-T-1296185600 Sep 24 00:14:27:983397 Info ( 147): Stop reading messgae from GPA.
+P28013-T-1287792896 Sep 24 00:14:28:918627 Info ( 682): debug thread ends
+P17745-T-144656576 Sep 28 22:26:16:426054 Error( 119): Run GPI into prompt mode.
+P17745-T-164923648 Sep 28 22:26:16:426070 Info ( 676): debug thread starts
+P17745-T-144656576 Sep 28 22:26:16:426147 Info (  85): message queue created.
+P17745-T-144656576 Sep 28 22:26:16:426168 Debug( 316): 2 obsolete to GPI messages have been cleaned up.
+P17745-T-144656576 Sep 28 22:26:16:426273 Debug( 385): Command = <request><type>retrieve-last</type><uid>1000</uid></request>
+P17745-T-144656576 Sep 28 22:26:16:426278 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P17745-T-173316352 Sep 28 22:26:16:787295 Debug( 127): From GPA: <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P17745-T-144656576 Sep 28 22:26:17:429822 Debug( 593): Command is done with Current GlobalProtect status: OnDemand mode..
+P17745-T-144656576 Sep 28 22:26:17:429844 Debug( 593): Command is done with 
+.
+P17962-T1678780160 Sep 28 22:26:23:374262 Info ( 676): debug thread starts
+P17962-T1699047232 Sep 28 22:26:23:374321 Info (  85): message queue created.
+P17962-T1699047232 Sep 28 22:26:23:374375 Debug(  58): Retrieve portal info.
+P17962-T1699047232 Sep 28 22:26:23:374403 Debug( 385): Command = <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><portal-certificate-verification>yes</portal-certificate-verification></request>
+P17962-T1699047232 Sep 28 22:26:23:374414 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P17962-T1670387456 Sep 28 22:26:24:307245 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P17962-T1699047232 Sep 28 22:26:24:375841 Debug( 419): Receive status message with state Retrieving configuration....
+P17962-T1670387456 Sep 28 22:26:24:427552 Debug( 127): From GPA: <response><type>status</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P17962-T1670387456 Sep 28 22:26:24:427571 Debug( 127): From GPA: <response><type>user_credential</type><error></error><auth-message>Authentication Failed. Enter NetID username/password</auth-message><server>uwmadison.vpn.wisc.edu</server><user-name>jbustamante</user-name><gateway></gateway><disable>no</disable><on-demand>yes</on-demand></response>.
+P17962-T1699047232 Sep 28 22:26:25:376979 Debug( 419): Receive status message with state Disconnected.
+P18186-T-1009690880 Sep 28 22:26:30:376211 Info ( 676): debug thread starts
+P18186-T-989423808 Sep 28 22:26:30:376270 Info (  85): message queue created.
+P18186-T-989423808 Sep 28 22:26:30:376323 Debug(  58): Retrieve portal info.
+P18186-T-989423808 Sep 28 22:26:30:376345 Debug( 385): Command = <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><portal-certificate-verification>yes</portal-certificate-verification></request>
+P18186-T-989423808 Sep 28 22:26:30:376347 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P18186-T-1018083584 Sep 28 22:26:31:429399 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P18186-T-1018083584 Sep 28 22:26:31:579835 Debug( 127): From GPA: <response><type>status</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P18186-T-1018083584 Sep 28 22:26:31:579850 Debug( 127): From GPA: <response><type>user_credential</type><error></error><auth-message>Authentication Failed. Enter NetID username/password</auth-message><server>uwmadison.vpn.wisc.edu</server><user-name>jbustamante</user-name><gateway></gateway><disable>no</disable><on-demand>yes</on-demand></response>.
+P18186-T-989423808 Sep 28 22:26:32:377749 Debug( 419): Receive status message with state Retrieving configuration....
+P18186-T-989423808 Sep 28 22:26:32:377812 Debug( 419): Receive status message with state Disconnected.
+P18186-T-989423808 Sep 28 22:26:39:148957 Debug( 376): Command Quque= <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><password>************</password><portal-certificate-verification>yes</portal-certificate-verification></request>
+P18186-T-1018083584 Sep 28 22:26:40:605179 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P18186-T-1018083584 Sep 28 22:26:41:116619 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P18186-T-1018083584 Sep 28 22:26:41:116651 Debug( 127): From GPA: <response><disable>no</disable><on-demand>yes</on-demand></response>.
+P18186-T-1018083584 Sep 28 22:26:41:116656 Debug( 127): From GPA: <response><type>status</type><state>Discovering network...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P18186-T-989423808 Sep 28 22:26:41:150824 Debug( 419): Receive status message with state Retrieving configuration....
+P18186-T-989423808 Sep 28 22:26:41:153864 Debug( 419): Receive status message with state Retrieving configuration....
+P18186-T-989423808 Sep 28 22:26:41:154519 Debug( 419): Receive status message with state Discovering network....
+P18186-T-1018083584 Sep 28 22:26:41:658035 Debug( 127): From GPA: <response><type>status</type><state>Connecting...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P18186-T-1018083584 Sep 28 22:26:41:898969 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P18186-T-1018083584 Sep 28 22:26:41:989238 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P18186-T-989423808 Sep 28 22:26:42:155555 Debug( 419): Receive status message with state Connecting....
+P18186-T-989423808 Sep 28 22:26:42:156028 Debug( 593): Command is done with .
+P18186-T-1018083584 Sep 28 22:26:42:156066 Info ( 147): Stop reading messgae from GPA.
+P18186-T-1009690880 Sep 28 22:26:42:377491 Info ( 682): debug thread ends
+P18799-T-745429248 Sep 28 22:29:30:881332 Info ( 676): debug thread starts
+P18799-T-725162176 Sep 28 22:29:30:881802 Error( 119): Run GPI into prompt mode.
+P18799-T-725162176 Sep 28 22:29:30:881819 Info (  85): message queue created.
+P18799-T-725162176 Sep 28 22:29:30:881895 Debug( 385): Command = <request><type>retrieve-last</type><uid>1000</uid></request>
+P18799-T-725162176 Sep 28 22:29:30:881900 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P18799-T-753821952 Sep 28 22:29:31:874683 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P18799-T-725162176 Sep 28 22:29:31:883245 Debug( 593): Command is done with Current GlobalProtect status: Connected.
+P18799-T-725162176 Sep 28 22:29:31:883262 Debug( 593): Command is done with 
+.
+P18799-T-725162176 Sep 28 22:29:35:241640 Debug( 593): Command is done with Usage: globalprotect [4m[COMMAND][0m [[4mOPTIONS[0m] [[4margs[0m...] 
+
+[4mCOMMAND[0m: Specifies the action to perform. It can be one of the following:
+  collect-log            -- collect log information 
+  connect                -- connect to server 
+  disconnect             -- disconnect
+  disable                -- disable connection
+  import-certificate     -- import client certificate file
+  quit                   -- quit from prompt mode
+  rediscover-network     -- network rediscovery
+  remove-user            -- clear credential 
+  resubmit-hip           -- resubmit HIP information
+  set-log                -- set debug level
+  show                   -- show information
+
+[4mOPTIONS[0m: Specifies options for the selected command.
+  Input a command and then press tab to get options for the selected command.
+  Read more details in man globalprotect.
+
+[4mEXAMPLES[0m:
+  Connect to portal with user id:
+  >> connect -p gp.acme.com -u test
+
+  Show current status:
+  >> show --status
+
+.
+P22065-T1963710208 Sep 28 22:32:07:660575 Info ( 676): debug thread starts
+P22065-T1983977280 Sep 28 22:32:07:660638 Info (  85): message queue created.
+P22065-T1983977280 Sep 28 22:32:07:660701 Debug( 593): Command is done with Cannot parse command line.
+.
+P22065-T1955317504 Sep 28 22:32:07:660738 Info ( 147): Stop reading messgae from GPA.
+P22065-T1963710208 Sep 28 22:32:08:660747 Info ( 682): debug thread ends
+P4232-T1033537280 Sep 28 23:07:00:425998 Info ( 676): debug thread starts
+P4232-T1053804352 Sep 28 23:07:00:426058 Info (  85): message queue created.
+P4232-T1053804352 Sep 28 23:07:00:426072 Debug( 316): 2 obsolete to GPI messages have been cleaned up.
+P4232-T1053804352 Sep 28 23:07:00:426600 Debug(  58): Retrieve portal info.
+P4232-T1053804352 Sep 28 23:07:00:426646 Debug( 385): Command = <request><type>connect</type><uid>1000</uid><portal>uwmadison.vpn.wisc.edu</portal><user>jbustamante</user><portal-certificate-verification>yes</portal-certificate-verification></request>
+P4232-T1053804352 Sep 28 23:07:00:426652 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P4232-T1025144576 Sep 28 23:07:01:509680 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P4232-T1025144576 Sep 28 23:07:01:750833 Debug( 127): From GPA: <response><type>status</type><state>Retrieving configuration...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P4232-T1025144576 Sep 28 23:07:01:750844 Debug( 127): From GPA: <response><disable>no</disable><on-demand>yes</on-demand></response>.
+P4232-T1025144576 Sep 28 23:07:01:750848 Debug( 127): From GPA: <response><type>status</type><state>Discovering network...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P4232-T1025144576 Sep 28 23:07:01:841170 Debug( 127): From GPA: <response><type>invalid-gateway</type><error></error><auth-message>Enter your UW campus NetID login credentials</auth-message><gateway>uwmadison.vpn.wisc.edu</gateway><manual>no</manual><user-name>jbustamante</user-name><disable>no</disable><on-demand>yes</on-demand></response>.
+P4232-T1053804352 Sep 28 23:07:02:430469 Debug( 419): Receive status message with state Retrieving configuration....
+P4232-T1053804352 Sep 28 23:07:02:430532 Debug( 419): Receive status message with state Retrieving configuration....
+P4232-T1053804352 Sep 28 23:07:02:432854 Debug( 419): Receive status message with state Discovering network....
+P4232-T1053804352 Sep 28 23:07:10:232141 Debug( 376): Command Quque= <request><type>connect</type><uid>1000</uid><gateway>uwmadison.vpn.wisc.edu</gateway><manual>no</manual><user>jbustamante</user><password>************</password><portal-certificate-verification>yes</portal-certificate-verification></request>
+P4232-T1025144576 Sep 28 23:07:10:836911 Debug( 127): From GPA: <response><type>status</type><state>Discovering network...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P4232-T1053804352 Sep 28 23:07:11:233329 Debug( 419): Receive status message with state Discovering network....
+P4232-T1025144576 Sep 28 23:07:11:258189 Debug( 127): From GPA: <response><type>status</type><state>Connecting...</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P4232-T1025144576 Sep 28 23:07:11:498934 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P4232-T1025144576 Sep 28 23:07:11:559132 Debug( 127): From GPA: <response><type>status</type><state>Connected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P4232-T1053804352 Sep 28 23:07:12:236836 Debug( 419): Receive status message with state Connecting....
+P4232-T1053804352 Sep 28 23:07:12:237289 Debug( 593): Command is done with .
+P4232-T1025144576 Sep 28 23:07:12:237362 Info ( 147): Stop reading messgae from GPA.
+P4232-T1033537280 Sep 28 23:07:12:427451 Info ( 682): debug thread ends
+P5289-T1955362624 Sep 29 09:23:22:96036 Info (  85): message queue created.
+P5289-T1935095552 Sep 29 09:23:22:96042 Info ( 676): debug thread starts
+P5289-T1955362624 Sep 29 09:23:22:96162 Debug( 316): 11 obsolete to GPI messages have been cleaned up.
+P5289-T1955362624 Sep 29 09:23:22:96258 Debug( 385): Command = <request><type>disconnect</type><uid>1000</uid></request>
+P5289-T1955362624 Sep 29 09:23:22:96264 Debug( 389): CPanMsgQueue::encode - translate is NULL. craete it.
+P5289-T1926702848 Sep 29 09:23:23:243241 Debug( 127): From GPA: <response><type>disconnect</type><state>Disconnected</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>.
+P5289-T1955362624 Sep 29 09:23:24:101869 Debug( 593): Command is done with GlobalProtect status: Disconnected.
+P5289-T1955362624 Sep 29 09:23:24:101940 Debug( 593): Command is done with 
+.
+P5289-T1926702848 Sep 29 09:23:24:102025 Info ( 147): Stop reading messgae from GPA.
+P5289-T1935095552 Sep 29 09:23:25:97008 Info ( 682): debug thread ends

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="Realtek_ALC3234" mtime="1537844646" type="bool" value="true"/>
+</gconf>

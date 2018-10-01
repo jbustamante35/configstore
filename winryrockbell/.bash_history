@@ -1458,6 +1458,7 @@ l
 term
 sshx
 exit
+<<<<<<< HEAD
 l
 term
 sshx
@@ -2320,3 +2321,5 @@ vim MaxClass.cpp
 cd -
 cfv
 shutdown 
+=======
+>>>>>>> 1c4a07e7c697e8e86c020cf392433345e1d1a8eb

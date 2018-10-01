@@ -1,0 +1,34 @@
+
+
+-------session starts-------
+
+[10-1 7:8:45.431] INFO: MediaGallery: name=/home/jbustamante/Music, galleryId=1, isMediaDevice=false, deviceId=undefined
+[10-1 7:8:45.431] INFO: MediaGallery: name=/home/jbustamante/Pictures, galleryId=2, isMediaDevice=false, deviceId=undefined
+[10-1 7:8:45.432] INFO: MediaGallery: name=/home/jbustamante/Videos, galleryId=3, isMediaDevice=false, deviceId=undefined
+[10-1 7:8:45.434] INFO: Starts a quick scan on /home/jbustamante/Music
+[10-1 7:8:45.435] INFO: Iterating over dir / from source /home/jbustamante/Music
+[10-1 7:8:45.444] INFO: Starts a quick scan on /home/jbustamante/Pictures
+[10-1 7:8:45.444] INFO: Iterating over dir / from source /home/jbustamante/Pictures
+[10-1 7:8:45.444] INFO: Starts a quick scan on /home/jbustamante/Videos
+[10-1 7:8:45.444] INFO: Iterating over dir / from source /home/jbustamante/Videos
+[10-1 7:8:45.471] INFO: /home/jbustamante/Music does not contain music file
+[10-1 7:8:45.472] INFO: /home/jbustamante/Videos does not contain music file
+[10-1 7:8:45.496] INFO: Iterating over dir /acsii from source /home/jbustamante/Pictures
+[10-1 7:8:45.496] INFO: Got the drag_and_drop directory
+[10-1 7:8:45.498] INFO: Iterating over dir /Downloads from source /home/jbustamante/Pictures
+[10-1 7:8:45.616] INFO: Iterating over dir /Downloads/nintendo_icons from source /home/jbustamante/Pictures
+[10-1 7:8:45.617] INFO: Iterating over dir /Wallpapers from source /home/jbustamante/Pictures
+[10-1 7:8:45.620] INFO: Iterating over dir /Screenshots from source /home/jbustamante/Pictures
+[10-1 7:8:45.623] INFO: /home/jbustamante/Pictures does not contain music file
+[10-1 7:8:45.978] INFO: Fetched user settings from server.
+[10-1 7:8:45.988] INFO: chromeapp:E ready
+[10-1 7:8:46.594] INFO: lsUserAddedMusicSourceIds=null
+[10-1 7:8:46.595] INFO: lsLastTrackFailureLoggingTime=null
+[10-1 7:8:46.595] INFO: lsUserSelectedDownloadDirId=null
+[10-1 7:8:46.672] INFO: lsDefaultDownloadLocationId=null
+[10-1 7:8:46.672] INFO: Setting is already: lsAlwaysUseDefaultDownloadLocation = false
+[10-1 7:8:46.672] INFO: Setting is already: lsDefaultDownloadLocationId = null
+[10-1 7:8:46.833] INFO: lsAppActivated=false
+[10-1 7:8:46.833] INFO: lsDragAndDropActivated=false
+[10-1 7:8:46.833] INFO: Nacl version: 1.0.467.4929
+[10-1 7:8:46.837] INFO: lsAppActivated=false
