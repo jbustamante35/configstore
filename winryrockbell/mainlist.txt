@@ -1,0 +1,14 @@
+.bash_aliases
+.bash_functions
+.bash_it
+.bashrc
+.bashrcbak
+.bashrc.bak
+.oh-my-zsh
+.vim
+.viminfo
+.vimrc
+.zsh_aliases
+.zsh_functions
+.zshrc
+.zshrc.pre-oh-my-zsh
