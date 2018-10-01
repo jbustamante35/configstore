@@ -1,0 +1,166 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/jbustamante/Dropbox/ComputerProgramming/CodingFun
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :c++/apps/funstuff/classpractice/TestVSCode/include/TestMe.hpp
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/include/
+> git show :c++/apps/funstuff/classpractice/TestVSCode/src/TestMe.cpp
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/src/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :c++/apps/funstuff/classpractice/TestVSCode/include/TestMe.hpp
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/include/
+> git show :c++/apps/funstuff/classpractice/TestVSCode/src/TestMe.cpp
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/src/
+> git show :c++/apps/funstuff/classpractice/TestVSCode/test/TestMeTest.cpp
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/test/
+> git show :c++/apps/funstuff/classpractice/TestVSCode/include/TestMe.hpp
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/include/
+> git show :c++/apps/funstuff/classpractice/TestVSCode/src/TestMe.cpp
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/src/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git check-ignore -z --stdin
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :c++/apps/funstuff/classpractice/TestVSCode/test/CMakeLists.txt
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/test/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :c++/apps/funstuff/classpractice/TestVSCode/CMakeLists.txt
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/
+> git show :c++/apps/funstuff/classpractice/TestVSCode/test/CMakeLists.txt
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/test/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :c++/apps/funstuff/classpractice/TestVSCode/test/TestMeTest.cpp
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/test/
+> git show :c++/apps/funstuff/classpractice/TestVSCode/CMakeLists.txt
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/
+> git show :c++/apps/funstuff/classpractice/TestVSCode/test/TestMeTest.cpp
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/test/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git check-ignore -z --stdin
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :c++/apps/funstuff/classpractice/TestVSCode/test/CMakeLists.txt
+> git ls-files --stage -- c++/apps/funstuff/classpractice/TestVSCode/test/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose

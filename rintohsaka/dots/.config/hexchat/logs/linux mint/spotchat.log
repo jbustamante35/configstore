@@ -1,0 +1,83 @@
+**** BEGIN LOGGING AT Sun Sep  9 01:21:12 2018
+
+Sep 09 01:21:12 *	MAP MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=SpotChat NICKLEN=31 OVERRIDE PREFIX=(Yqaohv)!~&@%+ REMOVE SECURELIST :are supported by this server
+Sep 09 01:21:12 *	SSL=212.71.233.192:6697 STARTTLS STATUSMSG=!~&@%+ TOPICLEN=307 UHNAMES VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+Sep 09 01:21:12 *	898AAKW4N :your unique ID
+Sep 09 01:21:12 *	lamia.uk.SpotChat.org message of the day
+Sep 09 01:21:12 *	-               _____             __       __          __
+Sep 09 01:21:12 *	-              / ___/____  ____  / /______/ /_  ____ _/ /_
+Sep 09 01:21:12 *	-              \__ \/ __ \/ __ \/ __/ ___/ __ \/ __ `/ __/
+Sep 09 01:21:12 *	-             ___/ / /_/ / /_/ / /_/ /__/ / / / /_/ / /_
+Sep 09 01:21:12 *	-            /____/ .___/\____/\__/\___/_/ /_/\__,_/\__/
+Sep 09 01:21:12 *	-                /__/
+Sep 09 01:21:12 *	-                     http://spotchat.org/imprint/
+Sep 09 01:21:12 *	-                     http://spotchat.org/servers/
+Sep 09 01:21:12 *	- 
+Sep 09 01:21:12 *	- =============================================================================
+Sep 09 01:21:12 *	-                       RULES (FOR THOSE WITHOUT COMMON SENSE)
+Sep 09 01:21:12 *	- =============================================================================
+Sep 09 01:21:12 *	- : On connecting to this Network you are agreeing to be scanned for open
+Sep 09 01:21:12 *	-      Proxies. Please disregard any messages from Monitoring or Security
+Sep 09 01:21:12 *	-      software about this matter, it helps us keep our network a safe place.
+Sep 09 01:21:12 *	- : Bots are allowed if they cause no harm to other Users on this Network or 
+Sep 09 01:21:12 *	-      annoy them in any way. Bots disturbing the normal flow of this Network
+Sep 09 01:21:12 *	-      are not allowed.
+Sep 09 01:21:12 *	- : Bots are to be marked with the usermode +B ( /MODE nick +B )
+Sep 09 01:21:12 *	- : 3 connections per IP are allowed on this IRC Network. Exceptions can be 
+Sep 09 01:21:12 *	-      arranged in consultation with the Operators. 
+Sep 09 01:21:12 *	- : NOT allowed: hacking of any kind, warez, XDCC, dissemination of pornographic content,
+Sep 09 01:21:12 *	-      overexposure of violence, trolling and flooding/spamming.
+Sep 09 01:21:12 *	- : Listen to the IRC Operators and respect their decisions. Decisions made
+Sep 09 01:21:12 *	-      by the IRC Operators are final.
+Sep 09 01:21:12 *	- 
+Sep 09 01:21:12 *	- The Operators of this Network reserve the right to block Channels or Users 
+Sep 09 01:21:12 *	- who breach these rules and to change the above rules without prior notice.
+Sep 09 01:21:12 *	- 
+Sep 09 01:21:12 *	- Anyone who operates computer sabotage against us make themselves liable 
+Sep 09 01:21:12 *	- to prosecution under Section 303b of the German Criminal Code and we will 
+Sep 09 01:21:12 *	- press charges against them.
+Sep 09 01:21:12 *	- 
+Sep 09 01:21:12 *	- =============================================================================
+Sep 09 01:21:12 *	-                       SOME IMPORTANT COMMANDS (NO SHORTCUTS)
+Sep 09 01:21:12 *	- =============================================================================
+Sep 09 01:21:12 *	- vHosts:
+Sep 09 01:21:12 *	-       /MSG HostServ HELP REQUEST
+Sep 09 01:21:12 *	- Nicks:
+Sep 09 01:21:12 *	-       /MSG NickServ HELP REGISTER
+Sep 09 01:21:12 *	-       /MSG NickServ HELP SET
+Sep 09 01:21:12 *	- Channels:
+Sep 09 01:21:12 *	-       /MSG ChanServ HELP REGISTER
+Sep 09 01:21:12 *	-       /MSG ChanServ HELP FLAGS
+Sep 09 01:21:12 *	- 
+Sep 09 01:21:12 *	- =============================================================================
+Sep 09 01:21:12 *	-            SPOTCHAT ADMINISTRATION: See http://spotchat.org/staff/
+Sep 09 01:21:12 *	- =============================================================================
+Sep 09 01:21:12 *	- In case a User is masquerading as an IRC-Op and no Operator can be found
+Sep 09 01:21:12 *	-    please immediately contact Network management!
+Sep 09 01:21:12 *	- 
+Sep 09 01:21:12 *	- Contact Us via (in order of fastest service to slowest): 
+Sep 09 01:21:12 *	- 1) The #SpotChat Channel
+Sep 09 01:21:12 *	- 2) Email us at opers@spotchat.org
+Sep 09 01:21:12 *	- 3) http://spotchat.org/contact/
+Sep 09 01:21:12 *	- =============================================================================
+Sep 09 01:21:12 *	End of message of the day.
+Sep 09 01:21:12 *	There are 23 users and 360 invisible on 7 servers
+Sep 09 01:21:12 *	4 :operator(s) online
+Sep 09 01:21:12 *	1 :unknown connections
+Sep 09 01:21:12 *	91 :channels formed
+Sep 09 01:21:12 *	I have 179 clients and 1 servers
+Sep 09 01:21:12 *	Current Local Users: 179  Max: 387
+Sep 09 01:21:12 *	Current Global Users: 383  Max: 483
+Sep 09 01:21:12 *	SpotChat-einhai.resnet.wisc.edu :is now your displayed host
+Sep 09 01:21:12 *	jbustamante sets mode +i on jbustamante
+Sep 09 01:21:12 *	jbustamante sets mode +x on jbustamante
+Sep 09 01:21:12 *	jbustamante sets mode +R on jbustamante
+Sep 09 01:21:12 -InfoServ-	*** Message(s) of the Day ***
+Sep 09 01:21:12 -InfoServ-	[New connect modes] Notice from r00t, posted 16:57 on 09/05/2018:
+Sep 09 01:21:12 -InfoServ-	We now set usermode +R by default when you connect to SpotChat. This means PMs from unregistered users are blocked. This is a good time to register with SpotChat services if you haven't already. See /msg NickServ help REGISTER   for help with that, or go to the #SpotChat channel.
+Sep 09 01:21:12 -InfoServ-	[SASL Authentication mechanisms] Notice from r00t, posted 01:24 on 03/05/2015:
+Sep 09 01:21:12 -InfoServ-	DH-BLOWFISH and DH-AES is no longer supported. If you are using any of these, please switch to either PLAIN or ECDSA-NIST256p-CHALLENGE
+Sep 09 01:21:12 -InfoServ-	*** End of Message(s) of the Day ***
+Sep 09 01:21:12 -NickServ-	Welcome to SpotChat, jbustamante! Here on SpotChat, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+**** ENDING LOGGING AT Sun Sep  9 01:23:07 2018
+

@@ -1,0 +1,333 @@
+# vim: filetype=i3
+#                                      `++
+#:-`                                  .syys.                                  `-:
+#-yyyo+:.`                           :yyyyyy:                           `.:+oyyy-
+# +yyyyyyyso/-.              .      +yyyyyyyy+      .              .-/osyyyyyyy+
+# `syyyyyyyyyyyys+/-`      :s`    ./++++++++++/.    `s:      `-/+syyyyyyyyyyyys`
+#  -yyyyyyyyyyyyyyyyyyo+:-+y:    :ys.        .sy:    :y+-:+oyyyyyyyyyyyyyyyyyy-
+#     `..-://+oosyyyyyyyyyyy`   +yyyy:      :yyyy+   `yyyyyyyyyyysoo+//:-..`
+#                  `..-:/yyy  .syyyyyy+`  `+yyyyyys.  yyy/:-..`
+#                 ``..--:yyy.-yyyyyyyyys..syyyyyyyyy:.yyy:--..``
+#     -://++oossyyyyyyyyyyyyo-......................-oyyyyyyyyyyyyssoo++//:-
+#     `syyyyyyyyyyyyyys+//yyyo.                    .oyyy//osyyyyyyyyyyyyyys`
+#      `syyyyyyyys+:.`  `:syyyys/-`     //     `-/syyyys:`  `-:+syyyyyyyys`
+#       `syyo/:.      .+yyyysyyyyyyo`  +yy/  `oyyyyyysyyyy+.      .:/oyys`
+#        ``        `/syyyyo. +yyyyyy. oyyyyo .yyyyyy+ .oyyyys/`        ``
+#               `:oyyyyys-  -yyy/--` +yyyyyy+ `--/yyy-  -syyyyyo:`
+#             `+yyyyyys:   .yyys    /yyyyyyyy/    syyy.   :syyyyyy+`
+#              `:oyyy/`   `syyy/   .:oyyyyyyo/.   /yyys`   `/yyyo:`
+#                 .:`     oyyyy`   `` .syys. ``   .yyyyo     `:.
+#                        ./++o+   +yy` /yy/ `yy+   +o++/.
+#                                /ys. -yyyy- .sy/
+#                        ```````/ys.  .yyyy.  .sy/```````
+#                        :syy++++oyo`  :yy:  `oyo++++yys:
+#                          -o/   :.     ++     .:   /o-
+#                            `          ``          `
+#                                       ______
+#                                     _ |___  )
+#                                    (_)  __) )
+#                                    | | |__  )
+#                                    | | ___) )
+#                                    |_||_____)
+#
+# Should you change your keyboard layout some time, delete
+# this file and re-run i3-config-wizard(1).
+# i3 config file (v4)
+# Please see https://i3wm.org/docs/userguide.html for a complete reference!
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+# This font is widely installed, provides lots of unicode glyphs, right-to-left
+# text rendering and scalability on retina/hidpi displays (thanks to pango).
+font pango:DejaVu Sans Mono 8
+
+
+# i3-gaps config
+for_window [class="^.*"] border pixel 2
+gaps inner 15
+gaps outer 15
+set $mod Mod4
+set $stoprec --no-startup-id dmenurecord kill
+set $shutdown sudo -A shutdown -h now
+set $reboot sudo -A reboot
+set $netrefresh --no-startup-id sudo -A systemctl restart NetworkManager
+set $hibernate sudo -A systemctl suspend
+
+# Starting External Scripts [unavailable are commented out]
+# Setting the background and colorscheme:
+exec_always --no-startup-id wal -i ~/.config/wall.png
+# Starts dunst for notifications:
+exec --no-startup-id dunst
+# Torrent daemon:
+#exec --no-startup-id transmission-daemon
+# Composite manager:
+exec --no-startup-id compton
+# Runs the key remapping scripts
+#exec --no-startup-id ~/.scripts/remaps
+# Unclutter makes the mouse invisible after a brief period
+#exec --no-startup-id unclutter
+# Run the script to update the mpd i3block on change.
+#exec --no-startup-id i3mpdupdate
+# Remove recording icon if not properly closed on last shutdown.
+#exec --no-startup-id rm -f ~/.larbs/.recording
+# Network manager applet
+#exec --no-startup-id nm-applet
+# mpd startup
+#exec --no-startup-id mpd
+
+
+
+# i3-gaps resizing
+bindsym $mod+t	split toggle
+bindsym $mod+Shift+t	gaps inner current set 15; gaps outer current set 15
+bindsym $mod+s	gaps inner current plus 5
+bindsym $mod+Shift+s	gaps inner current minus 5
+bindsym $mod+z	gaps outer current plus 5
+bindsym $mod+Shift+z	gaps outer current minus 5
+bindsym $mod+Shift+d	gaps inner current set 0; gaps outer current set 0
+
+# Volume control
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle                mute sound
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%          increase sound volume +5
+bindsym Shift+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%    increase sound volume +10
+bindsym Control+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%  increase sound volume +1
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%          decrease sound volume -5
+bindsym Shift+XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%    decrease sound volume -10
+bindsym Control+XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%  decrease sound volume -1
+
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume +5
+#bindsym Shift+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume +10
+#bindsym Control+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume +1
+#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% #decrease sound volume -5
+#bindsym Shift+XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% #decrease sound volume -10
+#bindsym Control+XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% #decrease sound volume -1
+
+# Media player controls
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+# Brightness control
+bindsym XF86MonBrightnessDown   exec --no-startup-id xbacklight -dec 5
+bindsym Shift+XF86MonBrightnessDown   exec --no-startup-id xbacklight -dec 10
+bindsym Control+XF86MonBrightnessDown   exec --no-startup-id xbacklight -dec 1
+bindsym XF86MonBrightnessUp     exec --no-startup-id xbacklight -inc 5
+bindsym Shift+XF86MonBrightnessUp     exec --no-startup-id xbacklight -inc 10
+bindsym Control+XF86MonBrightnessUp     exec --no-startup-id xbacklight -inc 1
+bindsym XF86Display             exec --no-startup-id arandr
+
+# Touchpad controls
+bindsym XF86TouchpadToggle exec /usr/local/bin/toggletouchpad.sh # toggle touchpad
+
+# Function buttons
+bindsym $mod+F1  exec --no-startup-id okular ~/.config/i3/i3_guide.pdf
+#bindsym $mod+F2  [VOLUME MUTE]
+#bindsym $mod+F3 [VOLUME DOWN]
+#bindsym $mod+F4 [VOLUME UP]
+#bindsym $mod+F5  [BLUETOOTH TOGGLE]
+#bindsym $mod+F6  [WIFI TOGGLE]
+#bindsym $mod+F7  exec --no-startup-id td-toggle
+#bindsym $mod+F8  exec --no-startup-id ~/.config/mutt/etc/mailsync.sh
+#bindsym $mod+F9  exec --no-startup-id dmenumount
+#bindsym $mod+F10 exec --no-startup-id dmenuumount
+#bindsym $mod+F11 [BRIGHTNESS DOWN]
+#bindsym $mod+F12 [BRIGHTNESS UP]
+
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+## Main menu items
+set $term --no-startup-id $TERMINAL
+bindsym $mod+Return     exec $term
+bindsym $mod+Shift+q kill
+bindsym $mod+d exec --no-startup-id dmenu_run
+
+## Applications
+# terminals
+bindsym $mod+Shift+b exec gnome-terminal --profile="Wolfen"
+bindsym $mod+b exec gnome-terminal --profile="BlueMarine"
+bindsym $mod+Shift+n exec gnome-terminal --profile="Arwing"
+bindsym $mod+n exec gnome-terminal --profile="Landmaster"
+
+# browsers
+bindsym $mod+Shift+g    exec --no-startup-id $BROWSER
+bindsym $mod+Shift+f    exec --no-startup-id firefox
+bindsym $mod+Shift+h    exec --no-startup-id qutebrowser
+
+# file managers and settings
+bindsym $mod+r exec gnome-terminal --profile="Wolfen" -e ranger
+bindsym $mod+Shift+r exec gnome-terminal --profile="BlueMarine" -e sudo ranger
+bindsym $mod+Control+h  exec $term -e htop
+
+## Window movers
+# change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+semicolon move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal/verical orientation
+bindsym $mod+| split h
+bindsym $mod+\ split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+m layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
+# switch to workspace
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+0 move container to workspace 10
+
+# restart i3 [can substitude with 'reload' if wanted]
+bindsym $mod+Shift+c restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# misc
+bindsym $mod+u                  [instance="dropdown"] scratchpad show; [instance="dropdown"] move position center
+bindsym $mod+y                  exec $term -e calcurse
+
+# improved resize than method below
+bindsym $mod+Shift+y            exec --no-startup-id "bash ~/.scripts/i3resize left"
+bindsym $mod+Shift+o            exec --no-startup-id "bash ~/.scripts/i3resize right"
+bindsym $mod+Shift+u            exec --no-startup-id "bash ~/.scripts/i3resize down"
+bindsym $mod+Shift+i            exec --no-startup-id "bash ~/.scripts/i3resize up"
+
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+#bindsym $mod+r mode "resize"
+
+# Set Xresources colors:
+set_from_resource $darkblack    color0  #000000
+set_from_resource $black    color8  #000000
+set_from_resource $darkred  color1  #000000
+set_from_resource $red      color9  #000000
+set_from_resource $darkgreen    color2  #000000
+set_from_resource $green    color10 #000000
+set_from_resource $darkyellow   color3  #000000
+set_from_resource $yellow   color11 #000000
+set_from_resource $darkblue color4  #000000
+set_from_resource $blue     color12 #000000
+set_from_resource $darkmagenta  color5  #000000
+set_from_resource $magenta  color13 #000000
+set_from_resource $darkcyan color6  #000000
+set_from_resource $cyan     color14 #000000
+set_from_resource $darkwhite    color7  #000000
+set_from_resource $white    color15 #000000
+set $transparent        #00000000
+
+# colors
+set $bgcolor 393939
+set $fgcolor 48B685
+set $txtcolor DFEFE2
+set $urgent EF6155
+
+#                       BORDER          BACKGROUND      TEXT            INDICATOR   CHILD_BORDER
+client.focused          $red            $red            $magenta        $darkmagenta            $darkblue
+client.unfocused        $transparent    $blue           $white          $darkblue               $darkblack
+client.focused_inactive $transparent    $blue           $white          $darkblue               $darkblack
+client.urgent           $darkred        $darkred        $black          $darkred                $darkred
+client.background $black
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+bar {
+	font pango:DejaVu Sans Mono 11
+	colors {
+		background $darkblack
+		statusline $txtcolor
+		separator $cyan
+        focused_workspace  $blue $darkblue $darkblack
+        active_workspace   $blue $blue $darkwhite
+        inactive_workspace $darkblack $darkblack $white
+        urgent_workspace   $darkblack $darkblack $white
+	}
+    #status_command i3status
+	status_command i3blocks
+	position bottom
+	mode dark
+	modifier None
+}
+
+
+
