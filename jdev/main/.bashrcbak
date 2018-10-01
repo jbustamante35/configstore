@@ -1,0 +1,19 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+if [ -f ~/.bash_aliases ]; then
+	. ~/.bash_aliases
+fi
+
+if [ -f ~/.bash_functions ]; then
+	. ~/.bash_functions
+fi
+
+# added by Anaconda3 installer
+export PATH="/home/jbustamante/anaconda3/bin:$PATH"
+source ~/.shortcuts
+. /home/jbustamante/anaconda3/etc/profile.d/conda.sh

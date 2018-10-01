@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="display_workspace_names" mtime="1519345955" type="bool" value="false"/>
+	<entry name="num_rows" mtime="1519345948" type="int" value="2"/>
+	<entry name="display_all_workspaces" mtime="1519345951" type="bool" value="true"/>
+</gconf>

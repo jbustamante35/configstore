@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="cursor_blink_time" mtime="1519343703" type="int" value="1000"/>
+	<entry name="cursor_blink" mtime="1519343699" type="bool" value="true"/>
+	<entry name="gtk_color_scheme" mtime="1519343303" type="string">
+		<stringvalue>fg_color:#000000000000
+bg_color:#ffffffffffff
+text_color:#000000000000
+base_color:#e817fac8fa8e
+selected_fg_color:#ffffffffffff
+selected_bg_color:#33f69e59299b
+tooltip_fg_color:#000000000000
+tooltip_bg_color:#df00f699fa23</stringvalue>
+	</entry>
+	<entry name="icon_theme" mtime="1519343031" type="string">
+		<stringvalue>Crux</stringvalue>
+	</entry>
+	<entry name="gtk_theme" mtime="1519342954" type="string">
+		<stringvalue>Glossy</stringvalue>
+	</entry>
+	<entry name="gtk-im-module" mtime="1538345796" type="string">
+		<stringvalue>gtk-im-context-simple</stringvalue>
+	</entry>
+</gconf>
