@@ -53,5 +53,12 @@ cnoreabbrev aG Ack
 cnoreabbrev Ag Ack                                                                           
 cnoreabbrev AG Ack 
 
+" Navigation settings
+nmap ,t :tabnew<CR>
+nmap ,w :tabclose<CR>
+nmap ,, :tabnext<CR>
+nmap ,. :tabprevious<CR>
+
+
 
 
