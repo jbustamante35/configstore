@@ -1,0 +1,32 @@
+{
+    "auto-launch": false,
+    "enableJSON_API": true,
+    "miniUseScrollVolume": false,
+    "minToTray": true,
+    "nativeFrame": true,
+    "savePage": true,
+    "scrollLyrics": true,
+    "startMinimized": false,
+    "theme": false,
+    "themeColor": "#2196F3",
+    "themeType": "FULL",
+    "themeTypeShouldTrackSystem": false,
+    "preventDisplaySleep": false,
+    "enableWin10MediaService": false,
+    "enableWin10MediaServiceTrackInfo": true,
+    "lastFMMapThumbToHeart": true,
+    "service": "google-play-music",
+    "uuid": "2d6bf8cf-a19d-4cbd-88b0-64024d67d4eb",
+    "fullscreen": false,
+    "maximized": false,
+    "position": [
+        542,
+        202
+    ],
+    "size": [
+        1200,
+        800
+    ],
+    "welcomed": "4.6.1",
+    "lastPage": "https://play.google.com/music/listen#/pl/AMaBXyldBnDt3Djj7K0XsLeX5NTSqSCpEjg-9e5ZfOjkM1ICA7oOClr899XjPV8Gr7WiZ9iZ3uJEQF_GR8MzEc-OC2mh4kLFYA%3D%3D"
+}

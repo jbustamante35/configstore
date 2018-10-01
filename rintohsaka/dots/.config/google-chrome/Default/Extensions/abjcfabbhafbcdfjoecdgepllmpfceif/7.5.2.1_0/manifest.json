@@ -1,0 +1,58 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "glcBfdh/cuzzRj.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "Fjtq/16.png",
+         "19": "Fjtq/19.png",
+         "24": "Fjtq/24.png",
+         "32": "Fjtq/32.png",
+         "38": "Fjtq/38.png",
+         "48": "Fjtq/48.png",
+         "64": "Fjtq/64.png"
+      },
+      "default_title": "__MSG_extName__"
+   },
+   "content_scripts": [ {
+      "css": [ "whuRsE/hgxaWgm.css" ],
+      "exclude_matches": [ "*://*.youtube.com/embed/*", "*://*.youtube.com/tv*", "*://gaming.youtube.com/" ],
+      "js": [ "glcBfdh/PbRa.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "glcBfdh/qWXiAsW.js" ],
+      "matches": [ "https://www.mycinema.pro/options.html*" ]
+   }, {
+      "exclude_matches": [ "https://www.mycinema.pro/options.html*" ],
+      "js": [ "glcBfdh/tgOS.js" ],
+      "matches": [ "https://www.mycinema.pro/*" ]
+   } ],
+   "content_security_policy": "default-src 'self';connect-src 'self' https://www.mycinema.pro https://www.google-analytics.com https://appn.center https://clients2.google.com;report-uri https://appn.center/apiv1/csp;",
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "Fjtq/128.png",
+      "16": "Fjtq/16.png",
+      "24": "Fjtq/24.png",
+      "32": "Fjtq/32.png",
+      "48": "Fjtq/48.png",
+      "64": "Fjtq/64.png",
+      "96": "Fjtq/96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDyfOC0uiQNOM7ITQ13U1fOKx/SBYgiUJf8yjLOcjEHs+MrAw3dUWWEYsR8LfUpzKKzhvtxugI+fwpdG4cfEIFuQQgmkZgJfFHmoDuBQmDO7QB4+SXk8lq6nLb4JwujZ6rOJ6LYPX0PDtPMaynAI8jiRI1HpGJVSBA5epPrJZo1cQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "27.0",
+   "name": "__MSG_extName__",
+   "offline_enabled": true,
+   "options_page": "qHIVS.html",
+   "options_ui": {
+      "chrome_style": false,
+      "page": "qHIVS.html"
+   },
+   "permissions": [ "tabs", "contextMenus", "http://*/*", "https://*/*" ],
+   "short_name": "MAFY",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.5.2.1"
+}

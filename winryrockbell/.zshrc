@@ -19,10 +19,11 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 plugins=(
     zsh-autosuggestions
     git
+    git-extras
+    git-prompt
     extract
     web-search
     vagrant
-    git-extras
     cp
     vi-mode
     colorize
