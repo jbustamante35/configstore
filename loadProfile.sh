@@ -1,6 +1,6 @@
 #!/bin/bash
 
-man=~/Documents/configstore/synclist.txt
+man=~/Documents/configstore/dotlist.txt
 
 while IFS=" " read -r line || [[ -n "$line" ]]; do
         if [[ ! "$line" =~ "#" ]]; then
