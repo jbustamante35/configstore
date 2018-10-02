@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<history>
+<session>
+<command time_stamp="1660471ca04">%-- 09/22/2018 10:20:58 PM --%</command>
+<command execution_time="268">cd SampleData/</command>
+<command execution_time="200">cd Data/</command>
+<command error="true" execution_time="52914">SphinctoPlotter</command>
+<command execution_time="2216">edit SphinctoPlotter.m</command>
+<command execution_time="1142">load('180922_oldoutput.mat')</command>
+<command execution_time="41">SphinctolyzerOutputs</command>
+<command execution_time="150">cd /home/jbustamante/Dropbox/EdgarSpalding/Software/</command>
+<command execution_time="167">cd sphinctolyzer/</command>
+<command execution_time="118">ls</command>
+<command execution_time="163">cd sampledata/data/</command>
+<command execution_time="352">clear all ; close all; close force;</command>
+<command error="true" execution_time="12874">SphinctoPlotter</command>
+<command execution_time="707">clear all ; close all; close force;</command>
+<command execution_time="865">edit SphinctoPlotter.m</command>
+<command error="true" execution_time="5182">SphinctoPlotter</command>
+<command execution_time="14">dataout = '/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/sampledata/data/180922_oldoutput.mat'</command>
+<command execution_time="984">load(dataout)</command>
+<command execution_time="1513">SphinctoPlotter(dataout)</command>
+<command execution_time="27">Shifts</command>
+<command execution_time="22">Shifts(1)</command>
+<command error="true" execution_time="43">Shifts(2)</command>
+<command execution_time="82">Shifts</command>
+<command execution_time="28">xprime</command>
+<command execution_time="31">size(xprime)</command>
+<command execution_time="19">yprime</command>
+<command execution_time="7">INTERPFRM</command>
+<command execution_time="19">y</command>
+<command execution_time="75">xprimegrid</command>
+<command execution_time="71">yprimegrid</command>
+<command execution_time="30">size(xprimegrid), size(yprimegrid)</command>
+<command execution_time="31">x</command>
+<command execution_time="26">y</command>
+<command execution_time="253">X2</command>
+<command execution_time="18">size(X2)</command>
+<command execution_time="23">size(Y2)</command>
+<command execution_time="92">figure</command>
+<command execution_time="331">imagesc(xprime)</command>
+<command execution_time="50">imagesc(yprime)</command>
+<command execution_time="73">imagesc(X2)</command>
+<command execution_time="59">imagesc(Y2)</command>
+<command execution_time="69">imagesc(Xr)</command>
+<command execution_time="76">imagesc(Yr)</command>
+<command execution_time="67">plt(xprime)</command>
+<command execution_time="42">plot(xprime)</command>
+<command execution_time="51">plot(yprime)</command>
+<command execution_time="59">plot(x)</command>
+<command execution_time="49">plot(y)</command>
+<command execution_time="41">imagesc(zprimegrid)</command>
+<command execution_time="102">colormap gray</command>
+<command execution_time="46">axis tight</command>
+<command execution_time="21">Range</command>
+<command execution_time="25">j</command>
+<command execution_time="26" repeat="3">SphinctolyzerOutputs(j)</command>
+<command execution_time="69">ls</command>
+<command execution_time="40">SphinctolyzerOutputs(j)</command>
+<command execution_time="27">SphinctolyzerOutputs(j).([ChannelStrings{i} 'XDistances'])</command>
+<command execution_time="30">class(SphinctolyzerOutputs(j).([ChannelStrings{i} 'XDistances']))</command>
+<command execution_time="32">double(SphinctolyzerOutputs(j).([ChannelStrings{i} 'XDistances']))</command>
+<command execution_time="26">class(double(SphinctolyzerOutputs(j).([ChannelStrings{i} 'XDistances'])))</command>
+<command execution_time="24">Intensities</command>
+<command execution_time="25">FuncData</command>
+<command execution_time="9">i</command>
+<command execution_time="20">DATA</command>
+<command execution_time="29">SphinctolyzerOutputs(j)</command>
+<command execution_time="30">SphinctolyzerOutputs(j).([ChannelStrings{i} DATA 'Intensities'])</command>
+<command execution_time="48">(SphinctolyzerOutputs(j).([ChannelStrings{i} DATA 'Intensities']) - FuncData.([ChannelStrings{i} 'Med']))</command>
+<command execution_time="33">FuncData</command>
+<command error="true" execution_time="43">(FuncData.(matlab.lang.makeValidName([ChannelStrings{i}, 'Max'])) - FuncData.(matlab.lang.makeValidName([ChannelStrings{i}, 'Med'])</command>
+<command error="true" execution_time="58">(FuncData.(matlab.lang.makeValidName([ChannelStrings{i}, 'Max'])) - FuncData.(matlab.lang.makeValidName([ChannelStrings{i}, 'Med']))</command>
+<command execution_time="22">(FuncData.(matlab.lang.makeValidName([ChannelStrings{i}, 'Max'])) - FuncData.(matlab.lang.makeValidName([ChannelStrings{i}, 'Med'])))</command>
+<command execution_time="33">FuncData</command>
+<command execution_time="38">FuncData.DAGMax - FuncData.DAGMed</command>
+<command execution_time="31">IntSubtract                      = (SphinctolyzerOutputs(j).([ChannelStrings{i} DATA 'Intensities']) - FuncData.([ChannelStrings{i} 'Med']));</command>
+<command execution_time="52">MaxSubtract                      = FuncData.([ChannelStrings{i} 'Max']) - FuncData.([ChannelStrings{i} 'Med'])</command>
+<command execution_time="35">Intensities                      = IntSubtract / MaxSubtract</command>
+<command execution_time="39">Intensities                      = (SphinctolyzerOutputs(j).(matlab.lang.makeValidName([ChannelStrings{i}, DATA, 'Intensities'])) - FuncData.(matlab.lang.makeValidName([ChannelStrings{i}, 'Med']))) / (FuncData.(matlab.lang.makeValidName([ChannelStrings{i}, 'Max'])) - FuncData.(matlab.lang.makeValidName([ChannelStrings{i}, 'Med'])))</command>
+<command execution_time="1234" repeat="3">SphinctoPlotter(dataout)</command>
+<command execution_time="91">imagesc(zprimegrid)</command>
+<command execution_time="44">imagesc(Intensities)</command>
+<command execution_time="68">plot(Intensities)</command>
+<command execution_time="48">plot(XVals)</command>
+<command execution_time="38">plot(MaxSubtract)</command>
+<command execution_time="24">MaxSubtract</command>
+<command execution_time="24">IntSubtract</command>
+<command execution_time="39">plot(IntSubtract)</command>
+<command execution_time="1215">SphinctoPlotter(dataout)</command>
+<command execution_time="49">imagesc(xprimegrid)</command>
+<command execution_time="48">imagesc(yprimegrid)</command>
+<command execution_time="46">imagesc(zprimegrid)</command>
+<command execution_time="29">colormap default</command>
+<command execution_time="260">Z2r</command>
+<command execution_time="157">imagesc(Z2r)</command>
+<command execution_time="25">Range</command>
+<command execution_time="27">Shifts</command>
+<command execution_time="23">Shifts.([ChannelStrings{i} 'Shifts'])</command>
+<command execution_time="24">y</command>
+<command execution_time="22">Range</command>
+<command execution_time="23">Shifts.([ChannelStrings{i} 'Shifts'])</command>
+<command error="true" execution_time="52">interp1(Range, [Shifts.([ChannelStrings{i} 'Shifts']), y])</command>
+<command execution_time="18">ShiftInterp</command>
+<command execution_time="95">plot(ShiftInterp)</command>
+<command execution_time="46">ShiftInterp = interp1(Range, [Shifts.(matlab.lang.makeValidName([ChannelStrings{i}, 'Shifts']))], y)</command>
+<command error="true" execution_time="28">interp1(Range, [Shifts.([ChannelStrings{i} 'Shifts']), y)</command>
+<command execution_time="27">interp1(Range, [Shifts.([ChannelStrings{i} 'Shifts'])], y)</command>
+<command execution_time="23">Shifts.([ChannelStrings{i} 'Shifts'])</command>
+<command execution_time="32">[Shifts.([ChannelStrings{i} 'Shifts'])]</command>
+<command execution_time="29">interp1(Range, Shifts.([ChannelStrings{i} 'Shifts']), y)</command>
+<command error="true" execution_time="8">interp1(Range, Shifts.([ChannelStrings{i} 'Shifts']), y)4</command>
+<command execution_time="44">interp1(Range, Shifts.([ChannelStrings{i} 'Shifts']), y)</command>
+<command execution_time="32">ShiftInterp = interp1(Range, [Shifts.(matlab.lang.makeValidName([ChannelStrings{i}, 'Shifts']))], y)</command>
+<command execution_time="29">X = interp1(Range, Shifts.([ChannelStrings{i} 'Shifts']), y)</command>
+<command execution_time="33">ShiftInterp = interp1(Range, [Shifts.(matlab.lang.makeValidName([ChannelStrings{i}, 'Shifts']))], y)</command>
+<command execution_time="32">ShiftInterp == X</command>
+<command execution_time="1384">SphinctoPlotter(dataout)</command>
+<command execution_time="62">imagesc(ShiftInterp)</command>
+<command execution_time="39">plot(ShiftInterp)</command>
+<command execution_time="25">ShiftInterp</command>
+<command execution_time="19">y</command>
+<command error="true" execution_time="31">length(y0</command>
+<command execution_time="8">length(y)</command>
+<command execution_time="29">xprime</command>
+<command execution_time="16">ShiftInterp</command>
+<command execution_time="18">xprime</command>
+<command execution_time="37">xprime - ShiftInterp(1)</command>
+<command execution_time="21">ShiftInterp</command>
+<command execution_time="23">y</command>
+<command execution_time="286">Z2r</command>
+<command execution_time="58">imagesc(Z2r)</command>
+<command execution_time="32">k</command>
+<command execution_time="37">x</command>
+<command execution_time="86">plot(x)</command>
+<command execution_time="50">plot(y)</command>
+<command error="true" execution_time="157">Xvals</command>
+<command execution_time="20">XVals</command>
+<command execution_time="23">xprime</command>
+<command execution_time="21">ShiftInterp</command>
+<command execution_time="26">ShiftInterp(i)</command>
+<command execution_time="22">ShiftInterp(k)</command>
+<command execution_time="25">xprime</command>
+<command execution_time="35">arrayfun(@(x) xprime - x, ShiftInterp, 'UniformOutput', 0)</command>
+<command execution_time="266">Z2r</command>
+<command execution_time="41">Z2r(k,:)</command>
+<command execution_time="283">Z2r</command>
+<command execution_time="18">XVals</command>
+<command execution_time="32">XVals = arrayfun(@(x) xprime - x, ShiftInterp, 'UniformOutput', 0)</command>
+<command execution_time="287">cat(1, XVals{:})</command>
+<command execution_time="280">XVals = cat(1, XVals{:})</command>
+<command execution_time="16">size(XVals)</command>
+<command execution_time="19">size(Z2r)</command>
+<command execution_time="37">x</command>
+<command execution_time="18">size(x)</command>
+<command execution_time="5">size(Z2r)</command>
+<command execution_time="19">size(XVals)</command>
+<command execution_time="22">size(x)</command>
+<command execution_time="47">interp1(XVals(1,:), Z2r(1,:), x)</command>
+<command error="true" execution_time="53">arrayfun(@(a,b) interp1(a, b, x), XVals, Z2r, 'UniformOutput', 0)</command>
+<command execution_time="35">size(x)</command>
+<command execution_time="27">size(XVals)</command>
+<command execution_time="22">size(Z2r)</command>
+<command execution_time="21">size(x)</command>
+<command error="true" execution_time="55">interp2(XVals, Z2r, x)</command>
+<command error="true" execution_time="36">interp2(XVals, Z2r, x, x)</command>
+<command error="true" execution_time="41">interp2(XVals, Z2r, x)</command>
+<command execution_time="56">x</command>
+<command error="true" execution_time="60">interp2(XVals, Z2r, length(x))</command>
+<command execution_time="318">help interpolateOutline</command>
+<command execution_time="520">help interp1</command>
+<command execution_time="160">arrayfun(@(x) interp1(XVals(x,:), Z2r(x,:), x), 1:size(XVals,1), 'UniformOutput', 0)</command>
+<command error="true" execution_time="70">arrayfun(@(x) interp1(XVals(x,:), Z2r(x,:), x), 1:size(XVals,2), 'UniformOutput', 0)</command>
+<command execution_time="308">XVals</command>
+<command execution_time="25">size(XVals)</command>
+<command execution_time="25">size(Z2r)</command>
+<command error="true" execution_time="59">interp1(XVals(200,:), Z2r(200,:), x)</command>
+<command execution_time="13">length(y)</command>
+<command execution_time="99">arrayfun(@(x) interp1(XVals(x,:), Z2r(x,:), x), 1:size(XVals, 1), 'UniformOutput', 0)</command>
+<command execution_time="9">size(XVals,1)</command>
+<command execution_time="96">arrayfun(@(a) interp1(XVals(a,:), Z2r(a,:), x), 1:size(XVals, 1), 'UniformOutput', 0)</command>
+<command error="true" execution_time="41">arrayfun(@(a) interp1(XVals(a,:), Z2r(a,:), x), 1:size(XVals, 1), 'UniformOutput', 0)(:)</command>
+<command execution_time="81">cat(1, arrayfun(@(a) interp1(XVals(a,:), Z2r(a,:), x), 1:size(XVals, 1), 'UniformOutput', 0))</command>
+<command execution_time="303">cell2mat(arrayfun(@(a) interp1(XVals(a,:), Z2r(a,:), x), 1:size(XVals, 1), 'UniformOutput', 0))</command>
+<command execution_time="67">X = arrayfun(@(a) interp1(XVals(a,:), Z2r(a,:), x), 1:size(XVals, 1), 'UniformOutput', 0)</command>
+<command execution_time="245">cat(1, X{:})</command>
+<command execution_time="14">size(cat(1, X{:}))</command>
+<command execution_time="68">X = arrayfun(@(a) interp1(XVals(a,:), Z2r(a,:), x), 1:size(XVals, 1), 'UniformOutput', 0)</command>
+<command execution_time="28">X{1}</command>
+<command execution_time="29">X{50}</command>
+<command execution_time="49">x</command>
+<command execution_time="253">XVals</command>
+<command execution_time="279">Z2r</command>
+<command execution_time="272">Z2r         = interp2(xprimegrid, yprimegrid, zprimegrid, X2, Y2)</command>
+<command execution_time="87">X = arrayfun(@(a) interp1(XVals(a,:), Z2r(a,:), x), 1:size(XVals, 1), 'UniformOutput', 0)</command>
+<command execution_time="193">Y = cat(1, X{:})</command>
+<command execution_time="66">imagesc(Y)</command>
+<command error="true" execution_time="57">imagesc(X)</command>
+<command execution_time="57">imagesc(Z2r)</command>
+<command execution_time="42">imagesc(XVals)</command>
+<command execution_time="42">imagesc(Z2r)</command>
+<command execution_time="46">plot(x)</command>
+<command batch="1" error="true">Zr    = arrayfun(@(a,b) interp1(XVals(x,:), Z2r(x,:), x), 1:length(y), 'UniformOutput', 0);</command>
+<command batch="1" error="true" execution_time="48">Zr    = cat(1, Zr{:});</command>
+<command batch="2" error="true">XVals = arrayfun(@(x) xprime - x, ShiftInterp, 'UniformOutput', 0);</command>
+<command batch="2" error="true">Zr    = arrayfun(@(a,b) interp1(XVals(x,:), Z2r(x,:), x), 1:length(y), 'UniformOutput', 0);</command>
+<command batch="2" error="true" execution_time="56">Zr    = cat(1, Zr{:});</command>
+<command batch="3" error="true">XVals = arrayfun(@(x) xprime - x, ShiftInterp, 'UniformOutput', 0);</command>
+<command batch="3" error="true">XVals = cat(1, XVals{:});</command>
+<command batch="3" error="true">Zr    = arrayfun(@(a,b) interp1(XVals(x,:), Z2r(x,:), x), 1:length(y), 'UniformOutput', 0);</command>
+<command batch="3" error="true" execution_time="48">Zr    = cat(1, Zr{:});</command>
+<command batch="4">XVals = arrayfun(@(x) xprime - x, ShiftInterp, 'UniformOutput', 0);</command>
+<command batch="4" execution_time="33">XVals = cat(1, XVals{:});</command>
+<command error="true" execution_time="46">Zr    = arrayfun(@(a,b) interp1(XVals(x,:), Z2r(x,:), x), 1:length(y), 'UniformOutput', 0);</command>
+<command batch="5" error="true">Z2r         = interp2(xprimegrid, yprimegrid, zprimegrid, X2, Y2);</command>
+<command batch="5" error="true">Zr          = zeros(size(Xr));</command>
+<command batch="5" error="true">ShiftInterp = interp1(Range, Shifts.([ChannelStrings{i} 'Shifts']), y);</command>
+<command batch="5" error="true">%%</command>
+<command batch="5" error="true">XVals = arrayfun(@(x) xprime - x, ShiftInterp, 'UniformOutput', 0);</command>
+<command batch="5" error="true">XVals = cat(1, XVals{:});</command>
+<command batch="5" error="true">Zr    = arrayfun(@(a,b) interp1(XVals(x,:), Z2r(x,:), x), 1:length(y), 'UniformOutput', 0);</command>
+<command batch="5" error="true" execution_time="93">Zr    = cat(1, Zr{:});</command>
+<command batch="6" error="true">zprimegrid = NaN(size(xprimegrid));</command>
+<command batch="6" error="true">for r = Range'</command>
+<command batch="6" error="true">XVals       = double(SphinctolyzerOutputs(r).([ChannelStrings{i} 'XDistances']));</command>
+<command batch="6" error="true">IntSubtract = (SphinctolyzerOutputs(r).([ChannelStrings{i} DATA 'Intensities']) - FuncData.([ChannelStrings{i} 'Med']));</command>
+<command batch="6" error="true">MaxSubtract = FuncData.([ChannelStrings{i} 'Max']) - FuncData.([ChannelStrings{i} 'Med']);</command>
+<command batch="6" error="true">Intensities = IntSubtract / MaxSubtract;</command>
+<command batch="6" error="true">zprimegrid(r - min(Range)+1, :) = interp1(XVals, Intensities, xprime);</command>
+<command batch="6" error="true">end</command>
+<command batch="6" error="true">%%</command>
+<command batch="6" error="true">Z2r         = interp2(xprimegrid, yprimegrid, zprimegrid, X2, Y2);</command>
+<command batch="6" error="true">Zr          = zeros(size(Xr));</command>
+<command batch="6" error="true">ShiftInterp = interp1(Range, Shifts.([ChannelStrings{i} 'Shifts']), y);</command>
+<command batch="6" error="true">%%</command>
+<command batch="6" error="true">XVals = arrayfun(@(x) xprime - x, ShiftInterp, 'UniformOutput', 0);</command>
+<command batch="6" error="true">XVals = cat(1, XVals{:});</command>
+<command batch="6" error="true">Zr    = arrayfun(@(a,b) interp1(XVals(x,:), Z2r(x,:), x), 1:length(y), 'UniformOutput', 0);</command>
+<command batch="6" error="true" execution_time="70">Zr    = cat(1, Zr{:});</command>
+<command execution_time="135">Zr    = arrayfun(@(a) interp1(XVals(a,:), Z2r(a,:), x), 1:length(y), 'UniformOutput', 0)</command>
+<command execution_time="29">Zr    = cat(1, Zr{:});</command>
+<command execution_time="51">imagesc(Zr)</command>
+<command batch="7">Z2r         = interp2(xprimegrid, yprimegrid, zprimegrid, X2, Y2);</command>
+<command batch="7">Zr          = zeros(size(Xr));</command>
+<command batch="7">ShiftInterp = interp1(Range, Shifts.([ChannelStrings{i} 'Shifts']), y);</command>
+<command batch="7">%%</command>
+<command batch="7">XVals = arrayfun(@(x) xprime - x, ShiftInterp, 'UniformOutput', 0);</command>
+<command batch="7">XVals = cat(1, XVals{:});</command>
+<command batch="7">Zr    = arrayfun(@(a) interp1(XVals(a,:), Z2r(a,:), x), 1:length(y), 'UniformOutput', 0);</command>
+<command batch="7" execution_time="78">Zr    = cat(1, Zr{:});</command>
+<command execution_time="163">imagesc(Zr)</command>
+<command execution_time="42">imagesc(Z2r)</command>
+<command batch="8">for k = 1 : length(y)</command>
+<command batch="8">XVals       = xprime - ShiftInterp(k);</command>
+<command batch="8">Intensities = Z2r(k, :);</command>
+<command batch="8">Zr(k, :)    = interp1(XVals, Intensities, x);</command>
+<command batch="8" execution_time="228">end</command>
+<command execution_time="46">imagesc(Zr)</command>
+<command execution_time="43">plot(ShiftInterp)</command>
+<command execution_time="19">size(ShiftInterp)</command>
+<command execution_time="202">Zr</command>
+<command execution_time="34">Shifts</command>
+<command execution_time="15">Shifts'</command>
+<command execution_time="24">ShiftInterp</command>
+<command execution_time="56">plot(ShiftInterp)</command>
+<command execution_time="26">Shifts.([ChannelStrings{i} 'Shifts'])</command>
+<command execution_time="32">y</command>
+<command execution_time="23">y'</command>
+<command execution_time="22">size(Shifts.([ChannelStrings{i} 'Shifts']))</command>
+<command execution_time="28">size(y)</command>
+<command execution_time="24">size(Range)</command>
+<command execution_time="1257" repeat="2">SphinctoPlotter(dataout)</command>
+<command execution_time="25">ChannelStrings</command>
+<command execution_time="25">centroids</command>
+<command execution_time="25">i</command>
+<command execution_time="10">{SphinctolyzerOutputs(i).(matlab.lang.makeValidName([SphinctolyzerOutputs(1).RefChannel{:},'Outline']))}</command>
+<command execution_time="452">SphinctolyzerOutputs(i).(matlab.lang.makeValidName([SphinctolyzerOutputs(1).RefChannel{:},'Outline']))</command>
+<command execution_time="1589" repeat="2">SphinctoPlotter(dataout)</command>
+<command execution_time="20">ShiftsB</command>
+<command execution_time="22">ShiftsB(1)</command>
+<command execution_time="17">ShiftsB(2)</command>
+<command execution_time="25">ShiftsB(24)</command>
+<command execution_time="19">Shifts</command>
+<command execution_time="28">Shifts.DAGShifts(24)</command>
+<command execution_time="71">imagesc(Zr)</command>
+<command execution_time="1633" repeat="2">SphinctoPlotter(dataout)</command>
+<command execution_time="20">Range</command>
+<command execution_time="22">ShiftsB</command>
+<command execution_time="14">ShiftsB.([ChannelStrings{i} 'Shifts'])</command>
+<command execution_time="30">ShiftInterp = interp1(Range, [Shifts.(matlab.lang.makeValidName([ChannelStrings{i},'Shifts']))],y)</command>
+<command execution_time="1504">SphinctoPlotter(dataout)</command>
+<command execution_time="19">ShiftInterp</command>
+<command execution_time="22">ShiftInterpB</command>
+<command execution_time="31">isequal(ShiftInterp, ShiftInterpB)</command>
+<command execution_time="1546">SphinctoPlotter(dataout)</command>
+<command execution_time="24">size(Zr)</command>
+<command execution_time="57">imagesc(Zr)</command>
+<command execution_time="21">IntensityOut</command>
+<command execution_time="1554" repeat="2">SphinctoPlotter(dataout)</command>
+<command error="true" execution_time="314" repeat="2">IntensityOut</command>
+<command execution_time="1544">SphinctoPlotter(dataout)</command>
+<command batch="9" execution_time="21" repeat="2">IntensityOut</command>
+<command batch="9" execution_time="35">IntensityOutB</command>
+<command execution_time="91">imagesc(IntensityOutB.Calcium)</command>
+<command execution_time="38" repeat="2">imagesc(IntensityOut.Calcium)</command>
+<command execution_time="22">IntensityOutB</command>
+<command execution_time="57">imagesc(IntensityOutB.PKCbeta)</command>
+<command execution_time="42">imagesc(IntensityOut.PKCbeta)</command>
+<command execution_time="21">IntensityOut</command>
+<command execution_time="53">imagesc(IntensityOut.PKCbeta)</command>
+<command execution_time="48">imagesc(IntensityOutB.PKCbeta)</command>
+<command execution_time="17">IntensityOutB</command>
+<command execution_time="28">IntensityOutB(1)</command>
+<command error="true" execution_time="51">IntensityOutB(2)</command>
+<command execution_time="20">r</command>
+<command execution_time="11">InterpolationX</command>
+<command execution_time="20">INTERPFRM</command>
+<command execution_time="9210" repeat="2">SphinctoPlotter(dataout)</command>
+<command execution_time="27">IntensityOut</command>
+<command execution_time="20" repeat="2">['plot(x,IntensityOut.',(matlab.lang.makeValidName(ChannelStrings{j})), '(i,:),''color'', [',num2str(MAT_COLOR{j}),'] ,''linewidth'',4)']</command>
+<command execution_time="17">MAT_COLOR</command>
+<command execution_time="21">MAT_COLOR{j}</command>
+<command execution_time="24">[MAT_COLOR{j}]</command>
+<command execution_time="43">MAT_COLOR{j}</command>
+<command execution_time="9901">SphinctoPlotter(dataout)</command>
+<command execution_time="206">Y</command>
+<command execution_time="25">Y(j,:)</command>
+<command execution_time="23">j</command>
+<command execution_time="22">i</command>
+<command execution_time="22">size(Zr)</command>
+<command execution_time="134">imagesc(Zr)</command>
+<command execution_time="1772">SphinctoPlotter(dataout)</command>
+<command execution_time="23">savename</command>
+<command execution_time="1236" repeat="4">SphinctoPlotter(dataout)</command>
+<command execution_time="73">imagesc(Z2r)</command>
+<command execution_time="56">imagesc(zprimegrid)</command>
+<command execution_time="17">r</command>
+<command execution_time="21">min(Range)</command>
+<command execution_time="8">min(Range)+1</command>
+<command execution_time="24">xprime</command>
+<command execution_time="1211">SphinctoPlotter(dataout)</command>
+<command execution_time="19">r</command>
+<command execution_time="61">zprimegrid</command>
+<command execution_time="41">plot(zprimegrid(1,:))</command>
+<command execution_time="30">XVals</command>
+<command execution_time="25">Intensities</command>
+<command execution_time="40">plot(XVals, Intensities)</command>
+<command execution_time="38">plot(Intensities, XVals)</command>
+<command execution_time="15">plot(XVals, Intensities)</command>
+<command execution_time="33">[XVals Intensities]</command>
+<command execution_time="23">size([XVals Intensities])</command>
+<command execution_time="15">size(xprime)</command>
+<command execution_time="52">imagesc(zprimegrid)</command>
+<command execution_time="93">zprimegrid</command>
+<command execution_time="15">size(zprimegrid)</command>
+<command execution_time="21">size(zprimegrid')</command>
+<command execution_time="38">imagesc(zprimegrid')</command>
+<command execution_time="99">zprimegrid'</command>
+<command execution_time="26">size(zprimegrid)</command>
+<command execution_time="64">imagesc(zprimegrid)</command>
+<command execution_time="336">edit ../../plots/SphinctolyzerMoviePlotter.m</command>
+<command error="true" execution_time="977">SphinctolyzerMoviePlotter(dataout)</command>
+<command execution_time="529">edit SphinctalyzerPlotter.m</command>
+<command error="true" execution_time="4174">SphinctalyzerPlotter</command>
+<command execution_time="356">edit SphinctalyzerMoviePlotter.m</command>
+<command error="true" execution_time="3964">SphinctalyzerMoviePlotter</command>
+<command execution_time="329">edit CentroidfromOutline.m</command>
+<command error="true" execution_time="3936">SphinctalyzerMoviePlotter</command>
+<command execution_time="300">edit OutlineDistfromCentroid.m</command>
+<command execution_time="3741">SphinctalyzerMoviePlotter</command>
+<command execution_time="15">Shifts</command>
+<command execution_time="14" repeat="2">Shifts.DAGShifts</command>
+<command execution_time="32">Shifts.CalciumShifts</command>
+<command execution_time="31">Shifts.PKCbetaShifts</command>
+<command execution_time="20">Shifts</command>
+<command execution_time="86">imagesc(zprimegrid)</command>
+<command execution_time="84">zprimegrid</command>
+<command execution_time="20" repeat="3">IntensityOut</command>
+<command execution_time="56">IntensityOut.DAG</command>
+<command execution_time="53">imagesc(IntensityOut.DAG)</command>
+<command execution_time="42">imagesc(IntensityOut.Calcium)</command>
+<command execution_time="17">imagesc(IntensityOut.PKCbeta)</command>
+<command execution_time="60">Zr</command>
+<command execution_time="56">imagesc(Zr)</command>
+<command execution_time="21">Shifts</command>
+<command execution_time="18">ShiftInterp</command>
+<command execution_time="31">plot(ShiftInterp)</command>
+<command execution_time="26">xprime</command>
+<command execution_time="11">x</command>
+<command execution_time="10">TypeString</command>
+<command execution_time="28">(FuncData.(matlab.lang.makeValidName([ChannelStrings{i},'Max']))-FuncData.(matlab.lang.makeValidName([ChannelStrings{i},'Med'])))</command>
+<command execution_time="32">(SphinctalyzerOutputs(j).(matlab.lang.makeValidName([ChannelStrings{i},TypeString,'Intensities']))-FuncData.(matlab.lang.makeValidName([ChannelStrings{i},'Med'])))</command>
+<command execution_time="37">Intensities</command>
+<command execution_time="18">SphinctalyzerOutputs</command>
+<command execution_time="28">SphinctalyzerOutputs(j)</command>
+<command execution_time="21">i</command>
+<command execution_time="22">ChannelStrings{i}</command>
+<command execution_time="18">[ChannelStrings{i} TypeString 'Intensities']</command>
+<command error="true" execution_time="28">SphinctalyzerOutputs(j).[ChannelStrings{i} TypeString 'Intensities'])</command>
+<command execution_time="27">SphinctalyzerOutputs(j).([ChannelStrings{i} TypeString 'Intensities'])</command>
+<command execution_time="37">plot(SphinctalyzerOutputs(j).([ChannelStrings{i} TypeString 'Intensities']))</command>
+<command execution_time="15">FuncData</command>
+<command execution_time="4565">SphinctalyzerMoviePlotter</command>
+<command execution_time="905">clear all ; close all; close force;</command>
+<command execution_time="8971" repeat="2">SphinctalyzerMoviePlotter</command>
+<command execution_time="34">gcf</command>
+<command execution_time="62">getframe(gcf)</command>
+<command execution_time="460">help getframe</command>
+<command execution_time="262">help movie</command>
+<command execution_time="154">help im2frame</command>
+<command execution_time="320">help VideoWriter</command>
+<command error="true" execution_time="6952" repeat="5">SphinctalyzerMoviePlotter</command>
+<command execution_time="574">clear all ; close all; close force;</command>
+<command error="true" execution_time="8366" repeat="2">SphinctalyzerMoviePlotter</command>
+<command execution_time="414">clear all ; close all; close force;</command>
+<command error="true" execution_time="8479" repeat="5">SphinctalyzerMoviePlotter</command>
+<command execution_time="142">figure</command>
+<command error="true" execution_time="248">ax</command>
+<command execution_time="73">ax = gca</command>
+<command execution_time="79">getframe(gca)</command>
+<command execution_time="84">getframe(gcf)</command>
+<command execution_time="12584">SphinctalyzerMoviePlotter</command>
+<command execution_time="15">ScanMovie4</command>
+<command execution_time="1283">ScanMovie4.cdata</command>
+<command execution_time="14">ScanMovie4</command>
+<command execution_time="77">figure</command>
+<command batch="10" error="true">for i = 1 : 24</command>
+<command batch="10" error="true">imagesc(ScanMovie4.cdata(:,:,i));</command>
+<command batch="10" error="true">drawnow;</command>
+<command batch="10" error="true" execution_time="98">end</command>
+<command execution_time="28">ScanMovie4</command>
+<command execution_time="16">ScanMovie4(1)</command>
+<command batch="11">for i = 1 : 24</command>
+<command batch="11">imagesc(ScanMovie4(i).cdata);</command>
+<command batch="11">drawnow;</command>
+<command batch="11" execution_time="1276">end</command>
+<command batch="12">for i = 1 : 24</command>
+<command batch="12">imagesc(ScanMovie4(i).cdata);</command>
+<command batch="12">pause(0.5);</command>
+<command batch="12" execution_time="12774">end</command>
+<command execution_time="481">edit LabelConverter.m</command>
+<command error="true" execution_time="189">SphinctoPlotter(dataout)</command>
+<command execution_time="21">dataout = '/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/sampledata/data/180922_oldoutput.mat'</command>
+<command execution_time="1407">SphinctoPlotter(dataout)</command>
+<command execution_time="253">Zr</command>
+<command execution_time="18">IntensityOut</command>
+<command execution_time="296">XVals</command>
+<command error="true" execution_time="22">imagesc(XVals</command>
+<command execution_time="88">imagesc(XVals)</command>
+<command execution_time="1410">SphinctoPlotter(dataout)</command>
+<command execution_time="237">XVals</command>
+<command execution_time="261">Z2r</command>
+<command execution_time="68">imagesc(Z2r)</command>
+<command execution_time="22">IntensityOut</command>
+<command execution_time="104">IntensityVals</command>
+<command execution_time="23">size(IntensityVals)</command>
+<command execution_time="14">SphinctolyzerOutputs</command>
+<command execution_time="82">SphinctolyzerOutputs.([ChannelStrings{1} DATA 'Intensities'])</command>
+<command execution_time="171">cat(2, SphinctolyzerOutputs.([ChannelStrings{1} DATA 'Intensities']))</command>
+<command error="true" execution_time="44">cat(1, SphinctolyzerOutputs.([ChannelStrings{1} DATA 'Intensities']))</command>
+<command error="true" execution_time="45">cat(3, SphinctolyzerOutputs.([ChannelStrings{1} DATA 'Intensities']))</command>
+<command error="true" execution_time="504">IntensityVals=[SphinctalyzerOutputs(Range).(matlab.lang.makeValidName([ChannelStrings{i},TypeString,'Intensities']))]</command>
+<command error="true" execution_time="277">IntensityVals=[SphinctalyzerOutputs(Range).(matlab.lang.makeValidName([ChannelStrings{i},DATA,'Intensities']))]</command>
+<command execution_time="77">IntensityVals=[SphinctolyzerOutputs(Range).(matlab.lang.makeValidName([ChannelStrings{i},DATA,'Intensities']))]</command>
+<command execution_time="307">XVals</command>
+<command execution_time="59">XVals         = cat(2, SphinctolyzerOutputs.([ChannelStrings{i}, 'XDistances']))</command>
+<command error="true" execution_time="277">XVals=[SphinctalyzerOutputs(Range).(matlab.lang.makeValidName([ChannelStrings{i},'XDistances']))]</command>
+<command execution_time="55">XVals=[SphinctolyzerOutputs(Range).(matlab.lang.makeValidName([ChannelStrings{i},'XDistances']))]</command>
+<command execution_time="15">XVals         = cat(2, SphinctolyzerOutputs.([ChannelStrings{i}, 'XDistances']));</command>
+<command execution_time="15">XValsB=[SphinctolyzerOutputs(Range).(matlab.lang.makeValidName([ChannelStrings{i},'XDistances']))];</command>
+<command execution_time="25">isequal(XVals, XValsB)</command>
+<command error="true" execution_time="535">centroids=CentroidfromOutline({SphinctalyzerOutputs.(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:}, 'Outline']))})</command>
+<command execution_time="267">centroids=CentroidfromOutline({SphinctolyzerOutputs.(matlab.lang.makeValidName([SphinctolyzerOutputs(1).RefChannel{:}, 'Outline']))})</command>
+<command batch="13">refch     = char(SphinctolyzerOutputs(1).RefChannel);</command>
+<command batch="13">rawlines  = arrayfun(@(x) x.([refch 'Outline']), SphinctolyzerOutputs, 'UniformOutput', 0);</command>
+<command batch="13">outlines  = rawlines(~cellfun(@isempty, rawlines));</command>
+<command batch="13" execution_time="256">centroids = centroidFromOutline(outlines)</command>
+<command execution_time="201">shft      = arrayfun(@(x) dist2centroid(centroids(x,:), outlines{x}), Range, 'UniformOutput', 0)</command>
+<command batch="14">for ch = 1 : numel(ChannelStrings)</command>
+<command batch="14">Shifts.([ChannelStrings{ch} 'Shifts']) = cell2mat(shft);</command>
+<command batch="14" execution_time="21">end</command>
+<command execution_time="24">Shifts</command>
+<command execution_time="25">Shifts.DAGShifts</command>
+<command batch="15" error="true">for i = min(Range):max(Range)</command>
+<command batch="15" error="true">for j = 1:size(ChannelStrings,1)</command>
+<command batch="15" error="true">Shifts(i).(matlab.lang.makeValidName([ChannelStrings{j},'Shifts']))=OutlineDistfromCentroid(centroids(i,:), {SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))});</command>
+<command batch="15" error="true">end</command>
+<command batch="15" error="true" execution_time="69">end</command>
+<command execution_time="19">SphinctalyzerOutputs = SphinctolyzerOutputs</command>
+<command batch="16">for i = min(Range):max(Range)</command>
+<command batch="16">for j = 1:size(ChannelStrings,1)</command>
+<command batch="16">Shifts(i).(matlab.lang.makeValidName([ChannelStrings{j},'Shifts']))=OutlineDistfromCentroid(centroids(i,:), {SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))});</command>
+<command batch="16">end</command>
+<command batch="16" execution_time="459">end</command>
+<command execution_time="23">Shifts</command>
+<command execution_time="27">Shifts(1)</command>
+<command execution_time="25">Shifts(2)</command>
+<command execution_time="23">Shifts(24)</command>
+<command batch="17">centroids=CentroidfromOutline({SphinctalyzerOutputs.(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:}, 'Outline']))}) ;</command>
+<command batch="17">for i = min(Range):max(Range)</command>
+<command batch="17">for j = 1:size(ChannelStrings,1)</command>
+<command batch="17">ShiftsB(i).(matlab.lang.makeValidName([ChannelStrings{j},'Shifts']))=OutlineDistfromCentroid(centroids(i,:), {SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))});</command>
+<command batch="17">end</command>
+<command batch="17" execution_time="608">end</command>
+<command batch="18" error="true" repeat="2">refch     = char(SphinctolyzerOutputs(1).RefChannel);</command>
+<command batch="18" error="true">rawlines  = arrayfun(@(x) x.([refch 'Outline']), SphinctolyzerOutputs, 'UniformOutput', 0);</command>
+<command batch="18" error="true">outlines  = rawlines(~cellfun(@isempty, rawlines));</command>
+<command batch="18" error="true">centroids = centroidFromOutline(outlines);</command>
+<command batch="18" error="true">shft      = arrayfun(@(x) dist2centroid(centroids(x,:), outlines{x}), Range, 'UniformOutput', 0);</command>
+<command batch="18" error="true">% These are going to be the same values for each channel; only 1 needed</command>
+<command batch="18" error="true">for ch = 1 : numel(ChannelStrings)</command>
+<command batch="18" error="true">Shifts.([ChannelStrings{ch} 'Shifts']) = cell2mat(shft);</command>
+<command batch="18" error="true" execution_time="481">end</command>
+<command execution_time="23">clear Shifts</command>
+<command batch="19">refch     = char(SphinctolyzerOutputs(1).RefChannel);</command>
+<command batch="19">rawlines  = arrayfun(@(x) x.([refch 'Outline']), SphinctolyzerOutputs, 'UniformOutput', 0);</command>
+<command batch="19">outlines  = rawlines(~cellfun(@isempty, rawlines));</command>
+<command batch="19">centroids = centroidFromOutline(outlines);</command>
+<command batch="19">shft      = arrayfun(@(x) dist2centroid(centroids(x,:), outlines{x}), Range, 'UniformOutput', 0);</command>
+<command batch="19">% These are going to be the same values for each channel; only 1 needed</command>
+<command batch="19">for ch = 1 : numel(ChannelStrings)</command>
+<command batch="19">Shifts.([ChannelStrings{ch} 'Shifts']) = cell2mat(shft);</command>
+<command batch="19" execution_time="351">end</command>
+<command execution_time="39">Shifts</command>
+<command execution_time="34">ShiftsB</command>
+<command execution_time="16">ShiftsB(1)</command>
+<command execution_time="27">Shifts.DAGShifts</command>
+<command execution_time="393">OutlineDistfromCentroid(centroids(i,:), {SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))});</command>
+<command execution_time="23">centroids</command>
+<command execution_time="27">varargin</command>
+<command execution_time="16">varargin{1}</command>
+<command execution_time="28">images</command>
+<command execution_time="23">j</command>
+<command execution_time="18">length(images)</command>
+<command execution_time="74">imagesc(centroiddist)</command>
+<command execution_time="19">length(varargin)</command>
+<command execution_time="41">isequal(images, imoutline)</command>
+<command execution_time="28">isequal(images{1}, imoutline)</command>
+<command execution_time="20">shifts</command>
+<command execution_time="18">centroiddist(find(imoutline==1))</command>
+<command execution_time="39">mean(centroiddist(find(imoutline==1)))</command>
+<command execution_time="36">mean(centroiddist(imoutline==1))</command>
+<command batch="20">refch     = char(SphinctolyzerOutputs(1).RefChannel);</command>
+<command batch="20">rawlines  = arrayfun(@(x) x.([refch 'Outline']), SphinctolyzerOutputs, 'UniformOutput', 0);</command>
+<command batch="20">outlines  = rawlines(~cellfun(@isempty, rawlines));</command>
+<command batch="20">centroids = centroidFromOutline(outlines);</command>
+<command batch="20">shft      = arrayfun(@(x) dist2centroid(centroids(x,:), outlines{x}), Range, 'UniformOutput', 0);</command>
+<command batch="20">% These are going to be the same values for each channel; only 1 needed</command>
+<command batch="20">for ch = 1 : numel(ChannelStrings)</command>
+<command batch="20">Shifts.([ChannelStrings{ch} 'Shifts']) = cell2mat(shft);</command>
+<command batch="20" execution_time="627">end</command>
+<command execution_time="99">imagesc(centroiddist)</command>
+<command execution_time="15">centroids</command>
+<command execution_time="40">imagesc(outline)</command>
+<command execution_time="26">cntrs</command>
+<command execution_time="25">centroiddist(outline == 1)</command>
+<command execution_time="35">mean(centroiddist(outline == 1))</command>
+<command execution_time="300">centroids=CentroidfromOutline({SphinctalyzerOutputs.(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:}, 'Outline']))}) ;</command>
+<command execution_time="34">centroids</command>
+<command batch="21">refch     = char(SphinctolyzerOutputs(1).RefChannel);</command>
+<command batch="21">rawlines  = arrayfun(@(x) x.([refch 'Outline']), SphinctolyzerOutputs, 'UniformOutput', 0);</command>
+<command batch="21">outlines  = rawlines(~cellfun(@isempty, rawlines));</command>
+<command batch="21" execution_time="280">centroids = centroidFromOutline(outlines);</command>
+<command execution_time="25">centroids</command>
+<command execution_time="31">outlines</command>
+<command execution_time="22">rawlines</command>
+<command execution_time="18">Range</command>
+<command execution_time="36">rawlines</command>
+<command execution_time="12">outlines</command>
+<command execution_time="19">length(outlines)</command>
+<command execution_time="28">length(centroids)</command>
+<command execution_time="104">ShiftsB(i).(matlab.lang.makeValidName([ChannelStrings{j},'Shifts']))=OutlineDistfromCentroid(centroids(i,:), {SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))});</command>
+<command execution_time="39">imagesc(images{1})</command>
+<command batch="22">for i = min(Range):max(Range)</command>
+<command batch="22">for j = 1:size(ChannelStrings,1)</command>
+<command batch="22">ShiftsB(i).(matlab.lang.makeValidName([ChannelStrings{j},'Shifts']))=OutlineDistfromCentroid(centroids(i,:), {SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))});</command>
+<command batch="22">end</command>
+<command batch="22" execution_time="98">end</command>
+<command execution_time="25">ShiftsB</command>
+<command error="true" execution_time="50">structfun(@(x) x, ShiftsB, 'UniformOutput', 0)</command>
+<command execution_time="31">ShiftsB</command>
+<command execution_time="49">ShiftsB.DAGShifts</command>
+<command execution_time="27">cat(1, ShiftsB.DAGShifts)</command>
+<command execution_time="25">cat(1, ShiftsB.CalciumShifts)</command>
+<command execution_time="20">cat(1, ShiftsB.PKCbetaShifts)</command>
+<command execution_time="30">[cat(1, ShiftsB.DAGShifts) cat(1, ShiftsB.CalciumShifts) cat(1, ShiftsB.PKCbetaShifts)]</command>
+<command execution_time="25">Range</command>
+<command execution_time="71">shft      = arrayfun(@(x) dist2centroid(centroids(x,:), outlines{x}), Range, 'UniformOutput', 0);</command>
+<command execution_time="19">shifts</command>
+<command execution_time="21">centroids</command>
+<command execution_time="425">outline</command>
+<command execution_time="73">imagesc(outline)</command>
+<command execution_time="25">i = min(Range)</command>
+<command execution_time="387">centroids=CentroidfromOutline({SphinctalyzerOutputs.(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:}, 'Outline']))}) ;</command>
+<command execution_time="22">{SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))}</command>
+<command execution_time="20">SphinctalyzerOutputs(i)</command>
+<command batch="23">[SphinctalyzerOutputs(1)</command>
+<command execution_time="30">SphinctalyzerOutputs(1)</command>
+<command execution_time="16">[SphinctalyzerOutputs(1).RefChannel{:}]</command>
+<command execution_time="20">[SphinctalyzerOutputs(1).RefChannel{:} 'Outline']</command>
+<command execution_time="20">refch</command>
+<command error="true" execution_time="33">SphinctalyzerOutputs(i).(refch)</command>
+<command execution_time="450">SphinctalyzerOutputs(i).([refch 'Outline'])</command>
+<command execution_time="19">size(SphinctalyzerOutputs(i).([refch 'Outline']))</command>
+<command execution_time="37">imagesc(SphinctalyzerOutputs(i).([refch 'Outline']))</command>
+<command error="true" execution_time="39" repeat="2">imagesc( {SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))})</command>
+<command execution_time="47">imagesc(SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline'])))</command>
+<command execution_time="84" repeat="2">ShiftsB(i).(matlab.lang.makeValidName([ChannelStrings{j},'Shifts']))=OutlineDistfromCentroid(centroids(i,:), {SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))});</command>
+<command execution_time="30">varargin</command>
+<command execution_time="32">varargin{1}</command>
+<command execution_time="440">varargin{1}{1}</command>
+<command execution_time="62">imagesc(varargin{1}{1})</command>
+<command execution_time="20">shifts</command>
+<command execution_time="53">imagesc(imoutline)</command>
+<command execution_time="55">imagesc(images{1})</command>
+<command execution_time="78">imagesc(centroiddist)</command>
+<command execution_time="21">centroids</command>
+<command batch="24">refch     = char(SphinctolyzerOutputs(1).RefChannel);</command>
+<command batch="24">rawlines  = arrayfun(@(x) x.([refch 'Outline']), SphinctolyzerOutputs, 'UniformOutput', 0);</command>
+<command batch="24">outlines  = rawlines(~cellfun(@isempty, rawlines));</command>
+<command batch="24" execution_time="295">centroids = centroidFromOutline(outlines);</command>
+<command execution_time="22">outlines</command>
+<command execution_time="56">imagesc(outlines{1})</command>
+<command execution_time="47">imagesc(outlines{24})</command>
+<command batch="25" error="true">for r = Range</command>
+<command batch="25" error="true">for ch = 1 : numel(ChannelStrings)</command>
+<command batch="25" error="true">shft = dist2centroid(centroids(r,:), outlines{r});</command>
+<command batch="25" error="true">Shifts.([ChannelStrings{ch} 'Shifts']) = cell2mat(shft);</command>
+<command batch="25" error="true">end</command>
+<command batch="25" error="true" execution_time="65">end</command>
+<command batch="26">for r = Range'</command>
+<command batch="26">for ch = 1 : numel(ChannelStrings)</command>
+<command batch="26">shft = dist2centroid(centroids(r,:), outlines{r});</command>
+<command batch="26">Shifts.([ChannelStrings{ch} 'Shifts']) = cell2mat(shft);</command>
+<command batch="26">end</command>
+<command batch="26" execution_time="129">end</command>
+<command execution_time="58">imagesc(outline)</command>
+<command execution_time="28">centroids</command>
+<command execution_time="26">shifts</command>
+<command execution_time="26">Range</command>
+<command execution_time="26">Range'</command>
+<command execution_time="18">min(Range):max(Range)</command>
+<command execution_time="358">centroids = centroidFromOutline(outlines);</command>
+<command execution_time="25">centroids</command>
+<command execution_time="27">outlines</command>
+<command execution_time="268">centroids=CentroidfromOutline({SphinctalyzerOutputs.(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:}, 'Outline']))}) ;</command>
+<command execution_time="21">centroids</command>
+<command execution_time="82">imagesc(outlines{1})</command>
+<command execution_time="214">subplot(212); imagesc(outlines{1})</command>
+<command error="true" execution_time="36">subplot(112); imagesc(outlines{1})</command>
+<command execution_time="188">subplot(122); imagesc(outlines{1})</command>
+<command execution_time="57">subplot(121); imagesc(outlines{1})</command>
+<command execution_time="38">imagesc(SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline'])));</command>
+<command execution_time="23">i</command>
+<command execution_time="94">shftB = OutlineDistfromCentroid(centroids(i,:), {SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))});</command>
+<command execution_time="62">shft = dist2centroid(centroids(r,:), outlines{r});</command>
+<command execution_time="24">shft</command>
+<command execution_time="23">shftB</command>
+<command batch="27">shft = dist2centroid(centroids(r,:), outlines{r});</command>
+<command batch="27" execution_time="47">shftB = OutlineDistfromCentroid(centroids(i,:), {SphinctalyzerOutputs(i).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))});</command>
+<command execution_time="23">shft</command>
+<command execution_time="22">shftB</command>
+<command execution_time="19">centroids(r,:)</command>
+<command execution_time="22">i</command>
+<command execution_time="25">r</command>
+<command execution_time="27">centroids(i,:)</command>
+<command execution_time="421">im  = outlines{r}</command>
+<command execution_time="75">subplot(122); imagesc(outlines{r})</command>
+<command execution_time="63">subplot(121); imagesc(SphinctalyzerOutputs(r).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline'])))</command>
+<command execution_time="29">size(im)</command>
+<command error="true" execution_time="268">size(imB)</command>
+<command batch="28">im  = outlines{r};</command>
+<command batch="28" execution_time="16">imB = {SphinctalyzerOutputs(r).(matlab.lang.makeValidName([SphinctalyzerOutputs(1).RefChannel{:},'Outline']))};</command>
+<command execution_time="23">size(imB)</command>
+<command execution_time="25">size(imB{1})</command>
+<command execution_time="30">isequal(im, imB{1})</command>
+<command execution_time="478">blnk = zeros(size(im))</command>
+<command execution_time="24">cnt = centroids(r,:)</command>
+<command execution_time="27">round(fliplr(cnt))</command>
+<command execution_time="21">cn = round(cnt(1,1:2))</command>
+<command execution_time="20">[blnk, blnkB] = deal(zeros(size(im)));</command>
+<command execution_time="20">cn = round(fliplr(cnt))</command>
+<command execution_time="29">cnB = round(cnt(1,1:2))</command>
+<command execution_time="432">blnk(cn) = 1</command>
+<command execution_time="45">subplot(121); imagesc(blnk)</command>
+<command execution_time="25">cn</command>
+<command execution_time="25">cnB</command>
+<command execution_time="448">blnkB(cnB(2), cnB(1)) = 1</command>
+<command execution_time="96">subplot(122); imagesc(blnkB)</command>
+<command execution_time="35">colormap gray</command>
+<command execution_time="19">cn</command>
+<command execution_time="25">cnB</command>
+<command execution_time="23">size(blnk)</command>
+<command execution_time="12">size(blnkB)</command>
+<command execution_time="25">blnk(cn)</command>
+<command execution_time="22">blnkB(cnB)</command>
+<command execution_time="17">blnkB(fliplr(cnB))</command>
+<command execution_time="22">blnkB(cnB(2), cnB(1))</command>
+<command execution_time="38">subplot(121);</command>
+<command execution_time="5">cn</command>
+<command execution_time="424">blnk(cn') = 1</command>
+<command execution_time="41">imagesc(blnk)</command>
+<command execution_time="455">blnk(cn(1), cn(2)) = 1</command>
+<command execution_time="30">imagesc(blnk)</command>
+<command execution_time="5">blnk = zeros(size(im));</command>
+<command execution_time="39">imagesc(blnk);</command>
+<command execution_time="8">blnk(cn(1), cn(2)) = 1;</command>
+<command execution_time="55">imagesc(blnk);</command>
+<command batch="29">blnk = zeros(size(im));</command>
+<command batch="29" execution_time="50">imagesc(blnk);</command>
+<command execution_time="12">blnk(cn) = 1;</command>
+<command execution_time="37">imagesc(blnk);</command>
+<command execution_time="22">cn</command>
+<command execution_time="16">[cn]</command>
+<command execution_time="40">shft = dist2centroid(centroids(r,:), outlines{r});</command>
+<command execution_time="18">shft</command>
+<command execution_time="1471">SphinctoPlotter(dataout)</command>
+<command execution_time="72">imagesc(Zr)</command>
+<command execution_time="27">subplot(111);</command>
+<command execution_time="360">imagesc(Zr)</command>
+<command execution_time="932">clear all ; close all; close force;</command>
+<command execution_time="13">dataout = '/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/sampledata/data/180922_oldoutput.mat';</command>
+<command execution_time="31801">SphinctoPlotter(dataout)</command>
+<command execution_time="147">fig = figure</command>
+<command execution_time="561">help gca</command>
+<command execution_time="79">gca(fig)</command>
+<command execution_time="24">ax = gca(fig)</command>
+<command execution_time="1631">SphinctoPlotter(dataout)</command>
+<command execution_time="26">ax</command>
+<command execution_time="639">get(ax, 'XTickLabel')</command>
+<command execution_time="13">MICRONS_PERPXL</command>
+<command execution_time="20">arrayIn</command>
+<command execution_time="19">size(arrayIn)</command>
+<command error="true" execution_time="47">mat2cell(arrayIn)</command>
+<command error="true" execution_time="42">mat2cell(arrayIn, 1, size(arrayIn, 1))</command>
+<command execution_time="255">help mat2cell</command>
+<command execution_time="27">mat2cell(arrayIn, 4, 1)</command>
+<command error="true" execution_time="38">mat2cell(arrayIn, 1, 4)</command>
+<command execution_time="28">mat2cell(arrayIn, 4, 1)</command>
+<command execution_time="29">cellfun(@str2num, get(ax, 'XTickLabel'))</command>
+<command execution_time="25">str = cellfun(@str2num, get(ax, 'XTickLabel'))</command>
+<command execution_time="37">convert2label(str)</command>
+<command error="true" execution_time="50">mat2cell(str, size(str))</command>
+<command error="true" execution_time="44">mat2cell(str, size(str, 2), size(str, 1))</command>
+<command execution_time="24">mat2cell(str, size(str, 1), size(str, 2))</command>
+<command execution_time="27">X = mat2cell(str, size(str, 1), size(str, 2))</command>
+<command execution_time="19">X{1}</command>
+<command execution_time="21">str</command>
+<command execution_time="19">get(ax, 'XTickLabel')</command>
+<command execution_time="14">get(ax, 'XTickLabel')'</command>
+<command error="true" execution_time="68">get(ax, 'XTickLabel')' .* MICRONS_PERPXL</command>
+<command execution_time="28">str = cellfun(@str2num, get(ax, 'XTickLabel'))</command>
+<command execution_time="29">str = cellfun(@str2num, get(ax, 'XTickLabel')) .* MICRONS_PERPXL</command>
+<command execution_time="14">get(ax, 'XTickLabel')</command>
+<command execution_time="27">cellfun(@str2num, get(ax, 'XTickLabel'))</command>
+<command execution_time="27">cellfun(@str2num, get(ax, 'XTickLabel')) .* MICRONS_PERPXL</command>
+<command execution_time="22">convert2label(cellfun(@str2num, get(ax, 'XTickLabel')) .* MICRONS_PERPXL)</command>
+<command execution_time="9">get(ax, 'XTickLabel')</command>
+<command error="true" execution_time="56">bsxfun(@times, get(ax, 'XTickLabel'), MICRONS_PERPXL)</command>
+<command error="true" execution_time="27">cellfun(@times get(ax, 'XTickLabel', MICRONS_PERPXL)</command>
+<command error="true" execution_time="25">cellfun(@times get(ax, 'XTickLabel'), MICRONS_PERPXL)</command>
+<command error="true" execution_time="18">cellfun(@times, get(ax, 'XTickLabel'), MICRONS_PERPXL)</command>
+<command error="true" execution_time="45">cellfun(@(x) x * MICRONS_PERPXL, get(ax, 'XTickLabel'))</command>
+<command execution_time="38">cellfun(@(x) x * MICRONS_PERPXL, get(ax, 'XTickLabel'), 'UniformOutput', 0)</command>
+<command execution_time="19">get(ax, 'XTickLabel')</command>
+<command execution_time="24">cellstr(get(ax, 'XTickLabel'))</command>
+<command error="true" execution_time="53">num2str(get(ax, 'XTickLabel'))</command>
+<command execution_time="30">get(ax, 'XTickLabel')</command>
+<command execution_time="13">str = cellfun(@str2num, get(ax, 'XTickLabel')) .* MICRONS_PERPXL</command>
+<command execution_time="38">mat2cell(str, size(str,1), size(str,2))</command>
+<command execution_time="24">mat2cell(str, size(str,1), size(str,2))'</command>
+<command execution_time="16">mat2cell(str, size(str,1), size(str,2))</command>
+<command execution_time="67">cat(1, mat2cell(str, size(str,1), size(str,2)))</command>
+<command execution_time="18">str = cellfun(@str2num, get(ax, 'XTickLabel')) .* MICRONS_PERPXL</command>
+<command error="true" execution_time="51" repeat="2">convert2label(str)</command>
+<command execution_time="22">str</command>
+<command execution_time="18">{str}</command>
+<command execution_time="22">{str(:)}</command>
+<command execution_time="29">{str}</command>
+<command execution_time="14">X = {str}</command>
+<command execution_time="19">X{1}</command>
+<command execution_time="28">{str'}</command>
+<command execution_time="23">X = {str'}</command>
+<command execution_time="22">X</command>
+<command execution_time="25">X{1}</command>
+<command execution_time="19">num2cell(str)</command>
+<command execution_time="26">num2cell(str')</command>
+<command error="true" execution_time="54">mat2cell(str, [4 1])</command>
+<command error="true" execution_time="45">mat2cell(str, [1 4])</command>
+<command execution_time="30">mat2cell(str, 4)</command>
+<command error="true" execution_time="38">mat2cell(str, 1)</command>
+<command error="true" execution_time="53">mat2cell(str', 4)</command>
+<command execution_time="33">mat2cell(str', 1)</command>
+<command error="true" execution_time="42">mat2cell(str', 4, 1)</command>
+<command execution_time="18">mat2cell(str', 1, 4)</command>
+<command execution_time="16">str = cellfun(@str2num, get(ax, 'XTickLabel')) .* MICRONS_PERPXL</command>
+<command execution_time="47">convert2label(str)</command>
+<command execution_time="21">arr</command>
+<command execution_time="55">arrayfun(@(x) num2str(x), arr, 'UniformOutput', 0)</command>
+<command execution_time="12">arrayfun(@(x) num2str(x), arr, 'UniformOutput', 0)'</command>
+<command execution_time="1656">SphinctoPlotter(dataout)</command>
+<command execution_time="17">get(ax, 'XTickLabel')</command>
+<command execution_time="28">cellfun(@str2num, get(ax, 'XTickLabel'))</command>
+<command execution_time="18">cellfun(@str2num, get(ax, 'XTickLabel')) .* MICRONS_PERPXL</command>
+<command execution_time="26">str = cellfun(@str2num, get(ax, 'XTickLabel')) .* MICRONS_PERPXL</command>
+<command execution_time="15">arr = str</command>
+<command execution_time="36">arr = convert2label(cellfun(@str2num, get(ax, 'XTickLabel')) .* MICRONS_PERPXL)</command>
+<command execution_time="28">set(ax, 'XTickLabel', arr)</command>
+<command execution_time="43">xlabel(sprintf('Distance (microns) from wound center\nTime = %.1f %s', (((min(Range) - T_0) + (i - 1) / INTERPFRM) * T_PERFRM), T_UNIT));</command>
+<command execution_time="23">T_0</command>
+<command execution_time="32">min(Range)</command>
+<command execution_time="25">i</command>
+<command error="true" execution_time="2110">SphinctoPlotter(dataout)</command>
+<command execution_time="41">clearvars -except dataout</command>
+<command execution_time="141">close all; close force;</command>
+<command error="true" execution_time="2177">SphinctoPlotter(dataout)</command>
+<command execution_time="55">ls</command>
+<command error="true" execution_time="2106">SphinctoPlotter(dataout)</command>
+<command execution_time="641">clear classes</command>
+<command execution_time="63">clear all</command>
+<command execution_time="13">dataout = '/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/sampledata/data/180922_oldoutput.mat';</command>
+<command error="true" execution_time="2491" repeat="2">SphinctoPlotter(dataout)</command>
+<command batch="30" error="true">clear all</command>
+<command batch="30" error="true">dataout = '/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/sampledata/data/180922_oldoutput.mat';</command>
+<command batch="30" error="true" execution_time="4227">SphinctoPlotter(dataout)</command>
+<command execution_time="450">clear all ; close all; close force;</command>
+<command execution_time="15">d = '/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/sampledata/data/180922_oldoutput.mat';</command>
+<command error="true" execution_time="4685">SphinctoPlotter(d)</command>
+<command batch="31">clear all ; close all; close force;</command>
+<command batch="31" execution_time="368">d = '/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/sampledata/data/180922_oldoutput.mat';</command>
+<command execution_time="1915" repeat="5">SphinctoPlotter(d)</command>
+<command execution_time="36" repeat="2">getframe(ax)</command>
+<command error="true" execution_time="2331" repeat="2">SphinctoPlotter(d)</command>
+<command batch="32">clear all ; close all; close force;</command>
+<command batch="32">d = '/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/sampledata/data/180922_oldoutput.mat';</command>
+<command batch="32" execution_time="39655">SphinctoPlotter(d)</command>
+<command error="true" execution_time="2103" repeat="5">SphinctoPlotter(d)</command>
+<command batch="33">clear all ; close all; close force;</command>
+<command batch="33">d = '/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/sampledata/data/180922_oldoutput.mat';</command>
+<command batch="33" execution_time="34785">SphinctoPlotter(d)</command>
+<command error="true" execution_time="2164" repeat="3">SphinctoPlotter(d)</command>
+<command batch="34" repeat="3">clear all ; close all; close force;</command>
+<command batch="34">d = '/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/sampledata/data/180922_oldoutput.mat';</command>
+<command batch="34" execution_time="27192">SphinctoPlotter(d)</command>
+<command execution_time="11">x = 1 : 10</command>
+<command execution_time="15">thr = 8</command>
+<command execution_time="21">x &lt;= thr</command>
+<command execution_time="28">x &gt;= -thr</command>
+<command execution_time="24">x &lt;= thr &amp; x &gt;= -thr</command>
+<command error="true" execution_time="28">x &lt;= thr &amp;&amp; x &gt;= -thr</command>
+<command execution_time="20">(x &lt;= thr &amp; x &gt;= -thr)</command>
+<command execution_time="11">t = -10 : 10</command>
+<command execution_time="17">t(x &lt;= thr &amp; x &gt;= -thr)</command>
+<command error="true" execution_time="37">t(x &lt;= thr &amp;&amp; x &gt;= -thr)</command>
+<command batch="35">clear all ; close all; close force;</command>
+<command batch="35">d = '/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/sampledata/data/180922_oldoutput.mat';</command>
+<command batch="35" execution_time="1394">SphinctoPlotter(d)</command>
+<command execution_time="1001" repeat="3">SphinctoPlotter(d)</command>
+<command execution_time="25">outlines</command>
+<command error="true" execution_time="35">centroidFromOutline(outlines{1})</command>
+<command execution_time="999" repeat="3">SphinctoPlotter(d)</command>
+<command error="true" execution_time="252">outliens</command>
+<command execution_time="18">outlines</command>
+<command error="true" execution_time="96">cellfun(@centroidFromOutline, outlines)</command>
+<command execution_time="296">cellfun(@(x) centroidFromOutline(x), outlines, 'UniformOutput', 0)</command>
+<command execution_time="304">cat(2, cellfun(@(x) centroidFromOutline(x), outlines, 'UniformOutput', 0))</command>
+<command execution_time="264">cell2mat(cellfun(@(x) centroidFromOutline(x), outlines, 'UniformOutput', 0))</command>
+<command error="true" execution_time="244">cell2mat(cellfun(@(x) centroidFromOutline(x), outlines, 'UniformOutput', 0), 2)</command>
+<command execution_time="1180" repeat="2">SphinctoPlotter(d)</command>
+<command execution_time="196">cellfun(@(x,y) dist2centroid(x, y), centroids, outlines, 'UniformOutput', 0)</command>
+<command execution_time="24">shft</command>
+<command execution_time="41">cell2mat(shft)</command>
+<command execution_time="31">cell2mat(shft')</command>
+<command execution_time="18">Shifts</command>
+<command execution_time="23">Shifts.DAGShifts</command>
+<command execution_time="30">cellfun(@(x) [x 'Shifts'], ChannelStrings, 'UniformOutput', 0)</command>
+<command execution_time="26">nms = cellfun(@(x) [x 'Shifts'], ChannelStrings, 'UniformOutput', 0)</command>
+<command execution_time="45">x = struct()</command>
+<command execution_time="312">help fieldsCustom</command>
+<command execution_time="12">clear  x</command>
+<command execution_time="18">shft</command>
+<command execution_time="31">cell2mat(shft)</command>
+<command execution_time="24">cell2mat(shft)'</command>
+<command execution_time="218">shifts      = cell2mat(cellfun(@(x,y) dist2centroid(x, y), centroids, outlines, 'UniformOutput', 0))</command>
+<command execution_time="26829">SphinctoPlotter(d)</command>
+<command execution_time="427">clear all ; close all; close force;</command>
+</session>
+</history>

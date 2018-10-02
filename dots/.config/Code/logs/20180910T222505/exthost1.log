@@ -1,0 +1,130 @@
+[2018-09-10 22:25:07.573] [exthost1] [info] extension host started
+[2018-09-10 22:25:07.599] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:07.599] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-09-10 22:25:07.607] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:07.607] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2018-09-10 22:25:07.652] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:07.652] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2018-09-10 22:25:07.818] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:07.818] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-09-10 22:25:07.831] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:07.831] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-09-10 22:25:07.836] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:07.836] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/dbaeumer.vscode-eslint-1.5.0/client/out/extension
+[2018-09-10 22:25:07.894] [exthost1] [info] ExtensionService#_doActivateExtension mtxr.sqltools {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:07.894] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/mtxr.sqltools-0.15.0/dist/sqltools
+[2018-09-10 22:25:08.442] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:08.442] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/ms-vscode.cpptools-0.18.1/out/src/main
+[2018-09-10 22:25:08.572] [exthost1] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:08.572] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/vscodevim.vim-0.16.4/out/extension
+[2018-09-10 22:25:08.903] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:08.903] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/zignd.html-css-class-completion-1.17.1/out/src/extension
+[2018-09-10 22:25:09.266] [exthost1] [info] ExtensionService#_doActivateExtension kube.clangcomplete {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2018-09-10 22:25:09.266] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/kube.clangcomplete-1.0.1/build/client.js
+[2018-09-10 22:25:09.329] [exthost1] [info] ExtensionService#_doActivateExtension mitaki28.vscode-clang {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2018-09-10 22:25:09.329] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/mitaki28.vscode-clang-0.2.2/out/src/extension
+[2018-09-10 22:25:09.333] [exthost1] [info] ExtensionService#_doActivateExtension xaver.clang-format {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2018-09-10 22:25:09.333] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/xaver.clang-format-1.6.2/out/src/extension
+[2018-09-10 22:25:10.468] [exthost1] [info] ExtensionService#_doActivateExtension GrapeCity.gc-excelviewer {"startup":false,"activationEvent":"onLanguage:plaintext"}
+[2018-09-10 22:25:10.468] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/grapecity.gc-excelviewer-2.1.26/out/src/extension
+[2018-09-10 22:25:11.120] [exthost1] [info] eager extensions activated
+[2018-09-10 22:25:11.121] [exthost1] [info] ExtensionService#_doActivateExtension vsciot-vscode.vscode-arduino {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:11.121] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/vsciot-vscode.vscode-arduino-0.2.20/out/src/extension
+[2018-09-10 22:25:38.138] [exthost1] [info] extension host started
+[2018-09-10 22:25:38.176] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:38.176] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-09-10 22:25:38.190] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:38.191] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2018-09-10 22:25:38.242] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:38.242] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2018-09-10 22:25:38.451] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:38.451] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-09-10 22:25:38.464] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:38.464] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-09-10 22:25:38.469] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:38.469] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/dbaeumer.vscode-eslint-1.5.0/client/out/extension
+[2018-09-10 22:25:38.534] [exthost1] [info] ExtensionService#_doActivateExtension mtxr.sqltools {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:38.534] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/mtxr.sqltools-0.15.0/dist/sqltools
+[2018-09-10 22:25:39.263] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:39.263] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/ms-vscode.cpptools-0.18.1/out/src/main
+[2018-09-10 22:25:39.401] [exthost1] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:39.401] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/vscodevim.vim-0.16.4/out/extension
+[2018-09-10 22:25:39.798] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:39.798] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/zignd.html-css-class-completion-1.17.1/out/src/extension
+[2018-09-10 22:25:40.209] [exthost1] [info] ExtensionService#_doActivateExtension mitaki28.vscode-clang {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2018-09-10 22:25:40.209] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/mitaki28.vscode-clang-0.2.2/out/src/extension
+[2018-09-10 22:25:40.213] [exthost1] [info] ExtensionService#_doActivateExtension xaver.clang-format {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2018-09-10 22:25:40.213] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/xaver.clang-format-1.6.2/out/src/extension
+[2018-09-10 22:25:40.930] [exthost1] [info] eager extensions activated
+[2018-09-10 22:25:40.931] [exthost1] [info] ExtensionService#_doActivateExtension vsciot-vscode.vscode-arduino {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:25:40.931] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/vsciot-vscode.vscode-arduino-0.2.20/out/src/extension
+[2018-09-10 22:25:41.681] [exthost1] [info] ExtensionService#_doActivateExtension GrapeCity.gc-excelviewer {"startup":false,"activationEvent":"onLanguage:plaintext"}
+[2018-09-10 22:25:41.681] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/grapecity.gc-excelviewer-2.1.26/out/src/extension
+[2018-09-10 22:26:20.484] [exthost1] [info] extension host started
+[2018-09-10 22:26:20.510] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:26:20.511] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-09-10 22:26:20.518] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:26:20.518] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2018-09-10 22:26:20.566] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:26:20.566] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2018-09-10 22:26:20.781] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:26:20.781] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-09-10 22:26:20.791] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:26:20.791] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-09-10 22:26:20.796] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:26:20.796] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/dbaeumer.vscode-eslint-1.5.0/client/out/extension
+[2018-09-10 22:26:20.846] [exthost1] [info] ExtensionService#_doActivateExtension mtxr.sqltools {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:26:20.846] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/mtxr.sqltools-0.15.0/dist/sqltools
+[2018-09-10 22:26:21.330] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:26:21.330] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/ms-vscode.cpptools-0.18.1/out/src/main
+[2018-09-10 22:26:21.468] [exthost1] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:26:21.468] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/vscodevim.vim-0.16.4/out/extension
+[2018-09-10 22:26:21.850] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:26:21.850] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/zignd.html-css-class-completion-1.17.1/out/src/extension
+[2018-09-10 22:26:22.263] [exthost1] [info] ExtensionService#_doActivateExtension xaver.clang-format {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2018-09-10 22:26:22.263] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/xaver.clang-format-1.6.2/out/src/extension
+[2018-09-10 22:26:22.909] [exthost1] [info] eager extensions activated
+[2018-09-10 22:26:22.912] [exthost1] [info] ExtensionService#_doActivateExtension vsciot-vscode.vscode-arduino {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:26:22.912] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/vsciot-vscode.vscode-arduino-0.2.20/out/src/extension
+[2018-09-10 22:26:23.358] [exthost1] [info] ExtensionService#_doActivateExtension GrapeCity.gc-excelviewer {"startup":false,"activationEvent":"onLanguage:plaintext"}
+[2018-09-10 22:26:23.358] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/grapecity.gc-excelviewer-2.1.26/out/src/extension
+[2018-09-10 22:27:24.443] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-09-10 22:27:24.443] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-09-10 22:27:24.468] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-09-10 22:27:24.468] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2018-09-10 22:27:24.607] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-09-10 22:27:24.607] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2018-09-10 22:37:00.904] [exthost1] [info] extension host started
+[2018-09-10 22:37:00.929] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:37:00.929] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-09-10 22:37:00.935] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:37:00.935] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2018-09-10 22:37:00.972] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:37:00.972] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2018-09-10 22:37:01.166] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:37:01.166] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-09-10 22:37:01.179] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:37:01.179] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-09-10 22:37:01.185] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:37:01.185] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/dbaeumer.vscode-eslint-1.5.0/client/out/extension
+[2018-09-10 22:37:01.241] [exthost1] [info] ExtensionService#_doActivateExtension mtxr.sqltools {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:37:01.241] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/mtxr.sqltools-0.15.0/dist/sqltools
+[2018-09-10 22:37:01.716] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:37:01.716] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/ms-vscode.cpptools-0.18.1/out/src/main
+[2018-09-10 22:37:01.866] [exthost1] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:37:01.866] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/vscodevim.vim-0.16.4/out/extension
+[2018-09-10 22:37:02.158] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:37:02.158] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/zignd.html-css-class-completion-1.17.1/out/src/extension
+[2018-09-10 22:37:02.458] [exthost1] [info] ExtensionService#_doActivateExtension GrapeCity.gc-excelviewer {"startup":false,"activationEvent":"onLanguage:plaintext"}
+[2018-09-10 22:37:02.458] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/grapecity.gc-excelviewer-2.1.26/out/src/extension
+[2018-09-10 22:37:03.263] [exthost1] [info] ExtensionService#_doActivateExtension vsciot-vscode.vscode-arduino {"startup":true,"activationEvent":"*"}
+[2018-09-10 22:37:03.263] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/vsciot-vscode.vscode-arduino-0.2.20/out/src/extension
+[2018-09-10 22:37:03.603] [exthost1] [info] eager extensions activated
+[2018-09-10 22:38:06.057] [exthost1] [info] ExtensionService#_doActivateExtension xaver.clang-format {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2018-09-10 22:38:06.057] [exthost1] [info] ExtensionService#loadCommonJSModule /home/jbustamante/.vscode/extensions/xaver.clang-format-1.6.2/out/src/extension
+[2018-09-10 22:40:16.898] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-09-10 22:40:16.898] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-09-10 22:40:16.911] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-09-10 22:40:16.911] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2018-09-10 22:40:17.062] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-09-10 22:40:17.062] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension

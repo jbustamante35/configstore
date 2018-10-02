@@ -1,0 +1,34 @@
+{
+   "description": "",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtStOymYWKwIyhdlg/DEsMQxlc0KJwu8mLpE1lED6xxBKw2Uzz5pZhP7dBMloJRlMqSpEaT/LAX1560lz8+42RWoRfZdTUU+gs4pKHJRSPAQ61YU51Wgnj2oWKNQd8ipqSsKdY6ymFbXC+ILZ7uHqFvWK0RsfxvP6C1h11empwroH0cZbJFwL/tS7nk/gdiVC9V6/RETjtDaJHSUEU8YSYBBpsN1fcMSmllAZR5dDQOtmIjdAwre8ph9B5dyrua0B9MRQmFJMps9OnaLqB9NfRDUVAOK4Y53d8QNRiIJxDcre7s7NpLKhbJH4nnp/ASGFwvd6pSU7rcNlBvSytY0TVQIDAQAB",
+   "manifest_version": 2,
+   "name": "Fantastic Mr. Fox - hill (1920x1080)",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 238, 184, 88 ],
+         "button_background": [ 255, 255, 255, 0.28 ],
+         "frame": [ 201, 132, 40 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "ntp_text": [ 255, 247, 196 ],
+         "tab_background_text": [ 64, 59, 35 ],
+         "tab_text": [ 238, 184, 88 ],
+         "toolbar": [ 75, 36, 0 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_ntp_attribution": "images/theme_ntp_attribution.png",
+         "theme_ntp_background": "images/theme_ntp_background.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "bottom",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "buttons": [ 0.11, 0.82, 0.64 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}

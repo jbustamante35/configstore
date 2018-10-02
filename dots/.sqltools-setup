@@ -1,0 +1,9 @@
+{
+  "telemetryUUID": "202c0f80-a77c-4525-aaf1-d6e7dc51c215",
+  "httpServerPort": 41347,
+  "numericVersion": 1500,
+  "releaseNotes": "https://github.com/mtxr/vscode-sqltools/blob/master/static/release-notes/v0.15.x.md",
+  "run": 1536822749405,
+  "updated": false,
+  "version": "v0.15.0"
+}
