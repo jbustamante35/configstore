@@ -1,6 +1,0 @@
-2018/09/29-01:13:06.281 27938 Reusing MANIFEST /home/jbustamante/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
-2018/09/29-01:13:06.281 27938 Recovering log #26
-2018/09/29-01:13:06.297 27938 Reusing old log /home/jbustamante/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000026.log 
-2018/09/29-01:13:15.654 28001 Level-0 table #30: started
-2018/09/29-01:13:15.683 28001 Level-0 table #30: 1720412 bytes OK
-2018/09/29-01:13:15.688 28001 Delete type=0 #26

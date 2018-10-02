@@ -1,0 +1,29 @@
+2018/10/01-10:15:53.346 31689 Reusing MANIFEST /home/jbustamante/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2018/10/01-10:15:53.347 31689 Recovering log #999
+2018/10/01-10:15:53.347 31689 Reusing old log /home/jbustamante/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000999.log 
+2018/10/01-10:16:54.827 339 Level-0 table #1003: started
+2018/10/01-10:16:54.882 339 Level-0 table #1003: 3626055 bytes OK
+2018/10/01-10:16:54.884 339 Delete type=0 #999
+2018/10/01-10:18:09.515 339 Level-0 table #1005: started
+2018/10/01-10:18:09.617 339 Level-0 table #1005: 3626064 bytes OK
+2018/10/01-10:18:09.620 339 Delete type=0 #1002
+2018/10/01-19:16:22.400 339 Level-0 table #1007: started
+2018/10/01-19:16:22.450 339 Level-0 table #1007: 3626004 bytes OK
+2018/10/01-19:16:22.452 339 Delete type=0 #1004
+2018/10/01-19:16:22.453 339 Compacting 4@0 + 2@1 files
+2018/10/01-19:16:22.547 339 Generated table #1008@0: 1 keys, 3625827 bytes
+2018/10/01-19:16:22.550 339 Generated table #1009@0: 5 keys, 489 bytes
+2018/10/01-19:16:22.550 339 Compacted 4@0 + 2@1 files => 3626316 bytes
+2018/10/01-19:16:22.553 339 compacted to: files[ 0 2 0 0 0 0 0 ]
+2018/10/01-19:16:22.553 339 Delete type=2 #1003
+2018/10/01-19:16:22.553 339 Delete type=2 #997
+2018/10/01-19:16:22.554 339 Delete type=2 #1005
+2018/10/01-19:16:22.554 339 Delete type=2 #1000
+2018/10/01-19:16:22.555 339 Delete type=2 #998
+2018/10/01-19:16:22.555 339 Delete type=2 #1007
+2018/10/01-19:16:26.333 339 Level-0 table #1011: started
+2018/10/01-19:16:26.392 339 Level-0 table #1011: 3626334 bytes OK
+2018/10/01-19:16:26.395 339 Delete type=0 #1006
+2018/10/01-19:53:08.425 339 Level-0 table #1013: started
+2018/10/01-19:53:08.507 339 Level-0 table #1013: 3626134 bytes OK
+2018/10/01-19:53:08.510 339 Delete type=0 #1010
