@@ -1,9 +1,0 @@
-# Manifest to add git submodules for dotfile repositories
-# repo_name github_url  path_to_repo
-agnoster-bash   https://github.com/speedenator/agnoster-bash    .bash/themes/agnoster-bash/
-bash-it https://github.com/Bash-it/bash-it  .bash_it
-oh-my-zsh   https://github.com/robbyrussell/oh-my-zsh   .oh-my-zsh
-tldr    https://github.com/tldr-pages/tldr  .tldr/tldr
-ack.vim https://github.com/mileszs/ack.vim  .vim/bundle/ack.vim
-ag.vim  https://github.com/rking/ag.vim .vim/bundle/ag.vim
-vim-joy https://github.com/rking/vim-joy    .vim/bundle/vim-joy
