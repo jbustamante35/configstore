@@ -7,3 +7,4 @@ ack.vim https://github.com/mileszs/ack.vim  .vim/bundle/ack.vim
 ag.vim  https://github.com/rking/ag.vim .vim/bundle/ag.vim
 vim-joy https://github.com/rking/vim-joy    .vim/bundle/vim-joy
 vim-sensible    https://github.com/tpope/vim-sensible   .vim/bundle/vim-sensible
+tldr    https://github.com/tldr-pages/tldr  .tldr/tldr
