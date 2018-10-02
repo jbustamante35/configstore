@@ -1,0 +1,36 @@
+
+
+-------session starts-------
+
+[10-1 15:15:54.174] INFO: MediaGallery: name=/home/jbustamante/Music, galleryId=1, isMediaDevice=false, deviceId=undefined
+[10-1 15:15:54.185] INFO: MediaGallery: name=/home/jbustamante/Pictures, galleryId=2, isMediaDevice=false, deviceId=undefined
+[10-1 15:15:54.193] INFO: MediaGallery: name=/home/jbustamante/Videos, galleryId=3, isMediaDevice=false, deviceId=undefined
+[10-1 15:15:54.198] INFO: Starts a quick scan on /home/jbustamante/Music
+[10-1 15:15:54.211] INFO: Iterating over dir / from source /home/jbustamante/Music
+[10-1 15:15:54.213] INFO: Starts a quick scan on /home/jbustamante/Pictures
+[10-1 15:15:54.217] INFO: Iterating over dir / from source /home/jbustamante/Pictures
+[10-1 15:15:54.221] INFO: Starts a quick scan on /home/jbustamante/Videos
+[10-1 15:15:54.224] INFO: Iterating over dir / from source /home/jbustamante/Videos
+[10-1 15:15:54.248] INFO: /home/jbustamante/Music does not contain music file
+[10-1 15:15:54.272] INFO: /home/jbustamante/Videos does not contain music file
+[10-1 15:15:54.314] INFO: Iterating over dir /acsii from source /home/jbustamante/Pictures
+[10-1 15:15:54.320] INFO: Got the drag_and_drop directory
+[10-1 15:15:54.467] INFO: Iterating over dir /Downloads from source /home/jbustamante/Pictures
+[10-1 15:15:54.495] INFO: Iterating over dir /Downloads/nintendo_icons from source /home/jbustamante/Pictures
+[10-1 15:15:54.499] INFO: Iterating over dir /Wallpapers from source /home/jbustamante/Pictures
+[10-1 15:15:54.509] INFO: Iterating over dir /Screenshots from source /home/jbustamante/Pictures
+[10-1 15:15:54.514] INFO: /home/jbustamante/Pictures does not contain music file
+[10-1 15:15:55.402] INFO: Fetched user settings from server.
+[10-1 15:15:55.410] INFO: chromeapp:E ready
+[10-1 15:15:57.589] INFO: lsUserAddedMusicSourceIds=null
+[10-1 15:15:57.591] INFO: lsLastTrackFailureLoggingTime=null
+[10-1 15:15:57.591] INFO: lsUserSelectedDownloadDirId=null
+[10-1 15:15:57.608] INFO: lsDefaultDownloadLocationId=null
+[10-1 15:15:57.609] INFO: Setting is already: lsAlwaysUseDefaultDownloadLocation = false
+[10-1 15:15:57.609] INFO: Setting is already: lsDefaultDownloadLocationId = null
+[10-1 15:15:57.613] INFO: lsAppActivated=false
+[10-1 15:15:57.616] INFO: lsDragAndDropActivated=false
+[10-1 15:15:57.617] INFO: Nacl version: 1.0.467.4929
+[10-1 15:15:57.618] INFO: lsAppActivated=false
+[10-1 23:30:3.905] INFO: Network went offline, canceling delay timer.
+[10-1 23:30:7.853] INFO: Network came online, restarting delay timer.
