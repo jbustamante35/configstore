@@ -1,0 +1,3 @@
+/home/jbustamante/anaconda3/envs/yani
+/home/jbustamante/anaconda3
+/home/jbustamante/.julia/packages/Conda/m7vem/deps/usr
