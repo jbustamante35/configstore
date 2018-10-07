@@ -1,0 +1,16 @@
+.bash_aliases
+.bash_functions
+.bash_it
+.bashrc
+.config
+.dotrc
+.profile
+.screen
+.scripts
+.sh_aliases
+.shortcuts
+.shrc
+.termux
+.vim
+.viminfo
+.vimrc
