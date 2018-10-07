@@ -1,0 +1,7 @@
+.bash_aliases
+.bash_functions
+.bash_it
+.bashrc
+.vim
+.viminfo
+.vimrc
