@@ -79,3 +79,24 @@
 [submodule "winryrockbell/dots/.vim/bundle/vim-sensible"]
 	path = winryrockbell/dots/.vim/bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible
+[submodule "aqua/dots/.bash/themes/agnoster-bash"]
+	path = aqua/dots/.bash/themes/agnoster-bash
+	url = https://github.com/speedenator/agnoster-bash
+[submodule "aqua/dots/.oh-my-zsh"]
+	path = aqua/dots/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh
+[submodule "aqua/dots/.vim/bundle/ack.vim"]
+	path = aqua/dots/.vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "aqua/dots/.vim/bundle/ag.vim"]
+	path = aqua/dots/.vim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim
+[submodule "aqua/dots/.vim/bundle/vim-joy"]
+	path = aqua/dots/.vim/bundle/vim-joy
+	url = https://github.com/rking/vim-joy
+[submodule "aqua/dots/.vim/bundle/vim-sensible"]
+	path = aqua/dots/.vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule "aqua/dots/.tldr/tldr"]
+	path = aqua/dots/.tldr/tldr
+	url = https://github.com/tldr-pages/tldr
