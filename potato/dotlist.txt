@@ -23,6 +23,7 @@
 .vim
 .viminfo
 .vimrc
+.vimrc.swp
 .vnc
 .zsh_aliases
 .zsh_functions
