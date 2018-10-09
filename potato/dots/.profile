@@ -20,6 +20,7 @@ fi
 if [ -n "$ZSH_VERSION" ]; then
     # include .zshrcif it exists
     if [ -f "$HOME/.zshrc" ]; then
+        echo 'Sourcing $HOME/.zshrc'
 	    source "$HOME/.zshrc"
     fi
 fi

@@ -1,8 +1,17 @@
+echo "Sourcing $HOME/.zshrc"
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/jbustamante35/.oh-my-zsh"
+
+# My Profile [device]
+export PROFILE=potato
+
+echo "Sourcing $ZSH/oh-my-zsh.sh"
+source $ZSH/oh-my-zsh.sh
+echo "Sourcing fzf.zsh"
+[ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -23,26 +32,29 @@ plugins=(
 )
 
 #Shortcuts
-shrt=~/.scripts/shortcuts.zsh
+shrt=$HOME/.scripts/shortcuts.zsh
 if [ -f ${shrt} ]; then
+    echo "Sourcing $shrt"
     . ${shrt}
 fi
 
 #Aliases
-als=~/.zsh_aliases
+als=$HOME/.zsh_aliases
 if [ -f ${als} ]; then
+    echo "Sourcing $als"
     . ${als}
 fi
 
 # Functions
-funcs=~/.zsh_functions
+funcs=$HOME/.zsh_functions
 if [ -f ${funcs} ]; then
+    echo "Sourcing $funcs"
     . ${funcs}
 fi
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# a theme from this variable instead of looking in $HOME/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
@@ -74,7 +86,7 @@ COMPLETION_WAITING_DOTS="true"
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
-DISABLE_UNTRACKED_FILES_DIRTY="true"
+#DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -87,7 +99,6 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -107,7 +118,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
+# export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -115,12 +126,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# alias zshconfig="mate $HOME/.zshrc"
+# alias ohmyzsh="mate $HOME/.oh-my-zsh"
+source $HOME/.shortcuts
 source ~/.shortcuts
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-
-
-
