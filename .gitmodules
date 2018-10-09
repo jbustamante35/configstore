@@ -100,3 +100,18 @@
 [submodule "aqua/dots/.tldr/tldr"]
 	path = aqua/dots/.tldr/tldr
 	url = https://github.com/tldr-pages/tldr
+[submodule "aqua/main/.bash/themes/agnoster-bash"]
+	path = aqua/main/.bash/themes/agnoster-bash
+	url = https://github.com/speedenator/agnoster-bash
+[submodule "aqua/main/.oh-my-zsh"]
+	path = aqua/main/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh
+[submodule "aqua/main/.vim/bundle/ack.vim"]
+	path = aqua/main/.vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "aqua/main/.vim/bundle/ag.vim"]
+	path = aqua/main/.vim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim
+[submodule "aqua/main/.tldr/tldr"]
+	path = aqua/main/.tldr/tldr
+	url = https://github.com/tldr-pages/tldr
