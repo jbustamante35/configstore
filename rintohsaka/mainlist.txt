@@ -1,3 +1,4 @@
+addSubmodules.sh
 .bash
 .bash_aliases
 .bash_functions
@@ -7,6 +8,9 @@
 .bashrc-anaconda3.bak
 .bashrc.bak
 .oh-my-zsh
+submodules_manifest.txt
+submodules_manifest.txt.bak
+.tldr
 .vim
 .viminfo
 .vimrc
