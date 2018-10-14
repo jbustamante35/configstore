@@ -12451,3 +12451,1765 @@ P1160-T1937762048 Sep 30 22:41:04:100319 Debug( 266): message type from the serv
 P1160-T1937762048 Sep 30 22:41:04:100339 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
 P1160-T1937762048 Sep 30 22:41:04:100353 Debug( 306): RelayToUI - message send to GPI successful. 
 P1160-T1937762048 Sep 30 22:41:04:100355 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1160-T2056537920 Oct 01 10:02:45:526274 Info ( 112): Receive signal to terminate.
+P1160-T2056537920 Oct 01 10:02:45:573580 Info ( 112): Receive signal to terminate.
+P1160-T1929369344 Oct 01 10:02:45:637659 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1160-T1929369344 Oct 01 10:02:45:637682 Info (  64): message queue created.
+P1160-T1929369344 Oct 01 10:02:45:637696 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1276-T-2125732032 Oct 01 10:06:22:18279 P1276-T-2145999104 Oct 01 10:06:22:18280              Info ( 676): start PanGPA main. 1276
+debug thread starts
+P1276-T-2125732032 Oct 01 10:06:22:18595 Info ( 170): ################### main - PanGPA started. pid = 1276. ##################
+P1276-T-2125732032 Oct 01 10:06:22:18869 Debug(  98): Current login user is jbustamante.
+P1276-T-2125732032 Oct 01 10:06:22:18902 Debug(  64): m_pConfig initialized.
+P1276-T-2125732032 Oct 01 10:06:22:149967 Debug( 269): save-user-credentials = -1
+P1276-T-2125732032 Oct 01 10:06:22:149978 Debug( 287): portal-2fa = no
+P1276-T-2125732032 Oct 01 10:06:22:149980 Debug( 298): internal-gateway-2fa = no
+P1276-T-2125732032 Oct 01 10:06:22:149982 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1276-T-2125732032 Oct 01 10:06:22:149984 Debug( 320): manual-only-gateway-2fa = no
+P1276-T-2125732032 Oct 01 10:06:22:150787 Info ( 221): Current debug level = 5
+P1276-T-2125732032 Oct 01 10:06:22:152871 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1276-T-2125732032 Oct 01 10:06:22:152880 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1276-T-2125732032 Oct 01 10:06:22:153278 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1276-T-2125732032 Oct 01 10:06:22:153297 Debug(  85): m_pUserInfo initialized.
+P1276-T-2125732032 Oct 01 10:06:22:153300 Debug( 107): CPanConfigMgrLinux initialized.
+P1276-T-2125732032 Oct 01 10:06:22:153352 Info ( 581): startCommandQueue - command queue started.
+P1276-T-2125732032 Oct 01 10:06:22:153355 Debug( 118): CPanCommandLinux initialized.
+P1276-T-2125732032 Oct 01 10:06:22:153358 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1276-T-2125732032 Oct 01 10:06:22:153360 Debug( 124): stats and stats manager initialized.
+P1276-T-2125732032 Oct 01 10:06:22:153361 Debug( 129): CPanNotification initialized.
+P1276-T-2125732032 Oct 01 10:06:22:153364 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1276-T-2125732032 Oct 01 10:06:22:153366 Debug( 136): CPanGPIParser initialized.
+P1276-T-2125732032 Oct 01 10:06:22:153367 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1276-T-2125732032 Oct 01 10:06:22:153369 Debug( 149): New socket created.
+P1276-T-2125732032 Oct 01 10:06:22:153370 Info ( 154): InitConnection ...
+P1276-T-2125732032 Oct 01 10:06:22:153421 Error(  72): Failed to set nosigpipe
+P1276-T2123523840 Oct 01 10:06:22:153520 Debug( 431): SelectProc started.
+P1276-T-2125732032 Oct 01 10:06:22:154314 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1276-T-2125732032 Oct 01 10:06:22:154321 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1276-T-2125732032 Oct 01 10:06:22:154326 Info (  64): message queue created.
+P1276-T-2125732032 Oct 01 10:06:22:154328 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1276-T-2125732032 Oct 01 10:06:22:154376 Info ( 342): startGpiCommandQueue - command queue started.
+P1276-T-2125732032 Oct 01 10:06:22:154401 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1276-T-2125732032 Oct 01 10:06:22:154403 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1276-T2131916544 Oct 01 10:06:22:653519 Debug( 777): Send command to Pan Service
+P1276-T2131916544 Oct 01 10:06:22:653551 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1276</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1276-T2131916544 Oct 01 10:06:22:653593 Debug( 849): PanClient sent successful with 640 bytes
+P1276-T2123523840 Oct 01 10:06:22:666524 Debug(  93): Received data from Pan Service
+P1276-T2123523840 Oct 01 10:06:22:666772 Debug( 170): username field is not empty. not override the username.
+P1276-T2123523840 Oct 01 10:06:22:666785 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1276-T2123523840 Oct 01 10:06:22:666799 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1276-T2123523840 Oct 01 10:06:22:666825 Debug( 306): RelayToUI - message send to GPI successful. 
+P1276-T2123523840 Oct 01 10:06:22:666827 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1276-T2123523840 Oct 01 10:06:22:667671 Debug(  93): Received data from Pan Service
+P1276-T2123523840 Oct 01 10:06:22:669740 Debug( 170): username field is not empty. not override the username.
+P1276-T2123523840 Oct 01 10:06:22:669757 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1276-T2123523840 Oct 01 10:06:22:669773 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1276-T2123523840 Oct 01 10:06:22:669784 Debug( 306): RelayToUI - message send to GPI successful. 
+P1276-T2123523840 Oct 01 10:06:22:669786 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1276-T2115131136 Oct 01 10:15:27:278235 Info ( 378): Cannot find active login user jbustamante.
+P1276-T2115131136 Oct 01 10:15:27:278293 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1276-T2115131136 Oct 01 10:15:27:278309 Info (  64): message queue created.
+P1276-T2115131136 Oct 01 10:15:27:278345 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1276-T2131916544 Oct 01 10:15:27:320975 Debug( 777): Send command to Pan Service
+P1276-T2131916544 Oct 01 10:15:27:321010 Debug( 803): Command = <request><type>gpa_exit</type><pid>1276</pid></request>
+P1276-T2131916544 Oct 01 10:15:27:321133 Debug( 849): PanClient sent successful with 80 bytes
+P30332-T-436263104 Oct 01 10:15:34:808339 P30332-T-456526080 Oct 01 10:15:34:808340              Info ( 676): start PanGPA main. 30332
+debug thread starts
+P30332-T-436263104 Oct 01 10:15:34:808528 Info ( 170): ################### main - PanGPA started. pid = 30332. ##################
+P30332-T-436263104 Oct 01 10:15:34:808801 Debug(  98): Current login user is jbustamante.
+P30332-T-436263104 Oct 01 10:15:34:808829 Debug(  64): m_pConfig initialized.
+P30332-T-436263104 Oct 01 10:15:34:947219 Debug( 269): save-user-credentials = -1
+P30332-T-436263104 Oct 01 10:15:34:947231 Debug( 287): portal-2fa = no
+P30332-T-436263104 Oct 01 10:15:34:947233 Debug( 298): internal-gateway-2fa = no
+P30332-T-436263104 Oct 01 10:15:34:947236 Debug( 309): auto-discovery-external-gateway-2fa = no
+P30332-T-436263104 Oct 01 10:15:34:947238 Debug( 320): manual-only-gateway-2fa = no
+P30332-T-436263104 Oct 01 10:15:34:948178 Info ( 221): Current debug level = 5
+P30332-T-436263104 Oct 01 10:15:34:950307 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P30332-T-436263104 Oct 01 10:15:34:950315 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P30332-T-436263104 Oct 01 10:15:34:950702 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P30332-T-436263104 Oct 01 10:15:34:950722 Debug(  85): m_pUserInfo initialized.
+P30332-T-436263104 Oct 01 10:15:34:950725 Debug( 107): CPanConfigMgrLinux initialized.
+P30332-T-436263104 Oct 01 10:15:34:950782 Info ( 581): startCommandQueue - command queue started.
+P30332-T-436263104 Oct 01 10:15:34:950786 Debug( 118): CPanCommandLinux initialized.
+P30332-T-436263104 Oct 01 10:15:34:950791 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P30332-T-436263104 Oct 01 10:15:34:950793 Debug( 124): stats and stats manager initialized.
+P30332-T-436263104 Oct 01 10:15:34:950795 Debug( 129): CPanNotification initialized.
+P30332-T-436263104 Oct 01 10:15:34:950799 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P30332-T-436263104 Oct 01 10:15:34:950801 Debug( 136): CPanGPIParser initialized.
+P30332-T-436263104 Oct 01 10:15:34:950803 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P30332-T-436263104 Oct 01 10:15:34:950805 Debug( 149): New socket created.
+P30332-T-436263104 Oct 01 10:15:34:950807 Info ( 154): InitConnection ...
+P30332-T-436263104 Oct 01 10:15:34:950833 Error(  72): Failed to set nosigpipe
+P30332-T-549640448 Oct 01 10:15:34:950902 Debug( 431): SelectProc started.
+P30332-T-436263104 Oct 01 10:15:34:951778 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P30332-T-436263104 Oct 01 10:15:34:951784 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P30332-T-436263104 Oct 01 10:15:34:951790 Info (  64): message queue created.
+P30332-T-436263104 Oct 01 10:15:34:951791 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P30332-T-436263104 Oct 01 10:15:34:951849 Info ( 342): startGpiCommandQueue - command queue started.
+P30332-T-436263104 Oct 01 10:15:34:951875 Info ( 454): StartSocketMonitor - socket monitoring started.
+P30332-T-436263104 Oct 01 10:15:34:951878 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P30332-T-541247744 Oct 01 10:15:35:450893 Debug( 777): Send command to Pan Service
+P30332-T-541247744 Oct 01 10:15:35:450913 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>30332</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P30332-T-541247744 Oct 01 10:15:35:451705 Debug( 849): PanClient sent successful with 640 bytes
+P30332-T-549640448 Oct 01 10:15:36:366935 Debug(  93): Received data from Pan Service
+P30332-T-549640448 Oct 01 10:15:36:367156 Debug( 170): username field is not empty. not override the username.
+P30332-T-549640448 Oct 01 10:15:36:367164 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P30332-T-549640448 Oct 01 10:15:36:367179 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P30332-T-549640448 Oct 01 10:15:36:367196 Debug( 306): RelayToUI - message send to GPI successful. 
+P30332-T-549640448 Oct 01 10:15:36:367198 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P30332-T-549640448 Oct 01 10:15:36:367219 Debug(  93): Received data from Pan Service
+P30332-T-549640448 Oct 01 10:15:36:370605 Debug( 170): username field is not empty. not override the username.
+P30332-T-549640448 Oct 01 10:15:36:370616 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P30332-T-549640448 Oct 01 10:15:36:370636 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P30332-T-549640448 Oct 01 10:15:36:370649 Debug( 306): RelayToUI - message send to GPI successful. 
+P30332-T-549640448 Oct 01 10:15:36:370651 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P30332-T-456526080 Oct 01 22:15:00:481553 Info ( 112): Receive signal to terminate.
+P30332-T-456526080 Oct 01 22:15:00:481592 Info ( 112): Receive signal to terminate.
+P30332-T-558033152 Oct 01 22:15:00:990268 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P30332-T-558033152 Oct 01 22:15:00:990341 Info (  64): message queue created.
+P30332-T-558033152 Oct 01 22:15:00:990611 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1164-T-985327872 Oct 01 22:16:18:604611  nfo (  85):                                          Info ( 676): start PanGPA main. 1164
+debug thread starts
+P1164-T-965064896 Oct 01 22:16:18:605690 Info ( 170): ################### main - PanGPA started. pid = 1164. ##################
+P1164-T-965064896 Oct 01 22:16:18:606416 Debug(  98): Current login user is jbustamante.
+P1164-T-965064896 Oct 01 22:16:18:606799 Debug(  64): m_pConfig initialized.
+P1164-T-965064896 Oct 01 22:16:18:740039 Debug( 269): save-user-credentials = -1
+P1164-T-965064896 Oct 01 22:16:18:740051 Debug( 287): portal-2fa = no
+P1164-T-965064896 Oct 01 22:16:18:740054 Debug( 298): internal-gateway-2fa = no
+P1164-T-965064896 Oct 01 22:16:18:740057 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1164-T-965064896 Oct 01 22:16:18:740059 Debug( 320): manual-only-gateway-2fa = no
+P1164-T-965064896 Oct 01 22:16:18:740934 Info ( 221): Current debug level = 5
+P1164-T-965064896 Oct 01 22:16:18:743084 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1164-T-965064896 Oct 01 22:16:18:743091 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1164-T-965064896 Oct 01 22:16:18:743505 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1164-T-965064896 Oct 01 22:16:18:743538 Debug(  85): m_pUserInfo initialized.
+P1164-T-965064896 Oct 01 22:16:18:743541 Debug( 107): CPanConfigMgrLinux initialized.
+P1164-T-965064896 Oct 01 22:16:18:743592 Info ( 581): startCommandQueue - command queue started.
+P1164-T-965064896 Oct 01 22:16:18:743595 Debug( 118): CPanCommandLinux initialized.
+P1164-T-965064896 Oct 01 22:16:18:743599 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1164-T-965064896 Oct 01 22:16:18:743600 Debug( 124): stats and stats manager initialized.
+P1164-T-965064896 Oct 01 22:16:18:743601 Debug( 129): CPanNotification initialized.
+P1164-T-965064896 Oct 01 22:16:18:743605 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1164-T-965064896 Oct 01 22:16:18:743606 Debug( 136): CPanGPIParser initialized.
+P1164-T-965064896 Oct 01 22:16:18:743608 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1164-T-965064896 Oct 01 22:16:18:743609 Debug( 149): New socket created.
+P1164-T-965064896 Oct 01 22:16:18:743610 Info ( 154): InitConnection ...
+P1164-T-965064896 Oct 01 22:16:18:743636 Error(  72): Failed to set nosigpipe
+P1164-T-1082136832 Oct 01 22:16:18:743729 Debug( 431): SelectProc started.
+P1164-T-965064896 Oct 01 22:16:18:745570 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1164-T-965064896 Oct 01 22:16:18:745578 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1164-T-965064896 Oct 01 22:16:18:745583 Info (  64): message queue created.
+P1164-T-965064896 Oct 01 22:16:18:745585 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1164-T-965064896 Oct 01 22:16:18:745619 Info ( 342): startGpiCommandQueue - command queue started.
+P1164-T-965064896 Oct 01 22:16:18:745647 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1164-T-965064896 Oct 01 22:16:18:745649 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1164-T-1073744128 Oct 01 22:16:19:243705 Debug( 777): Send command to Pan Service
+P1164-T-1073744128 Oct 01 22:16:19:243729 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1164</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1164-T-1073744128 Oct 01 22:16:19:243776 Debug( 849): PanClient sent successful with 640 bytes
+P1164-T-1082136832 Oct 01 22:16:19:259196 Debug(  93): Received data from Pan Service
+P1164-T-1082136832 Oct 01 22:16:19:259441 Debug( 170): username field is not empty. not override the username.
+P1164-T-1082136832 Oct 01 22:16:19:259453 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1164-T-1082136832 Oct 01 22:16:19:259478 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1164-T-1082136832 Oct 01 22:16:19:259503 Debug( 306): RelayToUI - message send to GPI successful. 
+P1164-T-1082136832 Oct 01 22:16:19:259506 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1164-T-1082136832 Oct 01 22:16:19:260391 Debug(  93): Received data from Pan Service
+P1164-T-1082136832 Oct 01 22:16:19:262459 Debug( 170): username field is not empty. not override the username.
+P1164-T-1082136832 Oct 01 22:16:19:262468 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1164-T-1082136832 Oct 01 22:16:19:262483 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1164-T-1082136832 Oct 01 22:16:19:262493 Debug( 306): RelayToUI - message send to GPI successful. 
+P1164-T-1082136832 Oct 01 22:16:19:262495 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1164-T-1090529536 Oct 01 22:45:55:189578 Info ( 378): Cannot find active login user jbustamante.
+P1164-T-1090529536 Oct 01 22:45:55:189591 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1164-T-1090529536 Oct 01 22:45:55:189594 Info (  64): message queue created.
+P1164-T-1090529536 Oct 01 22:45:55:189602 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1164-T-1073744128 Oct 01 22:45:55:281516 Debug( 777): Send command to Pan Service
+P1164-T-1073744128 Oct 01 22:45:55:281553 Debug( 803): Command = <request><type>gpa_exit</type><pid>1164</pid></request>
+P1164-T-1073744128 Oct 01 22:45:55:281683 Debug( 849): PanClient sent successful with 80 bytes
+P3771-T521107200 Oct 01 22:46:02:378393 Info (  85):                            Info ( 676):              start PanGPA main. 3 71
+                    P3771-T541370176 Oct 01 22:46:02:378593 Info ( 170): ################### main - PanGPA started. pid = 3771. ##################
+P3771-T541370176 Oct 01 22:46:02:378904 Debug(  98): Current login user is jbustamante.
+P3771-T541370176 Oct 01 22:46:02:378932 Debug(  64): m_pConfig initialized.
+P3771-T541370176 Oct 01 22:46:02:512283 Debug( 269): save-user-credentials = -1
+P3771-T541370176 Oct 01 22:46:02:512292 Debug( 287): portal-2fa = no
+P3771-T541370176 Oct 01 22:46:02:512295 Debug( 298): internal-gateway-2fa = no
+P3771-T541370176 Oct 01 22:46:02:512296 Debug( 309): auto-discovery-external-gateway-2fa = no
+P3771-T541370176 Oct 01 22:46:02:512298 Debug( 320): manual-only-gateway-2fa = no
+P3771-T541370176 Oct 01 22:46:02:513100 Info ( 221): Current debug level = 5
+P3771-T541370176 Oct 01 22:46:02:515035 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P3771-T541370176 Oct 01 22:46:02:515043 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P3771-T541370176 Oct 01 22:46:02:515433 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P3771-T541370176 Oct 01 22:46:02:515458 Debug(  85): m_pUserInfo initialized.
+P3771-T541370176 Oct 01 22:46:02:515460 Debug( 107): CPanConfigMgrLinux initialized.
+P3771-T541370176 Oct 01 22:46:02:515511 Info ( 581): startCommandQueue - command queue started.
+P3771-T541370176 Oct 01 22:46:02:515513 Debug( 118): CPanCommandLinux initialized.
+P3771-T541370176 Oct 01 22:46:02:515517 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P3771-T541370176 Oct 01 22:46:02:515518 Debug( 124): stats and stats manager initialized.
+P3771-T541370176 Oct 01 22:46:02:515519 Debug( 129): CPanNotification initialized.
+P3771-T541370176 Oct 01 22:46:02:515523 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P3771-T541370176 Oct 01 22:46:02:515524 Debug( 136): CPanGPIParser initialized.
+P3771-T541370176 Oct 01 22:46:02:515525 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P3771-T541370176 Oct 01 22:46:02:515527 Debug( 149): New socket created.
+P3771-T541370176 Oct 01 22:46:02:515528 Info ( 154): InitConnection ...
+P3771-T541370176 Oct 01 22:46:02:515575 Error(  72): Failed to set nosigpipe
+P3771-T495662848 Oct 01 22:46:02:515652 Debug( 431): SelectProc started.
+P3771-T541370176 Oct 01 22:46:02:516476 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P3771-T541370176 Oct 01 22:46:02:516483 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P3771-T541370176 Oct 01 22:46:02:516490 Info (  64): message queue created.
+P3771-T541370176 Oct 01 22:46:02:516492 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P3771-T541370176 Oct 01 22:46:02:516538 Info ( 342): startGpiCommandQueue - command queue started.
+P3771-T541370176 Oct 01 22:46:02:516561 Info ( 454): StartSocketMonitor - socket monitoring started.
+P3771-T541370176 Oct 01 22:46:02:516563 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P3771-T504055552 Oct 01 22:46:03:15796 Debug( 777): Send command to Pan Service
+P3771-T504055552 Oct 01 22:46:03:15869 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>3771</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P3771-T504055552 Oct 01 22:46:03:16012 Debug( 849): PanClient sent successful with 640 bytes
+P3771-T495662848 Oct 01 22:46:04:209964 Debug(  93): Received data from Pan Service
+P3771-T495662848 Oct 01 22:46:04:210268 Debug( 170): username field is not empty. not override the username.
+P3771-T495662848 Oct 01 22:46:04:210280 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P3771-T495662848 Oct 01 22:46:04:210303 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P3771-T495662848 Oct 01 22:46:04:210331 Debug( 306): RelayToUI - message send to GPI successful. 
+P3771-T495662848 Oct 01 22:46:04:210335 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P3771-T495662848 Oct 01 22:46:04:211117 Debug(  93): Received data from Pan Service
+P3771-T495662848 Oct 01 22:46:04:214032 Debug( 170): username field is not empty. not override the username.
+P3771-T495662848 Oct 01 22:46:04:214042 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P3771-T495662848 Oct 01 22:46:04:214068 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P3771-T495662848 Oct 01 22:46:04:214081 Debug( 306): RelayToUI - message send to GPI successful. 
+P3771-T495662848 Oct 01 22:46:04:214083 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P3771-T541370176 Oct 01 22:46:58:617178 Info ( 112): Receive signal to terminate.
+P3771-T541370176 Oct 01 22:46:58:617190 Info ( 112): Receive signal to terminate.
+P3771-T487270144 Oct 01 22:46:59:531353 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P3771-T487270144 Oct 01 22:46:59:531418 Info (  64): message queue created.
+P3771-T487270144 Oct 01 22:46:59:531451 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1145-T-1749661952 Oct 01 22:48:06:910497 Info (  85):                              Info ( 676):              debug thread starts
+ 45
+                    P1145-T-1729398976 Oct 01 22:48:06:910726 Info ( 170): ################### main - PanGPA started. pid = 1145. ##################
+P1145-T-1729398976 Oct 01 22:48:06:911036 Debug(  98): Current login user is jbustamante.
+P1145-T-1729398976 Oct 01 22:48:06:911078 Debug(  64): m_pConfig initialized.
+P1145-T-1729398976 Oct 01 22:48:07:47217 Debug( 269): save-user-credentials = -1
+P1145-T-1729398976 Oct 01 22:48:07:47234 Debug( 287): portal-2fa = no
+P1145-T-1729398976 Oct 01 22:48:07:47237 Debug( 298): internal-gateway-2fa = no
+P1145-T-1729398976 Oct 01 22:48:07:47240 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1145-T-1729398976 Oct 01 22:48:07:47243 Debug( 320): manual-only-gateway-2fa = no
+P1145-T-1729398976 Oct 01 22:48:07:49565 Info ( 221): Current debug level = 5
+P1145-T-1729398976 Oct 01 22:48:07:52089 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1145-T-1729398976 Oct 01 22:48:07:52100 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1145-T-1729398976 Oct 01 22:48:07:52530 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1145-T-1729398976 Oct 01 22:48:07:52557 Debug(  85): m_pUserInfo initialized.
+P1145-T-1729398976 Oct 01 22:48:07:52561 Debug( 107): CPanConfigMgrLinux initialized.
+P1145-T-1729398976 Oct 01 22:48:07:52607 Info ( 581): startCommandQueue - command queue started.
+P1145-T-1729398976 Oct 01 22:48:07:52610 Debug( 118): CPanCommandLinux initialized.
+P1145-T-1729398976 Oct 01 22:48:07:52614 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1145-T-1729398976 Oct 01 22:48:07:52616 Debug( 124): stats and stats manager initialized.
+P1145-T-1729398976 Oct 01 22:48:07:52617 Debug( 129): CPanNotification initialized.
+P1145-T-1729398976 Oct 01 22:48:07:52622 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1145-T-1729398976 Oct 01 22:48:07:52623 Debug( 136): CPanGPIParser initialized.
+P1145-T-1729398976 Oct 01 22:48:07:52625 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1145-T-1729398976 Oct 01 22:48:07:52627 Debug( 149): New socket created.
+P1145-T-1729398976 Oct 01 22:48:07:52629 Info ( 154): InitConnection ...
+P1145-T-1729398976 Oct 01 22:48:07:52655 Error(  72): Failed to set nosigpipe
+P1145-T-1775106304 Oct 01 22:48:07:52874 Debug( 431): SelectProc started.
+P1145-T-1729398976 Oct 01 22:48:07:53856 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1145-T-1729398976 Oct 01 22:48:07:53863 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1145-T-1729398976 Oct 01 22:48:07:53870 Info (  64): message queue created.
+P1145-T-1729398976 Oct 01 22:48:07:53873 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1145-T-1729398976 Oct 01 22:48:07:53912 Info ( 342): startGpiCommandQueue - command queue started.
+P1145-T-1729398976 Oct 01 22:48:07:54711 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1145-T-1729398976 Oct 01 22:48:07:54720 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1145-T-1766713600 Oct 01 22:48:07:553039 Debug( 777): Send command to Pan Service
+P1145-T-1766713600 Oct 01 22:48:07:553083 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1145</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1145-T-1766713600 Oct 01 22:48:07:553177 Debug( 849): PanClient sent successful with 640 bytes
+P1145-T-1775106304 Oct 01 22:48:07:589654 Debug(  93): Received data from Pan Service
+P1145-T-1775106304 Oct 01 22:48:07:590699 Debug( 170): username field is not empty. not override the username.
+P1145-T-1775106304 Oct 01 22:48:07:590735 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1145-T-1775106304 Oct 01 22:48:07:590799 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1145-T-1775106304 Oct 01 22:48:07:590866 Debug( 306): RelayToUI - message send to GPI successful. 
+P1145-T-1775106304 Oct 01 22:48:07:590878 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1145-T-1775106304 Oct 01 22:48:07:593759 Debug(  93): Received data from Pan Service
+P1145-T-1775106304 Oct 01 22:48:07:604443 Debug( 170): username field is not empty. not override the username.
+P1145-T-1775106304 Oct 01 22:48:07:604479 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1145-T-1775106304 Oct 01 22:48:07:604554 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1145-T-1775106304 Oct 01 22:48:07:604597 Debug( 306): RelayToUI - message send to GPI successful. 
+P1145-T-1775106304 Oct 01 22:48:07:604607 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1145-T-1729398976 Oct 02 01:01:04:625870 Info ( 112): Receive signal to terminate.
+P1145-T-1729398976 Oct 02 01:01:04:629858 Info ( 112): Receive signal to terminate.
+P1145-T-1783499008 Oct 02 01:01:05:232987 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1145-T-1783499008 Oct 02 01:01:05:233054 Info (  64): message queue created.
+P1145-T-1783499008 Oct 02 01:01:05:233125 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1184-T307586880 Oct 02 17:49:58:252231  nfo ( 676):                                         Info (  85): start PanGPA main. 1                        P1184-T307586880 Oct 02 17:49:58:252491 Info ( 170): ################### main - PanGPA started. pid = 1184. ##################
+P1184-T307586880 Oct 02 17:49:58:252836 Debug(  98): Current login user is jbustamante.
+P1184-T307586880 Oct 02 17:49:58:252876 Debug(  64): m_pConfig initialized.
+P1184-T307586880 Oct 02 17:49:58:389304 Debug( 269): save-user-credentials = -1
+P1184-T307586880 Oct 02 17:49:58:389315 Debug( 287): portal-2fa = no
+P1184-T307586880 Oct 02 17:49:58:389317 Debug( 298): internal-gateway-2fa = no
+P1184-T307586880 Oct 02 17:49:58:389319 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1184-T307586880 Oct 02 17:49:58:389321 Debug( 320): manual-only-gateway-2fa = no
+P1184-T307586880 Oct 02 17:49:58:390154 Info ( 221): Current debug level = 5
+P1184-T307586880 Oct 02 17:49:58:392162 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1184-T307586880 Oct 02 17:49:58:392170 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1184-T307586880 Oct 02 17:49:58:392543 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1184-T307586880 Oct 02 17:49:58:392560 Debug(  85): m_pUserInfo initialized.
+P1184-T307586880 Oct 02 17:49:58:392562 Debug( 107): CPanConfigMgrLinux initialized.
+P1184-T307586880 Oct 02 17:49:58:392606 Info ( 581): startCommandQueue - command queue started.
+P1184-T307586880 Oct 02 17:49:58:392609 Debug( 118): CPanCommandLinux initialized.
+P1184-T307586880 Oct 02 17:49:58:392612 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1184-T307586880 Oct 02 17:49:58:392613 Debug( 124): stats and stats manager initialized.
+P1184-T307586880 Oct 02 17:49:58:392615 Debug( 129): CPanNotification initialized.
+P1184-T307586880 Oct 02 17:49:58:392618 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1184-T307586880 Oct 02 17:49:58:392619 Debug( 136): CPanGPIParser initialized.
+P1184-T307586880 Oct 02 17:49:58:392621 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1184-T307586880 Oct 02 17:49:58:392622 Debug( 149): New socket created.
+P1184-T307586880 Oct 02 17:49:58:392623 Info ( 154): InitConnection ...
+P1184-T307586880 Oct 02 17:49:58:392672 Error(  72): Failed to set nosigpipe
+P1184-T192931584 Oct 02 17:49:58:392784 Debug( 431): SelectProc started.
+P1184-T307586880 Oct 02 17:49:58:393762 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1184-T307586880 Oct 02 17:49:58:393769 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1184-T307586880 Oct 02 17:49:58:393774 Info (  64): message queue created.
+P1184-T307586880 Oct 02 17:49:58:393776 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1184-T307586880 Oct 02 17:49:58:393815 Info ( 342): startGpiCommandQueue - command queue started.
+P1184-T307586880 Oct 02 17:49:58:393830 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1184-T307586880 Oct 02 17:49:58:393832 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1184-T201324288 Oct 02 17:49:58:892813 Debug( 777): Send command to Pan Service
+P1184-T201324288 Oct 02 17:49:58:892848 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1184</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1184-T201324288 Oct 02 17:49:58:892922 Debug( 849): PanClient sent successful with 640 bytes
+P1184-T192931584 Oct 02 17:49:58:921869 Debug(  93): Received data from Pan Service
+P1184-T192931584 Oct 02 17:49:58:923078 Debug( 170): username field is not empty. not override the username.
+P1184-T192931584 Oct 02 17:49:58:923132 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1184-T192931584 Oct 02 17:49:58:923224 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1184-T192931584 Oct 02 17:49:58:923310 Debug( 306): RelayToUI - message send to GPI successful. 
+P1184-T192931584 Oct 02 17:49:58:923325 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1184-T192931584 Oct 02 17:49:58:926048 Debug(  93): Received data from Pan Service
+P1184-T192931584 Oct 02 17:49:58:939037 Debug( 170): username field is not empty. not override the username.
+P1184-T192931584 Oct 02 17:49:58:939085 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1184-T192931584 Oct 02 17:49:58:939189 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1184-T192931584 Oct 02 17:49:58:939238 Debug( 306): RelayToUI - message send to GPI successful. 
+P1184-T192931584 Oct 02 17:49:58:939252 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1184-T307586880 Oct 02 17:51:30:777595 Info ( 112): Receive signal to terminate.
+P1184-T307586880 Oct 02 17:51:30:777607 Info ( 112): Receive signal to terminate.
+P1184-T184538880 Oct 02 17:51:31:755077 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1184-T184538880 Oct 02 17:51:31:755143 Info (  64): message queue created.
+P1184-T184538880 Oct 02 17:51:31:755181 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1265-T2101184256 Oct 02 17:52:44:599448  nfo (  85):                             Info ( 676):              debug thread starts
+ 65
+                    P1265-T2121447232 Oct 02 17:52:44:599697 Info ( 170): ################### main - PanGPA started. pid = 1265. ##################
+P1265-T2121447232 Oct 02 17:52:44:599993 Debug(  98): Current login user is jbustamante.
+P1265-T2121447232 Oct 02 17:52:44:600033 Debug(  64): m_pConfig initialized.
+P1265-T2121447232 Oct 02 17:52:44:734153 Debug( 269): save-user-credentials = -1
+P1265-T2121447232 Oct 02 17:52:44:734170 Debug( 287): portal-2fa = no
+P1265-T2121447232 Oct 02 17:52:44:734174 Debug( 298): internal-gateway-2fa = no
+P1265-T2121447232 Oct 02 17:52:44:734177 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1265-T2121447232 Oct 02 17:52:44:734179 Debug( 320): manual-only-gateway-2fa = no
+P1265-T2121447232 Oct 02 17:52:44:735115 Info ( 221): Current debug level = 5
+P1265-T2121447232 Oct 02 17:52:44:737575 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1265-T2121447232 Oct 02 17:52:44:737584 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1265-T2121447232 Oct 02 17:52:44:738069 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1265-T2121447232 Oct 02 17:52:44:738096 Debug(  85): m_pUserInfo initialized.
+P1265-T2121447232 Oct 02 17:52:44:738099 Debug( 107): CPanConfigMgrLinux initialized.
+P1265-T2121447232 Oct 02 17:52:44:738157 Info ( 581): startCommandQueue - command queue started.
+P1265-T2121447232 Oct 02 17:52:44:738160 Debug( 118): CPanCommandLinux initialized.
+P1265-T2121447232 Oct 02 17:52:44:738164 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1265-T2121447232 Oct 02 17:52:44:738166 Debug( 124): stats and stats manager initialized.
+P1265-T2121447232 Oct 02 17:52:44:738168 Debug( 129): CPanNotification initialized.
+P1265-T2121447232 Oct 02 17:52:44:738173 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1265-T2121447232 Oct 02 17:52:44:738175 Debug( 136): CPanGPIParser initialized.
+P1265-T2121447232 Oct 02 17:52:44:738177 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1265-T2121447232 Oct 02 17:52:44:738179 Debug( 149): New socket created.
+P1265-T2121447232 Oct 02 17:52:44:738181 Info ( 154): InitConnection ...
+P1265-T2121447232 Oct 02 17:52:44:738213 Error(  72): Failed to set nosigpipe
+P1265-T2004870912 Oct 02 17:52:44:738351 Debug( 431): SelectProc started.
+P1265-T2121447232 Oct 02 17:52:44:739353 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1265-T2121447232 Oct 02 17:52:44:739362 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1265-T2121447232 Oct 02 17:52:44:739369 Info (  64): message queue created.
+P1265-T2121447232 Oct 02 17:52:44:739372 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1265-T2121447232 Oct 02 17:52:44:739423 Info ( 342): startGpiCommandQueue - command queue started.
+P1265-T2121447232 Oct 02 17:52:44:739442 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1265-T2121447232 Oct 02 17:52:44:739445 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1265-T2013263616 Oct 02 17:52:45:238302 Debug( 777): Send command to Pan Service
+P1265-T2013263616 Oct 02 17:52:45:238322 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1265</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1265-T2013263616 Oct 02 17:52:45:240944 Debug( 849): PanClient sent successful with 640 bytes
+P1265-T2004870912 Oct 02 17:52:45:260910 Debug(  93): Received data from Pan Service
+P1265-T2004870912 Oct 02 17:52:45:261210 Debug( 170): username field is not empty. not override the username.
+P1265-T2004870912 Oct 02 17:52:45:261223 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1265-T2004870912 Oct 02 17:52:45:261241 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1265-T2004870912 Oct 02 17:52:45:261274 Debug( 306): RelayToUI - message send to GPI successful. 
+P1265-T2004870912 Oct 02 17:52:45:261278 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1265-T2004870912 Oct 02 17:52:45:262086 Debug(  93): Received data from Pan Service
+P1265-T2004870912 Oct 02 17:52:45:266504 Debug( 170): username field is not empty. not override the username.
+P1265-T2004870912 Oct 02 17:52:45:266516 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1265-T2004870912 Oct 02 17:52:45:266535 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1265-T2004870912 Oct 02 17:52:45:266550 Debug( 306): RelayToUI - message send to GPI successful. 
+P1265-T2004870912 Oct 02 17:52:45:266553 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1265-T2121447232 Oct 04 23:14:25:992794 Info ( 112): Receive signal to terminate.
+P1265-T2121447232 Oct 04 23:14:26:184509 Info ( 112): Receive signal to terminate.
+P1265-T1996478208 Oct 04 23:14:26:277768 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1265-T1996478208 Oct 04 23:14:26:277790 Info (  64): message queue created.
+P1265-T1996478208 Oct 04 23:14:26:278072 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1160-T-573376704 Oct 04 23:38:57:721445 Info (  85): P1160-T-593639680 Oct 04 23:38:57:721445 start PanGPA main. 1160
+             debug thread starts
+P1160-T-573376704 Oct 04 23:38:57:721666 Info ( 170): ################### main - PanGPA started. pid = 1160. ##################
+P1160-T-573376704 Oct 04 23:38:57:722006 Debug(  98): Current login user is jbustamante.
+P1160-T-573376704 Oct 04 23:38:57:722067 Debug(  64): m_pConfig initialized.
+P1160-T-573376704 Oct 04 23:38:57:855853 Debug( 269): save-user-credentials = -1
+P1160-T-573376704 Oct 04 23:38:57:855866 Debug( 287): portal-2fa = no
+P1160-T-573376704 Oct 04 23:38:57:855869 Debug( 298): internal-gateway-2fa = no
+P1160-T-573376704 Oct 04 23:38:57:855873 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1160-T-573376704 Oct 04 23:38:57:855875 Debug( 320): manual-only-gateway-2fa = no
+P1160-T-573376704 Oct 04 23:38:57:856760 Info ( 221): Current debug level = 5
+P1160-T-573376704 Oct 04 23:38:57:858768 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1160-T-573376704 Oct 04 23:38:57:858777 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1160-T-573376704 Oct 04 23:38:57:859194 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1160-T-573376704 Oct 04 23:38:57:859214 Debug(  85): m_pUserInfo initialized.
+P1160-T-573376704 Oct 04 23:38:57:859216 Debug( 107): CPanConfigMgrLinux initialized.
+P1160-T-573376704 Oct 04 23:38:57:859262 Info ( 581): startCommandQueue - command queue started.
+P1160-T-573376704 Oct 04 23:38:57:859264 Debug( 118): CPanCommandLinux initialized.
+P1160-T-573376704 Oct 04 23:38:57:859268 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1160-T-573376704 Oct 04 23:38:57:859269 Debug( 124): stats and stats manager initialized.
+P1160-T-573376704 Oct 04 23:38:57:859270 Debug( 129): CPanNotification initialized.
+P1160-T-573376704 Oct 04 23:38:57:859273 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1160-T-573376704 Oct 04 23:38:57:859274 Debug( 136): CPanGPIParser initialized.
+P1160-T-573376704 Oct 04 23:38:57:859276 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1160-T-573376704 Oct 04 23:38:57:859277 Debug( 149): New socket created.
+P1160-T-573376704 Oct 04 23:38:57:859279 Info ( 154): InitConnection ...
+P1160-T-573376704 Oct 04 23:38:57:859318 Error(  72): Failed to set nosigpipe
+P1160-T-688142592 Oct 04 23:38:57:859404 Debug( 431): SelectProc started.
+P1160-T-573376704 Oct 04 23:38:57:860210 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1160-T-573376704 Oct 04 23:38:57:860217 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1160-T-573376704 Oct 04 23:38:57:860224 Info (  64): message queue created.
+P1160-T-573376704 Oct 04 23:38:57:860225 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1160-T-573376704 Oct 04 23:38:57:860269 Info ( 342): startGpiCommandQueue - command queue started.
+P1160-T-573376704 Oct 04 23:38:57:860284 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1160-T-573376704 Oct 04 23:38:57:860286 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1160-T-679749888 Oct 04 23:38:58:363401 Debug( 777): Send command to Pan Service
+P1160-T-679749888 Oct 04 23:38:58:363424 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1160</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1160-T-679749888 Oct 04 23:38:58:365916 Debug( 849): PanClient sent successful with 640 bytes
+P1160-T-688142592 Oct 04 23:38:58:394400 Debug(  93): Received data from Pan Service
+P1160-T-688142592 Oct 04 23:38:58:394709 Debug( 170): username field is not empty. not override the username.
+P1160-T-688142592 Oct 04 23:38:58:394721 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1160-T-688142592 Oct 04 23:38:58:394740 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1160-T-688142592 Oct 04 23:38:58:394778 Debug( 306): RelayToUI - message send to GPI successful. 
+P1160-T-688142592 Oct 04 23:38:58:394781 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1160-T-688142592 Oct 04 23:38:58:401163 Debug(  93): Received data from Pan Service
+P1160-T-688142592 Oct 04 23:38:58:403758 Debug( 170): username field is not empty. not override the username.
+P1160-T-688142592 Oct 04 23:38:58:403771 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1160-T-688142592 Oct 04 23:38:58:403792 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1160-T-688142592 Oct 04 23:38:58:403807 Debug( 306): RelayToUI - message send to GPI successful. 
+P1160-T-688142592 Oct 04 23:38:58:403810 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1160-T-696535296 Oct 04 23:39:34:871379 Info ( 378): Cannot find active login user jbustamante.
+P1160-T-696535296 Oct 04 23:39:34:871450 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1160-T-696535296 Oct 04 23:39:34:871470 Info (  64): message queue created.
+P1160-T-696535296 Oct 04 23:39:34:871545 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1160-T-679749888 Oct 04 23:39:34:920623 Debug( 777): Send command to Pan Service
+P1160-T-679749888 Oct 04 23:39:34:920634 Debug( 803): Command = <request><type>gpa_exit</type><pid>1160</pid></request>
+P1160-T-679749888 Oct 04 23:39:34:920678 Debug( 849): PanClient sent successful with 80 bytes
+P1790-T-1154029760 Oct 04 23:39:46:323299 Info (  85): start PanGPA main. 1790
+P1790-T-1174292736 Oct 04 23:39:46:323342 Info ( 676): debug thread starts
+P1790-T-1154029760 Oct 04 23:39:46:323497 Info ( 170): ################### main - PanGPA started. pid = 1790. ##################
+P1790-T-1154029760 Oct 04 23:39:46:323894 Debug(  98): Current login user is jbustamante.
+P1790-T-1154029760 Oct 04 23:39:46:323934 Debug(  64): m_pConfig initialized.
+P1790-T-1154029760 Oct 04 23:39:46:460604 Debug( 269): save-user-credentials = -1
+P1790-T-1154029760 Oct 04 23:39:46:460615 Debug( 287): portal-2fa = no
+P1790-T-1154029760 Oct 04 23:39:46:460619 Debug( 298): internal-gateway-2fa = no
+P1790-T-1154029760 Oct 04 23:39:46:460622 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1790-T-1154029760 Oct 04 23:39:46:460625 Debug( 320): manual-only-gateway-2fa = no
+P1790-T-1154029760 Oct 04 23:39:46:461637 Info ( 221): Current debug level = 5
+P1790-T-1154029760 Oct 04 23:39:46:463820 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1790-T-1154029760 Oct 04 23:39:46:463830 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1790-T-1154029760 Oct 04 23:39:46:464246 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1790-T-1154029760 Oct 04 23:39:46:464272 Debug(  85): m_pUserInfo initialized.
+P1790-T-1154029760 Oct 04 23:39:46:464275 Debug( 107): CPanConfigMgrLinux initialized.
+P1790-T-1154029760 Oct 04 23:39:46:464330 Info ( 581): startCommandQueue - command queue started.
+P1790-T-1154029760 Oct 04 23:39:46:464333 Debug( 118): CPanCommandLinux initialized.
+P1790-T-1154029760 Oct 04 23:39:46:464338 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1790-T-1154029760 Oct 04 23:39:46:464340 Debug( 124): stats and stats manager initialized.
+P1790-T-1154029760 Oct 04 23:39:46:464342 Debug( 129): CPanNotification initialized.
+P1790-T-1154029760 Oct 04 23:39:46:464347 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1790-T-1154029760 Oct 04 23:39:46:464349 Debug( 136): CPanGPIParser initialized.
+P1790-T-1154029760 Oct 04 23:39:46:464351 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1790-T-1154029760 Oct 04 23:39:46:464353 Debug( 149): New socket created.
+P1790-T-1154029760 Oct 04 23:39:46:464355 Info ( 154): InitConnection ...
+P1790-T-1154029760 Oct 04 23:39:46:464389 Error(  72): Failed to set nosigpipe
+P1790-T-1275070720 Oct 04 23:39:46:464513 Debug( 431): SelectProc started.
+P1790-T-1154029760 Oct 04 23:39:46:465474 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1790-T-1154029760 Oct 04 23:39:46:465482 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1790-T-1154029760 Oct 04 23:39:46:465489 Info (  64): message queue created.
+P1790-T-1154029760 Oct 04 23:39:46:465491 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1790-T-1154029760 Oct 04 23:39:46:465536 Info ( 342): startGpiCommandQueue - command queue started.
+P1790-T-1154029760 Oct 04 23:39:46:465554 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1790-T-1154029760 Oct 04 23:39:46:465556 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1790-T-1191344384 Oct 04 23:39:46:964461 Debug( 777): Send command to Pan Service
+P1790-T-1191344384 Oct 04 23:39:46:964490 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1790</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1790-T-1191344384 Oct 04 23:39:46:965429 Debug( 849): PanClient sent successful with 640 bytes
+P1790-T-1275070720 Oct 04 23:39:47:577789 Debug(  93): Received data from Pan Service
+P1790-T-1275070720 Oct 04 23:39:47:578087 Debug( 170): username field is not empty. not override the username.
+P1790-T-1275070720 Oct 04 23:39:47:578103 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1790-T-1275070720 Oct 04 23:39:47:578120 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1790-T-1275070720 Oct 04 23:39:47:578146 Debug( 306): RelayToUI - message send to GPI successful. 
+P1790-T-1275070720 Oct 04 23:39:47:578150 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1790-T-1275070720 Oct 04 23:39:47:579102 Debug(  93): Received data from Pan Service
+P1790-T-1275070720 Oct 04 23:39:47:581488 Debug( 170): username field is not empty. not override the username.
+P1790-T-1275070720 Oct 04 23:39:47:581500 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1790-T-1275070720 Oct 04 23:39:47:581521 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1790-T-1275070720 Oct 04 23:39:47:581534 Debug( 306): RelayToUI - message send to GPI successful. 
+P1790-T-1275070720 Oct 04 23:39:47:581537 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1790-T-1283463424 Oct 05 01:01:36:392682 Info ( 378): Cannot find active login user jbustamante.
+P1790-T-1283463424 Oct 05 01:01:36:392744 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1790-T-1283463424 Oct 05 01:01:36:392760 Info (  64): message queue created.
+P1790-T-1283463424 Oct 05 01:01:36:392787 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1790-T-1191344384 Oct 05 01:01:36:714512 Debug( 777): Send command to Pan Service
+P1790-T-1191344384 Oct 05 01:01:36:714540 Debug( 803): Command = <request><type>gpa_exit</type><pid>1790</pid></request>
+P1790-T-1191344384 Oct 05 01:01:36:714660 Debug( 849): PanClient sent successful with 80 bytes
+P1227-T-1443592448 Oct 05 08:17:43:658795  nfo (  85):                              Info ( 676):              start PanGPA main. 1227
+                    P1227-T-1423329472 Oct 05 08:17:43:659967 Info ( 170): ################### main - PanGPA started. pid = 1227. ##################
+P1227-T-1423329472 Oct 05 08:17:43:660686 Debug(  98): Current login user is jbustamante.
+P1227-T-1423329472 Oct 05 08:17:43:661059 Debug(  64): m_pConfig initialized.
+P1227-T-1423329472 Oct 05 08:17:43:794049 Debug( 269): save-user-credentials = -1
+P1227-T-1423329472 Oct 05 08:17:43:794064 Debug( 287): portal-2fa = no
+P1227-T-1423329472 Oct 05 08:17:43:794066 Debug( 298): internal-gateway-2fa = no
+P1227-T-1423329472 Oct 05 08:17:43:794068 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1227-T-1423329472 Oct 05 08:17:43:794070 Debug( 320): manual-only-gateway-2fa = no
+P1227-T-1423329472 Oct 05 08:17:43:794989 Info ( 221): Current debug level = 5
+P1227-T-1423329472 Oct 05 08:17:43:797160 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1227-T-1423329472 Oct 05 08:17:43:797168 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1227-T-1423329472 Oct 05 08:17:43:797579 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1227-T-1423329472 Oct 05 08:17:43:797601 Debug(  85): m_pUserInfo initialized.
+P1227-T-1423329472 Oct 05 08:17:43:797604 Debug( 107): CPanConfigMgrLinux initialized.
+P1227-T-1423329472 Oct 05 08:17:43:797653 Info ( 581): startCommandQueue - command queue started.
+P1227-T-1423329472 Oct 05 08:17:43:797655 Debug( 118): CPanCommandLinux initialized.
+P1227-T-1423329472 Oct 05 08:17:43:797659 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1227-T-1423329472 Oct 05 08:17:43:797660 Debug( 124): stats and stats manager initialized.
+P1227-T-1423329472 Oct 05 08:17:43:797662 Debug( 129): CPanNotification initialized.
+P1227-T-1423329472 Oct 05 08:17:43:797665 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1227-T-1423329472 Oct 05 08:17:43:797666 Debug( 136): CPanGPIParser initialized.
+P1227-T-1423329472 Oct 05 08:17:43:797667 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1227-T-1423329472 Oct 05 08:17:43:797669 Debug( 149): New socket created.
+P1227-T-1423329472 Oct 05 08:17:43:797670 Info ( 154): InitConnection ...
+P1227-T-1423329472 Oct 05 08:17:43:797701 Error(  72): Failed to set nosigpipe
+P1227-T-1543506176 Oct 05 08:17:43:797789 Debug( 431): SelectProc started.
+P1227-T-1423329472 Oct 05 08:17:43:799623 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1227-T-1423329472 Oct 05 08:17:43:799630 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1227-T-1423329472 Oct 05 08:17:43:799635 Info (  64): message queue created.
+P1227-T-1423329472 Oct 05 08:17:43:799637 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1227-T-1423329472 Oct 05 08:17:43:799667 Info ( 342): startGpiCommandQueue - command queue started.
+P1227-T-1423329472 Oct 05 08:17:43:799687 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1227-T-1423329472 Oct 05 08:17:43:799689 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1227-T-1460644096 Oct 05 08:17:44:297777 Debug( 777): Send command to Pan Service
+P1227-T-1460644096 Oct 05 08:17:44:297799 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1227</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1227-T-1460644096 Oct 05 08:17:44:297854 Debug( 849): PanClient sent successful with 640 bytes
+P1227-T-1543506176 Oct 05 08:17:44:347454 Debug(  93): Received data from Pan Service
+P1227-T-1543506176 Oct 05 08:17:44:347777 Debug( 170): username field is not empty. not override the username.
+P1227-T-1543506176 Oct 05 08:17:44:347791 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1227-T-1543506176 Oct 05 08:17:44:347825 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1227-T-1543506176 Oct 05 08:17:44:347858 Debug( 306): RelayToUI - message send to GPI successful. 
+P1227-T-1543506176 Oct 05 08:17:44:347861 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1227-T-1543506176 Oct 05 08:17:44:348553 Debug(  93): Received data from Pan Service
+P1227-T-1543506176 Oct 05 08:17:44:353302 Debug( 170): username field is not empty. not override the username.
+P1227-T-1543506176 Oct 05 08:17:44:353315 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1227-T-1543506176 Oct 05 08:17:44:353337 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1227-T-1543506176 Oct 05 08:17:44:353360 Debug( 306): RelayToUI - message send to GPI successful. 
+P1227-T-1543506176 Oct 05 08:17:44:353362 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1227-T-1423329472 Oct 05 08:51:04:149090 Info ( 112): Receive signal to terminate.
+P1227-T-1423329472 Oct 05 08:51:04:149249 Info ( 112): Receive signal to terminate.
+P1227-T-1551898880 Oct 05 08:51:04:726222 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1227-T-1551898880 Oct 05 08:51:04:726265 Info (  64): message queue created.
+P1227-T-1551898880 Oct 05 08:51:04:726282 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1188-T-142682304 Oct 05 17:07:49:11418 P1188-T-162945280 Oct 05 17:07:49:11419              start PanGPA main. 1188
+             debug thread starts
+P1188-T-142682304 Oct 05 17:07:49:11593 Info ( 170): ################### main - PanGPA started. pid = 1188. ##################
+P1188-T-142682304 Oct 05 17:07:49:11846 Debug(  98): Current login user is jbustamante.
+P1188-T-142682304 Oct 05 17:07:49:11874 Debug(  64): m_pConfig initialized.
+P1188-T-142682304 Oct 05 17:07:49:143215 Debug( 269): save-user-credentials = -1
+P1188-T-142682304 Oct 05 17:07:49:143238 Debug( 287): portal-2fa = no
+P1188-T-142682304 Oct 05 17:07:49:143240 Debug( 298): internal-gateway-2fa = no
+P1188-T-142682304 Oct 05 17:07:49:143242 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1188-T-142682304 Oct 05 17:07:49:143244 Debug( 320): manual-only-gateway-2fa = no
+P1188-T-142682304 Oct 05 17:07:49:144019 Info ( 221): Current debug level = 5
+P1188-T-142682304 Oct 05 17:07:49:146010 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1188-T-142682304 Oct 05 17:07:49:146019 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1188-T-142682304 Oct 05 17:07:49:146404 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1188-T-142682304 Oct 05 17:07:49:146423 Debug(  85): m_pUserInfo initialized.
+P1188-T-142682304 Oct 05 17:07:49:146425 Debug( 107): CPanConfigMgrLinux initialized.
+P1188-T-142682304 Oct 05 17:07:49:146467 Info ( 581): startCommandQueue - command queue started.
+P1188-T-142682304 Oct 05 17:07:49:146469 Debug( 118): CPanCommandLinux initialized.
+P1188-T-142682304 Oct 05 17:07:49:146473 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1188-T-142682304 Oct 05 17:07:49:146474 Debug( 124): stats and stats manager initialized.
+P1188-T-142682304 Oct 05 17:07:49:146476 Debug( 129): CPanNotification initialized.
+P1188-T-142682304 Oct 05 17:07:49:146479 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1188-T-142682304 Oct 05 17:07:49:146481 Debug( 136): CPanGPIParser initialized.
+P1188-T-142682304 Oct 05 17:07:49:146482 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1188-T-142682304 Oct 05 17:07:49:146484 Debug( 149): New socket created.
+P1188-T-142682304 Oct 05 17:07:49:146485 Info ( 154): InitConnection ...
+P1188-T-142682304 Oct 05 17:07:49:146511 Error(  72): Failed to set nosigpipe
+P1188-T-188389632 Oct 05 17:07:49:146601 Debug( 431): SelectProc started.
+P1188-T-142682304 Oct 05 17:07:49:147392 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1188-T-142682304 Oct 05 17:07:49:147399 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1188-T-142682304 Oct 05 17:07:49:147404 Info (  64): message queue created.
+P1188-T-142682304 Oct 05 17:07:49:147406 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1188-T-142682304 Oct 05 17:07:49:147441 Info ( 342): startGpiCommandQueue - command queue started.
+P1188-T-142682304 Oct 05 17:07:49:147484 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1188-T-142682304 Oct 05 17:07:49:147487 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1188-T-179996928 Oct 05 17:07:49:646561 Debug( 777): Send command to Pan Service
+P1188-T-179996928 Oct 05 17:07:49:646586 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1188</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1188-T-179996928 Oct 05 17:07:49:646636 Debug( 849): PanClient sent successful with 640 bytes
+P1188-T-188389632 Oct 05 17:07:49:658785 Debug(  93): Received data from Pan Service
+P1188-T-188389632 Oct 05 17:07:49:659038 Debug( 170): username field is not empty. not override the username.
+P1188-T-188389632 Oct 05 17:07:49:659061 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1188-T-188389632 Oct 05 17:07:49:659076 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1188-T-188389632 Oct 05 17:07:49:659103 Debug( 306): RelayToUI - message send to GPI successful. 
+P1188-T-188389632 Oct 05 17:07:49:659106 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1188-T-188389632 Oct 05 17:07:49:660007 Debug(  93): Received data from Pan Service
+P1188-T-188389632 Oct 05 17:07:49:662107 Debug( 170): username field is not empty. not override the username.
+P1188-T-188389632 Oct 05 17:07:49:662116 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1188-T-188389632 Oct 05 17:07:49:662131 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1188-T-188389632 Oct 05 17:07:49:662142 Debug( 306): RelayToUI - message send to GPI successful. 
+P1188-T-188389632 Oct 05 17:07:49:662144 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1188-T-142682304 Oct 05 23:44:39:929681 Info ( 112): Receive signal to terminate.
+P1188-T-142682304 Oct 05 23:44:39:930415 Info ( 112): Receive signal to terminate.
+P1188-T-268437760 Oct 05 23:44:39:998975 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1188-T-268437760 Oct 05 23:44:39:998993 Info (  64): message queue created.
+P1188-T-268437760 Oct 05 23:44:39:999017 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1174-T-457844928 Oct 06 21:20:32:754463 Info (  85): start PanGPA main. 1174
+P1174-T-478107904 Oct 06 21:20:32:754525 Info ( 676): debug thread starts
+P1174-T-457844928 Oct 06 21:20:32:754693 Info ( 170): ################### main - PanGPA started. pid = 1174. ##################
+P1174-T-457844928 Oct 06 21:20:32:755060 Debug(  98): Current login user is jbustamante.
+P1174-T-457844928 Oct 06 21:20:32:755109 Debug(  64): m_pConfig initialized.
+P1174-T-457844928 Oct 06 21:20:32:889473 Debug( 269): save-user-credentials = -1
+P1174-T-457844928 Oct 06 21:20:32:889482 Debug( 287): portal-2fa = no
+P1174-T-457844928 Oct 06 21:20:32:889484 Debug( 298): internal-gateway-2fa = no
+P1174-T-457844928 Oct 06 21:20:32:889486 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1174-T-457844928 Oct 06 21:20:32:889488 Debug( 320): manual-only-gateway-2fa = no
+P1174-T-457844928 Oct 06 21:20:32:890298 Info ( 221): Current debug level = 5
+P1174-T-457844928 Oct 06 21:20:32:892291 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1174-T-457844928 Oct 06 21:20:32:892299 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1174-T-457844928 Oct 06 21:20:32:892668 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1174-T-457844928 Oct 06 21:20:32:892704 Debug(  85): m_pUserInfo initialized.
+P1174-T-457844928 Oct 06 21:20:32:892707 Debug( 107): CPanConfigMgrLinux initialized.
+P1174-T-457844928 Oct 06 21:20:32:892751 Info ( 581): startCommandQueue - command queue started.
+P1174-T-457844928 Oct 06 21:20:32:892754 Debug( 118): CPanCommandLinux initialized.
+P1174-T-457844928 Oct 06 21:20:32:892758 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1174-T-457844928 Oct 06 21:20:32:892759 Debug( 124): stats and stats manager initialized.
+P1174-T-457844928 Oct 06 21:20:32:892760 Debug( 129): CPanNotification initialized.
+P1174-T-457844928 Oct 06 21:20:32:892763 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1174-T-457844928 Oct 06 21:20:32:892764 Debug( 136): CPanGPIParser initialized.
+P1174-T-457844928 Oct 06 21:20:32:892766 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1174-T-457844928 Oct 06 21:20:32:892767 Debug( 149): New socket created.
+P1174-T-457844928 Oct 06 21:20:32:892768 Info ( 154): InitConnection ...
+P1174-T-457844928 Oct 06 21:20:32:892807 Error(  72): Failed to set nosigpipe
+P1174-T-503552256 Oct 06 21:20:32:892894 Debug( 431): SelectProc started.
+P1174-T-457844928 Oct 06 21:20:32:893720 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1174-T-457844928 Oct 06 21:20:32:893726 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1174-T-457844928 Oct 06 21:20:32:893732 Info (  64): message queue created.
+P1174-T-457844928 Oct 06 21:20:32:893733 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1174-T-457844928 Oct 06 21:20:32:893769 Info ( 342): startGpiCommandQueue - command queue started.
+P1174-T-457844928 Oct 06 21:20:32:893788 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1174-T-457844928 Oct 06 21:20:32:893790 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1174-T-495159552 Oct 06 21:20:33:392891 Debug( 777): Send command to Pan Service
+P1174-T-495159552 Oct 06 21:20:33:392909 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1174</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1174-T-495159552 Oct 06 21:20:33:392955 Debug( 849): PanClient sent successful with 640 bytes
+P1174-T-503552256 Oct 06 21:20:33:411075 Debug(  93): Received data from Pan Service
+P1174-T-503552256 Oct 06 21:20:33:411558 Debug( 170): username field is not empty. not override the username.
+P1174-T-503552256 Oct 06 21:20:33:411583 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1174-T-503552256 Oct 06 21:20:33:411607 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1174-T-503552256 Oct 06 21:20:33:411662 Debug( 306): RelayToUI - message send to GPI successful. 
+P1174-T-503552256 Oct 06 21:20:33:411668 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1174-T-503552256 Oct 06 21:20:33:412466 Debug(  93): Received data from Pan Service
+P1174-T-503552256 Oct 06 21:20:33:414563 Debug( 170): username field is not empty. not override the username.
+P1174-T-503552256 Oct 06 21:20:33:414573 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1174-T-503552256 Oct 06 21:20:33:414589 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1174-T-503552256 Oct 06 21:20:33:414600 Debug( 306): RelayToUI - message send to GPI successful. 
+P1174-T-503552256 Oct 06 21:20:33:414602 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1174-T-511944960 Oct 08 00:34:22:780960 Info ( 378): Cannot find active login user jbustamante.
+P1174-T-511944960 Oct 08 00:34:22:780988 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1174-T-511944960 Oct 08 00:34:22:780991 Info (  64): message queue created.
+P1174-T-511944960 Oct 08 00:34:22:781100 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1174-T-495159552 Oct 08 00:34:22:913178 Debug( 777): Send command to Pan Service
+P1174-T-495159552 Oct 08 00:34:22:913192 Debug( 803): Command = <request><type>gpa_exit</type><pid>1174</pid></request>
+P1174-T-495159552 Oct 08 00:34:22:917535 Debug( 849): PanClient sent successful with 80 bytes
+P1279-T1465853760 Oct 08 00:40:22:425469 Info (  85): P1279-T1445590784 Oct 08 00:40:22:425471 Info ( 676): start PanGPA main. 1279
+debug thread starts
+P1279-T1465853760 Oct 08 00:40:22:425679 Info ( 170): ################### main - PanGPA started. pid = 1279. ##################
+P1279-T1465853760 Oct 08 00:40:22:425942 Debug(  98): Current login user is jbustamante.
+P1279-T1465853760 Oct 08 00:40:22:425971 Debug(  64): m_pConfig initialized.
+P1279-T1465853760 Oct 08 00:40:22:562521 Debug( 269): save-user-credentials = -1
+P1279-T1465853760 Oct 08 00:40:22:562531 Debug( 287): portal-2fa = no
+P1279-T1465853760 Oct 08 00:40:22:562534 Debug( 298): internal-gateway-2fa = no
+P1279-T1465853760 Oct 08 00:40:22:562536 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1279-T1465853760 Oct 08 00:40:22:562537 Debug( 320): manual-only-gateway-2fa = no
+P1279-T1465853760 Oct 08 00:40:22:563353 Info ( 221): Current debug level = 5
+P1279-T1465853760 Oct 08 00:40:22:565333 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1279-T1465853760 Oct 08 00:40:22:565341 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1279-T1465853760 Oct 08 00:40:22:565730 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1279-T1465853760 Oct 08 00:40:22:565749 Debug(  85): m_pUserInfo initialized.
+P1279-T1465853760 Oct 08 00:40:22:565751 Debug( 107): CPanConfigMgrLinux initialized.
+P1279-T1465853760 Oct 08 00:40:22:565799 Info ( 581): startCommandQueue - command queue started.
+P1279-T1465853760 Oct 08 00:40:22:565802 Debug( 118): CPanCommandLinux initialized.
+P1279-T1465853760 Oct 08 00:40:22:565805 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1279-T1465853760 Oct 08 00:40:22:565806 Debug( 124): stats and stats manager initialized.
+P1279-T1465853760 Oct 08 00:40:22:565808 Debug( 129): CPanNotification initialized.
+P1279-T1465853760 Oct 08 00:40:22:565811 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1279-T1465853760 Oct 08 00:40:22:565812 Debug( 136): CPanGPIParser initialized.
+P1279-T1465853760 Oct 08 00:40:22:565814 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1279-T1465853760 Oct 08 00:40:22:565815 Debug( 149): New socket created.
+P1279-T1465853760 Oct 08 00:40:22:565817 Info ( 154): InitConnection ...
+P1279-T1465853760 Oct 08 00:40:22:565861 Error(  72): Failed to set nosigpipe
+P1279-T1420146432 Oct 08 00:40:22:565948 Debug( 431): SelectProc started.
+P1279-T1465853760 Oct 08 00:40:22:566741 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1279-T1465853760 Oct 08 00:40:22:566748 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1279-T1465853760 Oct 08 00:40:22:566755 Info (  64): message queue created.
+P1279-T1465853760 Oct 08 00:40:22:566756 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1279-T1465853760 Oct 08 00:40:22:566794 Info ( 342): startGpiCommandQueue - command queue started.
+P1279-T1465853760 Oct 08 00:40:22:566811 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1279-T1465853760 Oct 08 00:40:22:566814 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1279-T1428539136 Oct 08 00:40:23:65921 Debug( 777): Send command to Pan Service
+P1279-T1428539136 Oct 08 00:40:23:65940 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1279</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1279-T1428539136 Oct 08 00:40:23:65993 Debug( 849): PanClient sent successful with 640 bytes
+P1279-T1420146432 Oct 08 00:40:23:80546 Debug(  93): Received data from Pan Service
+P1279-T1420146432 Oct 08 00:40:23:80989 Debug( 170): username field is not empty. not override the username.
+P1279-T1420146432 Oct 08 00:40:23:81012 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1279-T1420146432 Oct 08 00:40:23:81035 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1279-T1420146432 Oct 08 00:40:23:81077 Debug( 306): RelayToUI - message send to GPI successful. 
+P1279-T1420146432 Oct 08 00:40:23:81082 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1279-T1420146432 Oct 08 00:40:23:81649 Debug(  93): Received data from Pan Service
+P1279-T1420146432 Oct 08 00:40:23:83685 Debug( 170): username field is not empty. not override the username.
+P1279-T1420146432 Oct 08 00:40:23:83693 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1279-T1420146432 Oct 08 00:40:23:83708 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1279-T1420146432 Oct 08 00:40:23:83718 Debug( 306): RelayToUI - message send to GPI successful. 
+P1279-T1420146432 Oct 08 00:40:23:83720 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1279-T1465853760 Oct 08 23:50:48:384898 Info ( 112): Receive signal to terminate.
+P1279-T1465853760 Oct 08 23:50:48:387520 Info ( 112): Receive signal to terminate.
+P1279-T1342174976 Oct 08 23:50:49:33705 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1279-T1342174976 Oct 08 23:50:49:33740 Info (  64): message queue created.
+P1279-T1342174976 Oct 08 23:50:49:33759 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1171-T794494720 Oct 09 16:41:54:358015                                         Info ( 676):              start PanGPA main. 1 71
+                    P1171-T814757696 Oct 09 16:41:54:358212 Info ( 170): ################### main - PanGPA started. pid = 1171. ##################
+P1171-T814757696 Oct 09 16:41:54:358537 Debug(  98): Current login user is jbustamante.
+P1171-T814757696 Oct 09 16:41:54:358568 Debug(  64): m_pConfig initialized.
+P1171-T814757696 Oct 09 16:41:54:489034 Debug( 269): save-user-credentials = -1
+P1171-T814757696 Oct 09 16:41:54:489048 Debug( 287): portal-2fa = no
+P1171-T814757696 Oct 09 16:41:54:489051 Debug( 298): internal-gateway-2fa = no
+P1171-T814757696 Oct 09 16:41:54:489053 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1171-T814757696 Oct 09 16:41:54:489055 Debug( 320): manual-only-gateway-2fa = no
+P1171-T814757696 Oct 09 16:41:54:489870 Info ( 221): Current debug level = 5
+P1171-T814757696 Oct 09 16:41:54:491888 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1171-T814757696 Oct 09 16:41:54:491896 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1171-T814757696 Oct 09 16:41:54:492284 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1171-T814757696 Oct 09 16:41:54:492304 Debug(  85): m_pUserInfo initialized.
+P1171-T814757696 Oct 09 16:41:54:492306 Debug( 107): CPanConfigMgrLinux initialized.
+P1171-T814757696 Oct 09 16:41:54:492363 Info ( 581): startCommandQueue - command queue started.
+P1171-T814757696 Oct 09 16:41:54:492364 Debug( 118): CPanCommandLinux initialized.
+P1171-T814757696 Oct 09 16:41:54:492368 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1171-T814757696 Oct 09 16:41:54:492369 Debug( 124): stats and stats manager initialized.
+P1171-T814757696 Oct 09 16:41:54:492371 Debug( 129): CPanNotification initialized.
+P1171-T814757696 Oct 09 16:41:54:492374 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1171-T814757696 Oct 09 16:41:54:492375 Debug( 136): CPanGPIParser initialized.
+P1171-T814757696 Oct 09 16:41:54:492377 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1171-T814757696 Oct 09 16:41:54:492378 Debug( 149): New socket created.
+P1171-T814757696 Oct 09 16:41:54:492379 Info ( 154): InitConnection ...
+P1171-T814757696 Oct 09 16:41:54:492403 Error(  72): Failed to set nosigpipe
+P1171-T769050368 Oct 09 16:41:54:492481 Debug( 431): SelectProc started.
+P1171-T814757696 Oct 09 16:41:54:493301 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1171-T814757696 Oct 09 16:41:54:493308 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1171-T814757696 Oct 09 16:41:54:493313 Info (  64): message queue created.
+P1171-T814757696 Oct 09 16:41:54:493315 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1171-T814757696 Oct 09 16:41:54:493351 Info ( 342): startGpiCommandQueue - command queue started.
+P1171-T814757696 Oct 09 16:41:54:493365 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1171-T814757696 Oct 09 16:41:54:493366 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1171-T777443072 Oct 09 16:41:54:992456 Debug( 777): Send command to Pan Service
+P1171-T777443072 Oct 09 16:41:54:992475 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1171</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1171-T777443072 Oct 09 16:41:54:992519 Debug( 849): PanClient sent successful with 640 bytes
+P1171-T769050368 Oct 09 16:41:55:6231 Debug(  93): Received data from Pan Service
+P1171-T769050368 Oct 09 16:41:55:6531 Debug( 170): username field is not empty. not override the username.
+P1171-T769050368 Oct 09 16:41:55:6547 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1171-T769050368 Oct 09 16:41:55:6566 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1171-T769050368 Oct 09 16:41:55:6593 Debug( 306): RelayToUI - message send to GPI successful. 
+P1171-T769050368 Oct 09 16:41:55:6596 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1171-T769050368 Oct 09 16:41:55:7641 Debug(  93): Received data from Pan Service
+P1171-T769050368 Oct 09 16:41:55:9932 Debug( 170): username field is not empty. not override the username.
+P1171-T769050368 Oct 09 16:41:55:9944 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1171-T769050368 Oct 09 16:41:55:9962 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1171-T769050368 Oct 09 16:41:55:9974 Debug( 306): RelayToUI - message send to GPI successful. 
+P1171-T769050368 Oct 09 16:41:55:9976 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1171-T760657664 Oct 12 01:31:29:470437 Info ( 378): Cannot find active login user jbustamante.
+P1171-T760657664 Oct 12 01:31:29:470459 Info ( 427): User jbustamante has signed out, PanGPA should be closed.
+P1171-T760657664 Oct 12 01:31:29:470476 Info (  64): message queue created.
+P1171-T760657664 Oct 12 01:31:29:470598 Debug( 277): CPanMsgQueue::deleteQueue - message queue deleted.
+P1171-T777443072 Oct 12 01:31:29:790320 Debug( 777): Send command to Pan Service
+P1171-T777443072 Oct 12 01:31:29:790351 Debug( 803): Command = <request><type>gpa_exit</type><pid>1171</pid></request>
+P1171-T777443072 Oct 12 01:31:29:794486 Debug( 849): PanClient sent successful with 80 bytes
+P1337-T-2141915328 Oct 12 06:30:52:54907 P1337-T2132788992 Oct 12 06:30:52:54908              Info ( 676): start PanGPA main. 1337
+debug thread starts
+P1337-T-2141915328 Oct 12 06:30:52:55133 Info ( 170): ################### main - PanGPA started. pid = 1337. ##################
+P1337-T-2141915328 Oct 12 06:30:52:55416 Debug(  98): Current login user is jbustamante.
+P1337-T-2141915328 Oct 12 06:30:52:55445 Debug(  64): m_pConfig initialized.
+P1337-T-2141915328 Oct 12 06:30:52:187642 Debug( 269): save-user-credentials = -1
+P1337-T-2141915328 Oct 12 06:30:52:187657 Debug( 287): portal-2fa = no
+P1337-T-2141915328 Oct 12 06:30:52:187660 Debug( 298): internal-gateway-2fa = no
+P1337-T-2141915328 Oct 12 06:30:52:187662 Debug( 309): auto-discovery-external-gateway-2fa = no
+P1337-T-2141915328 Oct 12 06:30:52:187663 Debug( 320): manual-only-gateway-2fa = no
+P1337-T-2141915328 Oct 12 06:30:52:188526 Info ( 221): Current debug level = 5
+P1337-T-2141915328 Oct 12 06:30:52:190618 Debug(  70): CPanUserInformation::clear - user information for portal  were all cleared include encrypted info.
+P1337-T-2141915328 Oct 12 06:30:52:190628 Debug(  77): CPanUesrInformation::clearBackup - backup EP cleared.
+P1337-T-2141915328 Oct 12 06:30:52:191030 Debug( 266): modp_b64_decode success. decode length = 32, buffer length = 2048
+P1337-T-2141915328 Oct 12 06:30:52:191048 Debug(  85): m_pUserInfo initialized.
+P1337-T-2141915328 Oct 12 06:30:52:191050 Debug( 107): CPanConfigMgrLinux initialized.
+P1337-T-2141915328 Oct 12 06:30:52:191106 Info ( 581): startCommandQueue - command queue started.
+P1337-T-2141915328 Oct 12 06:30:52:191109 Debug( 118): CPanCommandLinux initialized.
+P1337-T-2141915328 Oct 12 06:30:52:191113 Debug(  25): CPanBaseStatsMgr::init - m_stats initialized.
+P1337-T-2141915328 Oct 12 06:30:52:191114 Debug( 124): stats and stats manager initialized.
+P1337-T-2141915328 Oct 12 06:30:52:191115 Debug( 129): CPanNotification initialized.
+P1337-T-2141915328 Oct 12 06:30:52:191119 Debug(  87): CPanParser::handleServiceData - new receiver created. 
+P1337-T-2141915328 Oct 12 06:30:52:191120 Debug( 136): CPanGPIParser initialized.
+P1337-T-2141915328 Oct 12 06:30:52:191121 Info ( 142): Socket is NULL while user is not switched out! recreate socket.
+P1337-T-2141915328 Oct 12 06:30:52:191123 Debug( 149): New socket created.
+P1337-T-2141915328 Oct 12 06:30:52:191124 Info ( 154): InitConnection ...
+P1337-T-2141915328 Oct 12 06:30:52:191164 Error(  72): Failed to set nosigpipe
+P1337-T2107344640 Oct 12 06:30:52:191257 Debug( 431): SelectProc started.
+P1337-T-2141915328 Oct 12 06:30:52:192111 Debug( 345): CPanSocket::OnConnect - portal message sent.
+P1337-T-2141915328 Oct 12 06:30:52:192118 Info ( 168): Connecting to Pan MS Service end. connected = 1
+P1337-T-2141915328 Oct 12 06:30:52:192123 Info (  64): message queue created.
+P1337-T-2141915328 Oct 12 06:30:52:192125 Debug( 193): CPanClientLinux::initInstance - ##### client initialization completed.
+P1337-T-2141915328 Oct 12 06:30:52:192159 Info ( 342): startGpiCommandQueue - command queue started.
+P1337-T-2141915328 Oct 12 06:30:52:192186 Info ( 454): StartSocketMonitor - socket monitoring started.
+P1337-T-2141915328 Oct 12 06:30:52:192188 Info (  72): CPanMSAgent::Start - GpiCommandProc started.
+P1337-T2115737344 Oct 12 06:30:52:691220 Debug( 777): Send command to Pan Service
+P1337-T2115737344 Oct 12 06:30:52:691245 Debug( 792): Command = <request><type>portal</type><portal>uwmadison.vpn.wisc.edu</portal><pid>1337</pid><user>jbustamante</user><passwd>*</passwd><path>/home/jbustamante/.GlobalProtect</path><checkupdate>no</checkupdate><allow-cached-portal>yes</allow-cached-portal><remember-me>yes</remember-me><retrieve-cache-only>yes</retrieve-cache-only><manual-select-gateway-ip></manual-select-gateway-ip><portal-certificate-verification>yes</portal-certificate-verification><win-user>jbustamante</win-user><saved-user>jbustamante</saved-user><saved-passwd></saved-passwd><portal-2fa>no</portal-2fa><gid>1000</gid><domain></domain></request>
+P1337-T2115737344 Oct 12 06:30:52:691285 Debug( 849): PanClient sent successful with 640 bytes
+P1337-T2107344640 Oct 12 06:30:52:703994 Debug(  93): Received data from Pan Service
+P1337-T2107344640 Oct 12 06:30:52:704310 Debug( 170): username field is not empty. not override the username.
+P1337-T2107344640 Oct 12 06:30:52:704329 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1337-T2107344640 Oct 12 06:30:52:704359 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1337-T2107344640 Oct 12 06:30:52:704396 Debug( 306): RelayToUI - message send to GPI successful. 
+P1337-T2107344640 Oct 12 06:30:52:704401 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1337-T2107344640 Oct 12 06:30:52:705069 Debug(  93): Received data from Pan Service
+P1337-T2107344640 Oct 12 06:30:52:707705 Debug( 170): username field is not empty. not override the username.
+P1337-T2107344640 Oct 12 06:30:52:707730 Debug( 266): message type from the service = status 
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<type>status</type>
+	<status>Disconnected</status>
+	<protocol/>
+	<portal-config-version>4100</portal-config-version>
+	<error/>
+	<product-version>4.1.2-6</product-version>
+	<product-code/>
+	<portal-status>Using cached portal config</portal-status>
+	<user-name>jbustamante</user-name>
+	<username-type>regular</username-type>
+	<state>OnDemand mode.</state>
+	<check-version>no</check-version>
+	<portal>uwmadison.vpn.wisc.edu</portal>
+	<mdm-is-enabled>no</mdm-is-enabled>
+	<gateway-list name="gateway-list" type="external">
+		<entry>
+			<gateway>uwmadison.vpn.wisc.edu</gateway>
+			<tunnel>no</tunnel>
+			<description>uwmadison.vpn.wisc.edu</description>
+			<allow-tunnel>no</allow-tunnel>
+			<passwd-expire-days/>
+			<priority>1</priority>
+			<internal>no</internal>
+			<authenticated>no</authenticated>
+		</entry>
+	</gateway-list>
+	<mobile-network-type>0</mobile-network-type>
+</response>
+
+P1337-T2107344640 Oct 12 06:30:52:707751 Debug( 385): Command = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>
+P1337-T2107344640 Oct 12 06:30:52:707764 Debug( 306): RelayToUI - message send to GPI successful. 
+P1337-T2107344640 Oct 12 06:30:52:707767 Debug(1418): ===> response sent to GPI = <response><type>status</type><state>OnDemand mode.</state><error></error><disable>no</disable><on-demand>yes</on-demand></response>

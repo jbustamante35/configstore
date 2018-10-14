@@ -1,5 +1,5 @@
 #MATLAB Preferences
-#Mon Sep 24 01:58:20 CDT 2018
+#Fri Oct 12 01:30:25 CDT 2018
 Colors_HTML_HTMLLinks=C-16776961
 ReplaceText=S
 EditorMCodeFoldCollapseFileOpenproperties=Bfalse
@@ -84,14 +84,15 @@ EditorMCodeFoldCollapseFileOpenif=Bfalse
 rptgen.typeinfo.html.imagehg=Spng
 com.mathworks.widgets.login.LoginProperties.firstName=SJulian
 EditorShowNewFilePrompt=Btrue
-EditorMRU8=S/usr/local/lib/MATLAB/R2018b/toolbox/matlab/audiovideo/+audiovideo/+internal/+writer/+plugin/IPlugin.m
-EditorMRU7=S/usr/local/lib/MATLAB/R2018b/toolbox/matlab/audiovideo/@VideoWriter/VideoWriter.m
-EditorMRU6=S/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/plots/plot_helpers/centroidFromOutline.m
-EditorMRU5=S/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/plots/SphinctoPlotter.m
-EditorMRU4=S/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/main/classes/Sphinctozord.m
-EditorMRU3=S/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/main/classes/Sphinctotron.m
-EditorMRU2=S/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/plots/SphinctoPlotter.m.bak
-EditorMRU1=S/home/jbustamante/Dropbox/EdgarSpalding/Software/sphinctolyzer/plots/oldplotter.m
+EditorMRU8=S/home/jbustamante/Dropbox/EdgarSpalding/Data/scott_brainard/phytoMorph_runs/phytoMorph_Image_Phenomics_Tool_Kit_analysis1-2018-10-11-20-15-19.4/output/carrotMidlines.m
+EditorMRU7=S/home/jbustamante/Dropbox/EdgarSpalding/Data/scott_brainard/phytoMorph_runs/phytoMorph_Image_Phenomics_Tool_Kit_analysis1-2018-10-11-20-15-19.4/output/carrotMidlinesPipeline.m
+EditorMRU6=S/home/jbustamante/Dropbox/EdgarSpalding/Software/hypoquantyl/helpers/contours/oldContours/extractContour.m
+EditorMRU5=S/usr/local/lib/MATLAB/R2018b/toolbox/matlab/general/ls.m
+EditorMRU4=S/usr/local/lib/MATLAB/R2018b/toolbox/matlab/datastoreio/+matlab/+io/+datastore/@ImageDatastore/readimage.m
+EditorMRU3=S/home/jbustamante/Dropbox/EdgarSpalding/Software/carrotsweeper/carrotMidlinesPipeline.m
+EditorMRU2=S/usr/local/lib/MATLAB/R2018b/toolbox/matlab/datastoreio/+matlab/+io/+datastore/SplittableDatastore.m
+EditorNamedBufferOption=I1
+EditorMRU1=S/usr/local/lib/MATLAB/R2018b/toolbox/matlab/datastoreio/+matlab/+io/+datastore/@ImageDatastore/ImageDatastore.m
 Editor.VariableHighlighting.Automatic=Btrue
 InstrumentControl_MIDEDIT_DNE_Prompt=Btrue
 EditorMCodeFoldCollapseFileOpenhelp-comments=Bfalse
@@ -115,7 +116,7 @@ com.mathworks.widgets.login.LoginProperties.profileId=S7934457
 rptgen.edithtmlcmd=Sedit('%<FileName>');
 com.mathworks.widgets.login.LoginProperties.mwa=Sjbustamante@wisc.edu
 RLWidthB2_WB_2014b_1_1=I130
-RLWidthB2_WB_2014b_1_0=I130
+RLWidthB2_WB_2014b_1_0=I75
 ArrayEditorEMoves=Btrue
 Desktop.Font.Text2=F0 10 SansSerif
 ArrayEditorEDirection=I0
