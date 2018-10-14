@@ -79,3 +79,33 @@
 [submodule "winryrockbell/dots/.vim/bundle/vim-sensible"]
 	path = winryrockbell/dots/.vim/bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible
+[submodule "winryrockbell/.bash/themes/agnoster-bash"]
+	path = winryrockbell/.bash/themes/agnoster-bash
+	url = https://github.com/speedenator/agnoster-bash
+[submodule "winryrockbell/.bash_it"]
+	path = winryrockbell/.bash_it
+	url = https://github.com/Bash-it/bash-it
+[submodule "winryrockbell/.oh-my-zsh"]
+	path = winryrockbell/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh
+[submodule "winryrockbell/.vim/bundle/ack.vim"]
+	path = winryrockbell/.vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "winryrockbell/.vim/bundle/ag.vim"]
+	path = winryrockbell/.vim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim
+[submodule "winryrockbell/.vim/bundle/vim-joy"]
+	path = winryrockbell/.vim/bundle/vim-joy
+	url = https://github.com/rking/vim-joy
+[submodule "winryrockbell/.vim/bundle/vim-sensible"]
+	path = winryrockbell/.vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule "winryrockbell/.vim/bundle/tcomment_vim"]
+	path = winryrockbell/.vim/bundle/tcomment_vim
+	url = https://github.com/tomtom/tcomment_vim
+[submodule "winryrockbell/.tldr/tldr"]
+	path = winryrockbell/.tldr/tldr
+	url = https://github.com/tldr-pages/tldr
+[submodule "winryrockbell/.fzf"]
+	path = winryrockbell/.fzf
+	url = https://github.com/junegunn/fzf

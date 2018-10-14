@@ -20,6 +20,19 @@ export BASH_IT_THEME='roderik'
 #    battery
 #)
 
+# Load Bash It
+source "$BASH_IT"/bash_it.sh
+
+## fasd configuration
+#fasd_cache="$HOME/.fasd-init-bash"
+#if [ "$(command -v fasd)" -nt "$fasd_cache" -o ! -s "$fasd_cache" ]; then
+#    fasd --init posix-alias bash-hook bash-ccomp bash-ccomp-install >| "$fasd_cache"
+#fi
+#source "$fasd_cache"
+#unset fasd_cache
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
 # Aliases
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
@@ -79,18 +92,4 @@ export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
 # Uncomment this to make Bash-it create alias reload.
 # export BASH_IT_RELOAD_LEGACY=1
 
-# Load Bash It
-source "$BASH_IT"/bash_it.sh
-source ~/.scripts/shortcuts.sh
 source ~/.shortcuts
-
-# fasd configuration
-fasd_cache="$HOME/.fasd-init-bash"
-if [ "$(command -v fasd)" -nt "$fasd_cache" -o ! -s "$fasd_cache" ]; then
-    fasd --init posix-alias bash-hook bash-ccomp bash-ccomp-install >| "$fasd_cache"
-fi
-
-source "$fasd_cache"
-unset fasd_cache
-
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash

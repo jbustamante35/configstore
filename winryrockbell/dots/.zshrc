@@ -146,11 +146,6 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.shortcuts
-
-# fasd configuration
-eval "$(fasd --int auto)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

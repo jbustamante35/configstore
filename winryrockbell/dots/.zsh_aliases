@@ -21,6 +21,7 @@ alias szc='source ~/.zshrc'
 # export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
  
  # some more ls aliases
+alias ls='ls -N --color=auto --group-directories-first'
 alias ll='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
@@ -34,7 +35,8 @@ alias cdes='cd /home/jbustamante/Dropbox/EdgarSpalding/Software'
 # filesystem aliases
 alias mkdir='mkdir -pv '
 alias df='pydf -h '
-alias nem='nautilus .'
+alias naut='nautilus .'
+alias natu='nautilus .'
 alias mnt='mount | column -t'
 alias app='sudo aptitude '
 
@@ -59,8 +61,13 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # alias to remote to UW Madison
 alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu -u jbustamante'
 alias vnc2me='vncviewer localhost:590$1'
-alias sshx='ssh -C jdev'
-alias sshy='ssh -CX jdev'
-alias ssh2off='ssh -Y -p 22 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
-alias ssh2sub='ssh -C submit'
+alias sshx='ssh jdev'
+alias sshy='ssh -X jdev'
+alias ssh2off='ssh -CY -p 22 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
+alias ssh2sub='ssh submit'
+
+# mount iRODS database
+alias idata='irodsFs -o allow_other $HOME/idata'
+alias me2irods='iput -r ${1} /iplant/home/jbustamante35/${2}'
+alias irods2me='iget -r /iplant/home/jbustamante35/${1} ${1}'  
 

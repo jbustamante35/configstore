@@ -16,34 +16,34 @@ DocumentationDockWidget=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\xff\xff\xfbr\xff\xff
 DocumentationDockWidgetFloating=false
 DocumentationDockWidgetVisible=true
 DocumentationDockWidget_minimized=false
-FileEditor=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\xff\xff\xfbr\xff\xff\xfb\x8d\xff\xff\xfe\v\xff\xff\xfe\v\xff\xff\xfbr\xff\xff\xfb\x8d\xff\xff\xfe\v\xff\xff\xfe\v\xff\xff\xff\xff\0\0\0\0\b\0)
+FileEditor="@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x1j\0\0\0=\0\0\x4\x3\0\0\x2\x9d\0\0\x1j\0\0\0=\0\0\x4\x3\0\0\x2\x9d\0\0\0\0\0\0\0\0\b\0)"
 FileEditorFloating=false
 FileEditorVisible=true
 FileEditor_minimized=false
-FilesDockWidget="@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\0\0\0\0=\0\0\x1\x63\0\0\x1\x35\0\0\0\0\0\0\0=\0\0\x1\x63\0\0\x1\x35\0\0\0\x2\0\0\0\0\a\x80)"
+FilesDockWidget="@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\0\0\0\0=\0\0\x1\x63\0\0\x1\x35\0\0\0\0\0\0\0=\0\0\x1\x63\0\0\x1\x35\0\0\0\0\0\0\0\0\b\0)"
 FilesDockWidgetFloating=false
 FilesDockWidgetVisible=true
 FilesDockWidget_minimized=false
-HistoryDockWidget=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\0\0\0\x2\xf\0\0\x1\x63\0\0\x2\xba\0\0\0\0\0\0\x2\xf\0\0\x1\x63\0\0\x2\xba\0\0\0\x2\0\0\0\0\a\x80)
+HistoryDockWidget=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\0\0\0\x2\xf\0\0\x1\x63\0\0\x2\xba\0\0\0\0\0\0\x2\xf\0\0\x1\x63\0\0\x2\xba\0\0\0\0\0\0\0\0\b\0)
 HistoryDockWidgetFloating=false
 HistoryDockWidgetVisible=true
 HistoryDockWidget_minimized=false
 NewsDockWidget=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\x2\"\0\0\0@\0\0\x4\xb3\0\0\x1\x1a\0\0\x2\"\0\0\0@\0\0\x4\xb3\0\0\x1\x1a\0\0\0\0\0\0)
 NewsDockWidgetFloating=false
 NewsDockWidgetVisible=true
-TerminalDockWidget="@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x1j\0\0\0=\0\0\x4\x3\0\0\x2\x9d\0\0\x1j\0\0\0=\0\0\x4\x3\0\0\x2\x9d\0\0\0\x2\0\0\0\0\a\x80)"
+TerminalDockWidget=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\xff\xff\xfbr\xff\xff\xfb\xab\xff\xff\xfe\v\xff\xff\xfe\v\xff\xff\xfbr\xff\xff\xfb\xab\xff\xff\xfe\v\xff\xff\xfe\v\xff\xff\xff\xff\0\0\0\0\b\0)
 TerminalDockWidgetFloating=false
 TerminalDockWidgetVisible=true
 TerminalDockWidget_minimized=false
-WorkspaceView=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\0\0\0\x1<\0\0\x1\x63\0\0\x2\b\0\0\0\0\0\0\x1<\0\0\x1\x63\0\0\x2\b\0\0\0\x2\0\0\0\0\a\x80)
+WorkspaceView=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\0\0\0\x1<\0\0\x1\x63\0\0\x2\b\0\0\0\0\0\0\x1<\0\0\x1\x63\0\0\x2\b\0\0\0\0\0\0\0\0\b\0)
 WorkspaceViewFloating=false
 WorkspaceViewVisible=true
 WorkspaceView_minimized=false
 
 [MainWindow]
-current_directory_list=, /home/jbustamante/dockerData/phytoshell, /home/jbustamante/dockerData/condadock/langtest, /home/jbustamante/dockerData/condadock
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x1P\0\0\0\xc3\0\0\x5S\0\0\x3\xad\0\0\x1P\0\0\0\xdd\0\0\x5S\0\0\x3\xad\0\0\0\x2\0\0\0\0\a\x80)
-windowState="@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x1\0\0\x4\x4\0\0\x2~\xfc\x2\0\0\0\x1\xfc\0\0\0=\0\0\x2~\0\0\x1\x83\0\xff\xff\xff\xfc\x1\0\0\0\x2\xfc\0\0\0\0\0\0\x1\x64\0\0\0^\0\xff\xff\xff\xfc\x2\0\0\0\x3\xfb\0\0\0\x1e\0\x46\0i\0l\0\x65\0s\0\x44\0o\0\x63\0k\0W\0i\0\x64\0g\0\x65\0t\x1\0\0\0=\0\0\0\xf9\0\0\0\x81\0\xff\xff\xff\xfb\0\0\0\x1a\0W\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0V\0i\0\x65\0w\x1\0\0\x1<\0\0\0\xcd\0\0\0{\0\xff\xff\xff\xfb\0\0\0\"\0H\0i\0s\0t\0o\0r\0y\0\x44\0o\0\x63\0k\0W\0i\0\x64\0g\0\x65\0t\x1\0\0\x2\xf\0\0\0\xac\0\0\0{\0\xff\xff\xff\xfc\0\0\x1j\0\0\x2\x9a\0\0\x1,\0\xff\xff\xff\xfc\x2\0\0\0\x2\xfb\0\0\0\x1c\0N\0\x65\0w\0s\0\x44\0o\0\x63\0k\0W\0i\0\x64\0g\0\x65\0t\x1\0\0\0@\0\0\0\xdb\0\0\0\0\0\0\0\0\xfc\0\0\0=\0\0\x2~\0\0\0\xf7\x1\0\0\x1c\xfa\0\0\0\0\x2\0\0\0\x3\xfb\0\0\0$\0T\0\x65\0r\0m\0i\0n\0\x61\0l\0\x44\0o\0\x63\0k\0W\0i\0\x64\0g\0\x65\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xda\0\xff\xff\xff\xfb\0\0\0\x14\0\x46\0i\0l\0\x65\0\x45\0\x64\0i\0t\0o\0r\x1\0\0\0\0\xff\xff\xff\xff\0\0\0_\0\xff\xff\xff\xfb\0\0\0.\0\x44\0o\0\x63\0u\0m\0\x65\0n\0t\0\x61\0t\0i\0o\0n\0\x44\0o\0\x63\0k\0W\0i\0\x64\0g\0\x65\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\x9d\0\xff\xff\xff\0\0\0\0\0\0\x2~\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x16\0M\0\x61\0i\0n\0T\0o\0o\0l\0\x42\0\x61\0r\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)"
+current_directory_list=/home/jbustamante/dockerData/vnccontainers, , /home/jbustamante/dockerData/phytoshell, /home/jbustamante/dockerData/condadock/langtest, /home/jbustamante/dockerData/condadock
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\n!\0\0\0\xd5\0\0\xe$\0\0\x3\xbf\0\0\n!\0\0\0\xef\0\0\xe$\0\0\x3\xbf\0\0\0\0\0\0\0\0\b\0)
+windowState="@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x1\0\0\0\x1\0\0\x4\x4\0\0\x2~\xfc\x2\0\0\0\x1\xfc\0\0\0=\0\0\x2~\0\0\x1\x83\0\xff\xff\xff\xfc\x1\0\0\0\x2\xfc\0\0\0\0\0\0\x1\x64\0\0\0^\0\xff\xff\xff\xfc\x2\0\0\0\x3\xfb\0\0\0\x1e\0\x46\0i\0l\0\x65\0s\0\x44\0o\0\x63\0k\0W\0i\0\x64\0g\0\x65\0t\x1\0\0\0=\0\0\0\xf9\0\0\0\x81\0\xff\xff\xff\xfb\0\0\0\x1a\0W\0o\0r\0k\0s\0p\0\x61\0\x63\0\x65\0V\0i\0\x65\0w\x1\0\0\x1<\0\0\0\xcd\0\0\0{\0\xff\xff\xff\xfb\0\0\0\"\0H\0i\0s\0t\0o\0r\0y\0\x44\0o\0\x63\0k\0W\0i\0\x64\0g\0\x65\0t\x1\0\0\x2\xf\0\0\0\xac\0\0\0{\0\xff\xff\xff\xfc\0\0\x1j\0\0\x2\x9a\0\0\x1,\0\xff\xff\xff\xfc\x2\0\0\0\x2\xfb\0\0\0\x1c\0N\0\x65\0w\0s\0\x44\0o\0\x63\0k\0W\0i\0\x64\0g\0\x65\0t\x1\0\0\0@\0\0\0\xdb\0\0\0\0\0\0\0\0\xfc\0\0\0=\0\0\x2~\0\0\0\xf7\x1\0\0\x1c\xfa\0\0\0\x1\x2\0\0\0\x3\xfb\0\0\0$\0T\0\x65\0r\0m\0i\0n\0\x61\0l\0\x44\0o\0\x63\0k\0W\0i\0\x64\0g\0\x65\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xda\0\xff\xff\xff\xfb\0\0\0\x14\0\x46\0i\0l\0\x65\0\x45\0\x64\0i\0t\0o\0r\x1\0\0\0\0\xff\xff\xff\xff\0\0\0_\0\xff\xff\xff\xfb\0\0\0.\0\x44\0o\0\x63\0u\0m\0\x65\0n\0t\0\x61\0t\0i\0o\0n\0\x44\0o\0\x63\0k\0W\0i\0\x64\0g\0\x65\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\x9d\0\xff\xff\xff\0\0\0\0\0\0\x2~\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x16\0M\0\x61\0i\0n\0T\0o\0o\0l\0\x42\0\x61\0r\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)"
 
 [Scintilla]
 Bash\autoindentstyle=-1
@@ -585,17 +585,17 @@ Text\style0\paper=16777215
 codeCompletion=true
 highlightCurrentLine=true
 longWindowTitle=false
-mru_file_encodings=@Invalid()
-mru_file_list=@Invalid()
+mru_file_encodings=
+mru_file_list=/home/jbustamante/dockerData/vnccontainers/GUI_1.m
 restoreSession=false
-savedSessionTabs=@Invalid()
-saved_session_encodings=@Invalid()
-saved_session_tab_index=@Invalid()
+savedSessionTabs=/home/jbustamante/dockerData/vnccontainers/GUI_1.m
+saved_session_encodings=UTF-8
+saved_session_tab_index=0
 showLineNumbers=true
 
 [filesdockwidget]
-column_state=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\x4\xe\0\0\0\x3\0\0\0\x2\0\0\0\x64\0\0\0\x3\0\0\0\x64\0\0\0\x1\0\0\0\x64\0\0\x1R\0\0\0\x4\x1\x1\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x81\0\0\0\0\0\0\0\x4\0\0\x1R\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0\0\0\0\x64)
-mru_dir_list=/home/jbustamante/dockerData/phytoshell, /home/jbustamante/dockerData/condadock/langtest, /home/jbustamante/dockerData/condadock
+column_state=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\x4\xe\0\0\0\x3\0\0\0\x3\0\0\0\x64\0\0\0\x2\0\0\0\x64\0\0\0\x1\0\0\0\x64\0\0\x1R\0\0\0\x4\x1\x1\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x81\0\0\0\0\0\0\0\x4\0\0\x1R\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0\0\0\0\x64)
+mru_dir_list=/home/jbustamante/dockerData/vnccontainers, /home/jbustamante/dockerData/phytoshell, /home/jbustamante/dockerData/condadock/langtest, /home/jbustamante/dockerData/condadock
 showFileSize=false
 showFileType=false
 showFilenames=true
@@ -613,7 +613,7 @@ mru_list=@Invalid()
 
 [news]
 last_news_item=11
-last_time_checked=@DateTime(\0\0\0\x10\0\0\0\0\0\0%\x83\x14\x3\x86\x35o\0)
+last_time_checked=@DateTime(\0\0\0\x10\0\0\0\0\0\0%\x83\x1b\x3\x30\x9e\x61\0)
 
 [shortcuts]
 main_ctrld=false
@@ -625,7 +625,7 @@ fontName=DejaVu Sans Mono
 fontSize=10
 
 [workspaceview]
-column_state=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x2\x95\0\0\0\x5\x1\x1\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x81\0\0\0\0\0\0\0\x5\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\x1\x5\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0\xff\xff\xff\xff)
+column_state=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x2\xb3\0\0\0\x5\x1\x1\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x81\0\0\0\0\0\0\0\x5\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\x1#\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0\xff\xff\xff\xff)
 filter_active=false
 filter_shown=true
 global_collapsed=false

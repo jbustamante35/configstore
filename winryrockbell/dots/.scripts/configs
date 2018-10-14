@@ -1,7 +1,11 @@
 cff	~/.scripts/folders
 cfc	~/.scripts/configs
-cfb	~/.bashrc
-cfz	~/.zshrc
+br	~/.bashrc
+ba	~/.bash_aliases
+bf	~/.bash_functions
+zr	~/.zshrc
+za	~/.zsh_aliases
+zf	~/.zsh_functions
 cfv	~/.vimrc
 cfr	~/.config/ranger/rc.conf
 cfi	~/.config/i3/config

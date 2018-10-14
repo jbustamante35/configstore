@@ -7,14 +7,14 @@ FullScreen=false
 
 [MainWindow]
 Height 1080=983
-Height 1152=983
+Height 1152=1102
 Height 1200=983
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAPjAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABaAAAAOcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1440
-Width 2048=1440
-Window-Maximized 1080x1920=true
-Window-Maximized 1152x2048=true
+Width 2048=2007
+Window-Maximized 1080x1920=false
+Window-Maximized 1152x2048=false
 Window-Maximized 1200x1920=true
 
 [Recent Files]
@@ -22,9 +22,9 @@ File1[$e]=$HOME/Dropbox/Classes/UW Madison/Academics/CMB/Logistics/180831_Studen
 File2[$e]=$HOME/Dropbox/Classes/UW Madison/Academics/CMB/Logistics/180831_StudentProgressQuestionnaire_filledv2.pdf
 File3[$e]=$HOME/Dropbox/Classes/UW Madison/SciMed GRS/Logistics/SciMed GRS Offer of Acceptance.pdf
 File4[$e]=$HOME/Dropbox/EdgarSpalding/Software/cad/OpenCAD_cheatsheet.pdf
-File5[$e]=$HOME/Dropbox/Misc/Scans/180505_ViberPhishing_EmailConfirmation.pdf
+File5[$e]=$HOME/Downloads/cheatsheet.pdf
 Name1[$e]=180831_StudentProgressQuestionnaire.pdf
 Name2[$e]=180831_StudentProgressQuestionnaire_filledv2.pdf
 Name3[$e]=SciMed GRS Offer of Acceptance.pdf
 Name4[$e]=OpenCAD_cheatsheet.pdf
-Name5[$e]=180505_ViberPhishing_EmailConfirmation.pdf
+Name5[$e]=cheatsheet.pdf

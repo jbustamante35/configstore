@@ -39,6 +39,8 @@ GOPATH=/home/jbustamante/go
 PYTHON=/usr/bin/python
 JUPYTER=/usr/local/bin/jupyter
 
+#export TERMINAL="gnome-terminal --profile=Din"
+export TERMINAL=gnome-terminal
 export EDITOR=vim
 export PATH=$PATH:$MYPATH:$MYBIN:$GOROOT/bin:$GOPATH/bin
 

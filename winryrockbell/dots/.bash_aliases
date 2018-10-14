@@ -8,7 +8,8 @@ alias sbc='source ~/.bashrc'
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
+    
+    alias ls='ls -N --color=auto --group-directories-first'
     alias dir='dir --color=auto'
     alias vdir='vdir --color=auto'
 
@@ -21,6 +22,7 @@ if [ -x /usr/bin/dircolors ]; then
  export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
  
  # some more ls aliases
+alias ls='ls -N --color=auto --group-directories-first'
 alias ll='ls -alh'
 alias la='ls -A'
 alias l='ls -CF'
@@ -61,11 +63,11 @@ alias vnc2me='vncviewer localhost:5902'
 
 # alias to ssh to X11
 alias sshy='ssh -YC jdev'
-alias ssh2me='ssh -p 50013 jbustamante@128.104.98.13 -L 5902:localhost:5902'
-alias ssh2off='ssh -Y -p 50118 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
-alias ssh2off2='ssh -Y -p 22 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
-alias sshx='ssh -C jdev'
-alias ssh2sub='ssh -C submit'
+alias ssh2me='ssh -C -p 50013 jbustamante@128.104.98.13 -L 5902:localhost:5902'
+alias ssh2off='ssh -YC -p 50118 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
+alias ssh2off2='ssh -YC -p 22 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
+alias sshx='ssh jdev'
+alias ssh2sub='ssh submit'
 
 # useful docker aliases
 alias dkb='docker build -t  '
@@ -80,4 +82,8 @@ alias term='export TERM=xterm-256color'
 alias medit='matlab -nodesktop -nosplash -nodisplay'
 alias mconsole='matlab -nodesktop -nosplash'
 
+# iRODS aliases
+alias idata='irodsFs -o allow_other $HOME/idata'
+alias me2irods='iput -r ${1} /iplant/home/jbustamante35/${2}'
+alias irods2me='iget -r /iplant/home/jbustamante35/${1} ${1}'  
 
