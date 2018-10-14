@@ -1,24 +1,34 @@
 [Desktop Entry]
-FullScreen=false
+FullScreen=true
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=true
 
 [MainWindow]
-Height 1080=512
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAHDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 1080=889
+MenuBar=Enabled
+State=AAAA/wAAAAD9AAAAAAAAAlgAAAM4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=1920
+Width 1920=600
+Window-Maximized 1080x1920=false
 
 [Recent Files]
-File1[$e]=$HOME/Dropbox/ResearchArticles/computational_biology/edgarspalding/image_analysis/pca/The Importance of Small Eigenvalue Principal Components in PCR (Jolliffe; 1982).pdf
-File2[$e]=$HOME/Dropbox/ResearchArticles/computational_biology/edgarspalding/kinematics/Describing Physical Bases of Plant Cell Morphogenesis (Green, Erickson, Richmond; 1970).pdf
-File3[$e]=$HOME/Dropbox/KevinBill/Sphinctalyzer/MiscFiles/Code_pdf/SphinctaPlotter_171206.pdf
-File4[$e]=$HOME/Dropbox/ComputerProgramming/EASEMaster_Manual.pdf
-File5[$e]=$HOME/Dropbox/EdgarSpalding/Software/misc/kineroot/doc/KineRoot_UserGuide.pdf
-File6[$e]=$HOME/Dropbox/EdgarSpalding/Software/misc/RootTrace_UserGuide.pdf
-File7[$e]=$HOME/.config/i3/i3_guide.pdf
-Name1[$e]=The Importance of Small Eigenvalue Principal Components in PCR (Jolliffe; 1982).pdf
-Name2[$e]=Describing Physical Bases of Plant Cell Morphogenesis (Green, Erickson, Richmond; 1970).pdf
-Name3[$e]=SphinctaPlotter_171206.pdf
-Name4[$e]=EASEMaster_Manual.pdf
-Name5[$e]=KineRoot_UserGuide.pdf
-Name6[$e]=RootTrace_UserGuide.pdf
-Name7[$e]=i3_guide.pdf
+File1[$e]=$HOME/Dropbox/ResearchArticles/computational_biology/edgarspalding/kinematics/Describing Physical Bases of Plant Cell Morphogenesis (Green, Erickson, Richmond; 1970).pdf
+File10[$e]=$HOME/Dropbox/ResearchArticles/computer_science/JacobBustamanteAndCo/BlackThesis2018_D4.pdf
+File2[$e]=$HOME/Dropbox/KevinBill/Sphinctalyzer/MiscFiles/Code_pdf/SphinctaPlotter_171206.pdf
+File3[$e]=$HOME/Dropbox/ComputerProgramming/EASEMaster_Manual.pdf
+File4[$e]=$HOME/Dropbox/EdgarSpalding/Software/misc/kineroot/doc/KineRoot_UserGuide.pdf
+File5[$e]=$HOME/Dropbox/EdgarSpalding/Software/misc/RootTrace_UserGuide.pdf
+File6[$e]=$HOME/.config/i3/i3_guide.pdf
+File7[$e]=$HOME/Dropbox/ResearchArticles/computer_science/JacobBustamanteAndCo/BlackThesis2018.pdf
+File8[$e]=$HOME/Dropbox/Classes/UW Madison/Academics/CMB/Dissertation/dissertation.pdf
+File9[$e]=$HOME/Dropbox/Classes/UW Madison/Academics/CMB/Dissertation/Figures/Electron.pdf
+Name1[$e]=Describing Physical Bases of Plant Cell Morphogenesis (Green, Erickson, Richmond; 1970).pdf
+Name10[$e]=BlackThesis2018_D4.pdf
+Name2[$e]=SphinctaPlotter_171206.pdf
+Name3[$e]=EASEMaster_Manual.pdf
+Name4[$e]=KineRoot_UserGuide.pdf
+Name5[$e]=RootTrace_UserGuide.pdf
+Name6[$e]=i3_guide.pdf
+Name7[$e]=BlackThesis2018.pdf
+Name8[$e]=dissertation.pdf
+Name9[$e]=Electron.pdf

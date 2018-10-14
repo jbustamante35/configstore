@@ -8,7 +8,7 @@ alias sbc='source ~/.bashrc'
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
+    alias ls='ls -N --color=auto --group-directories-first'
     alias dir='dir --color=auto'
     alias vdir='vdir --color=auto'
 
@@ -21,10 +21,11 @@ if [ -x /usr/bin/dircolors ]; then
  export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
  # some more ls aliases
-alias ll='ls -alFh'
-alias la='ls -A'
-alias l='ls -CF'
-alias lsl='ll | less'
+alias ls='ls -N --color=auto --group-directories-first'
+alias ll='ls -alFh --group-directories-first'
+alias la='ls -A --group-directories-first'
+alias l='ls -CF --group-directories-first'
+alias lsl='ll --group-directories-first | less'
 
 # some cd aliases
 alias ..='cd ..'
@@ -49,6 +50,7 @@ alias RM='sudo rm -Ird'
 
 # misc aliases
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/Screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
+alias matlab='matlab -nosplash'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -58,7 +60,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # alias to remote to UW Madison
 alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu -u jbustamante'
 alias vnc2me='vncviewer localhost:590$1'
-alias sshx_old='ssh -Y jbustamante@128.104.98.13 -p 50013'
-alias sshs_old='ssh -Y -p 22 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
+alias sshx_old='ssh -YC jbustamante@128.104.98.13 -p 50013'
+alias sshs_old='ssh -YC -p 22 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
 alias sshx='ssh -C jdev'
 alias sshs='ssh -C submit'
+
