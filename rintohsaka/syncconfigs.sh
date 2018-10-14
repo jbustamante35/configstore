@@ -11,14 +11,17 @@ dotdirs=$(ls -A ~/.dotify)
 
 # Check if directories exist
 if [[ ! -d "$repo" ]]; then
+		echo "Creating $repo directory"
         mkdir $repo
 fi
 
 if [[ ! -d "$main" ]]; then
+		echo "Creating $main directory"
         mkdir $main
 fi
 
 if [[ ! -d "$dots" ]]; then
+		echo "Creating $dots directory"
         mkdir $dots
 fi
 
