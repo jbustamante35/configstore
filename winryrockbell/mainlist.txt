@@ -1,10 +1,15 @@
+addSubmodules.sh
+.bash
 .bash_aliases
 .bash_functions
 .bash_it
 .bashrc
 .bashrcbak
 .bashrc.bak
+.fzf
 .oh-my-zsh
+submodules_manifest.txt
+.tldr
 .vim
 .viminfo
 .vimrc
