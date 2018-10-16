@@ -15,6 +15,16 @@ else
 	color="#FF0000"
 fi
 
-[ "$STATUS" = "Charging" ] && color="#FFF"
+case "$STATUS" in
+"Charging")
+		[ "$STATUS" = "Charging" ] && color="#00FF00"
+		;;
+
+"Discharging")
+		[ "$STATUS" = "Discharging" ] && color="#FFF"
+		;;
+esac
 
 echo "<span color='$color'>`sed -e "s/,//g;s/Discharging/🔋/;s/Charging/🔌/;s/Unknown/❓/;s/Full/⚡/;s/ 0*/ /g;s/ :/ /g" <<<"$STATUS"` `sed -e 's/$/%/' <<<"$NUM"`</span>"
+
+
