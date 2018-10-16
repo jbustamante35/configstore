@@ -73,6 +73,20 @@ bindsym $mod+Shift+h   exec --no-startup-id qutebrowser
 bindsym $mod+r		   exec --no-startup-id gnome-terminal --profile="Ganon" -e ranger
 bindsym $mod+Control+h exec --no-startup-id gnome-terminal --profile="Farore" -e htop
 
+# Function buttons
+bindsym $mod+F1  exec --no-startup-id okular ~/.config/i3/i3_guide.pdf                              
+bindsym $mod+F2  exec --no-startup-id gnome-terminal --profile="Din" -e pulsemixer
+bindsym $mod+F3  exec --no-startup-id google-play-music-desktop-player
+bindsym $mod+F4  exec --no-startup-id mailspring
+#bindsym $mod+F5  [BLUETOOTH TOGGLE]
+#bindsym $mod+F6  [WIFI TOGGLE]
+#bindsym $mod+F7  exec --no-startup-id td-toggle
+#bindsym $mod+F8  exec --no-startup-id ~/.config/mutt/etc/mailsync.sh
+#bindsym $mod+F9  exec --no-startup-id dmenumount
+#bindsym $mod+F10 exec --no-startup-id dmenuumount
+#bindsym $mod+F11 [BRIGHTNESS DOWN]
+#bindsym $mod+F12 [BRIGHTNESS UP]
+
 
 ################### General Navigation ###############################
 # Use Mouse+$mod to drag floating windows to their wanted position
