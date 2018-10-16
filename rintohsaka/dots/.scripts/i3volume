@@ -1,7 +1,7 @@
 #!/bin/bash
 
 case $BLOCK_BUTTON in
-	1) $TERMINAL -e pulsemixer & disown ;;
+	1) $TERMINAL -- pulsemixer & disown ;;
 	3) pulsemixer -t ;;
 	4) pulsemixer -i 5 ;;
 	5) pulsemixer -d 5 ;;

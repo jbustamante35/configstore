@@ -34,6 +34,7 @@ GOROOT=/usr/lib/go
 
 export EDITOR=vim
 profile="BlueMarine"
+#export AUDIO_DEVICE_ID=2
 export TERMINAL="gnome-terminal --profile=$profile"
 export BROWSER=google-chrome
 export PATH=$PATH:$CONDAPATH:$MYPATH:$MYBIN:$GOPATH/bin:$GOROOT/bin
