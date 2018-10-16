@@ -1,6 +1,5 @@
 .bash_aliases
 .bash_functions
-.bash_it
 .bashrc
 .bashrcbak
 .bashrc.bak
@@ -26,7 +25,6 @@
 .shortcuts
 .shutter
 .tldr
-.vim
 .viminfo
 .vimrc
 .zsh_aliases
