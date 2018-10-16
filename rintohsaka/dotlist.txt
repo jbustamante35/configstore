@@ -1,9 +1,7 @@
 addSubmodules.sh
 .aptitude
-.bash
 .bash_aliases
 .bash_functions
-.bash_it
 .bash_logout
 .bashrc
 .bashrc-anaconda3.bak
@@ -22,10 +20,8 @@ excludeDots.sh
 .fasd-init-bash
 .fehbg
 .gconf
-.gem
 .gitconfig
 .gitmodules
-.GlobalProtect
 .gnome
 .gnome2
 .gnome2_private
@@ -36,7 +32,6 @@ excludeDots.sh
 .lesshst
 .matlab
 .nwinkler_random_colors
-.oh-my-zsh
 .profile
 README.md
 .scripts
@@ -45,9 +40,7 @@ README.md
 submodules_manifest.txt
 .synaptic
 .themes
-.tldr
 .todo
-.vim
 .viminfo
 .vimrc
 .vimrc.bak
