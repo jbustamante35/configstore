@@ -1,7 +1,7 @@
 config.bind(";h", "set downloads.location.directory ~/ ;; hint links download")
 config.bind(";bb", "set downloads.location.directory ~/bin ;; hint links download")
 config.bind(";gg", "set downloads.location.directory ~/go ;; hint links download")
-config.bind(";dc", "set downloads.location.directory ~/Documents ;; hint links download")
+config.bind(";d", "set downloads.location.directory ~/Documents ;; hint links download")
 config.bind(";D", "set downloads.location.directory ~/Downloads ;; hint links download")
 config.bind(";dr", "set downloads.location.directory ~/Dropbox ;; hint links download")
 config.bind(";dok", "set downloads.location.directory ~/dockerData ;; hint links download")
