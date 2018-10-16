@@ -11,10 +11,7 @@ markup=pango
 # The second parameter overrides the mixer selection
 # See the script for details.
 [volume]
-label=VOL
-label=♪
-instance=Master
-instance=PCM
+command=~/.scripts/i3volume
 interval=once
 signal=10
 
@@ -36,8 +33,9 @@ interval=30
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label=HOME
+label=📦
 #instance=/mnt/data
+#command=~/.scripts/i3disk
 interval=30
 
 # Network interface monitoring
@@ -54,9 +52,9 @@ instance=wlp3s0
 interval=10
 separator=true
 
-[bandwidth]
-instance=eth0
-interval=5
+#[bandwidth]
+#instance=eth0
+#interval=5
 
 # CPU usage
 # The script may be called with -w and -c switches to specify thresholds,
@@ -79,8 +77,9 @@ interval=30
 
 # Date Time
 [time]
-command=date '+%Y-%m-%d %H:%M:%S'
-interval=5
+label=📅
+command=echo $(date '+%m-%d-%Y(%a)|%I:%M%p') 🕓
+interval=30
 
 # Generic media player support
 #
@@ -92,8 +91,14 @@ instance=google-play-music-desktop-player
 interval=5
 signal=10
 
+[music]
+label=🎼
+command=~/.scripts/gplayer --layout t-A-p
+separator_block_width=13
+interval=1
+color=#EEFF66
+
 # OpenVPN support
-#
 # Support multiple VPN, with colors.
 #[openvpn]
 #interval=20
