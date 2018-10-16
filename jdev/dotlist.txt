@@ -1,6 +1,5 @@
 .bash_aliases
 .bash_functions
-.bash_it
 .bash_profile
 .bashrc
 .bashrc-anaconda3.bak
@@ -9,20 +8,16 @@
 .conda
 .config
 .dotrc
-.fzf
 .fzf.bash
 .fzf.zsh
 .gconf
-.gem
 .gitk
 .icons
 .ipython
-.oh-my-zsh
 .profile
 .scripts
 .shortcuts
 .themes
-.vim
 .viminfo
 .vimrc
 .zsh_aliases
