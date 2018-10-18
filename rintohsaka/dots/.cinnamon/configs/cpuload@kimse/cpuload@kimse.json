@@ -1,0 +1,39 @@
+{
+    "head0": {
+        "type": "header",
+        "description": "Settings for cpuload@kimse"
+    },
+    "head1": {
+        "type": "header",
+        "description": "Visual"
+    },
+    "hide-decorations": {
+        "type": "checkbox",
+        "description": "Hide decorations",
+        "default": false,
+        "value": false
+    },
+    "scale-size": {
+        "type": "spinbutton",
+        "default": 1,
+        "min": 0.5,
+        "max": 10,
+        "step": 0.2,
+        "units": "scale factor",
+        "description": "Desklet size",
+        "tooltip": "Increase or decrease the size of this desklet using this scale factor.",
+        "value": 0.7
+    },
+    "column-count": {
+        "type": "spinbutton",
+        "default": 2,
+        "step": 1,
+        "min": 1,
+        "max": 16,
+        "units": "columns",
+        "description": "Column count",
+        "tooltip": "Increase or decrease column count",
+        "value": 3.0
+    },
+    "__md5__": "c65ba85780463340c297ccd3fefc74a9"
+}
