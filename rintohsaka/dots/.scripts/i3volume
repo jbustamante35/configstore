@@ -1,12 +1,1 @@
-#!/bin/bash
-
-case $BLOCK_BUTTON in
-	1) $TERMINAL -- pulsemixer & disown ;;
-	3) pulsemixer -t ;;
-	4) pulsemixer -i 5 ;;
-	5) pulsemixer -d 5 ;;
-esac
-
-printpastatus() { [[ $(pulsemixer --get-mute) = "true" ]] && echo -n 🔇 && exit
-        echo 🔊 $(pulsemixer --get-volume)% ;}
-printpastatus
+/home/jbustamante/Documents/i3blocks-contrib/volume-pulseaudio/volume-pulseaudio
