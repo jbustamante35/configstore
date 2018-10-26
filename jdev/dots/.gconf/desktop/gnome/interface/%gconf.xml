@@ -18,7 +18,7 @@ tooltip_bg_color:#df00f699fa23</stringvalue>
 	<entry name="gtk_theme" mtime="1519342954" type="string">
 		<stringvalue>Glossy</stringvalue>
 	</entry>
-	<entry name="gtk-im-module" mtime="1538345796" type="string">
+	<entry name="gtk-im-module" mtime="1540245485" type="string">
 		<stringvalue>gtk-im-context-simple</stringvalue>
 	</entry>
 </gconf>
