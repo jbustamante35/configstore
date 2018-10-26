@@ -6,27 +6,19 @@ command=/usr/share/i3blocks/$BLOCK_NAME
 separator_block_width=30
 markup=pango
 
-# Volume indicator
-# The first parameter sets the step (and units to display)
-# The second parameter overrides the mixer selection
-# See the script for details.
-[volume]
-command=~/.scripts/i3volume
-interval=once
-signal=10
 
 # Memory usage
 # The type defaults to "mem" if the instance is not specified.
-[memory]
-label=MEM
-separator=true
-interval=30
-
-[memory]
-label=SWAP
-instance=swap
-separator=true
-interval=30
+#[memory]
+#label=MEM
+#separator=true
+#interval=30
+#
+#[memory]
+#label=SWAP
+#instance=swap
+#separator=true
+#interval=30
 
 # Disk usage
 # The directory defaults to $HOME if the instance is not specified.
@@ -50,7 +42,6 @@ separator=false
 [wifi]
 instance=wlp3s0
 interval=10
-separator=true
 
 #[bandwidth]
 #instance=eth0
@@ -64,27 +55,20 @@ label=CPU
 interval=10
 min_width=CPU: 100.00%
 
-[load_average]
+# Temperature
+# Support multiple chips, though lm-sensors.
+# The script may be called with -w and -c switches to specify thresholds,
+# see the script for details.
+[temperature]
+label=TEMP
 interval=10
 
-# Battery indicator
-# The battery instance defaults to 0.
 [battery]
-label=BAT
-label=⚡
-#instance=1
-interval=30
+#label=⚡
+command=~/.scripts/i3battery
+interval=5
 
-# Date Time
-[time]
-label=📅
-command=echo $(date '+%m-%d-%Y(%a)|%I:%M%p') 🕓
-interval=30
-
-# Generic media player support
-#
-# This displays "ARTIST - SONG" if a music is playing.
-# Supported players are: spotify, vlc, audacious, xmms2, mplayer, and others.
+# Music and Volume Control
 [mediaplayer]
 label=🎼
 instance=google-play-music-desktop-player
@@ -98,18 +82,15 @@ separator_block_width=13
 interval=1
 color=#EEFF66
 
-# OpenVPN support
-# Support multiple VPN, with colors.
-#[openvpn]
-#interval=20
+[volume]
+command=~/.scripts/i3volume
+interval=1
+signal=10
 
-# Temperature
-# Support multiple chips, though lm-sensors.
-# The script may be called with -w and -c switches to specify thresholds,
-# see the script for details.
-[temperature]
-label=TEMP
-interval=10
+[time]
+label=📅
+command=echo $(date '+%m-%d-%Y(%a)|%I:%M%p') 🕓
+interval=30
 
 # Key indicators
 [keyindicator]
