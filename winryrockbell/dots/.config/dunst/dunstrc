@@ -29,7 +29,9 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "300x5-30+20"
+    #geometry = "300x5-30+20"
+    #geometry = "500x15-30+20"
+    geometry = "600x100-30+20"
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -41,12 +43,12 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing window manager is
     # present (e.g. xcompmgr, compiz, etc.).
-    transparency = 10
+    transparency = 15
 
     # The height of the entire notification.  If the height is smaller
     # than the font height and padding combined, it will be raised
     # to the font height and padding.
-    notification_height = 0
+    notification_height = 30
 
     # Draw a line of "separator_height" pixel height between two
     # notifications.
@@ -54,17 +56,18 @@
     separator_height = 2
 
     # Padding between text and separator.
-    padding = 8
+    padding = 5
 
     # Horizontal padding.
-    horizontal_padding = 8
+    horizontal_padding = 5
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 3
+    frame_width = 2
 
     # Defines color of the frame around the notification window.
     frame_color = "#aaaaaa"
+	#frame_color = "#800020"
 
     # Define a color for the separator.
     # possible values are:
@@ -72,7 +75,8 @@
     #  * foreground: use the same color as the foreground;
     #  * frame: use the same color as the frame;
     #  * anything else will be interpreted as a X color.
-    separator_color = auto
+    #separator_color = auto
+    separator_color = frame
 
     # Sort messages by urgency.
     sort = yes
@@ -142,7 +146,7 @@
 
     # When word_wrap is set to no, specify where to ellipsize long lines.
     # Possible values are "start", "middle" and "end".
-    ellipsize = middle
+    ellipsize = start
 
     # Ignore newlines '\n' in notifications.
     ignore_newline = no
@@ -183,7 +187,7 @@
     dmenu = /usr/bin/dmenu -p dunst:
 
     # Browser for opening urls in context menu.
-    browser = /usr/bin/google-chrome
+    browser = /usr/bin/google-chrome-beta
 
     # Always run rule-defined scripts, even if the notification is suppressed
     always_run_script = true
@@ -228,17 +232,12 @@
     # "mod3" and "mod4" (windows-key).
     # Xev might be helpful to find names for keys.
 
-    # Close notification.
-    close = ctrl+space
-
-    # Close all notifications.
+    # Close single or all notifications.
+    close     = ctrl+space
     close_all = ctrl+shift+space
 
     # Redisplay last message(s).
-    # On the US keyboard layout "grave" is normally above TAB and left
-    # of "1". Make sure this key actually exists on your keyboard layout,
-    # e.g. check output of 'xmodmap -pke'
-    #history = ctrl+`
+    # e.g. check output of 'xmodmap -pke' for grave key
     history = ctrl+grave
 
     # Context menu.
@@ -248,22 +247,25 @@
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#222222"
-    foreground = "#888888"
-    timeout = 10
-    icon = ~/Pictures/Downloads/nintendoswitch_icon.png
+    foreground = "#ffffff"
+    timeout    = 10
+    icon       = ~/Pictures/Downloads/HomeboiBeethoven.png
 
 [urgency_normal]
-    background = "#285577"
-    foreground = "#ffffff"
-    timeout = 10
-    icon = ~/Pictures/Downloads/nintendoswitch_icon.png
+    #background     = "#285577"
+    background      = "#d4e7e7"
+    foreground      = "#1d6acd"
+	frame_color = "#932a72"
+	frame_width = 4
+    timeout         = 12
+    icon            = ~/Pictures/Downloads/nintendoswitch_icon.png
 
 [urgency_critical]
-    background = "#900000"
-    foreground = "#ffffff"
+    background  = "#900000"
+    foreground  = "#ffffff"
     frame_color = "#ff0000"
-    timeout = 0
-    icon = ~/Pictures/Downloads/HomeboiBeethoven.jpg
+    timeout     = 0
+    icon        = ~/Pictures/Downloads/HomeboiBeethoven.jpg
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
@@ -273,8 +275,7 @@
 # Shell-like globbing will get expanded.
 #
 # SCRIPTING
-# You can specify a script that gets run when the rule matches by
-# setting the "script" option.
+# You can specify a script that gets run when the rule matches by # setting the "script" option.
 # The script will be called as follows:
 #   script appname summary body icon urgency
 # where urgency can be "LOW", "NORMAL" or "CRITICAL".
