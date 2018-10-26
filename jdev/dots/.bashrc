@@ -1,29 +1,43 @@
 #!/usr/bin/env bash
 
+#echo "Sourcing $HOME/.bashrc"
 # Set profile name for device
 export PROFILE=jdev
+
+# Lock and Load a custom theme file
+# location /.bash_it/themes/
+export BASH_IT_THEME='sexy'
 
 # Path to the bash it configuration
 export BASH_IT="/home/jbustamante/.bash_it"
 
+# Load Bash It
+source "$BASH_IT"/bash_it.sh
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
 # Aliases
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+als=~/.aliases
+if [ -f ${als} ]; then
+	echo "Sourcing $HOME/.bash_aliases"
+    . ${als}
 fi
 
 # Function definitions
-if [ -f ~/.bash_functions ]; then
-    . ~/.bash_functions
+funcs=~/.functions
+if [ -f ${funcs} ]; then
+	echo "Sourcing $HOME/.bash_functions"
+    . ${funcs}
 fi
 
 # Shortcut bindings
-if [ -f ~/.shortcuts ]; then
+shrt=~/.scripts/shortcuts.sh
+if [ -f ${shrt} ]; then
+	echo "Sourcing $HOME/.scripts/shortcuts.sh"
+	. ${shrt}
     . ~/.shortcuts
 fi 
 
-# Lock and Load a custom theme file
-# location /.bash_it/themes/
-export BASH_IT_THEME='powerline-multiline'
 
 # (Advanced): Change this to the name of your remote repo if you
 # cloned bash-it with a remote other than origin such as `bash-it`.
@@ -69,16 +83,6 @@ export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
 # Uncomment this to make Bash-it create alias reload.
 export BASH_IT_RELOAD_LEGACY=1
 
-# Load Bash It
-source "$BASH_IT"/bash_it.sh
-
-# Path to the bash it configuration
-export BASH_IT="/home/jbustamante/.bash_it"
-
-# Lock and Load a custom theme file
-# location /.bash_it/themes/
-export BASH_IT_THEME='bobby'
-
 # (Advanced): Change this to the name of your remote repo if you
 # cloned bash-it with a remote other than origin such as `bash-it`.
 # export BASH_IT_REMOTE='bash-it'
@@ -122,12 +126,4 @@ export SHORT_TERM_LINE=true
 
 # Uncomment this to make Bash-it create alias reload.
 # export BASH_IT_RELOAD_LEGACY=1
-
-# Load Bash It
-source "$BASH_IT"/bash_it.sh
 source ~/.shortcuts
-
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
