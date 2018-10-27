@@ -1,6 +1,8 @@
 #!/bin/sh
 # Get ID of audio device by reading the
 # outputted file containing the ID
+# This should just return what's in
+# the devID file but I'm  an idiot
 
 bash ~/bin/audio_device_id.sh
 id=$(cat ~/.config/devID)
