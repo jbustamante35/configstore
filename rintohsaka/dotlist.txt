@@ -4,7 +4,6 @@ addSubmodules.sh
 .bashrc
 .calcurse
 .config
-.conkyrc
 .dotrc
 dots2exclude.txt
 excludeDots.sh
