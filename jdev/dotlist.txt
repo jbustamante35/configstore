@@ -1,5 +1,4 @@
-.bash_aliases
-.bash_functions
+.aliases
 .bash_profile
 .bashrc
 .bashrc-anaconda3.bak
@@ -8,6 +7,7 @@
 .conda
 .config
 .dotrc
+.functions
 .fzf.bash
 .fzf.zsh
 .gconf
@@ -20,8 +20,6 @@
 .themes
 .viminfo
 .vimrc
-.zsh_aliases
-.zsh_functions
 .zsh_profile
 .zshrc
 .zshrc.pre-oh-my-zsh
