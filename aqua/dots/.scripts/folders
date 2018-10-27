@@ -1,0 +1,12 @@
+# You can add comments to these files with #
+h    ~/
+bb   ~/bin
+d    ~/Documents
+D    ~/Downloads
+m    ~/Music
+pp   ~/Pictures
+mi   ~/DCIM
+cb   ~/ChromeBook
+s    ~/.scripts
+cf   ~/.config
+bi   ~/.bash_it
