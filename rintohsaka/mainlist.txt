@@ -1,10 +1,13 @@
 addSubmodules.sh
+.aliases
 .bash_aliases
 .bash_functions
 .bash_logout
 .bashrc
 .bashrc-anaconda3.bak
 .bashrc.bak
+config
+.functions
 submodules_manifest.txt
 submodules_manifest.txt.bak
 .viminfo
