@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=jbustamante35@gmail.com
+Enabled=true
+Parent=4023abccbc39b0c5096952bc418bb588510994ec
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp.gmail.com
+Method=XOAUTH2
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=jbustamante35@gmail.com
+CredentialName=
+
+[Security]
+Method=ssl-on-alternate-port

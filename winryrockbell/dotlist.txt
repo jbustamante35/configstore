@@ -1,0 +1,17 @@
+.aliases
+.bashrc
+.calcurse
+.config
+.dotrc
+.functions
+.fzf.bash
+.fzf.zsh
+.profile
+.screenlayout
+.scripts
+.shortcuts
+.viminfo
+.vimrc
+.Xresources
+.zshrc
+.zshrc.pre-oh-my-zsh
