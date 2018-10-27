@@ -5,7 +5,7 @@
 export PROFILE=jdev
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/jbustamante/.oh-my-zsh"
+export ZSH="/home/jbustamante/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -28,22 +28,29 @@ plugins=(
     rsync
 )
 
-#Shortcuts
+source $ZSH/oh-my-zsh.sh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Aliases
+als=~/.aliases
+if [ -f ${als} ]; then
+	echo "Sourcing $HOME/.zsh_aliases"
+	. ${als}
+fi
+
+# Function definitions
+funcs=~/.functions
+if [ -f ${funcs} ]; then
+	echo "Sourcing $HOME/.zsh_functions"
+	. ${funcs}
+fi
+
+# Shortcut bindings
 shrt=~/.scripts/shortcuts.zsh
 if [ -f ${shrt} ]; then
-    . ${shrt}
-fi
-
-#Aliases
-als=~/.zsh_aliases
-if [ -f ${als} ]; then
-    . ${als}
-fi
-
-# Functions
-funcs=~/.zsh_functions
-if [ -f ${funcs} ]; then
-    . ${funcs}
+	echo "Sourcing $HOME/.scripts/shortcuts.zsh"
+	. ${shrt}
+	. ~/.shortcuts                                                                                                             
 fi
 
 # Set list of themes to pick from when loading at random
@@ -93,7 +100,6 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -123,9 +129,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/.shortcuts
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
