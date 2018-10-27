@@ -18,4 +18,4 @@ fi
 [ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
 
 export EDITOR=vim
-# EOF
+
