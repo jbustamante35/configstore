@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="reply_style" mtime="1519344158" type="int" value="0"/>
-	<entry name="forward_style" mtime="1519344158" type="int" value="0"/>
-</gconf>

@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="border_effect" mtime="1520289070" type="string">
-		<stringvalue>none</stringvalue>
-	</entry>
-	<entry name="delay" mtime="1520289070" type="int" value="0"/>
-	<entry name="include_pointer" mtime="1520289070" type="bool" value="true"/>
-	<entry name="include_border" mtime="1520289070" type="bool" value="true"/>
-</gconf>

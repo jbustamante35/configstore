@@ -1,4 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="frequency_get_updates" mtime="1521775823" type="int" value="604800"/>
-</gconf>

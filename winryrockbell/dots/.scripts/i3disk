@@ -1,7 +1,0 @@
-#!/bin/bash
-str=echo $(pydf | grep "/dev/nvme0n1p4")
-total=echo $str | $(cut -f3 -d" ")
-used=echo $str | $(cut -f5 -d" ")
-remaining=echo $str | $(cut -f8 -d" ")
-
-printf "string: $str\ntotal: $total\nused: $used\nremaining: $remaining\n"

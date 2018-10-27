@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="default_window_maximized" mtime="1521859911" type="bool" value="false"/>
-	<entry name="default_window_height" mtime="1521859911" type="int" value="350"/>
-	<entry name="default_window_width" mtime="1521859911" type="int" value="554"/>
-	<entry name="look_in_folder" mtime="1521859906" type="string">
-		<stringvalue>/home/jbustamante</stringvalue>
-	</entry>
-</gconf>

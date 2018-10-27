@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="num_workspaces" mtime="1519345946" type="int" value="4"/>
-	<entry name="theme" mtime="1525196944" type="string">
-		<stringvalue>Crux</stringvalue>
-	</entry>
-</gconf>

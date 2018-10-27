@@ -1,7 +1,0 @@
-cff	~/.scripts/folders
-cfc	~/.scripts/configs
-br	~/.bashrc
-ba ~/.bash_aliases
-bf ~/.bash_functions
-cfv	~/.vimrc
-cfr	~/.config/ranger/rc.conf
