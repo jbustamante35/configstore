@@ -1,16 +1,19 @@
 execute pathogen#infect()
-
-colorscheme pablo
-syntax on
 filetype plugin indent on
 
-set cursorline
+colorscheme ron
+syntax on
+
 set nocompatible
 set number
-set tabstop=4
-set softtabstop=4
+set cursorline
+set tabstop=8
 set expandtab
+set softtabstop=0
+set shiftwidth=4
+set smarttab
 set updatetime=100
+set autoread
 
 " Switch Escape from Insert Mode from <Esc> to <Tab>
 let g:joy_pure = 1
