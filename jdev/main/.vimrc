@@ -21,7 +21,7 @@ set hlsearch 	   "highlight matching searches
 set incsearch 	   "search as characters are entered
 set ignorecase     " case insensitive search
 set smartcase      " case sensitive only if searching capital letters
-set background=dark
+"set background=dark
 
 " Auto reload vim on save
 
