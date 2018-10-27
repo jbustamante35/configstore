@@ -11,4 +11,4 @@ vv	~/Videos
 pyenv	~/environments
 s	~/.scripts
 cf	~/.config
-zi  ~/.oh-my-zsh
+bi  ~/.bash_it
