@@ -1,59 +1,76 @@
-command=/usr/lib/i3blocks/$BLOCK_NAME
-separator_block_width=15
+command=~/.scripts/$BLOCK_NAME
+separator_block_width=20
 markup=pango
 
-[record]
-command=cat ~/.recordingicon
+[apt-upgrades]
+#command=~/.scripts/i3aptupgrades -s 🥡 -n "#A9A9A9"
+command=~/.scripts/i3aptupgrades -s 🥡 -N
+signal=3600
 interval=once
-signal=9
 
-[mpd]
-label=🎼
-command=i3mpd
-interval=once
-signal=11
+[cpu_usage]
+label=CPU
+interval=10
+min_width=CPU: 100.00%
 
-[pacman]
-label=📦
-command=i3pacman
-interval=once
-signal=8
-
-[torrents]
-command=i3torrent
-interval=20
-signal=7
+[temperature]
+command=~/.scripts/i3temperature -w 55 -c 70
+interval=5
 
 [weather]
-command=i3weather
+command=~/.scripts/i3weather
 interval=3600
 
-[mail]
-label=📬
-command=i3mail
-interval=180
-signal=12
-
-[volume]
-interval=once
-command=i3volume
-signal=10
-
-[iface]
-label=🌐
-#instance=wlan0
-interval=10
-
 [battery]
-command=i3battery
+command=~/.scripts/i3battery
 interval=5
+
+[volume-pulseaudio]
+interval=3
+command=~/.scripts/i3volume -d -c "#FF0000" -C "#FFFF33" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇
+signal=1
+
+#[devid]
+#label=📦
+#interval=20
+#command=~/.scripts/i3device
+#signal=10
+
+[music]
+label=🎹
+command=~/.scripts/gplayer --not-playing --layout t-A-p
+interval=1
+color=#00bfff
+
+[email]
+command=~/.scripts/i3mail
+interval=30
+signal=12
 
 [time]
 label=📅
 command=echo $(date '+%Y %b %d (%a)  %I:%M%p') 🕓
-interval=30
+interval=60
 
 [wifi]
-command=i3wifi
-instance=wlp2s0
-interval=10
+command=~/.scripts/i3wifi
+label=wifi
+interval=60
+
+[keyindicator]
+command=~/.scripts/keyindicator
+instance=CAPS
+interval=once
+signal=11
+
+[keyindicator]
+command=~/.scripts/keyindicator
+instance=NUM
+interval=once
+signal=11
+
+[shutdown_menu]
+full_text=
+command=~/.scripts/i3shutdown
+
+
