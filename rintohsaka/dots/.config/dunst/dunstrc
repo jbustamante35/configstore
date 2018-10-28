@@ -1,6 +1,5 @@
 [global]
     ### Display ###
-
     # Which monitor should the notifications be displayed on.
     monitor = 0
 
@@ -29,7 +28,7 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "300x5-50+40"
+    geometry = "500x50+50+40"
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -41,7 +40,7 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing window manager is
     # present (e.g. xcompmgr, compiz, etc.).
-    transparency = 10
+    transparency = 30
 
     # The height of the entire notification.  If the height is smaller
     # than the font height and padding combined, it will be raised
@@ -64,7 +63,7 @@
     frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#a9a9a9"
+    frame_color = "#FFFFFF"
 
     # Define a color for the separator.
     # possible values are:
@@ -84,7 +83,7 @@
     idle_threshold = 60
 
     ### Text ###
-    font = DejaVu Sans Mono 12
+    font = DejaVu Sans Mono 8
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -141,7 +140,7 @@
 
     # When word_wrap is set to no, specify where to ellipsize long lines.
     # Possible values are "start", "middle" and "end".
-    ellipsize = middle
+    ellipsize = start
 
     # Ignore newlines '\n' in notifications.
     ignore_newline = no
@@ -225,15 +224,11 @@
     # "mod3" and "mod4" (windows-key).
     # Xev might be helpful to find names for keys.
 
-    # Close notification.
-    close = ctrl+space
-
-    # Close all notifications.
+    # Close single or all notification.
+    close     = ctrl+space
     close_all = ctrl+shift+space
 
     # Redisplay last message(s).
-    # On the US keyboard layout "grave" is normally above TAB and left
-    # of "1". Make sure this key actually exists on your keyboard layout,
     # e.g. check output of 'xmodmap -pke'
     history = ctrl+grave
 
@@ -241,26 +236,25 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    # IMPORTANT: colors have to be defined in quotation marks.
-    # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#222222"
-    foreground = "#888888"
-    timeout = 10
-	icon = /home/jbustamante/Pictures/Downloads/nintendo_icons/GC.png
+    background  = "#FFDF00"
+    foreground  = "#000000"
+    frame_color = "#ff0000"
+    timeout     = 10
+	icon        = /home/jbustamante/Pictures/Downloads/nintendo_icons/GC.png
 
 [urgency_normal]
-    background = "#285577"
-    foreground = "#ffffff"
-    timeout = 10
-	icon = /home/jbustamante/Pictures/Downloads/nintendo_icons/n64icon.png
+    background  = "#222222"
+    foreground  = "#ffffff"
+	frame_color = "#FFDF00"
+    timeout     = 15
+	icon        = /home/jbustamante/Pictures/Downloads/triforcegold_icon.png
 
 [urgency_critical]
-    background = "#900000"
-    foreground = "#ffffff"
-    frame_color = "#ff0000"
-    timeout = 0
-	icon = /home/jbustamante/Pictures/Downloads/triforcegold_icon.png
-	#icon = /home/jbustamante/Pictures/Downloads/nintendo_icons/SNES.png
+    background  = "#900000"
+    foreground  = "#ffffff"
+    frame_color = "#ffdf00"
+    timeout     = 0
+	icon        = /home/jbustamante/Pictures/Downloads/nintendo_icons/n64icon.png
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
