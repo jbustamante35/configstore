@@ -1,78 +1,62 @@
 # vim: filetype=i3
-#             `                              ``                             ``        
-#               `                             ``                             ```      
-#                                                                                     
-#                  ,`+` `                              `        @ #                  `
-#                ' # @ #.`                             ``      . @ :                  
-#                #, @ +  ``                              `     @ @ @ @                
-#               @ @ @ @   ``                             ``     @ +`.@                
-#               @ ,: @ ,`  ``                             ``` @ # @ @ ;               
-#              ``@ @`@ #    ``                             `. `: +``+ @               
-#              @ @ +, .      `                              `` @ @ @ ,'               
-#              @ :. @ @       ``                             ``, : @ @ ,              
-#`             ;,  ,  @        ``                             ` #    @ @              
-#             ``+ @@ ``                  @@@@@@@@@@@@@@@@@@     @  + # @              
-#             .  ,@; ;                   @@@@#@@@@@@#@@@@@@     @ :`@  @              
-#                @@: @           @        @@      `:@  #@@`     # ' @`                
-#             +  @`@`            @        @,       ,@  @@@        . @,                
-#             @@ #:` @          +@        #        ,@  +@@      :. @# ,@.             
-#             @ @  @.@          @@@       @        ,@  ,@@       ,#,`, ;              
-#       `      @. @ @.          @@@    ` ;@        ,@   @@      `@.. @@@              
-#       ``    , @.#@.;`         @@#    ``@#`;`     ,@   @@`      `@@,@+`@             
-#        `    '@`   @@          :@      `+` @      :@   @@,      @: ;`;'@             
-#             @ @ ;...         `,@'@@@@@@+#@@@@@@@@@@@@@@@#      @ # ```:`            
-#           ` .@# '@@    :@@@@@@@@@@#@@@@ #+@@@@@@@@#,.;@@@      `@;;@@@````          
-#             ' @ @,`'   @@@;;;;@@@#@@@@@.@#@@@@@@    :  `:      @ @@#: @ ``          
-#           ``+@`  @ :   @@@;'''@@#@@@@@@:@@#+@@' ;@@@@@@:       @+:  @`@  ``         
-#             @`' @ @    @@@#@@@@#@@@@@@@#@@@++; :@@@@@@@@@      @`` ' @`   ```       
-#           ` `@@ #@`@   @@@@@@@+@@@@@@@@@@@@@#`:@@@@@'@@@@#      @@;@@,`    ```      
-#             @ ` + @@`  @@@@@@;'@@@@@@@@@+@@@ #@@@,     @@@@    @, :@ .@             
-#             @,@  # '   @@@.      @@#@@@@:@@@ @@@,  @@,  @@@    @ #  @ ;             
-#             #'  @,#    @#  +@@@#` ;@@@@@.@@:`#@@  @@@@@  @@@   #@. @`@              
-#              ;@+@@     .  #@@@@@@' @@@@@+''` @@: @@` @@  @@@  ` :@ @@               
-#               #@#.       @@@@+@@@@` @@@@@@@ @@@. @@   @. @@@    `@##                
-#                @@        @@@   `@@@ @@@@@@@` @@' @@. @@  @@@     '##`               
-#                `@       .@@ ;,@ #@@          @@@  @@@@#  @@@      @                 
-#                 @    `` ,@@`+ # @@@          @@@'  ,;.  @@@      `@                `
-#                 @     `  @#@ ;` @@@          ;@@@#     @@@@      +;                 
-#                 @`      `@@@@`,@@@,           '@@@@@@@@+@@       @                  
-#                 ,@      ``@@@@@@#@`            `@@#@@@@@@        #                  
-#                  @         @@@@@+ `             `:@@@@@  `      '+                  
-#                  @;       `` `                           `      @                   
-#                 ` @        `                              ``   '@                   
-#                   +@        ``                                 @                    
-#`                   @`        ``                             ``@:                    
-#                     @`                                       @@                     
-#                     .@                                      #@                      
-#                      .@`                                   @@                       
-#                       `                                    .                        
-#       ``                             ``                             ``              
-#       ``                             ```                             ``             
-#                                       ______
-#                                     _ |___  )
-#                                    (_)  __) )
-#                                    | | |__  )
-#                                    | | ___) )
-#                                    |_||_____)
+#                  `                                  `              
+#              `,+ `                        `      ,`#               
+#             +#`,:``                       ``    '`@``+`            
+#           `; :# '  `                        `   `@``@,             
+#           #, `: ,      ``                      ``#`  : :           
+#           ;+ # ,               ++++++++++++++`   ; .+``+           
+#           ; #. '         `     @@@@@@@@@@@@@@`     ;#, #           
+#             #  :       `:'      @      ;. '@,      '.@             
+#          ,: #; ,        #`      @      ;` ;@+      .`@ +           
+#          . @,.+#       .@@     .#      ;` .@#    `'+` ;'           
+#          `@; ,+`       .@@   ` +:      ;`  @@     +:#,+;           
+#      `   #`#`# +       `@@    `@`@`    ;`  @@     ,`@,.;`          
+#          + ; +.,        #   `.,#,,#,```',` @@     @'` +.`          
+#         ``@'`,@`  `'@@@@@@@@@@@`+@#@@@@@+''@@     ,'; '#``         
+#          +`#;;,;  +@@,,,@@@@@@@.@+#@@#` .;`. `    @ +`;:.``        
+#         `' + # .  +@@`.`#@@@@@@:@##@+ #@@@@@#     @`: @.`  `       
+#           @'`+@.  +@@:,:#@@@@@@'@@#@ @@@@#@@@@`    #+`##    `      
+#          ' ;`,;+  +@@@@+@@@@@@@+@@@`#@@;   .@@#   @`',.,           
+#          ;`+ + :  +@#  `  :@@@@@#@# @@: :@+ `@@`  @`, +,           
+#           @'`##   ''`##@@@.,@@@@,:..@@ ;@+@@ +@#  `@#'#+           
+#            @++      @@@@@@@ #@@@@@:#@@ @' `@ :@@    ##;            
+#            .@'     `@@.  +@+`@@@@#;.@@ @@ ;@ '@+  ` @@             
+#             #`    `:@#.`#`@@       .@@` @@@, @@+   `+`             
+#             :,   ` :@@`'+.@@       `@@@  `` +#@     @              
+#              +    ``@@, `@@;         @@@+.;@#@:     @              
+#              @     `'@@@@@@          `@#@@@@@:     `+              
+#              '`      :@@@'             :#@#+```    #`              
+#               @      `                        `    @               
+#               ',      `                        `  @`               
+#                              ______
+#                            _ |___  )
+#                           (_)  __) )
+#                           | | |__  )
+#                           | | ___) )
+#                           |_||_____)
 #
-#####################################################################################
+################################################################################
 
-set $mod Mod4
-font pango:DejaVu Sans Mono 6
+set $mod        Mod4
+set $term       urxvt 
+font            pango:DejaVu Sans Mono,10
 
-##################### Main Setup ##############################
+#################### Main Setup ##############################
 # Startup Commands
-exec            --no-startup-id dropbox start
-exec            --no-startup-id compton --config ~/.config/compton/compton.conf -b
+exec_always     --no-startup-id compton --config ~/.config/compton/compton.conf
 exec_always     --no-startup-id wal -c --backend wal -i ~/.config/wall.png  --saturate 0.6
 exec            --no-startup-id dunst -config ~/.config/dunst/dunstrc
+exec            --no-startup-id dropbox start
+exec            --no-startup-id pb-for-desktop
 #set $term       --no-startup-id "gnome-terminal --profile='Nayru'"
-set $term       --no-startup-id urxvt
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+c restart
-bindsym $mod+Shift+p exec sudo systemctl suspend
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+c            restart
+bindsym Mod1+Delete             exec --no-startup-id    ~/.scripts/i3scripts/i3shutdown
+bindsym Control+Mod1+Delete     exec --no-startup-id    i3lock -i ~/.config/lock.png -t -f -p default
+bindsym $mod+Shift+p            exec --no-startup-id    systemctl suspend
+bindsym $mod+Shift+e            exec --no-startup-id    "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
 
 # Volume Control [alsamixer]
 bindsym XF86AudioMute                   exec --no-startup-id amixer -q sset 'Master' toggle
@@ -82,11 +66,11 @@ bindsym XF86AudioLowerVolume	        exec --no-startup-id amixer -q sset 'Master
 bindsym Shift+XF86AudioLowerVolume      exec --no-startup-id amixer -q sset 'Master' 10%-
 
 # Volume Control [pulseaudio]
-#bindsym XF86AudioMute			   exec --no-startup-id pactl set-sink-mute	  0 toggle
-#bindsym XF86AudioRaiseVolume	   exec --no-startup-id pactl set-sink-volume 0 +5%
-#bindsym Shift+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +10%
-#bindsym XF86AudioLowerVolume	   exec --no-startup-id pactl set-sink-volume 0 -5%
-#bindsym Shift+XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -10%
+#bindsym XF86AudioMute              exec --no-startup-id pactl set-sink-mute     0 toggle
+#bindsym XF86AudioRaiseVolume	   exec --no-startup-id pactl set-sink-volume   0 +5%
+#bindsym Shift+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume   0 +10%
+#bindsym XF86AudioLowerVolume	   exec --no-startup-id pactl set-sink-volume   0 -5%
+#bindsym Shift+XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume   0 -10%
 
 # Brightness/Gamma Control 
 #bindsym XF86MonBrightnessDown		 exec --no-startup-id setBrightness.sh 5
@@ -98,10 +82,10 @@ bindsym Shift+XF86AudioLowerVolume      exec --no-startup-id amixer -q sset 'Mas
 #bindsym XF86MonBrightnessUp			exec --no-startup-id xbacklight -inc 5
 #bindsym Shift+XF86MonBrightnessUp	exec --no-startup-id xbacklight -inc 10
 
-bindsym XF86MonBrightnessDown       exec --no-startup-id light -U 5
-bindsym Shift+XF86MonBrightnessDown exec --no-startup-id light -U 10
-bindsym XF86MonBrightnessUp         exec --no-startup-id light -A 5
-bindsym Shift+XF86MonBrightnessUp   exec --no-startup-id light -A 10
+bindsym XF86MonBrightnessDown       exec --no-startup-id sudo light -U 5
+bindsym Shift+XF86MonBrightnessDown exec --no-startup-id sudo light -U 10
+bindsym XF86MonBrightnessUp         exec --no-startup-id sudo light -A 5
+bindsym Shift+XF86MonBrightnessUp   exec --no-startup-id sudo light -A 10
 
 # Configure i3gaps
 for_window [class="^.*"] border pixel 2
@@ -134,7 +118,7 @@ bindsym $mod+b          exec --no-startup-id gnome-terminal --profile="Nayru"
 bindsym $mod+Shift+b    exec --no-startup-id gnome-terminal --profile="Farore"
 bindsym $mod+n          exec --no-startup-id gnome-terminal --profile="Din"
 bindsym $mod+Shift+n    exec --no-startup-id gnome-terminal --profile="Ganon"
-bindsym $mod+grave      exec --no-startup-id urxvt
+bindsym $mod+grave      exec --no-startup-id urxvt -e /usr/bin/zsh
 
 # Browsers 
 bindsym $mod+Shift+g   exec --no-startup-id google-chrome-beta
@@ -147,6 +131,12 @@ bindsym $mod+Control+r  exec --no-startup-id urxvt -e nnn
 bindsym $mod+Control+h  exec --no-startup-id $term -e htop
 bindsym $mod+Control+j  exec --no-startup-id $term -e gotop
 
+# VimWiki 
+bindsym Mod1+s  exec --no-startup-id $term -e nvim -c :VimwikiUISelect
+bindsym Mod1+d  exec --no-startup-id $term -e nvim -c :VimwikiIndex
+bindsym Mod1+j  exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
+bindsym Mod1+k  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
+
 # Misc
 bindsym $mod+y  exec --no-startup-id $term -e calcurse
 
@@ -155,8 +145,8 @@ bindsym $mod+F1  exec --no-startup-id okular ~/.config/i3/i3_guide.pdf
 bindsym $mod+F2  exec --no-startup-id $term -e pulsemixer
 bindsym $mod+F3  exec --no-startup-id google-play-music-desktop-player
 bindsym $mod+F4  exec --no-startup-id mailspring
-bindsym $mod+F5  exec --no-startup-id sudo systemctl suspend
-#bindsym $mod+F6  [WIFI TOGGLE]
+bindsym $mod+F5  exec --no-startup-id spotify
+#bindsym $mod+F6  exec --no-startup-id toggletouchpad
 #bindsym $mod+F7  exec --no-startup-id td-toggle
 #bindsym $mod+F8  exec --no-startup-id ~/.config/mutt/etc/mailsync.sh
 #bindsym $mod+F9  exec --no-startup-id dmenumount
@@ -169,14 +159,11 @@ bindsym $mod+F5  exec --no-startup-id sudo systemctl suspend
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# start a terminal
-bindsym $mod+Return exec $term
-
-# kill focused window
-bindsym $mod+Shift+q kill
-
-# start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# start terminal, kill focused window, toggle touchpad, start dmenu
+bindsym $mod+Return     exec $term
+bindsym $mod+Shift+q    kill
+bindsym Mod1+t          exec --no-startup-id toggletouchpad
+bindsym $mod+d          exec dmenu_run
 
 # change focus
 bindsym $mod+j          focus left
@@ -217,10 +204,10 @@ bindsym $mod+a       focus parent
 bindsym $mod+Shift+a focus child
 
 # improved window resizing [from Luke Smith config]
-bindsym $mod+Shift+y	exec --no-startup-id "bash ~/.scripts/i3resize left"
-bindsym $mod+Shift+o	exec --no-startup-id "bash ~/.scripts/i3resize right"
-bindsym $mod+Shift+u	exec --no-startup-id "bash ~/.scripts/i3resize down"
-bindsym $mod+Shift+i	exec --no-startup-id "bash ~/.scripts/i3resize up"
+bindsym $mod+Shift+y	exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left"
+bindsym $mod+Shift+o	exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right"
+bindsym $mod+Shift+u	exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down"
+bindsym $mod+Shift+i	exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up"
 
 ######################### Workspace Management ###########################
 # Workspace variables 
@@ -260,58 +247,48 @@ bindsym $mod+Shift+9 move container to workspace $ws09
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # send specific programs to specific workspaces
-# TODO Figure out 'class' names for each application
-# browsers, matlab, terminals, and music in particular
-#for_window [class="browser"]		 move to workspace $ws01
-#for_window [class="matlab"]	 	 move to workspace $ws02
-#for_window [class="gnome-terminal"] move to workspace $ws03
-#for_window [class="music"]			 move to workspace $ws10
+assign  [class="Mailspring"]    $ws09
+assign  [class="Google Play"]   $ws10
+assign  [class="Spotify"]       $ws10
 
 ###################### i3bar Configuration #############################
-## Set colors from .Xdefaults
-#set_from_resources $lightblack   color0         #000000
-#set_from_resources $black        color1         #000000
-#set_from_resources $darkblack    color2         #000000
-#
-#set_from_resources $lightgray    color3         #000000
-#set_from_resources $white        color4         #000000
-#set_from_resources $darkgray     color5         #000000
-#
-#set_from_resources $lightred     color6         #000000
-#set_from_resources $red          color7         #000000
-#set_from_resources $darkred      color8         #000000
-#
-#set_from_resources $lightmagenta color9         #000000
-#set_from_resources $magenta      color10        #000000
-#set_from_resources $darkmagenta  color11        #000000
-#
-#set_from_resources $lightorange  color12        #000000
-#set_from_resources $orange       color13        #000000
-#set_from_resources $darkorange   color14        #000000
-#
-#set_from_resources $lightyellow  color15        #000000
-#set_from_resources $yellow       color16        #000000
-#set_from_resources $darkyellow   color17        #000000
-#
-#set_from_resources $lightgreen   color18        #000000
-#set_from_resources $green        color19        #000000
-#set_from_resources $darkgreen    color21        #000000
-#
-#set_from_resources $lightcyan    color22        #000000
-#set_from_resources $cyan         color23        #000000
-#set_from_resources $darkcyan     color24        #000000
-#
-#set_from_resources $lightblue    color25        #000000
-#set_from_resources $blue         color26        #000000
-#set_from_resources $darkblue     color27        #000000
+## Set colors from .Xresources
+#set_from_resources   $foreground        foreground      #000000
+#set_from_resources   $foreground_bold   foreground_bold #000000
+#set_from_resources   $cursor            cursor          #000000
+#set_from_resources   $background        background      #000000
+
+#set_from_resources   $black          color0         #000000
+#set_from_resources   $darkgray       color1         #000000
+#set_from_resources   $magenta        color2         #000000
+#set_from_resources   $red            color3         #000000
+#set_from_resources   $darkred        color4         #000000
+#set_from_resources   $orange         color5         #000000
+#set_from_resources   $yellow         color6         #000000
+#set_from_resources   $lightyellow    color7         #000000
+#set_from_resources   $green          color8         #000000
+#set_from_resources   $darkgreen      color9         #000000
+#set_from_resources   $darkblue       color10        #000000
+#set_from_resources   $blue           color11        #000000
+#set_from_resources   $cyan           color12        #000000
+#set_from_resources   $lightcyan      color13        #000000
+#set_from_resources   $lightgray      color14        #000000
+#set_from_resources   $white          color15        #000000
+#set_from_resources   $lightmagenta   color16        #000000
+#set_from_resources   $lightred       color17        #000000
+#set_from_resources   $lightorange    color18        #000000
+#set_from_resources   $lightgreen     color19        #000000
+#set_from_resources   $lightblue      color20        #000000
+#set_from_resources   $darkmagenta    color21        #000000
+#set_from_resources   $darkorange     color22        #000000
+#set_from_resources   $darkyellow     color23        #000000
+#set_from_resources   $darkcyan       color24        #000000
 
 # Set colors manually [ TODO: need to fix .Xresources ]
-set $lightblack   #757575
-set $black        #514443
-set $darkblack    #000000
-set $lightgray    #ffffff
-set $white        #c2c2c2
+set $black        #000000
 set $darkgray     #878787
+set $lightgray    #c2c2c2
+set $white        #ffffff
 set $lightred     #e79dac
 set $red          #f00f3e
 set $darkred      #7e162c
@@ -335,10 +312,10 @@ set $blue         #383fdc
 set $darkblue     #280a8f
 
 # Set colors for containers
-#CONTAINER              BORDER          BACKGROUND      TEXT            INDICATOR       CHILDBORDER
-client.focused          $cyan           $darkblue       $cyan           $white          $yellow
-client.unfocused        $lightblack     $magenta        $white          $lightblack     $lightblack
-client.focused_inactive $lightgray      $orange         $darkgray       $lightgray      $lightcyan
+##CONTAINER              BORDER          BACKGROUND      TEXT            INDICATOR       CHILDBORDER
+client.focused          $cyan           $darkblue       $cyan           $white          $magenta
+client.unfocused        $lightgray      $magenta        $white          $black          $lightgray
+client.focused_inactive $darkgray       $orange         $darkgray       $lightgray      $darkgreen
 client.urgent           $magenta        $lightorange    $yellow         $darkyellow     $red
 client.background       $darkgreen
 
@@ -347,23 +324,89 @@ bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 bar {
-    font pango:DejaVu Sans Mono 6
+    font pango: Inconsolate, Awesome 8
     colors {
-        background              $darkgreen
+
+        background              $darkmagenta
         statusline              $white
-        separator               $orange
+        separator               $lightgreen
         
         #WORKSPACE              BORDER          FILL         TEXT
-        focused_workspace       $cyan           $lightgreen  $darkblack
-        active_workspace        $cyan           $lightgreen  $black
+        focused_workspace       $cyan           $lightgreen  $black
+        active_workspace        $cyan           $lightgreen  $darkgray
         inactive_workspace      $darkgray       $white       $darkorange
         urgent_workspace        $orange         $red         $yellow
+
     }
     #status_command i3status
     status_command i3blocks
     position top
 }
 
+
+# DEBUG TO GET READING FROM .XRESOURES WORKING
+
+### Set colors from .Xresources
+##set_from_resources   $foreground        foreground      #000000
+##set_from_resources   $foreground_bold   foreground_bold #000000
+##set_from_resources   $cursor            cursor          #000000
+##set_from_resources   $background        background      #000000
+#
+#set_from_resources   $black          color0         #000000
+#set_from_resources   $darkgray       color1         #000000
+#set_from_resources   $magenta        color2         #000000
+#set_from_resources   $red            color3         #000000
+#set_from_resources   $darkred        color4         #000000
+#set_from_resources   $orange         color5         #000000
+#set_from_resources   $yellow         color6         #000000
+#set_from_resources   $lightyellow    color7         #000000
+#set_from_resources   $green          color8         #000000
+#set_from_resources   $darkgreen      color9         #000000
+#set_from_resources   $darkblue       color10        #000000
+#set_from_resources   $blue           color11        #000000
+#set_from_resources   $cyan           color12        #000000
+#set_from_resources   $lightcyan      color13        #000000
+#set_from_resources   $lightgray      color14        #000000
+#set_from_resources   $white          color15        #000000
+#set_from_resources   $lightmagenta   color16        #000000
+#set_from_resources   $lightred       color17        #000000
+#set_from_resources   $lightorange    color18        #000000
+#set_from_resources   $lightgreen     color19        #000000
+#set_from_resources   $lightblue      color20        #000000
+#set_from_resources   $darkmagenta    color21        #000000
+#set_from_resources   $darkorange     color22        #000000
+#set_from_resources   $darkyellow     color23        #000000
+#set_from_resources   $darkcyan       color24        #000000
+#
+##CONTAINER              BORDER     BACKGROUND   TEXT    INDICATOR       CHILDBORDER
+#client.focused          $black     $blue        $red    $green          $yellow
+#client.unfocused        $black     $blue        $red    $green          $yellow
+#client.focused_inactive $black     $blue        $red    $green          $yellow
+#client.urgent           $black     $blue        $red    $green          $yellow
+#client.background       $black
+#
+## Set colors for i3bar 
+#bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+#bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+#
+#bar {
+#    font pango: Inconsolate, Awesome 6
+#    colors {
+#
+#        background              $black
+#        statusline              $yellow
+#        separator               $blue
+#
+#        #WORKSPACE              BORDER      FILL  TEXT
+#        focused_workspace       $blue       $red  $blue
+#        active_workspace        $blue       $red  $blue
+#        inactive_workspace      $blue       $red  $blue
+#        urgent_workspace        $blue       $red  $blue
+#    }
+#    #status_command i3status
+#    status_command i3blocks
+#    position top
+#}
 
 
 
