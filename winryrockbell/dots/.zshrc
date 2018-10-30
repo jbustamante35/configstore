@@ -6,8 +6,8 @@ export ZSH="/home/jbustamante/.oh-my-zsh" # Path to your oh-my-zsh installation.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH # If you come from bash you might have to change your $PATH.
 
 # Set name of the theme to load
-#ZSH_THEME="peepcode"
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="half-life"
+#ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Which plugins would you like to load? Add wisely, as too many plugins slow down shell startup.
 plugins=(

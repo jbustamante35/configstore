@@ -3,110 +3,128 @@
 *foreground_bold:  #a8a19f
 *cursor:           #a8a19f
 *background:       #1b1918
-!!*background:     rgba(0, 0, 0, .7)
 
-!!! Colors
-! black
-*color0:    #1b1918
-*color8:    #766e6b
-! red
-*color1:    #f22c40
-*color9:    #f22c40
-! green
-*color2:    #5ab738
-*color10:   #5ab738
-! yellow
-*color3:    #d5911a
-*color11:   #d5911a
-! blue
-*color4:    #407ee7
-*color12:   #407ee7
-! magenta
-*color5:    #6666ea
-*color13:   #6666ea
-! cyan
-*color6:    #00ad9c
-*color14:   #00ad9c
-! white
-*color7:    #a8a19f
-*color15:   #f1efee
+!! [ from LukeSmith (for debugging problems) ]
+!! black                                                                        
+*color0: #1b1918                                                                
+*color8: #766e6b                                                                
+!! red                                                                          
+*color1: #f22c40                                                                
+*color9: #f22c40                                                                
+!! green                                                                        
+*color2: #5ab738                                                                
+*color10: #5ab738                                                               
+!! yellow                                                                       
+*color3: #d5911a                                                                
+*color11: #d5911a                                                               
+!! blue                                                                         
+*color4: #407ee7                                                                
+*color12: #407ee7                                                               
+!! magenta                                                                      
+*color5: #6666ea                                                                
+*color13: #6666ea                                                               
+!! cyan                                                                         
+*color6: #00ad9c                                                                
+*color14: #00ad9c                                                               
+!! white                                                                        
+*color7: #a8a19f                                                                
+*color15: #f1efee           
+
+
 
 !!! Colors [ enhanced: light|normal|dark ]
-!! black
-!*color0:   #757575
-!*color1:   #514443
-!*color2:   #000000
+! Order:
+! black
+! darkgray
+! magenta
+! red
+! darkred
+! orange
+! yellow
+! lightyellow
+! green
+! darkgreen
+! darkblue
+! blue
+! cyan
+! lightcyan
+! lightgray
+! white
+! lightmagenta                                                                                        
+! lightred                                                                                            
+! lightorange                                                                                         
+! lightgreen                                                                                          
+! lightblue                                                                                           
+! darkmagenta                                                                                         
+! darkorange                                                                                          
+! darkyellow                                                                                          
+! darkcyan 
 !
-!! white
-!*color3:   #ffffff
-!*color4:   #c2c2c2
-!*color5:   #878787
+!*color0:   #000000
+!*color1:   #878787
+!*color2:   #e56cc5
+!*color3:   #f00f3e
+!*color4:   #7e162c
+!*color5:   #ed8e0c
+!*color6:   #fff62e
+!*color7:   #f8f6c3
+!*color8:   #35f623
+!*color9:   #16730d
+!*color10:  #280a8f
+!*color11:  #383fdc
+!*color12:  #5cffee
+!*color13:  #c0f2ec
+!*color14:  #c2c2c2
+!*color15:  #ffffff
 !
-!! red
-!*color6:   #e79dac
-!*color7:   #f00f3e
-!*color8:   #7e162c
-!
-!! magenta
-!*color9:   #f6d5ed
-!*color10:  #e56cc5
-!*color11:  #931a73
-!
-!! orange
-!*color12:  #f4d79a
-!*color13:  #ed8e0c
-!*color14:  #aa610e
-!
-!! yellow
-!*color15:  #f8f6c3
-!*color16:  #fff62e
-!*color17:  #ccb90f
-!
-!! green
-!*color18:  #bdf69d
-!*color19:  #35f623
-!*color21:  #16730d
-!
-!! cyan
-!*color22:  #c0f2ec
-!*color23:  #5cffee
+!*color16:  #f6d5ed
+!*color17:  #e79dac
+!*color18:  #f4d79a
+!*color19:  #bdf69d
+!*color20:  #c7d0f5
+!*color21:  #931a73
+!*color22:  #aa610e
+!*color23:  #ccb90f
 !*color24:  #206a62
-!
-!! blue
-!*color25:  #c7d0f5
-!*color26:  #383fdc
-!*color27:  #280a8f
-
 
 !! URxvt configuration
 ! Settings
 URxvt.termName:         rxvt-256color
-URxvt.font:             xft:inconsolata:pixelsize=20
+!URxvt.font:             xft:inconsolata:pixelsize=30
+URxvt.font:             xft:monospace:size=15
+
+
 URxvt.depth:            32
 URxvt.background:       [90]#000000
-!URxvt.background:      rgba:          0000/0000/0200/c800
 URxvt*transparent:      true
 URxvt*shading:          30
 URxvt.intensityStyles:  false
 URxvt.scrollBar:        false
-URxvt.cursorColor:      white
 URxvt.saveLines:        5000
+URxvt.cursorColor:      cyan
 URxvt.cursorBlink:      true
 URxvt.cursorUnderline:  true
 
 
 !! Extensions and Plugins
 ! Main
-URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
+URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select,clipboard
 URxvt.colorUL:		#4682B4
 
-!! url-select
+!! clipboard management
+URxvt.keysym.M-c:       perl:clipboard:copy
+URxvt.keysym.M-v:       perl:clipboard:paste
+URxvt.keysym.M-C-v:     perl:clipboard:paste-escaped
+
+! url-select
 URxvt.keysym.M-u:            perl:url-select:select_next
 URxvt.url-select.launcher:   linkhandler
 URxvt.url-select.underline:  true
 
 !! keyboard-select:
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-Escape:                  perl:keyboard-select:activate
+URxvt.keysym.M-s:                       perl:keyboard-select:search
+URxvt.keyboard-select.clipboard:        true
 
 !! resize-font
 URxvt.keysym.C-minus:     resize-font:smaller
@@ -133,3 +151,4 @@ rofi.bw:              0
 rofi.opacity:         "10"
 rofi.hide-scrollbar:  true
 rofi.width:           30
+
