@@ -38,7 +38,8 @@ set $mod Mod4
 font pango:DejaVu Sans Mono, Awesome 8
 exec        --no-startup-id setupi3.sh
 exec_always --no-startup-id dunst
-exec_always --no-startup-id compton
+exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
+exec_always --no-startup-id conky --config ~/.config/conky/conky.conf
 exec_always --no-startup-id wal -c -i ~/.config/wall.png --saturate 0.7
 exec        --no-startup-id dropbox start
 exec        --no-startup-id pb-for-desktop
@@ -49,6 +50,8 @@ bindsym         $mod+Shift+e            exec --no-startup-id    "i3-nagbar -t wa
 bindsym         $mod+Shift+p            exec --no-startup-id    systemctl suspend
 bindsym         $mod+Delete             exec --no-startup-id    ~/.scripts/i3shutdown
 bindsym         $mod+Shift+Delete       exec --no-startup-id    i3lock -i ~/.config/lock.png -t -f -p default
+bindsym         Mod1+t                  exec --no-startup-id    toggletouchpad
+bindsym         Mod1+m                  exec --no-startup-id    xdotool mousemove 0 0
 
 
 # Main commands
@@ -56,7 +59,8 @@ bindsym         $mod+Shift+Delete       exec --no-startup-id    i3lock -i ~/.con
 set     $term        urxvt
 bindsym $mod+Return  exec $term
 bindsym $mod+Shift+q kill
-bindsym $mod+d       exec --no-startup-id dmenu_run
+#bindsym $mod+d       exec --no-startup-id dmenu_run
+bindsym $mod+d       exec --no-startup-id rofi_run
 
 ###################################################################################################
 ## Main settings control
@@ -71,7 +75,7 @@ bindsym Shift+XF86AudioLowerVolume      exec --no-startup-id pactl set-sink-volu
 bindsym Control+XF86AudioLowerVolume    exec --no-startup-id pactl set-sink-volume $dev -01% #decrease sound volume -1
 
 # Volume control for JBL Flip 4 [ TODO: dynamically set binding for device ID; research i3-msg ]
-set $blu 2
+set $blu 1
 bindsym Mod1+XF86AudioMute                exec --no-startup-id pactl set-sink-mute   $blu toggle # mute sound
 bindsym Mod1+XF86AudioRaiseVolume         exec --no-startup-id pactl set-sink-volume $blu +05% #increase sound volume +5
 bindsym Mod1+Shift+XF86AudioRaiseVolume	  exec --no-startup-id pactl set-sink-volume $blu +10% #increase sound volume +10
@@ -142,6 +146,16 @@ bindsym $mod+Print exec --no-startup-id simplescreenrecorder
 
 # Calcurse
 bindsym $mod+y exec $term -e calcurse
+
+# VimWiki shortcuts
+# s: select wiki
+# l: lab index
+# d: journal index
+# S-d: Create journal entry
+bindsym Mod1+j        exec --no-startup-id $term -e nvim -c :VimwikiUISelect
+bindsym Mod1+k        exec --no-startup-id $term -e nvim -c :VimwikiIndex
+bindsym Mod1+l        exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
+bindsym Mod1+Shift+l  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
 
 
 ###################################################################################################
@@ -260,46 +274,38 @@ bindsym $mod+u [instance="urvxt"] scratchpad show; [instance="urvxt"] move posit
 
 ###################################################################################################
 ## Tiling and menubar
-# Colors from Xresources
-# black
-set $color0    #1b1918
-set $color8    #766e6b
-set $color16   #000000
-# red
-set $color1    #e08f97
-set $color9    #f22c40
-set $color17   #a93123
-# green
-set $color2    #5ef7a2
-set $color10   #5ab738
-set $color18   #2a6a3e
-# yellow
-set $color3    #fef981
-set $color11   #d5911a
-set $color19   #bf661d
-# blue
-set $color4    #a3caeb
-set $color12   #407ee7
-set $color20   #0f2b80
-# magenta
-set $color5    #fbd5f2
-set $color13   #dc50d2
-set $color21   #82177a
-# cyan
-set $color6    #a8fff6
-set $color14   #00ad9c
-set $color22   #1e8994
-# white
-set $color7    #f1efee
-set $color15   #a8a19f
-set $color23   #a8a19f
+set $black        #000000
+set $darkgray     #878787
+set $lightgray    #c2c2c2
+set $white        #ffffff
+set $lightred     #e79dac
+set $red          #f00f3e
+set $darkred      #7e162c
+set $lightmagenta #f6d5ed
+set $magenta      #e56cc5
+set $darkmagenta  #931a73
+set $lightorange  #f4d79a
+set $orange       #ed8e0c
+set $darkorange   #aa610e
+set $lightyellow  #f8f6c3
+set $yellow       #fff62e
+set $darkyellow   #ccb90f
+set $lightgreen   #bdf69d
+set $green        #35f623
+set $darkgreen    #16730d
+set $lightcyan    #c0f2ec
+set $cyan         #5cffee
+set $darkcyan     #206a62
+set $lightblue    #c7d0f5
+set $blue         #383fdc
+set $darkblue     #280a8f
 
 #WINDOW                 BORDER          BACKGROUND     TEXT          INDICATOR       CHILD_BORDER
-client.focused          $color2         $color7        $color4       $color6         $color2
-client.unfocused        $color0         $color1        $color3       $color5         $color8
-client.focused_inactive $color8         $color2        $color4       $color5         $color1
-client.urgent           $color5         $color3        $color5       $color6         $color12
-client.background       $color10
+client.focused          $black          $white         $lightblue    $lightcyan      $green
+client.unfocused        $black          $lightred      $lightyellow  $lightmagenta   $lightgray
+client.focused_inactive $black          $lightgreen    $lightblue    $magenta        $orange
+client.urgent           $magenta        $yellow        $yellow       $cyan           $lightred
+client.background       $green
 
 # i3block for toggling NUM and CAPS lock
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
@@ -308,15 +314,17 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 # i3bar
 bar {
 	#font pango:DejaVu Sans Mono, FontAwesome 10
-	font pango: Inconsolata, FontAwesome 10
+	font pango: DejaVu Sans Mono, FontAwesome 10
 	colors {
-	    background          $color18
-	    statusline          $color5
-	    separator           $color3
-            focused_workspace   $color12 $color12 $color16
-            active_workspace    $color12 $color12 $color21
-            inactive_workspace  $color7  $color15 $color6
-            urgent_workspace    $color9  $color8 $color11
+	    background          $black
+	    statusline          $green
+	    separator           $darkred
+
+            #WORKSPACE          BORDER          FILL            TEXT
+            focused_workspace   $lightblue      $darkblue       $white
+            active_workspace    $darkgreen      $darkblue       $lightcyan
+            inactive_workspace  $darkgray       $black          $red
+            urgent_workspace    $orange         $red            $yellow
 	}
 
         #status_command i3status
@@ -324,5 +332,70 @@ bar {
 	position top
 	modifier None
 }
+
+## Colors from Xresources
+## black
+#set $color0    #1b1918
+#set $color8    #766e6b
+#set $color16   #000000
+## red
+#set $color1    #e08f97
+#set $color9    #f22c40
+#set $color17   #a93123
+## green
+#set $color2    #5ef7a2
+#set $color10   #5ab738
+#set $color18   #2a6a3e
+## yellow
+#set $color3    #fef981
+#set $color11   #d5911a
+#set $color19   #bf661d
+## blue
+#set $color4    #a3caeb
+#set $color12   #407ee7
+#set $color20   #0f2b80
+## magenta
+#set $color5    #fbd5f2
+#set $color13   #dc50d2
+#set $color21   #82177a
+## cyan
+#set $color6    #a8fff6
+#set $color14   #00ad9c
+#set $color22   #1e8994
+## white
+#set $color7    #f1efee
+#set $color15   #a8a19f
+#set $color23   #a8a19f
+
+##WINDOW                 BORDER          BACKGROUND     TEXT          INDICATOR       CHILD_BORDER
+#client.focused          $color2         $color7        $color4       $color6         $color2
+#client.unfocused        $color0         $color1        $color3       $color5         $color8
+#client.focused_inactive $color8         $color2        $color4       $color5         $color1
+#client.urgent           $color5         $color3        $color5       $color6         $color12
+#client.background       $color10
+#
+## i3block for toggling NUM and CAPS lock
+#bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+#bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+#
+## i3bar
+#bar {
+#	#font pango:DejaVu Sans Mono, FontAwesome 10
+#	font pango: Inconsolata, FontAwesome 10
+#	colors {
+#	    background          $color18
+#	    statusline          $color5
+#	    separator           $color3
+#            focused_workspace   $color12 $color12 $color16
+#            active_workspace    $color12 $color12 $color21
+#            inactive_workspace  $color7  $color15 $color6
+#            urgent_workspace    $color9  $color8 $color11
+#	}
+#
+#        #status_command i3status
+#	status_command i3blocks
+#	position top
+#	modifier None
+#}
 
 

@@ -18,6 +18,13 @@ ali () {
 	alias $1=$2
 }
 
+# check current status of dropbox syncing
+drchk () {
+    cd $HOME/Dropbox
+    dropbox filestatus && printf "\n\n\n" && dropbox status
+    cd -
+}
+
 # compile and run kotlin program
 kotlinr () {
     echo Compiling, please wait...

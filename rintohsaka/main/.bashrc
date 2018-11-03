@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Load profile for this device
 export PROFILE=rintohsaka
 
@@ -8,7 +7,7 @@ export BASH_IT="/home/jbustamante/.bash_it"
 
 # Lock and Load a custom theme file
 # location /.bash_it/themes/
-export BASH_IT_THEME='roderik'
+export BASH_IT_THEME='tonotdo'
 
 #plugins=(
 #    alias-completion
@@ -21,12 +20,30 @@ export BASH_IT_THEME='roderik'
 #    battery
 #)
 
-als=~/.bash_aliases
+# Load Xresources
+xrdb -load ~/.Xresources
+
+# Load Bash It
+source "$BASH_IT"/bash_it.sh
+source ~/.scripts/shortcuts.sh
+source ~/.shortcuts
+
+## fasd configuration
+#fasd_cache="$HOME/.fasd-init-bash"
+#if [ "$(command -v fasd)" -nt "$fasd_cache" -o ! -s "$fasd_cache" ]; then
+#    fasd --init posix-alias bash-hook bash-ccomp bash-ccomp-install >| "$fasd_cache"
+#fi
+
+#source "$fasd_cache"
+#unset fasd_cache
+
+# Source aliases, functions, and shortcuts
+als=~/.aliases
 if [ -f $als ]; then
     . $als
 fi
 
-fncs=~/.bash_functions
+fncs=~/.functions
 if [ -f $fncs ]; then
     . $fncs
 fi
@@ -79,22 +96,14 @@ export SHORT_TERM_LINE=true
 
 # (Advanced): Uncomment this to make Bash-it reload itself automatically
 # after enabling or disabling aliases, plugins, and completions.
-export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
+#export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
 
 # Uncomment this to make Bash-it create alias reload.
 # export BASH_IT_RELOAD_LEGACY=1
 
-# Load Bash It
-source "$BASH_IT"/bash_it.sh
-source ~/.scripts/shortcuts.sh
-source ~/.shortcuts
 
-# fasd configuration
-fasd_cache="$HOME/.fasd-init-bash"
-if [ "$(command -v fasd)" -nt "$fasd_cache" -o ! -s "$fasd_cache" ]; then
-    fasd --init posix-alias bash-hook bash-ccomp bash-ccomp-install >| "$fasd_cache"
-fi
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/jbustamante/.sdkman"
+[[ -s "/home/jbustamante/.sdkman/bin/sdkman-init.sh" ]] && source "/home/jbustamante/.sdkman/bin/sdkman-init.sh"
 
-source "$fasd_cache"
-unset fasd_cache
-
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
