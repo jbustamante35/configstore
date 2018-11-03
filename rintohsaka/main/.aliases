@@ -51,6 +51,8 @@ alias rm='rm -I'
 alias RM='sudo rm -Ird'
 
 # misc aliases
+alias vim='nvim'
+alias bfg='java -jar ~/bin/bfg-1.13.0.jar'
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/Screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias matlab='matlab -nosplash'
 

@@ -11,8 +11,8 @@ export ZSH="/home/jbustamante/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="peepcode"
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="obraun"
+#ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -36,22 +36,22 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# Shortcuts
-shrt=~/.scripts/shortcuts.zsh
-if [ -f ${shrt} ]; then
-    . ${shrt}
-fi
-
 # Aliases
-als=~/.zsh_aliases
+als=~/.aliases
 if [ -f ${als} ]; then
     . ${als}
 fi
 
 # Functions
-funcs=~/.zsh_functions
+funcs=~/.functions
 if [ -f ${funcs} ]; then
     . ${funcs}
+fi
+
+# Shortcuts
+shrt=~/.scripts/shortcuts.zsh
+if [ -f ${shrt} ]; then
+    . ${shrt}
 fi
 
 # Powerlevel9k configurations
@@ -144,11 +144,22 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
+
+# Load Xresources
+xrdb -load ~/.Xresources
+
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+#alias zshconfig="mate ~/.zshrc"
+#alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.shortcuts
 
 # fasd configuration
-eval "$(fasd --int auto)"
+#eval "$(fasd --int auto)"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/jbustamante/.sdkman"
+[[ -s "/home/jbustamante/.sdkman/bin/sdkman-init.sh" ]] && source "/home/jbustamante/.sdkman/bin/sdkman-init.sh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+

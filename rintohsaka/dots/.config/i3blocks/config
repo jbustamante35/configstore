@@ -26,7 +26,7 @@ command=~/.scripts/i3battery
 interval=5
 
 [volume-pulseaudio]
-interval=3
+interval=1
 command=~/.scripts/i3volume -d -c "#FF0000" -C "#FFFF33" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇
 signal=1
 
