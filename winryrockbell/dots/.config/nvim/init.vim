@@ -1,39 +1,39 @@
 "
-"                                 @          
-"                                 #          
-"                                 #          
-"                 ,@@             @          
-"                @:#              @          
-"          `   `@#:`              @          
-"         .##      #   ##@@@@@@@@@@@@@@      
-"          @@#     ,.  @@@@@#@@@#@#@@@@`     
-"          @@@:     @  @@@@@@..  #@@#@@ `    
-"          @@@@#`   ;@@@@@@@@,';;;@@@'' `    
-"     @; @@@':;@@#:;@#@@@@@@@;.   @#@;:      
-"     #@@# +`:@@ .@@ #@# ,@@##`,,,@@@,,      
-"      @: ##@@@@#: #@`@#+@@#@ ... ##@``      
-"       @@@#,``'@@# #'@@#@@@# @@@ @':        
-"       @@,#'`   #@` @,,.,,,,,,,,,@@,@@      
-"      ;@;,     , @@.@#@@@@@@@@@@@@@@@@      
-"     `@@   #@@` @'#@;@``````````` @```      
-"     ;@#  #@ :@ ` @; #          ,@@@'       
-"      @++`@,  #   @+ #         +@@@#@@      
-"      @@@`'@ +@  `@@           @@:  #@'     
-"     `@@:  #@@   #@.          #@  @.`@@     
-"      #@+@     @ @@           @@ ' @ #@     
-"       @@'  `+@`@@'           '@, ;  @@     
-"       :@##+,:@@@;             @@,  #@.     
-"           @` :                  +#@   `    
-"             _ __  __   _(_)_ __ ___  
+"                                 @
+"                                 #
+"                                 #
+"                 ,@@             @
+"                @:#              @
+"          `   `@#:`              @
+"         .##      #   ##@@@@@@@@@@@@@@
+"          @@#     ,.  @@@@@#@@@#@#@@@@`
+"          @@@:     @  @@@@@@..  #@@#@@ `
+"          @@@@#`   ;@@@@@@@@,';;;@@@'' `
+"     @; @@@':;@@#:;@#@@@@@@@;.   @#@;:
+"     #@@# +`:@@ .@@ #@# ,@@##`,,,@@@,,
+"      @: ##@@@@#: #@`@#+@@#@ ... ##@``
+"       @@@#,``'@@# #'@@#@@@# @@@ @':
+"       @@,#'`   #@` @,,.,,,,,,,,,@@,@@
+"      ;@;,     , @@.@#@@@@@@@@@@@@@@@@
+"     `@@   #@@` @'#@;@``````````` @```
+"     ;@#  #@ :@ ` @; #          ,@@@'
+"      @++`@,  #   @+ #         +@@@#@@
+"      @@@`'@ +@  `@@           @@:  #@'
+"     `@@:  #@@   #@.          #@  @.`@@
+"      #@+@     @ @@           @@ ' @ #@
+"       @@'  `+@`@@'           '@, ;  @@
+"       :@##+,:@@@;             @@,  #@.
+"           @` :                  +#@   `
+"             _ __  __   _(_)_ __ ___
 "            | '_  \\ \ / / | '_ ` _ \
 "            | | | | \ V /| | | | | | |
 "            |_| |_|  \_/ |_|_| |_| |_|
 "
-"            __   _(_)_ __ ___  _ __ ___                                        
-"            \ \ / / | '_ ` _ \| '__/ __|                                       
-"             \ V /| | | | | | | | | (__                                        
-"              \_/ |_|_| |_| |_|_|  \___|                                       
-"                                              
+"            __   _(_)_ __ ___  _ __ ___
+"            \ \ / / | '_ ` _ \| '__/ __|
+"             \ V /| | | | | | | | | (__
+"              \_/ |_|_| |_| |_|_|  \___|
+"
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 execute pathogen#infect()
@@ -46,9 +46,9 @@ syntax on
 set nocompatible
 set encoding=utf-8
 set showcmd         " command in bottom bar
-set number          " line numbers 
+set number          " line numbers
 set wrap            " word wrap for long lines
-set ruler           " no idea 
+set ruler           " no idea
 set tabstop=8       " length to set tab key
 set softtabstop=0   " spaces per tab when editing
 set expandtab       " tabs are spaces
@@ -57,7 +57,7 @@ set smarttab        " contextual tab location
 set cursorline      " underline current line
 set colorcolumn=80 " ruler at line 100
 set wildmenu        " visual autocomplete
-set showmatch       " highlight matching 
+set showmatch       " highlight matching
 set hlsearch        " highlight matching searches
 set incsearch       " search as characters are entered
 set ignorecase      " case insensitive search
@@ -69,8 +69,11 @@ set splitright      " split pane to right
 " Keymapping for TComment
 map <c-_><c-_> :TComment
 
-" Set Escape Insert Mode to TAB key 
-let g:joy_pure = 1 
+" Set Escape Insert Mode to TAB key
+let g:joy_pure = 1
+
+" Automatically deletes all tralling whitespace on save
+autocmd BufWritePre * %s/\s\+$//e
 
 " Indent Guides
 "set ts=4 sw=4 noet
@@ -81,8 +84,10 @@ let g:indent_guides_start_level = 2
 let g:indent_guides_enable_on_vim_startup = 0
 
 " Markdown Viewer
-let g:instant_markdown_autostart = 0
-nmap <C-a> :InstantMarkdownPreview<CR>
+"let g:instant_markdown_autostart = 0
+"nmap <C-a> :InstantMarkdownPreview<CR>
+let g:markdown_composer_open_browser = 0
+nmap <C-a> :ComposerOpen<CR>
 
 " Spell check set to F6
 map <F6> :setlocal spell! spelllang=en_us<CR>
@@ -99,25 +104,36 @@ vmap <C-j> :Tabularize /:\zs<CR>
 " Format column ruler
 highlight ColorColumn ctermbg=darkgray
 
+" Insert date-timestamp and break lines
+nmap <C-r> :put =strftime('%c')<CR>
+nmap <A-r> :put =strftime('%Y-%m-%d_%B-%d-%Y')<CR>
+imap <C-b> <br />
+
 " Calendar config
-let g:calendar_monday           = 1
-let g:calendar_number_of_months = 6
-let g:calendar_weeknm           = 1 " WK01
-let g:calendar_weeknm           = 2 " WKK 1
-let g:calendar_weeknm           = 3 " KW01
-let g:calendar_weeknm           = 4 " WK 1
-let g:calendar_weeknm           = 5 " 1
-let g:calendar_wruler           = 'Mo Tu We Th Fr Sa Su'
+"let g:calendar_monday           = 1
+"let g:calendar_number_of_months = 6
+"let g:calendar_weeknm           = 1 " WK01
+"let g:calendar_weeknm           = 2 " WKK 1
+"let g:calendar_weeknm           = 3 " KW01
+"let g:calendar_weeknm           = 4 " WK 1
+"let g:calendar_weeknm           = 5 " 1
+"let g:calendar_wruler           = 'Mo Tu We Th Fr Sa Su'
+
+" Calendar.vim config [ alternative that syncs with Google Calendar ]
+let g:calendar_first_day       = 'monday'
+let g:calendar_google_calendar = 1
+let g:calendar_google_task     = 1
 
 " VimWiki bindings for my journal
 let g:vimwiki_list = [
-    \{'path': '~/Documents/wiki/journal.wiki'},
-    \{'path': '~/Documents/wiki/tech.wiki'},
+    \{'path': '~/Documents/jbwiki/journal.wiki'},
+    \{'path': '~/Documents/jbwiki/labnotes.wiki'},
  \]
-:nmap <Leader>wc <Plug>Vimwiki2HTML
+:nmap <Leader>wc <Plug>Vimwiki2HTML<CR>
+map <leader>wg :VimwikiDiaryGenerateLinks<CR>
 
 au BufRead,BufNewFile *.wiki set filetype=vimwiki
-:autocmd FileType vimwiki map d :VimwikiMakeDiaryNote
+":autocmd FileType vimwiki map d :VimwikiMakeDiaryNote
 
 function! ToggleCalendar()
      execute ":Calendar"
@@ -134,6 +150,7 @@ function! ToggleCalendar()
 endfunction
 
 :autocmd FileType vimwiki map c :call ToggleCalendar()<CR>
+"let g:wimwiki_table_mappings=0
 
 " Split Navigation and Resizing
 nnoremap <C-J> <C-W><C-J>
@@ -147,8 +164,8 @@ nnoremap <C-,> :res <5<CR>
 
 " Lightline stylized statusline [ with hex color character ]
 set laststatus=2
-let g:lightline = {  
-    \ 'colorscheme': 'one',   
+let g:lightline = {
+    \ 'colorscheme': 'one',
     \ 'active': {
     \   'left': [ [ 'mode', 'paste' ],
     \             [ 'readonly', 'filename', 'modified', 'charvaluehex' ] ]

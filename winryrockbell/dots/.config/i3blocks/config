@@ -55,7 +55,7 @@ interval=1
 color=#EEFF66
 
 [volume-pulseaudio]
-command=~/.scripts/i3scripts/i3volume_pulseaudio -a -d -c "#FF0000" -C "#FFFF33" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇 
+command=~/.scripts/i3scripts/i3volume_pulseaudio -d -c "#FF0000" -C "#FFFF33" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇 
 interval=1
 signal=10
 
@@ -77,4 +77,5 @@ signal=11
 [shutdown_menu]
 full_text=🌀
 command=~/.scripts/i3scripts/i3shutdown
+
 
