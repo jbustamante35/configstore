@@ -1,33 +1,33 @@
 # vim: filetype=i3
-#                  `                                  `              
-#              `,+ `                        `      ,`#               
-#             +#`,:``                       ``    '`@``+`            
-#           `; :# '  `                        `   `@``@,             
-#           #, `: ,      ``                      ``#`  : :           
-#           ;+ # ,               ++++++++++++++`   ; .+``+           
-#           ; #. '         `     @@@@@@@@@@@@@@`     ;#, #           
-#             #  :       `:'      @      ;. '@,      '.@             
-#          ,: #; ,        #`      @      ;` ;@+      .`@ +           
-#          . @,.+#       .@@     .#      ;` .@#    `'+` ;'           
-#          `@; ,+`       .@@   ` +:      ;`  @@     +:#,+;           
-#      `   #`#`# +       `@@    `@`@`    ;`  @@     ,`@,.;`          
-#          + ; +.,        #   `.,#,,#,```',` @@     @'` +.`          
-#         ``@'`,@`  `'@@@@@@@@@@@`+@#@@@@@+''@@     ,'; '#``         
-#          +`#;;,;  +@@,,,@@@@@@@.@+#@@#` .;`. `    @ +`;:.``        
-#         `' + # .  +@@`.`#@@@@@@:@##@+ #@@@@@#     @`: @.`  `       
-#           @'`+@.  +@@:,:#@@@@@@'@@#@ @@@@#@@@@`    #+`##    `      
-#          ' ;`,;+  +@@@@+@@@@@@@+@@@`#@@;   .@@#   @`',.,           
-#          ;`+ + :  +@#  `  :@@@@@#@# @@: :@+ `@@`  @`, +,           
-#           @'`##   ''`##@@@.,@@@@,:..@@ ;@+@@ +@#  `@#'#+           
-#            @++      @@@@@@@ #@@@@@:#@@ @' `@ :@@    ##;            
-#            .@'     `@@.  +@+`@@@@#;.@@ @@ ;@ '@+  ` @@             
-#             #`    `:@#.`#`@@       .@@` @@@, @@+   `+`             
-#             :,   ` :@@`'+.@@       `@@@  `` +#@     @              
-#              +    ``@@, `@@;         @@@+.;@#@:     @              
-#              @     `'@@@@@@          `@#@@@@@:     `+              
-#              '`      :@@@'             :#@#+```    #`              
-#               @      `                        `    @               
-#               ',      `                        `  @`               
+#                  `                                  `
+#              `,+ `                        `      ,`#
+#             +#`,:``                       ``    '`@``+`
+#           `; :# '  `                        `   `@``@,
+#           #, `: ,      ``                      ``#`  : :
+#           ;+ # ,               ++++++++++++++`   ; .+``+
+#           ; #. '         `     @@@@@@@@@@@@@@`     ;#, #
+#             #  :       `:'      @      ;. '@,      '.@
+#          ,: #; ,        #`      @      ;` ;@+      .`@ +
+#          . @,.+#       .@@     .#      ;` .@#    `'+` ;'
+#          `@; ,+`       .@@   ` +:      ;`  @@     +:#,+;
+#      `   #`#`# +       `@@    `@`@`    ;`  @@     ,`@,.;`
+#          + ; +.,        #   `.,#,,#,```',` @@     @'` +.`
+#         ``@'`,@`  `'@@@@@@@@@@@`+@#@@@@@+''@@     ,'; '#``
+#          +`#;;,;  +@@,,,@@@@@@@.@+#@@#` .;`. `    @ +`;:.``
+#         `' + # .  +@@`.`#@@@@@@:@##@+ #@@@@@#     @`: @.`  `
+#           @'`+@.  +@@:,:#@@@@@@'@@#@ @@@@#@@@@`    #+`##    `
+#          ' ;`,;+  +@@@@+@@@@@@@+@@@`#@@;   .@@#   @`',.,
+#          ;`+ + :  +@#  `  :@@@@@#@# @@: :@+ `@@`  @`, +,
+#           @'`##   ''`##@@@.,@@@@,:..@@ ;@+@@ +@#  `@#'#+
+#            @++      @@@@@@@ #@@@@@:#@@ @' `@ :@@    ##;
+#            .@'     `@@.  +@+`@@@@#;.@@ @@ ;@ '@+  ` @@
+#             #`    `:@#.`#`@@       .@@` @@@, @@+   `+`
+#             :,   ` :@@`'+.@@       `@@@  `` +#@     @
+#              +    ``@@, `@@;         @@@+.;@#@:     @
+#              @     `'@@@@@@          `@#@@@@@:     `+
+#              '`      :@@@'             :#@#+```    #`
+#               @      `                        `    @
+#               ',      `                        `  @`
 #                              ______
 #                            _ |___  )
 #                           (_)  __) )
@@ -38,7 +38,7 @@
 ################################################################################
 
 set $mod        Mod4
-set $term       urxvt 
+set $term       urxvt
 font            pango:DejaVu Sans Mono,10
 
 #################### Main Setup ##############################
@@ -46,6 +46,7 @@ font            pango:DejaVu Sans Mono,10
 exec_always     --no-startup-id compton --config ~/.config/compton/compton.conf
 exec_always     --no-startup-id wal -c --backend wal -i ~/.config/wall.png  --saturate 0.6
 exec            --no-startup-id dunst -config ~/.config/dunst/dunstrc
+exec            --no-startup-id conky -c ~/.config/conky/conky.conf -d
 exec            --no-startup-id dropbox start
 exec            --no-startup-id pb-for-desktop
 #set $term       --no-startup-id "gnome-terminal --profile='Nayru'"
@@ -59,11 +60,19 @@ bindsym $mod+Shift+e            exec --no-startup-id    "i3-nagbar -t warning -m
 
 
 # Volume Control [alsamixer]
-bindsym XF86AudioMute                   exec --no-startup-id amixer -q sset 'Master' toggle
-bindsym XF86AudioRaiseVolume	        exec --no-startup-id amixer -q sset 'Master' 05%+
-bindsym Shift+XF86AudioRaiseVolume      exec --no-startup-id amixer -q sset 'Master' 10%+
-bindsym XF86AudioLowerVolume	        exec --no-startup-id amixer -q sset 'Master' 05%-
-bindsym Shift+XF86AudioLowerVolume      exec --no-startup-id amixer -q sset 'Master' 10%-
+set $master 'Master'
+bindsym XF86AudioMute              exec --no-startup-id amixer -q sset $master toggle
+bindsym XF86AudioRaiseVolume	   exec --no-startup-id amixer -q sset $master 05%+
+bindsym Shift+XF86AudioRaiseVolume exec --no-startup-id amixer -q sset $master 10%+
+bindsym XF86AudioLowerVolume	   exec --no-startup-id amixer -q sset $master 05%-
+bindsym Shift+XF86AudioLowerVolume exec --no-startup-id amixer -q sset $master 10%-
+
+set $blu 1
+bindsym Mod1+XF86AudioMute              exec --no-startup-id pactl set-sink-volume $blu toggle
+bindsym Mod1+XF86AudioRaiseVolume	exec --no-startup-id pactl set-sink-volume $blu +05%
+bindsym Mod1+Shift+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume $blu +10%
+bindsym Mod1+XF86AudioLowerVolume	exec --no-startup-id pactl set-sink-volume $blu -05%
+bindsym Mod1+Shift+XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume $blu -10%
 
 # Volume Control [pulseaudio]
 #bindsym XF86AudioMute              exec --no-startup-id pactl set-sink-mute     0 toggle
@@ -72,7 +81,7 @@ bindsym Shift+XF86AudioLowerVolume      exec --no-startup-id amixer -q sset 'Mas
 #bindsym XF86AudioLowerVolume	   exec --no-startup-id pactl set-sink-volume   0 -5%
 #bindsym Shift+XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume   0 -10%
 
-# Brightness/Gamma Control 
+# Brightness/Gamma Control
 #bindsym XF86MonBrightnessDown		 exec --no-startup-id setBrightness.sh 5
 #bindsym Shift+XF86MonBrightnessDown exec --no-startup-id setGamma.sh 10
 #bindsym XF86MonBrightnessUp		 exec --no-startup-id setBrightness.sh 5
@@ -106,21 +115,21 @@ bindsym Mod1+Shift+w    exec --no-startup-id    ~/bin/triplefull.sh
 
 ##################### Applications ##############################
 # Screenshots [ u: focused window | s: selection ]
-bindsym Print                   exec --no-startup-id scrot -e    'mv $f ~/Pictures/screenshots/' 
-bindsym Shift+Print		exec --no-startup-id scrot -u -e 'mv $f ~/Pictures/screenshots/' 
-bindsym Control+Shift+Print     exec --no-startup-id scrot -s -e 'mv $f ~/Pictures/screenshots/' 
+bindsym Print                   exec --no-startup-id scrot -e    'mv $f ~/Pictures/screenshots/'
+bindsym Shift+Print		exec --no-startup-id scrot -u -e 'mv $f ~/Pictures/screenshots/'
+bindsym Control+Shift+Print     exec --no-startup-id scrot -s -e 'mv $f ~/Pictures/screenshots/'
 
 # Screen recordings [I'd rather specify formatting each time instead of having headless key bindings]
-bindsym $mod+Print      exec --no-startup-id    simplescreenrecorder 
+bindsym $mod+Print      exec --no-startup-id    simplescreenrecorder
 
 # Terminals [ b: bash | n: zsh |`: urxvt ]
-bindsym $mod+b          exec --no-startup-id gnome-terminal --profile="Nayru" 
+bindsym $mod+b          exec --no-startup-id gnome-terminal --profile="Nayru"
 bindsym $mod+Shift+b    exec --no-startup-id gnome-terminal --profile="Farore"
 bindsym $mod+n          exec --no-startup-id gnome-terminal --profile="Din"
 bindsym $mod+Shift+n    exec --no-startup-id gnome-terminal --profile="Ganon"
 bindsym $mod+grave      exec --no-startup-id urxvt -e /usr/bin/zsh
 
-# Browsers 
+# Browsers
 bindsym $mod+Shift+g   exec --no-startup-id google-chrome-beta
 bindsym $mod+Shift+f   exec --no-startup-id firefox
 bindsym $mod+Shift+h   exec --no-startup-id qutebrowser
@@ -131,17 +140,17 @@ bindsym $mod+Control+r  exec --no-startup-id urxvt -e nnn
 bindsym $mod+Control+h  exec --no-startup-id $term -e htop
 bindsym $mod+Control+j  exec --no-startup-id $term -e gotop
 
-# VimWiki 
-bindsym Mod1+s  exec --no-startup-id $term -e nvim -c :VimwikiUISelect
-bindsym Mod1+d  exec --no-startup-id $term -e nvim -c :VimwikiIndex
-bindsym Mod1+j  exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
-bindsym Mod1+k  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
+# VimWiki
+bindsym Mod1+h  exec --no-startup-id $term -e nvim -c :VimwikiUISelect
+bindsym Mod1+j  exec --no-startup-id $term -e nvim -c :VimwikiIndex
+bindsym Mod1+k  exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
+bindsym Mod1+l  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
 
 # Misc
 bindsym $mod+y  exec --no-startup-id $term -e calcurse
 
 # Function buttons
-bindsym $mod+F1  exec --no-startup-id okular ~/.config/i3/i3_guide.pdf                              
+bindsym $mod+F1  exec --no-startup-id okular ~/.config/i3/i3_guide.pdf
 bindsym $mod+F2  exec --no-startup-id $term -e pulsemixer
 bindsym $mod+F3  exec --no-startup-id google-play-music-desktop-player
 bindsym $mod+F4  exec --no-startup-id mailspring
@@ -163,7 +172,8 @@ floating_modifier $mod
 bindsym $mod+Return     exec $term
 bindsym $mod+Shift+q    kill
 bindsym Mod1+t          exec --no-startup-id toggletouchpad
-bindsym $mod+d          exec dmenu_run
+#bindsym $mod+d          exec dmenu_run
+bindsym $mod+d          exec rofi_run
 
 # change focus
 bindsym $mod+j          focus left
@@ -210,7 +220,7 @@ bindsym $mod+Shift+u	exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize do
 bindsym $mod+Shift+i	exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up"
 
 ######################### Workspace Management ###########################
-# Workspace variables 
+# Workspace variables
 set $ws01 "01|c|browsers"
 set $ws02 "02|r|m_console"
 set $ws03 "03|l|m_editors"
@@ -319,7 +329,7 @@ client.focused_inactive $darkgray       $orange         $darkgray       $lightgr
 client.urgent           $magenta        $lightorange    $yellow         $darkyellow     $red
 client.background       $darkgreen
 
-# Set colors for i3bar 
+# Set colors for i3bar
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
@@ -330,7 +340,7 @@ bar {
         background              $darkmagenta
         statusline              $white
         separator               $lightgreen
-        
+
         #WORKSPACE              BORDER          FILL         TEXT
         focused_workspace       $cyan           $lightgreen  $black
         active_workspace        $cyan           $lightgreen  $darkgray
@@ -385,7 +395,7 @@ bar {
 #client.urgent           $black     $blue        $red    $green          $yellow
 #client.background       $black
 #
-## Set colors for i3bar 
+## Set colors for i3bar
 #bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 #bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 #

@@ -170,7 +170,7 @@
 
     # Paths to default icons.
     #icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
-	icon_path = /snap/gnome-3-26-1604/70/usr/share/icons/:/usr/share/icons/gnome/16x16/mimetypes
+	icon_path = /snap/gnome-3-26-1604/70/usr/share/icons/:/usr/share/icons/gnome/16x16/mimetypes:~/Pictures/Downloads/
 
     ### History ###
 
@@ -249,23 +249,24 @@
     background = "#222222"
     foreground = "#ffffff"
     timeout    = 10
-    icon       = ~/Pictures/Downloads/HomeboiBeethoven.png
+    icon       = /home/jbustamante/Pictures/Downloads/HomeboiBeethoven.png
 
 [urgency_normal]
-    #background     = "#285577"
-    background      = "#d4e7e7"
-    foreground      = "#1d6acd"
-	frame_color = "#932a72"
-	frame_width = 4
-    timeout         = 12
-    icon            = ~/Pictures/Downloads/nintendoswitch_icon.png
+    #background = "#d4e7e7"
+    background  = "#90EE90"
+    foreground  = "#1d6acd"
+    foreground  = "#B695C0"
+    frame_color = "#932a72"
+    frame_width = 4
+    timeout     = 12
+    icon       = /home/jbustamante/Pictures/Downloads/nintendoswitch_icon.png
 
 [urgency_critical]
     background  = "#900000"
     foreground  = "#ffffff"
     frame_color = "#ff0000"
     timeout     = 0
-    icon        = ~/Pictures/Downloads/HomeboiBeethoven.jpg
+    icon       = /home/jbustamante/Pictures/Downloads/HomeboiBeethoven.png
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
