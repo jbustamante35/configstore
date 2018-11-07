@@ -103,7 +103,7 @@
     nmap <silent> <A-Left>  :wincmd h<CR>
     nmap <silent> <A-Right> :wincmd l<CR>
     nnoremap <C-m> :res +5<CR>
-    nnoremap <C-s> :res -5<CR>
+    nnoremap <C-n> :res -5<CR>
     nnoremap <S-,> :res >5<CR>
     nnoremap <S-.> :res <5<CR>
 
