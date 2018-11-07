@@ -1213,7 +1213,8 @@ c.url.auto_search = 'naive'
 ## `about:blank` for a blank page.
 ## Type: FuzzyUrl
 #c.url.default_page = '~/.config/startpage/startpage.html'
-c.url.default_page = 'https://www.duckduckgo.com'
+#c.url.default_page = 'https://www.duckduckgo.com'
+c.url.default_page = 'https://www.bing.com'
 
 ## The URL segments where `:navigate increment/decrement` will search for
 ## a number.
@@ -1235,7 +1236,7 @@ c.url.incdec_segments = ['path', 'query']
 ## `:open google qutebrowser`.
 ## Type: Dict
 c.url.searchengines = {
-        'DEFAULT': 'https://duckduckgo.com/?q={}',
+        'DEFAULT': 'https://bing.com/?q={}',
         'i': 'https://duckduckgo.com/?q={}&iar=images&iax=images&ia=images',
         'vic': 'https://la.wikipedia.org/w/index.php?search={}&title=Specialis%3AQuaerere',
         'red': 'https://reddit.com/r/{}',
