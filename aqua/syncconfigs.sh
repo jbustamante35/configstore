@@ -31,13 +31,6 @@ ${sync} ~/.dotify/.functions ${main}
 ${sync} ~/.dotify/.bashrc ${main}
 ${sync} ~/.dotify/.zshrc ${main}
 ${sync} ~/.dotify/.vimrc ${main}
-${sync} ~/.dotify/.config/i3/config ${main}
-${sync} ~/.dotify/.config/i3blocks/config ${main}
-#${sync} ~/.dotify/.bash_aliases ${main}
-#${sync} ~/.dotify/.bash_functions ${main}
-#${sync} ~/.dotify/.zsh_aliases ${main}
-#${sync} ~/.dotify/.zsh_functions ${main}
-#${sync} ~/.dotify/.oh-my-zsh ${main}
 #${sync} ~/.dotify/.vim* ${main}
 
 # dots
