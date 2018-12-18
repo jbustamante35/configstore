@@ -1,0 +1,21 @@
+#!/bin/sh
+# i3blocks mail module to display total number of unread
+# emails from my gmail and office365 accounts.
+# Opens Thunderbird when clicked
+
+case $BLOCK_BUTTON in
+	1) $TERMINAL -- mailspring ;;
+esac
+
+# Get output from i3blocks-email script
+gmail=$(~/.scripts/i3scripts/i3gmail)
+wmail=$(~/.scripts/i3scripts/i3wmail)
+
+# Parse outputs for unread emails [literally just first line]
+total_gmail=$(echo $gmail | cut -d" " -f 1)
+total_wmail=$(echo $wmail | cut -d" " -f 1)
+
+# Sum for total unread emails
+total_unread=$(($total_gmail + $total_wmail))
+#printf "📬[${total_gmail}] 📮[${total_wmail}]\n"
+printf "📬[${total_gmail}] 💼[${total_wmail}]\n"

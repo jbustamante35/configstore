@@ -8,9 +8,9 @@ markup=pango
 label=📦
 interval=60
 
-[wifi]
-instance=wlp3s0
-interval=10
+#[wifi]
+#instance=wlp3s0
+#interval=10
 
 [cpu_usage]
 label=CPU
@@ -21,9 +21,9 @@ min_width=CPU: 100.00%
 command=~/.scripts/i3scripts/i3temperature -w 55 -c 70
 interval=10
 
-[weather]
-command=~/.scripts/i3scripts/i3weather madison
-interval=3600
+#[weather]
+#command=~/.scripts/i3scripts/i3weather madison
+#interval=3600
 
 [email]
 command=~/.scripts/i3scripts/i3mail
@@ -52,10 +52,10 @@ label=🎼
 command=~/.scripts/i3scripts/gplayer --not-playing --layout t-A-p
 separator_block_width=13
 interval=1
-color=#EEFF66
+#colo=#EEFF66
 
 [volume-pulseaudio]
-command=~/.scripts/i3scripts/i3volume_pulseaudio -d -c "#FF0000" -C "#FFFF33" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇 
+command=~/.scripts/i3scripts/i3volume_pulseaudio -d -c "#FF0000" -C "#aa610e" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇
 interval=1
 signal=10
 

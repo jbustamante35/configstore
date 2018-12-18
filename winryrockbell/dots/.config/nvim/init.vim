@@ -55,7 +55,7 @@ set expandtab       " tabs are spaces
 set shiftwidth=4    " set tab = 4 spaces
 set smarttab        " contextual tab location
 set cursorline      " underline current line
-set colorcolumn=80 " ruler at line 100
+set colorcolumn=80  " ruler at line 100
 set wildmenu        " visual autocomplete
 set showmatch       " highlight matching
 set hlsearch        " highlight matching searches
@@ -64,76 +64,98 @@ set ignorecase      " case insensitive search
 set smartcase       " case sensitive only if searching capital letters
 set splitbelow      " split pane to bottom
 set splitright      " split pane to right
+set updatetime=100
 "set background=dark
 
-" Keymapping for TComment
-map <c-_><c-_> :TComment
+"""""""""""""""""""""""""" Custom Settings """"""""""""""""""""""""""""""""""""
 
-" Set Escape Insert Mode to TAB key
-let g:joy_pure = 1
+" Format column ruler
+highlight ColorColumn ctermbg=darkgray
+
+" Toggle search highlighting
+nnoremap <F3> :set hlsearch!<CR>
+
+" Spell check set to F6
+map <F6> :setlocal spell! spelllang=en_us<CR>
 
 " Automatically deletes all tralling whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
 
-" Indent Guides
-"set ts=4 sw=4 noet
+" Tab Management
+nnoremap ,t :tabnew<CR>
+nnoremap ,w :tabclose<CR>
+nnoremap ,, :tabnext<CR>
+nnoremap ,. :tabprev<CR>
+
+" Split management
+nnoremap <Leader>h  :new<CR>
+nnoremap <Leader>dh :sp<CR>
+nnoremap <Leader>v  :vne<CR>
+nnoremap <Leader>dv :vsplit<CR>
+nnoremap <Leader>q  :q!<CR>
+nnoremap <Leader>w  :wq<CR>
+nnoremap <Leader>s  :w<CR>
+
+" Split Navigation and Resizing
+nnoremap <silent> <A-j> <C-W><C-J>
+nnoremap <silent> <A-k> <C-W><C-K>
+nnoremap <silent> <A-h> <C-W><C-H>
+nnoremap <silent> <A-l> <C-W><C-L>
+nnoremap <C-N> :res -5<CR>
+nnoremap <C-M> :res +5<CR>
+nnoremap <C-,> <C-w>5<
+nnoremap <C-.> <C-w>5>
+
+" Insert date-timestamp and break lines
+map <Leader>r :put =strftime('%c')<CR>
+map <Leader>R :put =strftime('%Y-%m-%d_%B-%d-%Y')<CR>
+map <Leader>t :put =strftime('%m.%d.%Y')<CR>
+imap <C-b> <br />
+
+"""""""""""""""""""""""""""""" Plugins """"""""""""""""""""""""""""""""""""""""
+" Joy: Set Escape Insert Mode to TAB key
+let g:joy_pure = 1
+
+" MarkdownComposer: Markdown file browser viewer
+let g:instant_markdown_autostart = 0
+let g:markdown_composer_open_browser = 0
+nmap <C-a> :ComposerOpen<CR>
+
+" IndentGuides: Customize look of indented spaces
 let g:indent_guides_auto_color = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
 let g:indent_guides_start_level = 2
 let g:indent_guides_enable_on_vim_startup = 0
 
-" Markdown Viewer
-"let g:instant_markdown_autostart = 0
-"nmap <C-a> :InstantMarkdownPreview<CR>
-let g:markdown_composer_open_browser = 0
-nmap <C-a> :ComposerOpen<CR>
+" TComment: Plugin to shortcut toggling comments
+map <c-_> :TComment<CR>
 
-" Spell check set to F6
-map <F6> :setlocal spell! spelllang=en_us<CR>
-
-" Toggle search highlighting
-nnoremap <F3> :set hlsearch!<CR>
-
-" Auto format = signs and variable:
+" Tabularize: Auto format = signs and variable:
 nmap <C-h> :Tabularize /=<CR>
 vmap <C-h> :Tabularize /=<CR>
 nmap <C-j> :Tabularize /:\zs<CR>
 vmap <C-j> :Tabularize /:\zs<CR>
 
-" Format column ruler
-highlight ColorColumn ctermbg=darkgray
+" Template settings
+let g:templates_no_autocmd = 1
+let g:templates_directory  = '/home/jbustamante/.vim/bundle/vim-template/templates'
+nmap <leader>tmp :Template<CR>
 
-" Insert date-timestamp and break lines
-nmap <C-r> :put =strftime('%c')<CR>
-nmap <A-r> :put =strftime('%Y-%m-%d_%B-%d-%Y')<CR>
-imap <C-b> <br />
+" Calendar: calendar management plugin [ alternative that syncs with Google Calendar ]
+let g:calendar_first_day        = 'monday'
+let g:calendar_google_calendar  = 1
+let g:calendar_google_task      = 1
+let g:calendar_event_start_time = 1
+let g:calendar_date_month_name  = 1
 
-" Calendar config
-"let g:calendar_monday           = 1
-"let g:calendar_number_of_months = 6
-"let g:calendar_weeknm           = 1 " WK01
-"let g:calendar_weeknm           = 2 " WKK 1
-"let g:calendar_weeknm           = 3 " KW01
-"let g:calendar_weeknm           = 4 " WK 1
-"let g:calendar_weeknm           = 5 " 1
-"let g:calendar_wruler           = 'Mo Tu We Th Fr Sa Su'
-
-" Calendar.vim config [ alternative that syncs with Google Calendar ]
-let g:calendar_first_day       = 'monday'
-let g:calendar_google_calendar = 1
-let g:calendar_google_task     = 1
-
-" VimWiki bindings for my journal
+" VimWiki: wikipedia-based personal journal
 let g:vimwiki_list = [
     \{'path': '~/Documents/jbwiki/journal.wiki'},
     \{'path': '~/Documents/jbwiki/labnotes.wiki'},
  \]
-:nmap <Leader>wc <Plug>Vimwiki2HTML<CR>
-map <leader>wg :VimwikiDiaryGenerateLinks<CR>
 
 au BufRead,BufNewFile *.wiki set filetype=vimwiki
-":autocmd FileType vimwiki map d :VimwikiMakeDiaryNote
 
 function! ToggleCalendar()
      execute ":Calendar"
@@ -150,19 +172,14 @@ function! ToggleCalendar()
 endfunction
 
 :autocmd FileType vimwiki map c :call ToggleCalendar()<CR>
-"let g:wimwiki_table_mappings=0
+"let g:vimwiki_dir_link = 'diary'
+let g:vimwiki_dir_link = 'index'
+let g:wimwiki_table_mappings = 0
+:nmap <Leader>wc :Vimwiki2HTML<CR>
+:nmap <leader>wa :VimwikiAll2HTML<CR>
+:nmap <leader>wg :VimwikiDiaryGenerateLinks<CR>
 
-" Split Navigation and Resizing
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
-nnoremap <C-N> :res +5<CR>
-nnoremap <C-M> :res -5<CR>
-nnoremap <C-,> :res >5<CR>
-nnoremap <C-,> :res <5<CR>
-
-" Lightline stylized statusline [ with hex color character ]
+" LightLine: stylized statusline [ with hex color character ]
 set laststatus=2
 let g:lightline = {
     \ 'colorscheme': 'one',
@@ -175,19 +192,41 @@ let g:lightline = {
     \ },
 \ }
 
-
-" Syntax checking for python and bash [ more to come maybe ]
+" Syntacstic: Syntax checking for python and bash [ more to come maybe ]
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+let g:syntastic_ycm_show_diagnostics_ui  = 1
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list            = 1
 let g:syntastic_check_on_open            = 1
 let g:syntastic_check_on_wq              = 0
 let g:syntastic_python_pylint_exe        = 'python3 -m pylint3'
 
+"nmap <A-l>     :SyntasticToggleMode<CR>
+nmap <Leader>l :SyntasticToggleMode<CR>
 
+" YouCompleteMe: Code-completion engine
+let g:ycm_key_list_select_completion = [';']
+inoremap <expr> <Tab> pumvisible() ?"\<C-n>" ; "ᐅ"
+
+
+" GitGutter: Live tracking of git changes
+nmap <leader>g :GitGutterToggle<CR>
+nmap <leader>G :GitGutterLineHighlightsToggle<CR>
+
+" NERDtree: File system explorer within Vim
+nmap <C-Space> :NERDTreeToggle<CR>
+
+" VimLatexLivePreview: Live preview of LaTeX output
+let g:livepreview_previewer            = 'zathura'
+let g:livepreview_cursorhold_recompile = 0
+nmap <C-l> :LLPStartPreview<CR>
+
+" GoYo: Distraction-free editing
+let g_goyo_width = 80
+nmap <Leader>g :Goyo<CR>
 
 
 

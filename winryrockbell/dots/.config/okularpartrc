@@ -1,2 +1,17 @@
+[Core Performance]
+TextHinting=Enabled
+
+[Dlg Presentation]
+SlidesTransition=WipeUp
+
+[General]
+ShellOpenFileInTabs=true
+ShowOSD=false
+
+[Main View]
+ShowLeftPanel=false
+
 [PageView]
+BackgroundColor=0,48,2
+UseCustomBackgroundColor=true
 ViewMode=Facing

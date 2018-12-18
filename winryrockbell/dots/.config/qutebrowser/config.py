@@ -1578,4 +1578,6 @@ config.bind(';;', 'hint links download')
 ## Bindings for register mode
 config.bind('<Escape>', 'leave-mode', mode='register')
 
+## Personal bindings
+
 config.source('shortcuts.py')

@@ -50,7 +50,7 @@ shrt=~/.scripts/shortcuts.sh
 if [ -f ${shrt} ]; then
     . ${shrt}
     . ~/.shortcuts
-fi 
+fi
 
 # (Advanced): Change this to the name of your remote repo if you
 # cloned bash-it with a remote other than origin such as `bash-it`.
@@ -100,3 +100,8 @@ source ~/.shortcuts
 
 # added by Anaconda3 installer
 export PATH="/home/jbustamante/anaconda3/bin:$PATH"
+
+# completions for kitty
+source <(kitty + complete setup bash)
+
+
