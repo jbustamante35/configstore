@@ -1,8 +1,8 @@
 [user]
-	email = jbustamante35@gmail.com
-	name = Julian Bustamante
+    email = jbustamante35@gmail.com
+    name  = Julian Bustamante
 
 [credential]
-	helper = store
+    helper = store
 [bash-it]
-	hide-status = 1
+    hide-status = 1
