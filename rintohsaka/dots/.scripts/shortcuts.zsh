@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Shell rc file (i.e. bash vs. zsh, etc.)
-shellrc="$HOME/.bashrc"
+shellrc="$HOME/.zshrc"
 
 # Config locations
 folders="$HOME/.scripts/folders"

@@ -1,0 +1,77 @@
+# Configs
+own_window             yes
+own_window_type        override
+own_window_class       Conky
+own_window_title       Monitor Conky
+own_window_hints       undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_colour      black
+own_window_transparent yes
+
+override_utf8_locale yes
+xftfont Cantarell:size=9
+
+use_spacer left
+use_xft    yes
+xftalpha   1
+
+update_interval  3
+cpu_avg_samples  8
+double_buffer    yes
+alignment        tr
+no_buffers       yes
+imlib_cache_size 0
+
+background   yes
+draw_shades  no
+draw_borders no
+draw_outline no
+uppercase    no
+
+default_shade_color   000000
+default_outline_color 000000
+
+stippled_borders    5
+border_inner_margin 5
+border_outer_margin 5
+border_width        1
+minimum_size        100
+maximum_width       400
+gap_x               10
+gap_y               25
+
+default_color darkgray
+color2        darkgray
+color3        red
+color4        yellow
+
+###############################################################################
+# Text
+TEXT
+${color4}${font Cantarell:size=12}${nodename}
+
+# Date
+$color${font Cantarell:size=16}${time %A}$font${voffset -8}$alignr${color4}${font Cantarell:size=38}${time %Y}$font
+${voffset -30} $color ${font Cantarell:size=18}${time %B} $font ${voffset -9} $color ${font Cantarell:size=20} ${time %e} $font
+
+# SPECS
+#${color3}${font Cantarell:size=9:bold}SPECS${font}${voffset -6} ${hr 2}$color
+#${voffset 5} ${color2} ${font Cantarell:size=9}uptime $alignr ${color} ${uptime_short}
+#${voffset 1} ${color2} ${font Cantarell:size=9}disk   $alignr ${color} ${fs_used /} - ${fs_size /}
+#${voffset 1} ${color2} ${font Cantarell:size=9}memory $alignr ${color} $mem - $memmax
+#${voffset 1} ${color2} ${font Cantarell:size=9}swap   $alignr ${color} $swap - $swapmax
+
+# CPU UTILIZATION
+${color3}${font Cantarell:size=9:bold}CPU UTILIZATION${font}${voffset -6} ${hr 2}$color
+${voffset 10} ${color} ${cpugraph 40 $color4 $color4}
+bat ${color} ${battery_bar 5,330} $alignr ${color2} $battery_percent%
+cpu ${color} ${cpubar      5,330} $alignr ${color2} $cpu%
+ram ${color} ${membar      5,330} $alignr ${color2} $memperc%
+swp ${color} ${swapbar     5,330} $alignr ${color2} $swapperc%
+
+# Google Play Music
+${color3}${font Cantarell:size=11:bold}MUSIC${font} ${voffset -6} ${hr 2} $color
+${voffset 10}${exec ~/.scripts/i3scripts/gplayer --not-playing --layout t-A-p}
+
+# Cowsay
+${color3}${font Cantarell:size=9:bold}FORTUNE${font}${voffset -6} ${hr 2}$color
+${execi 600 fortune | cowsay -f moofasa -e '^^' -W 200}

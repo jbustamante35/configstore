@@ -6,12 +6,14 @@ export PROFILE=rintohsaka
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/jbustamante/.oh-my-zsh"
+export HISTSIZE=2000
+export SAVEHIST=$HISTSIZE
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="obraun"
+ZSH_THEME="kphoen"
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Which plugins would you like to load?
@@ -25,13 +27,10 @@ plugins=(
     extract
     web-search
     vagrant
-    git-extras
     cp
     vi-mode
     colorize
-    sublime
     rsync
-    transfer
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -161,5 +160,10 @@ export SDKMAN_DIR="/home/jbustamante/.sdkman"
 [[ -s "/home/jbustamante/.sdkman/bin/sdkman-init.sh" ]] && source "/home/jbustamante/.sdkman/bin/sdkman-init.sh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="$PATH:$HOME/.bin"
 
+# configure kitty
+autoload -Uz compinit
+compinit
+kitty + complete setup zsh | source /dev/stdin
 

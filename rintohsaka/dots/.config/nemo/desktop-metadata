@@ -2,38 +2,26 @@
 nemo-icon-view-auto-layout=true
 nemo-icon-view-tighter-layout=false
 nemo-icon-view-keep-aligned=true
-nemo-icon-view-layout-timestamp=1538365268
+nemo-icon-view-layout-timestamp=1544680663
 nemo-icon-view-zoom-level=2
 
-[computer]
+[home]
 nemo-icon-position=41,2
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1538365268
+nemo-icon-position-timestamp=1544681505
 
-[home]
+[trash]
 nemo-icon-position=41,68
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1538365268
-
-[trash]
-nemo-icon-position=41,200
-monitor=0
-icon-scale=1
-nemo-icon-position-timestamp=1538365268
-
-[network]
-nemo-icon-position=41,134
-monitor=0
-icon-scale=1
-nemo-icon-position-timestamp=1538365268
+nemo-icon-position-timestamp=1544681505
 
 [desktop-monitor-1]
 nemo-icon-view-auto-layout=true
 nemo-icon-view-tighter-layout=false
 nemo-icon-view-keep-aligned=true
-nemo-icon-view-layout-timestamp=1538365268
+nemo-icon-view-layout-timestamp=1544680663
 nemo-icon-view-zoom-level=2
 
 [194 GB Volume.volume]
@@ -41,3 +29,9 @@ nemo-icon-position=41,229
 monitor=0
 icon-scale=1
 nemo-icon-position-timestamp=1536638234
+
+[grub-customizer_recovery_root_mountpoint.volume]
+nemo-icon-position=41,200
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1544502783

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293453Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/screenshots" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293508Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/minimalism/pokemon" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293554Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/minimalism/starwars" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293598Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/minimalism/starfox" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293639Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/minimalism/rwby" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293680Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/minimalism/marvel" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293722Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/minimalism/legendofzelda" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293762Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/minimalism/dc" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293803Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/minimalism" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293844Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/gimps" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293957Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/downloads" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.293999Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures/acsii" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.294039Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jbustamante/Pictures" added="2018-11-28T04:57:44Z" modified="2018-11-28T04:57:44Z" visited="2018-11-28T04:57:44.294074Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="Pix" exec="&apos;pix %u&apos;" modified="2018-11-28T04:57:44Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

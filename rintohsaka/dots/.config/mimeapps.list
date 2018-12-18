@@ -1,9 +1,9 @@
 [Default Applications]
-text/html=google-chrome.desktop
-x-scheme-handler/http=google-chrome.desktop
-x-scheme-handler/https=google-chrome.desktop
-x-scheme-handler/about=google-chrome.desktop
-x-scheme-handler/unknown=google-chrome.desktop
+text/html=qutebrowser.desktop
+x-scheme-handler/http=qutebrowser.desktop
+x-scheme-handler/https=qutebrowser.desktop
+x-scheme-handler/about=qutebrowser.desktop
+x-scheme-handler/unknown=qutebrowser.desktop
 inode/directory=nemo.desktop
 text/plain=sublime_text.desktop
 image/bmp=feh.desktop
@@ -109,6 +109,8 @@ image/x-wmf=gimp.desktop
 image/x-xcf=gimp.desktop
 image/x-xcursor=gimp.desktop
 image/x-xwindowdump=gimp.desktop
+x-scheme-handler/mailspring=mailspring.desktop
+x-scheme-handler/mailto=mailspring.desktop
 
 [Added Associations]
 inode/directory=ranger.desktop;nemo.desktop;

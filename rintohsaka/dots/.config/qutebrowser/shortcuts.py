@@ -10,3 +10,6 @@ config.bind(";s", "set downloads.location.directory ~/.scripts ;; hint links dow
 config.bind(";cf", "set downloads.location.directory ~/.config ;; hint links download")
 config.bind(";bi", "set downloads.location.directory ~/.bash_it ;; hint links download")
 config.bind(";zi", "set downloads.location.directory ~/.oh-my-zsh ;; hint links download")
+config.bind(";dt", "set downloads.location.directory ~/.dotify ;; hint links download")
+config.bind(";c", "set downloads.location.directory ~/Documents/configstore ;; hint links download")
+config.bind(";wk", "set downloads.location.directory ~/Documents/jbwiki ;; hint links download")

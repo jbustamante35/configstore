@@ -1,2 +1,13 @@
+[Core Performance]
+TextHinting=Enabled
+
+[Main View]
+ShowBottomBar=false
+ShowLeftPanel=false
+
+[Nav Panel]
+SidebarShowText=false
+
 [PageView]
+TrimMargins=true
 ViewMode=Facing
