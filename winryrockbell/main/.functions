@@ -20,8 +20,28 @@ ali () {
 
 # check current status of dropbox syncing
 drchk () {
-	cd $HOME/Dropbox 
+	cd $HOME/Dropbox
 	dropbox filestatus && printf "\n\n\n" && dropbox status
 	cd -
+}
+
+# manage brightness settings with light
+lit () {
+    dir=$1
+    val=$2
+
+    case $dir in
+       up)
+            cmd='-A'
+            ;;
+       down)
+            cmd='-U'
+            ;;
+       *)
+            cmd='-U'
+            ;;
+    esac
+
+    sudo light $cmd $val
 }
 

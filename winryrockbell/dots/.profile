@@ -23,7 +23,7 @@ if [ -n "$ZSH_VERSION" ]; then
 	    . "$HOME/.zshrc"
     fi
 fi
-    
+
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
     MYPATH="$HOME/.local/bin"
@@ -40,7 +40,8 @@ PYTHON=/usr/bin/python
 JUPYTER=/usr/local/bin/jupyter
 
 #export TERMINAL="gnome-terminal --profile=Din"
+export SHELL=/usr/bin/zsh
 export TERMINAL=gnome-terminal
-export EDITOR=vim
+export EDITOR=nvim
 export PATH=$PATH:$MYPATH:$MYBIN:$GOROOT/bin:$GOPATH/bin
 

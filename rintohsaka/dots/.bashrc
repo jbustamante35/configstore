@@ -107,3 +107,7 @@ export SDKMAN_DIR="/home/jbustamante/.sdkman"
 [[ -s "/home/jbustamante/.sdkman/bin/sdkman-init.sh" ]] && source "/home/jbustamante/.sdkman/bin/sdkman-init.sh"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+export PATH="$PATH:$HOME/.bin"
+
+# configure kitty
+source <(kitty + complete setup bash)

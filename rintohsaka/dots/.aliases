@@ -29,10 +29,16 @@ alias l='ls -CF --group-directories-first'
 alias lsl='ll --group-directories-first | less'
 
 # some cd aliases
-alias ..='cd ..'
-alias cdcl='cd /home/jbustamante/Dropbox/Classes/UW\ Madison/Academics/CMB'
-alias cdes='cd /home/jbustamante/Dropbox/EdgarSpalding/Software'
-alias cdra='cd /home/jbustamante/Dropbox/ResearchArticles'
+alias ..='cl ..'
+alias cdcl='cl /home/jbustamante/Dropbox/Classes/uwmadison/phd'
+alias cdra='cl /home/jbustamante/Dropbox/ResearchArticles/computationalbiology/edgarspalding'
+alias cdes='cl /home/jbustamante/Dropbox/EdgarSpalding'
+alias sw='cl /home/jbustamante/Dropbox/EdgarSpalding/projects'
+alias hq='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/hypoquantyl'
+alias cs='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper'
+alias sp='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/sphinctolyzer'
+alias qd='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/quantdracala/quantdracala'
+alias ps='cl /home/jbustamante/Documents/phytoshell'
 
 # filesystem aliases
 alias mkdir='mkdir -pv '
@@ -52,9 +58,14 @@ alias RM='sudo rm -Ird'
 
 # misc aliases
 alias vim='nvim'
+alias sl='sl -e'
+alias screen='screen -T $(echo $TERM)'
+alias term='export TERM=xterm-256color'
 alias bfg='java -jar ~/bin/bfg-1.13.0.jar'
-alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/Screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
+alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias matlab='matlab -nosplash'
+alias dki='docker images -a'
+alias dkp='docker system prune'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -70,4 +81,11 @@ alias sshxv='ssh -L 50013:localhost:50013 jdev'
 alias sshsv='ssh -L 50013:128.104.98.13:50013 submit'
 alias sshx='ssh -C jdev'
 alias sshs='ssh -C submit'
+
+# VimWiki aliases
+alias jrnl='vim ~/Documents/jbwiki/journal.wiki/index.wiki'
+alias labn='vim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
+alias ojrnl='xdg-open ~/Documents/jbwiki/journal.wiki_html/index.html'
+alias olabn='xdg-open ~/Documents/jbwiki/labnotes.wiki_html/index.html'
+
 

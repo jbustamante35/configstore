@@ -30,16 +30,17 @@
 #                                    | | ___) )
 #                                    |_||_____)
 #
-###################################################################################################
+################################################################################
 ## Configure main i3 setup
-# Startup applications [ TODO: re-write setupi3 script because it sucks right now ]
-set $mod Mod4
-#font pango:DejaVu Sans Mono 8
+# Startup applications
+# TODO: re-write setupi3 script because it sucks right now
+set $mod  Mod4
+set $term kitty
 font pango:DejaVu Sans Mono, Awesome 8
 exec        --no-startup-id setupi3.sh
-exec_always --no-startup-id dunst
+exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
-exec_always --no-startup-id conky --config ~/.config/conky/conky.conf
+exec_always --no-startup-id bash ~/.config/conky/conky.sh
 exec_always --no-startup-id wal -c -i ~/.config/wall.png --saturate 0.7
 exec        --no-startup-id dropbox start
 exec        --no-startup-id pb-for-desktop
@@ -48,21 +49,20 @@ exec        --no-startup-id pb-for-desktop
 bindsym         $mod+Shift+c            restart
 bindsym         $mod+Shift+e            exec --no-startup-id    "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 bindsym         $mod+Shift+p            exec --no-startup-id    systemctl suspend
-bindsym         $mod+Delete             exec --no-startup-id    ~/.scripts/i3shutdown
-bindsym         $mod+Shift+Delete       exec --no-startup-id    i3lock -i ~/.config/lock.png -t -f -p default
+bindsym         Mod1+Delete             exec --no-startup-id    ~/.scripts/i3scripts/i3shutdown
+#bindsym         Mod1+Shift+Delete       exec --no-startup-id    i3lock -i ~/.config/lock.png -t -f -p default
+bindsym         Mod1+Shift+Delete       exec --no-startup-id    i3lock -i ~/.config/lock.png -t -f -p default
 bindsym         Mod1+t                  exec --no-startup-id    toggletouchpad
 bindsym         Mod1+m                  exec --no-startup-id    xdotool mousemove 0 0
 
 
 # Main commands
-#set     $term        --no-startup-id $TERMINAL
-set     $term        urxvt
-bindsym $mod+Return  exec $term
-bindsym $mod+Shift+q kill
-#bindsym $mod+d       exec --no-startup-id dmenu_run
-bindsym $mod+d       exec --no-startup-id rofi_run
+bindsym $mod+Return             exec $term
+bindsym $mod+Shift+Return       exec $term -e /bin/bash
+bindsym $mod+Shift+q            kill
+bindsym $mod+d                  exec --no-startup-id rofi_run
 
-###################################################################################################
+################################################################################
 ## Main settings control
 # Volume control for Built-in Audio [devicd ID 0]
 set $dev 0
@@ -74,8 +74,9 @@ bindsym XF86AudioLowerVolume		exec --no-startup-id pactl set-sink-volume $dev -0
 bindsym Shift+XF86AudioLowerVolume      exec --no-startup-id pactl set-sink-volume $dev -10% #decrease sound volume -10
 bindsym Control+XF86AudioLowerVolume    exec --no-startup-id pactl set-sink-volume $dev -01% #decrease sound volume -1
 
-# Volume control for JBL Flip 4 [ TODO: dynamically set binding for device ID; research i3-msg ]
-set $blu 1
+# Volume control for JBL Flip 4
+# TODO: dynamically set binding for device ID; research i3-msg
+set $blu 3
 bindsym Mod1+XF86AudioMute                exec --no-startup-id pactl set-sink-mute   $blu toggle # mute sound
 bindsym Mod1+XF86AudioRaiseVolume         exec --no-startup-id pactl set-sink-volume $blu +05% #increase sound volume +5
 bindsym Mod1+Shift+XF86AudioRaiseVolume	  exec --no-startup-id pactl set-sink-volume $blu +10% #increase sound volume +10
@@ -99,47 +100,47 @@ bindsym Control+XF86MonBrightnessUp     exec --no-startup-id xbacklight -inc 1
 bindsym XF86Display                     exec --no-startup-id arandr
 
 # Function buttons
-bindsym $mod+F1  exec --no-startup-id okular ~/.config/i3/i3_guide.pdf
+bindsym $mod+F1  exec --no-startup-id $term -e nvim -c :Calendar
 bindsym $mod+F2  exec --no-startup-id $term -e pulsemixer
 bindsym $mod+F3  exec --no-startup-id google-play-music-desktop-player
-bindsym $mod+F4	 exec --no-startup-id thunderbird
-bindsym $mod+F5  exec --no-startup-id spotify
-#bindsym $mod+F6  [WIFI TOGGLE]
-#bindsym $mod+F7  exec --no-startup-id td-toggle
-#bindsym $mod+F8  exec --no-startup-id ~/.config/mutt/etc/mailsync.sh
-#bindsym $mod+F9  exec --no-startup-id dmenumount
-#bindsym $mod+F10 exec --no-startup-id dmenuumount
-#bindsym $mod+F11 [BRIGHTNESS DOWN]
+bindsym $mod+F4	 exec --no-startup-id spotify
+bindsym $mod+F5  exec --no-startup-id mailspring
+bindsym $mod+F6  exec --no-startup-id pb-for-desktop
+bindsym $mod+F7  exec --no-startup-id android-messages
+bindsym $mod+F8  exec --no-startup-id slack
+bindsym $mod+F9  exec --no-startup-id yakyak
+bindsym $mod+F10 exec --no-startup-id caprine
+bindsym $mod+F11 exec --no-startup-id wal -c -i ~/.config/wall.png --saturate 0.7
 #bindsym $mod+F12 [BRIGHTNESS UP]
 
 
-###################################################################################################
+################################################################################
 ## Applications
 # terminals
-bindsym $mod+Shift+b exec --no-startup-id gnome-terminal --profile="Wolfen"
-bindsym $mod+b       exec --no-startup-id gnome-terminal --profile="BlueMarine"
-bindsym $mod+Shift+n exec --no-startup-id gnome-terminal --profile="Arwing"
-bindsym $mod+n       exec --no-startup-id gnome-terminal --profile="Landmaster"
-bindsym $mod+grave   exec --no-startup-id rxvt
+bindsym $mod+b                  exec --no-startup-id gnome-terminal --profile="BlueMarine" -e /bin/bash
+bindsym $mod+Shift+b            exec --no-startup-id gnome-terminal --profile="Landmaster" -e /bin/bash
+bindsym $mod+n                  exec --no-startup-id gnome-terminal --profile="Arwing"
+bindsym $mod+Shift+n            exec --no-startup-id gnome-terminal --profile="Wolfen"
+bindsym $mod+grave              exec --no-startup-id urxvt
+bindsym $mod+Shift+grave        exec --no-startup-id urxvt -e /bin/bash
+bindsym Mod1+grave              exec --no-startup-id kitty
+bindsym Mod1+Shift+grave        exec --no-startup-id kitty -e /bin/bash
 
 # browsers
-bindsym $mod+Shift+g exec --no-startup-id $BROWSER
+bindsym $mod+Shift+g exec --no-startup-id google-chrome
 bindsym $mod+Shift+f exec --no-startup-id firefox
 bindsym $mod+Shift+h exec --no-startup-id qutebrowser
 
 # file managers and system settings
-#bindsym $mod+r         exec gnome-terminal --profile="Wolfen" -e ranger
-#bindsym $mod+Shift+r   exec gnome-terminal --profile="BlueMarine" -e sudo ranger
-#bindsym $mod+Control+h exec $term -e htop
-bindsym $mod+r         exec --no-startup-id $term -e ranger
-bindsym $mod+Shift+r   exec --no-startup-id $term -e sudo ranger
-bindsym $mod+Control+h exec --no-startup-id $term -e htop
-bindsym $mod+Control+j exec --no-startup-id $term -e gotop
+bindsym $mod+r         exec --no-startup-id urxvt -e ranger
+bindsym $mod+Shift+r   exec --no-startup-id urxvt -e sudo ranger
+bindsym $mod+Control+h exec --no-startup-id urxvt -e htop
+bindsym $mod+Control+j exec --no-startup-id urxvt -e gotop
 
 # Screenshots [ u: focused window | s: selection ]
-bindsym Print               exec --no-startup-id scrot    -e 'mv $f ~/Pictures/Screenshots/'
-bindsym Shift+Print         exec --no-startup-id scrot -u -e 'mv $f ~/Pictures/Screenshots/'
-bindsym Control+Shift+Print exec --no-startup-id scrot -s -e 'mv $f ~/Pictures/Screenshots/'
+bindsym Print               exec --no-startup-id scrot    -e 'mv $f ~/Pictures/screenshots/'
+bindsym Shift+Print         exec --no-startup-id scrot -u -e 'mv $f ~/Pictures/screenshots/'
+bindsym Control+Shift+Print exec --no-startup-id scrot -s -e 'mv $f ~/Pictures/screenshots/'
 
 # Screen recordings
 bindsym $mod+Print exec --no-startup-id simplescreenrecorder
@@ -148,17 +149,16 @@ bindsym $mod+Print exec --no-startup-id simplescreenrecorder
 bindsym $mod+y exec $term -e calcurse
 
 # VimWiki shortcuts
-# s: select wiki
-# l: lab index
-# d: journal index
-# S-d: Create journal entry
-bindsym Mod1+j        exec --no-startup-id $term -e nvim -c :VimwikiUISelect
-bindsym Mod1+k        exec --no-startup-id $term -e nvim -c :VimwikiIndex
-bindsym Mod1+l        exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
-bindsym Mod1+Shift+l  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
+# j: select wiki
+# k: lab index
+# l: journal index
+# S-l: Create journal entry
+bindsym Mod1+u exec --no-startup-id $term -e nvim -c :VimwikiUISelect
+bindsym Mod1+i exec --no-startup-id $term -e nvim -c :VimwikiIndex
+bindsym Mod1+o exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
+bindsym Mod1+p exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
 
-
-###################################################################################################
+################################################################################
 ## Window navigation
 # i3-gaps config
 for_window [class="^.*"] border pixel 2
@@ -168,11 +168,11 @@ gaps outer 15
 # i3-gaps resizing
 bindsym $mod+t          split toggle
 bindsym $mod+Shift+t    gaps inner current set 15; gaps outer current set 15
-bindsym $mod+s	        gaps inner current plus 5
+bindsym $mod+Shift+d    gaps inner current set 0;  gaps outer current set 0
+bindsym $mod+s	        gaps inner current plus  5
 bindsym $mod+Shift+s    gaps inner current minus 5
-bindsym $mod+z	        gaps outer current plus 5
+bindsym $mod+z	        gaps outer current plus  5
 bindsym $mod+Shift+z    gaps outer current minus 5
-bindsym $mod+Shift+d    gaps inner current set 0; gaps outer current set 0
 
 # change focus
 bindsym $mod+j         focus left
@@ -215,27 +215,37 @@ bindsym $mod+a       focus parent
 bindsym $mod+Shift+a focus child
 
 # improved resize than default config
-bindsym $mod+shift+y exec --no-startup-id "bash ~/.scripts/i3resize left"
-bindsym $mod+Shift+o exec --no-startup-id "bash ~/.scripts/i3resize right"
-bindsym $mod+Shift+u exec --no-startup-id "bash ~/.scripts/i3resize down"
-bindsym $mod+Shift+i exec --no-startup-id "bash ~/.scripts/i3resize up"
+bindsym $mod+Shift+y exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  2"
+bindsym $mod+Shift+o exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 2"
+bindsym $mod+Shift+u exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  2"
+bindsym $mod+Shift+i exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    2"
+
+bindsym $mod+Mod1+y exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  10"
+bindsym $mod+Mod1+o exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 10"
+bindsym $mod+Mod1+u exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  10"
+bindsym $mod+Mod1+i exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    10"
+
+bindsym $mod+Control+Shift+y exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  20"
+bindsym $mod+Control+Shift+o exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 20"
+bindsym $mod+Control+Shift+u exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  20"
+bindsym $mod+Control+Shift+i exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    20"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-###################################################################################################
+################################################################################
 ## Workspace control
-# Workspace variables [ RinTohsaka usually has left (primary) and right (secondary) monoitors ]
-set $ws01 "01|l|main"
-set $ws02 "02|r|browsers"
-set $ws03 "03|l|configs"
-set $ws04 "04|r|browsers"
-set $ws05 "05|l|open"
-set $ws06 "06|r|open"
-set $ws07 "07|l|open"
-set $ws08 "08|r|open"
-set $ws09 "09|l|mail"
-set $ws10 "10|r|music"
+# Workspace variables
+set $ws01 "01"
+set $ws02 "02"
+set $ws03 "03"
+set $ws04 "04"
+set $ws05 "05"
+set $ws06 "06"
+set $ws07 "07"
+set $ws08 "08"
+set $ws09 "09"
+set $ws10 "10"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws01
@@ -262,24 +272,29 @@ bindsym $mod+Shift+9 move container to workspace $ws09
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # assign workspaces
-assign  [class="Thunderbird"]   $ws09
-assign  [class="Google Play"]   $ws10
-
-
-
+assign  [class="Mailspring"]       $ws09
+assign  [class="PB for Desktop"]   $ws09
+assign  [class="android-messages"] $ws09
+assign  [class="Slack"]            $ws09
+assign  [class="yakyak"]           $ws09
+assign  [class="Google Play"]      $ws10
+for_window [class="Caprine"]       move to workspace $ws09
+for_window [class="Spotify"]       move to workspace $ws10
 
 # scratchpad
-bindsym $mod+u [instance="urvxt"] scratchpad show; [instance="urvxt"] move position center
+bindsym Shift+$mod+minus  move scratchpad
+bindsym $mod+minus        scratchpad show
+bindsym $mod+u            [title="urxvt"] scratchpad show
 
-
-###################################################################################################
+################################################################################
 ## Tiling and menubar
 set $black        #000000
 set $darkgray     #878787
 set $lightgray    #c2c2c2
 set $white        #ffffff
 set $lightred     #e79dac
-set $red          #f00f3e
+#set $red          #f00f3e
+set $red          #eb0a1c
 set $darkred      #7e162c
 set $lightmagenta #f6d5ed
 set $magenta      #e56cc5
@@ -289,7 +304,8 @@ set $orange       #ed8e0c
 set $darkorange   #aa610e
 set $lightyellow  #f8f6c3
 set $yellow       #fff62e
-set $darkyellow   #ccb90f
+#set $darkyellow   #ccb90f
+set $darkyellow   #d2a56e
 set $lightgreen   #bdf69d
 set $green        #35f623
 set $darkgreen    #16730d
@@ -297,15 +313,17 @@ set $lightcyan    #c0f2ec
 set $cyan         #5cffee
 set $darkcyan     #206a62
 set $lightblue    #c7d0f5
-set $blue         #383fdc
-set $darkblue     #280a8f
+#set $blue         #383fdc
+set $blue         #3e007d
+set $darkblue     #1b0037
 
 #WINDOW                 BORDER          BACKGROUND     TEXT          INDICATOR       CHILD_BORDER
-client.focused          $black          $white         $lightblue    $lightcyan      $green
-client.unfocused        $black          $lightred      $lightyellow  $lightmagenta   $lightgray
-client.focused_inactive $black          $lightgreen    $lightblue    $magenta        $orange
+client.focused          $darkyellow     $red           $white        $darkcyan       $darkred
+client.unfocused        $darkred        $blue          $white        $lightmagenta   $darkblue
+client.focused_inactive $darkred        $blue          $white        $darkmagenta    $darkblue
 client.urgent           $magenta        $yellow        $yellow       $cyan           $lightred
-client.background       $green
+client.placeholder      $darkblue       $red           $darkblue     $darkblue       $darkblue
+client.background       $darkblue
 
 # i3block for toggling NUM and CAPS lock
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
@@ -313,18 +331,17 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 # i3bar
 bar {
-	#font pango:DejaVu Sans Mono, FontAwesome 10
 	font pango: DejaVu Sans Mono, FontAwesome 10
 	colors {
-	    background          $black
-	    statusline          $green
-	    separator           $darkred
+	    background          $darkblue
+	    statusline          $red
+	    separator           $darkblue
 
             #WORKSPACE          BORDER          FILL            TEXT
-            focused_workspace   $lightblue      $darkblue       $white
-            active_workspace    $darkgreen      $darkblue       $lightcyan
-            inactive_workspace  $darkgray       $black          $red
-            urgent_workspace    $orange         $red            $yellow
+            focused_workspace   $darkblue      $darkblue       $darkyellow
+            active_workspace    $darkblue      $darkblue       $red
+            inactive_workspace  $darkblue      $darkblue       $darkgray
+            urgent_workspace    $darkblue      $red            $yellow
 	}
 
         #status_command i3status
@@ -332,70 +349,4 @@ bar {
 	position top
 	modifier None
 }
-
-## Colors from Xresources
-## black
-#set $color0    #1b1918
-#set $color8    #766e6b
-#set $color16   #000000
-## red
-#set $color1    #e08f97
-#set $color9    #f22c40
-#set $color17   #a93123
-## green
-#set $color2    #5ef7a2
-#set $color10   #5ab738
-#set $color18   #2a6a3e
-## yellow
-#set $color3    #fef981
-#set $color11   #d5911a
-#set $color19   #bf661d
-## blue
-#set $color4    #a3caeb
-#set $color12   #407ee7
-#set $color20   #0f2b80
-## magenta
-#set $color5    #fbd5f2
-#set $color13   #dc50d2
-#set $color21   #82177a
-## cyan
-#set $color6    #a8fff6
-#set $color14   #00ad9c
-#set $color22   #1e8994
-## white
-#set $color7    #f1efee
-#set $color15   #a8a19f
-#set $color23   #a8a19f
-
-##WINDOW                 BORDER          BACKGROUND     TEXT          INDICATOR       CHILD_BORDER
-#client.focused          $color2         $color7        $color4       $color6         $color2
-#client.unfocused        $color0         $color1        $color3       $color5         $color8
-#client.focused_inactive $color8         $color2        $color4       $color5         $color1
-#client.urgent           $color5         $color3        $color5       $color6         $color12
-#client.background       $color10
-#
-## i3block for toggling NUM and CAPS lock
-#bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
-#bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
-#
-## i3bar
-#bar {
-#	#font pango:DejaVu Sans Mono, FontAwesome 10
-#	font pango: Inconsolata, FontAwesome 10
-#	colors {
-#	    background          $color18
-#	    statusline          $color5
-#	    separator           $color3
-#            focused_workspace   $color12 $color12 $color16
-#            active_workspace    $color12 $color12 $color21
-#            inactive_workspace  $color7  $color15 $color6
-#            urgent_workspace    $color9  $color8 $color11
-#	}
-#
-#        #status_command i3status
-#	status_command i3blocks
-#	position top
-#	modifier None
-#}
-
 

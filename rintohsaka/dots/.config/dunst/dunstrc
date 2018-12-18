@@ -60,7 +60,7 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 3
+    frame_width = 1
 
     # Defines color of the frame around the notification window.
     frame_color = "#FFFFFF"
@@ -236,25 +236,27 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background  = "#FFDF00"
-    foreground  = "#000000"
-    frame_color = "#ff0000"
-    timeout     = 10
-	icon        = /home/jbustamante/Pictures/Downloads/nintendo_icons/GC.png
+    foreground  = "#ffffff"
+    background  = "#222222"
+    frame_color = "#FFDF00"
+    frame_width = 1
+    timeout     = 15
+    icon        = /home/jbustamante/Pictures/downloads/triforcegold_icon.png
 
 [urgency_normal]
-    background  = "#222222"
-    foreground  = "#ffffff"
-	frame_color = "#FFDF00"
-    timeout     = 15
-	icon        = /home/jbustamante/Pictures/Downloads/triforcegold_icon.png
+    foreground  = "#ebeba3"
+    background  = "#121d6d"
+    frame_color = "#3b1772"
+    frame_width = 1
+    timeout     = 10
+    icon        = /home/jbustamante/Pictures/downloads/nintendo_icons/GC.png
 
 [urgency_critical]
-    background  = "#900000"
     foreground  = "#ffffff"
+    background  = "#900000"
     frame_color = "#ffdf00"
     timeout     = 0
-	icon        = /home/jbustamante/Pictures/Downloads/nintendo_icons/n64icon.png
+    icon        = /home/jbustamante/Pictures/downloads/nintendo_icons/n64icon.png
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.

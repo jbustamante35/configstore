@@ -12,30 +12,28 @@ ZSH_THEME="half-life"
 # Which plugins would you like to load? Add wisely, as too many plugins slow down shell startup.
 plugins=(
     zsh-autosuggestions
-    git
-    git-extras
-    git-prompt
+    #git
+    #git-extras
+    #git-prompt
     extract
     web-search
     vagrant
     cp
     vi-mode
     colorize
-    sublime
-    rsync 
+    #sublime
+    #rsync
 )
 
 source $ZSH/oh-my-zsh.sh
 
 # Aliases
-#als=~/.zsh_aliases
 als=~/.aliases
 if [ -f ${als} ]; then
     . ${als}
 fi
 
 # Functions
-#funcs=~/.zsh_functions
 funcs=~/.functions
 if [ -f ${funcs} ]; then
     . ${funcs}
@@ -93,5 +91,10 @@ DISABLE_UNTRACKED_FILES_DIRTY= "true"                      # Uncomment the follo
 #  export EDITOR='mvim'
 #fi
 
+
+# completions for kitty
+autoload -Uz compinit
+compinit
+kitty + complete setup zsh | source /dev/stdin
 
 
