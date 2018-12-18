@@ -12,3 +12,5 @@ pyenv	~/environments
 s	~/.scripts
 cf	~/.config
 bi  ~/.bash_it
+wk      ~/Documents/jbwiki
+cs      ~/Documents/configstore
