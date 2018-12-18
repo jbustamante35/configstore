@@ -43,12 +43,24 @@ map <Leader>6 :setlocal spell! spelllang=en_us<CR>
 noremap <Leader>w :%s/\s*$//g<CR>
 
 " Set timestamps and break lines
-nmap <Leader>r     :put =strftime('%c')<CR>
-nmap <Leader>R   :put =strftime('%Y-%m-%d_%B-%d-%Y')<CR>
+nmap <Leader>r  :put =strftime('%c')<CR>
+nmap <Leader>R :put =strftime('%Y-%m-%d_%B-%d-%Y')<CR>
 nmap <Leader>t :put =strftime('%m.%d.%Y')<CR>
-imap <C-b>         <br />
+imap <C-b>     <br />
 
-" Split Navigation and Resizing
+" Tab mangement and navigation
+nmap ,t :tabnew<CR>
+nmap ,w :tabclose<CR>
+nmap ,, :tabnext<CR>
+nmap ,. :tabprevious<CR>
+
+" Split management
+nmap <Leader>v :vne<CR>
+nmap <Leader>h :new<CR>
+nmap <Leader>w :wq<CR>
+nmap <Leader>q :q!<CR>
+
+" Split navigation and resizing
 nnoremap <silent> <A-Down>  <C-W><C-J>
 nnoremap <silent> <A-Up>    <C-W><C-K>
 nnoremap <silent> <A-Right> <C-W><C-L>
@@ -80,5 +92,10 @@ au BufRead,BufNewFile *.wiki set filetype=vimwiki
 set laststatus=2
 let g:lightline = { 'colorscheme' : 'PaperColor' }
 
+" GitGutter: Visualize changes tracked by git
+let g:gitgutter_max_signs = 56
+let g:gitgutter_map_keys  = 0
 
+" NERDtree: File system management for vim
+map <C-n> :NERDTreeToggle<CR>
 

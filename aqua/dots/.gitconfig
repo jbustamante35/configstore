@@ -4,4 +4,4 @@
 [credential]
     helper = store
 [bash-it]
-	hide-status = 1
+    hide-status = 1
