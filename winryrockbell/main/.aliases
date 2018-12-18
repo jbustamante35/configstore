@@ -9,7 +9,7 @@ alias szc='source ~/.zshrc'
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    
+
     alias ls='ls -N --color=auto --group-directories-first'
     alias dir='dir --color=auto'
     alias vdir='vdir --color=auto'
@@ -18,10 +18,10 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
- 
+
  # colored GCC warnings and errors
  export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
- 
+
 # some more ls aliases
 alias ls='ls -N --color=auto --group-directories-first'
 alias ll='ls -alFh'
@@ -29,11 +29,17 @@ alias la='ls -A'
 alias l='ls -CF'
 alias lsl='ll | less'
 
-# some cd aliases
-alias ..='cd ..'
-alias cdcl='cd /home/jbustamante/Dropbox/Classes/UW\ Madison/Academics/CMB'
-alias cdes='cd /home/jbustamante/Dropbox/EdgarSpalding/Software'
-alias cdra='cd /home/jbustamante/Dropbox/ResearchArticles'
+# some work aliases
+alias ..='cl ..'
+alias cdcl='cl /home/jbustamante/Dropbox/Classes/uwmadison'
+alias cdra='cl /home/jbustamante/Dropbox/ResearchArticles/computationalbiology/edgarspalding'
+alias cdes='cl /home/jbustamante/Dropbox/EdgarSpalding'
+alias sw='cl /home/jbustamante/Dropbox/EdgarSpalding/projects                              '
+alias hq='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/hypoquantyl'
+alias cs='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper'
+alias sp='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/sphinctolyzer'
+alias qd='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/quantdracala/quantdracala'
+alias ps='cl /home/jbustamante/dockerData/spaldingshell'
 
 # filesystem aliases
 alias mkdir='mkdir -pv '
@@ -58,7 +64,6 @@ alias RM='sudo rm -Ird'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|ta
     il -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-
 # aliases to vpn to UW Madison
 alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu --username jbustamante'
 alias vnc2me='vncviewer localhost:5902'
@@ -69,11 +74,11 @@ alias ssh2off='ssh -YC -p 50118 -L 50013:128.104.98.13:50013 jbustamante@128.104
 alias ssh2off2='ssh -YC -p 22 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
 alias sshx='ssh jdev'
 alias sshy='ssh -XC jdev'
-alias ssh2sub='ssh submit'
+alias sshs='ssh submit'
 
 # useful docker aliases
-alias dkb='docker build -t  '
-alias dkt='docker tag '
+alias dkb='docker build -t'
+alias dkt='docker tag'
 alias dkp='docker push '
 alias dkP='docker pull '
 alias dki='docker images -a'
@@ -82,11 +87,21 @@ alias dki='docker images -a'
 alias vim='nvim'
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias term='export TERM=xterm-256color'
+alias matlab='matlab -nosplash'
 alias medit='matlab -nodesktop -nosplash -nodisplay'
 alias mconsole='matlab -nodesktop -nosplash'
+alias sl='sl -e'
 
 # iRODS aliases
 alias idata='irodsFs -o allow_other $HOME/idata'
 alias me2irods='iput -r ${1} /iplant/home/jbustamante35/${2}'
-alias irods2me='iget -r /iplant/home/jbustamante35/${1} ${1}'  
+alias irods2me='iget -r /iplant/home/jbustamante35/${1} ${2}'
+
+# VimWiki aliases
+alias jrnl='vim ~/Documents/jbwiki/journal.wiki/index.wiki'
+alias labn='vim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
+alias ojrnl='xdg-open ~/Documents/jbwiki/journal.wiki_html/index.html'
+alias olabn='xdg-open ~/Documents/jbwiki/labnotes.wiki_html/index.html'
+
+
 

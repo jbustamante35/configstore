@@ -66,8 +66,8 @@
     frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#aaaaaa"
-	#frame_color = "#800020"
+    frame_color = "#132d2e"
+    #frame_color = "#800020"
 
     # Define a color for the separator.
     # possible values are:
@@ -244,21 +244,18 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    # IMPORTANT: colors have to be defined in quotation marks.
-    # Otherwise the "#" and following would be interpreted as a comment.
     background = "#222222"
     foreground = "#ffffff"
+    #frame_color = "#932a72"
     timeout    = 10
     icon       = /home/jbustamante/Pictures/Downloads/HomeboiBeethoven.png
 
 [urgency_normal]
-    #background = "#d4e7e7"
-    background  = "#90EE90"
-    foreground  = "#1d6acd"
-    foreground  = "#B695C0"
-    frame_color = "#932a72"
-    frame_width = 4
-    timeout     = 12
+    background  = "#132d2e"
+    foreground  = "#e67e0b"
+    frame_color = "#307379"
+    frame_width = 1
+    timeout     = 10
     icon       = /home/jbustamante/Pictures/Downloads/nintendoswitch_icon.png
 
 [urgency_critical]
