@@ -2,7 +2,8 @@
 *foreground:       #00cc00
 *foreground_bold:  #a8a19f
 *cursor:           #a8a19f
-*background:       #1b1918
+!*background:       #1b1918
+*background:       #1b0037
 
 !!!! Colors [ extended ]
 ! black
@@ -30,7 +31,7 @@
 *color13:   #dc50d2
 *color21:   #82177a
 ! cyan
-*color6:    #a8fff6
+color6:    #a8fff6
 *color14:   #00ad9c
 *color22:   #1e8994
 ! white
@@ -39,47 +40,48 @@
 *color23:   #a8a19f
 
 !!!! Aestetics
-URxvt.intensityStyles:	false
-URxvt.background:       [70]#000000
+URxvt*loginShell:       true
+URxvt*intensityStyles:	false
+URxvt*background:       [70]#1b0037
 URxvt*transparent:      true
 URxvt*.shading:         25
-URxvt.depth:		32
-URxvt.font: 		xft:monospace:size=11
-URxvt.scrollBar:	false
-URxvt.cursorColor:	white
-URxvt.cursorBlink:      1
-URxvt.cursorUnderline:  1
-URxvt.scrollstyle:      plain
-
+URxvt*depth:		32
+URxvt*scrollBar:	false
+URxvt*cursorColor:	white
+URxvt*cursorBlink:      1
+URxvt*cursorUnderline:  1
+URxvt*scrollstyle:      plain
+URxvt*font: 		xft:monospace:size=11
 
 !!!! Misc
 !! Extensions
-URxvt.perl-ext-common:	    default,matcher,resize-font,url-select,keyboard-select,clipboard
-URxvt.colorUL:		    #4682B4
+URxvt*perl-ext-common:	    default,matcher,resize-font,url-select,keyboard-select,clipboard
+URxvt*colorUL:		    #4682B4
+URxvt*iso14755:             true
+URxvt*iso14755_52:          false
 
 !! url-select
-URxvt.keysym.M-u:	    perl:url-select:select_next
-URxvt.url-select.launcher:  linkhandler
-URxvt.url-select.underline: true
+URxvt*keysym.M-u:	    perl:url-select:select_next
+URxvt*url-select.launcher:  linkhandler
+URxvt*url-select.underline: true
 
 !! keyboard-select:
-URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt*keysym.M-Escape:      perl:keyboard-select:activate
 
 !! clipboard management
-URxvt.keysym.M-c:   perl:clipboard:copy
-URxvt.keysym.M-v:   perl:clipboard:paste
-URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
-
+URxvt*keysym.M-c:   perl:clipboard:copy
+URxvt*keysym.M-v:   perl:clipboard:paste
+URxvt*keysym.M-C-v: perl:clipboard:paste_escaped
 
 !! resize-font
-URxvt.keysym.C-minus:      resize-font:smaller
-URxvt.keysym.C-plus:       resize-font:bigger
-URxvt.keysym.C-equal:      resize-font:reset
-URxvt.keysym.C-question:   resize-font:show
+URxvt*keysym.C-minus:      resize-font:smaller
+URxvt*keysym.C-plus:       resize-font:bigger
+URxvt*keysym.C-equal:      resize-font:reset
+URxvt*keysym.C-question:   resize-font:show
 
 !! Matcher
-URxvt.url-launcher:         linkhandler
-URxvt.matcher.button:       1
+URxvt*url-launcher:         linkhandler
+URxvt*matcher.button:       1
 
 !! rofi
 rofi.color-enabled:	true
@@ -89,10 +91,11 @@ rofi.color-active:	#002b37, #008ed4, #003643, #008ed4, #66c6ff
 rofi.color-urgent:	#002b37, #da4281, #003643, #008ed4, #890661
 
 rofi.fake-transparency:	true
+rofi.padding:           50
 rofi.lines:		3
 rofi.bw:		0
-rofi.opacity:		"10"
+rofi.opacity:		"70"
 rofi.hide-scrollbar:	true
-rofi.width:		30
+rofi.width:		50
 
 

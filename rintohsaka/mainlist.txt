@@ -2,6 +2,7 @@ addSubmodules.sh
 .aliases
 .bashrc
 .functions
+.profile
 submodules_manifest.txt
 .vimrc
 .vimrc.bak

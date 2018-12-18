@@ -11,3 +11,6 @@ s  ~/.scripts
 cf ~/.config
 bi ~/.bash_it
 zi ~/.oh-my-zsh
+dt ~/.dotify
+c  ~/Documents/configstore
+wk ~/Documents/jbwiki
