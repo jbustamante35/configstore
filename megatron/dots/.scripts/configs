@@ -1,0 +1,19 @@
+cfi     ~/.config/i3/config
+cfb     ~/.config/i3blocks/config
+cfq     ~/.config/qutebrowser/config.py
+cfr     ~/.config/ranger/rc.conf
+cfm     ~/.config/compton/compton.conf
+cfd     ~/.config/dunst/dunstrc
+cfk     ~/.config/conky/conky.conf
+cff     ~/.scripts/folders
+cfc     ~/.scripts/configs
+cfv     ~/.vimrc
+cfx     ~/.Xresources
+ba      ~/.aliases
+bf      ~/.functions
+br      ~/.bashrc
+za      ~/.aliases
+zf      ~/.functions
+zr      ~/.zshrc
+bp      ~/.profile
+
