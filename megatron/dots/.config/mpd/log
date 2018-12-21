@@ -1,0 +1,401 @@
+Dec 20 02:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 02:16 : exception: Failed to open '/home/jbustamante/.config/mpd/state': No such file or directory
+Dec 20 02:16 : exception: Failed to access /home/jbustamante/Music: No such file or directory
+Dec 20 02:16 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 20 02:16 : client: [0] opened from 127.0.0.1:40570
+Dec 20 02:16 : client: [0] closed
+Dec 20 02:16 : client: [1] opened from 127.0.0.1:40574
+Dec 20 02:17 : client: [2] opened from 127.0.0.1:40578
+Dec 20 02:17 : client: [2] closed
+Dec 20 02:17 : client: [3] opened from 127.0.0.1:40582
+Dec 20 02:17 : client: [3] closed
+Dec 20 09:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 09:29 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 20 09:29 : client: [0] opened from 127.0.0.1:53124
+Dec 20 10:00 : client: [1] opened from 127.0.0.1:53206
+Dec 20 10:00 : client: [1] closed
+Dec 20 10:26 : client: [0] closed
+Dec 20 15:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 15:31 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 20 15:31 : client: [0] opened from 127.0.0.1:41518
+Dec 20 15:38 : client: [1] opened from 127.0.0.1:41604
+Dec 20 15:38 : client: [1] closed
+Dec 20 15:53 : client: [2] opened from 127.0.0.1:41742
+Dec 20 15:53 : client: [2] closed
+Dec 20 15:54 : client: [3] opened from 127.0.0.1:41748
+Dec 20 15:54 : client: [3] closed
+Dec 20 16:06 : client: [4] opened from 127.0.0.1:41782
+Dec 20 16:06 : client: [4] closed
+Dec 20 16:27 : client: [5] opened from 127.0.0.1:41912
+Dec 20 16:27 : client: [5] closed
+Dec 20 16:28 : client: [6] opened from 127.0.0.1:41932
+Dec 20 16:28 : client: [6] closed
+Dec 20 16:35 : client: [7] opened from 127.0.0.1:42008
+Dec 20 16:35 : client: [7] closed
+Dec 20 17:20 : client: [8] opened from 127.0.0.1:42150
+Dec 20 17:20 : client: [8] closed
+Dec 20 17:22 : client: [0] closed
+Dec 20 17:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 17:23 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 20 17:23 : client: [0] opened from 127.0.0.1:56642
+Dec 20 17:24 : client: [1] opened from 127.0.0.1:56652
+Dec 20 17:24 : client: [1] closed
+Dec 20 17:28 : client: [2] opened from 127.0.0.1:56678
+Dec 20 17:28 : client: [2] closed
+Dec 20 17:30 : client: [3] opened from 127.0.0.1:56682
+Dec 20 17:30 : client: [3] closed
+Dec 20 17:35 : client: [4] opened from 127.0.0.1:56738
+Dec 20 17:35 : client: [4] closed
+Dec 20 17:39 : client: [5] opened from 127.0.0.1:56800
+Dec 20 17:39 : client: [5] closed
+Dec 20 17:54 : client: [6] opened from 127.0.0.1:56858
+Dec 20 17:54 : client: [6] closed
+Dec 20 17:54 : client: [7] opened from 127.0.0.1:56864
+Dec 20 17:54 : client: [7] closed
+Dec 20 17:55 : client: [8] opened from 127.0.0.1:56868
+Dec 20 17:55 : client: [8] closed
+Dec 20 17:56 : client: [9] opened from 127.0.0.1:56872
+Dec 20 17:56 : client: [9] closed
+Dec 20 17:58 : client: [10] opened from 127.0.0.1:56880
+Dec 20 17:58 : client: [10] closed
+Dec 20 17:58 : client: [11] opened from 127.0.0.1:56884
+Dec 20 17:58 : client: [11] closed
+Dec 20 17:59 : client: [12] opened from 127.0.0.1:56888
+Dec 20 17:59 : client: [12] closed
+Dec 20 17:59 : client: [13] opened from 127.0.0.1:56892
+Dec 20 17:59 : client: [13] closed
+Dec 20 18:01 : client: [14] opened from 127.0.0.1:56896
+Dec 20 18:01 : client: [14] closed
+Dec 20 18:01 : client: [15] opened from 127.0.0.1:56902
+Dec 20 18:01 : client: [15] closed
+Dec 20 18:02 : client: [16] opened from 127.0.0.1:56906
+Dec 20 18:02 : client: [16] closed
+Dec 20 18:02 : client: [17] opened from 127.0.0.1:56912
+Dec 20 18:02 : client: [17] closed
+Dec 20 18:02 : client: [18] opened from 127.0.0.1:56916
+Dec 20 18:02 : client: [18] closed
+Dec 20 18:02 : client: [19] opened from 127.0.0.1:56920
+Dec 20 18:02 : client: [19] closed
+Dec 20 18:02 : client: [20] opened from 127.0.0.1:56924
+Dec 20 18:02 : client: [20] closed
+Dec 20 18:02 : client: [21] opened from 127.0.0.1:56928
+Dec 20 18:02 : client: [21] closed
+Dec 20 18:04 : client: [22] opened from 127.0.0.1:56932
+Dec 20 18:04 : client: [22] closed
+Dec 20 18:04 : client: [23] opened from 127.0.0.1:56936
+Dec 20 18:04 : client: [23] closed
+Dec 20 18:04 : client: [24] opened from 127.0.0.1:56940
+Dec 20 18:04 : client: [24] closed
+Dec 20 18:04 : client: [25] opened from 127.0.0.1:56944
+Dec 20 18:04 : client: [25] closed
+Dec 20 18:05 : client: [26] opened from 127.0.0.1:56948
+Dec 20 18:05 : client: [26] closed
+Dec 20 18:05 : client: [27] opened from 127.0.0.1:56952
+Dec 20 18:05 : client: [27] closed
+Dec 20 18:05 : client: [28] opened from 127.0.0.1:56956
+Dec 20 18:05 : client: [28] closed
+Dec 20 18:05 : client: [29] opened from 127.0.0.1:56960
+Dec 20 18:05 : client: [29] closed
+Dec 20 18:05 : client: [30] opened from 127.0.0.1:56964
+Dec 20 18:05 : client: [30] closed
+Dec 20 18:05 : client: [31] opened from 127.0.0.1:56968
+Dec 20 18:05 : client: [31] closed
+Dec 20 18:05 : client: [32] opened from 127.0.0.1:56972
+Dec 20 18:05 : client: [32] closed
+Dec 20 18:05 : client: [33] opened from 127.0.0.1:56976
+Dec 20 18:05 : client: [33] closed
+Dec 20 18:06 : client: [34] opened from 127.0.0.1:56980
+Dec 20 18:06 : client: [34] closed
+Dec 20 18:07 : client: [35] opened from 127.0.0.1:56988
+Dec 20 18:07 : client: [35] closed
+Dec 20 18:08 : client: [36] opened from 127.0.0.1:56992
+Dec 20 18:08 : client: [36] closed
+Dec 20 18:08 : client: [37] opened from 127.0.0.1:56996
+Dec 20 18:08 : client: [37] closed
+Dec 20 18:08 : client: [38] opened from 127.0.0.1:57000
+Dec 20 18:08 : client: [38] closed
+Dec 20 18:08 : client: [39] opened from 127.0.0.1:57004
+Dec 20 18:08 : client: [39] closed
+Dec 20 18:08 : client: [40] opened from 127.0.0.1:57008
+Dec 20 18:08 : client: [40] closed
+Dec 20 18:08 : client: [41] opened from 127.0.0.1:57012
+Dec 20 18:08 : client: [41] closed
+Dec 20 18:09 : client: [42] opened from 127.0.0.1:57016
+Dec 20 18:09 : client: [42] closed
+Dec 20 18:09 : client: [43] opened from 127.0.0.1:57020
+Dec 20 18:09 : client: [43] closed
+Dec 20 18:09 : client: [44] opened from 127.0.0.1:57024
+Dec 20 18:09 : client: [44] closed
+Dec 20 18:09 : client: [45] opened from 127.0.0.1:57028
+Dec 20 18:09 : client: [45] closed
+Dec 20 18:10 : client: [46] opened from 127.0.0.1:57032
+Dec 20 18:10 : client: [46] closed
+Dec 20 18:10 : client: [47] opened from 127.0.0.1:57036
+Dec 20 18:10 : client: [47] closed
+Dec 20 18:10 : client: [48] opened from 127.0.0.1:57040
+Dec 20 18:10 : client: [48] closed
+Dec 20 18:10 : client: [49] opened from 127.0.0.1:57044
+Dec 20 18:10 : client: [49] closed
+Dec 20 18:10 : client: [50] opened from 127.0.0.1:57048
+Dec 20 18:10 : client: [50] closed
+Dec 20 18:11 : client: [51] opened from 127.0.0.1:57052
+Dec 20 18:11 : client: [51] closed
+Dec 20 18:11 : client: [52] opened from 127.0.0.1:57056
+Dec 20 18:11 : client: [52] closed
+Dec 20 18:12 : client: [53] opened from 127.0.0.1:57064
+Dec 20 18:12 : client: [53] closed
+Dec 20 18:13 : client: [54] opened from 127.0.0.1:57068
+Dec 20 18:13 : client: [54] closed
+Dec 20 18:13 : client: [55] opened from 127.0.0.1:57072
+Dec 20 18:13 : client: [55] closed
+Dec 20 18:13 : client: [56] opened from 127.0.0.1:57076
+Dec 20 18:13 : client: [56] closed
+Dec 20 18:13 : client: [57] opened from 127.0.0.1:57080
+Dec 20 18:13 : client: [57] closed
+Dec 20 18:13 : client: [58] opened from 127.0.0.1:57084
+Dec 20 18:13 : client: [58] closed
+Dec 20 18:13 : client: [59] opened from 127.0.0.1:57088
+Dec 20 18:13 : client: [59] closed
+Dec 20 18:14 : client: [60] opened from 127.0.0.1:57092
+Dec 20 18:14 : client: [60] closed
+Dec 20 18:15 : client: [61] opened from 127.0.0.1:57096
+Dec 20 18:15 : client: [61] closed
+Dec 20 18:15 : client: [62] opened from 127.0.0.1:57100
+Dec 20 18:15 : client: [62] closed
+Dec 20 18:16 : client: [63] opened from 127.0.0.1:57104
+Dec 20 18:16 : client: [63] closed
+Dec 20 18:16 : client: [64] opened from 127.0.0.1:57108
+Dec 20 18:16 : client: [64] closed
+Dec 20 18:16 : client: [65] opened from 127.0.0.1:57112
+Dec 20 18:16 : client: [65] closed
+Dec 20 18:16 : client: [66] opened from 127.0.0.1:57116
+Dec 20 18:16 : client: [66] closed
+Dec 20 18:16 : client: [67] opened from 127.0.0.1:57122
+Dec 20 18:16 : client: [67] closed
+Dec 20 18:17 : client: [68] opened from 127.0.0.1:57126
+Dec 20 18:17 : client: [68] closed
+Dec 20 18:17 : client: [69] opened from 127.0.0.1:57132
+Dec 20 18:17 : client: [69] closed
+Dec 20 18:17 : client: [70] opened from 127.0.0.1:57136
+Dec 20 18:17 : client: [70] closed
+Dec 20 18:17 : client: [71] opened from 127.0.0.1:57140
+Dec 20 18:17 : client: [71] closed
+Dec 20 18:17 : client: [72] opened from 127.0.0.1:57144
+Dec 20 18:17 : client: [72] closed
+Dec 20 18:17 : client: [73] opened from 127.0.0.1:57148
+Dec 20 18:17 : client: [73] closed
+Dec 20 18:17 : client: [74] opened from 127.0.0.1:57152
+Dec 20 18:17 : client: [74] closed
+Dec 20 18:18 : client: [75] opened from 127.0.0.1:57156
+Dec 20 18:18 : client: [75] closed
+Dec 20 18:18 : client: [76] opened from 127.0.0.1:57160
+Dec 20 18:18 : client: [76] closed
+Dec 20 18:18 : client: [77] opened from 127.0.0.1:57164
+Dec 20 18:18 : client: [77] closed
+Dec 20 18:18 : client: [78] opened from 127.0.0.1:57168
+Dec 20 18:18 : client: [78] closed
+Dec 20 18:19 : client: [79] opened from 127.0.0.1:57172
+Dec 20 18:19 : client: [79] closed
+Dec 20 18:19 : client: [80] opened from 127.0.0.1:57176
+Dec 20 18:19 : client: [80] closed
+Dec 20 18:19 : client: [81] opened from 127.0.0.1:57180
+Dec 20 18:19 : client: [81] closed
+Dec 20 18:19 : client: [82] opened from 127.0.0.1:57184
+Dec 20 18:19 : client: [82] closed
+Dec 20 18:20 : client: [83] opened from 127.0.0.1:57188
+Dec 20 18:20 : client: [83] closed
+Dec 20 18:21 : client: [84] opened from 127.0.0.1:57194
+Dec 20 18:21 : client: [84] closed
+Dec 20 18:22 : client: [85] opened from 127.0.0.1:57202
+Dec 20 18:22 : client: [85] closed
+Dec 20 18:22 : client: [86] opened from 127.0.0.1:57208
+Dec 20 18:22 : client: [86] closed
+Dec 20 18:23 : client: [87] opened from 127.0.0.1:57212
+Dec 20 18:23 : client: [87] closed
+Dec 20 18:24 : client: [88] opened from 127.0.0.1:57218
+Dec 20 18:24 : client: [88] closed
+Dec 20 18:25 : client: [89] opened from 127.0.0.1:57222
+Dec 20 18:25 : client: [89] closed
+Dec 20 18:30 : client: [90] opened from 127.0.0.1:57280
+Dec 20 18:30 : client: [90] closed
+Dec 20 18:31 : client: [91] opened from 127.0.0.1:57286
+Dec 20 18:31 : client: [91] closed
+Dec 20 18:33 : client: [92] opened from 127.0.0.1:57296
+Dec 20 18:33 : client: [92] closed
+Dec 20 18:37 : client: [93] opened from 127.0.0.1:57306
+Dec 20 18:37 : client: [93] closed
+Dec 20 18:37 : client: [94] opened from 127.0.0.1:57316
+Dec 20 18:37 : client: [94] closed
+Dec 20 18:38 : client: [95] opened from 127.0.0.1:57322
+Dec 20 18:38 : client: [95] closed
+Dec 20 18:41 : client: [96] opened from 127.0.0.1:57328
+Dec 20 18:41 : client: [96] closed
+Dec 20 18:42 : client: [97] opened from 127.0.0.1:57338
+Dec 20 18:42 : client: [97] closed
+Dec 20 18:42 : client: [98] opened from 127.0.0.1:57344
+Dec 20 18:42 : client: [98] closed
+Dec 20 18:42 : client: [99] opened from 127.0.0.1:57350
+Dec 20 18:42 : client: [99] closed
+Dec 20 18:43 : client: [100] opened from 127.0.0.1:57356
+Dec 20 18:43 : client: [100] closed
+Dec 20 18:43 : client: [101] opened from 127.0.0.1:57362
+Dec 20 18:43 : client: [101] closed
+Dec 20 18:44 : client: [102] opened from 127.0.0.1:57368
+Dec 20 18:44 : client: [102] closed
+Dec 20 18:44 : client: [103] opened from 127.0.0.1:57374
+Dec 20 18:44 : client: [103] closed
+Dec 20 18:45 : client: [104] opened from 127.0.0.1:57380
+Dec 20 18:45 : client: [104] closed
+Dec 20 18:46 : client: [105] opened from 127.0.0.1:57386
+Dec 20 18:46 : client: [105] closed
+Dec 20 18:46 : client: [106] opened from 127.0.0.1:57392
+Dec 20 18:46 : client: [106] closed
+Dec 20 18:47 : client: [107] opened from 127.0.0.1:57402
+Dec 20 18:47 : client: [107] closed
+Dec 20 18:49 : client: [108] opened from 127.0.0.1:57410
+Dec 20 18:49 : client: [108] closed
+Dec 20 18:49 : client: [109] opened from 127.0.0.1:57416
+Dec 20 18:49 : client: [109] closed
+Dec 20 18:50 : client: [110] opened from 127.0.0.1:57422
+Dec 20 18:50 : client: [110] closed
+Dec 20 18:50 : client: [111] opened from 127.0.0.1:57428
+Dec 20 18:50 : client: [111] closed
+Dec 20 18:50 : client: [112] opened from 127.0.0.1:57434
+Dec 20 18:50 : client: [112] closed
+Dec 20 18:50 : client: [113] opened from 127.0.0.1:57440
+Dec 20 18:50 : client: [113] closed
+Dec 20 18:51 : client: [114] opened from 127.0.0.1:57446
+Dec 20 18:51 : client: [114] closed
+Dec 20 18:52 : client: [115] opened from 127.0.0.1:57452
+Dec 20 18:52 : client: [115] closed
+Dec 20 18:52 : client: [116] opened from 127.0.0.1:57460
+Dec 20 18:52 : client: [116] closed
+Dec 20 18:53 : client: [117] opened from 127.0.0.1:57466
+Dec 20 18:53 : client: [117] closed
+Dec 20 18:53 : client: [118] opened from 127.0.0.1:57472
+Dec 20 18:53 : client: [118] closed
+Dec 20 18:53 : client: [119] opened from 127.0.0.1:57478
+Dec 20 18:53 : client: [119] closed
+Dec 20 18:54 : client: [120] opened from 127.0.0.1:57484
+Dec 20 18:54 : client: [120] closed
+Dec 20 18:54 : client: [121] opened from 127.0.0.1:57490
+Dec 20 18:54 : client: [121] closed
+Dec 20 18:54 : client: [122] opened from 127.0.0.1:57496
+Dec 20 18:54 : client: [122] closed
+Dec 20 18:54 : client: [123] opened from 127.0.0.1:57502
+Dec 20 18:54 : client: [123] closed
+Dec 20 18:54 : client: [124] opened from 127.0.0.1:57508
+Dec 20 18:54 : client: [124] closed
+Dec 20 18:55 : client: [125] opened from 127.0.0.1:57514
+Dec 20 18:55 : client: [125] closed
+Dec 20 18:55 : client: [126] opened from 127.0.0.1:57520
+Dec 20 18:55 : client: [126] closed
+Dec 20 18:55 : client: [127] opened from 127.0.0.1:57526
+Dec 20 18:55 : client: [127] closed
+Dec 20 18:55 : client: [128] opened from 127.0.0.1:57532
+Dec 20 18:55 : client: [128] closed
+Dec 20 18:55 : client: [129] opened from 127.0.0.1:57538
+Dec 20 18:55 : client: [129] closed
+Dec 20 18:55 : client: [130] opened from 127.0.0.1:57544
+Dec 20 18:55 : client: [130] closed
+Dec 20 18:56 : client: [131] opened from 127.0.0.1:57548
+Dec 20 18:56 : client: [131] closed
+Dec 20 19:00 : client: [132] opened from 127.0.0.1:57558
+Dec 20 19:00 : client: [132] closed
+Dec 20 19:27 : client: [133] opened from 127.0.0.1:57612
+Dec 20 19:27 : client: [133] closed
+Dec 20 19:28 : client: [134] opened from 127.0.0.1:57618
+Dec 20 19:28 : client: [134] closed
+Dec 20 19:28 : client: [135] opened from 127.0.0.1:57624
+Dec 20 19:28 : client: [135] closed
+Dec 20 19:36 : client: [136] opened from 127.0.0.1:57640
+Dec 20 19:36 : client: [136] closed
+Dec 20 19:47 : client: [137] opened from 127.0.0.1:57674
+Dec 20 19:47 : client: [137] closed
+Dec 20 19:51 : client: [138] opened from 127.0.0.1:57744
+Dec 20 19:51 : client: [138] closed
+Dec 20 19:52 : client: [139] opened from 127.0.0.1:57754
+Dec 20 19:52 : client: [139] closed
+Dec 20 19:52 : client: [140] opened from 127.0.0.1:57760
+Dec 20 19:52 : client: [140] closed
+Dec 20 19:53 : client: [141] opened from 127.0.0.1:57776
+Dec 20 19:53 : client: [141] closed
+Dec 20 19:54 : client: [142] opened from 127.0.0.1:57782
+Dec 20 19:54 : client: [142] closed
+Dec 20 20:10 : client: [143] opened from 127.0.0.1:58004
+Dec 20 20:10 : client: [143] closed
+Dec 20 20:10 : client: [144] opened from 127.0.0.1:58008
+Dec 20 20:10 : client: [144] closed
+Dec 20 20:10 : client: [145] opened from 127.0.0.1:58012
+Dec 20 20:10 : client: [145] closed
+Dec 20 20:10 : client: [146] opened from 127.0.0.1:58016
+Dec 20 20:10 : client: [146] closed
+Dec 20 20:10 : client: [147] opened from 127.0.0.1:58020
+Dec 20 20:10 : client: [147] closed
+Dec 20 20:13 : client: [148] opened from 127.0.0.1:58028
+Dec 20 20:13 : client: [148] closed
+Dec 20 20:21 : client: [149] opened from 127.0.0.1:58132
+Dec 20 20:21 : client: [149] closed
+Dec 20 20:26 : client: [150] opened from 127.0.0.1:58166
+Dec 20 20:26 : exception: Not playing
+Dec 20 20:26 : client: [150] closed
+Dec 20 20:26 : client: [151] opened from 127.0.0.1:58170
+Dec 20 20:26 : exception: Not playing
+Dec 20 20:26 : client: [151] closed
+Dec 20 20:26 : client: [152] opened from 127.0.0.1:58176
+Dec 20 20:26 : exception: Not playing
+Dec 20 20:26 : client: [152] closed
+Dec 20 20:26 : client: [153] opened from 127.0.0.1:58180
+Dec 20 20:26 : exception: Not playing
+Dec 20 20:26 : client: [153] closed
+Dec 20 20:33 : client: [154] opened from 127.0.0.1:58242
+Dec 20 20:33 : client: [154] closed
+Dec 20 20:40 : client: [155] opened from 127.0.0.1:58302
+Dec 20 20:40 : client: [155] closed
+Dec 20 20:42 : client: [156] opened from 127.0.0.1:58338
+Dec 20 20:42 : client: [156] closed
+Dec 20 20:50 : client: [157] opened from 127.0.0.1:58432
+Dec 20 20:50 : client: [157] closed
+Dec 20 20:51 : client: [158] opened from 127.0.0.1:58438
+Dec 20 20:51 : client: [158] closed
+Dec 20 20:51 : client: [159] opened from 127.0.0.1:58444
+Dec 20 20:51 : client: [159] closed
+Dec 20 20:53 : client: [160] opened from 127.0.0.1:58456
+Dec 20 20:53 : client: [160] closed
+Dec 20 21:03 : client: [161] opened from 127.0.0.1:58592
+Dec 20 21:03 : client: [161] closed
+Dec 20 21:16 : client: [162] opened from 127.0.0.1:58714
+Dec 20 21:16 : client: [162] closed
+Dec 20 21:38 : client: [163] opened from 127.0.0.1:58852
+Dec 20 21:38 : client: [163] closed
+Dec 20 21:47 : client: [164] opened from 127.0.0.1:58866
+Dec 20 21:47 : client: [164] closed
+Dec 20 21:49 : client: [165] opened from 127.0.0.1:58872
+Dec 20 21:49 : client: [165] closed
+Dec 20 22:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 22:03 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 20 22:03 : client: [0] opened from 127.0.0.1:34370
+Dec 20 22:05 : client: [1] opened from 127.0.0.1:34374
+Dec 20 22:05 : client: [1] closed
+Dec 20 22:14 : client: [2] opened from 127.0.0.1:34454
+Dec 20 22:14 : client: [2] closed
+Dec 20 22:16 : client: [3] opened from 127.0.0.1:34460
+Dec 20 22:16 : client: [3] closed
+Dec 20 22:16 : client: [4] opened from 127.0.0.1:34468
+Dec 20 22:16 : client: [4] closed
+Dec 20 22:41 : client: [5] opened from 127.0.0.1:34534
+Dec 20 22:41 : client: [5] closed
+Dec 20 22:42 : client: [6] opened from 127.0.0.1:34540
+Dec 20 22:42 : client: [6] closed
+Dec 20 22:44 : client: [7] opened from 127.0.0.1:34546
+Dec 20 22:44 : client: [7] closed
+Dec 20 22:44 : client: [8] opened from 127.0.0.1:34552
+Dec 20 22:44 : client: [8] closed
+Dec 20 22:48 : client: [9] opened from 127.0.0.1:34562
+Dec 20 22:48 : client: [9] closed
+Dec 20 22:49 : client: [10] opened from 127.0.0.1:34568
+Dec 20 22:49 : client: [10] closed
+Dec 20 22:49 : client: [11] opened from 127.0.0.1:34574
+Dec 20 22:49 : client: [11] closed
+Dec 20 22:50 : client: [12] opened from 127.0.0.1:34578
+Dec 20 22:50 : client: [12] closed

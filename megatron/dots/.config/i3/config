@@ -1,0 +1,346 @@
+# vim: filetype=i3
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#                              ______
+#                            _ |___  )
+#                           (_)  __) )
+#                           | | |__  )
+#                           | | ___) )
+#                           |_||_____)
+#
+######################## Startup Sequence #####################################
+set $mod        Mod4
+set $term       --no-startup-id $TERMINAL
+set $stoprec    --no-startup-id dmenurecord kill
+set $netrefresh --no-startup-id sudo -A systemctl restart dhcpcd.service
+#set $netrefresh --no-startup-id sudo -A systemctl restart NetworkManager
+
+font pango:DejaVu Sans Mono, 10
+
+exec_always --no-startup-id mpdupdate
+exec_always --no-startup-id podentr
+exec_always --no-startup-id wal -c --backend wal -i ~/.config/wall.png --saturate 0.7
+exec        --no-startup-id feh --bg-scale ~/.config/wall.png
+exec        --no-startup-id dunst
+exec        --no-startup-id xcompmgr
+exec        --no-startup-id remaps
+exec        --no-startup-id unclutter
+exec        --no-startup-id mpd
+
+########################## Main Settings ######################################
+# Configure i3-gaps
+for_window [class="^.*"] border pixel 2
+gaps inner 15
+gaps outer 15
+
+# Prompts
+bindsym Mod1+Delete      exec --no-startup-id ~/.scripts/statusbar/shutdown_menu
+bindsym Mod1+Shift+Delete exec --no-startup-id i3lock -i ~/.config/lock.png -t -f -p default
+bindsym $mod+Delete       exec --no-startup-id lockscreen
+bindsym $mod+d            exec --no-startup-id ~/bin/rofi_run
+bindsym XF86Display       exec --no-startup-id arandr
+
+# Volume control
+bindsym $mod+Shift+m                 exec --no-startup-id lmc mute
+bindsym XF86AudioMute                exec --no-startup-id lmc mute
+bindsym $mod+plus                    exec --no-startup-id lmc up 5
+bindsym $mod+Shift+plus              exec --no-startup-id lmc up 10
+bindsym $mod+Control+plus            exec --no-startup-id lmc up 1
+bindsym XF86AudioRaiseVolume         exec --no-startup-id lmc up 5
+bindsym Shift+XF86AudioRaiseVolume   exec --no-startup-id lmc up 10
+bindsym Control+XF86AudioRaiseVolume exec --no-startup-id lmc up 1
+bindsym $mod+minus                   exec --no-startup-id lmc down 5
+bindsym $mod+Shift+minus             exec --no-startup-id lmc down 10
+bindsym $mod+Control+minus           exec --no-startup-id lmc down 1
+bindsym XF86AudioLowerVolume         exec --no-startup-id lmc down 5
+bindsym Shift+XF86AudioLowerVolume   exec --no-startup-id lmc down 10
+bindsym Control+XF86AudioLowerVolume exec --no-startup-id lmc down 1
+bindsym $mod+less                    exec --no-startup-id lmc prev
+bindsym $mod+Shift+less              exec --no-startup-id lmc replay
+bindsym $mod+greater                 exec --no-startup-id lmc next
+bindsym $mod+Shift+greater           exec --no-startup-id lmc next
+
+# Brightness control
+bindsym XF86MonBrightnessDown	exec --no-startup-id xbacklight -dec 15
+bindsym XF86MonBrightnessUp	exec --no-startup-id xbacklight -inc 15
+
+# MPD Control
+bindsym $mod+Shift+p            exec --no-startup-id lmc pause
+bindsym $mod+p	                exec --no-startup-id lmc toggle
+bindsym $mod+bracketleft 	exec --no-startup-id lmc back 10
+bindsym $mod+Shift+bracketleft 	exec --no-startup-id lmc back 120
+bindsym $mod+bracketright 	exec --no-startup-id lmc forward 10
+bindsym $mod+Shift+bracketright exec --no-startup-id lmc forward 120
+
+# For screenshots and recording
+bindsym Print            exec --no-startup-id scrot
+bindsym Shift+Print      exec --no-startup-id scrot -u
+bindsym $mod+Print       exec --no-startup-id dmenurecord
+bindsym $mod+Scroll_Lock exec --no-startup-id "killall screenkey || screenkey"
+bindsym $mod+BackSpace   exec $stoprec
+bindsym XF86Launch1      exec --no-startup-id xset dpms force off
+
+# Wireless control
+bindsym XF86WLAN exec $netrefresh
+
+# Function Buttons
+bindsym $mod+F1	 exec --no-startup-id groff -kejpt -mom ~/.readme.mom -Tpdf | zathura -
+bindsym $mod+F2	 restart
+bindsym $mod+F3	 exec --no-startup-id displayselect
+bindsym $mod+F4  exec --no-startup-id $term -e pulsemixer
+bindsym $mod+F5	 exec --no-startup-id $netrefresh
+bindsym $mod+F6	 exec --no-startup-id bar mode toggle
+bindsym $mod+F7  exec --no-startup-id wal -c --backend wal -i ~/.config/wall.png --saturate 0.7
+bindsym $mod+F8	 exec --no-startup-id ~/.config/mutt/etc/mailsync.sh
+bindsym $mod+F9	 exec --no-startup-id dmenumount
+bindsym $mod+F10 exec --no-startup-id dmenuumount
+bindsym $mod+F11 exec --no-startup-id ducksearch
+bindsym $mod+F12 exec $term -e nmtui
+
+############################ Navigation #######################################
+# Change focus
+bindsym $mod+h     focus left
+bindsym $mod+j     focus down
+bindsym $mod+k     focus up
+bindsym $mod+l     focus right
+bindsym $mod+Left  focus left
+bindsym $mod+Down  focus down
+bindsym $mod+Up    focus up
+bindsym $mod+Right focus right
+bindsym $mod+space focus mode_toggle
+
+# Move focused window
+bindsym $mod+Shift+h     move left  30
+bindsym $mod+Shift+j     move down  30
+bindsym $mod+Shift+k     move up    30
+bindsym $mod+Shift+l     move right 30
+bindsym $mod+Shift+Left	 move left
+bindsym $mod+Shift+Down	 move down
+bindsym $mod+Shift+Up    move up
+bindsym $mod+Shift+Right move right
+
+# Split orientation
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+v     split h
+bindsym $mod+v           split v
+
+# Kill focused window
+bindsym $mod+q [con_id="__focused__" instance="^(?!dropdowncalc|tmuxdd).*$"] kill
+
+# Fullscreen focused container
+bindsym $mod+f       fullscreen toggle
+bindsym $mod+Shift+b floating toggle; sticky toggle; exec --no-startup-id bottomleft
+bindsym $mod+Shift+n floating toggle; sticky toggle; exec --no-startup-id bottomright
+
+# Container layouts
+bindsym $mod+t split  toggle
+bindsym $mod+o sticky toggle
+bindsym $mod+e layout toggle split
+bindsym $mod+w layout tabbed
+
+########################### Applications ######################################
+# Terminals
+bindsym $mod+Return       exec $term
+bindsym $mod+Shift+Return exec --no-startup-id samedir
+bindsym $mod+apostrophe	  split horizontal ;; exec $term
+bindsym $mod+slash        split vertical ;; exec $term
+bindsym $mod+u            exec --no-startup-id ddspawn tmuxdd
+
+# Browsers
+bindsym $mod+Shift+f exec --no-startup-id firefox
+bindsym $mod+Shift+q exec --no-startup-id qutebrowser
+
+# Miscellaneous applications
+bindsym $mod+Shift+e exec $term -e neomutt && pkill -RTMIN+12 i3blocks
+bindsym $mod+r       exec $term -e ranger
+bindsym $mod+y       exec $term -e calcurse
+bindsym $mod+i       exec $term -e htop
+bindsym $mod+n       exec $term -e newsboat && pkill -RTMIN+6 i3blocks
+bindsym $mod+grave   exec --no-startup-id ddspawn dropdowncalc -f mono:pixelsize=24
+bindsym $mod+Shift+g exec --no-startup-id gimp; workspace $ws05
+bindsym $mod+Shift+c exec --no-startup-id camtoggle
+bindsym $mod+m       exec --no-startup-id $term -e ncmpcpp
+
+# Scratchpad Tmux terminal
+for_window [instance="tmuxdd"] floating enable
+for_window [instance="tmuxdd"] resize set 625 450
+for_window [instance="tmuxdd"] move scratchpad
+for_window [instance="tmuxdd"] border pixel 3
+for_window [instance="tmuxdd"] sticky enable
+
+# Scratchpad R console
+for_window [instance="dropdowncalc"] floating enable
+for_window [instance="dropdowncalc"] resize set 800 300
+for_window [instance="dropdowncalc"] move scratchpad
+for_window [instance="dropdowncalc"] border pixel 2
+for_window [instance="dropdowncalc"] sticky enable
+
+# Other workspace-specific applications
+for_window [class="Pinentry"]                   sticky enable
+for_window [class="sent"]                       border pixel 0px
+for_window [class="Blender"]                    move to workspace $ws06
+for_window [class="marble"]                     move to workspace $ws07
+for_window [title="GIMP Startup"]               move workspace $ws05
+for_window [class="Gimp"]                       move workspace $ws05
+for_window [window_role="GtkFileChooserDialog"] resize shrink height 10 px
+for_window [title="Default - Wine desktop"]     floating enable
+
+# Bindings to make the webcam float and stick.
+for_window [title="mpvfloat"] floating enable
+for_window [title="mpvfloat"] sticky enable
+for_window [title="mpvfloat"] border pixel 0
+no_focus   [title="mpvfloat"]
+
+####################### Workspace Management ##################################
+set $ws01 "01"
+set $ws02 "02"
+set $ws03 "03"
+set $ws04 "04"
+set $ws05 "05"
+set $ws06 "06"
+set $ws07 "07"
+set $ws08 "08"
+set $ws09 "09"
+set $ws10 "10"
+
+# switch to workspace
+bindsym $mod+1          workspace $ws01
+bindsym $mod+2          workspace $ws02
+bindsym $mod+3          workspace $ws03
+bindsym $mod+4          workspace $ws04
+bindsym $mod+5          workspace $ws05
+bindsym $mod+6          workspace $ws06
+bindsym $mod+7          workspace $ws07
+bindsym $mod+8          workspace $ws08
+bindsym $mod+9          workspace $ws09
+bindsym $mod+0          workspace $ws10
+bindsym $mod+Escape     workspace prev
+
+# Move focused container to workspace
+bindsym $mod+Shift+1	move container to workspace $ws01
+bindsym $mod+Shift+2	move container to workspace $ws02
+bindsym $mod+Shift+3	move container to workspace $ws03
+bindsym $mod+Shift+4	move container to workspace $ws04
+bindsym $mod+Shift+5	move container to workspace $ws05
+bindsym $mod+Shift+6	move container to workspace $ws06
+bindsym $mod+Shift+7	move container to workspace $ws07
+bindsym $mod+Shift+8	move container to workspace $ws08
+bindsym $mod+Shift+9	move container to workspace $ws09
+bindsym $mod+Shift+0	move container to workspace $ws10
+
+# Advanced workspace movement
+bindsym $mod+Home		workspace $ws01
+bindsym $mod+End		workspace $ws10
+bindsym $mod+Shift+Home		move container to workspace $ws01
+bindsym $mod+Shift+End		move container to workspace $ws10
+bindsym $mod+semicolon		workspace next
+bindsym $mod+Next		workspace next
+bindsym $mod+Prior		workspace prev
+bindsym $mod+Shift+Next		move container to workspace next
+bindsym $mod+Shift+XF86Forward	move container to workspace next
+bindsym $mod+Shift+Prior	move container to workspace prev
+bindsym $mod+Shift+XF86Back	move container to workspace prev
+bindsym $mod+Tab		workspace back_and_forth
+bindsym $mod+backslash		workspace back_and_forth
+bindsym $mod+Shift+slash	kill
+
+# Resize windows and gaps
+bindsym $mod+Shift+o  exec --no-startup-id i3resize right
+bindsym $mod+Shift+i  exec --no-startup-id i3resize up
+bindsym $mod+Shift+y  exec --no-startup-id i3resize left
+bindsym $mod+Shift+u  exec --no-startup-id i3resize down
+bindsym $mod+s	      gaps inner current plus  5
+bindsym $mod+z        gaps outer current plus  5
+bindsym $mod+Shift+s  gaps inner current minus 5
+bindsym $mod+Shift+z  gaps outer current minus 5
+bindsym $mod+Shift+d  gaps inner current set 0; gaps outer current set 0
+bindsym $mod+Shift+t  gaps inner current set 15; gaps outer current set 15
+
+######################## i3bar Configuration ##################################
+# Set Xresources colors:
+set_from_resource $foreground        foreground      #000000
+set_from_resource $foreground_bold   foreground_bold #000000
+set_from_resource $background        background      #000000
+set_from_resource $darkblack	     color0          #000000
+set_from_resource $black	     color8          #000000
+set_from_resource $darkred	     color1          #000000
+set_from_resource $red		     color9          #000000
+set_from_resource $darkgreen	     color2          #000000
+set_from_resource $green	     color10         #000000
+set_from_resource $darkyellow	     color3          #000000
+set_from_resource $yellow	     color11         #000000
+set_from_resource $darkblue	     color4          #000000
+set_from_resource $blue		     color12         #000000
+set_from_resource $darkmagenta	     color5          #000000
+set_from_resource $magenta	     color13         #000000
+set_from_resource $darkcyan	     color6          #000000
+set_from_resource $cyan		     color14         #000000
+set_from_resource $darkwhite	     color7          #000000
+set_from_resource $white	     color15         #000000
+set $transparent		                     #00000000
+
+#WORKSPACE              BORDER		BACKGROUND	TEXT		INDICATOR      CHILD_BORDER
+client.focused	        $red            $background     $magenta        $darkmagenta   $darkyellow
+client.unfocused        $transparent    $background     $white          $darkblue      $darkblack
+client.focused_inactive $transparent    $background     $white          $darkblue      $darkblack
+client.urgent           $darkred        $darkred        $black          $darkred       $darkred
+client.background       $black
+
+bar {
+	font pango:mono 10
+	colors {
+			background $background
+			statusline $foreground_bold
+			separator  $foreground
+
+                        #WORKSPACE         BORDER       FILL         TEXT
+			focused_workspace  $background  $background  $darkblack
+        		active_workspace   $background  $background  $darkblue
+      			inactive_workspace $background  $background  $darkgreen
+        		urgent_workspace   $darkblack   $darkred     $darkyellow
+		}
+
+	status_command i3blocks
+	position top
+	mode dock
+	modifier None
+}
+
+########################## Miscellaneous ######################################
+# Uncategorizable
+bindsym Mod1+t           exec --no-startup-id toggletouchpad
+bindsym $mod+Shift+grave exec --no-startup-id dmenuunicode
+
+# Show selection:
+bindsym $mod+Pause           exec --no-startup-id xcqr
+bindsym $mod+Shift+BackSpace exec --no-startup-id showclip
+
+# Some Unbound Keybindings
+#bindsym $mod+Shift+Escape
+#bindsym $mod+Shift+x
+#bindsym $mod+a
+#bindsym $mod+Shift+a
+#bindsym $mod+b
+#bindsym $mod+c
+#bindsym $mod+g
+#bindsym $mod+Insert
+#bindsym $mod+Shift+Delete
+#bindsym $mod+Shift+w
+#bindsym $mod+Shift+r
+
+
