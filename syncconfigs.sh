@@ -11,15 +11,15 @@ dotdirs=$(ls -A ~/.dotify)
 
 # Check if directories exist
 if [[ ! -d "$repo" ]]; then
-        mkdir $repo
+    mkdir $repo
 fi
 
 if [[ ! -d "$main" ]]; then
-        mkdir $main
+    mkdir $main
 fi
 
 if [[ ! -d "$dots" ]]; then
-        mkdir $dots
+    mkdir $dots
 fi
 
 echo "Profile: $profile"

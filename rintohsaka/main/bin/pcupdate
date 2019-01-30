@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "Updating pc"
+sudo apt update -y && sudo apt upgrade -y
+echo "apt updated..."
+
+echo "updating conda"
+conda update --all -y
+echo "conda updated..."
+
+echo "updating julia"
+julia -e "Pkg.update()"
+echo "julia updated..."

@@ -38,7 +38,7 @@ alias hq='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/hypoquantyl'
 alias cs='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper'
 alias sp='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/sphinctolyzer'
 alias qd='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/quantdracala/quantdracala'
-alias ps='cl /home/jbustamante/Documents/phytoshell'
+alias pl='cl /home/jbustamante/Documents/phytoshell'
 
 # filesystem aliases
 alias mkdir='mkdir -pv '
@@ -66,6 +66,7 @@ alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$w
 alias matlab='matlab -nosplash'
 alias dki='docker images -a'
 alias dkp='docker system prune'
+alias zt='zathura'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

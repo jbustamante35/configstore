@@ -1,0 +1,697 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'D
+	/home/jbustamante/Downloads
+	..
+1547102593
+'H
+	/home/jbustamante/
+	..
+1547098570
+'b
+	/home/jbustamante/Dropbox
+	EdgarSpalding
+1547102632
+'c
+	/home/jbustamante/.config
+	..
+1547099991
+'d
+	/home/jbustamante/Documents
+	..
+1547102618
+'h
+	/home/jbustamante/
+	..
+1547098570
+'j
+	/home/jbustamante/.config
+	..
+1547099840
+'l
+	/home/jbustamante/Dropbox/EdgarSpalding
+	meetings
+1547099964
+'n
+	/home/jbustamante
+	.config
+1547099851
+'p
+	/home/jbustamante/Pictures
+	..
+1547099907
+'v
+	/home/jbustamante/Videos
+	..
+1547099935
+
+# Bookmarks:
+
+# TUI:
+ar
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home
+	jbustamante
+1
+d/home/jbustamante
+	bin
+12
+d/home/jbustamante/bin
+	configstore_scripts
+1
+d/home/jbustamante/bin/configstore_scripts
+	revertProfile.sh.bak
+2
+d/
+	home
+5
+d/home
+	jbustamante
+1
+d/home/jbustamante
+	anaconda3
+11
+d/home/jbustamante/anaconda3
+	bin
+1
+d/home/jbustamante/anaconda3/bin
+	..
+0
+d/home/jbustamante/anaconda3
+	phrasebooks
+12
+d/home/jbustamante
+	Documents
+2
+d/home/jbustamante/Documents
+	configstore
+8
+d/home/jbustamante/Documents/configstore
+	megatron
+4
+d/home/jbustamante/Documents/configstore/megatron
+	main
+2
+d/home/jbustamante/Documents/configstore/megatron/main
+	..
+0
+d/home/jbustamante/Documents/configstore/megatron
+	main
+2
+d/home/jbustamante/Documents/configstore/megatron/main
+	..
+0
+d/home/jbustamante/Documents/configstore/megatron
+	main
+2
+d/home/jbustamante/Documents/configstore/megatron/main
+	..
+0
+d/home/jbustamante/Documents/configstore/megatron
+	main
+2
+d/home/jbustamante/Documents/configstore/megatron/main
+	..
+0
+d/home/jbustamante/Documents/configstore/megatron
+	dots
+1
+d/home/jbustamante/Documents/configstore/megatron/dots
+	..
+0
+d/home/jbustamante/Documents/configstore/megatron
+	..
+0
+d/home/jbustamante/Documents/configstore
+	first
+2
+d/home/jbustamante/Documents/configstore/first
+	..
+0
+d/home/jbustamante/Documents/configstore
+	..
+0
+d/home/jbustamante/Documents
+	pywal
+28
+d/home/jbustamante/Documents/pywal
+	pywal
+1
+d/home/jbustamante/Documents/pywal/pywal
+	..
+0
+d/home/jbustamante/Documents/pywal
+	pywal
+1
+d/home/jbustamante/Documents
+	pywal
+28
+d/home/jbustamante
+	Dropbox
+4
+d/home/jbustamante/Dropbox
+	EdgarSpalding
+6
+d/home/jbustamante/Dropbox/EdgarSpalding
+	projects
+4
+d/home/jbustamante/Dropbox/EdgarSpalding/projects
+	hypoquantyl
+5
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/hypoquantyl
+	classes
+1
+d/home/jbustamante
+	..
+0
+d/home/jbustamante/bin
+	configstore_scripts
+1
+d/home/jbustamante
+	Dropbox
+4
+d/home/jbustamante/Dropbox
+	EdgarSpalding
+6
+d/home/jbustamante/Dropbox/EdgarSpalding
+	projects
+4
+d/home/jbustamante/Dropbox/EdgarSpalding/projects
+	hypoquantyl
+5
+d/home/jbustamante/Dropbox/EdgarSpalding
+	labdata
+1
+d/home/jbustamante/Dropbox/EdgarSpalding/labdata
+	hypoquantyl
+4
+d/home/jbustamante/Dropbox/EdgarSpalding/labdata/hypoquantyl
+	..
+0
+d/home/jbustamante/Dropbox/EdgarSpalding/labdata
+	hypoquantyl
+4
+d/home/jbustamante/Dropbox/EdgarSpalding
+	labdata
+1
+d/home/jbustamante/Dropbox
+	EdgarSpalding
+6
+d/home/jbustamante/Dropbox/EdgarSpalding
+	projects
+4
+d/home/jbustamante/Dropbox/EdgarSpalding/projects
+	hypoquantyl
+5
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/hypoquantyl
+	classes
+1
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/hypoquantyl/classes
+	..
+0
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/hypoquantyl
+	classes
+1
+d/home/jbustamante/Dropbox/EdgarSpalding/projects
+	carrotsweeper
+3
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper
+	midlines
+2
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/midlines
+	carrotExtraction
+1
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/midlines/carrotExtraction
+	julian
+1
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/midlines/carrotExtraction/julian
+	isolate_carrot_Roots.m
+7
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper
+	data
+1
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/data
+	development_181011
+4
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/data/development_181011
+	output_181204
+2
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/data/development_181011/output_181204
+	..
+0
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/data/development_181011
+	{UID_394-dev-2018}{Date_2018-10-11}{Root_7}{Genotype_Bolero}{Location_Tipi}{Scale_460}{Photo_1}.png
+9
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/data
+	development_181011
+4
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper
+	midlines
+2
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/midlines
+	carrotExtraction
+1
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/midlines/carrotExtraction
+	julian
+1
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/midlines/carrotExtraction/julian
+	helpers
+1
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/midlines/carrotExtraction
+	julian
+1
+d/home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper/midlines
+	carrotMidlinesPipeline.m
+3
+d/home/jbustamante
+	.conda
+13
+d/home/jbustamante/.conda
+	..
+0
+d/home/jbustamante
+	.config
+14
+d/home/jbustamante/.config
+	i3
+30
+d/home/jbustamante/.config/i3
+	config.orginal
+3
+d/home/jbustamante/.config
+	..
+0
+d/home/jbustamante
+	.config
+14
+d/home/jbustamante/.config
+	..
+0
+d/home/jbustamante
+	.config
+14
+d/home/jbustamante/.config
+	..
+0
+d/home/jbustamante
+	.config
+14
+d/home/jbustamante/.config
+	..
+0
+d/home/jbustamante
+	.config
+14
+d/home/jbustamante/.config
+	..
+0
+d/home/jbustamante/Pictures
+	..
+0
+d/home/jbustamante
+	..
+0
+d/home/jbustamante/bin
+	..
+0
+d/home/jbustamante/Dropbox/EdgarSpalding
+	meetings
+3
+d/home/jbustamante/Videos
+	..
+0
+d/home/jbustamante/Pictures
+	..
+0
+d/home/jbustamante
+	.config
+14
+d/home/jbustamante/.config
+	vifm
+49
+d/home/jbustamante/.config/vifm
+	vifmrc
+4
+d/home/jbustamante/.config
+	qutebrowser
+38
+d/home/jbustamante/.config/qutebrowser
+	config.py
+4
+d/home/jbustamante/.config
+	vifm
+47
+d/home/jbustamante/.config/vifm
+	colors
+1
+d/home/jbustamante/Pictures
+	screenshots
+5
+d/home/jbustamante/Pictures/screenshots
+	190108_farmpainting.png
+19
+d
+
+# Right window history (oldest to newest):
+D/home/jbustamante/Dropbox/Pictures/minimalism/legendofzelda
+	..
+0
+D/home/jbustamante/Dropbox/Pictures/minimalism
+	..
+0
+D/home/jbustamante/Dropbox/Pictures
+	minimalism
+2
+D/home/jbustamante/Dropbox
+	EdgarSpalding
+6
+D/home/jbustamante/Dropbox/EdgarSpalding
+	labdata
+1
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata
+	guosheng_wu
+3
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata/guosheng_wu
+	..
+0
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata
+	guosheng_wu
+3
+D/home/jbustamante/Dropbox/EdgarSpalding
+	labdata
+1
+D/home/jbustamante/Dropbox
+	EdgarSpalding
+6
+D/home/jbustamante/Dropbox/EdgarSpalding
+	meetings
+3
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings
+	190207_Phenome
+4
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome
+	logistics
+1
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome/logistics
+	..
+0
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome
+	poster
+2
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome/poster
+	notes.md
+1
+D/home/jbustamante/bin
+	bfg-1.13.0.jar
+4
+D/home/jbustamante
+	..
+0
+D/home/jbustamante/bin
+	configstore_scripts
+1
+D/home/jbustamante
+	Dropbox
+4
+D/home/jbustamante/Dropbox
+	EdgarSpalding
+6
+D/home/jbustamante/Dropbox/EdgarSpalding
+	meetings
+3
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings
+	190207_Phenome
+4
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome
+	poster
+2
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome/poster
+	notes.md
+1
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome
+	logistics
+1
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings
+	190207_Phenome
+4
+D/home/jbustamante/Dropbox/EdgarSpalding
+	meetings
+3
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings
+	190207_Phenome
+4
+D/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome
+	abstract.tex
+6
+D/home/jbustamante
+	Documents
+2
+D/home/jbustamante/Documents
+	configstore
+8
+D/home/jbustamante/Documents/configstore
+	megatron
+4
+D/home/jbustamante/Documents/configstore/megatron
+	dots
+1
+D/home/jbustamante/Documents/configstore/megatron/dots
+	.config
+2
+D/home/jbustamante/Documents/configstore/megatron/dots/.config
+	Thunar
+2
+D/home/jbustamante/Documents/configstore/megatron/dots/.config/Thunar
+	..
+0
+D/home/jbustamante/Documents/configstore/megatron/dots/.config
+	Thunar
+2
+D/home/jbustamante/Documents/configstore/megatron/dots
+	.config
+2
+D/home/jbustamante/Documents/configstore/megatron
+	dots
+1
+D/home/jbustamante/Documents/configstore
+	jdev
+5
+D/home/jbustamante/Documents/configstore/jdev
+	..
+0
+D/home/jbustamante/Documents/configstore
+	potato
+7
+D/home/jbustamante/.config
+	..
+0
+D/home/jbustamante
+	Pictures
+49
+D/home/jbustamante/Pictures
+	..
+0
+D/home/jbustamante
+	Videos
+49
+D/home/jbustamante/Videos
+	..
+0
+D/home/jbustamante
+	..
+0
+D/home
+	jbustamante
+1
+D/home/jbustamante
+	Dropbox
+49
+D/home/jbustamante/Dropbox
+	EdgarSpalding
+7
+D/home/jbustamante/Dropbox/EdgarSpalding
+	projects
+4
+D/home/jbustamante/Dropbox/EdgarSpalding/projects
+	..
+0
+D/home/jbustamante/.config
+	..
+0
+D/home/jbustamante
+	..
+0
+D/home/jbustamante/Dropbox/EdgarSpalding
+	labdata
+1
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata
+	hypoquantyl
+4
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata/hypoquantyl
+	181129
+5
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata/hypoquantyl/181129
+	..
+0
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata/hypoquantyl
+	AtWT.gif
+6
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata
+	ashley_henry
+1
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata/ashley_henry
+	cellwallmutants
+1
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata/ashley_henry/cellwallmutants
+	180409_wt
+2
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata/ashley_henry/cellwallmutants/180409_wt
+	wt1
+1
+D/home/jbustamante/Dropbox/EdgarSpalding/labdata/ashley_henry/cellwallmutants/180409_wt/wt1
+	At_wt_3.tif
+1
+D/home/jbustamante/Pictures
+	..
+0
+D/home/jbustamante
+	Downloads
+47
+D/home/jbustamante/Downloads
+	..
+0
+D/home/jbustamante/Dropbox
+	EdgarSpalding
+7
+D/home/jbustamante/Downloads
+	..
+0
+D/home/jbustamante
+	Documents
+47
+D/home/jbustamante/Documents
+	..
+0
+D/home/jbustamante/Downloads
+	..
+0
+D/home/jbustamante/Documents
+	..
+0
+D/home/jbustamante
+	Dropbox
+47
+D/home/jbustamante/Dropbox
+	EdgarSpalding
+7
+D/home/jbustamante/Dropbox/EdgarSpalding
+	labdata
+1
+D/home/jbustamante/Documents
+	..
+0
+D/home/jbustamante/Downloads
+	R2018b.zip
+1
+D/home/jbustamante/Documents
+	Backups
+2
+D/home/jbustamante/Downloads
+	..
+0
+D/home/jbustamante
+	Dropbox
+47
+D/home/jbustamante/Dropbox
+	Pictures
+10
+D/home/jbustamante/Dropbox/Pictures
+	..
+0
+D/home/jbustamante/Dropbox
+	Screenshots
+12
+D/home/jbustamante/Dropbox/Screenshots
+	..
+0
+D/home/jbustamante/Dropbox
+	Pictures
+10
+D/home/jbustamante/Dropbox/Pictures
+	screenshots
+3
+D/home/jbustamante/Dropbox/Pictures/screenshots
+	190108_farmpainting.png
+11
+D
+
+# Command line history (oldest to newest):
+:h
+:help
+:only
+:sp
+:vsp
+:q
+
+# Search history (oldest to newest):
+/meg
+/note
+/guo
+/ed
+/dr
+/hy
+/pr
+/h
+/me
+/con
+/i3
+/vid
+/drop
+/conf
+/qute
+/vifm
+/sc
+/down
+/doc
+/dropbox
+/Dj'D
+/picln/pic
+/pic
+
+# Prompt history (oldest to newest):
+pDropbox
+pconfig.original
+pconfig.org
+pconfig.orginal
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/jbustamante/Pictures/screenshots/190108_farmpainting.png
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/jbustamante/.local/share/vifm/Trash/000_vifm-v0.8.2-builtin-normal.pdf
+	/home/jbustamante/Downloads/vifm-v0.8.2-builtin-normal.pdf
+t/home/jbustamante/.local/share/vifm/Trash/000_vifm-v0.8.2-builtin-normal.tex
+	/home/jbustamante/Downloads/vifm-v0.8.2-builtin-normal.tex
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0
