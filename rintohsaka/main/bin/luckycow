@@ -1,0 +1,2 @@
+fortune | cowsay -f mech-and-cow | lolcat 
+

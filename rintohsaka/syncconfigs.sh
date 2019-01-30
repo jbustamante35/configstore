@@ -33,6 +33,7 @@ echo "Profile: $profile"
 echo "Syncing configuration..."
 
 # main
+${sync} ~/bin                ${main}
 ${sync} ~/.dotify/.profile   ${main}
 ${sync} ~/.dotify/.bashrc    ${main}
 ${sync} ~/.dotify/.zshrc     ${main}

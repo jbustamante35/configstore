@@ -7,3 +7,4 @@ global:
     q: quit
     w: session-save
     wq: quit --save
+  downloads.location.directory: ~/Documents

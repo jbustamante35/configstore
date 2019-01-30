@@ -17,7 +17,7 @@ xftalpha   1
 update_interval  3
 cpu_avg_samples  8
 double_buffer    yes
-alignment        br
+alignment        bl
 no_buffers       yes
 imlib_cache_size 0
 
@@ -39,25 +39,24 @@ maximum_width       400
 gap_x               10
 gap_y               25
 
-default_color darkgray
-color2        darkgray
-color3        red
-color4        yellow
+default_color ac9cd8 # Function Key
+color2        e8b882 # Application
+color3        e69c71 # Heading
 
 ###############################################################################
 # Function Bindings
 TEXT
 ${color3}${font Cantarell:size=16} FUNCTION BINDINGS
 ${font} ${voffset -2} ${hr 3} ${color2}
-${color4} F1  $alignr ${color2} Calendar
-${color4} F2  $alignr ${color2} Pulse Mixer
-${color4} F3  $alignr ${color2} Google Play Music
-${color4} F4  $alignr ${color2} Spotify
-${color4} F5  $alignr ${color2} Mailspring
-${color4} F6  $alignr ${color2} PushBullet
-${color4} F7  $alignr ${color2} Android Messages
-${color4} F8  $alignr ${color2} Slack
-${color4} F9  $alignr ${color2} Google Hangouts
-${color4} F10 $alignr ${color2} Facebook Messenger
-${color4} F11 $alignr ${color2} Wal
-${color4} F12 $alignr ${color2} [not bound]
+${color} F1  $alignr ${color2} Calendar
+${color} F2  $alignr ${color2} Pulse Mixer
+${color} F3  $alignr ${color2} Google Play Music
+${color} F4  $alignr ${color2} Spotify
+${color} F5  $alignr ${color2} Mailspring
+${color} F6  $alignr ${color2} PushBullet
+${color} F7  $alignr ${color2} Android Messages
+${color} F8  $alignr ${color2} Slack
+${color} F9  $alignr ${color2} Google Hangouts
+${color} F10 $alignr ${color2} Facebook Messenger
+${color} F11 $alignr ${color2} Wal
+${color} F12 $alignr ${color2} [not bound]

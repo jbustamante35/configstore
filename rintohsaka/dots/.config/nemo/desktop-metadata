@@ -2,26 +2,26 @@
 nemo-icon-view-auto-layout=true
 nemo-icon-view-tighter-layout=false
 nemo-icon-view-keep-aligned=true
-nemo-icon-view-layout-timestamp=1544680663
+nemo-icon-view-layout-timestamp=1548530281
 nemo-icon-view-zoom-level=2
 
 [home]
 nemo-icon-position=41,2
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1544681505
+nemo-icon-position-timestamp=1548531516
 
 [trash]
-nemo-icon-position=41,68
+nemo-icon-position=41,266
 monitor=0
 icon-scale=1
-nemo-icon-position-timestamp=1544681505
+nemo-icon-position-timestamp=1548531516
 
 [desktop-monitor-1]
 nemo-icon-view-auto-layout=true
 nemo-icon-view-tighter-layout=false
 nemo-icon-view-keep-aligned=true
-nemo-icon-view-layout-timestamp=1544680663
+nemo-icon-view-layout-timestamp=1548530281
 nemo-icon-view-zoom-level=2
 
 [194 GB Volume.volume]
@@ -35,3 +35,27 @@ nemo-icon-position=41,200
 monitor=0
 icon-scale=1
 nemo-icon-position-timestamp=1544502783
+
+[Audio Disc.volume]
+nemo-icon-position=41,266
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1548530444
+
+[47 GB Volume.volume]
+nemo-icon-position=41,134
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1548531516
+
+[140 GB Volume.volume]
+nemo-icon-position=41,200
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1548531516
+
+[1.1 GB Volume.volume]
+nemo-icon-position=41,68
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1548531516

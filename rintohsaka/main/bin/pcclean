@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Cleaning pc..."
+sudo apt autoremove && sudo apt autoclean
+echo "pc cleaned"
