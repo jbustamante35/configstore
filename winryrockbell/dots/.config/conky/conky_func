@@ -26,7 +26,7 @@ gap_y      40
 update_interval  3
 cpu_avg_samples  8
 double_buffer    yes
-alignment        top_right
+alignment        tr
 no_buffers       yes
 imlib_cache_size 0
 
@@ -46,24 +46,24 @@ border_width        1
 minimum_size        300
 maximum_width       500
 
-default_color 307379
-color2        aa610e
-color3        orange
+default_color 22131e # Function Key
+color2        136bb0 # Application
+color3        e6bb24 # Title
 
 ################################################################################
 TEXT
 # Function Key Bindings
-${color2} ${font Cantarell:size=10} FUNCTION KEY BINDINGS
+${color3} ${font Cantarell:size=10} FUNCTION KEY BINDINGS
 ${font} ${voffset 1} ${hr 2} $color
-${voffset 1} ${color} ${font Cantarell:size=9} Calendar           $alignr ${color3} F1
-${voffset 1} ${color} ${font Cantarell:size=9} Pulse Mixer        $alignr ${color3} F2
-${voffset 1} ${color} ${font Cantarell:size=9} Google Play Music  $alignr ${color3} F3
-${voffset 1} ${color} ${font Cantarell:size=9} Spotify            $alignr ${color3} F4
-${voffset 1} ${color} ${font Cantarell:size=9} Mailspring         $alignr ${color3} F5
-${voffset 1} ${color} ${font Cantarell:size=9} Android Messages   $alignr ${color3} F6
-${voffset 1} ${color} ${font Cantarell:size=9} PushBullet         $alignr ${color3} F7
-${voffset 1} ${color} ${font Cantarell:size=9} Slack              $alignr ${color3} F8
-${voffset 1} ${color} ${font Cantarell:size=9} Google Hangouts    $alignr ${color3} F9
-${voffset 1} ${color} ${font Cantarell:size=9} Facebook Messenger $alignr ${color3} F10
-${voffset 1} ${color} ${font Cantarell:size=9} Wal                $alignr ${color3} F11
-${voffset 1} ${color} ${font Cantarell:size=9} [not bound]        $alignr ${color3} F12
+${voffset 1} ${color2} ${font Cantarell:size=9} Calendar           $alignr ${color} F1
+${voffset 1} ${color2} ${font Cantarell:size=9} Pulse Mixer        $alignr ${color} F2
+${voffset 1} ${color2} ${font Cantarell:size=9} Google Play Music  $alignr ${color} F3
+${voffset 1} ${color2} ${font Cantarell:size=9} Spotify            $alignr ${color} F4
+${voffset 1} ${color2} ${font Cantarell:size=9} Mailspring         $alignr ${color} F5
+${voffset 1} ${color2} ${font Cantarell:size=9} Android Messages   $alignr ${color} F6
+${voffset 1} ${color2} ${font Cantarell:size=9} PushBullet         $alignr ${color} F7
+${voffset 1} ${color2} ${font Cantarell:size=9} Slack              $alignr ${color} F8
+${voffset 1} ${color2} ${font Cantarell:size=9} Google Hangouts    $alignr ${color} F9
+${voffset 1} ${color2} ${font Cantarell:size=9} Facebook Messenger $alignr ${color} F10
+${voffset 1} ${color2} ${font Cantarell:size=9} Wal                $alignr ${color} F11
+${voffset 1} ${color2} ${font Cantarell:size=9} [not bound]        $alignr ${color} F12

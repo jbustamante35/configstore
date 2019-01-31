@@ -58,6 +58,8 @@ alias myip='curl http://ipecho.net/plain; echo'
 alias svim='sudo vim '
 alias rm='rm -I'
 alias RM='sudo rm -Ird'
+alias kl='RM */.git'
+alias kll='RM */*/.git'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -91,6 +93,7 @@ alias matlab='matlab -nosplash'
 alias medit='matlab -nodesktop -nosplash -nodisplay'
 alias mconsole='matlab -nodesktop -nosplash'
 alias sl='sl -e'
+alias zt='zathura '
 
 # iRODS aliases
 alias idata='irodsFs -o allow_other $HOME/idata'

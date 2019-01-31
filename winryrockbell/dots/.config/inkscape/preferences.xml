@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="0"
-         width="62.8571"
-         height="5.71429"
+         width="2188.26"
+         height="1583.82"
          rx="0"
          ry="0" />
       <eventcontext
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -414,7 +414,7 @@
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
        selcue="1"
-       curvature="3"
+       curvature="0"
        length="100" />
     <eventcontext
        id="paintbucket"
@@ -424,7 +424,7 @@
        offset="0"
        offsetunits="mm" />
     <group
-       unit="mm"
+       unit="px"
        offset="5"
        scale="100"
        precision="2"
@@ -550,7 +550,7 @@
   </group>
   <group
      id="colorselector"
-     page="0" />
+     page="1" />
   <group
      id="embedded">
     <group
@@ -573,27 +573,88 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="2"
+       page="0"
        x="0"
        y="0"
-       w="451"
-       h="450"
+       w="564"
+       h="574"
        visible="1"
        state="2"
-       placement="1" />
+       placement="5" />
     <group
        id="filtereffects" />
     <group
-       id="textandfont" />
+       id="textandfont"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="564"
+       h="574"
+       visible="1"
+       state="2"
+       placement="5" />
     <group
        id="transformation"
-       applyseparately="0" />
+       applyseparately="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       rotateCounterClockwise="1"
+       x="0"
+       y="0"
+       w="564"
+       h="574"
+       visible="1"
+       state="2"
+       placement="5" />
     <group
-       id="align" />
+       id="align"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="564"
+       h="574"
+       visible="1"
+       state="2"
+       placement="5" />
     <group
-       id="xml" />
+       id="xml"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="428"
+       h="266"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
-       id="find" />
+       id="find"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="577"
+       h="838"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="spellcheck"
        w="200"
@@ -602,7 +663,18 @@
        ignorenumbers="1" />
     <group
        id="documentoptions"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="6720"
+       y="600"
+       w="992"
+       h="842"
+       visible="0"
+       placement="1" />
     <group
        id="preferences"
        state="1"
@@ -612,14 +684,26 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="717"
-       y="415"
-       w="485"
-       h="250" />
+       x="3421"
+       y="921"
+       w="838"
+       h="362" />
     <group
        id="gradienteditor" />
     <group
-       id="object" />
+       id="object"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="489"
+       h="510"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="export"
        default=""
@@ -649,7 +733,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/jbustamante/Downloads"
+       path="/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome/poster"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -660,11 +744,11 @@
     <group
        id="open"
        enable_preview="1"
-       path="" />
+       path="/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome/poster/" />
     <group
        id="import"
        enable_preview="1"
-       path="/home/jbustamante/Downloads/"
+       path="/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome/poster/logos/"
        ask="0"
        link="embed"
        scale="auto"
@@ -673,9 +757,24 @@
        id="debug"
        redirect="0" />
     <group
-       id="clonetiler" />
+       id="clonetiler"
+       dotrace="0" />
     <group
-       id="gridtiler" />
+       id="gridtiler"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       SpacingType="20"
+       x="0"
+       y="0"
+       w="713"
+       h="522"
+       NoOfCols="1"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="extension-error"
        show-on-startup="0" />
@@ -693,7 +792,19 @@
        id="treeeditor" />
     <group
        id="layers"
-       maxDepth="20" />
+       maxDepth="20"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="564"
+       h="574"
+       visible="1"
+       state="2"
+       placement="5" />
     <group
        id="extensioneditor" />
     <group
@@ -730,6 +841,34 @@
          panel_size="0"
          id="" />
     </group>
+    <group
+       id="svgfonts"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="713"
+       h="574"
+       visible="0"
+       state="2"
+       placement="1" />
+    <group
+       id="objects"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="451"
+       h="791"
+       visible="0"
+       state="2"
+       placement="1" />
   </group>
   <group
      id="printing">
@@ -1021,12 +1160,12 @@
      org.inkscape.input.gdkpixbuf.jpg.do_not_ask="1" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:none;stroke:#f6fb00;stroke-opacity:1;stroke-width:20.27716535;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-linejoin:round;fill-opacity:1">
+     style="line-height:1.25;fill:#0000ff;stroke:#000000;stroke-opacity:0.97085202;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-linejoin:miter;fill-opacity:0;-inkscape-font-specification:'Cabin, Semi-Bold';font-family:Cabin;font-weight:600;font-style:normal;font-stretch:normal;font-variant:normal;font-size:60px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;fill-rule:nonzero;paint-order:normal;stroke-linecap:butt;opacity:1">
     <group
-       width="3712"
-       height="2001"
-       x="60"
-       y="60"
+       width="3812"
+       height="2088"
+       x="1930"
+       y="54"
        fullscreen="0"
        id="geometry"
        maximized="0" />

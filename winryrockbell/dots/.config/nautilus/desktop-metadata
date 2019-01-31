@@ -1,10 +1,10 @@
 [directory]
 nautilus-icon-view-keep-aligned=true
-nautilus-icon-view-layout-timestamp=1542784757
+nautilus-icon-view-layout-timestamp=1545206069
 nautilus-desktop-icon-size=96
 
 [trash]
-nautilus-icon-position-timestamp=1542784757
+nautilus-icon-position-timestamp=1545206069
 nautilus-icon-position=56,226
 icon-scale=1
 
@@ -16,12 +16,12 @@ nautilus-icon-position-timestamp=1534891650
 [home]
 nautilus-icon-position=56,26
 icon-scale=1
-nautilus-icon-position-timestamp=1542784757
+nautilus-icon-position-timestamp=1545206069
 
 [network]
 nautilus-icon-position=56,126
 icon-scale=1
-nautilus-icon-position-timestamp=1542784757
+nautilus-icon-position-timestamp=1545206069
 
 [jbustamante35@gmail.com.volume]
 nautilus-icon-position=56,446

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/jbustamante/.config/wpg/wallpapers/xwingblueprint.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0b0a0a",
+        "foreground": "#e1e1df",
+        "cursor": "#e1e1df"
+    },
+    "colors": {
+        "color0": "#0b0a0a",
+        "color1": "#65625C",
+        "color2": "#8F6D67",
+        "color3": "#868678",
+        "color4": "#A8A69F",
+        "color5": "#C3B9B3",
+        "color6": "#C5C4BC",
+        "color7": "#e1e1df",
+        "color8": "#9d9d9c",
+        "color9": "#65625C",
+        "color10": "#8F6D67",
+        "color11": "#868678",
+        "color12": "#A8A69F",
+        "color13": "#C3B9B3",
+        "color14": "#C5C4BC",
+        "color15": "#e1e1df"
+    }
+}

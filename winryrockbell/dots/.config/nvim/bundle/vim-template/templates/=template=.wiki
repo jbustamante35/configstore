@@ -1,13 +1,13 @@
 = %MONTH%.%DAY%.%YEAR% TITLE =
 
-_*EVENT1*_ <br />
+==== EVENT1 ====
 
-_*EVENT2*_ <br />
+==== EVENT2 ====
 
-_*EVENTN*_ <br />
+==== EVENTN ====
 
-
-Activities Summary ----------------------------------------------------- <br />
+-------------------------------------------------------------------------------
+=== Activities Summary ===
 ==== Meals ====
 - Breakfast
     -

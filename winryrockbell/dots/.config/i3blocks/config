@@ -8,10 +8,6 @@ markup=pango
 label=📦
 interval=60
 
-#[wifi]
-#instance=wlp3s0
-#interval=10
-
 [cpu_usage]
 label=CPU
 interval=10
@@ -20,10 +16,6 @@ min_width=CPU: 100.00%
 [temperature]
 command=~/.scripts/i3scripts/i3temperature -w 55 -c 70
 interval=10
-
-#[weather]
-#command=~/.scripts/i3scripts/i3weather madison
-#interval=3600
 
 [email]
 command=~/.scripts/i3scripts/i3mail
