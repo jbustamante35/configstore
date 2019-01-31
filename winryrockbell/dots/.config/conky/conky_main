@@ -46,9 +46,9 @@ border_width        1
 minimum_size        600
 maximum_width       800
 
-default_color 307379
-color2        aa610e
-color3        orange
+default_color 22131e # Text
+color2        136bb0 # Titles
+color3        e6bb24 # Heading
 
 ################################################################################
 TEXT

@@ -33,38 +33,60 @@
 !lightmagenta
 !bluegreen
 
-*foreground:       #aa610e
-*background:       #307379
-*foreground_bold:  #e67e0b
-*cursor:           #307379
+!*foreground:       #aa610e
+!*background:       #307379
+!*foreground_bold:  #e67e0b
+!*cursor:           #307379
+!
+!*color0:           #000000
+!*color8:           #878787
+!*color1:           #7e162c
+!*color9:           #f00f3e
+!*color2:           #16730d
+!*color10:          #35f623
+!*color3:           #ccb90f
+!*color11:          #fff62e
+!*color4:           #280a8f
+!*color12:          #383fdc
+!*color5:           #931a73
+!*color13:          #e56cc5
+!*color6:           #132d2e
+!*color14:          #5cffee
+!*color7:           #c2c2c2
+!*color15:          #ffffff
+!
+!*color16:          #aa610e
+!*color17:          #e67e0b
+!*color18:          #e79dac
+!*color19:          #f4d79a
+!*color20:          #f8f6c3
+!*color21:          #bdf69d
+!*color22:          #c7d0f5
+!*color23:          #c0f2ec
+!*color24:          #f6d5ed
+!*color25:          #307379
 
-*color0:           #000000
-*color8:           #878787
-*color1:           #7e162c
-*color9:           #f00f3e
-*color2:           #16730d
-*color10:          #35f623
-*color3:           #ccb90f
-*color11:          #fff62e
-*color4:           #280a8f
-*color12:          #383fdc
-*color5:           #931a73
-*color13:          #e56cc5
-*color6:           #132d2e
-*color14:          #5cffee
-*color7:           #c2c2c2
-*color15:          #ffffff
-
-*color16:          #aa610e
-*color17:          #e67e0b
-*color18:          #e79dac
-*color19:          #f4d79a
-*color20:          #f8f6c3
-*color21:          #bdf69d
-*color22:          #c7d0f5
-*color23:          #c0f2ec
-*color24:          #f6d5ed
-*color25:          #307379
+!! The default colors are "Gruvbox":
+!*.foreground:       #651009
+!*.foreground_bold:  #ba9a6b
+!*.background:       #2b2b2b
+!*.cursor:           #2b2b2b
+!*.color0:           #000000
+!*.color1:           #cc241d
+!*.color2:           #98971a
+!*.color3:           #d79921
+!*.color4:           #458588
+!*.color5:           #b16286
+!*.color6:           #689d6a
+!*.color7:           #a89984
+!*.color8:           #928374
+!*.color9:           #fb4934
+!*.color10:          #b8bb26
+!*.color11:          #fabd2f
+!*.color12:          #83a598
+!*.color13:          #d3869b
+!*.color14:          #8ec07c
+!*.color15:          #ffffff
 
 !! URxvt configuration
 ! Settings

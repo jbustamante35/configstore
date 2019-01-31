@@ -1,0 +1,4 @@
+#!/bin/bash
+# Replace dmenu prompt with rofi
+
+rofi -modi window,drun,run -show drun -sidebar-mode -terminal urxvt

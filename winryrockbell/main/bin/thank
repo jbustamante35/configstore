@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#echo "Thank $1 $2"
+
+if [ "$1" == "you," ]; then
+    if [ "$2" == "computer" ]; then
+        echo "You're welcome, $(whoami)"
+    fi
+fi
+
+
