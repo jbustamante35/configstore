@@ -1,5 +1,5 @@
 command=~/.scripts/i3scripts/$BLOCK_NAME
-separator_block_width=20
+separator_block_width=25
 markup=pango
 
 #[apt-upgrades]

@@ -36,17 +36,19 @@
 # TODO: re-write setupi3 script because it sucks right now
 set $mod  Mod4
 set $alt  Mod1
-set $term kitty
+#set $term kitty
+set $term terminator
+set $sat  0.8
 font pango:DejaVu Sans Mono, Awesome 8
+exec        --no-startup-id urxvtdaemon.sh
+exec        --no-startup-id colorsource.sh
 exec        --no-startup-id setupi3.sh
+exec        --no-startup-id dropbox start
+exec        --no-startup-id pb-for-desktop
 exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
 exec_always --no-startup-id bash ~/.config/conky/conky.sh
-exec_always --no-startup-id wal -c -i ~/.config/wall.png --saturate 0.7
-exec        --no-startup-id dropbox start
-exec        --no-startup-id pb-for-desktop
-exec        --no-startup-id xrdb -load ~/.cache/wal/colors.Xresource
-exec        --no-startup-id xrdb -load ~/.Xresource
+exec_always --no-startup-id wal -c | wal --backend wal -i ~/.config/wall.png --saturate $sat
 
 # Set gif wallpaper
 #exec_always --no-startup-id killall ~/bin/gifbg.sh
@@ -82,7 +84,7 @@ bindsym Control+XF86AudioLowerVolume    exec --no-startup-id pactl set-sink-volu
 
 # Volume control for JBL Flip 4
 # TODO: dynamically set binding for device ID; research i3-msg
-set $blu 6
+set $blu 1
 bindsym $alt+XF86AudioMute                exec --no-startup-id pactl set-sink-mute   $blu toggle # mute sound
 bindsym $alt+XF86AudioRaiseVolume         exec --no-startup-id pactl set-sink-volume $blu +05% #increase sound volume +5
 bindsym $alt+Shift+XF86AudioRaiseVolume	  exec --no-startup-id pactl set-sink-volume $blu +10% #increase sound volume +10
@@ -117,8 +119,8 @@ bindsym $mod+F8  exec --no-startup-id slack
 bindsym $mod+F9  exec --no-startup-id yakyak
 bindsym $mod+F10 exec --no-startup-id caprine
 bindsym $mod+F11 exec --no-startup-id wal -c -i ~/.config/wall.png --saturate 0.7
-#bindsym $mod+F12 [BRIGHTNESS UP]
-
+bindsym $mod+F12 exec --no-startup-id arandr
+bindsym $alt+F12 exec --no-startup-id colorsource.sh
 
 ################################################################################
 ## Applications
@@ -348,68 +350,8 @@ bar {
 	status_command i3blocks
 	position top
 	modifier None
+        #separator_symbol ":|:"
+        separator_symbol    "℣"
 }
 
-### Tiling and menubar
-#set $black        #000000
-#set $darkgray     #878787
-#set $lightgray    #c2c2c2
-#set $white        #ffffff
-#set $lightred     #e79dac
-##set $red          #f00f3e
-#set $red          #eb0a1c
-#set $darkred      #7e162c
-#set $lightmagenta #f6d5ed
-#set $magenta      #e56cc5
-#set $darkmagenta  #931a73
-#set $lightorange  #f4d79a
-#set $orange       #ed8e0c
-#set $darkorange   #aa610e
-#set $lightyellow  #f8f6c3
-#set $yellow       #fff62e
-##set $darkyellow   #ccb90f
-#set $darkyellow   #d2a56e
-#set $lightgreen   #bdf69d
-#set $green        #35f623
-#set $darkgreen    #16730d
-#set $lightcyan    #c0f2ec
-#set $cyan         #5cffee
-#set $darkcyan     #206a62
-#set $lightblue    #c7d0f5
-##set $blue         #383fdc
-#set $blue         #3e007d
-#set $darkblue     #1b0037
-#
-##WINDOW                 BORDER          BACKGROUND     TEXT          INDICATOR       CHILD_BORDER
-#client.focused          $darkyellow     $red           $white        $darkcyan       $darkred
-#client.unfocused        $darkred        $blue          $white        $lightmagenta   $darkblue
-#client.focused_inactive $darkred        $blue          $white        $darkmagenta    $darkblue
-#client.urgent           $magenta        $yellow        $yellow       $cyan           $lightred
-#client.placeholder      $darkblue       $red           $darkblue     $darkblue       $darkblue
-#client.background       $darkblue
-#
-## i3block for toggling NUM and CAPS lock
-#bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
-#bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
-#
-## i3bar
-#bar {
-#	font pango: DejaVu Sans Mono, FontAwesome 10
-#	colors {
-#	    background          $darkblue
-#	    statusline          $red
-#	    separator           $darkblue
-#
-#            #WORKSPACE          BORDER          FILL            TEXT
-#            focused_workspace   $darkblue      $darkblue       $darkyellow
-#            active_workspace    $darkblue      $darkblue       $red
-#            inactive_workspace  $darkblue      $darkblue       $darkgray
-#            urgent_workspace    $darkblue      $red            $yellow
-#	}
-#
-#        #status_command i3status
-#	status_command i3blocks
-#	position top
-#	modifier None
-#}
 
