@@ -1,0 +1,6 @@
+.aliases
+.bashrc
+.functions
+.profile
+.vimrc
+.zshrc

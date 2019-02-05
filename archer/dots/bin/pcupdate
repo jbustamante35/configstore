@@ -1,0 +1,6 @@
+#!/usr/bin/sh
+
+sudo dnf upgrade
+sudo pip install  -U $(pip freeze  | awk '{split($0, a, "=="); print a[1]}')
+sudo pip3 install -U $(pip3 freeze | awk '{split($0, a, "=="); print a[1]}')
+

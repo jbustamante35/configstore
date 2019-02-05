@@ -1,0 +1,331 @@
+# vim: filetype=i3
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#                              ______
+#                            _ |___  )
+#                           (_)  __) )
+#                           | | |__  )
+#                           | | ___) )
+#                           |_||_____)
+#
+################################################################################
+
+set $mod        Mod4
+set $alt        Mod1
+set $term       urxvt
+set $walsat     0.8
+font            pango:DejaVu Sans Mono,10
+
+#################### Main Setup ##############################
+# Startup Commands
+exec            --no-startup-id bash ~/bin/setupi3.sh
+#exec            --no-startup-id feh --bg-scale ~/.config/wall.png
+#exec            --no-startup-id xrdb -merge ~/.Xresources
+#exec           --no-startup-id dropbox start
+#exec           --no-startup-id pb-for-desktop
+#exec_always     --no-startup-id sh ~/bin/colorsource.sh
+exec_always     --no-startup-id wal -c && wal --backend wal -i ~/.config/wall.png  --saturate $walsat
+#exec_always    --no-startup-id compton --config ~/.config/compton/compton.conf
+#exec_always    --no-startup-id dunst -config ~/.config/dunst/dunstrc
+#exec_always    --no-startup-id sh ~/.config/conky/conky.sh
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+c            restart
+bindsym $alt+Delete             exec --no-startup-id    ~/.scripts/i3scripts/i3shutdown
+bindsym Control+$alt+Delete     exec --no-startup-id    i3lock -i ~/.config/lock.png -t -f -p default
+bindsym $mod+Shift+p            exec --no-startup-id    systemctl suspend
+bindsym $mod+Shift+e            exec --no-startup-id    "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# Volume Control [alsamixer]
+set $master 0
+bindsym XF86AudioMute                exec --no-startup-id pulsemixer --id $master --toggle-mute
+bindsym XF86AudioRaiseVolume	     exec --no-startup-id pulsemixer --id $master --change-volume +"05"
+bindsym Shift+XF86AudioRaiseVolume   exec --no-startup-id pulsemixer --id $master --change-volume +"10"
+bindsym Control+XF86AudioRaiseVolume exec --no-startup-id pulsemixer --id $master --change-volume +"01"
+bindsym XF86AudioLowerVolume	     exec --no-startup-id pulsemixer --id $master --change-volume -"05"
+bindsym Shift+XF86AudioLowerVolume   exec --no-startup-id pulsemixer --id $master --change-volume -"10"
+bindsym Control+XF86AudioLowerVolume exec --no-startup-id pulsemixer --id $master --change-volume -"01"
+
+bindsym $mod+Shift+m       exec --no-startup-id pulsemixer --id $master --toggle-mute
+bindsym $mod+plus          exec --no-startup-id pulsemixer --id $master --change-volume +"05"
+bindsym $mod+Shift+plus    exec --no-startup-id pulsemixer --id $master --change-volume +"10"
+bindsym $mod+Control+plus  exec --no-startup-id pulsemixer --id $master --change-volume +"01"
+bindsym $mod+minus         exec --no-startup-id pulsemixer --id $master --change-volume -"05"
+bindsym $mod+Shift+minus   exec --no-startup-id pulsemixer --id $master --change-volume -"10"
+bindsym $mod+Control+minus exec --no-startup-id pulsemixer --id $master --change-volume -"01"
+
+#set $blu 1
+#bindsym XF86AudioMute                exec --no-startup-id pulsemixer --id $blu --toggle-mute
+#bindsym XF86AudioRaiseVolume	     exec --no-startup-id pulsemixer --id $blu --change-volume +"05"
+#bindsym Shift+XF86AudioRaiseVolume   exec --no-startup-id pulsemixer --id $blu --change-volume +"10"
+#bindsym Control+XF86AudioRaiseVolume exec --no-startup-id pulsemixer --id $blu --change-volume +"01"
+#bindsym XF86AudioLowerVolume	     exec --no-startup-id pulsemixer --id $blu --change-volume -"05"
+#bindsym Shift+XF86AudioLowerVolume   exec --no-startup-id pulsemixer --id $blu --change-volume -"10"
+#bindsym Control+XF86AudioLowerVolume exec --no-startup-id pulsemixer --id $blu --change-volume -"01"
+
+#bindsym $alt+Shift+m       exec --no-startup-id pulsemixer --id $blu --toggle-mute
+#bindsym $alt+plus          exec --no-startup-id pulsemixer --id $blu --change-volume +"05"
+#bindsym $alt+Shift+plus    exec --no-startup-id pulsemixer --id $blu --change-volume +"10"
+#bindsym $alt+Control+plus  exec --no-startup-id pulsemixer --id $blu --change-volume +"01"
+#bindsym $alt+minus         exec --no-startup-id pulsemixer --id $blu --change-volume -"05"
+#bindsym $alt+Shift+minus   exec --no-startup-id pulsemixer --id $blu --change-volume -"10"
+#bindsym $alt+Control+minus exec --no-startup-id pulsemixer --id $blu --change-volume -"01"
+
+# Brightness/Gamma Control
+bindsym XF86MonBrightnessDown       exec --no-startup-id xbacklight -dec 5
+bindsym Shift+XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
+bindsym XF86MonBrightnessUp         exec --no-startup-id xbacklight -inc 5
+bindsym Shift+XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 10
+
+# Configure i3gaps
+for_window [class="^.*"] border pixel 2
+gaps inner 10
+gaps outer 10
+
+# i3-gaps resizing
+bindsym $mod+t		split toggle
+bindsym $mod+Shift+t	gaps inner current set 15; gaps outer current set 15
+bindsym $mod+Shift+d	gaps inner current set 0; gaps outer current set 0
+bindsym $mod+s		gaps inner current plus 5
+bindsym $mod+Shift+s	gaps inner current minus 5
+bindsym $mod+z		gaps outer current plus 5
+bindsym $mod+Shift+z	gaps outer current minus 5
+
+# Screen setups
+bindsym $alt+Shift+w    exec --no-startup-id    ~/bin/triplefull.sh
+bindsym $alt+w          exec --no-startup-id    ~/bin/reasonableenough.sh
+
+# Color Sourcing
+bindsym $alt+grave      exec --no-startup-id ~/bin/colorsource.sh
+#bindsym $alt+grave       --no-startup-id exec xrdb -load ~/.cache/wal/colors.Xresources
+#bindsym $alt+Shift+grave --no-startup-id exec xrdb -merge ~/.Xresources
+
+##################### Applications ##############################
+# Screenshots [ u: focused window | s: selection ]
+bindsym Print                   exec --no-startup-id scrot -e    'mv $f ~/Pictures/screenshots/'
+bindsym Shift+Print		exec --no-startup-id scrot -u -e 'mv $f ~/Pictures/screenshots/'
+bindsym Control+Shift+Print     exec --no-startup-id scrot -s -e 'mv $f ~/Pictures/screenshots/'
+
+# Screen recordings [I'd rather specify formatting each time instead of having headless key bindings]
+bindsym $mod+Print      exec --no-startup-id    simplescreenrecorder
+
+# Terminals [ b: bash | n: zsh/st |`: urxvt/kitty ]
+bindsym $mod+grave              exec --no-startup-id urxvt
+bindsym $mod+Shift+grave        exec --no-startup-id urxvt -e /bin/zsh
+
+# Browsers
+bindsym $mod+Shift+g   exec --no-startup-id google-chrome-beta
+bindsym $mod+Shift+f   exec --no-startup-id firefox
+bindsym $mod+Shift+h   exec --no-startup-id qutebrowser
+
+# System Applications
+bindsym $mod+r          exec --no-startup-id urxvt -e ranger
+bindsym $mod+Control+r  exec --no-startup-id urxvt -e nnn
+bindsym $mod+Control+h  exec --no-startup-id $term -e htop
+bindsym $mod+Control+j  exec --no-startup-id $term -e gotop
+
+# Misc
+bindsym $mod+y  exec --no-startup-id $term -e calcurse
+bindsym $alt+u  exec --no-startup-id $term -e nvim -c :VimwikiUISelect
+bindsym $alt+i  exec --no-startup-id $term -e nvim -c :VimwikiIndex
+bindsym $alt+o  exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
+bindsym $alt+p  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
+
+# Function buttons
+bindsym $mod+F1  exec --no-startup-id $term -e nvim -c :Calendar
+bindsym $mod+F2  exec --no-startup-id $term -e pulsemixer
+bindsym $mod+F3  exec --no-startup-id google-play-music-desktop-player
+bindsym $mod+F4  exec --no-startup-id spotify
+bindsym $mod+F5  exec --no-startup-id mailspring
+bindsym $mod+F6  exec --no-startup-id android-messages
+bindsym $mod+F7  exec --no-startup-id pb-for-desktop
+bindsym $mod+F8  exec --no-startup-id slack
+bindsym $mod+F9  exec --no-startup-id yakyak
+bindsym $mod+F10 exec --no-startup-id caprine
+bindsym $mod+F11 exec --no-startup-id wal -c && wal --backend wal -i ~/.config/wall.png --saturate $walsat
+bindsym $mod+F12 exec --no-startup-id arandr
+
+################### General Navigation ###############################
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# start terminal, kill focused window, toggle touchpad, start dmenu
+bindsym $mod+Return       exec $term
+bindsym $mod+Shift+Return exec $term -e /bin/zsh
+bindsym $mod+Shift+q      kill
+bindsym $alt+t            exec --no-startup-id toggletouchpad
+bindsym $mod+d            exec rofi_run
+#bindsym $mod+d            exec dmenu_run
+
+# change focus
+bindsym $mod+j          focus left
+bindsym $mod+k          focus down
+bindsym $mod+l          focus up
+bindsym $mod+semicolon  focus right
+bindsym $mod+Left       focus left
+bindsym $mod+Down       focus down
+bindsym $mod+Up         focus up
+bindsym $mod+Right      focus right
+
+# move focused window
+bindsym $mod+Shift+j          move  left 50
+bindsym $mod+Shift+k          move  down 50
+bindsym $mod+Shift+l          move    up 50
+bindsym $mod+Shift+semicolon  move right 50
+bindsym $mod+Shift+Left       move  left 10
+bindsym $mod+Shift+Down       move  down 10
+bindsym $mod+Shift+Up         move    up 10
+bindsym $mod+Shift+Right      move right 10
+
+# split orientation [ h: horizontal | v: veritcal ]
+bindsym $mod+h split h
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+e           layout toggle split
+bindsym $mod+w           layout tabbed
+bindsym $mod+Control+s   layout stacking
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space	 focus mode_toggle
+
+# focus to parent or child container
+bindsym $mod+a       focus parent
+bindsym $mod+Shift+a focus child
+
+# improved window resizing [from Luke Smith config]
+bindsym $mod+Shift+y    exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  5"
+bindsym $mod+Shift+o    exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 5"
+bindsym $mod+Shift+u    exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  5"
+bindsym $mod+Shift+i    exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    5"
+
+bindsym $mod+$alt+y     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  20"
+bindsym $mod+$alt+o     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 20"
+bindsym $mod+$alt+u     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  20"
+bindsym $mod+$alt+i     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    20"
+
+# scratchpad
+bindsym $alt+minus       scratchpad show
+bindsym $alt+Shift+minus move scratchpad
+
+######################### Workspace Management ###########################
+# Workspace variables
+set $ws01 "01"
+set $ws02 "02"
+set $ws03 "03"
+set $ws04 "04"
+set $ws05 "05"
+set $ws06 "06"
+set $ws07 "07"
+set $ws08 "08"
+set $ws09 "09"
+set $ws10 "10"
+
+# switch to workspace
+bindsym $mod+1 workspace $ws01
+bindsym $mod+2 workspace $ws02
+bindsym $mod+3 workspace $ws03
+bindsym $mod+4 workspace $ws04
+bindsym $mod+5 workspace $ws05
+bindsym $mod+6 workspace $ws06
+bindsym $mod+7 workspace $ws07
+bindsym $mod+8 workspace $ws08
+bindsym $mod+9 workspace $ws09
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws01
+bindsym $mod+Shift+2 move container to workspace $ws02
+bindsym $mod+Shift+3 move container to workspace $ws03
+bindsym $mod+Shift+4 move container to workspace $ws04
+bindsym $mod+Shift+5 move container to workspace $ws05
+bindsym $mod+Shift+6 move container to workspace $ws06
+bindsym $mod+Shift+7 move container to workspace $ws07
+bindsym $mod+Shift+8 move container to workspace $ws08
+bindsym $mod+Shift+9 move container to workspace $ws09
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# send specific programs to specific workspaces
+#assign  [class="Mailspring"]       $ws09
+#assign  [class="Slack"]            $ws09
+#assign  [class="yakyak"]           $ws09
+#assign  [class="Caprine"]          $ws09
+#assign  [class="android-messages"] $ws09
+#assign  [class="PB for Desktop"]   $ws09
+#assign  [class="Google Play"]      $ws10
+#for_window [class="Spotify"] move to workspace $ws10
+
+###################### i3bar Configuration #############################
+## Set colors from .Xresources
+set_from_resource $foreground        foreground      #000000
+set_from_resource $background        background      #000000
+set_from_resource $altfground        color66         #000000
+set_from_resource $altbground        color9          #000000
+set_from_resource $color0            color0          #000000
+set_from_resource $color8            color8          #000000
+set_from_resource $color1            color1          #000000
+set_from_resource $color9            color9          #000000
+set_from_resource $color2            color2          #000000
+set_from_resource $color10           color10         #000000
+set_from_resource $color3            color3          #000000
+set_from_resource $color11           color11         #000000
+set_from_resource $color4            color4          #000000
+set_from_resource $color12           color12         #000000
+set_from_resource $color5            color5          #000000
+set_from_resource $color13           color13         #000000
+set_from_resource $color6            color6          #000000
+set_from_resource $color14           color14         #000000
+set_from_resource $color7            color7          #000000
+set_from_resource $color15           color15         #000000
+set $transparent		                     #00000000
+
+# Set colors for containers
+#CONTAINER              BORDER       BACKGROUND    TEXT         INDICATOR     CHILDBORDER
+client.focused          $foreground  $background   $color1      $foreground   $color2
+client.unfocused        $color3      $background   $color4      $color0       $background
+client.focused_inactive $color1      $background   $color1      $color8       $altfground
+client.urgent           $color14     $color14      $color12     $color13      $color12
+client.background       $background
+
+# Set colors for i3bar
+bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+
+bar {
+    #font pango:Monospace 8
+    font pango:DejaVu Sans Mono,10
+    colors {
+
+        background              $background
+        statusline              $altbground
+        separator               $color2
+
+        #WORKSPACE              BORDER            FILL         TEXT
+        focused_workspace       $background       $background  $foreground
+        active_workspace        $background       $background  $altbground
+        inactive_workspace      $background       $background  $color10
+        urgent_workspace        $color14          $color13     $color12
+
+    }
+
+    status_command i3blocks
+    position top
+}
+
