@@ -13,6 +13,7 @@ The devices I'm currently tracking are:
 | :--- | :--- | :--- | :--- |
 | WinryRockbell |  Main ASUS laptop | Ubuntu 18.04 | Spalding Lab |
 | RinTohsaka | Dell laptop | Linux Mint 19 | Eagle Heights |
+| Archer | Dell laptop | Fedora 29 | Eagle Heights |
 | JDev | Remote Desktop | Scientific Linux 6.10 | Birge Hall Server Room |
 | Potato | Samsung Chromebook 3 | Debian 9.5 | Portable laptop |
 | Aqua | Samsung Chromebook 3 | Android 7.1.1 | Portable laptop
@@ -81,8 +82,8 @@ I currently have to remove these manually, as 'dotify' is unable to remove subdi
 - The loadProfile.sh and revertProfile.sh still do nothing.
     - I still haven't added functionality for loading profiles or reverting profiles.
 
-- As of 10/27/2018, this whole repo was nuked [ I cleared the entire repo then deleted everything 
-in it's history that was >10kb. Then one-by-one, I rebuilt each branch and synchronized each of 
+- As of 10/27/2018, this whole repo was nuked [ I cleared the entire repo then deleted everything
+in it's history that was >10kb. Then one-by-one, I rebuilt each branch and synchronized each of
 my devices, ensuring that no files >5MB are added into the repo.
     - Total size reduction was ~600MB at maximum down to just ~7MB after The Purge.
 

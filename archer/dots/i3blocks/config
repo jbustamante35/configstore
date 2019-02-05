@@ -1,0 +1,86 @@
+command=~/.scripts/i3scripts/$BLOCK_NAME
+separator_block_width=20
+markup=pango
+
+#[apt-upgrades]
+##command=~/.scripts/i3scripts/i3aptupgrades -s 🥡 -n "#A9A9A9"
+#command=~/.scripts/i3scripts/i3aptupgrades -s 🥡 -N
+#signal=3600
+#interval=once
+
+[cpu_usage]
+label=CPU
+command=~/.scripts/i3scripts/i3cpuusage -d 1
+interval=10
+
+[temperature]
+command=~/.scripts/i3scripts/i3temperature -w 55 -c 70
+interval=5
+
+[weather]
+command=~/.scripts/i3scripts/i3weather
+interval=3600
+
+[battery]
+command=~/.scripts/i3scripts/i3battery
+interval=30
+separator=false
+separator_block_width=10
+
+[batterybar]
+command=~/.scripts/i3scripts/i3batterybar
+interval=30
+min_width=bat: ■■■■■■■
+
+[volume-pulseaudio]
+interval=3
+command=~/.scripts/i3scripts/i3volume-pulseaudio -d -C "#eb0a1c" -c "#FFFF33" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇
+signal=1
+
+#[music]
+#label=🎹
+#command=~/.scripts/i3scripts/gplayer --not-playing --layout t-A-p
+#interval=1
+
+#[email]
+#command=~/.scripts/i3scripts/i3mail
+#interval=60
+#signal=12
+
+#[time]
+#label=📅
+#command=echo $(date '+%Y %b %d (%a)  %I:%M%p') 🕓
+#interval=60
+
+[calendar]
+label=📅
+command=~/.scripts/i3scripts/i3calendar -f "+%b.%d.%Y 🕓%H:%M:%S"
+interval=1
+
+[wifi]
+command=~/.scripts/i3scripts/i3wifi
+label=wifi
+interval=60
+
+[wifi]
+command=~/.scripts/i3scripts/i3eth
+label=wifi
+interval=60
+
+[keyindicator]
+command=~/.scripts/i3scripts/keyindicator -c "#eb0a1c"
+instance=CAPS
+interval=once
+signal=11
+
+[keyindicator]
+command=~/.scripts/i3scripts/keyindicator -c "#eb0a1c"
+instance=NUM
+interval=once
+signal=11
+
+[shutdown_menu]
+full_text=[MENU]
+command=~/.scripts/i3scripts/i3shutdown
+
+

@@ -1,0 +1,127 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/jaagr/polybar
+;
+;   The README contains alot of information
+;
+;==========================================================
+
+[bar/main]
+; Bar location offset
+monitor = ${env:MONITOR:eDP-1}
+border-top = 2
+border-left = 12
+border-right = 12
+
+padding-right = 1
+
+module-margin-left = 1
+module-margin-right = 1
+
+; Bar color
+background = ${colors.background}
+; Font used by bar
+font-0 = Hack: size=9;2
+; Date module
+
+modules-left = ewmh
+modules-center = clock
+modules-right = date
+
+[bar/monitor]
+; Bar location offset
+monitor = ${env:MONITOR:HDMI-1}
+border-top = 2
+border-left = 12
+border-right = 12
+
+padding-right = 1
+
+module-margin-left = 1
+module-margin-right = 1
+
+; Bar color
+background = ${colors.background}
+; Font used by bar
+font-0 = Hack: size=9;2
+; Date module
+
+modules-left = ewmh
+modules-center = clock
+modules-right = date
+
+[colors]
+background = #001E1E1E
+
+[module/date]
+type = internal/date
+; Time to sleep between updates
+interval = 5.0
+; Date variable
+date =%d.%m.%y
+
+[module/clock]
+type = internal/date
+
+interval = 5
+time = %H:%M
+label = %time%
+
+[module/battery]
+type = internal/battery
+
+full-at = 99
+
+interval = 5.0
+
+battery = BAT0
+label = %battery% 
+
+label-discharging = %{F#99}Discharging%{F-} %percentage%%
+label-charging = %{F#99}Charging%{F-} %percentage%%
+label-full = Fully Charged
+
+[module/ewmh]
+type = internal/xworkspaces
+
+pin-workspaces = true
+enable-click = false
+enable-scroll = false
+
+[module/cpu]
+type = internal/cpu
+
+interval = 0.5
+
+label = %{F#99}CPU%{F-} %percentage%%
+
+[module/wireless-network]
+type = internal/network
+interface = wlp3s0
+
+label-connected = | %{F#99}ESSID%{F-} %essid% %{F#99}-%{F-} %local_ip% |
+label-disconnected = | %{F#99}Not Connected%{F-} |
+
+[module/alsa]
+type = internal/alsa
+
+master-soundcard = default
+speaker-soundcard = default
+headphone-soundcard = default
+
+master-mixer = Master
+
+format-volume = | %{F#99}음량%{F-} <label-volume>
+label-muted = | %{F#99}음량%{F-} muted
+
+; vim:ft=dosini
