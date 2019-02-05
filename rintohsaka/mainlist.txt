@@ -1,6 +1,7 @@
 addSubmodules.sh
 .aliases
 .bashrc
+bin
 .functions
 .profile
 submodules_manifest.txt

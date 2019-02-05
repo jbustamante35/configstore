@@ -33,11 +33,7 @@ GOPATH=$HOME/go
 GOROOT=/usr/lib/go
 
 export EDITOR=nvim
-#export AUDIO_DEVICE_ID=2
-#profile="Wolfen"
-#export TERMINAL="gnome-terminal --profile=$profile"
-#export TERMINAL=urxvt
-export TERMINAL='deepin-terminal -x /usr/bin/zsh'
-#export BROWSER=google-chrome
+export TERMINAL=urxvt
 export BROWSER=qutebrowser
 export PATH=$PATH:$CONDAPATH:$MYPATH:$MYBIN:$GOPATH/bin:$GOROOT/bin
+

@@ -579,7 +579,7 @@
        y="0"
        w="327"
        h="330"
-       visible="0"
+       visible="1"
        state="2"
        placement="1" />
     <group
@@ -685,11 +685,11 @@
        panel_border="0"
        x="0"
        y="0"
-       w="235"
-       h="475"
+       w="327"
+       h="169"
        visible="1"
        state="2"
-       placement="1" />
+       placement="2" />
     <group
        id="extensioneditor" />
     <group
@@ -1004,9 +1004,9 @@
      style="line-height:1.25;-inkscape-font-specification:'Cabin, Normal';font-family:Cabin;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:66.66666667px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">
     <group
        width="1908"
-       height="1045"
-       x="4"
-       y="27"
+       height="1047"
+       x="1924"
+       y="25"
        fullscreen="0"
        id="geometry"
        maximized="0" />
