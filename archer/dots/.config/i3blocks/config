@@ -1,0 +1,67 @@
+command=~/.scripts/i3scripts/$BLOCK_NAME
+separator_block_width=25
+markup=pango
+
+[cpu_usage]
+label=💽
+command=~/.scripts/i3scripts/i3cpuusage -d 1
+interval=10
+
+[temperature]
+command=~/.scripts/i3scripts/i3temperature -w 55 -c 70
+interval=5
+
+[battery]
+command=~/.scripts/i3scripts/i3battery
+interval=30
+
+[volume-pulseaudio]
+interval=1
+command=~/.scripts/i3scripts/i3volume -d -C "#ffffff" -c "#FFFF33" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇
+signal=1
+
+#[music]
+#label=🎹
+#label=♭
+#command=~/.scripts/i3scripts/gplayer --not-playing --layout t-A-p
+#interval=1
+#color=#00bfff
+
+[mediaplayer]
+command=~/.scripts/i3scripts/i3media
+instance=mplayer
+interval=1
+signal=10
+
+#[email]
+#command=~/.scripts/i3scripts/i3mail
+#interval=60
+#signal=12
+
+[time]
+label=📅
+command=echo $(date '+%Y %b %d (%a)  %I:%M%p') 🕓
+interval=60
+
+[wifi]
+command=~/.scripts/i3scripts/i3wifi
+label=📡
+interval=60
+
+[keyindicator]
+command=~/.scripts/i3scripts/keyindicator -c "#eb0a1c"
+instance=CAPS
+interval=once
+signal=11
+
+[keyindicator]
+command=~/.scripts/i3scripts/keyindicator -c "#eb0a1c"
+instance=NUM
+interval=once
+signal=11
+
+[shutdown_menu]
+full_text=🌱
+command=~/.scripts/i3scripts/i3shutdown
+
+

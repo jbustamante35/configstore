@@ -1,0 +1,370 @@
+# vim: filetype=i3
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#                              ______
+#                            _ |___  )
+#                           (_)  __) )
+#                           | | |__  )
+#                           | | ___) )
+#                           |_||_____)
+#
+######################## Startup Sequence #####################################
+set $mod  Mod4
+set $alt  Mod1
+set $term terminator
+set $sat  0.6
+set $dev 0
+set $blu 2
+font pango:DejaVu Sans Mono, Awesome 10
+#font pango:DejaVu Sans Mono 8
+#font pango:Mono 8
+#exec        --no-startup-id urxvtdaemon.sh
+exec        --no-startup-id /home/jbustamante/bin/setupi3
+exec        --no-startup-id dropbox start
+#exec        --no-startup-id pb-for-desktop
+exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
+exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
+exec_always --no-startup-id ~/.config/conky/conky.sh
+#exec_always --no-startup-id /home/jbustamante/anaconda3/bin/wal -c --backend wal -i ~/.config/wall.png --saturate $sat
+exec_always --no-startup-id bass wal -c && wal --backend wal -i ~/.config/wall.png --saturate $sat
+
+# Set gif wallpaper
+#exec_always --no-startup-id killall ~/bin/gifbg.sh
+#exec_always --no-startup-id ~/bin/gifbg.sh 0.01 ~/.config/wall.gif
+
+# Restart, hibernate, or exit i3
+bindsym   $mod+Shift+c       restart
+bindsym   $mod+Shift+e       exec --no-startup-id  "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym   $mod+Shift+p       exec --no-startup-id  systemctl suspend
+bindsym   $alt+Delete        exec --no-startup-id  ~/.scripts/i3scripts/i3shutdown
+#bindsym   $alt+Shift+Delete  exec --no-startup-id  i3lock -i ~/.config/lock.png -t -f -p default
+bindsym   $alt+Shift+Delete  exec --no-startup-id  i3lock -i ~/.config/lock.png -t -f -m -p default
+bindsym   $alt+t             exec --no-startup-id  toggletouchpad
+bindsym   $alt+m             exec --no-startup-id  xdotool mousemove 0 0
+
+# Main commands
+bindsym $mod+Return       exec $term
+bindsym $mod+Shift+Return exec $term -e /bin/zsh
+bindsym $mod+Shift+q      kill
+bindsym $mod+d            exec --no-startup-id /home/jbustamante/bin/rofi_run
+
+################################################################################
+## Main settings control
+# Volume control for Built-in Audio [devicd ID 0]
+bindsym XF86AudioMute                   exec --no-startup-id pulsemixer --id $dev toggle # mute sound
+bindsym XF86AudioRaiseVolume            exec --no-startup-id pulsemixer --id $dev --change-volume +05
+bindsym Shift+XF86AudioRaiseVolume      exec --no-startup-id pulsemixer --id $dev --change-volume +10
+bindsym Control+XF86AudioRaiseVolume    exec --no-startup-id pulsemixer --id $dev --change-volume +01
+bindsym XF86AudioLowerVolume		exec --no-startup-id pulsemixer --id $dev --change-volume -05
+bindsym Shift+XF86AudioLowerVolume      exec --no-startup-id pulsemixer --id $dev --change-volume -10
+bindsym Control+XF86AudioLowerVolume    exec --no-startup-id pulsemixer --id $dev --change-volume -01
+
+# Volume control for JBL Flip 4
+# TODO: dynamically set binding for device ID; research i3-msg
+bindsym $alt+XF86AudioMute                exec --no-startup-id pulsemixer --id $blu toggle # mute sound
+bindsym $alt+XF86AudioRaiseVolume         exec --no-startup-id pulsemixer --id $blu --change-volume +05
+bindsym $alt+Shift+XF86AudioRaiseVolume	  exec --no-startup-id pulsemixer --id $blu --change-volume +10
+bindsym $alt+Control+XF86AudioRaiseVolume exec --no-startup-id pulsemixer --id $blu --change-volume +01
+bindsym $alt+XF86AudioLowerVolume         exec --no-startup-id pulsemixer --id $blu --change-volume -05
+bindsym $alt+Shift+XF86AudioLowerVolume	  exec --no-startup-id pulsemixer --id $blu --change-volume -10
+bindsym $alt+Control+XF86AudioLowerVolume exec --no-startup-id pulsemixer --id $blu --change-volume -01
+
+# Media player controls
+bindsym XF86AudioPlay  exec --no-startup-id playerctl play-pause
+bindsym XF86AudioNext  exec --no-startup-id playerctl next
+bindsym XF86AudioPrev  exec --no-startup-id playerctl previous
+
+# Brightness control
+bindsym XF86MonBrightnessDown           exec --no-startup-id xbacklight -dec 5
+bindsym Shift+XF86MonBrightnessDown     exec --no-startup-id xbacklight -dec 10
+bindsym Control+XF86MonBrightnessDown   exec --no-startup-id xbacklight -dec 1
+bindsym XF86MonBrightnessUp             exec --no-startup-id xbacklight -inc 5
+bindsym Shift+XF86MonBrightnessUp       exec --no-startup-id xbacklight -inc 10
+bindsym Control+XF86MonBrightnessUp     exec --no-startup-id xbacklight -inc 1
+bindsym XF86Display                     exec --no-startup-id arandr
+
+# Function buttons [raw]
+bindsym $mod+F1  exec --no-startup-id $term -e nvim -c :Calendar
+bindsym $mod+F2  exec --no-startup-id $term -e pulsemixer
+bindsym $mod+F3  exec --no-startup-id google-play-music-desktop-player
+bindsym $mod+F4	 exec --no-startup-id spotify
+bindsym $mod+F5  exec --no-startup-id mailspring
+bindsym $mod+F6  exec --no-startup-id android-messages
+bindsym $mod+F7  exec --no-startup-id caprine
+bindsym $mod+F8  exec --no-startup-id yakyak
+bindsym $mod+F9  exec --no-startup-id slack
+bindsym $mod+F10 exec --no-startup-id pb-for-desktop
+#bindsym $mod+F11 exec --no-startup-id /home/jbustamante/anaconda3/bin/wal -c
+bindsym $mod+F11 exec --no-startup-id /home/jbustamante/.local/bin/wal -c
+bindsym $mod+F12 exec --no-startup-id arandr
+
+# Function buttons [xf86]
+bindsym $mod+XF86AudioMute         exec --no-startup-id $term -e nvim -c :Calendar
+bindsym $mod+XF86AudioLowerVolume  exec --no-startup-id $term -e pulsemixer
+bindsym $mod+XF86AudioRaiseVolume  exec --no-startup-id google-play-music-desktop-player
+bindsym $mod+XF86AudioPrev         exec --no-startup-id spotify
+bindsym $mod+XF86AudioPlay         exec --no-startup-id mailspring
+bindsym $mod+XF86AudioNext         exec --no-startup-id pb-for-desktop
+bindsym $mod+XF86KbdLightOnOff     exec --no-startup-id android-messages
+bindsym $mod+XF86Display           exec --no-startup-id slack
+bindsym $mod+XF86Search            exec --no-startup-id yakyak
+#bindsym $mod+XF86KbdLightOnOff     exec --no-startup-id caprine
+#bindsym $mod+XF86MonBrightnessDown exec --no-startup-id /home/jbustamante/anaconda3/bin/wal -i ~/.config/wall.png --saturate $sat
+bindsym $mod+XF86MonBrightnessDown exec --no-startup-id /home/jbustamante/.local/bin/wal -i ~/.config/wall.png --saturate $sat
+bindsym $alt+XF86MonBrightnessUp   exec --no-startup-id colorsource.sh
+
+################################################################################
+## Applications
+# terminals
+bindsym $mod+b           exec --no-startup-id st
+bindsym $mod+Shift+b     exec --no-startup-id st -e /bin/zsh
+bindsym $mod+n           exec --no-startup-id urxvtc
+bindsym $mod+Shift+n     exec --no-startup-id urxvtd
+bindsym $mod+grave       exec --no-startup-id urxvt
+bindsym $mod+Shift+grave exec --no-startup-id urxvt -e /bin/zsh
+bindsym $alt+grave       exec --no-startup-id terminator
+bindsym $alt+Shift+grave exec --no-startup-id terminator -e /bin/zsh
+
+# browsers
+bindsym $mod+Shift+g exec --no-startup-id surf google.com
+bindsym $mod+Shift+f exec --no-startup-id firefox
+bindsym $mod+Shift+h exec --no-startup-id qutebrowser
+
+# file managers and system settings
+bindsym $mod+r         exec --no-startup-id urxvt -e ranger
+bindsym $mod+Shift+r   exec --no-startup-id urxvt -e sxiv -rt /home/jbustamante/Pictures/
+bindsym $mod+Control+h exec --no-startup-id urxvt -e htop
+bindsym $mod+Control+j exec --no-startup-id urxvt -e /home/jbustamante/bin/gotop
+
+# Screenshots [ u: focused window | s: selection ]
+bindsym Print               exec --no-startup-id scrot    -e 'mv $f ~/Pictures/screenshots/'
+bindsym Shift+Print         exec --no-startup-id scrot -u -e 'mv $f ~/Pictures/screenshots/'
+bindsym Control+Shift+Print exec --no-startup-id scrot -s -e 'mv $f ~/Pictures/screenshots/'
+
+# Screen recordings
+bindsym $mod+Print exec --no-startup-id simplescreenrecorder
+
+# Calcurse
+bindsym $mod+y exec $term -e calcurse
+
+# VimWiki shortcuts
+# j: select wiki
+# k: lab index
+# l: journal index
+# S-l: Create journal entry
+bindsym $alt+u exec --no-startup-id $term -e nvim -c :VimwikiUISelect
+bindsym $alt+i exec --no-startup-id $term -e nvim -c :VimwikiIndex
+bindsym $alt+o exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
+bindsym $alt+p exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
+
+################################################################################
+## Window navigation
+# i3-gaps config
+for_window [class="^.*"] border pixel 5
+gaps inner 2
+gaps outer 2
+
+# i3-gaps resizing
+bindsym $mod+t          split toggle
+bindsym $mod+Shift+t    gaps inner current set 5; gaps outer current set 5
+bindsym $mod+Shift+d    gaps inner current set 0;  gaps outer current set 0
+bindsym $mod+s	        gaps inner current plus  5
+bindsym $mod+Shift+s    gaps inner current minus 5
+bindsym $mod+z	        gaps outer current plus  5
+bindsym $mod+Shift+z    gaps outer current minus 5
+
+# change focus
+bindsym $mod+j         focus left
+bindsym $mod+k         focus down
+bindsym $mod+l         focus up
+bindsym $mod+semicolon focus right
+bindsym $mod+Left      focus left
+bindsym $mod+Down      focus down
+bindsym $mod+Up        focus up
+bindsym $mod+Right     focus right
+
+# move focused window
+bindsym $mod+Shift+j         move left  15
+bindsym $mod+Shift+k         move down  15
+bindsym $mod+Shift+l         move up    15
+bindsym $mod+Shift+semicolon move right 15
+bindsym $mod+Shift+Left      move left  15
+bindsym $mod+Shift+Down      move down  15
+bindsym $mod+Shift+Up        move up    15
+bindsym $mod+Shift+Right     move right 15
+
+# split in horizontal/vertical orientation
+bindsym $mod+h split h
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+m layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space       focus mode_toggle
+
+# focus the parent or child container
+bindsym $mod+a       focus parent
+bindsym $mod+Shift+a focus child
+
+# improved resize than default config
+bindsym $mod+Shift+y exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  2"
+bindsym $mod+Shift+o exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 2"
+bindsym $mod+Shift+u exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  2"
+bindsym $mod+Shift+i exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    2"
+
+bindsym $mod+$alt+y exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  10"
+bindsym $mod+$alt+o exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 10"
+bindsym $mod+$alt+u exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  10"
+bindsym $mod+$alt+i exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    10"
+
+bindsym $mod+Control+Shift+y exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  20"
+bindsym $mod+Control+Shift+o exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 20"
+bindsym $mod+Control+Shift+u exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  20"
+bindsym $mod+Control+Shift+i exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    20"
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+################################################################################
+## Workspace control
+# Workspace variables
+set $ws01 "01"
+set $ws02 "02"
+set $ws03 "03"
+set $ws04 "04"
+set $ws05 "05"
+set $ws06 "06"
+set $ws07 "07"
+set $ws08 "08"
+set $ws09 "09"
+set $ws10 "10"
+
+# switch to workspace
+bindsym $mod+1 workspace $ws01
+bindsym $mod+2 workspace $ws02
+bindsym $mod+3 workspace $ws03
+bindsym $mod+4 workspace $ws04
+bindsym $mod+5 workspace $ws05
+bindsym $mod+6 workspace $ws06
+bindsym $mod+7 workspace $ws07
+bindsym $mod+8 workspace $ws08
+bindsym $mod+9 workspace $ws09
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws01
+bindsym $mod+Shift+2 move container to workspace $ws02
+bindsym $mod+Shift+3 move container to workspace $ws03
+bindsym $mod+Shift+4 move container to workspace $ws04
+bindsym $mod+Shift+5 move container to workspace $ws05
+bindsym $mod+Shift+6 move container to workspace $ws06
+bindsym $mod+Shift+7 move container to workspace $ws07
+bindsym $mod+Shift+8 move container to workspace $ws08
+bindsym $mod+Shift+9 move container to workspace $ws09
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# assign workspaces
+assign  [class="Mailspring"]       $ws09
+assign  [class="PB for Desktop"]   $ws09
+assign  [class="android-messages"] $ws09
+assign  [class="Slack"]            $ws09
+assign  [class="yakyak"]           $ws09
+assign  [class="Google Play"]      $ws10
+for_window [class="Caprine"]       move to workspace $ws09
+for_window [class="Spotify"]       move to workspace $ws10
+
+# assign floating
+for_window [class="fiji"]       floating enable border pixel 1
+for_window [title="pulsemixer"] floating enable border pixel 1
+
+# scratchpad
+bindsym Shift+$mod+minus  move scratchpad
+bindsym $mod+minus        scratchpad show
+bindsym $mod+u            [title="urxvt"] scratchpad show
+
+################################################################################
+## Tiling and menubar
+# Set resource from .Xresource
+set_from_resource $background background #000000
+set_from_resource $foreground foreground #000000
+set_from_resource $altfground color66    #000000
+set_from_resource $altbground color9     #000000
+set_from_resource $color0     color0     #000000
+set_from_resource $color8     color8     #000000
+set_from_resource $color1     color1     #000000
+set_from_resource $color9     color9     #000000
+set_from_resource $color2     color2     #000000
+set_from_resource $color10    color10    #000000
+set_from_resource $color3     color3     #000000
+set_from_resource $color11    color11    #000000
+set_from_resource $color4     color4     #000000
+set_from_resource $color12    color12    #000000
+set_from_resource $color5     color5     #000000
+set_from_resource $color13    color13    #000000
+set_from_resource $color6     color6     #000000
+set_from_resource $color14    color14    #000000
+set_from_resource $color7     color7     #000000
+set_from_resource $color15    color15    #000000
+set $transparent                         #00000000
+
+#WINDOW                 BORDER          BACKGROUND     TEXT          INDICATOR       CHILD_BORDER
+client.focused          $foreground     $background    $color1       $foreground     $color2
+client.unfocused        $color3         $background    $color4       $color0         $background
+client.focused_inactive $color1         $background    $color1       $color8         $altfground
+client.urgent           $color14        $color14       $color12      $color13        $color12
+client.placeholder      $foreground     $background    $altfground   $altbground     $background
+client.background       $transparent
+
+# i3block for toggling NUM and CAPS lock
+bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+
+# i3bar
+bar {
+	#font pango: DejaVu Sans Mono 9
+	font pango: Mono 11
+	colors {
+	    background          $color8
+	    #background          #807c79
+	    statusline          #ffffff
+	    separator           $altbground
+
+            #WORKSPACE          BORDER          FILL            TEXT
+            focused_workspace   $altbground     $background     $foreground
+            active_workspace    $altbground     $background     $altbground
+            inactive_workspace  $background     $background     $color10
+            urgent_workspace    $background     $color13        $color12
+	}
+
+        #status_command i3status
+	status_command i3blocks
+	position top
+	modifier None
+        #separator_symbol ":|:"
+        #separator_symbol    "℣"
+        separator_symbol    "🧬"
+}
+
+

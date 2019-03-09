@@ -1,0 +1,53 @@
+sw_volume: 98
+audio_device_state:0:pulse audio
+audio_device_state:1:mpd alsamixer-output
+audio_device_state:1:toggle_visualizer
+state: pause
+current: 1
+time: 194.798000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:yt/lofi/asokah - I always smile, but my eyes are sad-FiyXZhH4HCM.mkv
+1:yt/lofi/ａｔ ｃａｆ é ­ [lofi - jazz hip hop mix].webm
+2:yt/lofi/burbank - a saint-PJCJnn2Z43E.webm
+3:yt/lofi/chuckee. - goin far (version 2)-MFf3-hXwRcs.webm
+4:yt/lofi/MRSJ - Arrietty-HWfjhNkDhd4.webm
+5:yt/lofi/nawhij - with you-sls44rlHpRg.webm
+6:yt/lofi/Piano Shoegazer - Ghostly Love-kzu8noO1MLk.mkv
+7:yt/lofi/ｐｏｋｅｍｏｎ　ａｎｄ　ｌｏｆｉ-LZvyrqXVU-Q.webm
+8:yt/lofi/potsu - lovesick-mHWvPzICJfQ.webm
+9:yt/lofi/Setton - High School Love-9h1V2GZ3Nec.webm
+10:yt/lofi/slipfunc - cherry smile-x5VhS0_xchw.webm
+11:yt/lofi/Soulitune - Intimacy-iNJ-Zq9sT8Y.webm
+12:yt/lofi/Sun Yehoshua - heartbreaker-0SFvFfanRmc.mkv
+13:yt/lofi/wellcheeze - 뭉게구름이 피어나고 두리둥실 춤을 춘다-kZiXN5M3Q4Y.webm
+14:yt/lofi/Zelda & Chill.webm
+15:yt/lofi/ｚｅｌｄａ　ａｎｄ　ｌｏｆｉ-6zvIxD4FUTA.webm
+16:yt/lofi/ｐｏｋｅｍｏｎ　ａｎｄ　ｌｏｆｉ-LZvyrqXVU-Q.webm
+17:yt/lofi/ａｔ ｃａｆ é ­ [lofi - jazz hip hop mix].webm
+18:yt/lofi/burbank - a saint-PJCJnn2Z43E.webm
+19:yt/lofi/chuckee. - goin far (version 2)-MFf3-hXwRcs.webm
+20:yt/lofi/MRSJ - Arrietty-HWfjhNkDhd4.webm
+21:yt/lofi/nawhij - with you-sls44rlHpRg.webm
+22:yt/lofi/Piano Shoegazer - Ghostly Love-kzu8noO1MLk.mkv
+23:yt/lofi/ｐｏｋｅｍｏｎ　ａｎｄ　ｌｏｆｉ-LZvyrqXVU-Q.webm
+24:yt/lofi/potsu - lovesick-mHWvPzICJfQ.webm
+25:yt/lofi/Setton - High School Love-9h1V2GZ3Nec.webm
+26:yt/lofi/slipfunc - cherry smile-x5VhS0_xchw.webm
+27:yt/lofi/Soulitune - Intimacy-iNJ-Zq9sT8Y.webm
+28:yt/lofi/Sun Yehoshua - heartbreaker-0SFvFfanRmc.mkv
+29:yt/lofi/wellcheeze - 뭉게구름이 피어나고 두리둥실 춤을 춘다-kZiXN5M3Q4Y.webm
+30:yt/lofi/Zelda & Chill.webm
+31:yt/lofi/ｚｅｌｄａ　ａｎｄ　ｌｏｆｉ-6zvIxD4FUTA.webm
+32:yt/lofi/ｎｉｎｔｅｎｄｏ　ａｎｄ　ｌｏｆｉ-AvhplYM46Fc.mkv
+33:yt/amalee/Fire Emblem Fates - 'Lost in Thoughts All Alone' _ ENGLISH ver _ AmaLee-lsz5ijRQvUY.webm
+34:yt/amalee/Kabaneri of the Iron Fortress - 'Ninelie'  (Ending) _ ENGLISH ver _ AmaLee-1K6A9QWYjcs.mkv
+35:yt/amalee/Guilty Crown - 'Bios Delta' (βίος-δ) _ ENGLISH ver _ AmaLee-Om7J4cMpxU0.webm
+36:yt/amalee/Attack on Titan - 'Wings of Freedom' (Opening) _ ENGLISH ver _ AmaLee-iPNew5WDlX8.webm
+playlist_end
