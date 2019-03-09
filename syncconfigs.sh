@@ -1,7 +1,14 @@
 #!/bin/bash
 # Synchronize all configuration files to configstore repository
 # Must have dotifytracking configuration files
+#
+# UPDATE: I need to fix this so that it creates hard links instead of using
+# rsync [ though the current options should have overwritten existing files ].
+#
+# NOTE: if I decide to use hard links, I need to be careful when deleting the
+# unwanted files since recursive deletion could delete the source file.
 
+#sync="ln -f"
 sync="rsync -avzu --delete --progress -h"
 profile=$PROFILE
 repo=~/Documents/configstore/$profile
@@ -26,23 +33,16 @@ echo "Profile: $profile"
 echo "Syncing configuration..."
 
 # main
-${sync} ~/.dotify/.aliases ${main}
+${sync} ~/.dotify/.profile   ${main}
+${sync} ~/.dotify/.bashrc    ${main}
+${sync} ~/.dotify/.zshrc     ${main}
+${sync} ~/.dotify/.aliases   ${main}
 ${sync} ~/.dotify/.functions ${main}
-${sync} ~/.dotify/.bashrc ${main}
-${sync} ~/.dotify/.zshrc ${main}
-${sync} ~/.dotify/.vimrc ${main}
-#${sync} ~/.dotify/.config/i3/config ${main}
-#${sync} ~/.dotify/.config/i3blocks/config ${main}
-#${sync} ~/.dotify/.bash_aliases ${main}
-#${sync} ~/.dotify/.bash_functions ${main}
-#${sync} ~/.dotify/.zsh_aliases ${main}
-#${sync} ~/.dotify/.zsh_functions ${main}
-#${sync} ~/.dotify/.oh-my-zsh ${main}
-#${sync} ~/.dotify/.vim* ${main}
+${sync} ~/.dotify/.vimrc     ${main}
 
 # dots
 for dot in $dotdirs; do
-        ${sync} ~/.dotify/${dot} ${dots}
+    ${sync} ~/.dotify/${dot} ${dots}
 done
 
 printf "\nSaving 'main' and 'dots' lists...\n"
@@ -51,11 +51,11 @@ mainlist=$repo/mainlist.txt
 dotlist=$repo/dotlist.txt
 
 if [[ ! -f "$mainlist" ]]; then
-        touch $mainlist
+    touch $mainlist
 fi
 
 if [[ ! -f "$dotlist" ]]; then
-        touch $dotlist
+    touch $dotlist
 fi
 echo $dotdirs | tr " " "\n" > $dotlist
 echo $maindirs | tr " " "\n" > $mainlist

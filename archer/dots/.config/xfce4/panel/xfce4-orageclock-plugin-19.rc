@@ -1,0 +1,13 @@
+show_frame=false
+fg_set=false
+bg_set=false
+timezone=America/Chicago
+width_set=false
+height_set=false
+lines_vertically=true
+rotation=0
+data0=%R | %b %d %Y
+font0=Font Awesome 5 Free 11
+tooltip=%A %d %B %Y/%V
+hib_timing=true
+
