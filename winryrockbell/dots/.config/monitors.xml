@@ -1,62 +1,72 @@
-<monitors version="2">
+<monitors version="1">
   <configuration>
-    <logicalmonitor>
-      <x>2048</x>
-      <y>0</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>HDMI-1-1</connector>
+      <clone>no</clone>
+      <output name="eDP-1-1">
+          <vendor>LGD</vendor>
+          <product>0x04d4</product>
+          <serial>0x00000000</serial>
+          <width>3840</width>
+          <height>2160</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP-1-1">
+      </output>
+      <output name="HDMI-1-1">
           <vendor>AOC</vendor>
-          <product>2269W</product>
-          <serial>AFVFC9A004045</serial>
-        </monitorspec>
-        <mode>
+          <product>0x2269</product>
+          <serial>0x00000fcd</serial>
           <width>1920</width>
           <height>1080</height>
           <rate>60</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>eDP-1-1</connector>
-          <vendor>LGD</vendor>
-          <product>0x04d4</product>
-          <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>2048</width>
-          <height>1152</height>
-          <rate>119.97804260253906</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
+          <x>3840</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="DP-1-2">
+      </output>
   </configuration>
   <configuration>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>eDP-1-1</connector>
+      <clone>no</clone>
+      <output name="eDP-1-1">
           <vendor>LGD</vendor>
           <product>0x04d4</product>
           <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>2048</width>
-          <height>1152</height>
-          <rate>119.97804260253906</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
+          <width>3840</width>
+          <height>2160</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP-1-1">
+      </output>
+      <output name="HDMI-1-1">
+      </output>
+      <output name="DP-1-2">
+          <vendor>DEL</vendor>
+          <product>0xa0dc</product>
+          <serial>0x32584754</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>3840</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
   </configuration>
 </monitors>

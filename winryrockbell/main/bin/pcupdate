@@ -6,6 +6,6 @@ sudo apt update -y && sudo apt upgrade -y
 echo "Packages up to date!"
 
 echo "Updating Julia..."
-julia -e "Pkg.update()"
+#julia -e "Pkg.update()"
 echo "Julia updated!"
 

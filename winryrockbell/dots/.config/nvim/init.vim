@@ -111,6 +111,7 @@ map <Leader>r :put =strftime('%c')<CR>
 map <Leader>R :put =strftime('%Y-%m-%d_%B-%d-%Y')<CR>
 map <Leader>t :put =strftime('%m.%d.%Y')<CR>
 imap <C-b> <br />
+imap <Leader>i <br />
 
 """""""""""""""""""""""""""""" Plugins """"""""""""""""""""""""""""""""""""""""
 " Joy: Set Escape Insert Mode to TAB key

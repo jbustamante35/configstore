@@ -34,14 +34,17 @@ if [ -d "$HOME/bin" ]; then
 fi
 
 # set miscellaneous paths
-GOROOT='/usr/lib/go-1.10'
+GOROOT='/usr/lib/go'
 GOPATH=/home/jbustamante/go
+RUBYPATH=/home/jbustamante/.gem/ruby/2.5.0
 PYTHON=/usr/bin/python
-JUPYTER=/usr/local/bin/jupyter
+#JUPYTER=/usr/local/bin/jupyter
 
-#export TERMINAL="gnome-terminal --profile=Din"
-export SHELL=/usr/bin/zsh
-export TERMINAL=gnome-terminal
+export TERMINAL=urxvt
+export BROWSER=qutebrowser
 export EDITOR=nvim
-export PATH=$PATH:$MYPATH:$MYBIN:$GOROOT/bin:$GOPATH/bin
+export PATH=$PATH:$MYPATH:$MYBIN:$GOROOT/bin:$GOPATH/bin:$RUBYPATH/bin
+
+# Swap CAPSLOCK and ESCAPE
+setxkbmap -option "caps:swapescape"
 
