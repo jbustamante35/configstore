@@ -39,7 +39,7 @@ alias hq='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/hypoquantyl'
 alias cs='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper'
 alias sp='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/sphinctolyzer'
 alias qd='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/quantdracala/quantdracala'
-alias ps='cl /home/jbustamante/dockerData/spaldingshell'
+alias ps='cl /home/jbustamante/Dok/spaldingshell'
 
 # filesystem aliases
 alias mkdir='mkdir -pv '
@@ -49,6 +49,9 @@ alias natu='nautilus .'
 alias mnt='mount | column -t'
 alias pping='prettyping '
 alias app='sudo aptitude '
+alias ain='sudo apt install -y'
+alias asr='apt search'
+alias arm='apt purge'
 
 # misc system aliases
 alias dff='df -gha'
@@ -60,6 +63,10 @@ alias rm='rm -I'
 alias RM='sudo rm -Ird'
 alias kl='RM */.git'
 alias kll='RM */*/.git'
+alias klll='RM */*/*/.git'
+alias db='sudo updatedb'
+alias xcolors='xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources'
+alias xwal='wal -i ~/.config/wall.png --saturate 0.8'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -94,6 +101,7 @@ alias medit='matlab -nodesktop -nosplash -nodisplay'
 alias mconsole='matlab -nodesktop -nosplash'
 alias sl='sl -e'
 alias zt='zathura '
+alias rtv='rtv --enable-media '
 
 # iRODS aliases
 alias idata='irodsFs -o allow_other $HOME/idata'

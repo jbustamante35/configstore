@@ -38,9 +38,9 @@
 ################################################################################
 
 set $mod        Mod4
-set $term       kitty
-#set $term       gnome-terminal --profile="Ganon"
-set $walsat     0.8
+set $alt        Mod1
+set $term       urxvt
+set $walsat     0.5
 font            pango:DejaVu Sans Mono,10
 
 #################### Main Setup ##############################
@@ -48,16 +48,16 @@ font            pango:DejaVu Sans Mono,10
 exec_always     --no-startup-id compton --config ~/.config/compton/compton.conf
 exec_always     --no-startup-id dunst -config ~/.config/dunst/dunstrc
 exec_always     --no-startup-id bash ~/.config/conky/conky.sh
-exec_always     --no-startup-id wal -c --backend wal -i ~/.config/wall.png  --saturate $walsat
+exec_always     --no-startup-id wal --backend wal -i ~/.config/wall.png --saturate $walsat
 exec            --no-startup-id dropbox start
-exec            --no-startup-id pb-for-desktop
-exec            --no-startup-id xrdb -load ~/.cache/wal/colors.Xresources
-exec            --no-startup-id xrdb -load ~/.Xresources
+#exec            --no-startup-id pb-for-desktop
+exec            --no-startup-id xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources
+exec            --no-startup-id touchpadctl tap 1
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+c            restart
-bindsym Mod1+Delete             exec --no-startup-id    ~/.scripts/i3scripts/i3shutdown
-bindsym Control+Mod1+Delete     exec --no-startup-id    i3lock -i ~/.config/lock.png -t -f -p default
+bindsym $alt+Delete             exec --no-startup-id    ~/.scripts/i3scripts/i3shutdown
+bindsym Control+$alt+Delete     exec --no-startup-id    i3lock -i ~/.config/lock.png -t -f -p default
 bindsym $mod+Shift+p            exec --no-startup-id    systemctl suspend
 bindsym $mod+Shift+e            exec --no-startup-id    "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
@@ -71,36 +71,20 @@ bindsym XF86AudioLowerVolume	     exec --no-startup-id pulsemixer --id $master -
 bindsym Shift+XF86AudioLowerVolume   exec --no-startup-id pulsemixer --id $master --change-volume -"10"
 bindsym Control+XF86AudioLowerVolume exec --no-startup-id pulsemixer --id $master --change-volume -"01"
 
-bindsym $mod+Shift+m       exec --no-startup-id pulsemixer --id $master --toggle-mute
-bindsym $mod+plus          exec --no-startup-id pulsemixer --id $master --change-volume +"05"
-bindsym $mod+Shift+plus    exec --no-startup-id pulsemixer --id $master --change-volume +"10"
-bindsym $mod+Control+plus  exec --no-startup-id pulsemixer --id $master --change-volume +"01"
-bindsym $mod+minus         exec --no-startup-id pulsemixer --id $master --change-volume -"05"
-bindsym $mod+Shift+minus   exec --no-startup-id pulsemixer --id $master --change-volume -"10"
-bindsym $mod+Control+minus exec --no-startup-id pulsemixer --id $master --change-volume -"01"
-
-#set $blu 1
-#bindsym XF86AudioMute                exec --no-startup-id pulsemixer --id $blu --toggle-mute
-#bindsym XF86AudioRaiseVolume	     exec --no-startup-id pulsemixer --id $blu --change-volume +"05"
-#bindsym Shift+XF86AudioRaiseVolume   exec --no-startup-id pulsemixer --id $blu --change-volume +"10"
-#bindsym Control+XF86AudioRaiseVolume exec --no-startup-id pulsemixer --id $blu --change-volume +"01"
-#bindsym XF86AudioLowerVolume	     exec --no-startup-id pulsemixer --id $blu --change-volume -"05"
-#bindsym Shift+XF86AudioLowerVolume   exec --no-startup-id pulsemixer --id $blu --change-volume -"10"
-#bindsym Control+XF86AudioLowerVolume exec --no-startup-id pulsemixer --id $blu --change-volume -"01"
-
-#bindsym Mod1+Shift+m       exec --no-startup-id pulsemixer --id $blu --toggle-mute
-#bindsym Mod1+plus          exec --no-startup-id pulsemixer --id $blu --change-volume +"05"
-#bindsym Mod1+Shift+plus    exec --no-startup-id pulsemixer --id $blu --change-volume +"10"
-#bindsym Mod1+Control+plus  exec --no-startup-id pulsemixer --id $blu --change-volume +"01"
-#bindsym Mod1+minus         exec --no-startup-id pulsemixer --id $blu --change-volume -"05"
-#bindsym Mod1+Shift+minus   exec --no-startup-id pulsemixer --id $blu --change-volume -"10"
-#bindsym Mod1+Control+minus exec --no-startup-id pulsemixer --id $blu --change-volume -"01"
+set $blu 1
+bindsym $alt+XF86AudioMute                exec --no-startup-id pulsemixer --id $blu --toggle-mute
+bindsym $alt+XF86AudioRaiseVolume	  exec --no-startup-id pulsemixer --id $blu --change-volume +"05"
+bindsym $alt+Shift+XF86AudioRaiseVolume   exec --no-startup-id pulsemixer --id $blu --change-volume +"10"
+bindsym $alt+Control+XF86AudioRaiseVolume exec --no-startup-id pulsemixer --id $blu --change-volume +"01"
+bindsym $alt+XF86AudioLowerVolume	  exec --no-startup-id pulsemixer --id $blu --change-volume -"05"
+bindsym $alt+Shift+XF86AudioLowerVolume   exec --no-startup-id pulsemixer --id $blu --change-volume -"10"
+bindsym $alt+Control+XF86AudioLowerVolume exec --no-startup-id pulsemixer --id $blu --change-volume -"01"
 
 # Brightness/Gamma Control
-bindsym XF86MonBrightnessDown       exec --no-startup-id light -U 5
-bindsym Shift+XF86MonBrightnessDown exec --no-startup-id light -U 10
-bindsym XF86MonBrightnessUp         exec --no-startup-id light -A 5
-bindsym Shift+XF86MonBrightnessUp   exec --no-startup-id light -A 10
+bindsym XF86MonBrightnessDown       exec --no-startup-id xbacklight -dec 5
+bindsym Shift+XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
+bindsym XF86MonBrightnessUp         exec --no-startup-id xbacklight -inc 5
+bindsym Shift+XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 10
 
 # Configure i3gaps
 for_window [class="^.*"] border pixel 2
@@ -117,8 +101,8 @@ bindsym $mod+z		gaps outer current plus 5
 bindsym $mod+Shift+z	gaps outer current minus 5
 
 # Screen setups
-bindsym Mod1+Shift+w    exec --no-startup-id    ~/bin/triplefull.sh
-bindsym Mod1+w          exec --no-startup-id    ~/bin/reasonableenough.sh
+bindsym $alt+Shift+w    exec --no-startup-id    ~/bin/triplefull.sh
+bindsym $alt+w          exec --no-startup-id    ~/bin/reasonableenough.sh
 
 ##################### Applications ##############################
 # Screenshots [ u: focused window | s: selection ]
@@ -130,16 +114,14 @@ bindsym Control+Shift+Print     exec --no-startup-id scrot -s -e 'mv $f ~/Pictur
 bindsym $mod+Print      exec --no-startup-id    simplescreenrecorder
 
 # Terminals [ b: bash | n: zsh/st |`: urxvt/kitty ]
-bindsym $mod+b                  exec --no-startup-id gnome-terminal --profile="Nayru"
-bindsym $mod+Shift+b            exec --no-startup-id gnome-terminal --profile="Farore"
-bindsym $mod+n                  exec --no-startup-id gnome-terminal --profile="Din"
-bindsym $mod+Shift+n            exec --no-startup-id gnome-terminal --profile="Ganon"
+bindsym $mod+b                  exec --no-startup-id gnome-terminal --profile="Saber"
+bindsym $mod+Shift+b            exec --no-startup-id gnome-terminal --profile="Lancer"
+bindsym $mod+n                  exec --no-startup-id urxvtc
+bindsym $mod+Shift+n            exec --no-startup-id urxvtd -q -o -f
 bindsym $mod+grave              exec --no-startup-id urxvt
 bindsym $mod+Shift+grave        exec --no-startup-id urxvt -e /bin/bash
-bindsym Mod1+grave              exec --no-startup-id kitty
-bindsym Mod1+Shift+grave        exec --no-startup-id kitty -e /bin/bash
-bindsym Mod1+n                  exec --no-startup-id st
-bindsym Mod1+Shift+n            exec --no-startup-id st    -e /bin/bash
+bindsym $alt+grave              exec --no-startup-id terminator
+bindsym $alt+Shift+grave        exec --no-startup-id terminator -e /bin/bash
 
 # Browsers
 bindsym $mod+Shift+g   exec --no-startup-id google-chrome-beta
@@ -148,16 +130,17 @@ bindsym $mod+Shift+h   exec --no-startup-id qutebrowser
 
 # System Applications
 bindsym $mod+r          exec --no-startup-id urxvt -e ranger
-bindsym $mod+Control+r  exec --no-startup-id urxvt -e nnn
+bindsym $mod+Control+r  exec --no-startup-id romoji
+bindsym $alt+Control+p  exec --no-startup-id cat ~/.ssh/bak/.pw | xclip
 bindsym $mod+Control+h  exec --no-startup-id $term -e htop
 bindsym $mod+Control+j  exec --no-startup-id $term -e gotop
 
 # Misc
 bindsym $mod+y  exec --no-startup-id $term -e calcurse
-bindsym Mod1+u  exec --no-startup-id $term -e nvim -c :VimwikiUISelect
-bindsym Mod1+i  exec --no-startup-id $term -e nvim -c :VimwikiIndex
-bindsym Mod1+o  exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
-bindsym Mod1+p  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
+bindsym $alt+u  exec --no-startup-id $term -e nvim -c :VimwikiUISelect
+bindsym $alt+i  exec --no-startup-id $term -e nvim -c :VimwikiIndex
+bindsym $alt+o  exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
+bindsym $alt+p  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
 
 # Function buttons
 bindsym $mod+F1  exec --no-startup-id $term -e nvim -c :Calendar
@@ -165,12 +148,12 @@ bindsym $mod+F2  exec --no-startup-id $term -e pulsemixer
 bindsym $mod+F3  exec --no-startup-id google-play-music-desktop-player
 bindsym $mod+F4  exec --no-startup-id spotify
 bindsym $mod+F5  exec --no-startup-id mailspring
-bindsym $mod+F6  exec --no-startup-id android-messages
-bindsym $mod+F7  exec --no-startup-id pb-for-desktop
-bindsym $mod+F8  exec --no-startup-id slack
-bindsym $mod+F9  exec --no-startup-id yakyak
-bindsym $mod+F10 exec --no-startup-id caprine
-bindsym $mod+F11 exec --no-startup-id wal -c --backend wal -i ~/.config/wall.png --saturate $walsat
+bindsym $mod+F6  exec --no-startup-id caprine
+bindsym $mod+F7  exec --no-startup-id android-messages
+bindsym $mod+F8  exec --no-startup-id yakyak
+bindsym $mod+F9  exec --no-startup-id slack
+bindsym $mod+F10 exec --no-startup-id pb-for-desktop
+bindsym $mod+F11 exec --no-startup-id wal --backend wal -i ~/.config/wall.png --saturate $walsat
 bindsym $mod+F12 exec --no-startup-id arandr
 
 ################### General Navigation ###############################
@@ -181,7 +164,7 @@ floating_modifier $mod
 bindsym $mod+Return       exec $term
 bindsym $mod+Shift+Return exec $term -e /bin/bash
 bindsym $mod+Shift+q      kill
-bindsym Mod1+t            exec --no-startup-id toggletouchpad
+bindsym $alt+t            exec --no-startup-id touchpadctl dev
 bindsym $mod+d            exec rofi_run
 
 # change focus
@@ -228,14 +211,14 @@ bindsym $mod+Shift+o    exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize
 bindsym $mod+Shift+u    exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  5"
 bindsym $mod+Shift+i    exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    5"
 
-bindsym $mod+Mod1+y     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  20"
-bindsym $mod+Mod1+o     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 20"
-bindsym $mod+Mod1+u     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  20"
-bindsym $mod+Mod1+i     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    20"
+bindsym $mod+$alt+y     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  20"
+bindsym $mod+$alt+o     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 20"
+bindsym $mod+$alt+u     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  20"
+bindsym $mod+$alt+i     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    20"
 
 # scratchpad
-bindsym Mod1+minus       scratchpad show
-bindsym Mod1+Shift+minus move scratchpad
+bindsym $alt+minus       scratchpad show
+bindsym $alt+Shift+minus move scratchpad
 
 ######################### Workspace Management ###########################
 # Workspace variables
@@ -284,30 +267,10 @@ assign  [class="PB for Desktop"]   $ws09
 assign  [class="Google Play"]      $ws10
 for_window [class="Spotify"] move to workspace $ws10
 
-###################### i3bar Configuration #############################
-# Set colors manually [ TODO: need to fix .Xresources ]
-#set $foreground      #c3d0e8
-#set $foreground_bold #792620
-#set $background      #1b1820
-#set $cursor          #576fb9
-#set $darkblack	      #000000
-#set $black	      #cc241d
-#set $darkred	      #98971a
-#set $red	      #792620
-#set $darkgreen	      #458588
-#set $green	      #b16286
-#set $darkyellow      #689d6a
-#set $yellow	      #a89984
-#set $darkblue	      #928374
-#set $blue	      #576fb9
-#set $darkmagenta     #b8bb26
-#set $magenta	      #fabd2f
-#set $darkcyan	      #83a598
-#set $cyan	      #d3869b
-#set $darkwhite	      #8ec07c
-#set $white	      #ffffff
-#set $transparent     #00000000
+# assign floating
+for_window [title="pulsemixer"] floating enable border pixel 1
 
+###################### i3bar Configuration #############################
 ## Set colors from .Xresources
 set_from_resource $foreground        foreground      #000000
 set_from_resource $foreground_bold   color66         #000000
@@ -344,23 +307,24 @@ bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 bar {
-    #font pango:Inconsolata, Awesome 8
-    font pango:mono 10
+    font pango:Inconsolata, Awesome 18
+    #font pango:mono 10
     colors {
-
         background              $background
         statusline              $foreground
         separator               $color2
 
         #WORKSPACE              BORDER            FILL         TEXT
         focused_workspace       $background       $background  $foreground
-        active_workspace        $background       $background  $background
-        inactive_workspace      $background       $background  $color10
+        active_workspace        $background       $background  $color13
+        inactive_workspace      $background       $background  $cursor
         urgent_workspace        $color14          $color13     $color12
 
     }
 
     status_command i3blocks
     position top
+    separator_symbol "🚡"
+    #separator_symbol "🥔"
 }
 

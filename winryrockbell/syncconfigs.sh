@@ -26,11 +26,12 @@ echo "Profile: $profile"
 echo "Syncing configuration..."
 
 # main
-${sync} ~/.dotify/.aliases ${main}
-${sync} ~/.dotify/.functions ${main}
-${sync} ~/.dotify/.bashrc ${main}
-${sync} ~/.dotify/.zshrc ${main}
-${sync} ~/.dotify/.vimrc ${main}
+${sync} ~/bin                 ${main}
+${sync} ~/.dotify/.aliases    ${main}
+${sync} ~/.dotify/.functions  ${main}
+${sync} ~/.dotify/.bashrc     ${main}
+${sync} ~/.dotify/.zshrc      ${main}
+${sync} ~/.dotify/.vimrc      ${main}
 #${sync} ~/.dotify/.config/i3/config ${main}
 #${sync} ~/.dotify/.config/i3blocks/config ${main}
 #${sync} ~/.dotify/.bash_aliases ${main}

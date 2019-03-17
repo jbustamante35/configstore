@@ -1,7 +1,7 @@
 # i3blocks config file
 # Global properties
 command=/usr/share/i3blocks/$BLOCK_NAME
-separator_block_width=20
+separator_block_width=30
 markup=pango
 
 [disk]
@@ -17,10 +17,10 @@ min_width=CPU: 100.00%
 command=~/.scripts/i3scripts/i3temperature -w 55 -c 70
 interval=10
 
-[email]
-command=~/.scripts/i3scripts/i3mail
-interval=30
-signal=12
+#[email]
+#command=~/.scripts/i3scripts/i3mail
+#interval=30
+#signal=12
 
 [battery2]
 command=~/.scripts/i3scripts/i3battery2
@@ -49,6 +49,11 @@ interval=1
 [volume-pulseaudio]
 command=~/.scripts/i3scripts/i3volume_pulseaudio -d -c "#FF0000" -C "#aa610e" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇
 interval=1
+signal=10
+
+[wifi]
+label=📡
+interval=10
 signal=10
 
 [time]

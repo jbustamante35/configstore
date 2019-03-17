@@ -2,16 +2,18 @@
 TextHinting=Enabled
 
 [Dlg Presentation]
-SlidesTransition=WipeUp
+SlidesScreen=0
 
 [General]
+DisplayDocumentTitle=false
 ShellOpenFileInTabs=true
-ShowOSD=false
 
-[Main View]
-ShowLeftPanel=false
+[Nav Panel]
+SidebarIconSize=22
 
 [PageView]
-BackgroundColor=0,48,2
-UseCustomBackgroundColor=true
+ShowScrollBars=false
 ViewMode=Facing
+
+[Zoom]
+ZoomMode=3
