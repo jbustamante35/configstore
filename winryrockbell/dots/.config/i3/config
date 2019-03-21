@@ -40,19 +40,21 @@
 set $mod        Mod4
 set $alt        Mod1
 set $term       urxvt
-set $walsat     0.5
+set $walsat     0.8
 font            pango:DejaVu Sans Mono,10
 
 #################### Main Setup ##############################
 # Startup Commands
-exec_always     --no-startup-id compton --config ~/.config/compton/compton.conf
-exec_always     --no-startup-id dunst -config ~/.config/dunst/dunstrc
-exec_always     --no-startup-id bash ~/.config/conky/conky.sh
-exec_always     --no-startup-id wal --backend wal -i ~/.config/wall.png --saturate $walsat
-exec            --no-startup-id dropbox start
-#exec            --no-startup-id pb-for-desktop
-exec            --no-startup-id xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources
-exec            --no-startup-id touchpadctl tap 1
+exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
+exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
+#exec_always --no-startup-id bash ~/.config/conky/conky.sh
+exec_always --no-startup-id /home/jbustamante/.local/bin/wal -i ~/.config/wall.png --saturate $walsat
+exec        --no-startup-id nm-applet
+exec        --no-startup-id dropbox-cli start
+#exec        --no-startup-id pb-for-desktop
+exec        --no-startup-id xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources
+exec        --no-startup-id touchpadctl tap 1
+exec        --no-startup-id authenticate_pamac.sh
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+c            restart
@@ -61,24 +63,33 @@ bindsym Control+$alt+Delete     exec --no-startup-id    i3lock -i ~/.config/lock
 bindsym $mod+Shift+p            exec --no-startup-id    systemctl suspend
 bindsym $mod+Shift+e            exec --no-startup-id    "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
-# Volume Control [alsamixer]
-set $master 0
-bindsym XF86AudioMute                exec --no-startup-id pulsemixer --id $master --toggle-mute
-bindsym XF86AudioRaiseVolume	     exec --no-startup-id pulsemixer --id $master --change-volume +"05"
-bindsym Shift+XF86AudioRaiseVolume   exec --no-startup-id pulsemixer --id $master --change-volume +"10"
-bindsym Control+XF86AudioRaiseVolume exec --no-startup-id pulsemixer --id $master --change-volume +"01"
-bindsym XF86AudioLowerVolume	     exec --no-startup-id pulsemixer --id $master --change-volume -"05"
-bindsym Shift+XF86AudioLowerVolume   exec --no-startup-id pulsemixer --id $master --change-volume -"10"
-bindsym Control+XF86AudioLowerVolume exec --no-startup-id pulsemixer --id $master --change-volume -"01"
+# Volume Control [pulseaudio]
+bindsym XF86AudioMute                exec --no-startup-id pulseaudio-ctl mute
+bindsym XF86AudioRaiseVolume	     exec --no-startup-id pulseaudio-ctl up 05
+bindsym Shift+XF86AudioRaiseVolume   exec --no-startup-id pulseaudio-ctl up 10
+bindsym Control+XF86AudioRaiseVolume exec --no-startup-id pulseaudio-ctl up 01
+bindsym XF86AudioLowerVolume	     exec --no-startup-id pulseaudio-ctl down 05
+bindsym Shift+XF86AudioLowerVolume   exec --no-startup-id pulseaudio-ctl down 10
+bindsym Control+XF86AudioLowerVolume exec --no-startup-id pulseaudio-ctl down 01
 
-set $blu 1
-bindsym $alt+XF86AudioMute                exec --no-startup-id pulsemixer --id $blu --toggle-mute
-bindsym $alt+XF86AudioRaiseVolume	  exec --no-startup-id pulsemixer --id $blu --change-volume +"05"
-bindsym $alt+Shift+XF86AudioRaiseVolume   exec --no-startup-id pulsemixer --id $blu --change-volume +"10"
-bindsym $alt+Control+XF86AudioRaiseVolume exec --no-startup-id pulsemixer --id $blu --change-volume +"01"
-bindsym $alt+XF86AudioLowerVolume	  exec --no-startup-id pulsemixer --id $blu --change-volume -"05"
-bindsym $alt+Shift+XF86AudioLowerVolume   exec --no-startup-id pulsemixer --id $blu --change-volume -"10"
-bindsym $alt+Control+XF86AudioLowerVolume exec --no-startup-id pulsemixer --id $blu --change-volume -"01"
+# Volume Control [deprecated]
+#set $master 0
+#bindsym XF86AudioMute                exec --no-startup-id pulsemixer --id $master --toggle-mute
+#bindsym XF86AudioRaiseVolume	     exec --no-startup-id pulsemixer --id $master --change-volume +"05"
+#bindsym Shift+XF86AudioRaiseVolume   exec --no-startup-id pulsemixer --id $master --change-volume +"10"
+#bindsym Control+XF86AudioRaiseVolume exec --no-startup-id pulsemixer --id $master --change-volume +"01"
+#bindsym XF86AudioLowerVolume	     exec --no-startup-id pulsemixer --id $master --change-volume -"05"
+#bindsym Shift+XF86AudioLowerVolume   exec --no-startup-id pulsemixer --id $master --change-volume -"10"
+#bindsym Control+XF86AudioLowerVolume exec --no-startup-id pulsemixer --id $master --change-volume -"01"
+
+#set $blu 1
+#bindsym $alt+XF86AudioMute                exec --no-startup-id pulsemixer --id $blu --toggle-mute
+#bindsym $alt+XF86AudioRaiseVolume	  exec --no-startup-id pulsemixer --id $blu --change-volume +"05"
+#bindsym $alt+Shift+XF86AudioRaiseVolume   exec --no-startup-id pulsemixer --id $blu --change-volume +"10"
+#bindsym $alt+Control+XF86AudioRaiseVolume exec --no-startup-id pulsemixer --id $blu --change-volume +"01"
+#bindsym $alt+XF86AudioLowerVolume	  exec --no-startup-id pulsemixer --id $blu --change-volume -"05"
+#bindsym $alt+Shift+XF86AudioLowerVolume   exec --no-startup-id pulsemixer --id $blu --change-volume -"10"
+#bindsym $alt+Control+XF86AudioLowerVolume exec --no-startup-id pulsemixer --id $blu --change-volume -"01"
 
 # Brightness/Gamma Control
 bindsym XF86MonBrightnessDown       exec --no-startup-id xbacklight -dec 5
@@ -101,8 +112,9 @@ bindsym $mod+z		gaps outer current plus 5
 bindsym $mod+Shift+z	gaps outer current minus 5
 
 # Screen setups
-bindsym $alt+Shift+w    exec --no-startup-id    ~/bin/triplefull.sh
-bindsym $alt+w          exec --no-startup-id    ~/bin/reasonableenough.sh
+bindsym $alt+Shift+w    exec --no-startup-id    ~/bin/buttonsandshame
+bindsym $alt+Control+w  exec --no-startup-id    ~/bin/longtallcowboychristmas
+bindsym $alt+w          exec --no-startup-id    ~/bin/reasonableenough
 
 ##################### Applications ##############################
 # Screenshots [ u: focused window | s: selection ]
@@ -114,8 +126,8 @@ bindsym Control+Shift+Print     exec --no-startup-id scrot -s -e 'mv $f ~/Pictur
 bindsym $mod+Print      exec --no-startup-id    simplescreenrecorder
 
 # Terminals [ b: bash | n: zsh/st |`: urxvt/kitty ]
-bindsym $mod+b                  exec --no-startup-id gnome-terminal --profile="Saber"
-bindsym $mod+Shift+b            exec --no-startup-id gnome-terminal --profile="Lancer"
+bindsym $mod+b                  exec --no-startup-id konsole --profile="Sabre"
+bindsym $mod+Shift+b            exec --no-startup-id konsole --profile="Sabre" -e /bin/bash
 bindsym $mod+n                  exec --no-startup-id urxvtc
 bindsym $mod+Shift+n            exec --no-startup-id urxvtd -q -o -f
 bindsym $mod+grave              exec --no-startup-id urxvt
@@ -123,10 +135,14 @@ bindsym $mod+Shift+grave        exec --no-startup-id urxvt -e /bin/bash
 bindsym $alt+grave              exec --no-startup-id terminator
 bindsym $alt+Shift+grave        exec --no-startup-id terminator -e /bin/bash
 
-# Browsers
+# Browsers [normal and gpu]
 bindsym $mod+Shift+g   exec --no-startup-id google-chrome-beta
 bindsym $mod+Shift+f   exec --no-startup-id firefox
 bindsym $mod+Shift+h   exec --no-startup-id qutebrowser
+
+bindsym $alt+Shift+g   exec --no-startup-id optirun -b primus google-chrome-beta
+bindsym $alt+Shift+f   exec --no-startup-id optirun -b primus firefox
+bindsym $alt+Shift+h   exec --no-startup-id optirun -b primus qutebrowser
 
 # System Applications
 bindsym $mod+r          exec --no-startup-id urxvt -e ranger
@@ -143,18 +159,32 @@ bindsym $alt+o  exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
 bindsym $alt+p  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
 
 # Function buttons
-bindsym $mod+F1  exec --no-startup-id $term -e nvim -c :Calendar
-bindsym $mod+F2  exec --no-startup-id $term -e pulsemixer
-bindsym $mod+F3  exec --no-startup-id google-play-music-desktop-player
-bindsym $mod+F4  exec --no-startup-id spotify
-bindsym $mod+F5  exec --no-startup-id mailspring
-bindsym $mod+F6  exec --no-startup-id caprine
-bindsym $mod+F7  exec --no-startup-id android-messages
-bindsym $mod+F8  exec --no-startup-id yakyak
-bindsym $mod+F9  exec --no-startup-id slack
-bindsym $mod+F10 exec --no-startup-id pb-for-desktop
-bindsym $mod+F11 exec --no-startup-id wal --backend wal -i ~/.config/wall.png --saturate $walsat
-bindsym $mod+F12 exec --no-startup-id arandr
+bindsym $mod+F1  exec --no-startup-id optirun -b primus nvidia-settings -c :8
+bindsym $mod+F2  exec --no-startup-id optirun -b primus gpmdp
+bindsym $mod+F3  exec --no-startup-id optirun -b primus spotify
+bindsym $mod+F4  exec --no-startup-id optirun -b primus android-messages
+bindsym $mod+F5  exec --no-startup-id optirun -b primus caprine
+bindsym $mod+F6  exec --no-startup-id optirun -b primus yakyak
+bindsym $mod+F7  exec --no-startup-id optirun -b primus slack
+bindsym $mod+F8  exec --no-startup-id optirun -b primus pb-for-desktop
+bindsym $mod+F9  exec --no-startup-id optirun -b primus krita
+bindsym $mod+F10 exec --no-startup-id optirun -b primus inkscape
+bindsym $mod+F11 exec --no-startup-id optirun -b primus gimp
+bindsym $mod+F12 exec --no-startup-id optirun -b primus fiji
+
+# Function buttons [alt]
+bindsym $alt+F1  exec --no-startup-id $term -e nvim -c :Calendar
+bindsym $alt+F2  exec --no-startup-id $term -e pulsemixer
+bindsym $alt+F3  exec --no-startup-id pamac-manager
+bindsym $alt+F4  exec --no-startup-id arandr
+#bindsym $alt+F5  exec --no-startup-id
+#bindsym $alt+F6  exec --no-startup-id
+#bindsym $alt+F7  exec --no-startup-id
+#bindsym $alt+F8  exec --no-startup-id
+bindsym $alt+F9  exec --no-startup-id setkbmap -option "caps:swapescape"
+bindsym $alt+F10 exec --no-startup-id xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources
+bindsym $alt+F11 exec --no-startup-id wal --backend wal -i ~/.config/wall.png --saturate $walsat -l
+bindsym $alt+F12 exec --no-startup-id wal --backend wal -i ~/.config/wall.png --saturate $walsat
 
 ################### General Navigation ###############################
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -165,7 +195,7 @@ bindsym $mod+Return       exec $term
 bindsym $mod+Shift+Return exec $term -e /bin/bash
 bindsym $mod+Shift+q      kill
 bindsym $alt+t            exec --no-startup-id touchpadctl dev
-bindsym $mod+d            exec rofi_run
+bindsym $mod+d            exec --no-startup-id rofi_run
 
 # change focus
 bindsym $mod+j          focus left
@@ -257,8 +287,10 @@ bindsym $mod+Shift+8 move container to workspace $ws08
 bindsym $mod+Shift+9 move container to workspace $ws09
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-# send specific programs to specific workspaces
-assign  [class="Mailspring"]       $ws09
+# send programs to specific workspaces
+assign  [title="Krita"]            $ws08
+assign  [class="Inkscape"]         $ws08
+assign  [class="Gimp"]             $ws08
 assign  [class="Slack"]            $ws09
 assign  [class="yakyak"]           $ws09
 assign  [class="Caprine"]          $ws09
@@ -268,7 +300,10 @@ assign  [class="Google Play"]      $ws10
 for_window [class="Spotify"] move to workspace $ws10
 
 # assign floating
+for_window [title="ImageJ"]       floating enable border pixel 1
 for_window [title="pulsemixer"] floating enable border pixel 1
+for_window [title="htop"]       floating enable border pixel 1
+for_window [title="gotop"]      floating enable border pixel 1
 
 ###################### i3bar Configuration #############################
 ## Set colors from .Xresources
@@ -307,7 +342,7 @@ bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 bar {
-    font pango:Inconsolata, Awesome 18
+    font pango:Inconsolata, Awesome 16
     #font pango:mono 10
     colors {
         background              $background

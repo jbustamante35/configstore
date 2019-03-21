@@ -2,10 +2,12 @@
 # Run updates
 
 echo "Updating packages..."
-sudo apt update -y && sudo apt upgrade -y
+sudo pacman -Syu
+sudo yay -Syu
+sudo yaourt -Syu
 echo "Packages up to date!"
 
-echo "Updating Julia..."
+#echo "Updating Julia..."
 #julia -e "Pkg.update()"
-echo "Julia updated!"
+#echo "Julia updated!"
 

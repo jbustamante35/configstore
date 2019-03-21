@@ -1,10 +1,10 @@
-[Default Applications]
-application/pdf=okularApplication_pdf.desktop
-text/markdown=xed.desktop
-text/x-tex=xed.desktop
-text/html=qutebrowser.desktop
-
 [Added Associations]
-application/pdf=zathura-pdf-poppler.desktop;okularApplication_pdf.desktop;
-text/markdown=xed.desktop;
-text/x-tex=xed.desktop;
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;okularApplication_pdf.desktop;org.kde.karbon.desktop;
+image/png=org.kde.gwenview.desktop;sxiv.desktop;feh.desktop;sxiv-rifle.desktop;qutebrowser.desktop;okularApplication_kimgio.desktop;
+
+[Default Applications]
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;
+image/png=org.kde.gwenview.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/slack=slack.desktop

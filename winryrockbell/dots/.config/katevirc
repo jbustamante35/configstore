@@ -1,0 +1,20 @@
+[Kate Vi Input Mode Settings]
+Command Mode Mapping Keys=
+Command Mode Mappings=
+Command Mode Mappings Recursion=
+Insert Mode Mapping Keys=
+Insert Mode Mappings=
+Insert Mode Mappings Recursion=
+Macro Completions=
+Macro Contents=
+Macro Registers=
+Map Leader=\\
+Normal Mode Mapping Keys=<f3>,\\,t,<c-n>,<leader>s,<leader>dh,\\,.,<leader>w,<c-m>,<leader>dv,<leader>q,\\,w,<c-\\,>,<leader>h,\\,\\,,<leader>v,?,<c-.>
+Normal Mode Mappings=:set,:tabnew<cr>,:res,,:sp<cr>,:tabprev<cr>,,:res,:vsplit<cr>,,:tabclose<cr>,<c-w>5<,,:tabnext<cr>,,<c-f>,<c-w>5>
+Normal Mode Mappings Recursion=false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+ViRegisterContents=be ,
+ViRegisterFlags=0,0
+ViRegisterNames=-,^
+Visual Mode Mapping Keys=
+Visual Mode Mappings=
+Visual Mode Mappings Recursion=

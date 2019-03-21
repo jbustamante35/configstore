@@ -1,12 +1,17 @@
 # i3blocks config file
 # Global properties
-command=/usr/share/i3blocks/$BLOCK_NAME
+command=/usr/lib/i3blocks/$BLOCK_NAME
 separator_block_width=30
 markup=pango
 
 [disk]
 label=📦
 interval=60
+
+#[gpu-load]
+#label=GPU
+#interval=10
+#command=~/.scripts/i3scripts/i3gpuload
 
 [cpu_usage]
 label=CPU
@@ -35,7 +40,7 @@ min_width=bat: ■■■■■■■■■■
 
 [mediaplayer]
 label=🎼
-instance=google-play-music-desktop-player
+instance=gpmdp
 interval=5
 signal=10
 

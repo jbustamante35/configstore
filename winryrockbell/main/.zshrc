@@ -9,13 +9,13 @@ ZSH_THEME="half-life"
 
 # Which plugins would you like to load? Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    zsh-autosuggestions
     extract
     web-search
     vagrant
     cp
     vi-mode
     colorize
+    web-search
     #git
     #git-extras
     #git-prompt
@@ -45,7 +45,8 @@ if [ -f ${shrt} ]; then
 fi
 
 # source additional configs
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 #export PATH="/home/jbustamante/anaconda3/bin:$PATH"
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 source ~/.shortcuts

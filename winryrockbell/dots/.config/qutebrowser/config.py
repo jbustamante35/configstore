@@ -412,7 +412,7 @@ c.completion.timestamp_format = '%Y-%m-%d'
 ## How many URLs to show in the web history. 0: no history / -1:
 ## unlimited
 ## Type: Int
-c.completion.web_history_max_items = -1
+c.completion.web_history.max_items = -1
 
 ## Whether quitting the application requires a confirmation.
 ## Type: ConfirmQuit
@@ -749,7 +749,8 @@ c.fonts.messages.warning = '10pt monospace'
 ## Default monospace fonts. Whenever "monospace" is used in a font
 ## setting, it's replaced with the fonts listed here.
 ## Type: Font
-c.fonts.monospace = '"xos4 Terminus", Terminus, Monospace, "DejaVu Sans Mono", Monaco, "Bitstream Vera Sans Mono", "Andale Mono", "Courier New", Courier, "Liberation Mono", monospace, Fixed, Consolas, Terminal'
+#c.fonts.monospace = '"xos4 Terminus", Terminus, Monospace, "DejaVu Sans Mono", Monaco, "Bitstream Vera Sans Mono", "Andale Mono", "Courier New", Courier, "Liberation Mono", monospace, Fixed, Consolas, Terminal'
+c.fonts.monospace = '"DejaVu Sans Mono", "xos4 Terminus", Terminus, Monospace, Monaco, "Bitstream Vera Sans Mono", "Andale Mono", "Courier New", Courier, "Liberation Mono", monospace, Fixed, Consolas, Terminal'
 
 ## Font used for prompts.
 ## Type: Font
@@ -991,7 +992,7 @@ c.qt.force_platform = None
 
 ## Show a scrollbar.
 ## Type: Bool
-c.scrolling.bar = False
+c.scrolling.bar = 'never'
 
 ## Enable smooth scrolling for web pages. Note smooth scrolling does not
 ## work with the `:scroll-px` command.

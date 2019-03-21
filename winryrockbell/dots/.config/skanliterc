@@ -1,0 +1,26 @@
+[General]
+DisableAutoSelection=false
+PreviewDPI=100
+SetPreviewDPI=false
+
+[Image Saving]
+ImgFormat=png
+ImgQuality=90
+Location=/home/jbustamante/Pictures
+NamePrefix=Image-
+NumberStartsFrom=1
+SaveMode=0
+SetQuality=false
+ShowBeforeSave=true
+
+[Options For Noname:USB2.0 HD UVC WebCam: USB2.0 HD]
+KSane::InvertColors=false
+brightness=128
+color=163
+contrast=128
+hue=128
+mode=Color
+white-level=128
+
+[Window]
+Geometry=740,400

@@ -1,0 +1,37 @@
+#!/bin/sh
+# webcam recording shortcuts
+tool=$1
+file=$2
+fldr="/home/jbustamante/Videos/screenrecordings"
+
+case $tool in
+mplayer)
+    fname="$fldr/wcam"
+    mplayer tv:// -tv driver=v4l2:width=640:height=480:device=/dev/video0 \
+        -fps 15 -vf screenshot
+    ;;
+
+mpv)
+    fname="$fldr/wcam"
+    mpv --demuxer-lavf-format video4linux2 \
+        --demuxer-lavf-o-set input_format=mjpeg /dev/video0 \
+        --screenshot-directory="$fname"
+    ;;
+
+hidden)
+    hidden="$fldr/.misc"
+    nm="$2"
+    fname="$hidden/$nm"
+    echo "Recording started in $fname"
+    ffmpeg -f v4l2 -video_size 640x480 -i /dev/video0 -f alsa -i default \
+        -c:v libx264 -preset ultrafast -c:a aac "$fname".mp4
+    echo "Recording stopped in $fname"
+    ;;
+
+*)
+    fname="$fldr/wcam"
+    mpv --demuxer-lavf-format video4linux2 \
+        --demuxer-lavf-o-set input_format=mjpeg /dev/video0 \
+        --screenshot-directory="$fname"
+    ;;
+esac

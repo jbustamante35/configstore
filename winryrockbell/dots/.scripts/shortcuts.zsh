@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/bin/sh
 
 # Config locations
 folders="$HOME/.scripts/folders"
