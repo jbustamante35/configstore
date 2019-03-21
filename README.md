@@ -11,9 +11,9 @@ The devices I'm currently tracking are:
 
 | **Device** | **Description** | **OS** | **Homebase** |
 | :--- | :--- | :--- | :--- |
-| WinryRockbell |  Main ASUS laptop | Ubuntu 18.04 | Spalding Lab |
-| RinTohsaka | Dell laptop | Linux Mint 19 | Eagle Heights |
-| Archer | Dell laptop | Fedora 29 | Eagle Heights |
+| WinryRockbell |  Main ASUS laptop | Manjaro 18.0.4 | Spalding Lab |
+| RinTohsaka | Dell laptop | Arch | Eagle Heights |
+| Archer (dead) | Dell laptop | Arch | Eagle Heights |
 | JDev | Remote Desktop | Scientific Linux 6.10 | Birge Hall Server Room |
 | Potato | Samsung Chromebook 3 | Debian 9.5 | Portable laptop |
 | Aqua | Samsung Chromebook 3 | Android 7.1.1 | Portable laptop

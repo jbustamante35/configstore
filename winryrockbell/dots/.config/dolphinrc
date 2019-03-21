@@ -1,0 +1,61 @@
+Height 1152=1058
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAAD6fwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAA5AAAD6QAAAEYA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAAAgD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAIA////AAAHBAAAA+kAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 2048=1986
+
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+Version=200
+ViewPropsTimestamp=2019,3,17,15,3,1
+
+[IconsMode]
+FontWeight=50
+
+[KPropertiesDialog]
+Height 1080=464
+Height 1152=402
+Height 720=464
+Width 1280=385
+Width 1920=388
+Width 2048=381
+
+[MainWindow]
+Height 1080=480
+Height 1152=1058
+Height 1271=595
+Height 1440=1379
+Height 2160=2066
+Height 540=508
+Height 720=668
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAAFQPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABEAAAFQAAAAFoBAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAAJRwAABUAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1280=637
+Width 1920=640
+Width 2048=984
+Width 2259=1127
+Width 2560=1275
+Width 3840=3778
+Width 960=478
+Window-Maximized 1440x2560=true
+Window-Maximized 540x960=true
+Window-Maximized 635x1129=true
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,djvuthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
+
+[Search]
+Location=Everywhere
+ShowFacetsWidget=true
+What=Content
+
+[SettingsDialog]
+Height 1152=423
+Width 2048=540
+
+[ViewPropertiesDialog]
+Height 1152=664
+Width 2048=359

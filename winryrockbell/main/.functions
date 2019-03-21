@@ -18,10 +18,16 @@ ali () {
 	alias $1=$2
 }
 
+# unzip into directory of the same name as zip file
+uz () {
+	nm=$1;
+	unzip "$nm".zip -d "$nm";
+}
+
 # check current status of dropbox syncing
 drchk () {
 	cd $HOME/Dropbox
-	dropbox filestatus && printf "\n\n\n" && dropbox status
+	dropbox-cli filestatus && printf "\n\n\n" && dropbox-cli status
 	cd -
 }
 

@@ -1,0 +1,125 @@
+[Containments][104][General]
+extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.volume
+knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.volume
+
+[Containments][116][General]
+AppletOrder=117
+
+[Containments][139][General]
+ToolBoxButtonState=topright
+ToolBoxButtonX=3778
+
+[Containments][35][General]
+ToolBoxButtonState=topright
+ToolBoxButtonX=3778
+
+[Containments][77][General]
+ToolBoxButtonState=topright
+ToolBoxButtonX=1884
+
+[Containments][80][General]
+AppletOrder=81;82;84;85;87
+
+[Containments][86][General]
+extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.volume
+knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.volume
+
+[Containments][98][General]
+AppletOrder=99;100;102;103;105
+
+[DownloadDialog Settings]
+Height 2160=1029
+Width 3840=1829
+
+[FileDialogSize]
+Height 1080=636
+Height 2160=636
+Width 1920=1267
+Width 3840=1267
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Videos/screenrecordings/gifconvert/FollowSegmentsOnImageB.gif,file:$HOME/Videos/misc/foxestrappedoutside.mp4,file:$HOME/Videos/screenrecordings/181104_i3Hulk.gif,file:$HOME/Videos/screenrecordings/gifconvert/FollowSegmentsOnImage.gif
+Recent URLs[$e]=file:$HOME/Videos/misc/
+
+[KPropertiesDialog]
+Height 2160=940
+Width 3840=1137
+
+[PlasmaRunnerManager]
+LaunchCounts=1 baloosearch_/home/jbustamante/Dropbox/ResearchArticles/microbiology/jadewang/replication_transcription_conflict/replisome/DNA Replicases from a Bacterial Perspective review (McHenry; 2011).pdf,1 services_caprine.desktop,1 services_powerdevilprofilesconfig.desktop,1 services_kcm_sddm.desktop,11 services_terminator.desktop,1 shell_android-messages,1 services_slack.desktop,1 services_bluedevilglobal.desktop,3 services_systemsettings.desktop,8 services_org.kde.dolphin.desktop,1 shell_urxvtd,1 services_kcm_printer_manager.desktop,1 services_screenlocker.desktop,1 shell_gpg,2 services_urxvt.desktop,2 services_manjaro-settings-manager.desktop,19 services_org.kde.konsole.desktop,1 services_gufw.desktop,1 services_imagej2.desktop,2 services_qutebrowser.desktop,1 shell_urxvtc,1 locations_opendir,2 services_kcm_kdeconnect.desktop,14 services_arandr.desktop,1 services_bluedevildevices.desktop,1 services_msm_mhwd.desktop,1 services_kcm_desktoptheme.desktop,1 services_powerdevilglobalconfig.desktop,2 shell_xkill,14 services_firefox.desktop,13 services_pamac-manager.desktop,1 services_kcm_workspace.desktop,3 services_octopi.desktop,1 services_gpmdp.desktop,1 services_steam.desktop,1 services_simplescreenrecorder.desktop,19 services_kcm_kscreen.desktop,1 services_bluedeviladapters.desktop,4 services_fiji.desktop
+pluginWhiteList=services,shell,bookmarks,baloosearch,locations
+
+[PlasmaViews][Panel 1]
+alignment=132
+
+[PlasmaViews][Panel 1][Horizontal1024]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1152]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1200]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1280]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1366]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1440]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1600]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1680]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1900]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1916]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1920]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal2048]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal3840]
+thickness=50
+
+[PlasmaViews][Panel 1][Horizontal800]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal864]
+thickness=45
+
+[PlasmaViews][Panel 116][Horizontal3840]
+thickness=42
+
+[PlasmaViews][Panel 120]
+alignment=132
+
+[PlasmaViews][Panel 120][Horizontal1920]
+thickness=28
+
+[PlasmaViews][Panel 120][Horizontal3840]
+thickness=82
+
+[PlasmaViews][Panel 80][Horizontal3840]
+thickness=61
+
+[PlasmaViews][Panel 98][Vertical2160]
+thickness=61
+
+[ScreenConnectors]
+0=eDP1
+1=HDMI1
+2=DP2
+3=DP1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

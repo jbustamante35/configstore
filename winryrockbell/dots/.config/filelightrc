@@ -1,0 +1,39 @@
+[FileDialogSize]
+Height 1080=1022
+Width 1920=966
+
+[filelight_part]
+antialias=true
+contrast=75
+minFontPitch=7
+scanAcrossMounts=false
+scanRemoteMounts=false
+scanRemovableMedia=false
+scheme=0
+showSmallFiles=false
+skipList[$e]=/dev/,/proc/,/sys/,/root/
+varyLabelFontSizes=true
+
+[general]
+File1[$e]=/usr/share/
+File2[$e]=/usr/
+File3[$e]=/
+File4[$e]=/home/
+File5[$e]=$HOME/
+File6[$e]=$HOME/Dropbox/
+File7[$e]=$HOME/Dropbox/EdgarSpalding/
+File8[$e]=$HOME/Dropbox/EdgarSpalding/projects/
+Name1[$e]=
+Name2[$e]=
+Name3[$e]=
+Name4[$e]=
+Name5[$e]=
+Name6[$e]=
+Name7[$e]=
+Name8[$e]=
+
+[window]
+Height 1080=466
+State=AAAA/wAAAAD9AAAAAAAAA20AAAF3AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAFgB2AGkAZQB3AFQAbwBvAGwAQgBhAHIAAAACk/////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1920=877
