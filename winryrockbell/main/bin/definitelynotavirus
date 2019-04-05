@@ -1,0 +1,13 @@
+#!/bin/bash
+# THIS IS A VIRUS THAT PUTS 100 PICTURES OF GAL GADOT ON YOUR DESKTOP
+#.................must have picture of Gal Gadot in Download folder...
+
+galgadot="$HOME"/Downloads/galgadot.dmg
+desktop="$HOME"/Desktop
+
+for c in {1..100}; do
+    cp "$galgadot" "$desktop"
+done
+
+# P.S.
+# I am an idiot

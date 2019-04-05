@@ -1,15 +1,20 @@
 [$Version]
 update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update
 
+[FullScreen]
+FullScreenModeActive=true
+
 [MainWindow]
-Height 1080=986
+Height 1080=973
+Height 1152=986
 Height 1271=480
 Height 1440=480
 Height 720=480
-State=AAAA/wAAAAD9AAAAAAAAAvwAAAGcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA4gAAAOUAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1280=764
-Width 1920=920
+Width 1920=904
+Width 2048=920
 Width 2259=766
 Width 2560=764
 
@@ -19,11 +24,15 @@ File2[$e]=$HOME/Dropbox/Pictures/screenshots/OhWowMom.png
 File3[$e]=$HOME/Dropbox/Pictures/gimps/glasses.png
 File4[$e]=$HOME/Dropbox/Pictures/wallpapers/Blake.jpg
 File5[$e]=/usr/share/wallpapers/BytheWater/contents/images/2560x1440.jpg
+File6[$e]=$HOME/Dropbox/EdgarSpalding/labdata/ashley_henry/rootgrowth/190327_roots_elisabeth.tiff
+File7[$e]=$HOME/Dropbox/Pictures/screenshots/190328_speedtest_jdev.png
 Name1[$e]=2560x1600.jpg
 Name2[$e]=OhWowMom.png
 Name3[$e]=glasses.png
 Name4[$e]=Blake.jpg
 Name5[$e]=2560x1440.jpg
+Name6[$e]=190327_roots_elisabeth.tiff
+Name7[$e]=190328_speedtest_jdev.png
 
 [SideBar]
-SideBarSplitterSizes=242,519
+SideBarSplitterSizes=242,656
