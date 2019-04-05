@@ -13,6 +13,12 @@ cl () {
 	cd $1 && la -F;
 }
 
+# clear color cache and re-load Xresources
+clrs () {
+    xrdb -load ~/.cache/wal/colors.Xresources ;
+    xrdb -merge ~/.Xresources
+}
+
 # easily create alias [not very flexible yet]
 ali () {
 	alias $1=$2

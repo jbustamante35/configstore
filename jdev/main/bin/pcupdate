@@ -1,0 +1,9 @@
+echo "Updating package repository..."
+sudo yum update -y && sudo yum upgrade -y
+echo "Finished updating packages!"
+
+echo "Updating anaconda..."
+conda update --all -y
+echo "Done updating anaconda!"
+
+
