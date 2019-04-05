@@ -17,7 +17,7 @@ if [ -x /usr/bin/dircolors ]; then
      alias fgrep='fgrep --color=auto'
      alias egrep='egrep --color=auto'
  fi
- 
+
  # colored GCC warnings and errors
  export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
@@ -30,9 +30,16 @@ alias lsl='ll | less'
 
 # some cd aliases
 alias ..='cd ..'
-alias data='cd /home/jbustamante/LabData'
-alias software='cd /home/jbustamante/Software'
-alias hyp='cd ~/LabData/HypoQuantyl/'
+alias dat='cl ~/LabData'
+alias hyp='cl ~/LabData/HypoQuantyl/'
+alias car='cl ~/LabData/scott_brainard/'
+alias kin='cl ~/LabData/ashley/'
+alias sw='cl ~/Software'
+alias hq='cl ~/Software/hypoquantyl'
+alias sp='cl ~/Software/sphinctolyzer'
+alias cs='cl ~/Software/carrotsweeper'
+alias pm='cl ~/Software/phytomorph'
+alias qd='cl ~/Software/quantdracala'
 
 # filesystem aliases
 alias mkdir='mkdir -pv '
@@ -41,6 +48,11 @@ alias dff='df -hag'
 alias naut='nautilus .'
 alias natu='nautilus .'
 alias mnt='mount | column -t'
+alias db='sudo updatedb'
+alias yin='sudo yum install'
+alias ysr='yum search'
+alias yrm='sudo yum erase'
+
 
 # disk check aliases
 alias duu='du -ach | sort -h -r'
@@ -63,6 +75,10 @@ alias term='export TERM=xterm-256color'
 alias matlab='matlab -nosplash'
 alias medit='matlab -nodesktop -nosplash -nodisplay'
 alias mconsole='matlab -nodesktop -nosplash'
+alias kl='RM */.git'
+alias kll='RM */*/.git'
+alias klll='RM */*/*/.git'
+alias wali='clrs && wal -i ~/.config/wall.png --saturate'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -77,4 +93,10 @@ export EDITOR='vim'
 alias hal="gnome-terminal --profile='HAL9000'"
 alias marv="gnome-terminal --profile='Marvin the Paranoid Android'"
 alias ava="gnome-terminal --profile='AVA'"
+
+# VimWiki aliases
+alias jrnl='vim ~/Documents/jbwiki/journal.wiki/index.wiki'
+alias labn='vim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
+alias ojrnl='xdg-open ~/Documents/jbwiki/journal.wiki_html/index.html'
+alias olabn='xdg-open ~/Documents/jbwiki/labnotes.wiki_html/index.html'
 

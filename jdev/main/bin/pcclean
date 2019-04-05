@@ -1,0 +1,4 @@
+echo "Updating package repository..."
+sudo yum clean all -y
+echo "Finished updating packages!"
+

@@ -106,6 +106,14 @@
     <scolor>#14142c2c3d3d</scolor>
   </wallpaper>
   <wallpaper deleted="false">
+    <name>Blake.jpg</name>
+    <filename>/home/jbustamante/Pictures/wallpapers/Blake.jpg</filename>
+    <options>stretched</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>#22224b4b6868</pcolor>
+    <scolor>#14142c2c3d3d</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
     <name>Gulp</name>
     <filename>/usr/share/backgrounds/abstract/Gulp.png</filename>
     <options>zoom</options>
@@ -237,6 +245,14 @@
     <name>Lady Bird</name>
     <filename>/usr/share/backgrounds/nature/LadyBird.jpg</filename>
     <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>#22224b4b6868</pcolor>
+    <scolor>#14142c2c3d3d</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>wall.png</name>
+    <filename>/home/jbustamante/.config/wall.png</filename>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>#22224b4b6868</pcolor>
     <scolor>#14142c2c3d3d</scolor>
