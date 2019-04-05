@@ -1,5 +1,5 @@
 [General]
-history=terminator,pkill conky,conky,firef,terminato,gg ,gg.google,sc
+history=brave,urxvtd -q -o -f,terminator,pkill conky,conky,firef,terminato,gg ,gg.google,sc
 
 [PlasmaRunnerManager]
-LaunchCounts=1 shell_pkill conky,1 services_screenlocker.desktop,3 locations_openunknown,1 services_conky-manager.desktop,1 services_terminator.desktop
+LaunchCounts=1 shell_pkill conky,1 services_terminator.desktop,3 locations_openunknown,1 services_screenlocker.desktop,1 services_brave.desktop,1 services_conky-manager.desktop,1 shell_urxvtd -q -o -f

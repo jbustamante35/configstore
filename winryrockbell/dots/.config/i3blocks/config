@@ -6,15 +6,16 @@ markup=pango
 
 [disk]
 label=📦
+command=~/.scripts/i3scripts/i3disk nvme0n1p4
 interval=60
 
-#[gpu-load]
-#label=GPU
-#interval=10
-#command=~/.scripts/i3scripts/i3gpuload
+[memory]
+label=🐏
+interval=5
+command=~/.scripts/i3scripts/i3memory
 
 [cpu_usage]
-label=CPU
+label=💽
 interval=10
 min_width=CPU: 100.00%
 

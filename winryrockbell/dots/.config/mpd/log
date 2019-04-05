@@ -1,0 +1,49 @@
+Mar 26 13:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 26 13:45 : exception: Failed to open '/home/jbustamante/.config/mpd/state': No such file or directory
+Mar 26 13:45 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Mar 26 13:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 26 13:46 : exception: Failed to open '/home/jbustamante/.config/mpd/state': No such file or directory
+Mar 26 13:46 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Mar 26 13:46 : client: [0] opened from 127.0.0.1:60750
+Mar 26 13:46 : client: [0] closed
+Mar 26 13:47 : client: [1] opened from 127.0.0.1:60760
+Mar 26 13:47 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:47 : client: [1] closed
+Mar 26 13:50 : client: [2] opened from 127.0.0.1:60854
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : exception: Failed to open /home/jbustamante/.config/mpd/playlists: Not a directory
+Mar 26 13:50 : client: [2] closed
+Mar 26 13:50 : client: [3] opened from 127.0.0.1:60870
+Mar 26 13:50 : client: [3] closed
+Mar 26 13:51 : client: [4] opened from 127.0.0.1:60874
+Mar 26 13:51 : client: [4] closed
+Mar 26 13:51 : client: [5] opened from 127.0.0.1:60880
+Mar 26 13:51 : client: [5] closed
+Mar 26 13:51 : client: [6] opened from 127.0.0.1:60884
+Mar 26 13:51 : client: [6] closed
+Mar 26 14:12 : exception: Failed to commit /home/jbustamante/.config/mpd/state: File exists

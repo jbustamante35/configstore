@@ -4,50 +4,36 @@
 
 # create directory and move to it
 mvcd () {
-	mkdir $1;
-	cd $1;
+    mkdir $1;
+    cd $1;
 }
 
 # move to directory and show contents
 cl () {
-	cd $1 && la -F;
+    cd $1 && la -F;
 }
 
 # easily create alias [not very flexible yet]
 ali () {
-	alias $1=$2
+    alias $1=$2
 }
 
 # unzip into directory of the same name as zip file
 uz () {
-	nm=$1;
-	unzip "$nm".zip -d "$nm";
+    nm=$1;
+    unzip "$nm".zip -d "$nm";
 }
 
 # check current status of dropbox syncing
 drchk () {
-	cd $HOME/Dropbox
-	dropbox-cli filestatus && printf "\n\n\n" && dropbox-cli status
-	cd -
+    cd $HOME/Dropbox
+    dropbox-cli filestatus && printf "\n\n\n" && dropbox-cli status
+    cd -
 }
 
-# manage brightness settings with light
-lit () {
-    dir=$1
-    val=$2
-
-    case $dir in
-       up)
-            cmd='-A'
-            ;;
-       down)
-            cmd='-U'
-            ;;
-       *)
-            cmd='-U'
-            ;;
-    esac
-
-    sudo light $cmd $val
+# load color configs
+clrs () {
+    wal -c
+    xrdb -load ~/.cache/wal/colors.Xresources ;
+    xrdb -merge ~/.Xresources ;
 }
-

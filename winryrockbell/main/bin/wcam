@@ -1,8 +1,8 @@
 #!/bin/sh
 # webcam recording shortcuts
-tool=$1
-file=$2
-fldr="/home/jbustamante/Videos/screenrecordings"
+tool="$1"
+file="$2"
+fldr="$HOME/Videos/screenrecordings"
 
 case $tool in
 mplayer)

@@ -74,7 +74,8 @@ alias klll='RM */*/*/.git'
 alias db='sudo updatedb'
 alias xcolors='xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources'
 alias xwal='wal -i ~/.config/wall.png --saturate 0.8'
-alias orun='optirun -b primus'
+alias orun='optirun'
+alias orunp='optirun -b primus'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -113,7 +114,7 @@ alias zt='zathura '
 alias rtv='rtv --enable-media '
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias weather='/home/jbustamante/.scripts/i3scripts/i3weather && cat /home/jbustamante/.weatherreport'
-alias wali='wal -i ~/.config/wall.png --saturate 0.6'
+alias wali='wal -c && clrs && wal -i ~/.config/wall.png --saturate'
 
 # iRODS aliases
 alias idata='irodsFs -o allow_other $HOME/idata'

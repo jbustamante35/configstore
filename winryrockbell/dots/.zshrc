@@ -5,7 +5,7 @@ export PROFILE=winryrockbell # Set profile for device
 export ZSH="/home/jbustamante/.oh-my-zsh" # Path to your oh-my-zsh installation.
 
 # Set name of the theme to load
-ZSH_THEME="half-life"
+ZSH_THEME="nanotech"
 
 # Which plugins would you like to load? Add wisely, as too many plugins slow down shell startup.
 plugins=(
