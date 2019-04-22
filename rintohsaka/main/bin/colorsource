@@ -1,0 +1,7 @@
+#!/bin/sh
+# Source pywal colors and Xresources
+
+xrdb -load ~/.cache/wal/colors.Xresources;
+xrdb -merge ~/.Xresources;
+
+

@@ -1,0 +1,8 @@
+#!/bin/sh
+# Switches the soft link to ~/.config/rofi/rofi_theme.rasi
+
+rofi_path="$1"
+curr_theme="$HOME/.config/rofi/rofi_theme.rasi"
+
+ln -sf "$rofi_path" "$curr_theme"
+

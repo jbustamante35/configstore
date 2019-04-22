@@ -1,0 +1,11 @@
+#!/bin/sh
+# Start applets onto status bar
+# WiFi: wicd-gtk
+# Bluetooth: Blueberry
+
+# WiFi applet using wicd-gtk
+wicd-gtk --tray &
+
+# Bluetooth applet using blueberry-tray
+blueberry-tray &
+

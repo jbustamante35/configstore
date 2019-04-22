@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# Source colorschemes and Keyboard layout
+[ -f ~/.cache/wal/colors.Xresources ] && xrdb -load  ~/.cache/wal/colors.Xresources
+[ -f ~/.Xresources ]                  && xrdb -merge ~/.Xresources
+
+# Keyboard setup
+[ -f ~/.Xmodmap ] && xmodmap ~/.Xmodmap
+taptouch 1
+swapcaps
+xset r rate 200 50
+
+# Set colors from .Xresources to match pywal
+wal -c
+wal -i ~/.config/wall.png --saturate  0.8
+
+# Starting applications and authentication for pamac
+applets;
+dualScreen;
+urxvtd -q -o -f;
+authenticate_pamac.sh;
+

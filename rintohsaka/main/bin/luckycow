@@ -1,2 +1,3 @@
-fortune | cowsay -f mech-and-cow | lolcat 
+#!/bin/sh
+fortune | cowsay -f dragon-and-cow | lolcat
 

@@ -1,0 +1,6 @@
+#!/bin/sh
+# Swap out Caps_Lock and Escape functions
+
+setxkbmap -option "caps:swapescape"
+
+

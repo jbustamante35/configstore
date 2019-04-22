@@ -1,0 +1,15 @@
+#!/bin/sh
+# Init tap touch for touchpad
+
+cmd="$1"
+
+#xinput set-prop 14 307 1
+#xinput list-props "DLLC6B2:00 06CB:75BF Touchpad"
+
+if [ $cmd == "list" ]; then
+    xinput list-props "DLLC6B2:00 06CB:75BF Touchpad"
+else
+    xinput set-prop "DLLC6B2:00 06CB:75BF Touchpad" "libinput Tapping Enabled" "$1"
+fi
+
+
