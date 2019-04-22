@@ -1,34 +1,26 @@
-"
-"                                      `++
-":-`                                  .syys.                                  `-:
-"-yyyo+:.`                           :yyyyyy:                           `.:+oyyy-
-" +yyyyyyyso/-.              .      +yyyyyyyy+      .              .-/osyyyyyyy+
-" `syyyyyyyyyyyys+/-`      :s`    ./++++++++++/.    `s:      `-/+syyyyyyyyyyyys`
-"  -yyyyyyyyyyyyyyyyyyo+:-+y:    :ys.        .sy:    :y+-:+oyyyyyyyyyyyyyyyyyy-
-"     `..-://+oosyyyyyyyyyyy`   +yyyy:      :yyyy+   `yyyyyyyyyyysoo+//:-..`
-"                  `..-:/yyy  .syyyyyy+`  `+yyyyyys.  yyy/:-..`
-"                 ``..--:yyy.-yyyyyyyyys..syyyyyyyyy:.yyy:--..``
-"     -://++oossyyyyyyyyyyyyo-......................-oyyyyyyyyyyyyssoo++//:-
-"     `syyyyyyyyyyyyyys+//yyyo.                    .oyyy//osyyyyyyyyyyyyyys`
-"      `syyyyyyyys+:.`  `:syyyys/-`     //     `-/syyyys:`  `-:+syyyyyyyys`
-"       `syyo/:.      .+yyyysyyyyyyo`  +yy/  `oyyyyyysyyyy+.      .:/oyys`
-"        ``        `/syyyyo. +yyyyyy. oyyyyo .yyyyyy+ .oyyyys/`        ``
-"               `:oyyyyys-  -yyy/--` +yyyyyy+ `--/yyy-  -syyyyyo:`
-"             `+yyyyyys:   .yyys    /yyyyyyyy/    syyy.   :syyyyyy+`
-"              `:oyyy/`   `syyy/   .:oyyyyyyo/.   /yyys`   `/yyyo:`
-"                 .:`     oyyyy`   `` .syys. ``   .yyyyo     `:.
-"                        ./++o+   +yy` /yy/ `yy+   +o++/.
-"                                /ys. -yyyy- .sy/
-"                        ```````/ys.  .yyyy.  .sy/```````
-"                        :syy++++oyo`  :yy:  `oyo++++yys:
-"                          -o/   :.     ++     .:   /o-
-"                            `          ``          `
-"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"      "      "      "      "      "      "      "      "      "      "       "
+"      "      "      "      "      "      "      "      "      "      "       "
+"      "      "      "      "      "      "      "      "      "      "       "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"      "      "      "      "      "      "      "      "      "      "       "
+"      "      "      "      "      "      "      "      "      "      "       "
+"      "      "      "      "      "      "      "      "      "      "       "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"      "      "      "      "      "      "      "      "      "      "       "
+"      "      "      "      "      "      "      "      "      "      "       "
+"      "      "      "      "      "      "      "      "      "      "       "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"      "      "      "      "      "      "      "      "      "      "       "
+"      "      "      "      "      "      "      "      "      "      "       "
+"      "      "      "      "      "      "      "      "      "      "       "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                                        _
 "                           _ __  __   _(_)_ __ ___
 "                          | '_  \\ \ / / | '_ ` _ \
 "                          | | | | \ V /| | | | | | |
 "                          |_| |_|  \_/ |_|_| |_| |_|
-"                                 _
+"
 "                          __   _(_)_ __ ___  _ __ ___
 "                          \ \ / / | '_ ` _ \| '__/ __|
 "                           \ V /| | | | | | | | | (__
@@ -67,7 +59,7 @@
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" Settings and colors
-" Set color of ruler at line 100
+" Set color of ruler at line 80
     highlight ColorColumn ctermbg=darkgray
 
 " Insert date/timestamp and break line
@@ -145,6 +137,7 @@
 let g:instant_markdown_autostart = 0
 
 " MarkdownComposer: markdown viewer for neovim
+let g:markdown_composer_browser = 'qutebrowser'
 let g:markdown_composer_open_browser = 0
 nmap <C-a> :ComposerOpen<CR>
 
@@ -229,9 +222,16 @@ let g:limelight_paragraph_span = 0
 nmap <Leader>ll :Limelight<CR>
 
 " VimLaTeXLivePreview: Live previewing of LaTeX PDF
-let g:livepreview_previewer = 'zathura'
+"let g:livepreview_previewer            = 'okular'
+let g:livepreview_previewer            = 'zathura'
 let g:livepreview_cursorhold_recompile = 0
 nmap <C-l> :LLPStartPreview<CR>
+
+" SmoothScroll: more pleasant scrollinng
+noremap <silent> <C-u> :call smooth_scroll#up(&scroll, 0, 2)<CR>
+noremap <silent> <C-d> :call smooth_scroll#down(&scroll, 0, 2)<CR>
+"noremap <silent> <C-b> :call smooth_scroll#up(&scroll*2, 0, 4)<CR>
+"noremap <silent> <C-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
 
 " Pandoc: LaTeX compiler and viewer [TODO]
 

@@ -1,5 +1,5 @@
 #!/bin/sh
-### This is only if your location isn't automatically detected, otherwise you can leave it blank.
+# Leave blank unless autodetected
 location=""
 
 [ "$location" != "" ] && location="$location+"

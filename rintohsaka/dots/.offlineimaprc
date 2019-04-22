@@ -1,0 +1,38 @@
+[general]
+# List of accounts to be synced, separated by a comma.
+accounts      = gmailjb, wiscjb
+
+[Account gmailjb]
+localrepository  = GmailLocal
+remoterepository = GmailRemote
+
+[Repository GmailLocal]
+# OfflineIMAP supports Maildir, GmailMaildir, and IMAP for local repositories.
+# Where should the mail be placed?
+type         = Maildir
+localfolders = ~/.mail/gmailjb
+
+[Repository GmailRemote]
+# Remote repos can be IMAP or Gmail, the latter being a preconfigured IMAP.
+type          = IMAP
+remotehost    = imap.gmail.com
+remoteuser    = jbustamante35@gmail.com
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+ssl_version   = tls1_2
+
+[Account wiscjb]
+localrepository  = WiscLocal
+remoterepository = WiscRemote
+
+[Repository WiscLocal]
+# OfflineIMAP supports Maildir, GmailMaildir, and IMAP for local repositories.
+# Where should the mail be placed?
+type         = Maildir
+localfolders = ~/.mail/wiscjb
+
+[Repository WiscRemote]
+# Remote repos can be IMAP or Gmail, the latter being a preconfigured IMAP.
+type          = IMAP
+remotehost    = outlook.office365.com
+remoteuser    = jbustamante@wisc.edu
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt

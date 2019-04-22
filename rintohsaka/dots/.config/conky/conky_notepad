@@ -1,0 +1,49 @@
+# vim: filetype=conkyrc
+# — Conky settings — #
+background yes
+update_interval 1
+
+double_buffer yes
+no_buffers    yes
+
+# — Window specifications — #
+own_window              yes
+own_window_type         override # normal,override,desktop
+own_window_class        Conky
+own_window_title        Monitor Conky
+own_window_hints        undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_colour       black
+own_window_transparent  no
+own_window_argb_visual  yes
+own_window_argb_value   140
+minimum_size            400 200
+maximum_width           400
+alignment               bottom_right
+
+
+# — Placement — #
+gap_x 40
+gap_y 40
+
+
+# — Graphics settings — #
+border_inner_margin   5
+border_outer_margin   5
+draw_borders          no
+draw_graph_borders    no
+draw_outline          no
+draw_shades           no
+
+
+# — Text settings — #
+#xftfont         Amaranth:size=10
+xftfont         Droid Sans:size=12
+default_color   ffffff
+uppercase       no
+use_xft         yes
+xftalpha        1
+
+TEXT
+# — To Do list — 4#
+${voffset 0}${offset 0}${color}${font}${exec cat ~/.config/conky/notepad/notes.md | fmt -s -w 36 | sed 's/^/    /'}${font}
+

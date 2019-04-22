@@ -1,0 +1,59 @@
+13/03/2019-23:59:58:Info:A new metadata plugin was added, gmpc has purged all failed hits from the cache
+14/03/2019-00:00:23:Info:<b>Added profile:</b> 'New Profile'
+14/03/2019-00:00:25:Info:<b>Removed profile:</b> 'Name'
+14/03/2019-00:00:29:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6600: Operation now in progress</b>
+14/03/2019-00:00:36:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6600: Operation now in progress</b>
+14/03/2019-00:00:42:Info:<b>Added profile:</b> 'New Profile'
+14/03/2019-00:00:43:Info:<b>Removed profile:</b> 'Name'
+14/03/2019-00:00:44:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6599: Operation now in progress</b>
+14/03/2019-00:00:53:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 8000: Operation now in progress</b>
+14/03/2019-00:01:03:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6600: Operation now in progress</b>
+14/03/2019-00:03:22:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6600: Operation now in progress</b>
+14/03/2019-00:03:29:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6600: Operation now in progress</b>
+14/03/2019-00:03:34:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6601: Operation now in progress</b>
+14/03/2019-00:03:36:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6601: Operation now in progress</b>
+14/03/2019-00:03:43:Critical:<b>error code 13: problems connecting to &quot;127.0.0.1&quot; on port 6601: Operation now in progress</b>
+14/03/2019-00:03:44:Critical:<b>error code 13: problems connecting to &quot;127.0.0.1&quot; on port 6601: Operation now in progress</b>
+14/03/2019-00:03:53:Critical:<b>error code 13: problems connecting to &quot;127.0.0.1&quot; on port 6601: Operation now in progress</b>
+14/03/2019-00:04:03:Info:Connected to mpd
+14/03/2019-00:04:03:Info:MPD Database has been updated at: Sat 09 Mar 2019 03:09:01 PM CST
+14/03/2019-00:13:07:Critical:<b>error code 17: connection closed</b>
+14/03/2019-00:13:07:Info:Disconnected from mpd
+14/03/2019-00:13:13:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6601: Operation now in progress</b>
+14/03/2019-00:13:19:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6601: Operation now in progress</b>
+14/03/2019-00:13:19:Info:Connected to mpd
+14/03/2019-00:13:19:Info:MPD Database has been updated at: Sat 09 Mar 2019 03:09:01 PM CST
+14/03/2019-00:26:32:Info:MPD Database has been updated at: Thu 14 Mar 2019 12:26:32 AM CDT
+14/03/2019-00:26:40:Info:MPD Database has been updated at: Thu 14 Mar 2019 12:26:40 AM CDT
+14/03/2019-00:44:40:Info:MPD Database has been updated at: Thu 14 Mar 2019 12:44:40 AM CDT
+14/03/2019-00:45:18:Info:MPD Database has been updated at: Thu 14 Mar 2019 12:45:18 AM CDT
+14/03/2019-00:45:43:Info:MPD Database has been updated at: Thu 14 Mar 2019 12:45:43 AM CDT
+14/03/2019-00:48:03:Info:MPD Database has been updated at: Thu 14 Mar 2019 12:48:03 AM CDT
+14/03/2019-00:48:15:Info:MPD Database has been updated at: Thu 14 Mar 2019 12:48:15 AM CDT
+14/03/2019-00:48:35:Info:MPD Database has been updated at: Thu 14 Mar 2019 12:48:35 AM CDT
+14/03/2019-00:51:44:Info:MPD Database has been updated at: Thu 14 Mar 2019 12:51:44 AM CDT
+14/03/2019-00:56:53:Info:MPD Database has been updated at: Thu 14 Mar 2019 12:56:53 AM CDT
+21/03/2019-23:31:09:Info:Connected to mpd
+21/03/2019-23:31:09:Info:MPD Database has been updated at: Thu 21 Mar 2019 11:27:59 PM CDT
+22/03/2019-10:22:32:Info:Connected to mpd
+22/03/2019-10:22:32:Info:MPD Database has been updated at: Fri 22 Mar 2019 10:22:15 AM CDT
+24/03/2019-23:16:12:Info:Connected to mpd
+24/03/2019-23:16:12:Info:MPD Database has been updated at: Sun 24 Mar 2019 05:47:49 PM CDT
+28/03/2019-22:57:51:Info:Connected to mpd
+28/03/2019-22:57:51:Info:MPD Database has been updated at: Tue 26 Mar 2019 02:01:15 AM CDT
+28/03/2019-23:17:20:Info:Connected to mpd
+28/03/2019-23:17:20:Info:MPD Database has been updated at: Thu 28 Mar 2019 10:59:43 PM CDT
+31/03/2019-00:58:10:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6600: Operation now in progress</b>
+31/03/2019-00:58:17:Info:Connected to mpd
+31/03/2019-00:58:17:Info:MPD Database has been updated at: Thu 28 Mar 2019 11:34:56 PM CDT
+31/03/2019-01:42:17:Info:Connected to mpd
+31/03/2019-01:42:17:Info:MPD Database has been updated at: Sun 31 Mar 2019 01:39:27 AM CDT
+31/03/2019-01:42:36:Critical:<b>error code 5: ACK [5@0] {} Failed to decode /home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/05 - Amanda Lee - Stars Align.mp3; Failed to open &apos;/home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/05 - Amanda Lee - Stars Align.mp3&apos;: No such file or directory</b>
+31/03/2019-01:42:43:Critical:<b>error code 5: ACK [5@0] {} Failed to decode /home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/01 - Amanda Lee - Hourglass.mp3; Failed to open &apos;/home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/01 - Amanda Lee - Hourglass.mp3&apos;: No such file or directory</b>
+31/03/2019-01:43:08:Critical:<b>error code 5: ACK [5@0] {} Failed to decode /home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/03 - Amanda Lee - Shatter.mp3; Failed to open &apos;/home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/03 - Amanda Lee - Shatter.mp3&apos;: No such file or directory</b>
+31/03/2019-01:43:10:Critical:<b>error code 5: ACK [5@0] {} Failed to decode /home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/02 - Amanda Lee - Escape.mp3; Failed to open &apos;/home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/02 - Amanda Lee - Escape.mp3&apos;: No such file or directory</b>
+31/03/2019-01:43:12:Critical:<b>error code 5: ACK [5@0] {} Failed to decode /home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/01 - Amanda Lee - Hourglass.mp3; Failed to open &apos;/home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/01 - Amanda Lee - Hourglass.mp3&apos;: No such file or directory</b>
+31/03/2019-01:43:13:Critical:<b>error code 50: ACK [50@0] {} No such playlist</b>
+31/03/2019-01:43:14:Critical:<b>error code 5: ACK [5@0] {} Failed to decode /home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/03 - Amanda Lee - Shatter.mp3; Failed to open &apos;/home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/03 - Amanda Lee - Shatter.mp3&apos;: No such file or directory</b>
+31/03/2019-01:43:15:Critical:<b>error code 5: ACK [5@0] {} Failed to decode /home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/05 - Amanda Lee - Stars Align.mp3; Failed to open &apos;/home/jbustamante/Music/cdrom/amalee/hourglass/AmaLee - Hourglass/05 - Amanda Lee - Stars Align.mp3&apos;: No such file or directory</b>
+31/03/2019-01:49:35:Info:MPD Database has been updated at: Sun 31 Mar 2019 01:49:34 AM CDT

@@ -1,3 +1,5 @@
+.190331_bravesyn
+.190401_bravewal
 addSubmodules.sh
 .aliases
 .bashrc

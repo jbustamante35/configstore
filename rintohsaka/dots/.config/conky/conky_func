@@ -1,11 +1,15 @@
+# vim: filetype=conkyrc
 # Configs
 own_window             yes
 own_window_type        override
+#own_window_type        conky
 own_window_class       Conky
 own_window_title       Monitor Conky
 own_window_hints       undecorated,below,sticky,skip_taskbar,skip_pager
 own_window_colour      black
 own_window_transparent yes
+own_window_argb_visual yes
+own_window_argb_value  0
 
 override_utf8_locale yes
 xftfont Cantarell:size=12
@@ -17,7 +21,7 @@ xftalpha   1
 update_interval  3
 cpu_avg_samples  8
 double_buffer    yes
-alignment        bl
+alignment        tr
 no_buffers       yes
 imlib_cache_size 0
 
@@ -39,9 +43,9 @@ maximum_width       400
 gap_x               10
 gap_y               25
 
-default_color ac9cd8 # Function Key
-color2        e8b882 # Application
-color3        e69c71 # Heading
+default_color d7f778 # Function Key
+color2        white  # Application
+color3        53f594 # Heading
 
 ###############################################################################
 # Function Bindings
@@ -50,13 +54,14 @@ ${color3}${font Cantarell:size=16} FUNCTION BINDINGS
 ${font} ${voffset -2} ${hr 3} ${color2}
 ${color} F1  $alignr ${color2} Calendar
 ${color} F2  $alignr ${color2} Pulse Mixer
-${color} F3  $alignr ${color2} Google Play Music
-${color} F4  $alignr ${color2} Spotify
-${color} F5  $alignr ${color2} Mailspring
-${color} F6  $alignr ${color2} PushBullet
-${color} F7  $alignr ${color2} Android Messages
-${color} F8  $alignr ${color2} Slack
-${color} F9  $alignr ${color2} Google Hangouts
-${color} F10 $alignr ${color2} Facebook Messenger
-${color} F11 $alignr ${color2} Wal
-${color} F12 $alignr ${color2} [not bound]
+${color} F3  $alignr ${color2} Ncmpcpp
+${color} F4  $alignr ${color2} Curseradio
+${color} F5  $alignr ${color2} Systemd Services
+${color} F6  $alignr ${color2} Gmail Neomutt
+${color} F7  $alignr ${color2} Outlook Neomutt
+${color} F8  $alignr ${color2} Todo List
+${color} F9  $alignr ${color2} Shopping List
+${color} F10 $alignr ${color2} Light Pywal
+${color} F11 $alignr ${color2} Dark Pywal
+${color} F12 $alignr ${color2} Arandr
+
