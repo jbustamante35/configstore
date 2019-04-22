@@ -15,8 +15,8 @@ The devices I'm currently tracking are:
 | RinTohsaka | Dell laptop | Arch | Eagle Heights |
 | Archer (dead) | Dell laptop | Arch | Eagle Heights |
 | JDev | Remote Desktop | Scientific Linux 6.10 | Birge Hall Server Room |
-| Potato | Samsung Chromebook 3 | Debian 9.5 | Portable laptop |
-| Aqua | Samsung Chromebook 3 | Android 7.1.1 | Portable laptop
+| Potato | Samsung Chromebook 3 | Gallium OS | Portable laptop |
+| Aqua (dead) | Samsung Chromebook 3 | Android 7.1.1 | Portable laptop
 
 ## Usage
 All configuration files are automatically saved into their respective device's directory every
