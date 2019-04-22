@@ -9,7 +9,7 @@ mvcd () {
 }
 
 # move to directory and show contents
-cll () {
+cl () {
 	cd $1 && la -F;
 }
 
@@ -18,4 +18,41 @@ ali () {
 	alias $1=$2
 }
 
+# unzip into directory of the same name as zip file
+uz () {
+	nm=$1;
+	unzip "$nm".zip -d "$nm";
+}
+
+# check current status of dropbox syncing
+drchk () {
+	cd /media/jbustamante/voltron/Dropbox
+	dropbox filestatus && printf "\n\n\n" && dropbox status
+	cd -
+}
+
+clrs () {
+    xrdb -load ~/.cache/wal/colors.Xresources ;
+    xrdb -merge ~/.Xresources
+}
+
+# manage brightness settings with light
+lit () {
+    dir=$1
+    val=$2
+
+    case $dir in
+       up)
+            cmd='-A'
+            ;;
+       down)
+            cmd='-U'
+            ;;
+       *)
+            cmd='-U'
+            ;;
+    esac
+
+    sudo light $cmd $val
+}
 

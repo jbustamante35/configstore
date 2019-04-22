@@ -5,11 +5,12 @@
 # source main bashrc and zshrc files
 alias sbc='source ~/.bashrc'
 alias szc='source ~/.zshrc'
+alias spr='source ~/.profile'
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    
+
     alias ls='ls -N --color=auto --group-directories-first'
     alias dir='dir --color=auto'
     alias vdir='vdir --color=auto'
@@ -18,10 +19,10 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
- 
+
  # colored GCC warnings and errors
  export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
- 
+
 # some more ls aliases
 alias ls='ls -N --color=auto --group-directories-first'
 alias ll='ls -alFh'
@@ -29,24 +30,44 @@ alias la='ls -A'
 alias l='ls -CF'
 alias lsl='ll | less'
 
-# some cd aliases
-alias ..='cd ..'
+# some work aliases
+alias ..='cl ..'
+alias cdcl='cl /media/jbustamante/voltron/Dropbox/Classes/uwmadison'
+alias cdra='cl /media/jbustamante/voltron/Dropbox/ResearchArticles/computationalbiology/edgarspalding'
+alias cdes='cl /media/jbustamante/voltron/Dropbox/EdgarSpalding'
+alias sw='cl   /media/jbustamante/voltron/Dropbox/EdgarSpalding/projects                              '
+alias hq='cl   /media/jbustamante/voltron/Dropbox/EdgarSpalding/projects/hypoquantyl'
+alias cs='cl   /media/jbustamante/voltron/Dropbox/EdgarSpalding/projects/carrotsweeper'
+alias sp='cl   /media/jbustamante/voltron/Dropbox/EdgarSpalding/projects/sphinctolyzer'
+alias qd='cl   /media/jbustamante/voltron/Dropbox/EdgarSpalding/projects/quantdracala/quantdracala'
+alias ph='cl   /media/jbustamante/voltron/Dok/spaldingshell'
 
 # filesystem aliases
 alias mkdir='mkdir -pv '
 alias df='pydf -h '
-alias dff='df -gha'
+alias dolp='dolphin .'
+alias dlph='dolphin .'
 alias mnt='mount | column -t'
 alias pping='prettyping '
-alias app='sudo apt-get -qq '
+alias ain='sudo apt install'
+alias asr='apt search'
+alias arm='sudo apt purge'
 
 # misc system aliases
+alias dff='df -gha'
 alias duu='sudo du -hs && sudo du -ah | sort -r | head -$1'
 alias psg='ps auxf | fgrep -v grep | fgrep -ie VSZ -e '
 alias myip='curl http://ipecho.net/plain; echo'
 alias svim='sudo vim '
 alias rm='rm -I'
 alias RM='sudo rm -Ird'
+alias kl='RM */.git'
+alias kll='RM */*/.git'
+alias klll='RM */*/*/.git'
+alias db='sudo updatedb'
+alias xcolors='xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources'
+alias xwal='wal -i ~/.config/wall.png --saturate 0.8'
+alias orun='optirun -b primus'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -54,7 +75,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
     il -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # aliases to vpn to UW Madison
-alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu --username jbustamante'
+#alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu --username jbustamante'
+alias vpn2me='sudo openconnect --protocol=gp uwmadison.vpn.wisc.edu -u jbustamante -b'
 alias vnc2me='vncviewer localhost:5902'
 
 # aliases to ssh with  X11 port forwarding
@@ -64,14 +86,48 @@ alias ssh2off2='ssh -YC -p 22 -L 50013:128.104.98.13:50013 jbustamante@128.104.9
 alias sshx='ssh jdev'
 alias sshy='ssh -XC jdev'
 alias sshs='ssh submit'
+alias ssh2rin='ssh -YC -p 22 jbustamante@192.168.1.11'
+
+# useful docker aliases
+alias dkb='docker build -t'
+alias dkt='docker tag'
+alias dkp='docker push '
+alias dkP='docker pull '
+alias dki='docker images -a'
 
 # misc aliases
-alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
+alias vim='nvim'
 alias term='export TERM=xterm-256color'
+alias sl='sl -e'
+alias zt='zathura '
+
+# application aliases
+alias rtv='rtv --enable-media '
+alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
+alias weather='/home/jbustamante/.scripts/i3scripts/i3weather && cat /home/jbustamante/.weatherreport'
+alias wali='wal -c && clrs && wal --backend colorz -i ~/.config/wall.png --saturate'
+alias tmux='tmux -f ~/.config/tmux/tmux.conf'
+
+# iRODS aliases
+alias idata='irodsFs -o allow_other $HOME/idata'
+alias me2irods='iput -r ${1} /iplant/home/jbustamante35/${2}'
+alias irods2me='iget -r /iplant/home/jbustamante35/${1} ${2}'
+
+# VimWiki aliases
 alias jrnl='vim ~/Documents/jbwiki/journal.wiki/index.wiki'
 alias labn='vim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
 alias ojrnl='xdg-open ~/Documents/jbwiki/journal.wiki_html/index.html'
 alias olabn='xdg-open ~/Documents/jbwiki/labnotes.wiki_html/index.html'
-alias sl='sl -e'
+
+# window manager aliases
+alias mk='sudo make clean install'
+
+# Git aliases
+alias gst='git status'
+alias glog='git log'
+alias gadd='git add -A'
+alias gcomm='git commit -m'
+alias gpush='git push origin'
+alias gpull='git pull origin master'
 
 
