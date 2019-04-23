@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Vestion=1.0
-Name=Google Play Music Desktop Player
-Comment=Google Play Music Desktop Player startup script
-Exec=/usr/share/google-play-music-desktop-player/Google Play Music Desktop Player
-StartupNotify=false
-Terminal=false

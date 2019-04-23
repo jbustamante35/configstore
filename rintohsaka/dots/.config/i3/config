@@ -1,102 +1,73 @@
 # vim: filetype=i3
-#                                      `++
-#:-`                                  .syys.                                  `-:
-#-yyyo+:.`                           :yyyyyy:                           `.:+oyyy-
-# +yyyyyyyso/-.              .      +yyyyyyyy+      .              .-/osyyyyyyy+
-# `syyyyyyyyyyyys+/-`      :s`    ./++++++++++/.    `s:      `-/+syyyyyyyyyyyys`
-#  -yyyyyyyyyyyyyyyyyyo+:-+y:    :ys.        .sy:    :y+-:+oyyyyyyyyyyyyyyyyyy-
-#     `..-://+oosyyyyyyyyyyy`   +yyyy:      :yyyy+   `yyyyyyyyyyysoo+//:-..`
-#                  `..-:/yyy  .syyyyyy+`  `+yyyyyys.  yyy/:-..`
-#                 ``..--:yyy.-yyyyyyyyys..syyyyyyyyy:.yyy:--..``
-#     -://++oossyyyyyyyyyyyyo-......................-oyyyyyyyyyyyyssoo++//:-
-#     `syyyyyyyyyyyyyys+//yyyo.                    .oyyy//osyyyyyyyyyyyyyys`
-#      `syyyyyyyys+:.`  `:syyyys/-`     //     `-/syyyys:`  `-:+syyyyyyyys`
-#       `syyo/:.      .+yyyysyyyyyyo`  +yy/  `oyyyyyysyyyy+.      .:/oyys`
-#        ``        `/syyyyo. +yyyyyy. oyyyyo .yyyyyy+ .oyyyys/`        ``
-#               `:oyyyyys-  -yyy/--` +yyyyyy+ `--/yyy-  -syyyyyo:`
-#             `+yyyyyys:   .yyys    /yyyyyyyy/    syyy.   :syyyyyy+`
-#              `:oyyy/`   `syyy/   .:oyyyyyyo/.   /yyys`   `/yyyo:`
-#                 .:`     oyyyy`   `` .syys. ``   .yyyyo     `:.
-#                        ./++o+   +yy` /yy/ `yy+   +o++/.
-#                                /ys. -yyyy- .sy/
-#                        ```````/ys.  .yyyy.  .sy/```````
-#                        :syy++++oyo`  :yy:  `oyo++++yys:
-#                          -o/   :.     ++     .:   /o-
-#                            `          ``          `
-#                                       ______
-#                                     _ |___  )
-#                                    (_)  __) )
-#                                    | | |__  )
-#                                    | | ___) )
-#                                    |_||_____)
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+#      #      #      #      #      #      #      #      #      #      #       #
+###############################################################################
+#                              ______
+#                            _ |___  )
+#                           (_)  __) )
+#                           | | |__  )
+#                           | | ___) )
+#                           |_||_____)
 #
-################################################################################
-## Configure main i3 setup
-# Startup applications
-# TODO: re-write setupi3 script because it sucks right now
+######################## Startup Sequence #####################################
 set $mod  Mod4
 set $alt  Mod1
-#set $term kitty
-set $term terminator
-set $sat  0.8
-font pango:DejaVu Sans Mono, Awesome 8
-exec        --no-startup-id urxvtdaemon.sh
-exec        --no-startup-id colorsource.sh
-exec        --no-startup-id setupi3.sh
+set $term urxvt
+set $bknd colorz
+set $sat  0.9
+set $gaps 15
+font pango:DejaVu Sans Mono, Awesome 10
+
+exec        --no-startup-id setupi3
 exec        --no-startup-id dropbox start
-exec        --no-startup-id pb-for-desktop
+#exec        --no-startup-id pb-for-desktop
 exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
-exec_always --no-startup-id bash ~/.config/conky/conky.sh
-exec_always --no-startup-id wal -c | wal --backend wal -i ~/.config/wall.png --saturate $sat
-
-# Set gif wallpaper
-#exec_always --no-startup-id killall ~/bin/gifbg.sh
-#exec_always --no-startup-id ~/bin/gifbg.sh 0.01 ~/.config/wall.gif
+exec_always --no-startup-id ~/.config/conky/conky.sh
+exec_always --no-startup-id wal -c && clrs && wal --backend $bknd -i ~/.config/wall.png --saturate $sat
 
 # Restart, hibernate, or exit i3
+bindsym   $mod+c             reload
 bindsym   $mod+Shift+c       restart
 bindsym   $mod+Shift+e       exec --no-startup-id  "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
-bindsym   $mod+Shift+p       exec --no-startup-id  systemctl suspend
+bindsym   $mod+Shift+p       exec --no-startup-id  systemctl suspend && lockScreen
 bindsym   $alt+Delete        exec --no-startup-id  ~/.scripts/i3scripts/i3shutdown
-#bindsym   $alt+Shift+Delete  exec --no-startup-id  i3lock -i ~/.config/lock.png -t -f -p default
-bindsym   $alt+Shift+Delete  exec --no-startup-id  i3lock -i ~/.config/lock.png -t -f -p default
-bindsym   $alt+t             exec --no-startup-id  toggletouchpad
+#bindsym   $alt+Shift+Delete  exec --no-startup-id  i3lock -i ~/.config/lock.png -t -f -m -p default
+bindsym   $alt+Shift+Delete  exec --no-startup-id  lockScreen
+bindsym   $alt+t             exec --no-startup-id  touchpadctl dev
 bindsym   $alt+m             exec --no-startup-id  xdotool mousemove 0 0
 
 # Main commands
 bindsym $mod+Return       exec $term
-bindsym $mod+Shift+Return exec $term -e /bin/bash
+bindsym $mod+Shift+Return exec $term -e /bin/zsh
 bindsym $mod+Shift+q      kill
 bindsym $mod+d            exec --no-startup-id rofi_run
 
 ################################################################################
 ## Main settings control
-# Volume control for Built-in Audio [devicd ID 0]
-set $dev 0
-bindsym XF86AudioMute                   exec --no-startup-id pactl set-sink-mute   $dev toggle # mute sound
-bindsym XF86AudioRaiseVolume            exec --no-startup-id pactl set-sink-volume $dev +05% #increase sound volume +5
-bindsym Shift+XF86AudioRaiseVolume      exec --no-startup-id pactl set-sink-volume $dev +10% #increase sound volume +10
-bindsym Control+XF86AudioRaiseVolume    exec --no-startup-id pactl set-sink-volume $dev +01% #increase sound volume +1
-bindsym XF86AudioLowerVolume		exec --no-startup-id pactl set-sink-volume $dev -05% #decrease sound volume -5
-bindsym Shift+XF86AudioLowerVolume      exec --no-startup-id pactl set-sink-volume $dev -10% #decrease sound volume -10
-bindsym Control+XF86AudioLowerVolume    exec --no-startup-id pactl set-sink-volume $dev -01% #decrease sound volume -1
+# Volume Control [ pulseaudio ]
+bindsym XF86AudioMute                   exec --no-startup-id pulseaudio-ctl mute
+bindsym XF86AudioRaiseVolume            exec --no-startup-id pulseaudio-ctl up   05
+bindsym Shift+XF86AudioRaiseVolume      exec --no-startup-id pulseaudio-ctl up   10
+bindsym Control+XF86AudioRaiseVolume    exec --no-startup-id pulseaudio-ctl up   01
+bindsym XF86AudioLowerVolume		exec --no-startup-id pulseaudio-ctl down 05
+bindsym Shift+XF86AudioLowerVolume      exec --no-startup-id pulseaudio-ctl down 10
+bindsym Control+XF86AudioLowerVolume    exec --no-startup-id pulseaudio-ctl down 01
 
-# Volume control for JBL Flip 4
-# TODO: dynamically set binding for device ID; research i3-msg
-set $blu 1
-bindsym $alt+XF86AudioMute                exec --no-startup-id pactl set-sink-mute   $blu toggle # mute sound
-bindsym $alt+XF86AudioRaiseVolume         exec --no-startup-id pactl set-sink-volume $blu +05% #increase sound volume +5
-bindsym $alt+Shift+XF86AudioRaiseVolume	  exec --no-startup-id pactl set-sink-volume $blu +10% #increase sound volume +10
-bindsym $alt+Control+XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume $blu +01% #increase sound volume +1
-bindsym $alt+XF86AudioLowerVolume         exec --no-startup-id pactl set-sink-volume $blu -05% #decrease sound volume -5
-bindsym $alt+Shift+XF86AudioLowerVolume	  exec --no-startup-id pactl set-sink-volume $blu -10% #decrease sound volume -10
-bindsym $alt+Control+XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume $blu -01% #decrease sound volume -1
-
-# Media player controls
-bindsym XF86AudioPlay  exec --no-startup-id playerctl play-pause
-bindsym XF86AudioNext  exec --no-startup-id playerctl next
-bindsym XF86AudioPrev  exec --no-startup-id playerctl previous
 
 # Brightness control
 bindsym XF86MonBrightnessDown           exec --no-startup-id xbacklight -dec 5
@@ -107,42 +78,61 @@ bindsym Shift+XF86MonBrightnessUp       exec --no-startup-id xbacklight -inc 10
 bindsym Control+XF86MonBrightnessUp     exec --no-startup-id xbacklight -inc 1
 bindsym XF86Display                     exec --no-startup-id arandr
 
-# Function buttons
+# Function buttons [raw]
 bindsym $mod+F1  exec --no-startup-id $term -e nvim -c :Calendar
 bindsym $mod+F2  exec --no-startup-id $term -e pulsemixer
-bindsym $mod+F3  exec --no-startup-id google-play-music-desktop-player
-bindsym $mod+F4	 exec --no-startup-id spotify
-bindsym $mod+F5  exec --no-startup-id mailspring
-bindsym $mod+F6  exec --no-startup-id pb-for-desktop
-bindsym $mod+F7  exec --no-startup-id android-messages
-bindsym $mod+F8  exec --no-startup-id slack
-bindsym $mod+F9  exec --no-startup-id yakyak
-bindsym $mod+F10 exec --no-startup-id caprine
-bindsym $mod+F11 exec --no-startup-id wal -c -i ~/.config/wall.png --saturate 0.7
+bindsym $mod+F3  exec --no-startup-id $term -e ncmpcpp
+bindsym $mod+F4	 exec --no-startup-id $term -e curseradio
+bindsym $mod+F5	 exec --no-startup-id $term -e chkservice
+bindsym $mod+F6  exec --no-startup-id $term -e neomutt -f ~/.mail/gmailjb/INBOX
+bindsym $mod+F7  exec --no-startup-id $term -e neomutt -f ~/.mail/wiscjb/INBOX
+bindsym $mod+F8  exec --no-startup-id $term -e nvim ~/.config/conky/notepad/notes.md
+bindsym $mod+F9  exec --no-startup-id $term -e nvim ~/.config/conky/notepad/shopping.md
+bindsym $mod+F10 exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat -l
+bindsym $mod+F11 exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat
 bindsym $mod+F12 exec --no-startup-id arandr
-bindsym $alt+F12 exec --no-startup-id colorsource.sh
+bindsym $alt+F12 exec --no-startup-id colorsource
+
+# Function buttons [xf86]
+bindsym $mod+XF86AudioMute         exec --no-startup-id $term -e nvim -c :Calendar
+bindsym $mod+XF86AudioLowerVolume  exec --no-startup-id $term -e pulsemixer
+bindsym $mod+XF86AudioRaiseVolume  exec --no-startup-id $term -e ncmpcpp
+bindsym $mod+XF86AudioPrev         exec --no-startup-id $term -e curseradio
+bindsym $mod+XF86AudioPlay         exec --no-startup-id $term -e chkservice
+bindsym $mod+XF86AudioNext         exec --no-startup-id $term -e neomutt -f ~/.mail/gmailjb/INBOX
+bindsym $mod+Fn+F7                 exec --no-startup-id $term -e neomutt -f ~/.mail/wiscjb/INBOX
+bindsym $mod+XF86Display           exec --no-startup-id $term -e nvim ~/.config/conky/notepad/notes.md
+bindsym $mod+XF86Search            exec --no-startup-id $term -e nvim ~/.config/conky/notepad/shopping.md
+bindsym $mod+XF86Switch_VT_10      exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat -l
+bindsym $mod+XF86MonBrightnessDown exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat
+bindsym $mod+XF86MonBrightnessUp   exec --no-startup-id arandr
+bindsym $alt+XF86MonBrightnessUp   exec --no-startup-id colorsource
 
 ################################################################################
 ## Applications
 # terminals
-bindsym $mod+b           exec --no-startup-id gnome-terminal --profile="BlueMarine" -e /bin/bash
-bindsym $mod+Shift+b     exec --no-startup-id gnome-terminal --profile="Landmaster" -e /bin/bash
-bindsym $mod+n           exec --no-startup-id gnome-terminal --profile="Arwing"
-bindsym $mod+Shift+n     exec --no-startup-id gnome-terminal --profile="Wolfen"
+bindsym $mod+b           exec --no-startup-id st
+bindsym $mod+Shift+b     exec --no-startup-id st -e /bin/fish
+bindsym $mod+n           exec --no-startup-id urxvtc
+bindsym $mod+Shift+n     exec --no-startup-id urxvtd -q -o -f
 bindsym $mod+grave       exec --no-startup-id urxvt
-bindsym $mod+Shift+grave exec --no-startup-id urxvt -e /bin/bash
-bindsym $alt+grave       exec --no-startup-id kitty
-bindsym $alt+Shift+grave exec --no-startup-id kitty -e /bin/bash
+bindsym $mod+Shift+grave exec --no-startup-id urxvtc -e tmux
+bindsym $alt+grave       exec --no-startup-id terminator
+bindsym $alt+Shift+grave exec --no-startup-id terminator -e /bin/fish
+bindsym $mod+u           exec --no-startup-id tilda scratchpad show
 
 # browsers
-bindsym $mod+Shift+g exec --no-startup-id google-chrome
+bindsym $alt+Shift+g exec --no-startup-id surf google.com
+bindsym $mod+Shift+g exec --no-startup-id brave-beta
 bindsym $mod+Shift+f exec --no-startup-id firefox
 bindsym $mod+Shift+h exec --no-startup-id qutebrowser
 
 # file managers and system settings
 bindsym $mod+r         exec --no-startup-id urxvt -e ranger
-bindsym $mod+Shift+r   exec --no-startup-id urxvt -e sudo ranger
+bindsym $mod+Shift+r   exec --no-startup-id urxvt -e sxiv -rt /home/jbustamante/Pictures/
 bindsym $mod+Control+h exec --no-startup-id urxvt -e htop
+bindsym $mod+Control+p exec --no-startup-id cat ~/.ssh/.lb | xclip
+bindsym $alt+Control+p exec --no-startup-id tail -1 ~/.ssh/.etc | xclip
 bindsym $mod+Control+j exec --no-startup-id urxvt -e gotop
 
 # Screenshots [ u: focused window | s: selection ]
@@ -156,6 +146,18 @@ bindsym $mod+Print exec --no-startup-id simplescreenrecorder
 # Calcurse
 bindsym $mod+y exec $term -e calcurse
 
+# Music
+# Media player controls
+bindsym XF86AudioPlay        exec --no-startup-id mpc toggle
+bindsym XF86AudioNext        exec --no-startup-id mpc next
+bindsym XF86AudioPrev        exec --no-startup-id mpc previous
+bindsym $alt+Control+Shift+x exec --no-startup-id notify-send "Current Song" "$(showSongInfo)" -u low
+bindsym $alt+Control+Shift+z exec --no-startup-id mpc toggle
+bindsym $alt+Control+Shift+q exec --no-startup-id mpc next
+bindsym $alt+Control+Shift+a exec --no-startup-id mpc prev
+bindsym $alt+Control+Shift+e exec --no-startup-id mpc seekthrough +5
+bindsym $alt+Control+Shift+d exec --no-startup-id mpc seekthrough -5
+
 # VimWiki shortcuts
 # j: select wiki
 # k: lab index
@@ -166,16 +168,23 @@ bindsym $alt+i exec --no-startup-id $term -e nvim -c :VimwikiIndex
 bindsym $alt+o exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
 bindsym $alt+p exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
 
+# Conky Lists
+bindsym $alt+n       exec --no-startup-id $term -e nvim /home/jbustamante/.config/conky/notepad/notes.md
+bindsym $alt+Shift+n exec --no-startup-id $term -e nvim /home/jbustamante/.config/conky/notepad/shopping.md
+
 ################################################################################
 ## Window navigation
 # i3-gaps config
-for_window [class="^.*"] border pixel 2
-gaps inner 15
-gaps outer 15
+for_window [class="^.*"] border pixel 5
+gaps inner $gaps
+gaps outer $gaps
+
+# Misc settings
+workspace_auto_back_and_forth yes
 
 # i3-gaps resizing
 bindsym $mod+t          split toggle
-bindsym $mod+Shift+t    gaps inner current set 15; gaps outer current set 15
+bindsym $mod+Shift+t    gaps inner current set $gaps; gaps outer current set $gaps
 bindsym $mod+Shift+d    gaps inner current set 0;  gaps outer current set 0
 bindsym $mod+s	        gaps inner current plus  5
 bindsym $mod+Shift+s    gaps inner current minus 5
@@ -280,19 +289,23 @@ bindsym $mod+Shift+9 move container to workspace $ws09
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # assign workspaces
-assign  [class="Mailspring"]       $ws09
 assign  [class="PB for Desktop"]   $ws09
 assign  [class="android-messages"] $ws09
 assign  [class="Slack"]            $ws09
 assign  [class="yakyak"]           $ws09
-assign  [class="Google Play"]      $ws10
 for_window [class="Caprine"]       move to workspace $ws09
-for_window [class="Spotify"]       move to workspace $ws10
+
+# assign floating
+for_window [class="fiji"]       floating enable border pixel 1
+for_window [title="pulsemixer"] floating enable border pixel 1
+
+# attampt at making only conky todo lists floating
+#for_window [class="URxvt" id=18245223 title="nvim"] floating enable border pixel 1
 
 # scratchpad
 bindsym Shift+$mod+minus  move scratchpad
 bindsym $mod+minus        scratchpad show
-bindsym $mod+u            [title="urxvt"] scratchpad show
+#bindsym $mod+u            [class="urxvt"] scratchpad show
 
 ################################################################################
 ## Tiling and menubar
@@ -333,10 +346,12 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 # i3bar
 bar {
-	font pango: DejaVu Sans Mono, FontAwesome 9
+	#font pango: DejaVu Sans Mono 9
+	font pango: Mono 11
 	colors {
-	    background          $background
-	    statusline          $foreground
+	    background          $color8
+	    #background          #807c79
+	    statusline          #ffffff
 	    separator           $altbground
 
             #WORKSPACE          BORDER          FILL            TEXT
@@ -350,8 +365,8 @@ bar {
 	status_command i3blocks
 	position top
 	modifier None
-        #separator_symbol ":|:"
-        separator_symbol    "℣"
+        #separator_symbol    "℣"
+        separator_symbol    "🧬"
 }
 
 

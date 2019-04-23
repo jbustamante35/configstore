@@ -1,0 +1,3 @@
+#!/bin/sh
+fortune | cowsay -f dragon-and-cow | lolcat
+

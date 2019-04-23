@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="0"
-         height="0"
+         width="1922.9"
+         height="1080"
          rx="0"
          ry="0" />
       <eventcontext
@@ -577,11 +577,11 @@
        panel_border="0"
        x="0"
        y="0"
-       w="327"
-       h="330"
+       w="376"
+       h="349"
        visible="1"
        state="2"
-       placement="1" />
+       placement="2" />
     <group
        id="transformation"
        applyseparately="0" />
@@ -594,9 +594,9 @@
        panel_border="0"
        x="0"
        y="0"
-       w="308"
-       h="454"
-       visible="0"
+       w="376"
+       h="515"
+       visible="1"
        state="2"
        placement="1" />
     <group
@@ -623,9 +623,22 @@
        id="export"
        default=""
        append_extension="1"
-       path="">
+       path=""
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="374"
+       h="513"
+       visible="0"
+       state="2"
+       placement="1">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="page" />
       <group
          id="defaultxdpi" />
     </group>
@@ -634,7 +647,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path=""
+       path="/home/jbustamante/Dropbox/Pictures/gimps"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -645,14 +658,15 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/jbustamante/Dropbox/EdgarSpalding/meetings/190207_Phenome/poster/" />
+       path="/home/jbustamante/Downloads/" />
     <group
        id="import"
        enable_preview="1"
        path=""
        ask="1"
-       link="link"
-       scale="optimizeSpeed" />
+       link="embed"
+       scale="auto"
+       forcexdpi="0" />
     <group
        id="debug"
        redirect="0" />
@@ -685,8 +699,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="327"
-       h="169"
+       w="378"
+       h="187"
        visible="1"
        state="2"
        placement="2" />
@@ -718,7 +732,9 @@
        add-label-comments="0" />
   </group>
   <group
-     id="options">
+     id="options"
+     dpifixbackup="1"
+     dpiupdatemethod="0">
     <group
        id="renderingcache"
        size="64" />
@@ -925,6 +941,7 @@
        masks="65535" />
     <group
        id="svgoutput"
+       disable_optimizations="0"
        usenamedcolors="0"
        numericprecision="8"
        minimumexponent="-8"
@@ -994,19 +1011,15 @@
        id="rendering" />
   </group>
   <group
-     id="extensions"
-     org.inkscape.render.empty_generic_canvas.width="90"
-     org.inkscape.render.empty_generic_canvas.height="70"
-     org.inkscape.render.empty_generic_canvas.unit="cm"
-     org.inkscape.render.empty_generic_canvas.background="white" />
+     id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;-inkscape-font-specification:'Cabin, Normal';font-family:Cabin;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:66.66666667px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">
+     style="line-height:1.25">
     <group
-       width="1908"
-       height="1047"
-       x="1924"
-       y="25"
+       width="944"
+       height="1038"
+       x="4"
+       y="28"
        fullscreen="0"
        id="geometry"
        maximized="0" />

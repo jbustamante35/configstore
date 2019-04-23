@@ -1,0 +1,345 @@
+sw_volume: 100
+audio_device_state:0:pulse audio
+audio_device_state:1:mpd alsamixer-output
+audio_device_state:1:toggle_visualizer
+state: pause
+current: 210
+time: 196.622000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/01 - AmaLee - Colors (Code Geass).mp3
+1:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/02 - AmaLee - Silhouette (Naruto Shippuden).mp3
+2:yt/cloakanddagger/season1/'Turns You Into Stone' (feat. Fleurie) _ Produced by Tommee Profitt--fTEfgReJJs.m4a
+3:yt/cloakanddagger/season1/7kingZ - 'Born For This'-BIb1sS2Y9Dk.m4a
+4:yt/cloakanddagger/season1/Alex Da Kid, Joseph Angel - American Funeral (Lyric Video)-vpIroR8himQ.m4a
+5:yt/cloakanddagger/season1/American Funeral-cXnvjxFd8I4.m4a
+6:yt/cloakanddagger/season1/Barns Courtney - Hellfire-RDPNjIbFGsI.m4a
+7:yt/cloakanddagger/season1/Bea Miller - to the grave (official video) ft. Mike Stud-OIKO5n8f9Xg.m4a
+8:yt/cloakanddagger/season1/bea miller • to the grave • lyric video-hlryACW3m6Y.m4a
+9:yt/cloakanddagger/season1/Bishop Briggs - Dark Side (Audio)-akrnJEjUUm4.m4a
+10:yt/cloakanddagger/season1/Breakin' the Rules (From Marvel's 'Cloak & Dagger')-8MJrYp4EabI.m4a
+11:yt/cloakanddagger/season1/CAMPFIRE feat. Danny Score - Demons-Wcz_6FqPH78.m4a
+12:yt/cloakanddagger/season1/Cathedrals - Harlem (Audio)-h7yuR3iw948.m4a
+13:yt/cloakanddagger/season1/Cathedrals - Harlem-C52t0vEwfqk.m4a
+14:yt/cloakanddagger/season1/Creep Up on Em-i0AECQEKGho.m4a
+15:yt/cloakanddagger/season1/DOE   We Are-IujOyVVOASM.m4a
+16:yt/cloakanddagger/season1/Ellie Goulding - Dead In The Water Lyrics-WFzQ7KAVq1w.m4a
+17:yt/cloakanddagger/season1/Empara Mi - Wanderlust (Official Video)-RzFpSNwMNLo.m4a
+18:yt/cloakanddagger/season1/Ending-24iD5Z4vj0s.m4a
+19:yt/cloakanddagger/season1/Eric Clapton - Good Night Irene-CZm96PKwtHc.m4a
+20:yt/cloakanddagger/season1/Feel the Embrace-fGYIdhIYAeM.m4a
+21:yt/cloakanddagger/season1/First Class Fly-RHTCHWzMyxo.m4a
+22:yt/cloakanddagger/season1/Fleurie - Breathe (Audio)-JE60q4Kf8f8.m4a
+23:yt/cloakanddagger/season1/Flight in G Minor (feat. Dirty Cello)-1MGhknu-P5M.m4a
+24:yt/cloakanddagger/season1/home-F1KN07IdxGU.m4a
+25:yt/cloakanddagger/season1/Isak Danielson - Ending (official video)-TOIF7KwXetU.m4a
+26:yt/cloakanddagger/season1/Jai Wolf - Starlight (feat. Mr Gabriel)-Z9VoDwy-3Lc.m4a
+27:yt/cloakanddagger/season1/LEO ISLO- Lush Life (feat. Dani Poppitt)-uyEShg_LpGk.m4a
+28:yt/cloakanddagger/season1/Louis Mattrs - Fear In Me-kycNBDaiaa4.m4a
+29:yt/cloakanddagger/season1/Lucien Parker - Impossible (Official Video)-wSxyFhdGMu4.m4a
+30:yt/cloakanddagger/season1/Mansionair - Easier-Ja9IUKElT5w.m4a
+31:yt/cloakanddagger/season1/Massive Attack, Young Fathers - Voodoo In My Blood-ElvLZMsYXlo.m4a
+32:yt/cloakanddagger/season1/MILCK - Quiet (Official Video)-Tl_Qfj8780M.m4a
+33:yt/cloakanddagger/season1/morgxn - home (official video)-rpbbuI2jndE.m4a
+34:yt/cloakanddagger/season1/Nevelle Viracocha - DIRRTY GAME (Official Video)-43Z1vMk4Rkc.m4a
+35:yt/cloakanddagger/season1/No Mercy-xvjx5e2IN70.m4a
+36:yt/cloakanddagger/season1/Olivia Holt - Come Sail Away (From 'Cloak & Dagger'_Audio Only)-5-7AgZdYJ-8.m4a
+37:yt/cloakanddagger/season1/Overcoats - Leave The Light On-3wLGdxw8_ao.m4a
+38:yt/cloakanddagger/season1/Portugal. The Man - Rich Friends (Official Video)-GN-xVSlnWKQ.m4a
+39:yt/cloakanddagger/season1/R U Ready (Original Mix)-Yzf08jwkbtc.m4a
+40:yt/cloakanddagger/season1/Ruelle - Secrets and Lies (Official Audio)-RLYWaF8-ys8.m4a
+41:yt/cloakanddagger/season1/Siobhan Sainte - Burn It Down-Gl1b9oHFcns.m4a
+42:yt/cloakanddagger/season1/Sleepwalker-fUjfb5tZ22Q.m4a
+43:yt/cloakanddagger/season1/Sons & Daughters-1MsDPtPCpZ4.m4a
+44:yt/cloakanddagger/season1/The Phantoms - 'Get What I Came For' [AUDIO]-Lrnl8a9TPIE.m4a
+45:yt/cloakanddagger/season1/Thutmose - Run Wild (feat. NoMBe)-2TGK7kzHoLc.m4a
+46:yt/cloakanddagger/season1/Thutmose - Run Wild (feat. NoMBe)-LFOho7E7_NM.m4a
+47:yt/cloakanddagger/season1/Turns You into Stone-ieqMm2EwZEc.m4a
+48:yt/cloakanddagger/season1/You Never Know-T5OLmkfIPyg.m4a
+49:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/03 - AmaLee - Samurai Heart (Gintama).mp3
+50:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/04 - AmaLee - Seven Deadly Sins (Seven Deadly Sins).mp3
+51:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/05 - AmaLee - Golden Time Lover (Full Metal AlchemistBrotherhood).mp3
+52:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/06 - AmaLee - Believe In Myself (Fairy Tail).mp3
+53:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/07 - AmaLee - Resonance (Soul Eater).mp3
+54:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/08 - AmaLee - Sayonara Memory (Naruto Shippuden).mp3
+55:yt/theishter/AngelBeatsED_BraveSong.m4a
+56:yt/theishter/AttackonTitanOP_GurennoYumiya.m4a
+57:yt/theishter/AttackonTitanSeason2OP_ShinzouwoSasageyo!.m4a
+58:yt/theishter/BlueExorcistSeason2OP_IttekinoEikyou.m4a
+59:yt/theishter/BokuDakegaInaiMachiED_SorewaChiisanaHikarinoYouna(ERASEDED).m4a
+60:yt/theishter/BokuDakegaInaiMachiOP_ReRe(ERASEDOP).m4a
+61:yt/theishter/BokuDakegaInaiMachiOST_ERASEDSoundtrack.m4a
+62:yt/theishter/BokunoHeroAcademiaOP_THEDAY.m4a
+63:yt/theishter/BokunoHeroAcademiaSeason2OP_PeaceSign.m4a
+64:yt/theishter/BokunoPicoOP_KoiwoShiyouyo.m4a
+65:yt/theishter/BokuranoOP_Uninstall.m4a
+66:yt/theishter/EromangaSenseiOP_Hitorigoto(Piano).m4a
+67:yt/theishter/FateApocryphaOPFULL_EiyuuUnmeinoUta.m4a
+68:yt/theishter/FinalFantasyXVOST_MainTheme(Somnus)ft.xclassicalcatx.m4a
+69:yt/theishter/GuiltyCrownOP_MyDearest(fullversion).m4a
+70:yt/theishter/GuiltyCrownOST_Krone.m4a
+71:yt/theishter/HaitoGensounoGrimgarED_Harvest.m4a
+72:yt/theishter/HaitoGensounoGrimgarOP_KnewDay.m4a
+73:yt/theishter/KabanerioftheIronFortressED_Ninelie.m4a
+74:yt/theishter/KabanerioftheIronFortressOP_KabanerioftheIronFortress.m4a
+75:yt/theishter/KiminonawaOST_KatawareDoki(Piano).m4a
+76:yt/theishter/KiminonawaOST_Nandemonaiya(Mitsuha'sversion).m4a
+77:yt/theishter/KiminonawaOST_Sparkle(piano).m4a
+78:yt/theishter/KiminonawaOST_ZenZenZense.m4a
+79:yt/theishter/KoenoKatachiOST_Lit.m4a
+80:yt/theishter/KOn!_ThemeSong.m4a
+81:yt/theishter/LoveLive!_SnowHalation.m4a
+82:yt/theishter/MusaigennoPhantomWorldOP_NAKEDDIVE.m4a
+83:yt/theishter/OnePunchManOP_THEHERO!!.m4a
+84:yt/theishter/OnePunchManOST_MainTheme.m4a
+85:yt/theishter/ReZeroED2_STAYALIVE[REMISTHEBESTGIRLINANIMEHISTORY].m4a
+86:yt/theishter/ReZerokaraHajimeruIsekaiSeikatsuED_STYXHELIX.m4a
+87:yt/theishter/ReZerokaraHajimeruIsekaiSeikatsuOP_REDO.m4a
+88:yt/theishter/ReZeroOP2_ParadisusParadoxum.m4a
+89:yt/theishter/ReZeroOST_ElegyForRem.m4a
+90:yt/theishter/ReZeroOST_Wishing.m4a
+91:yt/theishter/ShakugannoShanaOP1_HishokunoSora(PianoDuetft.Fantasiex3).m4a
+92:yt/theishter/Shelter_PorterRobinsonandMadeon(piano).m4a
+93:yt/theishter/ShigatsuwaKiminoUso(YourLieinApril)OST_WatashinoUso.m4a
+94:yt/theishter/ShigatsuwaKiminoUsoOP_HikaruNara.m4a
+95:yt/theishter/ShokugekinoSomaOP1_KibounoUta.m4a
+96:yt/theishter/SwordArtOnlineOST_InYourPast_ATenderFeeling.m4a
+97:yt/theishter/TokyoGhoulOP–Unravel(Acoustic)_mpkVCBqDSU0.m4a
+98:yt/theishter/VioletEvergardenOST_SoundtrackTheme.m4a
+99:yt/theishter/YouCanBecomeAHero!_BokunoHeroAcademiaOST(Piano).m4a
+100:yt/theishter/YourLieinAprilOST_Again.m4a
+101:yt/theishter/Yuri!!!OnICEOP_HistoryMaker.m4a
+102:yt/theishter/Yuri!!!onIceOST_ThemeofKingJJ.m4a
+103:yt/theishter/Yuri!!!onIceOST_YurionIce.m4a
+104:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/09 - AmaLee - Let it Out (Full Metal Alchemist).mp3
+105:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/10 - AmaLee - Masayume Chasing (Fairy Tail).mp3
+106:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/11 - AmaLee - Rain (Full Metal Alchemist Brotherhood).mp3
+107:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/12 - AmaLee - Fly High (Haikyuu!!).mp3
+108:yt/elisetrouw/AskMeAnything_Interview.m4a
+109:yt/elisetrouw/Awake(pianoversion)_EliseTrouw.m4a
+110:yt/elisetrouw/DrumSolo_(ElectronicMIDIGroove).m4a
+111:yt/elisetrouw/DrumSolo_(MIDIFunkGroove).m4a
+112:yt/elisetrouw/EliseTrouw_Awake(OfficialMusicVideo).m4a
+113:yt/elisetrouw/EliseTrouw_Burn.m4a
+114:yt/elisetrouw/EliseTrouw_Burn(OfficialMusicVideo).m4a
+115:yt/elisetrouw/EliseTrouw_LineofSight.m4a
+116:yt/elisetrouw/EliseTrouw_Unraveling(OfficialMusicVideo).m4a
+117:yt/elisetrouw/FooFightersMeets70'sBobbyCaldwell_LiveLoopingMashupbyEliseTrouw.m4a
+118:yt/elisetrouw/HitlikeaGirlContest_2015Finalist.m4a
+119:yt/elisetrouw/RadioheadMeetsThePolice_LiveLoopingMashupbyEliseTrouw.m4a
+120:yt/elisetrouw/TheGirlfromIpanema_StanGetz&AstrudGilberto(coverbyElise).m4a
+121:yt/elisetrouw/Unraveling_EliseTrouw(live).m4a
+122:yt/lofi/a t c a f e _ l o f i.mp4
+123:yt/lofi/asokah_IAlwaysSmileButMyEyesAreSad.mp4
+124:yt/lofi/BreathOfTheWild_LofiHipHop.mp4
+125:yt/lofi/burbank_asaint.mp4
+126:yt/lofi/chuckee_goinfarV2.mp4
+127:yt/lofi/FinalFantasyIX_Chill.m4a
+128:yt/lofi/MRSJ_Arrietty.mp4
+129:yt/lofi/n i n t e n d o and l o f i I I I.m4a
+130:yt/lofi/n i n t e n d o and l o f i I I.m4a
+131:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/01 - Kina Grannis - When Will I Learn.mp3
+132:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/02 - Kina Grannis - History.mp3
+133:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/03 - Kina Grannis - In the Waiting.mp3
+134:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/04 - Kina Grannis - Birdsong.mp3
+135:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/05 - Kina Grannis - California.mp3
+136:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/06 - Kina Grannis - For Now.mp3
+137:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/07 - Kina Grannis - Lonesome.mp3
+138:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/08 - Kina Grannis - Beth.mp3
+139:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/09 - Kina Grannis - Souvenirs.mp3
+140:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/10 - Kina Grannis - All Along.mp3
+141:yt/lofi/n i n t e n d o and l o f i.m4a
+142:yt/lofi/nawhij_withyou.mp4
+143:yt/lofi/p o k e m o n and l o f i.mp4
+144:yt/lofi/PianoShoegazer_GhostlyLove.mp4
+145:yt/lofi/potsu_lovesick.mp4
+146:yt/lofi/Setton_HighSchoolLove.mp4
+147:yt/lofi/slipfunc_cherrysmile.mp4
+148:yt/lofi/Soulitune_Intimacy.mp4
+149:yt/lofi/SunYehoshua_heartbreaker.mp4
+150:yt/lofi/wellcheeze.mp4
+151:yt/lofi/z e l d a and l o f i.mp4
+152:yt/lofi/ZeldaAndChill.mp4
+153:cdrom/mree/themiddle/Mree - The Middle/03 - Mree - Kiki's Song.mp3
+154:cdrom/mree/themiddle/Mree - The Middle/02 - Mree - The Middle.mp3
+155:cdrom/mree/themiddle/Mree - The Middle/04 - Mree - When You Come Home.mp3
+156:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/05 - Kina Grannis - California.mp3
+157:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/01 - Kina Grannis - When Will I Learn.mp3
+158:cdrom/amalee/hourglass/AmaLee - Hourglass/01 - AmaLee - Hourglass.mp3
+159:cdrom/amalee/hourglass/AmaLee - Hourglass/02 - AmaLee - Escape.mp3
+160:cdrom/amalee/hourglass/AmaLee - Hourglass/03 - AmaLee - Shatter.mp3
+161:cdrom/amalee/hourglass/AmaLee - Hourglass/04 - AmaLee - Shall We Dance.mp3
+162:cdrom/amalee/hourglass/AmaLee - Hourglass/05 - AmaLee - Stars Align.mp3
+163:cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/01 - 宋冬野 - 給抱著盒子的姑娘.mp3
+164:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/01 - AmaLee - Colors (Code Geass).mp3
+165:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/02 - AmaLee - Silhouette (Naruto Shippuden).mp3
+166:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/03 - AmaLee - Samurai Heart (Gintama).mp3
+167:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/04 - AmaLee - Seven Deadly Sins (Seven Deadly Sins).mp3
+168:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/05 - AmaLee - Golden Time Lover (Full Metal AlchemistBrotherhood).mp3
+169:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/06 - AmaLee - Believe In Myself (Fairy Tail).mp3
+170:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/07 - AmaLee - Resonance (Soul Eater).mp3
+171:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/08 - AmaLee - Sayonara Memory (Naruto Shippuden).mp3
+172:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/09 - AmaLee - Let it Out (Full Metal Alchemist).mp3
+173:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/10 - AmaLee - Masayume Chasing (Fairy Tail).mp3
+174:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/11 - AmaLee - Rain (Full Metal Alchemist Brotherhood).mp3
+175:cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/12 - AmaLee - Fly High (Haikyuu!!).mp3
+176:cdrom/mree/themiddle/Mree - The Middle/01 - Mree - In the Kitchen.mp3
+177:cdrom/mree/themiddle/Mree - The Middle/02 - Mree - The Middle.mp3
+178:cdrom/mree/themiddle/Mree - The Middle/03 - Mree - Kiki's Song.mp3
+179:cdrom/mree/themiddle/Mree - The Middle/04 - Mree - When You Come Home.mp3
+180:cdrom/mree/themiddle/Mree - The Middle/05 - Mree - Like a River.mp3
+181:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/01 - Kina Grannis - When Will I Learn.mp3
+182:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/02 - Kina Grannis - History.mp3
+183:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/03 - Kina Grannis - In the Waiting.mp3
+184:yt/cloakanddagger/season2/Bohnes_12Rounds.m4a
+185:yt/cloakanddagger/season2/Geoffroy_RaisedByWolves.m4a
+186:yt/cloakanddagger/season2/KatieGarfield_IKnowYourSecrets.m4a
+187:yt/cloakanddagger/season2/Marmozets_LostInTranslation.m4a
+188:yt/cloakanddagger/season2/MartenHørger&MaximonofeatEmmaLanford_SoHigh.m4a
+189:yt/cloakanddagger/season2/Moirai'sChoir_DelhiadeFrance.m4a
+190:yt/cloakanddagger/season2/RunforYourLife_TheSeige.m4a
+191:yt/cloakanddagger/season2/SidneySamson_Riverside.m4a
+192:yt/cloakanddagger/season2/TheSeige_RightNow.m4a
+193:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/04 - Kina Grannis - Birdsong.mp3
+194:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/05 - Kina Grannis - California.mp3
+195:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/06 - Kina Grannis - For Now.mp3
+196:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/07 - Kina Grannis - Lonesome.mp3
+197:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/08 - Kina Grannis - Beth.mp3
+198:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/09 - Kina Grannis - Souvenirs.mp3
+199:yt/cloakanddagger/season1/'Turns You Into Stone' (feat. Fleurie) _ Produced by Tommee Profitt--fTEfgReJJs.m4a
+200:yt/cloakanddagger/season1/'Turns You Into Stone' (feat. Fleurie) _ Produced by Tommee Profitt--fTEfgReJJs.m4a
+201:yt/cloakanddagger/season1/7kingZ - 'Born For This'-BIb1sS2Y9Dk.m4a
+202:yt/cloakanddagger/season1/Alex Da Kid, Joseph Angel - American Funeral (Lyric Video)-vpIroR8himQ.m4a
+203:yt/cloakanddagger/season1/American Funeral-cXnvjxFd8I4.m4a
+204:yt/cloakanddagger/season1/Barns Courtney - Hellfire-RDPNjIbFGsI.m4a
+205:yt/cloakanddagger/season1/Bea Miller - to the grave (official video) ft. Mike Stud-OIKO5n8f9Xg.m4a
+206:yt/cloakanddagger/season1/bea miller • to the grave • lyric video-hlryACW3m6Y.m4a
+207:yt/cloakanddagger/season1/Bishop Briggs - Dark Side (Audio)-akrnJEjUUm4.m4a
+208:yt/cloakanddagger/season1/Breakin' the Rules (From Marvel's 'Cloak & Dagger')-8MJrYp4EabI.m4a
+209:yt/cloakanddagger/season1/CAMPFIRE feat. Danny Score - Demons-Wcz_6FqPH78.m4a
+210:yt/cloakanddagger/season1/Cathedrals - Harlem (Audio)-h7yuR3iw948.m4a
+211:yt/cloakanddagger/season1/Cathedrals - Harlem-C52t0vEwfqk.m4a
+212:yt/cloakanddagger/season1/Creep Up on Em-i0AECQEKGho.m4a
+213:yt/cloakanddagger/season1/DOE   We Are-IujOyVVOASM.m4a
+214:yt/cloakanddagger/season1/Ellie Goulding - Dead In The Water Lyrics-WFzQ7KAVq1w.m4a
+215:yt/cloakanddagger/season1/Empara Mi - Wanderlust (Official Video)-RzFpSNwMNLo.m4a
+216:yt/cloakanddagger/season1/Ending-24iD5Z4vj0s.m4a
+217:yt/cloakanddagger/season1/Eric Clapton - Good Night Irene-CZm96PKwtHc.m4a
+218:yt/cloakanddagger/season1/Feel the Embrace-fGYIdhIYAeM.m4a
+219:yt/cloakanddagger/season1/First Class Fly-RHTCHWzMyxo.m4a
+220:yt/cloakanddagger/season1/Fleurie - Breathe (Audio)-JE60q4Kf8f8.m4a
+221:yt/cloakanddagger/season1/Flight in G Minor (feat. Dirty Cello)-1MGhknu-P5M.m4a
+222:yt/cloakanddagger/season1/home-F1KN07IdxGU.m4a
+223:yt/cloakanddagger/season1/Isak Danielson - Ending (official video)-TOIF7KwXetU.m4a
+224:yt/cloakanddagger/season1/Jai Wolf - Starlight (feat. Mr Gabriel)-Z9VoDwy-3Lc.m4a
+225:yt/cloakanddagger/season1/LEO ISLO- Lush Life (feat. Dani Poppitt)-uyEShg_LpGk.m4a
+226:yt/cloakanddagger/season1/Louis Mattrs - Fear In Me-kycNBDaiaa4.m4a
+227:yt/cloakanddagger/season1/Lucien Parker - Impossible (Official Video)-wSxyFhdGMu4.m4a
+228:yt/cloakanddagger/season1/Mansionair - Easier-Ja9IUKElT5w.m4a
+229:yt/cloakanddagger/season1/Massive Attack, Young Fathers - Voodoo In My Blood-ElvLZMsYXlo.m4a
+230:yt/cloakanddagger/season1/MILCK - Quiet (Official Video)-Tl_Qfj8780M.m4a
+231:yt/cloakanddagger/season1/morgxn - home (official video)-rpbbuI2jndE.m4a
+232:yt/cloakanddagger/season1/Nevelle Viracocha - DIRRTY GAME (Official Video)-43Z1vMk4Rkc.m4a
+233:yt/cloakanddagger/season1/No Mercy-xvjx5e2IN70.m4a
+234:yt/cloakanddagger/season1/Olivia Holt - Come Sail Away (From 'Cloak & Dagger'_Audio Only)-5-7AgZdYJ-8.m4a
+235:yt/cloakanddagger/season1/Overcoats - Leave The Light On-3wLGdxw8_ao.m4a
+236:yt/cloakanddagger/season1/Portugal. The Man - Rich Friends (Official Video)-GN-xVSlnWKQ.m4a
+237:yt/cloakanddagger/season1/R U Ready (Original Mix)-Yzf08jwkbtc.m4a
+238:yt/cloakanddagger/season1/Ruelle - Secrets and Lies (Official Audio)-RLYWaF8-ys8.m4a
+239:yt/cloakanddagger/season1/Siobhan Sainte - Burn It Down-Gl1b9oHFcns.m4a
+240:yt/cloakanddagger/season1/Sleepwalker-fUjfb5tZ22Q.m4a
+241:yt/cloakanddagger/season1/Sons & Daughters-1MsDPtPCpZ4.m4a
+242:yt/cloakanddagger/season1/The Phantoms - 'Get What I Came For' [AUDIO]-Lrnl8a9TPIE.m4a
+243:yt/cloakanddagger/season1/Thutmose - Run Wild (feat. NoMBe)-2TGK7kzHoLc.m4a
+244:yt/cloakanddagger/season1/Thutmose - Run Wild (feat. NoMBe)-LFOho7E7_NM.m4a
+245:yt/cloakanddagger/season1/Turns You into Stone-ieqMm2EwZEc.m4a
+246:yt/cloakanddagger/season1/You Never Know-T5OLmkfIPyg.m4a
+247:yt/cloakanddagger/season1/'Turns You Into Stone' (feat. Fleurie) _ Produced by Tommee Profitt--fTEfgReJJs.m4a
+248:yt/cloakanddagger/season1/7kingZ - 'Born For This'-BIb1sS2Y9Dk.m4a
+249:yt/cloakanddagger/season1/Alex Da Kid, Joseph Angel - American Funeral (Lyric Video)-vpIroR8himQ.m4a
+250:yt/cloakanddagger/season1/American Funeral-cXnvjxFd8I4.m4a
+251:yt/misc/vids/BalladOfTheWindFish_TaylorDavis.webm
+252:yt/misc/BalladOfTheWindFish_TaylorDavis.webm
+253:yt/cloakanddagger/season1/Barns Courtney - Hellfire-RDPNjIbFGsI.m4a
+254:yt/cloakanddagger/season1/Bea Miller - to the grave (official video) ft. Mike Stud-OIKO5n8f9Xg.m4a
+255:yt/cloakanddagger/season1/Bishop Briggs - Dark Side (Audio)-akrnJEjUUm4.m4a
+256:yt/cloakanddagger/season1/Breakin' the Rules (From Marvel's 'Cloak & Dagger')-8MJrYp4EabI.m4a
+257:yt/cloakanddagger/season1/CAMPFIRE feat. Danny Score - Demons-Wcz_6FqPH78.m4a
+258:yt/cloakanddagger/season1/Cathedrals - Harlem (Audio)-h7yuR3iw948.m4a
+259:yt/cloakanddagger/season1/Cathedrals - Harlem-C52t0vEwfqk.m4a
+260:yt/cloakanddagger/season1/Creep Up on Em-i0AECQEKGho.m4a
+261:yt/cloakanddagger/season1/DOE   We Are-IujOyVVOASM.m4a
+262:yt/cloakanddagger/season1/Ellie Goulding - Dead In The Water Lyrics-WFzQ7KAVq1w.m4a
+263:yt/cloakanddagger/season1/Empara Mi - Wanderlust (Official Video)-RzFpSNwMNLo.m4a
+264:yt/cloakanddagger/season1/Ending-24iD5Z4vj0s.m4a
+265:yt/cloakanddagger/season1/Eric Clapton - Good Night Irene-CZm96PKwtHc.m4a
+266:yt/cloakanddagger/season1/Feel the Embrace-fGYIdhIYAeM.m4a
+267:yt/cloakanddagger/season1/First Class Fly-RHTCHWzMyxo.m4a
+268:yt/cloakanddagger/season1/Fleurie - Breathe (Audio)-JE60q4Kf8f8.m4a
+269:yt/cloakanddagger/season1/Flight in G Minor (feat. Dirty Cello)-1MGhknu-P5M.m4a
+270:yt/cloakanddagger/season1/Isak Danielson - Ending (official video)-TOIF7KwXetU.m4a
+271:yt/cloakanddagger/season1/Jai Wolf - Starlight (feat. Mr Gabriel)-Z9VoDwy-3Lc.m4a
+272:yt/misc/KissFromARose_pianocover_EllaPraprotnik.mkv
+273:yt/misc/vids/KissFromARose_pianocover_EllaPraprotnik.mkv
+274:yt/cloakanddagger/season1/LEO ISLO- Lush Life (feat. Dani Poppitt)-uyEShg_LpGk.m4a
+275:yt/cloakanddagger/season1/Louis Mattrs - Fear In Me-kycNBDaiaa4.m4a
+276:yt/cloakanddagger/season1/Lucien Parker - Impossible (Official Video)-wSxyFhdGMu4.m4a
+277:yt/cloakanddagger/season1/MILCK - Quiet (Official Video)-Tl_Qfj8780M.m4a
+278:yt/cloakanddagger/season1/Mansionair - Easier-Ja9IUKElT5w.m4a
+279:yt/cloakanddagger/season1/Massive Attack, Young Fathers - Voodoo In My Blood-ElvLZMsYXlo.m4a
+280:yt/misc/vids/MrRobotS2E6.mkv
+281:yt/misc/MrRobotS2E6.mkv
+282:yt/cloakanddagger/season1/Nevelle Viracocha - DIRRTY GAME (Official Video)-43Z1vMk4Rkc.m4a
+283:yt/cloakanddagger/season1/No Mercy-xvjx5e2IN70.m4a
+284:yt/cloakanddagger/season1/Olivia Holt - Come Sail Away (From 'Cloak & Dagger'_Audio Only)-5-7AgZdYJ-8.m4a
+285:yt/cloakanddagger/season1/Overcoats - Leave The Light On-3wLGdxw8_ao.m4a
+286:yt/cloakanddagger/season1/Portugal. The Man - Rich Friends (Official Video)-GN-xVSlnWKQ.m4a
+287:yt/cloakanddagger/season1/R U Ready (Original Mix)-Yzf08jwkbtc.m4a
+288:yt/cloakanddagger/season1/Ruelle - Secrets and Lies (Official Audio)-RLYWaF8-ys8.m4a
+289:yt/cloakanddagger/season1/Siobhan Sainte - Burn It Down-Gl1b9oHFcns.m4a
+290:yt/cloakanddagger/season1/Sleepwalker-fUjfb5tZ22Q.m4a
+291:yt/cloakanddagger/season1/Sons & Daughters-1MsDPtPCpZ4.m4a
+292:yt/cloakanddagger/season1/The Phantoms - 'Get What I Came For' [AUDIO]-Lrnl8a9TPIE.m4a
+293:yt/misc/TheDikembeMutomboSong_JimmyKimmel_AloeBlacc.mkv
+294:yt/misc/vids/TheDikembeMutomboSong_JimmyKimmel_AloeBlacc.mkv
+295:yt/cloakanddagger/season1/Thutmose - Run Wild (feat. NoMBe)-2TGK7kzHoLc.m4a
+296:yt/cloakanddagger/season1/Thutmose - Run Wild (feat. NoMBe)-LFOho7E7_NM.m4a
+297:yt/cloakanddagger/season1/Turns You into Stone-ieqMm2EwZEc.m4a
+298:yt/cloakanddagger/season1/You Never Know-T5OLmkfIPyg.m4a
+299:cpusounds/freedesktop/alarm-clock-elapsed.oga
+300:cpusounds/freedesktop/audio-test-signal.oga
+301:cpusounds/freedesktop/audio-volume-change.oga
+302:yt/cloakanddagger/season1/bea miller • to the grave • lyric video-hlryACW3m6Y.m4a
+303:cpusounds/freedesktop/bell.oga
+304:cpusounds/freedesktop/camera-shutter.oga
+305:cpusounds/freedesktop/complete.oga
+306:cpusounds/freedesktop/device-added.oga
+307:cpusounds/freedesktop/device-removed.oga
+308:cpusounds/freedesktop/dialog-error.oga
+309:cpusounds/freedesktop/dialog-information.oga
+310:cpusounds/freedesktop/dialog-warning.oga
+311:yt/cloakanddagger/season1/home-F1KN07IdxGU.m4a
+312:cpusounds/freedesktop/message-new-instant.oga
+313:cpusounds/freedesktop/message.oga
+314:yt/cloakanddagger/season1/morgxn - home (official video)-rpbbuI2jndE.m4a
+315:cpusounds/freedesktop/network-connectivity-established.oga
+316:cpusounds/freedesktop/network-connectivity-lost.oga
+317:cpusounds/freedesktop/phone-incoming-call.oga
+318:cpusounds/freedesktop/phone-outgoing-busy.oga
+319:cpusounds/freedesktop/phone-outgoing-calling.oga
+320:cpusounds/freedesktop/power-plug.oga
+321:cpusounds/freedesktop/power-unplug.oga
+322:cpusounds/freedesktop/screen-capture.oga
+323:cpusounds/freedesktop/service-login.oga
+324:cpusounds/freedesktop/service-logout.oga
+325:cpusounds/freedesktop/suspend-error.oga
+326:cpusounds/freedesktop/trash-empty.oga
+327:cpusounds/freedesktop/window-attention.oga
+328:cpusounds/freedesktop/window-question.oga
+playlist_end

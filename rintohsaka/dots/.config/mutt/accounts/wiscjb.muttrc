@@ -1,0 +1,18 @@
+# vim: filetype=muttrc
+mailboxes =wiscjb
+mailboxes =wiscjb/INBOX =wiscjb/Archive =wiscjb/Sent\ Items =wiscjb/Drafts
+set spoolfile        = "+INBOX"
+set record           = /dev/null
+set trash            = "+Trash"
+set postponed        = "+Drafts"
+set header_cache     = ~/.config/mutt/accounts/wiscjb/cache/headers
+set message_cachedir = ~/.config/mutt/accounts/wiscjb/cache/bodies
+set certificate_file = ~/.config/mutt/accounts/wiscjb/certificate_file
+
+# Move across folders
+bind index w noop
+bind pager w noop
+macro index,pager wi "<change-folder>=wiscjb/INBOX<enter>"
+macro index,pager wa "<change-folder>=wiscjb/Archive<enter>"
+macro index,pager wd "<change-folder>=wiscjb/Drafts<enter>"
+macro index,pager ws "<change-folder>=wiscjb/Sent\ Items<enter>"

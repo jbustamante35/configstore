@@ -2,7 +2,7 @@
 
 battery_warning() {
         ttl='BATTERY WARNING'
-        msg='BATTERY AT 5%! PLUG IN YOUR DAMN CHARGER'
+        msg='BATTERY LESS THAN 10%! PLUG IN YOUR DAMN CHARGER'
         notify-send "$ttl" "$msg" -u critical
 }
 
@@ -17,8 +17,19 @@ elif [ "$NUM" -ge 40 ]; then
         color="#fff600"
 elif [ "$NUM" -ge 20 ]; then
         color="#ffae00"
-elif [ "$NUM" -eq 5 ]; then
+elif [ "$NUM" -ge 10 ]; then
+        color="#ff0000"
+elif [ "$NUM" -ge 10 ]; then
+        if ["$STATUS" -ne "Charging"]; then
+            battery_warning
+        fi
         battery_warning
+        color="#ff0000"
+elif [ "$NUM" -lt 10 ]; then
+        if ["$STATUS" -ne "Charging"]; then
+            battery_warning
+        fi
+        #battery_warning
         color="#ff0000"
 else
         color="#ff0000"
@@ -26,5 +37,6 @@ fi
 
 [ "$STATUS" = "Charging" ] && color="#3df637"
 
+#echo "<span color='$color'>`sed -e "s/,//g;s/Discharging/🔋/;s/Charging/🔌/;s/Unknown/❓/;s/Full/⚡/;s/ 0*/ /g;s/ :/ /g" <<<"$STATUS"` `sed -e 's/$/%/' <<<"$NUM"`</span>"
 echo "<span color='$color'>`sed -e "s/,//g;s/Discharging/🔋/;s/Charging/🔌/;s/Unknown/❓/;s/Full/⚡/;s/ 0*/ /g;s/ :/ /g" <<<"$STATUS"` `sed -e 's/$/%/' <<<"$NUM"`</span>"
 

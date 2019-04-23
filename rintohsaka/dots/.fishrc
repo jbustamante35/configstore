@@ -1,0 +1,24 @@
+# Set environmental variables
+set --export SHELL /usr/bin/fish
+set --export EDITOR "nvim"
+set --export PROFILE "rintohsaka"
+set -e fish_greeting
+
+# Add to PATH
+set --export MYBIN     "/home/jbustamante/bin"
+set --export LOCAL     "/home/jbustamante/.local/bin"
+#set --export CONDAHOME "/home/jbustamante/anaconda3/bin"
+set --export RUBYHOME  "/home/jbustamante/.gem/ruby/2.6.0/bin"
+set --export NPMGLOBAL "/home/jbustamante/.npm_global/bin"
+set --export GOHOME    "/home/jbustamante/go/bin"
+set --export GOROOT    "/usr/lib/go/bin"
+#set fish_user_paths $MYBIN $LOCAL $CONDAHOME $RUBYHOME $NPMGLOBAL $GOROOT $GOHOME
+set fish_user_paths $MYBIN $LOCAL $RUBYHOME $NPMGLOBAL $GOROOT $GOHOME
+
+# Source abbreviations and functions
+source "$HOME/.config/fish/abbr.fish"
+source "$HOME/.config/fish/func.fish"
+
+# Source shortcuts
+sh ~/.scripts/shortcuts.fsh
+source ~/.config/fish/.shortcuts

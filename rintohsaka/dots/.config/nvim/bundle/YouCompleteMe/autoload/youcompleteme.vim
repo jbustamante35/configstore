@@ -23,11 +23,9 @@ set cpo&vim
 let s:script_folder_path = escape( expand( '<sfile>:p:h' ), '\' )
 let s:force_semantic = 0
 let s:completion_stopped = 0
-let s:default_completion = {
-      \   'start_column': -1,
-      \   'candidates': []
-      \ }
-let s:completion = s:default_completion
+" These two variables are initialized in youcompleteme#Enable.
+let s:default_completion = {}
+let s:completion = {}
 let s:previous_allowed_buffer_number = 0
 let s:pollers = {
       \   'completion': {
@@ -147,6 +145,9 @@ function! youcompleteme#Enable()
   let s:pollers.server_ready.id = timer_start(
         \ s:pollers.server_ready.wait_milliseconds,
         \ function( 's:PollServerReady' ) )
+
+  let s:default_completion = s:Pyeval( 'vimsupport.NO_COMPLETIONS' )
+  let s:completion = s:default_completion
 endfunction
 
 
@@ -187,20 +188,46 @@ from __future__ import division
 from __future__ import absolute_import
 
 import os.path as p
+import re
 import sys
 import traceback
 import vim
 
 root_folder = p.normpath( p.join( vim.eval( 's:script_folder_path' ), '..' ) )
 third_party_folder = p.join( root_folder, 'third_party' )
-ycmd_third_party_folder = p.join( third_party_folder, 'ycmd', 'third_party' )
+python_stdlib_zip_regex = re.compile( 'python[23][0-9]\\.zip' )
+
+
+def IsStandardLibraryFolder( path ):
+  return ( ( p.isfile( path )
+             and python_stdlib_zip_regex.match( p.basename( path ) ) )
+           or p.isfile( p.join( path, 'os.py' ) ) )
+
+
+def IsVirtualEnvLibraryFolder( path ):
+  return p.isfile( p.join( path, 'orig-prefix.txt' ) )
+
+
+def GetStandardLibraryIndexInSysPath():
+  for index, path in enumerate( sys.path ):
+    if ( IsStandardLibraryFolder( path ) and
+         not IsVirtualEnvLibraryFolder( path ) ):
+      return index
+  raise RuntimeError( 'Could not find standard library path in Python path.' )
+
 
 # Add dependencies to Python path.
 dependencies = [ p.join( root_folder, 'python' ),
                  p.join( third_party_folder, 'requests-futures' ),
                  p.join( third_party_folder, 'ycmd' ),
-                 p.join( ycmd_third_party_folder, 'frozendict' ),
-                 p.join( ycmd_third_party_folder, 'requests' ) ]
+                 p.join( third_party_folder, 'requests_deps', 'idna' ),
+                 p.join( third_party_folder, 'requests_deps', 'chardet' ),
+                 p.join( third_party_folder,
+                         'requests_deps',
+                         'urllib3',
+                         'src' ),
+                 p.join( third_party_folder, 'requests_deps', 'certifi' ),
+                 p.join( third_party_folder, 'requests_deps', 'requests' ) ]
 
 # The concurrent.futures module is part of the standard library on Python 3.
 if sys.version_info[ 0 ] == 2:
@@ -211,9 +238,8 @@ sys.path[ 0:0 ] = dependencies
 # We enclose this code in a try/except block to avoid backtraces in Vim.
 try:
   # The python-future module must be inserted after the standard library path.
-  from ycmd.server_utils import GetStandardLibraryIndexInSysPath
   sys.path.insert( GetStandardLibraryIndexInSysPath() + 1,
-                   p.join( ycmd_third_party_folder, 'python-future', 'src' ) )
+                   p.join( third_party_folder, 'python-future', 'src' ) )
 
   # Import the modules used in this file.
   from ycm import base, vimsupport, youcompleteme
@@ -483,11 +509,20 @@ endfunction
 
 
 function! s:OnVimLeave()
+  " Workaround a NeoVim issue - not shutting down timers correctly
+  " https://github.com/neovim/neovim/issues/6840
+  for poller in values( s:pollers )
+    call timer_stop( poller.id )
+  endfor
   exec s:python_command "ycm_state.OnVimLeave()"
 endfunction
 
 
 function! s:OnCompleteDone()
+  if !s:AllowedToCompleteInCurrentBuffer()
+    return
+  endif
+
   exec s:python_command "ycm_state.OnCompleteDone()"
 endfunction
 
@@ -811,11 +846,7 @@ function! s:PollCompletion( ... )
     return
   endif
 
-  let response = s:Pyeval( 'ycm_state.GetCompletionResponse()' )
-  let s:completion = {
-        \   'start_column': response.completion_start_column,
-        \   'candidates': response.completions
-        \ }
+  let s:completion = s:Pyeval( 'ycm_state.GetCompletionResponse()' )
   call s:Complete()
 endfunction
 
@@ -824,16 +855,17 @@ function! s:Complete()
   " Do not call user's completion function if the start column is after the
   " current column or if there are no candidates. Close the completion menu
   " instead. This avoids keeping the user in completion mode.
-  if s:completion.start_column > col( '.' ) || empty( s:completion.candidates )
+  if s:completion.completion_start_column > s:completion.column ||
+        \ empty( s:completion.completions )
     call s:CloseCompletionMenu()
   else
     " <c-x><c-u> invokes the user's completion function (which we have set to
     " youcompleteme#CompleteFunc), and <c-p> tells Vim to select the previous
-    " completion candidate. This is necessary because by default, Vim selects the
-    " first candidate when completion is invoked, and selecting a candidate
-    " automatically replaces the current text with it. Calling <c-p> forces Vim to
-    " deselect the first candidate and in turn preserve the user's current text
-    " until he explicitly chooses to replace it with a completion.
+    " completion candidate. This is necessary because by default, Vim selects
+    " the first candidate when completion is invoked, and selecting a candidate
+    " automatically replaces the current text with it. Calling <c-p> forces Vim
+    " to deselect the first candidate and in turn preserve the user's current
+    " text until he explicitly chooses to replace it with a completion.
     call s:SendKeys( "\<C-X>\<C-U>\<C-P>" )
   endif
 endfunction
@@ -841,9 +873,25 @@ endfunction
 
 function! youcompleteme#CompleteFunc( findstart, base )
   if a:findstart
-    return s:completion.start_column - 1
+    " When auto-wrapping is enabled, Vim wraps the current line after the
+    " completion request is sent but before calling this function. The starting
+    " column returned by the server is invalid in that case and must be
+    " recomputed.
+    if s:completion.line != line( '.' )
+      " Given
+      "   scb: column where the completion starts before auto-wrapping
+      "   cb: cursor column before auto-wrapping
+      "   sca: column where the completion starts after auto-wrapping
+      "   ca: cursor column after auto-wrapping
+      " we have
+      "   ca - sca = cb - scb
+      "   sca = scb + ca - cb
+      let s:completion.completion_start_column +=
+            \ col( '.' ) - s:completion.column
+    endif
+    return s:completion.completion_start_column - 1
   endif
-  return s:completion.candidates
+  return s:completion.completions
 endfunction
 
 
