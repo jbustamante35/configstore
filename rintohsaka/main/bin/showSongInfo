@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Show current song and time as notification
+
+info=$(mpc status | head -2)
+song=$(echo "$info" | head -1)
+time=$(echo "$info" | tail -1 | awk '{print $3}')
+
+str="$song - [ $time ]"
+echo $str
+#notify-send "Current Song" "$str"

@@ -1,0 +1,18 @@
+# vim: filetype=muttrc
+mailboxes =gmailjb
+mailboxes =gmailjb/INBOX =gmailjb/[Gmail].All\ Mail =gmailjb/[Gmail].Sent\ Mail =gmailjb/[Gmail].Drafts
+set spoolfile        = "+INBOX"
+set record           = /dev/null
+set trash            = "+[Gmail].Trash"
+set postponed        = "+[Gmail].Drafts"
+set mbox             = "+[Gmail].All Mail"
+set header_cache     = ~/.config/mutt/accounts/gmailjb/cache/headers
+set message_cachedir = ~/.config/mutt/accounts/gmailjb/cache/bodies
+set certificate_file = ~/.config/mutt/accounts/gmailjb/certificate_file
+
+# Move across folders
+bind index,pager g noop
+macro index,pager gi "<change-folder>=gmailjb/INBOX<enter>"
+macro index,pager ga "<change-folder>=gmailjb/[Gmail].All\ Mail<enter>"
+macro index,pager gd "<change-folder>=gmailjb/[Gmail].Drafts<enter>"
+macro index,pager gs "<change-folder>=gmailjb/[Gmail].Sent\ Mail<enter>"

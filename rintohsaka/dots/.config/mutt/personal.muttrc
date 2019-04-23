@@ -1,0 +1,4 @@
+# vim: filetype=muttrc
+macro index,pager g1 '<sync-mailbox><enter-command>source "/home/jbustamante/.config/mutt"/accounts/gmailjb.muttrc<enter><change-folder>!<enter>;<check-stats>'
+macro index,pager g2 '<sync-mailbox><enter-command>source "/home/jbustamante/.config/mutt"/accounts/wiscjb.muttrc<enter><change-folder>!<enter>;<check-stats>'
+

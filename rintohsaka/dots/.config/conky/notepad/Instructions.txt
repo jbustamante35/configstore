@@ -1,0 +1,17 @@
+Thanks for downloading Notes for Conky!
+Comment & Fav if you like it, I'll be happy
+
+----------
+
+Installations:
+If you don't have conky, run "sudo apt-get install conky" in your terminal (assuming you're using Ubuntu).
+
+- Install the font « Amaranth-Regular.otf » before run conky.
+- Simply put the « .conkyrc » in your home folder. Also, put « .conky-notepad » folder in your home folder ( ~/ ).
+- Run conky.
+
+How to change your notes:
+Edit the file « notes.txt » wich is in « .conky-notepad » folder. It will update automatically.
+
+Note:
+You can create a custom keyboard shortcut that will open immediatly your file « notes.txt » to modify directly your notes (that's what I have done).

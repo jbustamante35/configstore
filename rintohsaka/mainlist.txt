@@ -1,11 +1,6 @@
-addSubmodules.sh
 .aliases
 .bashrc
-bin
 .functions
 .profile
-submodules_manifest.txt
 .vimrc
-.vimrc.bak
 .zshrc
-.zshrc.pre-oh-my-zsh

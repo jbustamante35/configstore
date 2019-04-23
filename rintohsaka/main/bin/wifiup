@@ -1,0 +1,16 @@
+#!/bin/sh
+# Set up wireless network
+# 1) Toggle interface
+# 2) Initialize dhcpcd
+# 3) Select wifi source
+
+sudo ip link set wlp1s0 up ;
+sudo ip link set wlp1s0 down ;
+sleep 2;
+
+sudo dhcpcd ;
+sleep 4;
+sudo dhcpcd ;
+
+echo "Wifi finished setting up!"
+echo "Run 'sudo wifi-menu' to select signal"

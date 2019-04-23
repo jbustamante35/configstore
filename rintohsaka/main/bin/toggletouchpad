@@ -1,0 +1,18 @@
+#!/bin/bash
+# Toggle touchpad. Requires xf86-input-synaptics.
+#(synclient | grep TouchpadOff.*1 && synclient TouchpadOff=0)>/dev/null && echo "TouchPad reactivated." && exit
+#synclient TouchpadOff=1 && echo "TouchPad deactivated."
+
+
+# Init tap touch for touchpad
+
+cmd="$1"
+
+#xinput set-prop 14 307 1
+#xinput list-props "DLLC6B2:00 06CB:75BF Touchpad"
+
+if [ $cmd == "list" ]; then
+    xinput list-props "DLLC6B2:00 06CB:75BF Touchpad"
+else
+    xinput set-prop "DLLC6B2:00 06CB:75BF Touchpad" "Device Enabled" "$1"
+fi

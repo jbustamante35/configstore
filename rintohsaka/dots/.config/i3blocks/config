@@ -2,14 +2,8 @@ command=~/.scripts/i3scripts/$BLOCK_NAME
 separator_block_width=25
 markup=pango
 
-#[apt-upgrades]
-##command=~/.scripts/i3scripts/i3aptupgrades -s 🥡 -n "#A9A9A9"
-#command=~/.scripts/i3scripts/i3aptupgrades -s 🥡 -N
-#signal=3600
-#interval=once
-
 [cpu_usage]
-label=CPU
+label=💽
 command=~/.scripts/i3scripts/i3cpuusage -d 1
 interval=10
 
@@ -17,36 +11,32 @@ interval=10
 command=~/.scripts/i3scripts/i3temperature -w 55 -c 70
 interval=5
 
-#[weather]
-#command=~/.scripts/i3scripts/i3weather
-#interval=3600
-
 [battery]
 command=~/.scripts/i3scripts/i3battery
 interval=30
 
 [volume-pulseaudio]
-interval=3
-#command=~/.scripts/i3scripts/i3volume -d -c "#FF0000" -C "#FFFF33" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇
-command=~/.scripts/i3scripts/i3volume -d -C "#eb0a1c" -c "#FFFF33" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇
+interval=1
+command=~/.scripts/i3scripts/i3volume -d -C "#ffffff" -c "#FFFF33" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇
 signal=1
 
-#[devid]
-#label=📦
-#interval=20
-#command=~/.scripts/i3scripts/i3device
-#signal=10
+#[music]
+##label=🎹
+#label=♭
+#command=~/.scripts/i3scripts/gplayer --not-playing --layout t-A-p
+#interval=1
+##color=#00bfff
 
-[music]
-label=🎹
-command=~/.scripts/i3scripts/gplayer --not-playing --layout t-A-p
+[mediaplayer]
+command=~/.scripts/i3scripts/i3media
+instance=mpd
 interval=1
-#color=#00bfff
+signal=10
 
-[email]
-command=~/.scripts/i3scripts/i3mail
-interval=60
-signal=12
+#[email]
+#command=~/.scripts/i3scripts/i3mail
+#interval=60
+#signal=12
 
 [time]
 label=📅
@@ -55,7 +45,7 @@ interval=60
 
 [wifi]
 command=~/.scripts/i3scripts/i3wifi
-label=wifi
+label=📡
 interval=60
 
 [keyindicator]
@@ -71,7 +61,7 @@ interval=once
 signal=11
 
 [shutdown_menu]
-full_text=
+full_text=🌱
 command=~/.scripts/i3scripts/i3shutdown
 
 

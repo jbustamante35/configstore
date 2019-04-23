@@ -1,0 +1,19 @@
+#!/bin/sh
+
+echo "Updating pc"
+sudo pacman -Syu
+yay -Syu
+yaourt -Syu
+echo "Pacman updated..."
+
+echo "updating conda"
+#conda update --all -y
+echo "conda updated..."
+
+echo "updating ruby"
+gem update
+echo "ruby updated..."
+
+echo "updating julia"
+#julia -e "Pkg.update()"
+echo "julia updated..."

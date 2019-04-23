@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "Cleaning Pacman..."
+sudo pacman -Rns $(pacman -Qtdq)
+yay -Rns $(yay -Qtdq)
+yaourt -Rns $(yaourt -Qtdq)
+echo "Pacman cleaned"

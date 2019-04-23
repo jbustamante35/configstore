@@ -1,9 +1,0 @@
-#!/bin/bash
-
-case $BLOCK_BUTTON in
-	1) $TERMINAL -- pulsemixer & disown ;;
-esac
-
-printpastatus() { [[ $(pulsemixer --get-mute) = "true" ]] && echo -n 🔇 && exit
-        echo 🔊 $(pulsemixer --get-volume)% ;}
-printpastatus

@@ -20,9 +20,21 @@ ali () {
 
 # check current status of dropbox syncing
 drchk () {
-    cd $HOME/Dropbox
-    dropbox filestatus && printf "\n\n\n" && dropbox status
-    cd -
+    cd $HOME/Dropbox;
+    dropbox-cli filestatus && printf "\n\n\n" && dropbox-cli status;
+    cd -;
+}
+
+# unzip into directory of the same name
+uz () {
+    nm=$1
+    unzip "$nm".zip -d "$nm"
+}
+
+# Reload color schemes
+clrs () {
+    xrdb -load ~/.cache/wal/colors.Xresources;
+    xrdb -merge ~/.Xresources;
 }
 
 # compile and run kotlin program

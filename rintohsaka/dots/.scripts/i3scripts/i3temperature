@@ -61,6 +61,7 @@ $temperature eq -9999 and die 'Cannot find temperature';
 
 # Print color, if needed
 if ($temperature >= $t_crit) {
+    #print "💣";
     print "💣";
     print " $temperature°C\n" x2;
     print "#FF0000\n";
@@ -72,6 +73,7 @@ elsif ($temperature >= $t_warn) {
     print "#FFFC00\n";
 }
 else {
+    #print "𐂑";
     print "🐧";
     print " $temperature°C\n" x2;
 }

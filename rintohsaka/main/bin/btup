@@ -1,0 +1,26 @@
+#!/bin/sh
+# Set up bluetooth
+# 1) Initialize pulseaudio daemon
+# 2) Initialize bluetooth
+# 3) Start bluetooth control
+
+if [ "$(pulseaudio --check)" -eq ""]; then
+    echo "starting up Pulseaudio..."
+    pulseaudio --kill
+    sleep 1;
+
+    pulseaudio --daemonize
+    sleep 1;
+    echo "done"
+fi
+
+echo "Resetting bluetooth..."
+systemctl stop bluetooth.service;
+sleep 2;
+systemctl start bluetooth.service;
+sleep 2;
+#blueberry-tray;
+
+echo "Finished setting up audio and bluetooth!"
+echo "Run 'bluetoothctl' to set up speaker"
+

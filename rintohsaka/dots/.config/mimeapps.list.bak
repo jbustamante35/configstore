@@ -1,0 +1,30 @@
+[Default Applications]
+text/html=qutebrowser.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/ftp=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=exo-mail-reader.desktop
+image/jpeg=okularApplication_kimgio.desktop;
+application/x-shellscript=mousepad.desktop;vim.desktop;
+application/x-java-archive=java-java-openjdk.desktop;
+application/pdf=wine-extension-pdf.desktop;
+x-scheme-handler/http=exo-web-browser.desktop;firefox.desktop;
+x-scheme-handler/https=exo-web-browser.desktop;firefox.desktop;
+x-scheme-handler/ftp=firefox.desktop;
+x-scheme-handler/chrome=firefox.desktop;
+text/html=firefox.desktop;
+application/x-extension-htm=firefox.desktop;
+application/x-extension-html=firefox.desktop;
+application/x-extension-shtml=firefox.desktop;
+application/xhtml+xml=firefox.desktop;
+application/x-extension-xhtml=firefox.desktop;
+application/x-extension-xht=firefox.desktop;

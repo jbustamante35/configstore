@@ -1,8 +1,0 @@
-[Desktop Entry]
-                  Type=Application
-                  Version=1.0
-                  Name=pb-for-desktop
-                  Comment=#{appName} Startup Script
-                  Exec="/opt/PB for Desktop/pb-for-desktop"
-                  StartupNotify=false
-                  Terminal=false
