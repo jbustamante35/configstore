@@ -1,21 +1,21 @@
 Here lies .first Commit, my first ever commit of dotfiles.
 
-This grave marks the day I finally decided to remove you from the main ConfigStore repository. An
-anonymous user wrote a bit of prose in honor of our fallen dotfile directory:
-
+This grave marks the day I finally decided to remove you from the main
+ConfigStore repository. An anonymous user wrote a bit of prose in honor of
+our fallen dotfile directory:
 
 A Prelude to .first Commit
 
-You barely had anything in you; just some simple aliases and functions in a simple bashrc.
-We knew not of zsh, vimrc, i3wm, dunst, conky, compton.
-Nor did we follow @LukeSmith, @DistroTube, r/unixporn.
+You barely had anything in you; just some simple aliases and functions in a
+simple bashrc.  We knew not of zsh, vimrc, i3wm, dunst, conky,
+compton.  Nor did we follow @LukeSmith, @DistroTube, r/unixporn.
 
-It was a simpler time, where merge conflicts and git problems were few and far between.
-Though we've grown older, wiser, and more sophisticated with our configurations, we must never
-forget where we first started. And that was with you, ye ol' .first commit.
+It was a simpler time, where merge conflicts and git problems were few and
+far between.  Though we've grown older, wiser, and more sophisticated with
+our configurations, we must never forget where we first started. And that was
+with you, ye ol' .first commit.
 
 May you forever rest in peace.
-
 
 .first Commit
 BORN August  07, 2018
