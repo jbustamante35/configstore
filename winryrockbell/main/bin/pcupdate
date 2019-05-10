@@ -3,8 +3,8 @@
 
 echo "Updating packages..."
 sudo pacman -Syu
-sudo yay -Syu
-sudo yaourt -Syu
+yay -Syu
+yaourt -Syu
 echo "Packages up to date!"
 
 #echo "Updating Julia..."

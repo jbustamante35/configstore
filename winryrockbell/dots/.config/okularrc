@@ -9,13 +9,13 @@ shouldShowMenuBarComingFromFullScreen=false
 shouldShowToolBarComingFromFullScreen=false
 
 [MainWindow]
-Height 1080=936
+Height 1080=973
 Height 1152=1102
 Height 1200=1114
 Height 2160=985
-State=AAAA/wAAAAD9AAAAAAAAAloAAAOKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA4gAAAO5AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=602
+Width 1920=904
 Width 2048=2007
 Width 3840=3840
 Window-Maximized 1152x2048=false
@@ -30,6 +30,7 @@ File3[$e]=$HOME/Dropbox/Misc/games/Pathfinder/jannahjubilee_tiefling_witch/class
 File4[$e]=$HOME/Dropbox/Classes/uwmadison/phd/funding/FordFellowship2018/FordFellowship2018_Announcement.pdf
 File5[$e]=$HOME/Dropbox/ResearchArticles/computationalbiology/edgarspalding/kinematics/KymoRod Automated Kinematics Tool for Hypocotyls (Bastien, Hofte et al; 2016).pdf
 File6[$e]=$HOME/Dropbox/ResearchArticles/microbiology/jadewang/replication_transcription_conflict/replisome/DNA Replicases from a Bacterial Perspective review (McHenry; 2011).pdf
+File7[$e]=$HOME/Dropbox/ResearchArticles/misc/misc/Mueller Report - 2016 Russia Investigation (full).pdf
 File9[$d]
 Name1[$e]=i3_guide.pdf
 Name10[$d]
@@ -38,4 +39,5 @@ Name3[$e]=class_witch.pdf
 Name4[$e]=FordFellowship2018_Announcement.pdf
 Name5[$e]=KymoRod Automated Kinematics Tool for Hypocotyls (Bastien, Hofte et al; 2016).pdf
 Name6[$e]=DNA Replicases from a Bacterial Perspective review (McHenry; 2011).pdf
+Name7[$e]=Mueller Report - 2016 Russia Investigation (full).pdf
 Name9[$d]

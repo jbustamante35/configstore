@@ -14,13 +14,13 @@ if [ "$(pulseaudio --check)" -eq ""]; then
     echo "done"
 fi
 
-echo "Resetting bluetooth..."
-systemctl stop bluetooth.service;
-sleep 2;
-systemctl start bluetooth.service;
-sleep 2;
-#blueberry-tray;
-
-echo "Finished setting up audio and bluetooth!"
-echo "Run 'bluetoothctl' to set up speaker"
+#echo "Resetting bluetooth..."
+#systemctl stop bluetooth.service;
+#sleep 2;
+#systemctl start bluetooth.service;
+#sleep 2;
+##blueberry-tray;
+#
+#echo "Finished setting up audio and bluetooth!"
+#echo "Run 'bluetoothctl' to set up speaker"
 

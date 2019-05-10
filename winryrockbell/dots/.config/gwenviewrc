@@ -1,20 +1,17 @@
 [$Version]
 update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update
 
-[FullScreen]
-FullScreenModeActive=true
-
 [MainWindow]
 Height 1080=973
-Height 1152=986
+Height 1152=1045
 Height 1271=480
 Height 1440=480
 Height 720=480
-State=AAAA/wAAAAD9AAAAAAAAA4gAAAOUAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA8gAAAPcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1280=764
 Width 1920=904
-Width 2048=920
+Width 2048=968
 Width 2259=766
 Width 2560=764
 
@@ -35,4 +32,4 @@ Name6[$e]=190327_roots_elisabeth.tiff
 Name7[$e]=190328_speedtest_jdev.png
 
 [SideBar]
-SideBarSplitterSizes=242,656
+SideBarSplitterSizes=242,720

@@ -5,6 +5,7 @@ gg      ~/go
 d       ~/Documents
 D       ~/Downloads
 dr      ~/Dropbox
+drp     ~/Dropbox/Pictures
 dok     ~/Dok
 m       ~/Music
 pp      ~/Pictures
@@ -15,3 +16,4 @@ zi      ~/.oh-my-zsh
 dt      ~/.dotify
 wk      ~/Documents/jbwiki
 cfs     ~/Documents/configstore
+suk     ~/Documents/misc/suckless

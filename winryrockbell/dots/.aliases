@@ -79,11 +79,13 @@ alias orunp='optirun -b primus'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|ta
-    il -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias alert='notify-send --urgency=low -i \
+"$([ $? = 0 ] && echo terminal || echo error)" \
+"$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # aliases to vpn to UW Madison
-alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu --username jbustamante'
+#alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu --username jbustamante'
+alias vpn2me='sudo openconnect --protocol=gp uwmadison.vpn.wisc.edu -u jbustamante'
 alias vnc2me='vncviewer localhost:5902'
 
 # aliases to ssh with  X11 port forwarding
@@ -109,12 +111,12 @@ alias medit='matlab -nodesktop -nosplash -nodisplay'
 alias mconsole='matlab -nodesktop -nosplash'
 alias sl='sl -e'
 alias zt='zathura '
+alias cnv='convert -resize'
 
 # application aliases
 alias rtv='rtv --enable-media '
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias weather='/home/jbustamante/.scripts/i3scripts/i3weather && cat /home/jbustamante/.weatherreport'
-alias wali='wal -c && clrs && wal -i ~/.config/wall.png --saturate'
 
 # iRODS aliases
 alias idata='irodsFs -o allow_other $HOME/idata'
@@ -126,6 +128,18 @@ alias jrnl='vim ~/Documents/jbwiki/journal.wiki/index.wiki'
 alias labn='vim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
 alias ojrnl='xdg-open ~/Documents/jbwiki/journal.wiki_html/index.html'
 alias olabn='xdg-open ~/Documents/jbwiki/labnotes.wiki_html/index.html'
+
+# Suckless aliases
+alias mk='sudo make clean install'
+alias pt='patch < $1'
+
+# Git aliases
+alias gst='git status'
+alias glog='git log'
+alias gadd='git add -A'
+alias gcomm='git commit -m'
+alias gpush='git push origin'
+alias gpull='git pull origin master'
 
 
 

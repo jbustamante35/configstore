@@ -5,7 +5,6 @@
 .face
 .functions
 .gitconfig
-.git-credentials
 .mailcap
 .mplayer
 .nvidia-settings-rc

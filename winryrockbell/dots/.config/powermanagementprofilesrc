@@ -1,12 +1,6 @@
 [AC]
 icon=battery-charging
 
-[AC][DPMSControl]
-idleTime=7200
-
-[AC][DimDisplay]
-idleTime=1200000
-
 [AC][HandleButtonEvents]
 lidAction=0
 powerButtonAction=16
@@ -19,7 +13,7 @@ mode=None
 icon=battery-060
 
 [Battery][DPMSControl]
-idleTime=3600
+idleTime=2700
 
 [Battery][DimDisplay]
 idleTime=600000
@@ -28,10 +22,6 @@ idleTime=600000
 lidAction=0
 powerButtonAction=16
 triggerLidActionWhenExternalMonitorPresent=false
-
-[Battery][SuspendSession]
-idleTime=2700000
-suspendType=1
 
 [LowBattery]
 icon=battery-low

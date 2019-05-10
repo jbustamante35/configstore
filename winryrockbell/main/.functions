@@ -28,7 +28,9 @@ uz () {
 drchk () {
     cd $HOME/Dropbox
     dropbox-cli filestatus && printf "\n\n\n" && dropbox-cli status
+    printf "\n"
     cd -
+    dropbox-cli filestatus && printf "\n"
 }
 
 # load color configs
@@ -36,4 +38,16 @@ clrs () {
     wal -c
     xrdb -load ~/.cache/wal/colors.Xresources ;
     xrdb -merge ~/.Xresources ;
+}
+
+# Set color scheme
+wali () {
+    clrs
+    wal --backend "$1" -i ~/.config/wall.png --saturate $2 -q
+}
+
+# Select videos by file extension and choose video player
+mvid () {
+    ext="$1"
+    ply="$2"
 }
