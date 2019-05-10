@@ -4,6 +4,7 @@ config.bind(";gg", "set downloads.location.directory ~/go ;; hint links download
 config.bind(";d", "set downloads.location.directory ~/Documents ;; hint links download")
 config.bind(";D", "set downloads.location.directory ~/Downloads ;; hint links download")
 config.bind(";dr", "set downloads.location.directory ~/Dropbox ;; hint links download")
+config.bind(";drp", "set downloads.location.directory ~/Dropbox/Pictures ;; hint links download")
 config.bind(";dok", "set downloads.location.directory ~/Dok ;; hint links download")
 config.bind(";m", "set downloads.location.directory ~/Music ;; hint links download")
 config.bind(";pp", "set downloads.location.directory ~/Pictures ;; hint links download")
@@ -14,3 +15,4 @@ config.bind(";zi", "set downloads.location.directory ~/.oh-my-zsh ;; hint links 
 config.bind(";dt", "set downloads.location.directory ~/.dotify ;; hint links download")
 config.bind(";wk", "set downloads.location.directory ~/Documents/jbwiki ;; hint links download")
 config.bind(";cfs", "set downloads.location.directory ~/Documents/configstore ;; hint links download")
+config.bind(";suk", "set downloads.location.directory ~/Documents/misc/suckless ;; hint links download")

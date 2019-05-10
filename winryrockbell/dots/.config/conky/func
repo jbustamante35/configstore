@@ -1,4 +1,4 @@
-#
+# vim: filetype=conkyrc
 #
 #
 # CONKY ASCII ART
@@ -15,7 +15,7 @@ own_window_colour      black
 own_window_transparent yes
 
 override_utf8_locale yes
-xftfont Cantarell:size=14
+xftfont Cantarell:size=12
 
 use_spacer left
 use_xft    yes
@@ -53,17 +53,17 @@ color3        e6bb24 # Heading
 ################################################################################
 TEXT
 # Function Key Bindings
-${color3} ${font Cantarell:size=14} FUNCTION KEY BINDINGS
+${color3} ${font Cantarell} FUNCTION KEY BINDINGS
 ${font} ${voffset 1} ${hr 2} $color
-${voffset 1} ${color2} ${font Cantarell:size=18} Calendar           $alignr ${color} F1
-${voffset 1} ${color2} ${font Cantarell:size=18} Pulse Mixer        $alignr ${color} F2
-${voffset 1} ${color2} ${font Cantarell:size=18} Google Play Music  $alignr ${color} F3
-${voffset 1} ${color2} ${font Cantarell:size=18} Spotify            $alignr ${color} F4
-${voffset 1} ${color2} ${font Cantarell:size=18} Mailspring         $alignr ${color} F5
-${voffset 1} ${color2} ${font Cantarell:size=18} Facebook Messenger $alignr ${color} F6
-${voffset 1} ${color2} ${font Cantarell:size=18} Android Messages   $alignr ${color} F7
-${voffset 1} ${color2} ${font Cantarell:size=18} Google Hangouts    $alignr ${color} F8
-${voffset 1} ${color2} ${font Cantarell:size=18} Slack              $alignr ${color} F9
-${voffset 1} ${color2} ${font Cantarell:size=18} PushBullet         $alignr ${color} F10
-${voffset 1} ${color2} ${font Cantarell:size=18} Wal                $alignr ${color} F11
-${voffset 1} ${color2} ${font Cantarell:size=18} ArandR             $alignr ${color} F12
+${voffset 1} ${color2} ${font Cantarell} Nvidia Settings            $alignr ${color} F1
+${voffset 1} ${color2} ${font Cantarell} Google Play Music          $alignr ${color} F2
+${voffset 1} ${color2} ${font Cantarell} Spotify                    $alignr ${color} F3
+${voffset 1} ${color2} ${font Cantarell} Android Messages           $alignr ${color} F4
+${voffset 1} ${color2} ${font Cantarell} Facebook Messenger         $alignr ${color} F5
+${voffset 1} ${color2} ${font Cantarell} Google Hangouts            $alignr ${color} F6
+${voffset 1} ${color2} ${font Cantarell} Slack                      $alignr ${color} F7
+${voffset 1} ${color2} ${font Cantarell} PushBullet (not installed) $alignr ${color} F8
+${voffset 1} ${color2} ${font Cantarell} Krita                      $alignr ${color} F9
+${voffset 1} ${color2} ${font Cantarell} Inkscape                   $alignr ${color} F10
+${voffset 1} ${color2} ${font Cantarell} Gimp                       $alignr ${color} F11
+${voffset 1} ${color2} ${font Cantarell} Fiji                       $alignr ${color} F12

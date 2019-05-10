@@ -23,10 +23,10 @@ min_width=CPU: 100.00%
 command=~/.scripts/i3scripts/i3temperature -w 55 -c 70
 interval=10
 
-#[email]
-#command=~/.scripts/i3scripts/i3mail
-#interval=30
-#signal=12
+[email]
+command=~/.scripts/i3scripts/i3mail
+interval=30
+signal=12
 
 [battery2]
 command=~/.scripts/i3scripts/i3battery2

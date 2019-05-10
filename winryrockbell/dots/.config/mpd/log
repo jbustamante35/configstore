@@ -47,3 +47,440 @@ Mar 26 13:51 : client: [5] closed
 Mar 26 13:51 : client: [6] opened from 127.0.0.1:60884
 Mar 26 13:51 : client: [6] closed
 Mar 26 14:12 : exception: Failed to commit /home/jbustamante/.config/mpd/state: File exists
+Apr 30 13:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 30 13:04 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Apr 30 13:04 : client: [0] opened from 127.0.0.1:45004
+Apr 30 13:04 : client: [0] closed
+Apr 30 13:06 : client: [1] opened from 127.0.0.1:45054
+Apr 30 13:06 : client: [1] closed
+Apr 30 13:06 : client: [2] opened from 127.0.0.1:45058
+Apr 30 13:06 : client: [2] closed
+Apr 30 13:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 30 13:06 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Apr 30 13:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 30 13:06 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Apr 30 13:07 : client: [0] opened from [::1]:44052
+Apr 30 13:07 : client: [0] closed
+Apr 30 13:07 : client: [1] opened from [::1]:44058
+Apr 30 13:08 : client: [1] closed
+Apr 30 13:08 : client: [2] opened from [::1]:44060
+Apr 30 13:08 : client: [2] closed
+Apr 30 13:09 : client: [3] opened from [::1]:44062
+Apr 30 13:09 : client: [3] closed
+Apr 30 13:12 : client: [3] opened from 127.0.0.1:45108
+Apr 30 13:12 : client: [3] closed
+Apr 30 13:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 30 13:12 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Apr 30 13:12 : client: [0] opened from 127.0.0.1:45112
+Apr 30 13:12 : client: [0] closed
+Apr 30 13:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 30 13:15 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Apr 30 13:15 : client: [0] opened from 127.0.0.1:45170
+Apr 30 13:15 : client: [0] closed
+Apr 30 13:15 : client: [1] opened from 127.0.0.1:45174
+Apr 30 13:15 : client: [1] closed
+Apr 30 13:16 : client: [2] opened from 127.0.0.1:45178
+Apr 30 13:16 : update: added /Can't Smile Without You-UTJ0YMy5g84.m4a
+Apr 30 13:16 : update: added yt/allsonsanddaughters/Come Thou Fount - All Sons & Daughters (Lyrics)-EYrTqBioaZ4.m4a
+Apr 30 13:16 : update: added yt/torikelly/Hallelujah--5-ZWWpa6Xs.m4a
+Apr 30 13:16 : update: added yt/barrymanilow/Can't Smile Without You-UTJ0YMy5g84.m4a
+Apr 30 13:16 : client: [2] closed
+Apr 30 13:16 : client: [3] opened from 127.0.0.1:45182
+Apr 30 13:16 : update: removing Can't Smile Without You-UTJ0YMy5g84.m4a
+Apr 30 13:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 30 13:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 30 13:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 30 13:16 : client: [3] closed
+Apr 30 13:16 : client: [4] opened from 127.0.0.1:45188
+Apr 30 13:22 : update: added yt/christomlin/Amazing Grace (My Chains are Gone) - Chris Tomlin (with lyrics)-Jbe7OruLk8I.m4a
+Apr 30 13:26 : update: removing yt/allsonsanddaughters/Come Thou Fount - All Sons & Daughters (Lyrics)-EYrTqBioaZ4.m4a
+Apr 30 13:26 : update: added yt/allsonsanddaughters/ComeThouFount_AllSons&Daughters.m4a
+Apr 30 13:26 : update: removing yt/barrymanilow/Can't Smile Without You-UTJ0YMy5g84.m4a
+Apr 30 13:26 : update: added yt/barrymanilow/CantSmileWithoutYou_BarryManilow.m4a
+Apr 30 13:26 : update: removing yt/christomlin/Amazing Grace (My Chains are Gone) - Chris Tomlin (with lyrics)-Jbe7OruLk8I.m4a
+Apr 30 13:26 : update: added yt/christomlin/AmazingGraceMyChainsareGone_ChrisTomlin.m4a
+Apr 30 13:26 : update: removing yt/torikelly/Hallelujah--5-ZWWpa6Xs.m4a
+Apr 30 13:26 : update: added yt/torikelly/Hallelujah_ToriKelly.m4a
+Apr 30 13:29 : update: added yt/stevelawrence/'Portrait of My Love' Steve Lawrence-yNqLZ0KlUpQ.m4a
+Apr 30 13:30 : update: removing yt/stevelawrence/'Portrait of My Love' Steve Lawrence-yNqLZ0KlUpQ.m4a
+Apr 30 13:30 : update: added yt/stevelawrence/PortraitOfMyLove_SteveLawrence.m4a
+Apr 30 13:34 : update: added 190430_lolaslideshow.zip/yt/christomlin/AmazingGraceMyChainsareGone_ChrisTomlin.m4a
+Apr 30 13:34 : update: added 190430_lolaslideshow.zip/yt/allsonsanddaughters/ComeThouFount_AllSons&Daughters.m4a
+Apr 30 13:34 : update: added 190430_lolaslideshow.zip/yt/torikelly/Hallelujah_ToriKelly.m4a
+Apr 30 13:34 : update: added 190430_lolaslideshow.zip/yt/stevelawrence/PortraitOfMyLove_SteveLawrence.m4a
+Apr 30 13:34 : update: added 190430_lolaslideshow.zip/yt/barrymanilow/CantSmileWithoutYou_BarryManilow.m4a
+Apr 30 13:35 : player: played "yt/barrymanilow/CantSmileWithoutYou_BarryManilow.m4a"
+Apr 30 13:39 : update: removing 190430_lolaslideshow.zip/yt/torikelly/Hallelujah_ToriKelly.m4a
+Apr 30 13:39 : update: removing 190430_lolaslideshow.zip/yt/stevelawrence/PortraitOfMyLove_SteveLawrence.m4a
+Apr 30 13:39 : update: removing 190430_lolaslideshow.zip/yt/christomlin/AmazingGraceMyChainsareGone_ChrisTomlin.m4a
+Apr 30 13:39 : update: removing 190430_lolaslideshow.zip/yt/barrymanilow/CantSmileWithoutYou_BarryManilow.m4a
+Apr 30 13:39 : update: removing 190430_lolaslideshow.zip/yt/allsonsanddaughters/ComeThouFount_AllSons&Daughters.m4a
+Apr 30 13:40 : client: [5] opened from 127.0.0.1:45664
+Apr 30 13:40 : client: [5] closed
+Apr 30 13:40 : client: [6] opened from 127.0.0.1:45668
+Apr 30 13:40 : client: [6] closed
+Apr 30 13:41 : client: [4] closed
+Apr 30 11:54 : player: played "yt/christomlin/AmazingGraceMyChainsareGone_ChrisTomlin.m4a"
+May 03 17:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 03 17:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 03 17:09 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+May 03 17:09 : client: [0] opened from 127.0.0.1:57408
+May 03 17:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 03 17:11 : client: [1] opened from 127.0.0.1:57430
+May 03 17:11 : client: [2] opened from 127.0.0.1:57434
+May 03 17:11 : client: [3] opened from 127.0.0.1:57438
+May 03 17:13 : player: played "yt/torikelly/Hallelujah_ToriKelly.m4a"
+May 03 17:13 : client: [0] closed
+May 03 17:13 : client: [4] opened from 127.0.0.1:57444
+May 03 17:14 : update: updating yt/torikelly/Hallelujah_ToriKelly.m4a
+May 03 17:15 : update: updating yt/torikelly/Hallelujah_ToriKelly.m4a
+May 03 17:18 : player: played "yt/torikelly/Hallelujah_ToriKelly.m4a"
+May 03 17:21 : update: updating yt/stevelawrence/PortraitOfMyLove_SteveLawrence.m4a
+May 03 17:21 : player: played "yt/stevelawrence/PortraitOfMyLove_SteveLawrence.m4a"
+May 03 17:21 : update: updating yt/christomlin/AmazingGraceMyChainsareGone_ChrisTomlin.m4a
+May 03 17:22 : update: updating yt/barrymanilow/CantSmileWithoutYou_BarryManilow.m4a
+May 03 17:22 : update: updating yt/allsonsanddaughters/ComeThouFount_AllSons&Daughters.m4a
+May 03 17:26 : player: played "yt/allsonsanddaughters/ComeThouFount_AllSons&Daughters.m4a"
+May 03 17:27 : client: [4] closed
+May 03 17:27 : client: [5] opened from 127.0.0.1:57472
+May 03 17:27 : client: [5] closed
+May 03 17:27 : client: [6] opened from 127.0.0.1:57476
+May 03 17:27 : client: [6] closed
+May 03 17:27 : client: [7] opened from 127.0.0.1:57480
+May 03 17:27 : client: [7] closed
+May 03 17:27 : client: [8] opened from 127.0.0.1:57486
+May 03 17:27 : client: [8] closed
+May 03 17:29 : client: [9] opened from 127.0.0.1:57508
+May 03 17:29 : client: [9] closed
+May 03 17:30 : player: played "yt/barrymanilow/CantSmileWithoutYou_BarryManilow.m4a"
+May 06 12:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 06 12:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 06 12:34 : client: [0] opened from 127.0.0.1:41234
+May 06 12:34 : client: [1] opened from 127.0.0.1:41236
+May 06 12:34 : client: [2] opened from 127.0.0.1:41240
+May 06 12:34 : client: [3] opened from 127.0.0.1:41244
+May 06 12:34 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+May 06 12:34 : client: [4] opened from 127.0.0.1:41248
+May 06 12:34 : client: [4] closed
+May 06 13:30 : client: [3] closed
+May 06 13:30 : client: [1] closed
+May 06 13:30 : client: [2] closed
+May 06 13:30 : client: [0] closed
+May 06 13:30 : client: [5] opened from 127.0.0.1:42502
+May 06 13:30 : client: [6] opened from 127.0.0.1:42506
+May 06 13:30 : client: [7] opened from 127.0.0.1:42510
+May 06 13:31 : client: [6] closed
+May 06 13:31 : client: [5] closed
+May 06 13:31 : client: [7] closed
+May 06 13:31 : client: [8] opened from 127.0.0.1:42516
+May 06 13:31 : client: [9] opened from 127.0.0.1:42520
+May 06 13:31 : client: [10] opened from 127.0.0.1:42524
+May 06 13:32 : client: [10] closed
+May 06 13:32 : client: [8] closed
+May 06 13:32 : client: [9] closed
+May 06 13:32 : client: [11] opened from 127.0.0.1:42528
+May 06 13:32 : client: [12] opened from 127.0.0.1:42534
+May 06 13:32 : client: [13] opened from 127.0.0.1:42536
+May 06 13:32 : client: [11] closed
+May 06 13:32 : client: [13] closed
+May 06 13:32 : client: [12] closed
+May 06 13:32 : client: [14] opened from 127.0.0.1:42540
+May 06 13:32 : client: [15] opened from 127.0.0.1:42544
+May 06 13:32 : client: [16] opened from 127.0.0.1:42548
+May 06 13:33 : client: [14] closed
+May 06 13:33 : client: [15] closed
+May 06 13:33 : client: [16] closed
+May 06 13:33 : client: [17] opened from 127.0.0.1:42556
+May 06 13:33 : client: [18] opened from 127.0.0.1:42560
+May 06 13:33 : client: [19] opened from 127.0.0.1:42564
+May 06 13:33 : client: [17] closed
+May 06 13:33 : client: [19] closed
+May 06 13:33 : client: [18] closed
+May 06 13:33 : client: [20] opened from 127.0.0.1:42570
+May 06 13:33 : client: [21] opened from 127.0.0.1:42574
+May 06 13:33 : client: [22] opened from 127.0.0.1:42578
+May 06 13:33 : client: [22] closed
+May 06 13:33 : client: [20] closed
+May 06 13:33 : client: [21] closed
+May 06 13:33 : client: [23] opened from 127.0.0.1:42584
+May 06 13:33 : client: [24] opened from 127.0.0.1:42588
+May 06 13:33 : client: [25] opened from 127.0.0.1:42592
+May 06 13:34 : client: [24] closed
+May 06 13:34 : client: [25] closed
+May 06 13:34 : client: [23] closed
+May 06 13:34 : client: [26] opened from 127.0.0.1:42622
+May 06 13:34 : client: [27] opened from 127.0.0.1:42626
+May 06 13:34 : client: [28] opened from 127.0.0.1:42630
+May 06 13:34 : client: [26] closed
+May 06 13:34 : client: [28] closed
+May 06 13:34 : client: [27] closed
+May 06 13:34 : client: [29] opened from 127.0.0.1:42634
+May 06 13:34 : client: [30] opened from 127.0.0.1:42638
+May 06 13:34 : client: [31] opened from 127.0.0.1:42642
+May 06 13:34 : client: [31] closed
+May 06 13:34 : client: [29] closed
+May 06 13:34 : client: [30] closed
+May 06 13:34 : client: [32] opened from 127.0.0.1:42646
+May 06 13:34 : client: [33] opened from 127.0.0.1:42650
+May 06 13:34 : client: [34] opened from 127.0.0.1:42654
+May 06 13:34 : client: [34] closed
+May 06 13:34 : client: [32] closed
+May 06 13:34 : client: [33] closed
+May 06 13:34 : client: [35] opened from 127.0.0.1:42658
+May 06 13:34 : client: [36] opened from 127.0.0.1:42662
+May 06 13:34 : client: [37] opened from 127.0.0.1:42666
+May 06 13:34 : client: [37] closed
+May 06 13:34 : client: [35] closed
+May 06 13:34 : client: [36] closed
+May 06 13:34 : client: [38] opened from 127.0.0.1:42670
+May 06 13:34 : client: [39] opened from 127.0.0.1:42674
+May 06 13:34 : client: [40] opened from 127.0.0.1:42678
+May 06 13:34 : client: [40] closed
+May 06 13:34 : client: [39] closed
+May 06 13:34 : client: [38] closed
+May 06 13:34 : client: [41] opened from 127.0.0.1:42684
+May 06 13:34 : client: [42] opened from 127.0.0.1:42686
+May 06 13:34 : client: [43] opened from 127.0.0.1:42690
+May 06 13:35 : client: [43] closed
+May 06 13:35 : client: [41] closed
+May 06 13:35 : client: [42] closed
+May 06 13:35 : client: [44] opened from 127.0.0.1:42698
+May 06 13:35 : client: [45] opened from 127.0.0.1:42700
+May 06 13:35 : client: [46] opened from 127.0.0.1:42706
+May 06 13:35 : client: [44] closed
+May 06 13:35 : client: [46] closed
+May 06 13:35 : client: [45] closed
+May 06 13:35 : client: [47] opened from 127.0.0.1:42710
+May 06 13:35 : client: [48] opened from 127.0.0.1:42714
+May 06 13:35 : client: [49] opened from 127.0.0.1:42718
+May 06 13:35 : client: [47] closed
+May 06 13:35 : client: [49] closed
+May 06 13:35 : client: [48] closed
+May 06 13:35 : client: [50] opened from 127.0.0.1:42724
+May 06 13:35 : client: [51] opened from 127.0.0.1:42726
+May 06 13:35 : client: [52] opened from 127.0.0.1:42730
+May 06 13:35 : client: [50] closed
+May 06 13:35 : client: [52] closed
+May 06 13:35 : client: [51] closed
+May 06 13:35 : client: [53] opened from 127.0.0.1:42734
+May 06 13:35 : client: [54] opened from 127.0.0.1:42738
+May 06 13:35 : client: [55] opened from 127.0.0.1:42742
+May 06 13:35 : client: [53] closed
+May 06 13:35 : client: [54] closed
+May 06 13:35 : client: [55] closed
+May 06 13:35 : client: [56] opened from 127.0.0.1:42746
+May 06 13:35 : client: [57] opened from 127.0.0.1:42750
+May 06 13:35 : client: [58] opened from 127.0.0.1:42754
+May 06 13:36 : client: [58] closed
+May 06 13:36 : client: [57] closed
+May 06 13:36 : client: [56] closed
+May 06 13:36 : client: [59] opened from 127.0.0.1:42760
+May 06 13:36 : client: [60] opened from 127.0.0.1:42764
+May 06 13:36 : client: [61] opened from 127.0.0.1:42768
+May 06 13:36 : client: [61] closed
+May 06 13:36 : client: [60] closed
+May 06 13:36 : client: [59] closed
+May 06 13:36 : client: [62] opened from 127.0.0.1:42776
+May 06 13:36 : client: [63] opened from 127.0.0.1:42774
+May 06 13:36 : client: [64] opened from 127.0.0.1:42780
+May 06 13:36 : client: [64] closed
+May 06 13:36 : client: [62] closed
+May 06 13:36 : client: [63] closed
+May 06 13:36 : client: [65] opened from 127.0.0.1:42784
+May 06 13:36 : client: [66] opened from 127.0.0.1:42788
+May 06 13:36 : client: [67] opened from 127.0.0.1:42792
+May 06 13:36 : client: [66] closed
+May 06 13:36 : client: [67] closed
+May 06 13:36 : client: [65] closed
+May 06 13:36 : client: [68] opened from 127.0.0.1:42796
+May 06 13:36 : client: [69] opened from 127.0.0.1:42800
+May 06 13:36 : client: [70] opened from 127.0.0.1:42804
+May 06 13:37 : client: [68] closed
+May 06 13:37 : client: [70] closed
+May 06 13:37 : client: [69] closed
+May 06 13:37 : client: [71] opened from 127.0.0.1:42850
+May 06 13:37 : client: [72] opened from 127.0.0.1:42854
+May 06 13:37 : client: [73] opened from 127.0.0.1:42858
+May 06 13:38 : client: [71] closed
+May 06 13:38 : client: [72] closed
+May 06 13:38 : client: [73] closed
+May 06 13:38 : client: [74] opened from 127.0.0.1:42866
+May 06 13:38 : client: [75] opened from 127.0.0.1:42870
+May 06 13:38 : client: [76] opened from 127.0.0.1:42874
+May 06 13:38 : client: [76] closed
+May 06 13:38 : client: [75] closed
+May 06 13:38 : client: [74] closed
+May 06 13:38 : client: [77] opened from 127.0.0.1:42878
+May 06 13:38 : client: [78] opened from 127.0.0.1:42882
+May 06 13:38 : client: [79] opened from 127.0.0.1:42886
+May 06 13:38 : client: [78] closed
+May 06 13:38 : client: [79] closed
+May 06 13:38 : client: [77] closed
+May 06 13:38 : client: [80] opened from 127.0.0.1:42890
+May 06 13:38 : client: [81] opened from 127.0.0.1:42894
+May 06 13:38 : client: [82] opened from 127.0.0.1:42898
+May 06 13:38 : client: [81] closed
+May 06 13:38 : client: [80] closed
+May 06 13:38 : client: [82] closed
+May 06 13:38 : client: [83] opened from 127.0.0.1:42906
+May 06 13:38 : client: [84] opened from 127.0.0.1:42910
+May 06 13:38 : client: [85] opened from 127.0.0.1:42914
+May 06 13:38 : client: [85] closed
+May 06 13:38 : client: [84] closed
+May 06 13:38 : client: [83] closed
+May 06 13:38 : client: [86] opened from 127.0.0.1:42918
+May 06 13:38 : client: [87] opened from 127.0.0.1:42922
+May 06 13:38 : client: [88] opened from 127.0.0.1:42926
+May 06 13:38 : client: [87] closed
+May 06 13:38 : client: [88] closed
+May 06 13:38 : client: [86] closed
+May 06 13:38 : client: [89] opened from 127.0.0.1:42930
+May 06 13:38 : client: [90] opened from 127.0.0.1:42934
+May 06 13:38 : client: [91] opened from 127.0.0.1:42938
+May 06 13:39 : client: [89] closed
+May 06 13:39 : client: [91] closed
+May 06 13:39 : client: [90] closed
+May 06 13:39 : client: [92] opened from 127.0.0.1:42942
+May 06 13:39 : client: [93] opened from 127.0.0.1:42946
+May 06 13:39 : client: [94] opened from 127.0.0.1:42950
+May 06 15:06 : client: [95] opened from 127.0.0.1:43778
+May 06 15:06 : client: [96] opened from 127.0.0.1:43782
+May 06 15:07 : client: [97] opened from 127.0.0.1:43790
+May 06 15:07 : client: [98] opened from 127.0.0.1:43794
+May 06 15:09 : client: [99] opened from 127.0.0.1:43810
+May 06 15:09 : client: [100] opened from 127.0.0.1:43814
+May 06 15:09 : client: [101] opened from 127.0.0.1:43818
+May 06 15:53 : client: Max connections reached
+May 06 15:53 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : player: played "yt/barrymanilow/CantSmileWithoutYou_BarryManilow.m4a"
+May 06 15:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 06 15:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 06 15:54 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+May 06 15:54 : client: [0] opened from 127.0.0.1:44210
+May 06 15:54 : client: [1] opened from 127.0.0.1:44214
+May 06 15:54 : client: [2] opened from 127.0.0.1:44218
+May 06 15:54 : client: [3] opened from 127.0.0.1:44222
+May 06 15:54 : client: [4] opened from 127.0.0.1:44226
+May 06 15:54 : client: [5] opened from 127.0.0.1:44230
+May 06 15:54 : client: [6] opened from 127.0.0.1:44234
+May 06 15:54 : client: [7] opened from 127.0.0.1:44238
+May 06 15:54 : client: [8] opened from 127.0.0.1:44242
+May 06 15:54 : client: [9] opened from 127.0.0.1:44246
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: Max connections reached
+May 06 15:54 : client: [0] closed
+May 06 15:54 : client: [10] opened from 127.0.0.1:44258
+May 06 16:37 : client: Max connections reached
+May 06 16:37 : client: Max connections reached
+May 06 16:37 : client: Max connections reached
+May 06 16:37 : client: [5] closed
+May 06 16:37 : client: [2] closed
+May 06 16:37 : client: [10] closed
+May 06 16:37 : client: [7] closed
+May 06 16:37 : client: [4] closed
+May 06 16:37 : client: [3] closed
+May 06 16:37 : client: [9] closed
+May 06 16:37 : client: [8] closed
+May 06 16:37 : client: [1] closed
+May 06 16:37 : client: [6] closed
+May 06 16:37 : client: [11] opened from 127.0.0.1:44680
+May 06 16:37 : client: [12] opened from 127.0.0.1:44682
+May 06 16:37 : client: [13] opened from 127.0.0.1:44686
+May 06 16:37 : client: [14] opened from 127.0.0.1:44692
+May 06 16:37 : client: [15] opened from 127.0.0.1:44696
+May 06 16:37 : client: [16] opened from 127.0.0.1:44700
+May 06 16:38 : player: played "yt/barrymanilow/CantSmileWithoutYou_BarryManilow.m4a"
+May 10 12:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 10 12:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 10 12:16 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+May 10 12:16 : client: [0] opened from 127.0.0.1:37412
+May 10 12:16 : client: [1] opened from 127.0.0.1:37416
+May 10 12:16 : client: [2] opened from 127.0.0.1:37420
+May 10 14:12 : client: [3] opened from 127.0.0.1:40834
+May 10 14:12 : client: [4] opened from 127.0.0.1:40838
+May 10 14:12 : client: [5] opened from 127.0.0.1:40842
+May 10 14:18 : client: [6] opened from 127.0.0.1:41236
+May 10 14:18 : client: [7] opened from 127.0.0.1:41240
+May 10 14:49 : update: added yt/mellowbeatseeker/BENJAMIN -KEY - Singing In The Rain-mqWJC_9lZ64.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/Soulitune - Intimacy-iNJ-Zq9sT8Y.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/Piano Shoegazer - Ghostly Love-kzu8noO1MLk.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/slipfunc - cherry smile-x5VhS0_xchw.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/Kid in Seoul - the memories we’ve shared, the times we’ve spent-uYDtRe8phEU.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/nawhij - with you-sls44rlHpRg.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/YOOYONGSOO - 10am-lAWuxww28b0.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/wofy - . (w_ plan8)-_7CAg8E9r9E.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/edenbyeden - nightcall-dvGSbgpgK50.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/potsu - lovesick-mHWvPzICJfQ.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/Stay Tuned - are you there-BX3l8gkKJb4.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/omar - away from here-R8PRQZd-_oE.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/Sun Yehoshua - heartbreaker-0SFvFfanRmc.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/Soulitune - Maturity-n9vntePm4Lo.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/burbank - a saint-PJCJnn2Z43E.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/chuckee. - goin far (version 2)-MFf3-hXwRcs.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/MRSJ - Arrietty-HWfjhNkDhd4.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/Sweet William - Walkin-smrH3com5X8.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/Bin boy(빈보이) - I Never Wanna Leave This Bed-exe-EDaJTaE.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/asokah - I always smile, but my eyes are sad-FiyXZhH4HCM.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/iwamizu - The Girl from France-YQsnpok9JC8.m4a
+May 10 14:49 : update: added yt/mellowbeatseeker/wellcheeze - 뭉게구름이 피어나고 두리둥실 춤을 춘다-kZiXN5M3Q4Y.m4a
+May 10 15:00 : update: added yt/chilledcow/just big hills - Shinjuku-G85eCKo0fpI.m4a
+May 10 15:00 : update: added yt/chilledcow/nikom w_ squid ethics-vQ2mrzaBp9o.m4a
+May 10 15:00 : update: added yt/chilledcow/Joakim Karud - Dreams-rQO8escJC78.m4a
+May 10 15:00 : update: added yt/chilledcow/sugiwa - remember me-w4DufcPodLw.m4a
+May 10 15:00 : update: added yt/chilledcow/けｍ SURF - 6am-RTcv4sMCq3M.m4a
+May 10 15:00 : update: added yt/chilledcow/steezy prime - explore-IGNwBFUeNXk.m4a
+May 10 15:00 : update: added yt/chilledcow/charlie toØ human - Walk In The Park-cXnRtgl2bfQ.m4a
+May 10 15:00 : update: added yt/chilledcow/Orca Vibes - Gypsy-naKpYLqymOs.m4a
+May 10 15:00 : update: added yt/chilledcow/Aso - Loungin-cLUrYRUxvEY.m4a
+May 10 15:00 : update: added yt/chilledcow/Kazam ☾ - raindrops-9eX7lIuSE4M.m4a
+May 10 15:00 : update: added yt/chilledcow/BLVK. - under the trees ｡゜-cr9B3Ma9NUo.m4a
+May 10 15:00 : update: added yt/chilledcow/Matt Quentin - Waves-d8WVILsTWLw.m4a
+May 10 15:00 : update: added yt/chilledcow/Matt Quentin - Home-tgRC1otV7p4.m4a
+May 10 15:00 : update: added yt/chilledcow/Neoplasma - thinking about you (w. Oui Lele)-yRidRbA4lks.m4a
+May 10 15:00 : update: added yt/chilledcow/Artesia. - Her-1RyGw9ofNCA.m4a
+May 10 15:00 : update: added yt/chilledcow/boxboys - disability-HrMALvLN5Xo.m4a
+May 10 15:00 : update: added yt/chilledcow/mattdeguia - daylight-5g0R6xdNy4s.m4a
+May 10 15:00 : update: added yt/chilledcow/potsu x lando! - breakfast-EHUUfLj-JFA.m4a
+May 10 15:00 : update: added yt/chilledcow/けｍ SURF - Take Care-HTNXz6WspCU.m4a
+May 10 15:00 : update: added yt/chilledcow/Kalaido - Hanging Lanterns-xzXemfeXkZw.m4a
+May 10 15:00 : update: added yt/chilledcow/Tom Misch - Wonder (Aso Remake)-bivy0KZE-10.m4a
+May 10 15:00 : update: added yt/chilledcow/tymú - walk with me-a9CIRuoSaR8.m4a
+May 10 15:00 : update: added yt/chilledcow/flovry - car radio-J4IDQ4hHh7w.m4a
+May 10 15:00 : client: [8] opened from 127.0.0.1:43872
+May 10 15:00 : player: played "yt/barrymanilow/CantSmileWithoutYou_BarryManilow.m4a"
+May 10 15:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 10 15:03 : player: played "yt/mellowbeatseeker/asokah - I always smile, but my eyes are sad-FiyXZhH4HCM.m4a"
+May 10 15:04 : inotify: music directory was removed - cannot continue to watch it
+May 10 15:04 : exception: Failed to access /home/jbustamante/Music: No such file or directory
+May 10 15:06 : player: played "yt/mellowbeatseeker/BENJAMIN -KEY - Singing In The Rain-mqWJC_9lZ64.m4a"
+May 10 15:10 : player: played "yt/mellowbeatseeker/Bin boy(빈보이) - I Never Wanna Leave This Bed-exe-EDaJTaE.m4a"
+May 10 15:13 : player: played "yt/mellowbeatseeker/burbank - a saint-PJCJnn2Z43E.m4a"
+May 10 15:16 : player: played "yt/mellowbeatseeker/chuckee. - goin far (version 2)-MFf3-hXwRcs.m4a"
+May 10 15:19 : player: played "yt/mellowbeatseeker/edenbyeden - nightcall-dvGSbgpgK50.m4a"
+May 10 15:21 : player: played "yt/mellowbeatseeker/iwamizu - The Girl from France-YQsnpok9JC8.m4a"
+May 10 15:23 : player: played "yt/mellowbeatseeker/Kid in Seoul - the memories we’ve shared, the times we’ve spent-uYDtRe8phEU.m4a"
+May 10 15:27 : player: played "yt/mellowbeatseeker/MRSJ - Arrietty-HWfjhNkDhd4.m4a"
+May 10 15:31 : player: played "yt/mellowbeatseeker/nawhij - with you-sls44rlHpRg.m4a"
+May 10 15:33 : player: played "yt/mellowbeatseeker/omar - away from here-R8PRQZd-_oE.m4a"
+May 10 15:37 : player: played "yt/mellowbeatseeker/Piano Shoegazer - Ghostly Love-kzu8noO1MLk.m4a"
+May 10 15:39 : player: played "yt/mellowbeatseeker/potsu - lovesick-mHWvPzICJfQ.m4a"
+May 10 15:41 : player: played "yt/mellowbeatseeker/slipfunc - cherry smile-x5VhS0_xchw.m4a"
+May 10 15:43 : player: played "yt/mellowbeatseeker/Soulitune - Intimacy-iNJ-Zq9sT8Y.m4a"
+May 10 15:45 : player: played "yt/mellowbeatseeker/Soulitune - Maturity-n9vntePm4Lo.m4a"
+May 10 15:47 : player: played "yt/mellowbeatseeker/Stay Tuned - are you there-BX3l8gkKJb4.m4a"
+May 10 15:48 : client: [9] opened from 127.0.0.1:45646
+May 10 15:48 : client: [9] closed
+May 10 15:48 : client: [10] opened from 127.0.0.1:45650
+May 10 15:48 : client: [10] closed
+May 10 15:49 : player: played "yt/mellowbeatseeker/Sun Yehoshua - heartbreaker-0SFvFfanRmc.m4a"

@@ -1,4 +1,6 @@
 #!/bin/bash
 # Replace dmenu prompt with rofi
 
-rofi -modi window,drun,run -show drun -sidebar-mode -terminal urxvt
+themes="~/.config/rofi/themes"
+choice="$1"
+rofi -modi window,drun,run -show drun -sidebar-mode -terminal urxvt -show-icons true -config "$themes/$choice.rasi"

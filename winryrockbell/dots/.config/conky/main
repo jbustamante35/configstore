@@ -1,4 +1,4 @@
-#
+# vim: filetype=conkyrc
 #
 #
 # CONKY ASCII ART
@@ -8,6 +8,7 @@
 # CONFIG
 own_window             yes
 own_window_type        override
+#own_window_type        normal
 own_window_class       Conky
 own_window_title       Monitor Conky
 own_window_hints       undecorated,below,sticky,skip_taskbar,skip_pager
@@ -15,7 +16,7 @@ own_window_colour      black
 own_window_transparent yes
 
 override_utf8_locale yes
-xftfont Cantarell:size=14
+xftfont Cantarell:size=10
 
 use_spacer left
 use_xft    yes
@@ -53,18 +54,18 @@ color3        e6bb24 # Heading
 ################################################################################
 TEXT
 # Date
-${color3} ${font Cantarell:size=18} ${nodename}
-${color} ${font Cantarell:size=16} ${time %A}, ${time %e %B %Y}
+${color3} ${font Cantarell} ${nodename}
+${color} ${font Cantarell:size=12} ${time %A}, ${time %e %B %Y}
 
 # STATS
-${color2} ${font Cantarell:size=14:bold}STATS ${font} ${voffset -6} ${hr 2} $color
-${voffset 5} ${color} ${font Cantarell:size=14}uptime $alignr ${color} ${uptime_short}
-${voffset 1} ${color} ${font Cantarell:size=14}disk   $alignr ${color} ${fs_used /} - ${fs_size /}
-${voffset 1} ${color} ${font Cantarell:size=14}memory $alignr ${color} $mem - $memmax
-${voffset 1} ${color} ${font Cantarell:size=14}swap   $alignr ${color} $swap - $swapmax
+${color2} ${font Cantarell:bold}STATS ${font Cantarell} ${voffset -6} ${hr 2} $color
+${voffset 5} ${color} ${font Cantarell}uptime $alignr ${color} ${uptime_short}
+${voffset 1} ${color} ${font Cantarell}disk   $alignr ${color} ${fs_used /} - ${fs_size /}
+${voffset 1} ${color} ${font Cantarell}memory $alignr ${color} $mem - $memmax
+${voffset 1} ${color} ${font Cantarell}swap   $alignr ${color} $swap - $swapmax
 
 # CPU UTILIZATION
-${color2} ${font Cantarell:size=14:bold}CPU UTILIZATION ${font} ${voffset -6} ${hr 2} $color
+${color2} ${font Cantarell:bold}CPU UTILIZATION ${font} ${voffset -6} ${hr 2} $color
 ${color} ${cpugraph 60}
 ${color} ${cpubar      6,400} $alignr ${color} CPU: $alignr $cpu%
 ${color} ${membar      6,400} $alignr ${color} RAM: $alignr $memperc%
@@ -72,9 +73,14 @@ ${color} ${swapbar     6,400} $alignr ${color} SWP: $alignr $swapperc%
 ${color} ${battery_bar 6,400} $alignr ${color} BAT: $alignr $battery_percent%
 
 # Google Play Music
-${color2}${font Cantarell:size=14:bold}MUSIC ${font} ${voffset -6} ${hr 2} $color
+${color2}${font Cantarell:bold}GOOGLE MUSIC ${font} ${voffset -6} ${hr 2} $color
 ${voffset 5} ${exec ~/.scripts/i3scripts/gplayer --not-playing --layout t-A-p}
 
+# MPD Music
+${color2}${font Cantarell:bold}MPD MUSIC ${font} ${voffset -6} ${hr 2} $color
+${voffset 5}${if_mpd_playing}$mpd_artist - $mpd_title $alignr $mpd_elapsed/$mpd_length
+($mpd_status) $alignr${mpd_bar 7,220}   $mpd_percent% ${endif}
+
 # Fortune
-${color2} ${font Cantarell:size=14:bold}FORTUNE ${font} ${voffset -6} ${hr 2} $color
+${color2} ${font Cantarell:bold}FORTUNE ${font} ${voffset -6} ${hr 2} $color
 ${voffset 5} $alignr ${color}  ${execi 600 fortune -s | cowsay -f moose -e '@@' -T '[]' -W 50

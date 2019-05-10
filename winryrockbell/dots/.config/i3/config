@@ -40,27 +40,28 @@
 set $mod        Mod4
 set $alt        Mod1
 set $term       urxvtc
-set $walsat     0.9
+set $walsat     "1"
 set $walend     colorz
+set $rofitheme  arc-red-dark
 font            pango:DejaVu Sans Mono,10
 
 #################### Main Setup ##############################
 # Startup Commands
 exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
 exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
-#exec_always --no-startup-id bash ~/.config/conky/conky.sh
+exec_always --no-startup-id bash ~/.config/conky/conky.sh
 exec_always --no-startup-id regencolors $walend $walsat
 exec        --no-startup-id nm-applet
 exec        --no-startup-id dropbox-cli start
 #exec        --no-startup-id pb-for-desktop
 exec        --no-startup-id touchpadctl tap 1
-#exec        --no-startup-id authenticate_pamac.sh
+exec        --no-startup-id authenticate_pamac.sh
 exec        --no-startup-id urxvtd -q -o -f
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+c                  reload
 bindsym $mod+Shift+c            restart
-bindsym $alt+Delete             exec --no-startup-id    ~/.scripts/i3scripts/i3shutdown
+bindsym $alt+Delete             exec --no-startup-id    ~/.scripts/i3scripts/i3shutdown $rofitheme
 bindsym Control+$alt+l          exec --no-startup-id    i3lock -i ~/.config/lock.png -t -f -p default
 bindsym Control+$alt+Delete     exec --no-startup-id    systemctl suspend
 bindsym $mod+Shift+e            exec --no-startup-id    "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
@@ -98,15 +99,14 @@ bindsym $mod+Shift+z	gaps outer current minus 5
 # Buttons And Shame          - Full triple screens in lab
 # Long Tall Cowboy Christmas - Full triple screens, left screen portrait mode
 # Reasonable Enough 1        - Single screen at reasonable resolution
-# Glitched Triple            - Triple screen at reasonable resolution, right screen odd position
+# Three Amigos               - Triple screen at reasonable resolution, all correct positions
 # Left Dell                  - Full double screens, Dell monitor as left screen
 # Reasonable Enough 2        - Double screen at reasonable resolution, Dell monitor as left screen
 bindsym $alt+Shift+w    exec --no-startup-id buttonsandshame
 bindsym $alt+Control+w  exec --no-startup-id longtallcowboychristmas
 bindsym $alt+w          exec --no-startup-id reasonableenough 1
-bindsym $mod+Shift+w    exec --no-startup-id glitchedtriple
+bindsym $mod+Shift+w    exec --no-startup-id threeamigos
 bindsym $mod+Control+w  exec --no-startup-id leftdell
-#bindsym $mod+w          exec --no-startup-id reasonableenough 2
 
 ##################### Applications ##############################
 # Screenshots [ u: focused window | s: selection ]
@@ -122,8 +122,8 @@ bindsym $mod+b                  exec --no-startup-id konsole --profile="Sabre"
 bindsym $mod+Shift+b            exec --no-startup-id konsole --profile="Sabre" -e /bin/bash
 bindsym $mod+n                  exec --no-startup-id urxvtc
 bindsym $mod+Shift+n            exec --no-startup-id urxvtd -q -o -f
-bindsym $mod+grave              exec --no-startup-id urxvt -title "floating"
-bindsym $mod+Shift+grave        exec --no-startup-id urxvt -e /bin/bash -title "floating"
+bindsym $mod+grave              exec --no-startup-id urxvt -e tmux
+bindsym $mod+Shift+grave        exec --no-startup-id urxvt -title "floating"
 bindsym $alt+grave              exec --no-startup-id terminator
 bindsym $alt+Shift+grave        exec --no-startup-id terminator -e /bin/bash
 
@@ -141,7 +141,7 @@ bindsym $alt+Shift+h   exec --no-startup-id optirun qutebrowser
 # System Applications
 bindsym $mod+r          exec --no-startup-id urxvt -e ranger
 bindsym $mod+Control+r  exec --no-startup-id romoji
-bindsym $alt+Control+p  exec --no-startup-id cat ~/.ssh/bak/.pw | xclip
+bindsym $alt+Control+p  exec --no-startup-id gpg -d ~/.ssh/bak/.pw.gpg | xclip
 bindsym $mod+Control+h  exec --no-startup-id $term -e htop
 bindsym $mod+Control+j  exec --no-startup-id $term -e gotop
 
@@ -155,7 +155,7 @@ bindsym $alt+p  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
 # Function buttons
 # Original format had optirun -b primus <application>
 #bindsym $alt+Shift+g   exec --no-startup-id optirun -b primus gpmdp
-bindsym $mod+F1  exec --no-startup-id optirun -b primus nvidia-settings -c :8
+bindsym $mod+F1  exec --no-startup-id optirun nvidia-settings -c :8
 bindsym $mod+F2  exec --no-startup-id optirun gpmdp
 bindsym $mod+F3  exec --no-startup-id optirun spotify
 bindsym $mod+F4  exec --no-startup-id optirun android-messages
@@ -173,7 +173,7 @@ bindsym $alt+F1  exec --no-startup-id $term -e nvim -c :Calendar
 bindsym $alt+F2  exec --no-startup-id $term -e pulsemixer
 bindsym $alt+F3  exec --no-startup-id pamac-manager
 bindsym $alt+F4  exec --no-startup-id arandr
-#bindsym $alt+F5  exec --no-startup-id
+bindsym $alt+F5  exec --no-startup-id $term -e ncmpcpp
 #bindsym $alt+F6  exec --no-startup-id
 #bindsym $alt+F7  exec --no-startup-id
 #bindsym $alt+F8  exec --no-startup-id
@@ -181,8 +181,6 @@ bindsym $alt+F9  exec --no-startup-id setkbmap -option "caps:swapescape"
 bindsym $alt+F10 exec --no-startup-id xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources
 bindsym $alt+F11 exec --no-startup-id regencolors $walend $walsat -l
 bindsym $alt+F12 exec --no-startup-id regencolors $walend $walsat
-#bindsym $alt+F11 exec --no-startup-id wal -c && /home/jbustamante/bin/clrs && wal --backend $walend -i ~/.config/wall.png --saturate $walsat -l
-#bindsym $alt+F12 exec --no-startup-id wal -c && /home/jbustamante/bin/clrs && wal --backend $walend -i ~/.config/wall.png --saturate $walsat
 
 ################### General Navigation ###############################
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -191,10 +189,10 @@ workspace_auto_back_and_forth yes
 
 # start terminal, kill focused window, toggle touchpad, start dmenu
 bindsym $mod+Return       exec $term
-bindsym $mod+Shift+Return exec $term -e /bin/bash
+bindsym $mod+Shift+Return exec $term -e tmux -f ~/.tmux.conf
 bindsym $mod+Shift+q      kill
 bindsym $alt+t            exec --no-startup-id touchpadctl dev
-bindsym $mod+d            exec --no-startup-id rofi_run
+bindsym $mod+d            exec --no-startup-id rofi_run $rofitheme
 
 # change focus
 bindsym $mod+j          focus left

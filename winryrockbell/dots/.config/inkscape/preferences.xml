@@ -324,7 +324,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -335,8 +335,8 @@
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
        selcue="1">
       <group
-         id="lineheight"
-         display_unit="0" />
+         display_unit="0"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -422,12 +422,12 @@
        offset="0"
        offsetunits="mm" />
     <group
-       unit="px"
-       id="measure"
-       fontsize="10"
-       precision="2"
+       offset="5"
        scale="100"
-       offset="5" />
+       precision="2"
+       fontsize="10"
+       id="measure"
+       unit="mm" />
   </group>
   <group
      id="palette">
@@ -582,8 +582,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="262"
-       h="499"
+       w="252"
+       h="398"
        visible="1"
        state="2"
        placement="1" />
@@ -619,8 +619,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="365"
-       h="451"
+       w="395"
+       h="473"
        visible="0"
        state="2"
        placement="1">
@@ -650,8 +650,8 @@
     <group
        id="import"
        enable_preview="1"
-       path=""
-       ask="1"
+       path="/home/jbustamante/Dropbox/Pictures/screenshots/rice/"
+       ask="0"
        link="embed"
        scale="optimizeQuality"
        forcexdpi="0" />
@@ -986,15 +986,16 @@
   </group>
   <group
      id="extensions"
-     org.inkscape.input.gdkpixbuf.png.scale="optimizeQuality" />
+     org.inkscape.input.gdkpixbuf.png.scale="optimizeQuality"
+     org.inkscape.input.gdkpixbuf.png.do_not_ask="1" />
   <group
      id="desktop"
      style="line-height:1.25">
     <group
-       width="1864"
-       height="2042"
-       x="1960"
-       y="72"
+       width="1894"
+       height="1033"
+       x="10"
+       y="31"
        fullscreen="0"
        id="geometry"
        maximized="0" />

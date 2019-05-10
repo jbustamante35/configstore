@@ -251,9 +251,9 @@
     icon       = /home/jbustamante/Pictures/Downloads/HomeboiBeethoven.png
 
 [urgency_normal]
-    background  = "#132d2e"
-    foreground  = "#e67e0b"
-    frame_color = "#307379"
+    background  = "#210100"
+    foreground  = "#bd560a"
+    frame_color = "#d9880b"
     frame_width = 1
     timeout     = 10
     icon       = /home/jbustamante/Pictures/Downloads/nintendoswitch_icon.png
