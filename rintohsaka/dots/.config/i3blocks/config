@@ -2,10 +2,21 @@ command=~/.scripts/i3scripts/$BLOCK_NAME
 separator_block_width=25
 markup=pango
 
+[disk]
+label=🍱
+command=~/.scripts/i3scripts/i3disk sda3
+interval=60
+
 [cpu_usage]
 label=💽
 command=~/.scripts/i3scripts/i3cpuusage -d 1
 interval=10
+#min_width=CPU: 100.00%
+
+[memory]
+label=🐏
+interval=5
+command=~/.scripts/i3scripts/i3memory
 
 [temperature]
 command=~/.scripts/i3scripts/i3temperature -w 55 -c 70
@@ -20,13 +31,6 @@ interval=1
 command=~/.scripts/i3scripts/i3volume -d -C "#ffffff" -c "#FFFF33" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇
 signal=1
 
-#[music]
-##label=🎹
-#label=♭
-#command=~/.scripts/i3scripts/gplayer --not-playing --layout t-A-p
-#interval=1
-##color=#00bfff
-
 [mediaplayer]
 command=~/.scripts/i3scripts/i3media
 instance=mpd
@@ -40,7 +44,7 @@ signal=10
 
 [time]
 label=📅
-command=echo $(date '+%Y %b %d (%a)  %I:%M%p') 🕓
+command=echo $(date '+%m-%d-%Y(%a)|%I:%M%p') 🕓
 interval=60
 
 [wifi]

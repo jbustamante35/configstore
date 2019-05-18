@@ -67,19 +67,13 @@ swp ${color} ${swapbar     5,330} $alignr ${color} $swapperc%
 # Google Play Music
 ${color2}${font Cantarell:size=11:bold}MUSIC${font} ${voffset -2} ${hr 1} $color
 ${if_mpd_playing}
-$mpd_title
-#$mpd_artist
-#$mpd_album
-#$mpd_date
-
-$mpd_elapsed/$mpd_length$alignr$mpd_percent%
-$alignr${mpd_bar 8,220}
-$alignr$mpd_status
+$mpd_title - $mpd_artist $alignr$mpd_elapsed/$mpd_length
+$mpd_status $alignr${mpd_bar 8,220}  $mpd_percent%
 ${endif}
-
 
 # Cowsay
 ${color2}${font Cantarell:size=9:bold}FORTUNE${font}${voffset -6} ${hr 2}$color
 ${execi 600 fortune | cowsay -f moofasa -e '^^' -W 200}
+
 
 

@@ -1,14 +1,15 @@
 To-do List
 ~~~~~~~~~~~~~~ Work ~~~~~~~~~~~~~~~
 Carrots
-- Make straightened images binary
-- Face output right-to-left
-- Fix base of straightened image
+- Output as CSV
+- Fix shoulders
+- Carrot meeting [Friday 05-17]
 
 Hypocotyls
 - Train more images (72 / 100)
-- Fix reshaping Z-Vectors
+- f(I,X,Y,Z) -> M
 
 ~~~~~~~~~~~~~~ Home ~~~~~~~~~~~~~~~
 - Car wash
 - Wisdom teeth appointment
+- Baltimore flight 07/02 - 07/07

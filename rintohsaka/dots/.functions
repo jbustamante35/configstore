@@ -21,8 +21,10 @@ ali () {
 # check current status of dropbox syncing
 drchk () {
     cd $HOME/Dropbox;
-    dropbox-cli filestatus && printf "\n\n\n" && dropbox-cli status;
+    dropbox-cli filestatus && printf "\n" && dropbox-cli status;
+    printf "\n";
     cd -;
+    dropbox-cli filestatus ;
 }
 
 # unzip into directory of the same name
@@ -42,6 +44,34 @@ kotlinr () {
     echo Compiling, please wait...
 	kotlinc $1 -include-runtime -d out.jar
 	java -jar out.jar
+}
+
+# Reset pywal source colors and choose backend
+wali () {
+    bak="$1"
+    sat="$2"
+
+    wal -c ;
+    clrs ;
+    wal --backend "$bak" -i ~/.config/wall.png --saturate "$sat" -q
+
+}
+
+# Select video player and video type from current directory [default mpv]
+mvid () {
+    vt="$1"
+    pl="$2"
+
+    case "$pl" in
+        "")
+            mpv "$(ls *"$vt" | dmenu -l 30)"
+            #ls *"$vt" | dmenu -l 30 | xargs -I {} mpv "{}"
+            ;;
+        *)
+            "$pl" "$(ls *"$vt" | dmenu -l 30)"
+            #ls *"$vt" | dmenu -l 30 | xargs -I {} "$pl" "{}"
+            ;;
+    esac
 }
 
 # Show 256 colors

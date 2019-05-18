@@ -1,5 +1,6 @@
 Shopping List
 ~~~~~~~~~~~~~ Groceries ~~~~~~~~~~~
+-
 
 ~~~~~~~~~~~~~~ Misc ~~~~~~~~~~~~~~~
-- French press filter
+- Home Laptop [or replace work]

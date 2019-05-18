@@ -26,11 +26,12 @@
 ######################## Startup Sequence #####################################
 set $mod  Mod4
 set $alt  Mod1
-set $term urxvt
+set $term urxvtc
 set $bknd colorz
-set $sat  0.9
+set $sat  1
 set $gaps 15
-font pango:DejaVu Sans Mono, Awesome 10
+#font pango:DejaVu Sans Mono, Awesome 10
+font pango:DejaVu Sans Mono,10
 
 exec        --no-startup-id setupi3
 exec        --no-startup-id dropbox start
@@ -38,7 +39,11 @@ exec        --no-startup-id dropbox start
 exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
 exec_always --no-startup-id ~/.config/conky/conky.sh
-exec_always --no-startup-id wal -c && clrs && wal --backend $bknd -i ~/.config/wall.png --saturate $sat
+exec_always --no-startup-id wal -c && clrs && wal --backend $bknd -i ~/.config/wall.png --saturate $sat -q
+
+# Set gif wallpaper
+#exec_always --no-startup-id pkill gifbg
+#exec_always --no-startup-id ~/bin/gifwallpaper 0.01
 
 # Restart, hibernate, or exit i3
 bindsym   $mod+c             reload
@@ -52,8 +57,8 @@ bindsym   $alt+t             exec --no-startup-id  touchpadctl dev
 bindsym   $alt+m             exec --no-startup-id  xdotool mousemove 0 0
 
 # Main commands
-bindsym $mod+Return       exec $term
-bindsym $mod+Shift+Return exec $term -e /bin/zsh
+bindsym $mod+Return       exec --no-startup-id $term
+bindsym $mod+Shift+Return exec --no-startup-id $term -e tmux
 bindsym $mod+Shift+q      kill
 bindsym $mod+d            exec --no-startup-id rofi_run
 
@@ -88,8 +93,8 @@ bindsym $mod+F6  exec --no-startup-id $term -e neomutt -f ~/.mail/gmailjb/INBOX
 bindsym $mod+F7  exec --no-startup-id $term -e neomutt -f ~/.mail/wiscjb/INBOX
 bindsym $mod+F8  exec --no-startup-id $term -e nvim ~/.config/conky/notepad/notes.md
 bindsym $mod+F9  exec --no-startup-id $term -e nvim ~/.config/conky/notepad/shopping.md
-bindsym $mod+F10 exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat -l
-bindsym $mod+F11 exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat
+bindsym $mod+F10 exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat -l -q
+bindsym $mod+F11 exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat -q
 bindsym $mod+F12 exec --no-startup-id arandr
 bindsym $alt+F12 exec --no-startup-id colorsource
 
@@ -103,8 +108,8 @@ bindsym $mod+XF86AudioNext         exec --no-startup-id $term -e neomutt -f ~/.m
 bindsym $mod+Fn+F7                 exec --no-startup-id $term -e neomutt -f ~/.mail/wiscjb/INBOX
 bindsym $mod+XF86Display           exec --no-startup-id $term -e nvim ~/.config/conky/notepad/notes.md
 bindsym $mod+XF86Search            exec --no-startup-id $term -e nvim ~/.config/conky/notepad/shopping.md
-bindsym $mod+XF86Switch_VT_10      exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat -l
-bindsym $mod+XF86MonBrightnessDown exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat
+bindsym $mod+XF86Switch_VT_10      exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat -l -q
+bindsym $mod+XF86MonBrightnessDown exec --no-startup-id wal --backend $bknd -i ~/.config/wall.png --saturate $sat -q
 bindsym $mod+XF86MonBrightnessUp   exec --no-startup-id arandr
 bindsym $alt+XF86MonBrightnessUp   exec --no-startup-id colorsource
 
@@ -112,27 +117,28 @@ bindsym $alt+XF86MonBrightnessUp   exec --no-startup-id colorsource
 ## Applications
 # terminals
 bindsym $mod+b           exec --no-startup-id st
-bindsym $mod+Shift+b     exec --no-startup-id st -e /bin/fish
+bindsym $mod+Shift+b     exec --no-startup-id st -e tmux
 bindsym $mod+n           exec --no-startup-id urxvtc
 bindsym $mod+Shift+n     exec --no-startup-id urxvtd -q -o -f
 bindsym $mod+grave       exec --no-startup-id urxvt
 bindsym $mod+Shift+grave exec --no-startup-id urxvtc -e tmux
 bindsym $alt+grave       exec --no-startup-id terminator
-bindsym $alt+Shift+grave exec --no-startup-id terminator -e /bin/fish
+bindsym $alt+Shift+grave exec --no-startup-id terminator -e tmux
 bindsym $mod+u           exec --no-startup-id tilda scratchpad show
 
 # browsers
-bindsym $alt+Shift+g exec --no-startup-id surf google.com
-bindsym $mod+Shift+g exec --no-startup-id brave-beta
-bindsym $mod+Shift+f exec --no-startup-id firefox
-bindsym $mod+Shift+h exec --no-startup-id qutebrowser
+bindsym Control+$alt+g exec --no-startup-id surf $(xclip -o)
+bindsym $alt+Shift+g   exec --no-startup-id surf google.com
+bindsym $mod+Shift+g   exec --no-startup-id brave-beta
+bindsym $mod+Shift+f   exec --no-startup-id firefox
+bindsym $mod+Shift+h   exec --no-startup-id qutebrowser
 
 # file managers and system settings
 bindsym $mod+r         exec --no-startup-id urxvt -e ranger
-bindsym $mod+Shift+r   exec --no-startup-id urxvt -e sxiv -rt /home/jbustamante/Pictures/
+bindsym $mod+Shift+r   exec --no-startup-id urxvt -e sxiv -rt ~/Pictures/
 bindsym $mod+Control+h exec --no-startup-id urxvt -e htop
-bindsym $mod+Control+p exec --no-startup-id cat ~/.ssh/.lb | xclip
-bindsym $alt+Control+p exec --no-startup-id tail -1 ~/.ssh/.etc | xclip
+bindsym $mod+Control+p exec --no-startup-id clippw lb
+bindsym $alt+Control+p exec --no-startup-id clippw etc
 bindsym $mod+Control+j exec --no-startup-id urxvt -e gotop
 
 # Screenshots [ u: focused window | s: selection ]
@@ -143,8 +149,9 @@ bindsym Control+Shift+Print exec --no-startup-id scrot -s -e 'mv $f ~/Pictures/s
 # Screen recordings
 bindsym $mod+Print exec --no-startup-id simplescreenrecorder
 
-# Calcurse
+# Fun Stuff
 bindsym $mod+y exec $term -e calcurse
+bindsym $alt+r exec romoji
 
 # Music
 # Media player controls
@@ -346,27 +353,26 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 # i3bar
 bar {
-	#font pango: DejaVu Sans Mono 9
-	font pango: Mono 11
-	colors {
-	    background          $color8
-	    #background          #807c79
-	    statusline          #ffffff
-	    separator           $altbground
+    font pango:Inconsolata, Awesome 11
+    #font pango: Mono 11
+    colors {
+            background          $color8
+            #background          #807c79
+            statusline          #ffffff
+            separator           $altbground
 
             #WORKSPACE          BORDER          FILL            TEXT
             focused_workspace   $altbground     $background     $foreground
             active_workspace    $altbground     $background     $altbground
             inactive_workspace  $background     $background     $color10
             urgent_workspace    $background     $color13        $color12
-	}
+        }
 
-        #status_command i3status
-	status_command i3blocks
-	position top
-	modifier None
-        #separator_symbol    "℣"
-        separator_symbol    "🧬"
+    status_command i3blocks
+    position top
+    modifier None
+    #separator_symbol    "℣"
+    separator_symbol    "🧬"
 }
 
 

@@ -1,17 +1,17 @@
-#!/bin/bash
+#!/bin/sh
 # Loads configuration files for desired profile from configstore
 # if the 'dots' configs option is selected, all configurations
-# found in the dotlist.txt file that are uncommented will be 
-# loaded. User must comment out configurations that should 
-# are not desired. 
-# 
+# found in the dotlist.txt file that are uncommented will be
+# loaded. User must comment out configurations that should
+# are not desired.
+#
 # Usage
 #   loadProfile.sh [profile] [configs]
-# 
+#
 # Parameters
 #   profile: config profile to load
 #   configs: set of configurations (main or dots)
-# 
+#
 
 me=$PROFILE
 you=$1

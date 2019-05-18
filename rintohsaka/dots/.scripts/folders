@@ -4,8 +4,10 @@ bb   ~/bin
 d    ~/Documents
 D    ~/Downloads
 dr   ~/Dropbox
+drp  ~/Dropbox/Pictures
 gg   ~/go
 m    ~/Music
+mm   ~/.mail
 pp   ~/Pictures
 vv   ~/Videos
 s    ~/.scripts

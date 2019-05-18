@@ -119,7 +119,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="3"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/jbustamante/Pictures/minimalism/misc/GhostlyLove_crop.png"/>
+          <property name="last-image" type="string" value="/home/jbustamante/Dropbox/Pictures/wallpapers/LiverpoolFC-Logo-Full-HD.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-random-order" type="bool" value="true"/>
           <property name="backdrop-cycle-timer" type="uint" value="15"/>
@@ -144,7 +144,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/jbustamante/Pictures/minimalism/misc/wellcheeze_crop.png"/>
+          <property name="last-image" type="string" value="/home/jbustamante/Dropbox/Pictures/wallpapers/RWBYFull.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-timer" type="uint" value="15"/>
           <property name="backdrop-cycle-random-order" type="bool" value="true"/>
