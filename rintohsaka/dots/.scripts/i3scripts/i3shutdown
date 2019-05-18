@@ -131,6 +131,7 @@ menu_confirm="Shutdown Reboot Hibernate Suspend Halt Logout"
 launcher_exe=""
 launcher_options=""
 rofi_colors=""
+rofi_theme="~/.config/rofi/rofi_theme.rasi"
 
 function prepare_launcher() {
   if [[ "$1" == "rofi" ]]; then
@@ -138,6 +139,7 @@ function prepare_launcher() {
         -hlfg "${HLFG_COLOR}" -hlbg "${HLBG_COLOR}")
     launcher_exe="rofi"
     launcher_options=(-dmenu -i -lines "${menu_nrows}" -p "${ROFI_TEXT}" \
+        -config "$rofi_theme" \
         "${rofi_colors}" "${ROFI_OPTIONS[@]}")
   elif [[ "$1" == "zenity" ]]; then
     launcher_exe="zenity"

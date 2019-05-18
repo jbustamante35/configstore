@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Synchronize all configuration files to configstore repository
 # Must have dotifytracking configuration files
 #

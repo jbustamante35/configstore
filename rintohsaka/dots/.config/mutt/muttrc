@@ -5,17 +5,15 @@ set from             = "jbustamante35@gmail.com"
 set realname         = "Julian Bustamante"
 set mbox_type        = Maildir
 set sendmail         = "/usr/bin/msmtp -a gmail"
-#set folder           = "~/.mail/gmailjb"
 set folder           = "~/.mail"
 set spoolfile        = "+INBOX"
 set record           = /dev/null
-#set mbox             = "+[Gmail].All Mail"
-#set postponed        = "+[Gmail].Drafts"
-#set header_cache     = ~/.config/mutt/accounts/gmailjb/cache/headers
-#set message_cachedir = ~/.config/mutt/accounts/gmailjb/cache/bodies
-#set certificate_file = ~/.config/mutt/accounts/gmailjb/certificate_file
 set ssl_starttls     = yes
 set ssl_force_tls    = yes
+
+# Get Account Credentials
+source "~/.config/mutt/credentials/getmuttpass gmailjb |"
+source "~/.config/mutt/credentials/getmuttpass wiscjb |"
 
 # Source specific colors/alias/accounts
 source ~/.config/mutt/etc/muttcol

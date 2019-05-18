@@ -13,9 +13,9 @@ URxvt*cursorBlink:     1
 URxvt*cursorUnderline: 1
 URxvt*scrollstyle:     plain
 URxvt*font:            xft:Droid Sans Mono:size=10:minspace=True, \
-                       xft:DejaVu Sans:size=10
-URxvt*boldfont:        xft:Droid Sans Mono:size=12:minspace=True,  \
                        xft:DejaVu Sans:size=12
+URxvt*boldfont:        xft:Droid Sans Mono:size=12:minspace=True,  \
+                       xft:DejaVu Sans:size=14
 URxvt*letterSpace:     0
 URxvt*iso14755:        false
 URxvt*iso14755_52:     false
@@ -51,34 +51,22 @@ URxvt*keysym.C-question:   resize-font:show
 URxvt*url-launcher:         linkhandler
 URxvt*matcher.button:       1
 
-!! Replacing Rofi config with ~/.config/rofi/theme
-!! rofi
-!rofi.color-enabled:	true
+!!! rofi
 !rofi.color-window:	#000,    #000,    #000
-!rofi.color-normal:	#111,    #819396, #222,    #008ed4, #ffffff
-!rofi.color-active:	#002b37, #008ed4, #003643, #008ed4, #66c6ff
-!rofi.color-urgent:	#002b37, #da4281, #003643, #008ed4, #890661
 !
+!!!                      Background Foreground AltBackground HighlightBg HighlightFg
+!rofi.color-normal:	#111,      #819396,   #222,         #008ed4,    #ffffff
+!rofi.color-active:	#002b37,   #008ed4,   #003643,      #008ed4,    #66c6ff
+!rofi.color-urgent:	#002b37,   #da4281,   #003643,      #008ed4,    #890661
+!
+!!rofi.font: MonacoB 10
+!rofi.font: Droid Sans Mono 12
+!rofi.color-enabled:	true
 !rofi.fake-transparency:	true
-!rofi.padding:           50
+!rofi.padding:           5
 !rofi.lines:		10
 !rofi.bw:		0
 !rofi.opacity:		"65"
 !rofi.hide-scrollbar:	true
 !rofi.width:		70
-
-!! ROFI from https://github.com/snickerton/DotfilesSucculent/blob/master/.config/rofi/config
-rofi.color-enabled: true
-!!		   			Window	  	  Border	 	 Separator
-rofi.color-window: argb:B0435e75, argb:D0435e75, argb:D0435e75
-!
-!!		  			 Background	  Foreground	 Alt Background Highlight Bg   Highlight Fg
-rofi.color-normal: argb:00435e75, argb:FF9dbeda, argb:00486883, argb:A02C3E4F, argb:D09dbeda
-rofi.color-active: argb:00435e75, argb:D0734375, argb:00486883, argb:A02C3E4F, argb:D0734375
-rofi.color-urgent: argb:00435e75, argb:D0b9524e, argb:00486883, argb:A02C3E4F, argb:D0b9524e
-!
-rofi.font: MonacoB 14
-rofi.hide-scrollbar: true
-
-
 

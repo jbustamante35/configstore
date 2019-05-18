@@ -19,6 +19,7 @@
 .scripts
 .shortcuts
 .surf
+.tmux.conf
 .urxvt
 .vim
 .vimrc

@@ -87,11 +87,9 @@ alias dki='docker images -a'
 alias dkp='docker system prune'
 alias zt='zathura'
 alias prnt='xdg-open http://localhost:631/admin'
-alias wali='wal -c && clrs && wal --backend colorz -i ~/.config/wall.png --saturate'
+#alias wali='wal -c && clrs && wal --backend colorz -i ~/.config/wall.png --saturate'
 alias rtv='rtv --enable-media'
 alias cnv='convert -resize'
-#alias ytm4a="youtube-dl -f 'bestaudio[ext=m4a]'"
-
 
 # alias to remote to UW Madison
 alias sshs='ssh sub'
@@ -104,8 +102,8 @@ alias vnc2me='vncviewer localhost:590$1'
 # VimWiki aliases
 alias jrnl='vim ~/Documents/jbwiki/journal.wiki/index.wiki'
 alias labn='vim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
-alias ojrnl='xdg-open ~/Documents/jbwiki/journal.wiki_html/index.html'
-alias olabn='xdg-open ~/Documents/jbwiki/labnotes.wiki_html/index.html'
+alias ojrnl='qutebrowser ~/Documents/jbwiki/journal.wiki_html/index.html'
+alias olabn='qutebrowser ~/Documents/jbwiki/labnotes.wiki_html/index.html'
 
 # dwm aliases
 alias rst='sudo make clean install -C ~/Documents/suckless/dwm-6.1'

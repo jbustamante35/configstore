@@ -34,7 +34,7 @@ SETUVAR _fish_abbr_cfm:nvim\x20\x7e/\x2econfig/compton/compton\x2econf
 SETUVAR _fish_abbr_cfn:nvim\x20\x7e/\x2econfig/nvim/init\x2evim
 SETUVAR _fish_abbr_cfq:nvim\x20\x7e/\x2econfig/qutebrowser/config\x2epy
 SETUVAR _fish_abbr_cfr:nvim\x20\x7e/\x2econfig/ranger/rc\x2econf
-SETUVAR _fish_abbr_cft:nvim\x20\x7e/\x2econfig/qtile/config\x2epy
+SETUVAR _fish_abbr_cft:nvim\x20\x7e/\x2econfig/tmux/tmux\x2econf
 SETUVAR _fish_abbr_cfv:nvim\x20\x7e/\x2evimrc
 SETUVAR _fish_abbr_cfw:nvim\x20\x7e/Documents/suckless/dwm\x2d6\x2e1/config\x2eh
 SETUVAR _fish_abbr_cfx:nvim\x20\x7e/\x2eXresources
@@ -49,6 +49,7 @@ SETUVAR _fish_abbr_db:sudo\x20updatedb
 SETUVAR _fish_abbr_df:pydf\x20\x2dh\x20
 SETUVAR _fish_abbr_dff:pydf\x20\x2dgha
 SETUVAR _fish_abbr_dr:cd\x20\x7e/Dropbox\x20\x3b\x20and\x20ls\x20\x2da
+SETUVAR _fish_abbr_drp:cd\x20\x7e/Dropbox/Pictures\x20\x3b\x20and\x20ls\x20\x2da
 SETUVAR _fish_abbr_dt:cd\x20\x7e/\x2edotify\x20\x3b\x20and\x20ls\x20\x2da
 SETUVAR _fish_abbr_duu:sudo\x20du\x20\x2dhs\x20\x3b\x20and\x20sudo\x20du\x20\x2dah\x20\x7c\x20sort\x20\x2dr\x20\x7c\x20head\x20\x2d\x241
 SETUVAR _fish_abbr_eb:nvim\x20\x7e/Documents/LaTeX/uni\x2ebib
@@ -75,6 +76,7 @@ SETUVAR _fish_abbr_ls:ls\x20\x2dN\x20\x2d\x2dcolor\x3dauto\x20\x2d\x2dgroup\x2dd
 SETUVAR _fish_abbr_lsl:ll\x20\x7c\x20less
 SETUVAR _fish_abbr_m:cd\x20\x7e/Music\x20\x3b\x20and\x20ls\x20\x2da
 SETUVAR _fish_abbr_mkdir:mkdir\x20\x2dpv\x20
+SETUVAR _fish_abbr_mm:cd\x20\x7e/\x2email\x20\x3b\x20and\x20ls\x20\x2da
 SETUVAR _fish_abbr_mnt:mount\x20\x7c\x20column\x20\x2dt
 SETUVAR _fish_abbr_myip:curl\x20http\x3a//ipecho\x2enet/plain\x3b\x20echo
 SETUVAR _fish_abbr_natu:nautilus\x20\x2e

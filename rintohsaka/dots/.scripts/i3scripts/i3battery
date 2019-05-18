@@ -29,7 +29,7 @@ elif [ "$NUM" -lt 10 ]; then
         if ["$STATUS" -ne "Charging"]; then
             battery_warning
         fi
-        #battery_warning
+        battery_warning
         color="#ff0000"
 else
         color="#ff0000"

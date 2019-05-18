@@ -13,12 +13,12 @@ application/x-extension-xht=qutebrowser.desktop
 
 [Added Associations]
 x-scheme-handler/mailto=exo-mail-reader.desktop
-image/jpeg=okularApplication_kimgio.desktop;
+image/jpeg=feh.desktop;okularApplication_kimgio.desktop;
 application/x-shellscript=mousepad.desktop;vim.desktop;
 application/x-java-archive=java-java-openjdk.desktop;
 application/pdf=wine-extension-pdf.desktop;
-x-scheme-handler/http=exo-web-browser.desktop;qutebrowser.desktop;
-x-scheme-handler/https=exo-web-browser.desktop;qutebrowser.desktop;
+x-scheme-handler/http=exo-web-browser.desktop
+x-scheme-handler/https=exo-web-browser.desktop
 x-scheme-handler/ftp=qutebrowser.desktop;
 x-scheme-handler/chrome=qutebrowser.desktop;
 text/html=qutebrowser.desktop;
@@ -28,3 +28,7 @@ application/x-extension-shtml=qutebrowser.desktop;
 application/xhtml+xml=qutebrowser.desktop;
 application/x-extension-xhtml=qutebrowser.desktop;
 application/x-extension-xht=qutebrowser.desktop;
+image/png=feh.desktop;
+image/x-xcf=okularApplication_kimgio.desktop;
+video/mp4=org.xfce.Parole.desktop;
+

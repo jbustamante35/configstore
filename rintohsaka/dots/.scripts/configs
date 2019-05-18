@@ -20,5 +20,6 @@ cfk     ~/.config/conky/conky.sh
 ck1     ~/.config/conky/conky_main
 ck2     ~/.config/conky/conky_func
 cfm     ~/.config/compton/compton.conf
+cft     ~/.config/tmux/tmux.conf
 cfd     ~/.config/dunst/dunstrc
 cfy     ~/.xinitrc

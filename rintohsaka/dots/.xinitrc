@@ -28,7 +28,7 @@ done &
 /home/jbustamante/bin/touchpadctl tap 1
 setxkbmap -option "caps:swapescape"
 xset r rate 200 50
-exec feh --bg-scale ~/.config/wall.png &
+#exec feh --bg-scale ~/.config/wall.png &
 /home/jbustamante/bin/dualScreen
 
 #exec startxfce4

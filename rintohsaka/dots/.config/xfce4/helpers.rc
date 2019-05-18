@@ -1,4 +1,4 @@
 MailReader=custom-MailReader
-TerminalEmulator=terminator
-WebBrowser=custom-WebBrowser
+TerminalEmulator=urxvt
+WebBrowser=surf
 

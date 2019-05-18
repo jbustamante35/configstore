@@ -1,5 +1,5 @@
 favorites=
-recent=urxvt.desktop,xterm.desktop,xfce4-terminal-settings.desktop,gtk-theme-config.desktop,lightdm-gtk-greeter-settings.desktop,tilda.desktop,vifm.desktop,pamac-manager.desktop,firefox.desktop,xfce4-terminal.desktop
+recent=gtk-theme-config.desktop,xfce4-power-manager-settings.desktop,terminator.desktop,urxvtc.desktop,urxvt.desktop,xterm.desktop,xfce4-terminal-settings.desktop,lightdm-gtk-greeter-settings.desktop,tilda.desktop,vifm.desktop
 button-title=Applications
 button-icon=/home/jbustamante/Pictures/downloads/nintendoswitchlogo.png
 button-single-row=false
