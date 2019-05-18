@@ -46,6 +46,7 @@ PYTHON=/usr/bin/python
 export TERMINAL=gnome-terminal
 export BROWSER=firefox
 export EDITOR=nvim
+export MPD_PORT=6000
 #export PATH=$PATH:$MYPATH:$MYBIN:$GOROOT/bin:$GOPATH/bin:$RUBYPATH/bin
 export PATH=$PATH:$MYPATH:$MYBIN:$RUBYPATH/bin
 

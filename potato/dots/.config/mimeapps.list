@@ -5,3 +5,6 @@ image/jpeg=ristretto.desktop;
 x-scheme-handler/http=exo-web-browser.desktop
 x-scheme-handler/https=exo-web-browser.desktop
 application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;xarchiver.desktop;
+image/gif=ristretto.desktop;
+x-scheme-handler/mailto=exo-mail-reader.desktop
+

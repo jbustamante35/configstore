@@ -9,7 +9,7 @@
   <property name="shortcuts-icon-emblems" type="bool" value="true"/>
   <property name="tree-icon-emblems" type="bool" value="true"/>
   <property name="last-window-width" type="int" value="683"/>
-  <property name="last-window-height" type="int" value="373"/>
-  <property name="last-window-maximized" type="bool" value="true"/>
+  <property name="last-window-height" type="int" value="372"/>
+  <property name="last-window-maximized" type="bool" value="false"/>
   <property name="last-side-pane" type="string" value="ThunarTreePane"/>
 </channel>
