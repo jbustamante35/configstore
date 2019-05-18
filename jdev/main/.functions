@@ -24,3 +24,11 @@ ali () {
 	alias $1=$2
 }
 
+wali () {
+    bak="$1"
+    sat="$2"
+
+    #wal -c ;
+    clrs ;
+    wal --backend "$bak" -i ~/.config/wall.png --saturate $sat -q
+}
