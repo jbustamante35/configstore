@@ -5,6 +5,7 @@
 # source main bashrc and zshrc files
 alias sbc='. ~/.bashrc'
 alias szc='. ~/.zshrc'
+alias spr='. ~/.profile'
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -29,10 +30,12 @@ alias l='ls -CF'
 alias lsl='ll | less'
 
 # some cd aliases
+alias ccd='cd'
+alias cccd='cd'
 alias ..='cd ..'
 alias dat='cl ~/LabData'
 alias hyp='cl ~/LabData/HypoQuantyl/'
-alias car='cl ~/LabData/scott_brainard/'
+alias car='cl ~/LabData/CarrotSweeper/'
 alias kin='cl ~/LabData/ashley/'
 alias sw='cl ~/Software'
 alias hq='cl ~/Software/hypoquantyl'
@@ -52,7 +55,6 @@ alias db='sudo updatedb'
 alias yin='sudo yum install'
 alias ysr='yum search'
 alias yrm='sudo yum erase'
-
 
 # disk check aliases
 alias duu='du -ach | sort -h -r'
@@ -78,7 +80,10 @@ alias mconsole='matlab -nodesktop -nosplash'
 alias kl='RM */.git'
 alias kll='RM */*/.git'
 alias klll='RM */*/*/.git'
-alias wali='clrs && wal -i ~/.config/wall.png --saturate'
+#alias wali='clrs && wal --backend colorz -i ~/.config/wall.png --saturate'
+alias cnv='convert -resize'
+alias dsp='display'
+#alias tmux='tmux -f ~/.config/tmux/tmux.conf'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -99,4 +104,12 @@ alias jrnl='vim ~/Documents/jbwiki/journal.wiki/index.wiki'
 alias labn='vim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
 alias ojrnl='xdg-open ~/Documents/jbwiki/journal.wiki_html/index.html'
 alias olabn='xdg-open ~/Documents/jbwiki/labnotes.wiki_html/index.html'
+
+# Git aliases
+alias gst='git status'
+alias glog='git log'
+alias gadd='git add -A'
+alias gcomm='git commit -m'
+alias gpush='git push origin'
+alias gpull='git pull origin master'
 

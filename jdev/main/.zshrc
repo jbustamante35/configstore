@@ -9,7 +9,7 @@ plugins=(
     zsh-autosuggestions
     extract
     web-search
-    cp
+    #cp
     vagrant
     vi-mode
     colorize
