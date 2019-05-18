@@ -16,7 +16,7 @@ own_window_colour      black
 own_window_transparent yes
 
 override_utf8_locale yes
-xftfont Cantarell:size=10
+xftfont Cantarell:size=9
 
 use_spacer left
 use_xft    yes
@@ -44,12 +44,12 @@ stippled_borders    5
 border_inner_margin 5
 border_outer_margin 5
 border_width        1
-minimum_size        600
-maximum_width       800
+minimum_size        300
+maximum_width       500
 
-default_color ac9398 # Text
-color2        67686f # Titles
-color3        e6bb24 # Heading
+default_color ffffff # Text
+color2        ff2e2e # Titles
+color3        8eef00 # Heading
 
 ################################################################################
 TEXT

@@ -47,21 +47,21 @@ border_width        1
 minimum_size        300
 maximum_width       500
 
-default_color ac9398 # Text
-color2        67686f # Titles
-color3        e6bb24 # Heading
+default_color fe1b11 # Text
+color2        ffffff # Titles
+color3        8eef00 # Heading
 
 ################################################################################
 TEXT
 # Function Key Bindings
 ${color3} ${font Cantarell} FUNCTION KEY BINDINGS (Alt)
 ${font} ${voffset 1} ${hr 2} $color
-${voffset 1} ${color2} ${font Cantarell} Calendar             $alignr ${color} F1
-${voffset 1} ${color2} ${font Cantarell} Pulsemixer           $alignr ${color} F2
-${voffset 1} ${color2} ${font Cantarell} Pamac                $alignr ${color} F3
+${voffset 1} ${color2} ${font Cantarell} Pamac                $alignr ${color} F1
+${voffset 1} ${color2} ${font Cantarell} Ncmpcpp              $alignr ${color} F2
+${voffset 1} ${color2} ${font Cantarell} Pulsemixer           $alignr ${color} F3
 ${voffset 1} ${color2} ${font Cantarell} ArandR               $alignr ${color} F4
-${voffset 1} ${color2} ${font Cantarell} [not mapped]         $alignr ${color} F5
-${voffset 1} ${color2} ${font Cantarell} [not mapped]         $alignr ${color} F6
+${voffset 1} ${color2} ${font Cantarell} Calendar             $alignr ${color} F5
+${voffset 1} ${color2} ${font Cantarell} Steam (proton)       $alignr ${color} F6
 ${voffset 1} ${color2} ${font Cantarell} [not mapped]         $alignr ${color} F7
 ${voffset 1} ${color2} ${font Cantarell} [not mapped]         $alignr ${color} F8
 ${voffset 1} ${color2} ${font Cantarell} Swap Caps-Escape Key $alignr ${color} F9

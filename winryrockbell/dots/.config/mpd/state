@@ -2,9 +2,9 @@ sw_volume: 100
 audio_device_state:0:pulse audio
 audio_device_state:1:mpd alsamixer-output
 audio_device_state:1:toggle_visualizer
-state: play
-current: 18
-time: 4.132000
+state: pause
+current: 44
+time: 66.933000
 random: 0
 repeat: 0
 single: 0
@@ -13,49 +13,85 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:yt/mellowbeatseeker/asokah - I always smile, but my eyes are sad-FiyXZhH4HCM.m4a
-1:yt/mellowbeatseeker/BENJAMIN -KEY - Singing In The Rain-mqWJC_9lZ64.m4a
-2:yt/mellowbeatseeker/Bin boy(빈보이) - I Never Wanna Leave This Bed-exe-EDaJTaE.m4a
-3:yt/mellowbeatseeker/burbank - a saint-PJCJnn2Z43E.m4a
-4:yt/mellowbeatseeker/chuckee. - goin far (version 2)-MFf3-hXwRcs.m4a
-5:yt/mellowbeatseeker/edenbyeden - nightcall-dvGSbgpgK50.m4a
-6:yt/mellowbeatseeker/iwamizu - The Girl from France-YQsnpok9JC8.m4a
-7:yt/mellowbeatseeker/Kid in Seoul - the memories we’ve shared, the times we’ve spent-uYDtRe8phEU.m4a
-8:yt/mellowbeatseeker/MRSJ - Arrietty-HWfjhNkDhd4.m4a
-9:yt/mellowbeatseeker/nawhij - with you-sls44rlHpRg.m4a
-10:yt/mellowbeatseeker/omar - away from here-R8PRQZd-_oE.m4a
-11:yt/mellowbeatseeker/Piano Shoegazer - Ghostly Love-kzu8noO1MLk.m4a
-12:yt/mellowbeatseeker/potsu - lovesick-mHWvPzICJfQ.m4a
-13:yt/mellowbeatseeker/slipfunc - cherry smile-x5VhS0_xchw.m4a
-14:yt/mellowbeatseeker/Soulitune - Intimacy-iNJ-Zq9sT8Y.m4a
-15:yt/mellowbeatseeker/Soulitune - Maturity-n9vntePm4Lo.m4a
-16:yt/mellowbeatseeker/Stay Tuned - are you there-BX3l8gkKJb4.m4a
-17:yt/mellowbeatseeker/Sun Yehoshua - heartbreaker-0SFvFfanRmc.m4a
-18:yt/mellowbeatseeker/Sweet William - Walkin-smrH3com5X8.m4a
-19:yt/mellowbeatseeker/wellcheeze - 뭉게구름이 피어나고 두리둥실 춤을 춘다-kZiXN5M3Q4Y.m4a
-20:yt/mellowbeatseeker/wofy - . (w_ plan8)-_7CAg8E9r9E.m4a
-21:yt/mellowbeatseeker/YOOYONGSOO - 10am-lAWuxww28b0.m4a
-22:yt/chilledcow/Artesia. - Her-1RyGw9ofNCA.m4a
-23:yt/chilledcow/Aso - Loungin-cLUrYRUxvEY.m4a
-24:yt/chilledcow/BLVK. - under the trees ｡゜-cr9B3Ma9NUo.m4a
-25:yt/chilledcow/boxboys - disability-HrMALvLN5Xo.m4a
-26:yt/chilledcow/charlie toØ human - Walk In The Park-cXnRtgl2bfQ.m4a
-27:yt/chilledcow/flovry - car radio-J4IDQ4hHh7w.m4a
-28:yt/chilledcow/Joakim Karud - Dreams-rQO8escJC78.m4a
-29:yt/chilledcow/just big hills - Shinjuku-G85eCKo0fpI.m4a
-30:yt/chilledcow/Kalaido - Hanging Lanterns-xzXemfeXkZw.m4a
-31:yt/chilledcow/Kazam ☾ - raindrops-9eX7lIuSE4M.m4a
-32:yt/chilledcow/Matt Quentin - Home-tgRC1otV7p4.m4a
-33:yt/chilledcow/Matt Quentin - Waves-d8WVILsTWLw.m4a
-34:yt/chilledcow/mattdeguia - daylight-5g0R6xdNy4s.m4a
-35:yt/chilledcow/Neoplasma - thinking about you (w. Oui Lele)-yRidRbA4lks.m4a
-36:yt/chilledcow/nikom w_ squid ethics-vQ2mrzaBp9o.m4a
-37:yt/chilledcow/Orca Vibes - Gypsy-naKpYLqymOs.m4a
-38:yt/chilledcow/potsu x lando! - breakfast-EHUUfLj-JFA.m4a
-39:yt/chilledcow/steezy prime - explore-IGNwBFUeNXk.m4a
-40:yt/chilledcow/sugiwa - remember me-w4DufcPodLw.m4a
-41:yt/chilledcow/Tom Misch - Wonder (Aso Remake)-bivy0KZE-10.m4a
-42:yt/chilledcow/tymú - walk with me-a9CIRuoSaR8.m4a
-43:yt/chilledcow/けｍ SURF - 6am-RTcv4sMCq3M.m4a
-44:yt/chilledcow/けｍ SURF - Take Care-HTNXz6WspCU.m4a
+0:yt/lofi/a t c a f e _ l o f i.mp4
+1:yt/lofi/asokah_IAlwaysSmileButMyEyesAreSad.mp4
+2:yt/lofi/BreathOfTheWild_LofiHipHop.mp4
+3:yt/lofi/burbank_asaint.mp4
+4:yt/lofi/chuckee_goinfarV2.mp4
+5:yt/lofi/FinalFantasyIX_Chill.m4a
+6:yt/lofi/MRSJ_Arrietty.mp4
+7:yt/lofi/n i n t e n d o and l o f i I I I.m4a
+8:yt/lofi/n i n t e n d o and l o f i I I.m4a
+9:yt/lofi/n i n t e n d o and l o f i.m4a
+10:yt/lofi/nawhij_withyou.mp4
+11:yt/lofi/p o k e m o n and l o f i.mp4
+12:yt/lofi/PianoShoegazer_GhostlyLove.mp4
+13:yt/lofi/potsu_lovesick.mp4
+14:yt/lofi/Setton_HighSchoolLove.mp4
+15:yt/lofi/slipfunc_cherrysmile.mp4
+16:yt/lofi/Soulitune_Intimacy.mp4
+17:yt/lofi/SunYehoshua_heartbreaker.mp4
+18:yt/lofi/wellcheeze.mp4
+19:yt/lofi/z e l d a and l o f i.mp4
+20:yt/lofi/ZeldaAndChill.mp4
+21:yt/mellowbeatseeker/asokah - I always smile, but my eyes are sad-FiyXZhH4HCM.m4a
+22:yt/mellowbeatseeker/BENJAMIN -KEY - Singing In The Rain-mqWJC_9lZ64.m4a
+23:yt/mellowbeatseeker/Bin boy(빈보이) - I Never Wanna Leave This Bed-exe-EDaJTaE.m4a
+24:yt/mellowbeatseeker/burbank - a saint-PJCJnn2Z43E.m4a
+25:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/01 - Kina Grannis - When Will I Learn.mp3
+26:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/02 - Kina Grannis - History.mp3
+27:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/03 - Kina Grannis - In the Waiting.mp3
+28:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/04 - Kina Grannis - Birdsong.mp3
+29:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/05 - Kina Grannis - California.mp3
+30:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/06 - Kina Grannis - For Now.mp3
+31:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/07 - Kina Grannis - Lonesome.mp3
+32:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/08 - Kina Grannis - Beth.mp3
+33:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/09 - Kina Grannis - Souvenirs.mp3
+34:cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/10 - Kina Grannis - All Along.mp3
+35:yt/mellowbeatseeker/chuckee. - goin far (version 2)-MFf3-hXwRcs.m4a
+36:yt/mellowbeatseeker/edenbyeden - nightcall-dvGSbgpgK50.m4a
+37:yt/mellowbeatseeker/iwamizu - The Girl from France-YQsnpok9JC8.m4a
+38:yt/mellowbeatseeker/Kid in Seoul - the memories we’ve shared, the times we’ve spent-uYDtRe8phEU.m4a
+39:yt/mellowbeatseeker/MRSJ - Arrietty-HWfjhNkDhd4.m4a
+40:cdrom/mree/themiddle/Mree - The Middle/01 - Mree - In the Kitchen.mp3
+41:cdrom/mree/themiddle/Mree - The Middle/02 - Mree - The Middle.mp3
+42:cdrom/mree/themiddle/Mree - The Middle/03 - Mree - Kiki's Song.mp3
+43:cdrom/mree/themiddle/Mree - The Middle/04 - Mree - When You Come Home.mp3
+44:cdrom/mree/themiddle/Mree - The Middle/05 - Mree - Like a River.mp3
+45:yt/mellowbeatseeker/nawhij - with you-sls44rlHpRg.m4a
+46:yt/mellowbeatseeker/omar - away from here-R8PRQZd-_oE.m4a
+47:yt/mellowbeatseeker/Piano Shoegazer - Ghostly Love-kzu8noO1MLk.m4a
+48:yt/mellowbeatseeker/potsu - lovesick-mHWvPzICJfQ.m4a
+49:yt/mellowbeatseeker/slipfunc - cherry smile-x5VhS0_xchw.m4a
+50:yt/mellowbeatseeker/Soulitune - Intimacy-iNJ-Zq9sT8Y.m4a
+51:yt/mellowbeatseeker/Soulitune - Maturity-n9vntePm4Lo.m4a
+52:yt/mellowbeatseeker/Stay Tuned - are you there-BX3l8gkKJb4.m4a
+53:yt/mellowbeatseeker/Sun Yehoshua - heartbreaker-0SFvFfanRmc.m4a
+54:yt/mellowbeatseeker/Sweet William - Walkin-smrH3com5X8.m4a
+55:yt/mellowbeatseeker/wellcheeze - 뭉게구름이 피어나고 두리둥실 춤을 춘다-kZiXN5M3Q4Y.m4a
+56:yt/mellowbeatseeker/wofy - . (w_ plan8)-_7CAg8E9r9E.m4a
+57:yt/mellowbeatseeker/YOOYONGSOO - 10am-lAWuxww28b0.m4a
+58:yt/chilledcow/Artesia. - Her-1RyGw9ofNCA.m4a
+59:yt/chilledcow/Aso - Loungin-cLUrYRUxvEY.m4a
+60:yt/chilledcow/BLVK. - under the trees ｡゜-cr9B3Ma9NUo.m4a
+61:yt/chilledcow/boxboys - disability-HrMALvLN5Xo.m4a
+62:yt/chilledcow/charlie toØ human - Walk In The Park-cXnRtgl2bfQ.m4a
+63:yt/chilledcow/flovry - car radio-J4IDQ4hHh7w.m4a
+64:yt/chilledcow/Joakim Karud - Dreams-rQO8escJC78.m4a
+65:yt/chilledcow/just big hills - Shinjuku-G85eCKo0fpI.m4a
+66:yt/chilledcow/Kalaido - Hanging Lanterns-xzXemfeXkZw.m4a
+67:yt/chilledcow/Kazam ☾ - raindrops-9eX7lIuSE4M.m4a
+68:yt/chilledcow/Matt Quentin - Home-tgRC1otV7p4.m4a
+69:yt/chilledcow/Matt Quentin - Waves-d8WVILsTWLw.m4a
+70:yt/chilledcow/mattdeguia - daylight-5g0R6xdNy4s.m4a
+71:yt/chilledcow/Neoplasma - thinking about you (w. Oui Lele)-yRidRbA4lks.m4a
+72:yt/chilledcow/nikom w_ squid ethics-vQ2mrzaBp9o.m4a
+73:yt/chilledcow/Orca Vibes - Gypsy-naKpYLqymOs.m4a
+74:yt/chilledcow/potsu x lando! - breakfast-EHUUfLj-JFA.m4a
+75:yt/chilledcow/steezy prime - explore-IGNwBFUeNXk.m4a
+76:yt/chilledcow/sugiwa - remember me-w4DufcPodLw.m4a
+77:yt/chilledcow/Tom Misch - Wonder (Aso Remake)-bivy0KZE-10.m4a
+78:yt/chilledcow/tymú - walk with me-a9CIRuoSaR8.m4a
+79:yt/chilledcow/けｍ SURF - 6am-RTcv4sMCq3M.m4a
+80:yt/chilledcow/けｍ SURF - Take Care-HTNXz6WspCU.m4a
 playlist_end

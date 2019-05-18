@@ -46,24 +46,24 @@ border_width        1
 minimum_size        300
 maximum_width       500
 
-default_color ac9398 # Text
-color2        67686f # Titles
-color3        e6bb24 # Heading
+default_color fe1b11 # Text
+color2        c7c4c4 # Titles
+color3        8eef00 # Heading
 
 ################################################################################
 TEXT
 # Function Key Bindings
 ${color3} ${font Cantarell} FUNCTION KEY BINDINGS
 ${font} ${voffset 1} ${hr 2} $color
-${voffset 1} ${color2} ${font Cantarell} Nvidia Settings            $alignr ${color} F1
-${voffset 1} ${color2} ${font Cantarell} Google Play Music          $alignr ${color} F2
-${voffset 1} ${color2} ${font Cantarell} Spotify                    $alignr ${color} F3
-${voffset 1} ${color2} ${font Cantarell} Android Messages           $alignr ${color} F4
-${voffset 1} ${color2} ${font Cantarell} Facebook Messenger         $alignr ${color} F5
-${voffset 1} ${color2} ${font Cantarell} Google Hangouts            $alignr ${color} F6
-${voffset 1} ${color2} ${font Cantarell} Slack                      $alignr ${color} F7
-${voffset 1} ${color2} ${font Cantarell} PushBullet (not installed) $alignr ${color} F8
-${voffset 1} ${color2} ${font Cantarell} Krita                      $alignr ${color} F9
-${voffset 1} ${color2} ${font Cantarell} Inkscape                   $alignr ${color} F10
-${voffset 1} ${color2} ${font Cantarell} Gimp                       $alignr ${color} F11
-${voffset 1} ${color2} ${font Cantarell} Fiji                       $alignr ${color} F12
+${voffset 1} ${color2} ${font Cantarell} Nvidia Settings    $alignr ${color} F1
+${voffset 1} ${color2} ${font Cantarell} Google Play Music  $alignr ${color} F2
+${voffset 1} ${color2} ${font Cantarell} Spotify            $alignr ${color} F3
+${voffset 1} ${color2} ${font Cantarell} Android Messages   $alignr ${color} F4
+${voffset 1} ${color2} ${font Cantarell} Facebook Messenger $alignr ${color} F5
+${voffset 1} ${color2} ${font Cantarell} Google Hangouts    $alignr ${color} F6
+${voffset 1} ${color2} ${font Cantarell} Slack              $alignr ${color} F7
+${voffset 1} ${color2} ${font Cantarell} Discord            $alignr ${color} F8
+${voffset 1} ${color2} ${font Cantarell} Krita              $alignr ${color} F9
+${voffset 1} ${color2} ${font Cantarell} Inkscape           $alignr ${color} F10
+${voffset 1} ${color2} ${font Cantarell} Gimp               $alignr ${color} F11
+${voffset 1} ${color2} ${font Cantarell} Fiji               $alignr ${color} F12

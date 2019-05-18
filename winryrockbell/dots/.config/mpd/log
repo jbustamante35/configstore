@@ -484,3 +484,450 @@ May 10 15:48 : client: [9] closed
 May 10 15:48 : client: [10] opened from 127.0.0.1:45650
 May 10 15:48 : client: [10] closed
 May 10 15:49 : player: played "yt/mellowbeatseeker/Sun Yehoshua - heartbreaker-0SFvFfanRmc.m4a"
+May 10 15:52 : player: played "yt/mellowbeatseeker/Sweet William - Walkin-smrH3com5X8.m4a"
+May 10 15:54 : player: played "yt/mellowbeatseeker/wellcheeze - 뭉게구름이 피어나고 두리둥실 춤을 춘다-kZiXN5M3Q4Y.m4a"
+May 10 15:57 : player: played "yt/mellowbeatseeker/wofy - . (w_ plan8)-_7CAg8E9r9E.m4a"
+May 10 16:00 : player: played "yt/mellowbeatseeker/YOOYONGSOO - 10am-lAWuxww28b0.m4a"
+May 10 16:02 : player: played "yt/chilledcow/Artesia. - Her-1RyGw9ofNCA.m4a"
+May 10 16:04 : player: played "yt/chilledcow/Aso - Loungin-cLUrYRUxvEY.m4a"
+May 10 16:06 : player: played "yt/chilledcow/BLVK. - under the trees ｡゜-cr9B3Ma9NUo.m4a"
+May 10 16:08 : player: played "yt/chilledcow/boxboys - disability-HrMALvLN5Xo.m4a"
+May 10 16:10 : player: played "yt/chilledcow/charlie toØ human - Walk In The Park-cXnRtgl2bfQ.m4a"
+May 10 16:11 : client: [8] closed
+May 10 16:12 : client: [11] opened from 127.0.0.1:48656
+May 10 16:12 : client: [12] opened from 127.0.0.1:48660
+May 10 16:12 : client: Max connections reached
+May 10 16:12 : client: Max connections reached
+May 10 16:12 : client: [3] closed
+May 10 16:12 : client: [5] closed
+May 10 16:12 : client: [2] closed
+May 10 16:12 : client: [7] closed
+May 10 16:12 : client: [11] closed
+May 10 16:12 : client: [0] closed
+May 10 16:12 : client: [6] closed
+May 10 16:12 : client: [12] closed
+May 10 16:12 : client: [4] closed
+May 10 16:12 : client: [1] closed
+May 10 16:12 : client: [13] opened from 127.0.0.1:48684
+May 10 16:12 : client: [14] opened from 127.0.0.1:48688
+May 10 16:12 : client: [15] opened from 127.0.0.1:48692
+May 10 16:16 : client: [16] opened from 127.0.0.1:48794
+May 10 16:16 : client: [16] closed
+May 10 16:16 : client: [17] opened from 127.0.0.1:48798
+May 10 16:16 : client: [17] closed
+May 10 16:16 : client: [18] opened from 127.0.0.1:48814
+May 10 16:16 : client: [18] closed
+May 10 16:16 : client: [19] opened from 127.0.0.1:48818
+May 10 16:16 : client: [19] closed
+May 10 16:16 : client: [20] opened from 127.0.0.1:48822
+May 10 16:16 : client: [20] closed
+May 10 16:16 : client: [21] opened from 127.0.0.1:48826
+May 10 16:16 : client: [21] closed
+May 10 16:19 : client: [22] opened from 127.0.0.1:48962
+May 10 16:19 : client: [22] closed
+May 10 16:19 : client: [23] opened from 127.0.0.1:48966
+May 10 16:19 : client: [23] closed
+May 10 17:13 : player: played "yt/chilledcow/flovry - car radio-J4IDQ4hHh7w.m4a"
+May 13 11:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 11:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 11:43 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+May 13 11:43 : client: [0] opened from 127.0.0.1:35506
+May 13 11:43 : client: [1] opened from 127.0.0.1:35514
+May 13 11:43 : client: [2] opened from 127.0.0.1:35512
+May 13 11:43 : client: [3] opened from 127.0.0.1:35518
+May 13 11:43 : client: [0] closed
+May 13 11:44 : client: [4] opened from 127.0.0.1:35528
+May 13 11:44 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/11 - Thrice - Salt And Shadow.mp3
+May 13 11:44 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/02 - Thrice - Blood In The Sand.mp3
+May 13 11:44 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/09 - Thrice - Death From Above.mp3
+May 13 11:44 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/06 - Thrice - Seneca.mp3
+May 13 11:44 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/07 - Thrice - Black Honey.mp3
+May 13 11:44 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/04 - Thrice - Wake Up.mp3
+May 13 11:44 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/01 - Thrice - Hurricane.mp3
+May 13 11:44 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/03 - Thrice - The Window.mp3
+May 13 11:44 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/08 - Thrice - Stay With Me.mp3
+May 13 11:44 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/10 - Thrice - Whistleblower.mp3
+May 13 11:44 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/05 - Thrice - The Long Defeat.mp3
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/05 - 宋冬野 - 斑馬，斑馬.mp3
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/12 - 宋冬野 - Intro.mp3
+May 13 11:44 : client: [4] closed
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/02 - 宋冬野 - 莉莉安.mp3
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/06 - 宋冬野 - 夢遺少年.mp3
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/07 - 宋冬野 - 六層樓.mp3
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/03 - 宋冬野 - 鴿子.mp3
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/04 - 宋冬野 - 董小姐.mp3
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/08 - 宋冬野 - 關憶北.mp3
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/11 - 宋冬野 - 安和橋.mp3
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/01 - 宋冬野 - 給抱著盒子的姑娘.mp3
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/10 - 宋冬野 - 連衣裙.mp3
+May 13 11:44 : update: added cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/09 - 宋冬野 - 卡比巴拉的海.mp3
+May 13 11:44 : update: added cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/07 - Kina Grannis - Lonesome.mp3
+May 13 11:44 : update: added cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/03 - Kina Grannis - In the Waiting.mp3
+May 13 11:44 : update: added cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/08 - Kina Grannis - Beth.mp3
+May 13 11:44 : update: added cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/01 - Kina Grannis - When Will I Learn.mp3
+May 13 11:44 : update: added cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/06 - Kina Grannis - For Now.mp3
+May 13 11:44 : update: added cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/05 - Kina Grannis - California.mp3
+May 13 11:44 : update: added cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/10 - Kina Grannis - All Along.mp3
+May 13 11:44 : update: added cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/09 - Kina Grannis - Souvenirs.mp3
+May 13 11:44 : update: added cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/04 - Kina Grannis - Birdsong.mp3
+May 13 11:44 : update: added cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/02 - Kina Grannis - History.mp3
+May 13 11:44 : update: added cdrom/mree/themiddle/Mree - The Middle/01 - Mree - In the Kitchen.mp3
+May 13 11:44 : update: added cdrom/mree/themiddle/Mree - The Middle/05 - Mree - Like a River.mp3
+May 13 11:44 : update: added cdrom/mree/themiddle/Mree - The Middle/03 - Mree - Kiki's Song.mp3
+May 13 11:44 : update: added cdrom/mree/themiddle/Mree - The Middle/04 - Mree - When You Come Home.mp3
+May 13 11:44 : update: added cdrom/mree/themiddle/Mree - The Middle/02 - Mree - The Middle.mp3
+May 13 11:44 : update: added cdrom/amalee/hourglass/AmaLee - Hourglass/04 - AmaLee - Shall We Dance.mp3
+May 13 11:44 : update: added cdrom/amalee/hourglass/AmaLee - Hourglass/03 - AmaLee - Shatter.mp3
+May 13 11:44 : update: added cdrom/amalee/hourglass/AmaLee - Hourglass/05 - AmaLee - Stars Align.mp3
+May 13 11:44 : update: added cdrom/amalee/hourglass/AmaLee - Hourglass/02 - AmaLee - Escape.mp3
+May 13 11:44 : update: added cdrom/amalee/hourglass/AmaLee - Hourglass/01 - AmaLee - Hourglass.mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/02 - AmaLee - Silhouette (Naruto Shippuden).mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/11 - AmaLee - Rain (Full Metal Alchemist Brotherhood).mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/09 - AmaLee - Let it Out (Full Metal Alchemist).mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/01 - AmaLee - Colors (Code Geass).mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/06 - AmaLee - Believe In Myself (Fairy Tail).mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/12 - AmaLee - Fly High (Haikyuu!!).mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/10 - AmaLee - Masayume Chasing (Fairy Tail).mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/08 - AmaLee - Sayonara Memory (Naruto Shippuden).mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/05 - AmaLee - Golden Time Lover (Full Metal AlchemistBrotherhood).mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/04 - AmaLee - Seven Deadly Sins (Seven Deadly Sins).mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/07 - AmaLee - Resonance (Soul Eater).mp3
+May 13 11:44 : update: added cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/03 - AmaLee - Samurai Heart (Gintama).mp3
+May 13 11:44 : update: added yt/misc/Gerry&ThePacemakers_You'llNeverWalkAlone.m4a
+May 13 11:44 : update: added yt/misc/KissFromARose_pianocover_EllaPraprotnik.mkv
+May 13 11:44 : update: added yt/misc/TheDikembeMutomboSong_JimmyKimmel_AloeBlacc.mkv
+May 13 11:44 : update: added yt/misc/MrRobotS2E6.mkv
+May 13 11:44 : update: added yt/misc/BalladOfTheWindFish_TaylorDavis.webm
+May 13 11:44 : update: added yt/cloakanddagger/season1/Cathedrals - Harlem (Audio)-h7yuR3iw948.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Bea Miller - to the grave (official video) ft. Mike Stud-OIKO5n8f9Xg.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/First Class Fly-RHTCHWzMyxo.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Sleepwalker-fUjfb5tZ22Q.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/R U Ready (Original Mix)-Yzf08jwkbtc.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Olivia Holt - Come Sail Away (From 'Cloak & Dagger'_Audio Only)-5-7AgZdYJ-8.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Massive Attack, Young Fathers - Voodoo In My Blood-ElvLZMsYXlo.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Mansionair - Easier-Ja9IUKElT5w.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Siobhan Sainte - Burn It Down-Gl1b9oHFcns.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Flight in G Minor (feat. Dirty Cello)-1MGhknu-P5M.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Portugal. The Man - Rich Friends (Official Video)-GN-xVSlnWKQ.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/7kingZ - 'Born For This'-BIb1sS2Y9Dk.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Feel the Embrace-fGYIdhIYAeM.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Alex Da Kid, Joseph Angel - American Funeral (Lyric Video)-vpIroR8himQ.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/LEO ISLO- Lush Life (feat. Dani Poppitt)-uyEShg_LpGk.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/You Never Know-T5OLmkfIPyg.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Eric Clapton - Good Night Irene-CZm96PKwtHc.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Thutmose - Run Wild (feat. NoMBe)-2TGK7kzHoLc.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/morgxn - home (official video)-rpbbuI2jndE.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/American Funeral-cXnvjxFd8I4.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Isak Danielson - Ending (official video)-TOIF7KwXetU.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Empara Mi - Wanderlust (Official Video)-RzFpSNwMNLo.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Barns Courtney - Hellfire-RDPNjIbFGsI.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/No Mercy-xvjx5e2IN70.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Lucien Parker - Impossible (Official Video)-wSxyFhdGMu4.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Creep Up on Em-i0AECQEKGho.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/bea miller • to the grave • lyric video-hlryACW3m6Y.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Louis Mattrs - Fear In Me-kycNBDaiaa4.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/CAMPFIRE feat. Danny Score - Demons-Wcz_6FqPH78.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Cathedrals - Harlem-C52t0vEwfqk.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Ellie Goulding - Dead In The Water Lyrics-WFzQ7KAVq1w.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/The Phantoms - 'Get What I Came For' [AUDIO]-Lrnl8a9TPIE.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Jai Wolf - Starlight (feat. Mr Gabriel)-Z9VoDwy-3Lc.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Overcoats - Leave The Light On-3wLGdxw8_ao.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Ruelle - Secrets and Lies (Official Audio)-RLYWaF8-ys8.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Breakin' the Rules (From Marvel's 'Cloak & Dagger')-8MJrYp4EabI.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/MILCK - Quiet (Official Video)-Tl_Qfj8780M.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/DOE   We Are-IujOyVVOASM.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/home-F1KN07IdxGU.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Thutmose - Run Wild (feat. NoMBe)-LFOho7E7_NM.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Sons & Daughters-1MsDPtPCpZ4.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Ending-24iD5Z4vj0s.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Bishop Briggs - Dark Side (Audio)-akrnJEjUUm4.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Nevelle Viracocha - DIRRTY GAME (Official Video)-43Z1vMk4Rkc.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Turns You into Stone-ieqMm2EwZEc.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/'Turns You Into Stone' (feat. Fleurie) _ Produced by Tommee Profitt--fTEfgReJJs.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season1/Fleurie - Breathe (Audio)-JE60q4Kf8f8.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/StyloBeddoe_LastOnesLeft.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/Marmozets_LostInTranslation.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/KatieGarfield_IKnowYourSecrets.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/Moirai'sChoir_DelhiadeFrance.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/RunforYourLife_TheSeige.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/SidneySamson_Riverside.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/Geoffroy_RaisedByWolves.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/TheSeige_RightNow.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/MartenHørger&MaximonofeatEmmaLanford_SoHigh.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/new/So High (feat. Emma Lanford).m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/new/Marvel's Cloak & Dagger Season 2, Episode 2 _ Tandy and Andre Discuss the Missing Girls _ Freeform.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/new/Facts.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/new/Numb (From 'Cloak & Dagger - Season 2').m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/new/Hot Chip - Flutes (Sasha remix) - (Official Video).m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/BOGA_BlackHeart.m4a
+May 13 11:44 : update: added yt/cloakanddagger/season2/Bohnes_12Rounds.m4a
+May 13 11:44 : update: added yt/amalee/youtube/Erased                    - ReRe&Medley.mp4
+May 13 11:44 : update: added yt/amalee/youtube/SwordArtOnline            - YumeSekai.mp4
+May 13 11:44 : update: added yt/amalee/youtube/Inuyasha                  - EyHeart&FukaiMoriMashup.mp4
+May 13 11:44 : update: added yt/amalee/youtube/Escaflowne                - SoraSakamotoMaaya.mp4
+May 13 11:44 : update: added yt/amalee/youtube/TokyoGhoul                - UnravelFemale.mp4
+May 13 11:44 : update: added yt/amalee/youtube/AttackonTitan             - GurennoYumiyaLullaby.mp4
+May 13 11:44 : update: added yt/amalee/youtube/FireEmblemFates           - LostinThoughtsAllAlone.mp4
+May 13 11:44 : update: added yt/amalee/youtube/AttackonTitan             - ReluctantHeroesLullaby.mp4
+May 13 11:44 : update: added yt/amalee/youtube/FullMetalPanic            - SoreGaAiDeshou.mp4
+May 13 11:44 : update: added yt/amalee/youtube/AngelBeats                - BraveSong.mp4
+May 13 11:44 : update: added yt/amalee/youtube/HaruhiSuzumiya            - GodKnows.mp4
+May 13 11:44 : update: added yt/amalee/youtube/SpiceandWolf              - TabinoTochuu.mp4
+May 13 11:44 : update: added yt/amalee/youtube/KingdomHearts             - LullabyMashup.mp4
+May 13 11:44 : update: added yt/amalee/youtube/Nana                      - ALittlePain.mp4
+May 13 11:44 : update: added yt/amalee/youtube/AttackonTitan             - CallYourHeroesMedley.mp4
+May 13 11:44 : update: added yt/amalee/youtube/ReZero                    - STYXHELIXMYTH&ROID.mp4
+May 13 11:44 : update: added yt/amalee/youtube/GuiltyCrown               - BiosDelta.mp4
+May 13 11:44 : update: added yt/amalee/youtube/DNAngel                   - TrueLight.mp4
+May 13 11:44 : update: added yt/amalee/youtube/AngelBeats                - MySoulYourBeats.mp4
+May 13 11:44 : update: added yt/amalee/youtube/KabanerioftheIronFortress - Ninelie.mp4
+May 13 11:44 : update: added yt/amalee/youtube/hackSign                  - FakeWingsYukiKajiura.mp4
+May 13 11:44 : update: added yt/amalee/youtube/Clannad                   - DangoDaikazoku.mp4
+May 13 11:44 : update: added yt/amalee/youtube/GundamSeed                - MizunoAkashi.mp4
+May 13 11:44 : update: added yt/amalee/youtube/AngelBeats                - MySong.mp4
+May 13 11:44 : update: added yt/amalee/youtube/AttackonTitan             - WingsofFreedom.mp4
+May 13 11:44 : update: added yt/amalee/youtube/FinalFantasyXIII          - PromiseSerahsTheme.mp4
+May 13 11:44 : update: added yt/amalee/youtube/SwordArtOnlineII          - Startear.mp4
+May 13 11:44 : update: added yt/amalee/youtube/RWBY                      - RedLikeRoses.mp4
+May 13 11:44 : update: added yt/amalee/youtube/TokyoGhoul                - GlassySky.mp4
+May 13 11:44 : update: added yt/amalee/youtube/FullMoonwoSagashite       - EternalSnow.mp4
+May 13 11:44 : update: added yt/amalee/youtube/AyashinoCeres             - Scarlet.mp4
+May 13 11:44 : update: added yt/amalee/youtube/MermaidMelody             - LegendofMermaid.mp4
+May 13 11:44 : update: added yt/amalee/youtube/Tsubasa                   - ReservoirChronicleSynchronicity.mp4
+May 13 11:44 : update: added yt/amalee/youtube/TerraBattle2              - HighSky.mp4
+May 13 11:44 : update: added yt/amalee/youtube/BlackButler               - AokiTsukiMichite.mp4
+May 13 11:44 : update: added yt/amalee/youtube/ChobitsED2                - NingyoHime.mp4
+May 13 11:44 : update: added yt/amalee/youtube/Parasyte                  - LetMeHear.mp4
+May 13 11:44 : update: added yt/amalee/youtube/SwordArtOnline            - CrossingFieldAcoustic.mp4
+May 13 11:44 : update: added yt/amalee/youtube/GuiltyCrown               - Departures.mp4
+May 13 11:44 : update: added yt/elisetrouw/Unraveling_EliseTrouw(live).m4a
+May 13 11:44 : update: added yt/elisetrouw/EliseTrouw_Burn(OfficialMusicVideo).m4a
+May 13 11:44 : update: added yt/elisetrouw/TheGirlfromIpanema_StanGetz&AstrudGilberto(coverbyElise).m4a
+May 13 11:44 : update: added yt/elisetrouw/AskMeAnything_Interview.m4a
+May 13 11:44 : update: added yt/elisetrouw/HitlikeaGirlContest_2015Finalist.m4a
+May 13 11:44 : update: added yt/elisetrouw/EliseTrouw_LineofSight.m4a
+May 13 11:44 : update: added yt/elisetrouw/EliseTrouw_Awake(OfficialMusicVideo).m4a
+May 13 11:44 : update: added yt/elisetrouw/DrumSolo_(MIDIFunkGroove).m4a
+May 13 11:44 : update: added yt/elisetrouw/FooFightersMeets70'sBobbyCaldwell_LiveLoopingMashupbyEliseTrouw.m4a
+May 13 11:44 : update: added yt/elisetrouw/EliseTrouw_Burn.m4a
+May 13 11:44 : update: added yt/elisetrouw/DrumSolo_(ElectronicMIDIGroove).m4a
+May 13 11:44 : update: added yt/elisetrouw/EliseTrouw_Unraveling(OfficialMusicVideo).m4a
+May 13 11:44 : update: added yt/elisetrouw/Awake(pianoversion)_EliseTrouw.m4a
+May 13 11:44 : update: added yt/elisetrouw/RadioheadMeetsThePolice_LiveLoopingMashupbyEliseTrouw.m4a
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/potsu_lovesick.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/MRSJ_Arrietty.mp4
+May 13 11:44 : update: added yt/lofi/n i n t e n d o and l o f i.m4a
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/ZeldaAndChill.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/slipfunc_cherrysmile.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/chuckee_goinfarV2.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/wellcheeze.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/SunYehoshua_heartbreaker.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/Setton_HighSchoolLove.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/p o k e m o n and l o f i.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/burbank_asaint.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/BreathOfTheWild_LofiHipHop.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/nawhij_withyou.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/asokah_IAlwaysSmileButMyEyesAreSad.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/PianoShoegazer_GhostlyLove.mp4
+May 13 11:44 : update: added yt/lofi/n i n t e n d o and l o f i I I.m4a
+May 13 11:44 : update: added yt/lofi/n i n t e n d o and l o f i I I I.m4a
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/Soulitune_Intimacy.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/z e l d a and l o f i.mp4
+May 13 11:44 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:44 : update: added yt/lofi/a t c a f e _ l o f i.mp4
+May 13 11:44 : update: added yt/lofi/FinalFantasyIX_Chill.m4a
+May 13 11:44 : update: added yt/theishter/ReZerokaraHajimeruIsekaiSeikatsuED_STYXHELIX.m4a
+May 13 11:44 : update: added yt/theishter/TokyoGhoulOP–Unravel(Acoustic)_mpkVCBqDSU0.m4a
+May 13 11:44 : update: added yt/theishter/YourLieinAprilOST_Again.m4a
+May 13 11:44 : update: added yt/theishter/BlueExorcistSeason2OP_IttekinoEikyou.m4a
+May 13 11:44 : update: added yt/theishter/KiminonawaOST_KatawareDoki(Piano).m4a
+May 13 11:44 : update: added yt/theishter/FinalFantasyXVOST_MainTheme(Somnus)ft.xclassicalcatx.m4a
+May 13 11:44 : update: added yt/theishter/AttackonTitanSeason2OP_ShinzouwoSasageyo!.m4a
+May 13 11:44 : update: added yt/theishter/KiminonawaOST_ZenZenZense.m4a
+May 13 11:44 : update: added yt/theishter/ReZeroED2_STAYALIVE[REMISTHEBESTGIRLINANIMEHISTORY].m4a
+May 13 11:44 : update: added yt/theishter/FateApocryphaOPFULL_EiyuuUnmeinoUta.m4a
+May 13 11:44 : update: added yt/theishter/SwordArtOnlineOST_InYourPast_ATenderFeeling.m4a
+May 13 11:44 : update: added yt/theishter/Yuri!!!OnICEOP_HistoryMaker.m4a
+May 13 11:44 : update: added yt/theishter/KabanerioftheIronFortressOP_KabanerioftheIronFortress.m4a
+May 13 11:44 : update: added yt/theishter/KOn!_ThemeSong.m4a
+May 13 11:44 : update: added yt/theishter/ReZeroOP2_ParadisusParadoxum.m4a
+May 13 11:44 : update: added yt/theishter/ReZeroOST_Wishing.m4a
+May 13 11:44 : update: added yt/theishter/BokuDakegaInaiMachiED_SorewaChiisanaHikarinoYouna(ERASEDED).m4a
+May 13 11:44 : update: added yt/theishter/ShigatsuwaKiminoUso(YourLieinApril)OST_WatashinoUso.m4a
+May 13 11:44 : update: added yt/theishter/Shelter_PorterRobinsonandMadeon(piano).m4a
+May 13 11:44 : update: added yt/theishter/GuiltyCrownOST_Krone.m4a
+May 13 11:44 : update: added yt/theishter/BokuDakegaInaiMachiOST_ERASEDSoundtrack.m4a
+May 13 11:44 : update: added yt/theishter/VioletEvergardenOST_SoundtrackTheme.m4a
+May 13 11:44 : update: added yt/theishter/ReZerokaraHajimeruIsekaiSeikatsuOP_REDO.m4a
+May 13 11:44 : update: added yt/theishter/ReZeroOST_ElegyForRem.m4a
+May 13 11:44 : update: added yt/theishter/Yuri!!!onIceOST_ThemeofKingJJ.m4a
+May 13 11:44 : update: added yt/theishter/HaitoGensounoGrimgarED_Harvest.m4a
+May 13 11:44 : update: added yt/theishter/ShakugannoShanaOP1_HishokunoSora(PianoDuetft.Fantasiex3).m4a
+May 13 11:44 : update: added yt/theishter/MusaigennoPhantomWorldOP_NAKEDDIVE.m4a
+May 13 11:44 : update: added yt/theishter/HaitoGensounoGrimgarOP_KnewDay.m4a
+May 13 11:44 : update: added yt/theishter/AttackonTitanOP_GurennoYumiya.m4a
+May 13 11:44 : update: added yt/theishter/BokunoHeroAcademiaOP_THEDAY.m4a
+May 13 11:44 : update: added yt/theishter/GuiltyCrownOP_MyDearest(fullversion).m4a
+May 13 11:44 : update: added yt/theishter/OnePunchManOST_MainTheme.m4a
+May 13 11:44 : update: added yt/theishter/LoveLive!_SnowHalation.m4a
+May 13 11:44 : update: added yt/theishter/YouCanBecomeAHero!_BokunoHeroAcademiaOST(Piano).m4a
+May 13 11:44 : update: added yt/theishter/KiminonawaOST_Sparkle(piano).m4a
+May 13 11:44 : update: added yt/theishter/Yuri!!!onIceOST_YurionIce.m4a
+May 13 11:44 : update: added yt/theishter/BokuDakegaInaiMachiOP_ReRe(ERASEDOP).m4a
+May 13 11:44 : update: added yt/theishter/EromangaSenseiOP_Hitorigoto(Piano).m4a
+May 13 11:44 : update: added yt/theishter/ShokugekinoSomaOP1_KibounoUta.m4a
+May 13 11:44 : update: added yt/theishter/BokunoPicoOP_KoiwoShiyouyo.m4a
+May 13 11:44 : update: added yt/theishter/OnePunchManOP_THEHERO!!.m4a
+May 13 11:44 : update: added yt/theishter/KiminonawaOST_Nandemonaiya(Mitsuha'sversion).m4a
+May 13 11:44 : update: added yt/theishter/BokuranoOP_Uninstall.m4a
+May 13 11:44 : update: added yt/theishter/ShigatsuwaKiminoUsoOP_HikaruNara.m4a
+May 13 11:44 : update: added yt/theishter/BokunoHeroAcademiaSeason2OP_PeaceSign.m4a
+May 13 11:44 : update: added yt/theishter/KoenoKatachiOST_Lit.m4a
+May 13 11:44 : update: added yt/theishter/KabanerioftheIronFortressED_Ninelie.m4a
+May 13 11:44 : update: added yt/theishter/AngelBeatsED_BraveSong.m4a
+May 13 11:44 : update: added cpusounds/freedesktop/audio-volume-change.oga
+May 13 11:44 : update: added cpusounds/freedesktop/power-plug.oga
+May 13 11:44 : update: added cpusounds/freedesktop/camera-shutter.oga
+May 13 11:44 : update: added cpusounds/freedesktop/trash-empty.oga
+May 13 11:44 : update: added cpusounds/freedesktop/phone-outgoing-busy.oga
+May 13 11:44 : update: added cpusounds/freedesktop/complete.oga
+May 13 11:44 : update: added cpusounds/freedesktop/window-question.oga
+May 13 11:44 : update: added cpusounds/freedesktop/bell.oga
+May 13 11:44 : update: added cpusounds/freedesktop/phone-incoming-call.oga
+May 13 11:44 : update: added cpusounds/freedesktop/power-unplug.oga
+May 13 11:44 : update: added cpusounds/freedesktop/device-added.oga
+May 13 11:44 : update: added cpusounds/freedesktop/phone-outgoing-calling.oga
+May 13 11:44 : update: added cpusounds/freedesktop/suspend-error.oga
+May 13 11:44 : update: added cpusounds/freedesktop/message.oga
+May 13 11:44 : update: added cpusounds/freedesktop/dialog-error.oga
+May 13 11:44 : update: added cpusounds/freedesktop/service-login.oga
+May 13 11:44 : update: added cpusounds/freedesktop/dialog-information.oga
+May 13 11:44 : update: added cpusounds/freedesktop/service-logout.oga
+May 13 11:44 : update: added cpusounds/freedesktop/message-new-instant.oga
+May 13 11:44 : update: added cpusounds/freedesktop/window-attention.oga
+May 13 11:44 : update: added cpusounds/freedesktop/audio-test-signal.oga
+May 13 11:44 : update: added cpusounds/freedesktop/screen-capture.oga
+May 13 11:44 : update: added cpusounds/freedesktop/network-connectivity-established.oga
+May 13 11:44 : update: added cpusounds/freedesktop/device-removed.oga
+May 13 11:44 : update: added cpusounds/freedesktop/network-connectivity-lost.oga
+May 13 11:44 : update: added cpusounds/freedesktop/dialog-warning.oga
+May 13 11:44 : update: added cpusounds/freedesktop/alarm-clock-elapsed.oga
+May 13 11:44 : client: [5] opened from 127.0.0.1:35532
+May 13 11:44 : player: played "yt/chilledcow/flovry - car radio-J4IDQ4hHh7w.m4a"
+May 13 11:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 11:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 13 13:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 13:08 : player: played "yt/lofi/a t c a f e _ l o f i.mp4"
+May 13 13:11 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 13:11 : player: played "yt/lofi/asokah_IAlwaysSmileButMyEyesAreSad.mp4"
+May 13 13:33 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 13:33 : player: played "yt/lofi/BreathOfTheWild_LofiHipHop.mp4"
+May 13 13:35 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 13:35 : player: played "yt/lofi/burbank_asaint.mp4"
+May 13 13:39 : player: played "yt/lofi/chuckee_goinfarV2.mp4"
+May 13 14:39 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 13 14:40 : player: played "yt/lofi/FinalFantasyIX_Chill.m4a"
+May 13 14:43 : player: played "yt/lofi/MRSJ_Arrietty.mp4"
+May 13 15:41 : player: played "yt/lofi/n i n t e n d o and l o f i I I.m4a"
+May 13 15:54 : client: [5] closed
+May 13 16:17 : client: [1] closed
+May 13 16:17 : client: [3] closed
+May 13 16:17 : client: [2] closed
+May 13 16:17 : client: [6] opened from 127.0.0.1:39820
+May 13 16:17 : client: [7] opened from 127.0.0.1:39824
+May 13 16:17 : client: [8] opened from 127.0.0.1:39828
+May 13 17:17 : player: played "yt/lofi/n i n t e n d o and l o f i.m4a"
+May 15 13:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 13:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 13:39 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+May 15 13:39 : client: [0] opened from 127.0.0.1:49912
+May 15 13:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 14:12 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 14:12 : player: played "yt/lofi/n i n t e n d o and l o f i.m4a"
+May 15 14:15 : client: [0] closed
+May 15 14:16 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 14:16 : player: played "yt/lofi/nawhij_withyou.mp4"
+May 15 14:22 : client: [1] opened from 127.0.0.1:51124
+May 15 14:23 : client: [2] opened from 127.0.0.1:51162
+May 15 14:23 : client: [3] opened from 127.0.0.1:51166
+May 15 14:23 : client: [4] opened from 127.0.0.1:51170
+May 15 14:54 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 14:54 : player: played "yt/lofi/p o k e m o n and l o f i.mp4"
+May 15 14:58 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 14:58 : player: played "yt/lofi/PianoShoegazer_GhostlyLove.mp4"
+May 15 15:01 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 15:01 : player: played "yt/lofi/potsu_lovesick.mp4"
+May 15 15:04 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 15:04 : player: played "yt/lofi/Setton_HighSchoolLove.mp4"
+May 15 15:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 15:06 : player: played "yt/lofi/slipfunc_cherrysmile.mp4"
+May 15 15:08 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 15:08 : player: played "yt/lofi/Soulitune_Intimacy.mp4"
+May 15 15:09 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 15:10 : player: played "yt/lofi/SunYehoshua_heartbreaker.mp4"
+May 15 15:11 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 15:12 : player: played "yt/lofi/wellcheeze.mp4"
+May 15 15:24 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 15 15:24 : player: played "yt/lofi/z e l d a and l o f i.mp4"
+May 15 16:03 : client: [1] closed
+May 15 16:05 : player: played "yt/lofi/ZeldaAndChill.mp4"
+May 16 13:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 13:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 13:43 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+May 16 13:43 : client: [0] opened from 127.0.0.1:37178
+May 16 13:43 : client: [1] opened from 127.0.0.1:37182
+May 16 13:43 : client: [2] opened from 127.0.0.1:37186
+May 16 13:43 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+May 16 13:43 : client: [3] opened from 127.0.0.1:37190
+May 16 13:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 13:45 : player: played "yt/lofi/ZeldaAndChill.mp4"
+May 16 13:47 : player: played "yt/mellowbeatseeker/asokah - I always smile, but my eyes are sad-FiyXZhH4HCM.m4a"
+May 16 13:50 : player: played "yt/mellowbeatseeker/BENJAMIN -KEY - Singing In The Rain-mqWJC_9lZ64.m4a"
+May 16 13:54 : player: played "yt/mellowbeatseeker/Bin boy(빈보이) - I Never Wanna Leave This Bed-exe-EDaJTaE.m4a"
+May 16 13:54 : client: [3] closed
+May 16 17:28 : client: [1] closed
+May 16 17:28 : client: [0] closed
+May 16 17:28 : client: [2] closed
+May 16 17:42 : player: played "yt/mellowbeatseeker/burbank - a saint-PJCJnn2Z43E.m4a"
+May 18 01:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 18 01:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 18 01:34 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+May 18 01:34 : client: [0] opened from 127.0.0.1:43960
+May 18 01:34 : client: [1] opened from 127.0.0.1:43964
+May 18 01:34 : client: [2] opened from 127.0.0.1:43968
+May 18 01:34 : client: [3] opened from 127.0.0.1:43972
+May 18 01:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 18 01:38 : player: played "cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/01 - Kina Grannis - When Will I Learn.mp3"
+May 18 01:41 : player: played "cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/02 - Kina Grannis - History.mp3"
+May 18 01:45 : player: played "cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/03 - Kina Grannis - In the Waiting.mp3"
+May 18 01:50 : player: played "cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/04 - Kina Grannis - Birdsong.mp3"
+May 18 01:53 : player: played "cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/05 - Kina Grannis - California.mp3"
+May 18 01:57 : player: played "cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/06 - Kina Grannis - For Now.mp3"
+May 18 02:01 : player: played "cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/07 - Kina Grannis - Lonesome.mp3"
+May 18 02:05 : player: played "cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/08 - Kina Grannis - Beth.mp3"
+May 18 02:08 : player: played "cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/09 - Kina Grannis - Souvenirs.mp3"
+May 18 02:10 : player: played "cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/10 - Kina Grannis - All Along.mp3"
+May 18 02:13 : player: played "yt/mellowbeatseeker/chuckee. - goin far (version 2)-MFf3-hXwRcs.m4a"
+May 18 02:16 : player: played "yt/mellowbeatseeker/edenbyeden - nightcall-dvGSbgpgK50.m4a"
+May 18 02:19 : player: played "yt/mellowbeatseeker/iwamizu - The Girl from France-YQsnpok9JC8.m4a"
+May 18 02:20 : player: played "yt/mellowbeatseeker/Kid in Seoul - the memories we’ve shared, the times we’ve spent-uYDtRe8phEU.m4a"
+May 18 02:25 : player: played "cdrom/mree/themiddle/Mree - The Middle/01 - Mree - In the Kitchen.mp3"
+May 18 02:29 : player: played "cdrom/mree/themiddle/Mree - The Middle/02 - Mree - The Middle.mp3"
+May 18 02:33 : player: played "cdrom/mree/themiddle/Mree - The Middle/03 - Mree - Kiki's Song.mp3"
+May 18 02:37 : player: played "cdrom/mree/themiddle/Mree - The Middle/04 - Mree - When You Come Home.mp3"

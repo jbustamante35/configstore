@@ -1,0 +1,7 @@
+#!/bin/sh
+# Open Android Messages on the surf browser
+# I'm making this a script just in case I think of any other uses for this in
+# the future
+
+droid="https://messages.google.com/web/conversations"
+surf "$droid"
