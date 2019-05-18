@@ -15,5 +15,6 @@
 .vimrc
 .weatherreport
 .xinitrc
+.Xresources
 .zprofile
 .zshrc

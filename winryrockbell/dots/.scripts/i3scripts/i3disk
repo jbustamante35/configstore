@@ -4,4 +4,3 @@ vol="$1"
 used=$(df -h | grep "$vol" | awk '{print $3}')
 remaining=$(df -h | grep "$vol" | awk '{print $5}')
 echo "$used ($remaining)"
-

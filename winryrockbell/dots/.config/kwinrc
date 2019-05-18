@@ -46,7 +46,7 @@ TextOnly=true
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
-LayoutName=thumbnails
+LayoutName=org.kde.breeze.desktop
 
 [Windows]
 ActiveMouseScreen=false
@@ -78,5 +78,5 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-library=org.kde.breeze
-theme=
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Psion

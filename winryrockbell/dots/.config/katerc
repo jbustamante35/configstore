@@ -30,8 +30,9 @@ Recent URLs[$e]=file:$HOME/Downloads/dotswinry/
 [KTextEditor Document]
 Allow End of Line Detection=true
 BOM=false
-Backup Flags=0
+Backup Local=false
 Backup Prefix=
+Backup Remote=false
 Backup Suffix=~
 Encoding=UTF-8
 End of Line=0
@@ -114,12 +115,13 @@ Word Completion Remove Tail=true
 
 [MainWindow]
 Height 1080=616
+Height 1200=1093
 Height 1920=905
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAA7QAAAMeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAkgAAARFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1080=1018
-Width 1920=845
+Width 1920=584
 
 [filetree]
 editShade=92,57,109

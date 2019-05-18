@@ -37,7 +37,7 @@ separator_block_width=10
 [batterybar]
 command=~/.scripts/i3scripts/i3batterybar
 interval=60
-min_width=bat: ■■■■■■■■■■
+min_width=bat: ■■■■■■■■
 
 [mediaplayer]
 label=🎼

@@ -10,7 +10,7 @@ Height 720=480
 State=AAAA/wAAAAD9AAAAAAAAA8gAAAPcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1280=764
-Width 1920=904
+Width 1920=584
 Width 2048=968
 Width 2259=766
 Width 2560=764
@@ -23,6 +23,7 @@ File4[$e]=$HOME/Dropbox/Pictures/wallpapers/Blake.jpg
 File5[$e]=/usr/share/wallpapers/BytheWater/contents/images/2560x1440.jpg
 File6[$e]=$HOME/Dropbox/EdgarSpalding/labdata/ashley_henry/rootgrowth/190327_roots_elisabeth.tiff
 File7[$e]=$HOME/Dropbox/Pictures/screenshots/190328_speedtest_jdev.png
+File8[$e]=$HOME/Dropbox/EdgarSpalding/labdata/carrotsweeper/190516_carrotpipeline_figureoutput_crop.png
 Name1[$e]=2560x1600.jpg
 Name2[$e]=OhWowMom.png
 Name3[$e]=glasses.png
@@ -30,6 +31,7 @@ Name4[$e]=Blake.jpg
 Name5[$e]=2560x1440.jpg
 Name6[$e]=190327_roots_elisabeth.tiff
 Name7[$e]=190328_speedtest_jdev.png
+Name8[$e]=190516_carrotpipeline_figureoutput_crop.png
 
 [SideBar]
-SideBarSplitterSizes=242,720
+SideBarSplitterSizes=157,805

@@ -126,8 +126,8 @@ alias irods2me='iget -r /iplant/home/jbustamante35/${1} ${2}'
 # VimWiki aliases
 alias jrnl='vim ~/Documents/jbwiki/journal.wiki/index.wiki'
 alias labn='vim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
-alias ojrnl='xdg-open ~/Documents/jbwiki/journal.wiki_html/index.html'
-alias olabn='xdg-open ~/Documents/jbwiki/labnotes.wiki_html/index.html'
+alias ojrnl='qutebrowser ~/Documents/jbwiki/journal.wiki_html/index.html'
+alias olabn='qutebrowser ~/Documents/jbwiki/labnotes.wiki_html/index.html'
 
 # Suckless aliases
 alias mk='sudo make clean install'
