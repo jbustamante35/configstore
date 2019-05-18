@@ -22,12 +22,47 @@ c.statusbar.hide = False
 #   - never: Always hide the tab bar.
 #   - multiple: Hide the tab bar if only one tab is open.
 #   - switching: Show the tab bar when switching tabs.
-c.tabs.show = 'always'
+c.tabs.show = 'multiple'
 
 ######################### Custom Bindings #####################################
 ## Show a scrollbar.
 ## Type: Bool
 c.scrolling.bar = False
+c.url.default_page = 'https://bing.com'
+c.url.start_pages = ['https://bing.com']
+
+## Definitions of search engines which can be used via the address bar.
+## Maps a searchengine name (such as `DEFAULT`, or `ddg`) to a URL with a
+## `{}` placeholder. The placeholder will be replaced by the search term,
+## use `{{` and `}}` for literal `{`/`}` signs. The searchengine named
+## `DEFAULT` is used when `url.auto_search` is turned on and something
+## else than a URL was entered to be opened. Other search engines can be
+## used by prepending the search engine name to the search term, e.g.
+## `:open google qutebrowser`.
+## Type: Dict
+c.url.searchengines = {
+      'DEFAULT': 'https://bing.com/?q={}',
+      'b': 'https://bing.com/?q={}',
+      'bim': 'https://www.bing.com/images/search?q={}',
+      'g': 'https://www.google.com/search?q={}',
+      'gim': 'https://www.google.com/search?tbm=isch&q={}',
+      'd': 'https://duckduckgo.com/?q={}',
+      'dim': 'https://duckduckgo.com/?q={}&iar=images&iax=images&ia=images',
+      'aw': 'https://wiki.archlinux.org/index.php?title=Special%3ASearch&search={}',
+      'wt': 'http://en.wiktionary.org/?search={}',
+      'w': 'https://www.wikipedia.org/search-redirect.php?family=wikipedia&language=en&search={}&language=en&go=Go',
+      'yt': 'https://www.youtube.com/results?search_query={}',
+        }
+
+## Behavior when the last tab is closed.
+## Type: String
+## Valid values:
+##   - ignore: Don't do anything.
+##   - blank: Load a blank page.
+##   - startpage: Load the start page.
+##   - default-page: Load the default page.
+##   - close: Close the window.
+c.tabs.last_close = 'close'
 
 ## Enable smooth scrolling for web pages. Note smooth scrolling does not
 ## work with the `:scroll-px` command.
@@ -37,6 +72,11 @@ c.scrolling.smooth = False
 
 config.bind('d', 'scroll-page 0 0.5')
 config.bind('u', 'scroll-page 0 -0.5')
+config.bind('J', 'tab-prev')
+config.bind('K', 'tab-next')
+config.bind('<Ctrl-,>', 'tab-give')
 config.bind('Q', 'quit')
 
 config.source('shortcuts.py')
+
+

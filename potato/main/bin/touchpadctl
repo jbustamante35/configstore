@@ -1,0 +1,32 @@
+#!/bin/sh
+# Toggle settings for touchpad
+
+pad="Asus TouchPad"
+cmd=$1
+
+case $cmd in
+tap)
+    # Control tap-to-click
+    toggle=$2
+    xinput -set-prop "$pad" 'libinput Tapping Enabled' "$toggle"
+    ;;
+
+dev)
+    # Toggle touchpad
+    toggle=1
+    currVal=$(xinput -list-props "$pad" | \
+    grep "Device Enabled" | awk '{print $NF}')
+
+    if [ "$currVal" -eq 1 ]; then
+        toggle=0
+    fi
+
+    xinput -set-prop "$pad" 'Device Enabled' $toggle
+    ;;
+
+*)
+    # Do nothing
+    echo "Must specify arguments [tap | dev]"
+    ;;
+esac
+

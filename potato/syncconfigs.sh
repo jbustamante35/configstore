@@ -39,6 +39,7 @@ ${sync} ~/.dotify/.zshrc     ${main}
 ${sync} ~/.dotify/.aliases   ${main}
 ${sync} ~/.dotify/.functions ${main}
 ${sync} ~/.dotify/.vimrc     ${main}
+${sync} ~/bin                ${main}
 
 # dots
 for dot in $dotdirs; do

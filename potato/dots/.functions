@@ -29,6 +29,7 @@ drchk () {
 	cd /media/jbustamante/voltron/Dropbox
 	dropbox filestatus && printf "\n\n\n" && dropbox status
 	cd -
+        printf "\n" && dropbox filestatus
 }
 
 clrs () {
@@ -36,23 +37,11 @@ clrs () {
     xrdb -merge ~/.Xresources
 }
 
-# manage brightness settings with light
-lit () {
-    dir=$1
-    val=$2
+wali () {
+    bak="$1"
+    sat="$2"
 
-    case $dir in
-       up)
-            cmd='-A'
-            ;;
-       down)
-            cmd='-U'
-            ;;
-       *)
-            cmd='-U'
-            ;;
-    esac
-
-    sudo light $cmd $val
+    wal -c ;
+    clrs ;
+    wal --backend "$bak" -i ~/.config/wall.png --saturate $sat -q
 }
-

@@ -1,0 +1,25 @@
+#!/bin/sh
+# Get lb or glab
+
+fin="$1"
+sel="$2"
+case $fin in
+    etc)
+        # Get tail etc
+        x=~/.ssh/.etc.gpg
+        ;;
+
+    lb)
+        # Get lb
+        x=~/.ssh/.lb.gpg
+        ;;
+
+    *)
+        # Default to lb
+        x=""
+        ;;
+esac
+
+echo "gpg -d '$x.gpg' | tail -1 | xclip $sel \n"
+gpg -d "$x" | tail -1 | xclip -selection "$sel"
+

@@ -16,3 +16,6 @@ config.bind(";zi", "set downloads.location.directory ~/.oh-my-zsh ;; hint links 
 config.bind(";dt", "set downloads.location.directory ~/.dotify ;; hint links download")
 config.bind(";hh", "set downloads.location.directory /media/jbustamante/voltron ;; hint links download")
 config.bind(";dr", "set downloads.location.directory /media/jbustamante/voltron/Dropbox ;; hint links download")
+config.bind(";drp", "set downloads.location.directory /media/jbustamante/voltron/Dropbox/Pictures ;; hint links download")
+config.bind(";mm", "set downloads.location.directory /media/jbustamante/voltron/Mail ;; hint links download")
+config.bind(";M", "set downloads.location.directory /media/jbustamante/voltron/Music ;; hint links download")

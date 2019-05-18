@@ -22,35 +22,38 @@
       <property name="&lt;Alt&gt;F3" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
-      <property name="&lt;Alt&gt;F2" type="empty">
+      <property name="&lt;Alt&gt;F2" type="string" value="urxvtc -e ncmpcpp">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
-      <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Primary&gt;F5" type="string" value="xfce4-screenshooter -f"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;F5" type="string" value="xfce4-screenshooter -w"/>
-      <property name="&lt;Primary&gt;XF86Display" type="string" value="xfce4-screenshooter -f"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;XF86Display" type="string" value="xfce4-screenshooter -w"/>
-      <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
-      <property name="&lt;Super&gt;m" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="&lt;Alt&gt;m" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Alt&gt;d" type="empty">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
       <property name="&lt;Shift&gt;&lt;Alt&gt;d" type="string" value="xfce4-appfinder">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Alt&gt;Return" type="string" value="xfce4-terminal"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;d" type="string" value="xfce4-appfinder --collapsed">
+      <property name="&lt;Primary&gt;&lt;Alt&gt;d" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Shift&gt;&lt;Alt&gt;f" type="string" value="firefox"/>
-      <property name="&lt;Alt&gt;r" type="string" value="urxvt -e ranger"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;h" type="string" value="urxvt -e htop"/>
       <property name="&lt;Shift&gt;&lt;Alt&gt;Return" type="string" value="urxvtc"/>
-      <property name="&lt;Alt&gt;a" type="string" value="urxvtd -q -o -f"/>
+      <property name="&lt;Shift&gt;&lt;Alt&gt;asciitilde" type="string" value="urxvtd -q -o -f"/>
+      <property name="Overlay1_Enable" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Alt&gt;d" type="string" value="rofi_run">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Shift&gt;&lt;Alt&gt;p" type="string" value="xflock4"/>
+      <property name="&lt;Shift&gt;&lt;Alt&gt;g" type="string" value="brave-browser-beta"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;h" type="string" value="urxvtc -e htop"/>
+      <property name="&lt;Alt&gt;r" type="string" value="urxvtc -e ranger"/>
+      <property name="&lt;Shift&gt;&lt;Alt&gt;h" type="string" value="qutebrowser"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;g" type="string" value="surf google.com"/>
+      <property name="&lt;Alt&gt;grave" type="string" value="urxvtc -e tmux -f /home/jbustamante/.config/tmux/tmux.conf"/>
+      <property name="&lt;Shift&gt;&lt;Alt&gt;F5" type="string" value="xfce4-screenshooter -w"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;p" type="string" value="clippw etc"/>
+      <property name="&lt;Alt&gt;Return" type="string" value="xfce4-terminal"/>
+      <property name="&lt;Alt&gt;v" type="string" value="xsel -ob"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
