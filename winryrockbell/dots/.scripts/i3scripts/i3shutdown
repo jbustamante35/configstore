@@ -133,9 +133,7 @@ launcher_options=""
 rofi_colors=""
 
 # Add themes from rofi-themes
-themes="~/.config/rofi/themes"
-choice="$1"
-rofitheme="$themes/$choice.rasi"
+rofitheme="~/.config/rofi/rofi_theme.rasi"
 
 function prepare_launcher() {
   if [[ "$1" == "rofi" ]]; then
