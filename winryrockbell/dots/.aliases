@@ -20,8 +20,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
- # colored GCC warnings and errors
- export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+# colored GCC warnings and errors
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
 alias ls='ls -N --color=auto --group-directories-first'
@@ -65,7 +65,6 @@ alias dff='df -gha'
 alias duu='sudo du -hs && sudo du -ah | sort -r | head -$1'
 alias psg='ps auxf | fgrep -v grep | fgrep -ie VSZ -e '
 alias myip='curl http://ipecho.net/plain; echo'
-alias svim='sudo vim '
 alias rm='rm -I'
 alias RM='sudo rm -Ird'
 alias kl='RM */.git'
@@ -105,16 +104,17 @@ alias dki='docker images -a'
 
 # misc aliases
 alias vim='nvim'
+alias svim='sudo nvim '
 alias term='export TERM=xterm-256color'
 alias matlab='matlab -nosplash'
 alias medit='matlab -nodesktop -nosplash -nodisplay'
 alias mconsole='matlab -nodesktop -nosplash'
 alias sl='sl -e'
-alias zt='zathura '
+alias zt='zathura'
 alias cnv='convert -resize'
 
 # application aliases
-alias rtv='rtv --enable-media '
+alias rtv='rtv --enable-media'
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias weather='/home/jbustamante/.scripts/i3scripts/i3weather && cat /home/jbustamante/.weatherreport'
 

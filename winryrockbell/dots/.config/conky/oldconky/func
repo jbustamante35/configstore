@@ -1,0 +1,69 @@
+# vim: filetype=conkyrc
+#
+#
+# CONKY ASCII ART
+#
+#
+################################################################################
+# CONFIG
+own_window             yes
+own_window_type        override
+own_window_class       Conky
+own_window_title       Monitor Conky
+own_window_hints       undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_colour      black
+own_window_transparent yes
+
+override_utf8_locale yes
+xftfont Cantarell:size=12
+
+use_spacer left
+use_xft    yes
+xftalpha   1
+gap_x      15
+gap_y      40
+
+update_interval  3
+cpu_avg_samples  8
+double_buffer    yes
+alignment        top_right
+no_buffers       yes
+imlib_cache_size 0
+
+background   yes
+draw_shades  no
+draw_borders no
+draw_outline no
+uppercase    no
+
+default_shade_color   000000
+default_outline_color 000000
+
+stippled_borders    5
+border_inner_margin 5
+border_outer_margin 5
+border_width        1
+minimum_size        300
+maximum_width       500
+
+default_color fe1b11 # Text
+color2        c7c4c4 # Titles
+color3        8eef00 # Heading
+
+################################################################################
+TEXT
+# Function Key Bindings
+${color3} ${font Cantarell} FUNCTION KEY BINDINGS
+${font} ${voffset 1} ${hr 2} $color
+${voffset 1} ${color2} ${font Cantarell} Nvidia Settings    $alignr ${color} F1
+${voffset 1} ${color2} ${font Cantarell} Google Play Music  $alignr ${color} F2
+${voffset 1} ${color2} ${font Cantarell} Spotify            $alignr ${color} F3
+${voffset 1} ${color2} ${font Cantarell} Android Messages   $alignr ${color} F4
+${voffset 1} ${color2} ${font Cantarell} Facebook Messenger $alignr ${color} F5
+${voffset 1} ${color2} ${font Cantarell} Google Hangouts    $alignr ${color} F6
+${voffset 1} ${color2} ${font Cantarell} Slack              $alignr ${color} F7
+${voffset 1} ${color2} ${font Cantarell} Discord            $alignr ${color} F8
+${voffset 1} ${color2} ${font Cantarell} Krita              $alignr ${color} F9
+${voffset 1} ${color2} ${font Cantarell} Inkscape           $alignr ${color} F10
+${voffset 1} ${color2} ${font Cantarell} Gimp               $alignr ${color} F11
+${voffset 1} ${color2} ${font Cantarell} Fiji               $alignr ${color} F12

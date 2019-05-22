@@ -11,6 +11,7 @@
 .profile
 .screenlayout
 .scripts
+.tmux.conf
 .urxvt
 .vimrc
 .weatherreport
