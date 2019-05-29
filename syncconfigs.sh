@@ -1,14 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 # Synchronize all configuration files to configstore repository
 # Must have dotifytracking configuration files
-#
-# UPDATE: I need to fix this so that it creates hard links instead of using
-# rsync [ though the current options should have overwritten existing files ].
-#
-# NOTE: if I decide to use hard links, I need to be careful when deleting the
-# unwanted files since recursive deletion could delete the source file.
 
-#sync="ln -f"
 sync="rsync -avzu --delete --progress -h"
 profile=$PROFILE
 repo=~/Documents/configstore/$profile
@@ -33,12 +26,31 @@ echo "Profile: $profile"
 echo "Syncing configuration..."
 
 # main
-${sync} ~/.dotify/.profile   ${main}
-${sync} ~/.dotify/.bashrc    ${main}
-${sync} ~/.dotify/.zshrc     ${main}
-${sync} ~/.dotify/.aliases   ${main}
-${sync} ~/.dotify/.functions ${main}
-${sync} ~/.dotify/.vimrc     ${main}
+${sync} ~/bin                          ${main}
+${sync} ~/.dotify/.aliases             ${main}
+${sync} ~/.dotify/.functions           ${main}
+${sync} ~/.dotify/.shortcuts           ${main}
+${sync} ~/.dotify/.bashrc              ${main}
+${sync} ~/.dotify/.zshrc               ${main}
+${sync} ~/.dotify/.vimrc               ${main}
+${sync} ~/.dotify/.xinitrc             ${main}
+${sync} ~/.dotify/.Xresources          ${main}
+${sync} ~/.dotify/.config/i3           ${main}
+${sync} ~/.dotify/.config/i3blocks     ${main}
+${sync} ~/.dotify/.config/compton      ${main}
+${sync} ~/.dotify/.config/conky        ${main}
+${sync} ~/.dotify/.config/dunst        ${main}
+${sync} ~/.dotify/.config/tmux         ${main}
+${sync} ~/.dotify/.config/rofi         ${main}
+${sync} ~/.dotify/.config/rtv          ${main}
+${sync} ~/.dotify/.config/mpd/mpd.conf ${main}
+${sync} ~/.dotify/.config/mpv          ${main}
+${sync} ~/.dotify/.config/ncmpcpp      ${main}
+${sync} ~/.dotify/.config/ranger       ${main}
+${sync} ~/.dotify/.config/qutebrowser  ${main}
+${sync} ~/.dotify/.config/zathura      ${main}
+${sync} ~/.dotify/.config/wall.png     ${main}
+${sync} ~/.dotify/.config/lock.png     ${main}
 
 # dots
 for dot in $dotdirs; do

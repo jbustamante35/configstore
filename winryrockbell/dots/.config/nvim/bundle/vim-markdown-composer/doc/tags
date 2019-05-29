@@ -1,0 +1,16 @@
+g:markdown_composer_autostart	markdown-composer.txt	/*g:markdown_composer_autostart*
+g:markdown_composer_browser	markdown-composer.txt	/*g:markdown_composer_browser*
+g:markdown_composer_custom_css	markdown-composer.txt	/*g:markdown_composer_custom_css*
+g:markdown_composer_external_renderer	markdown-composer.txt	/*g:markdown_composer_external_renderer*
+g:markdown_composer_open_browser	markdown-composer.txt	/*g:markdown_composer_open_browser*
+g:markdown_composer_refresh_rate	markdown-composer.txt	/*g:markdown_composer_refresh_rate*
+g:markdown_composer_syntax_theme	markdown-composer.txt	/*g:markdown_composer_syntax_theme*
+markdown-composer	markdown-composer.txt	/*markdown-composer*
+markdown-composer-:ComposerJob	markdown-composer.txt	/*markdown-composer-:ComposerJob*
+markdown-composer-:ComposerOpen	markdown-composer.txt	/*markdown-composer-:ComposerOpen*
+markdown-composer-:ComposerStart	markdown-composer.txt	/*markdown-composer-:ComposerStart*
+markdown-composer-:ComposerUpdate	markdown-composer.txt	/*markdown-composer-:ComposerUpdate*
+markdown-composer-about	markdown-composer.txt	/*markdown-composer-about*
+markdown-composer-commands	markdown-composer.txt	/*markdown-composer-commands*
+markdown-composer-options	markdown-composer.txt	/*markdown-composer-options*
+markdown-composer.txt	markdown-composer.txt	/*markdown-composer.txt*

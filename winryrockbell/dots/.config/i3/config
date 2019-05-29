@@ -41,8 +41,7 @@ set $mod        Mod4
 set $alt        Mod1
 set $term       urxvtc
 set $walsat     "1"
-set $walend     colorz
-set $rofitheme  arc-red-dark
+set $walend     schemer
 font            pango:DejaVu Sans Mono,10
 
 #################### Main Setup ##############################
@@ -55,13 +54,13 @@ exec        --no-startup-id nm-applet
 exec        --no-startup-id dropbox-cli start
 #exec        --no-startup-id pb-for-desktop
 exec        --no-startup-id touchpadctl tap 1
-exec        --no-startup-id authenticate_pamac.sh
+#exec        --no-startup-id authenticate_pamac.sh
 exec        --no-startup-id urxvtd -q -o -f
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+c         reload
 bindsym $mod+Shift+c   restart
-bindsym $alt+Delete    exec --no-startup-id  ~/.scripts/i3scripts/i3shutdown $rofitheme
+bindsym $alt+Delete    exec --no-startup-id  ~/.scripts/i3scripts/i3shutdown
 bindsym Control+$alt+l exec --no-startup-id  i3lock -i ~/.config/lock.png -t -f -p default
 bindsym $mod+Shift+p   exec --no-startup-id  systemctl suspend && lockScreen
 bindsym $mod+Shift+e   exec --no-startup-id  "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
@@ -118,8 +117,8 @@ bindsym Control+Shift+Print     exec --no-startup-id scrot -s -e 'mv $f ~/Pictur
 bindsym $mod+Print      exec --no-startup-id    simplescreenrecorder
 
 # Terminals [ b: bash | n: zsh/st |`: urxvt/kitty ]
-bindsym $mod+b                  exec --no-startup-id konsole --profile="Sabre"
-bindsym $mod+Shift+b            exec --no-startup-id konsole --profile="Sabre" -e /bin/bash
+bindsym $mod+b                  exec --no-startup-id kitty
+bindsym $mod+Shift+b            exec --no-startup-id primusrun kitty
 bindsym $mod+n                  exec --no-startup-id urxvtc
 bindsym $mod+Shift+n            exec --no-startup-id urxvtd -q -o -f
 bindsym $mod+grave              exec --no-startup-id urxvt -e tmux
@@ -152,17 +151,17 @@ bindsym $alt+i  exec --no-startup-id $term -e nvim -c :VimwikiIndex
 bindsym $alt+o  exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
 bindsym $alt+p  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
 
-# Function buttons
+# Function buttons - Hardware accelerated graphical applications
 # Original format had optirun -b primus <application>
 #bindsym $alt+Shift+g   exec --no-startup-id optirun -b primus gpmdp
 bindsym $mod+F1  exec --no-startup-id optirun -b primus nvidia-settings -c :8
 bindsym $mod+F2  exec --no-startup-id primusrun gpmdp
 bindsym $mod+F3  exec --no-startup-id primusrun spotify
-bindsym $mod+F4  exec --no-startup-id primusrun droidsurf
-bindsym $mod+F5  exec --no-startup-id primusrun caprine
-bindsym $mod+F6  exec --no-startup-id primusrun yakyak
-bindsym $mod+F7  exec --no-startup-id primusrun slack
-bindsym $mod+F8  exec --no-startup-id primusrun discord
+bindsym $mod+F4  exec --no-startup-id primusrun caprine
+bindsym $mod+F5  exec --no-startup-id primusrun yakyak
+bindsym $mod+F6  exec --no-startup-id primusrun slack
+bindsym $mod+F7  exec --no-startup-id primusrun discord
+bindsym $mod+F8  exec --no-startup-id primusrun steam
 bindsym $mod+F9  exec --no-startup-id primusrun krita
 bindsym $mod+F10 exec --no-startup-id primusrun inkscape
 bindsym $mod+F11 exec --no-startup-id primusrun gimp
@@ -173,9 +172,9 @@ bindsym $alt+F1  exec --no-startup-id pamac-manager
 bindsym $alt+F2  exec --no-startup-id $term -e ncmpcpp
 bindsym $alt+F3  exec --no-startup-id $term -e pulsemixer
 bindsym $alt+F4  exec --no-startup-id arandr
-bindsym $alt+F5  exec --no-startup-id primusrun steam
+bindsym $alt+F5  exec --no-startup-id droidsurf
 bindsym $alt+F6  exec --no-startup-id $term -e nvim -c :Calendar
-#bindsym $alt+F7  exec --no-startup-id
+bindsym $alt+F7  exec --no-startup-id $term -e rtv --enable-media
 #bindsym $alt+F8  exec --no-startup-id
 bindsym $alt+F9  exec --no-startup-id setkbmap -option "caps:swapescape"
 bindsym $alt+F10 exec --no-startup-id xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources

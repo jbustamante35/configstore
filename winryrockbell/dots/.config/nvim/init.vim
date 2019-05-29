@@ -120,7 +120,8 @@ let g:joy_pure = 1
 " MarkdownComposer: Markdown file browser viewer
 let g:instant_markdown_autostart = 0
 let g:markdown_composer_open_browser = 0
-nmap <C-a> :ComposerOpen<CR>
+nmap <Leader>a :ComposerOpen<CR>
+" Test
 
 " IndentGuides: Customize look of indented spaces
 let g:indent_guides_auto_color = 0

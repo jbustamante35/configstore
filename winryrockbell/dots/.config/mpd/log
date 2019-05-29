@@ -1105,3 +1105,630 @@ May 22 17:28 : client: [2] closed
 May 22 17:28 : client: [0] closed
 May 22 17:30 : client: [8] closed
 May 22 17:31 : player: played "yt/mellowbeatseeker/YOOYONGSOO - 10am-lAWuxww28b0.m4a"
+May 23 10:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 23 10:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 23 10:45 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+May 23 10:45 : client: [0] opened from 127.0.0.1:41784
+May 23 10:45 : client: [1] opened from 127.0.0.1:41788
+May 23 10:45 : client: [2] opened from 127.0.0.1:41792
+May 23 10:45 : client: [3] opened from 127.0.0.1:41796
+May 23 10:45 : player: played "yt/mellowbeatseeker/YOOYONGSOO - 10am-lAWuxww28b0.m4a"
+May 23 10:45 : client: [3] closed
+May 23 10:46 : client: [4] opened from 127.0.0.1:41816
+May 23 10:46 : client: [4] closed
+May 23 10:46 : client: [5] opened from 127.0.0.1:41824
+May 23 10:46 : client: [5] closed
+May 23 10:46 : update: added recordings/New recording (20190520212810).wav
+May 23 10:46 : update: added recordings/New recording (20190520212725).wav
+May 23 10:46 : update: removing yt/cloakanddagger/season1/'Turns You Into Stone' (feat. Fleurie) _ Produced by Tommee Profitt--fTEfgReJJs.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Bishop Briggs - Dark Side (Audio)-akrnJEjUUm4.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/bea miller • to the grave • lyric video-hlryACW3m6Y.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Bea Miller - to the grave (official video) ft. Mike Stud-OIKO5n8f9Xg.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Barns Courtney - Hellfire-RDPNjIbFGsI.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/American Funeral-cXnvjxFd8I4.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Alex Da Kid, Joseph Angel - American Funeral (Lyric Video)-vpIroR8himQ.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/7kingZ - 'Born For This'-BIb1sS2Y9Dk.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/home-F1KN07IdxGU.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Flight in G Minor (feat. Dirty Cello)-1MGhknu-P5M.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Fleurie - Breathe (Audio)-JE60q4Kf8f8.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/First Class Fly-RHTCHWzMyxo.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Feel the Embrace-fGYIdhIYAeM.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Eric Clapton - Good Night Irene-CZm96PKwtHc.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Ending-24iD5Z4vj0s.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Empara Mi - Wanderlust (Official Video)-RzFpSNwMNLo.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Ellie Goulding - Dead In The Water Lyrics-WFzQ7KAVq1w.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/DOE   We Are-IujOyVVOASM.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Creep Up on Em-i0AECQEKGho.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Cathedrals - Harlem-C52t0vEwfqk.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Cathedrals - Harlem (Audio)-h7yuR3iw948.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/CAMPFIRE feat. Danny Score - Demons-Wcz_6FqPH78.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Breakin' the Rules (From Marvel's 'Cloak & Dagger')-8MJrYp4EabI.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/You Never Know-T5OLmkfIPyg.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Turns You into Stone-ieqMm2EwZEc.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Thutmose - Run Wild (feat. NoMBe)-LFOho7E7_NM.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Thutmose - Run Wild (feat. NoMBe)-2TGK7kzHoLc.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/The Phantoms - 'Get What I Came For' [AUDIO]-Lrnl8a9TPIE.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Sons & Daughters-1MsDPtPCpZ4.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Sleepwalker-fUjfb5tZ22Q.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Siobhan Sainte - Burn It Down-Gl1b9oHFcns.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Ruelle - Secrets and Lies (Official Audio)-RLYWaF8-ys8.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/R U Ready (Original Mix)-Yzf08jwkbtc.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Portugal. The Man - Rich Friends (Official Video)-GN-xVSlnWKQ.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Overcoats - Leave The Light On-3wLGdxw8_ao.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Olivia Holt - Come Sail Away (From 'Cloak & Dagger'_Audio Only)-5-7AgZdYJ-8.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/No Mercy-xvjx5e2IN70.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Nevelle Viracocha - DIRRTY GAME (Official Video)-43Z1vMk4Rkc.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/morgxn - home (official video)-rpbbuI2jndE.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/MILCK - Quiet (Official Video)-Tl_Qfj8780M.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Massive Attack, Young Fathers - Voodoo In My Blood-ElvLZMsYXlo.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Mansionair - Easier-Ja9IUKElT5w.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Lucien Parker - Impossible (Official Video)-wSxyFhdGMu4.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Louis Mattrs - Fear In Me-kycNBDaiaa4.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/LEO ISLO- Lush Life (feat. Dani Poppitt)-uyEShg_LpGk.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Jai Wolf - Starlight (feat. Mr Gabriel)-Z9VoDwy-3Lc.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season1/Isak Danielson - Ending (official video)-TOIF7KwXetU.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/Thutmose_RunWild.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/SiobhanSainte_BurnItDown.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/Bea Miller_ToTheGrave.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/NDIDIO_NoMercy .m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/PortugalTheMan_RichFriends.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/DJHollygrove_CreepUpOnEm.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/NevelleViracocha_DIRRTYGAME.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/Various_SonsAndDaughters.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/MILCK_Quiet.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/EllieGoulding_DeadInTheWater.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/MassiveAttack_VoodooInMyBlood.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/LouisMattrs_FearInMe.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/CandaceColesAndDarienDorsey_BreakinTheRules.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/CAMPFIRE_Demons.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/Mansionair_Easier.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/BishopBriggs_DarkSide.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/Fleurie_Breathe.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/TheKinks_Sleepwalker.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/TommeeProfitt_TurnsYouIntoStone.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/SAYWUT_RUReady.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/7kingZ_BornForThis.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/DOE_WeAre.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/JaiWolf_Starlight.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/EmparaMi_Wanderlust.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/AmpLive_FlightInGMinor.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/Morgxn_Home.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/Vonavi_FeelTheEmbrace.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/Cathedrals_Harlem.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/DamnyAndMCJusto_FirstClassFly.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/LucienParker_Impossible.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/ThePhantoms_GetWhatICameFor.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/Overcoats_LeaveTheLightOn.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/IsakDanielson_Ending.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/BarnsCourtney_Hellfire.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/Ruelle_SecretsAndLies.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/Kngdavd_YouNeverKnow.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/OliviaHolt_ComeSailAway.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/AlexDaKid_AmericanFuneral.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/EricClapton_GoodNightIrene.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season1/LeoIslo_LushLife.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season2/MartenHørger&MaximonofeatEmmaLanford_SoHigh.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/LeopardSkinnies_Rise.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/TheRevivalists_OhNo.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/LuxVeritas_VoicesInTheWater.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/WAR+HALL_AllThisPower.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/NesbyPhips_WalkAlone.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/KinPalo_Twisted.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/AubreyJoseph_Numb.m4a
+May 23 10:46 : update: updating yt/cloakanddagger/season2/Geoffroy_RaisedByWolves.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/Thutmose_StillIRise.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/ZaydeWolf_Shout.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/AlexisRenee_ToLoveSomebody.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/JoannaHaleMcGill_HymntoStBrigid.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/NajeeThe1_Supernova.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/GracePotterAndTheNocturnals_TheLionTheBeastTheBeat.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/Wonkru_Facts.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season2/new/Facts.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season2/new/So High (feat. Emma Lanford).m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season2/new/Numb (From 'Cloak & Dagger - Season 2').m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season2/new/Marvel's Cloak & Dagger Season 2, Episode 2 _ Tandy and Andre Discuss the Missing Girls _ Freeform.m4a
+May 23 10:46 : update: removing yt/cloakanddagger/season2/new/Hot Chip - Flutes (Sasha remix) - (Official Video).m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/MartenHorger_SoHigh.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/HotChip_Flutes.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/JohnnyCash_InTheSweetByeAndBye.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/Cinephile_Medusa.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/GaliaArad_BabyOneMoreTime.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/Ayelle_Reclaim.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/HarryAndJeanieWest_SweetByeAndBye.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/TommeeProfitt_CanYouFeelTheHeatNow.m4a
+May 23 10:46 : update: added yt/cloakanddagger/season2/TheAcid_BasicInstinct.m4a
+May 23 10:46 : client: [6] opened from 127.0.0.1:41832
+May 23 10:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 23 12:32 : client: [7] opened from 127.0.0.1:45246
+May 23 12:32 : client: [7] closed
+May 23 12:32 : client: [8] opened from 127.0.0.1:45250
+May 23 12:32 : client: [8] closed
+May 23 12:34 : client: [9] opened from 127.0.0.1:45300
+May 23 12:34 : client: [9] closed
+May 23 12:34 : client: [10] opened from 127.0.0.1:45304
+May 23 12:34 : client: [10] closed
+May 23 13:53 : player: played "yt/cloakanddagger/season1/7kingZ_BornForThis.m4a"
+May 23 13:56 : client: [6] closed
+May 23 13:56 : player: played "yt/cloakanddagger/season1/JaiWolf_Starlight.m4a"
+May 23 13:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 23 13:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 23 13:56 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+May 23 13:56 : client: [0] opened from 127.0.0.1:47892
+May 23 13:56 : client: [1] opened from 127.0.0.1:47898
+May 23 13:56 : client: [2] opened from 127.0.0.1:47902
+May 23 13:56 : client: [3] opened from 127.0.0.1:47906
+May 23 13:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 23 13:59 : client: [4] opened from 127.0.0.1:47976
+May 23 13:59 : client: [4] closed
+May 23 13:59 : client: [0] closed
+May 23 13:59 : client: [5] opened from 127.0.0.1:48002
+May 23 14:00 : player: played "yt/cloakanddagger/season1/JaiWolf_Starlight.m4a"
+May 23 14:01 : client: [6] opened from 127.0.0.1:48044
+May 23 14:01 : client: [6] malformed command "GET / HTTP/1.1"
+May 23 14:01 : client: [6] closed
+May 23 14:01 : client: [7] opened from 127.0.0.1:48048
+May 23 14:01 : client: [7] malformed command "GET / HTTP/1.1"
+May 23 14:01 : client: [7] closed
+May 23 14:01 : client: [8] opened from 127.0.0.1:48058
+May 23 14:01 : client: [8] malformed command "GET / HTTP/1.1"
+May 23 14:01 : client: [8] closed
+May 23 14:01 : client: [9] opened from 127.0.0.1:48062
+May 23 14:01 : client: [10] opened from 127.0.0.1:48066
+May 23 14:01 : client: [9] malformed command "GET / HTTP/1.1"
+May 23 14:01 : client: [9] closed
+May 23 14:01 : client: [11] opened from 127.0.0.1:48070
+May 23 14:01 : client: [10] malformed command "GET / HTTP/1.1"
+May 23 14:01 : client: [10] closed
+May 23 14:01 : client: [12] opened from 127.0.0.1:48074
+May 23 14:02 : client: [11] closed
+May 23 14:02 : client: [12] closed
+May 23 14:04 : client: [5] closed
+May 23 17:57 : client: [3] closed
+May 23 17:57 : client: [1] closed
+May 23 17:57 : client: [2] closed
+May 23 17:59 : player: played "yt/cloakanddagger/season1/Morgxn_Home.m4a"
+May 28 14:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 28 14:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 28 14:11 : client: [0] opened from 127.0.0.1:40880
+May 28 14:11 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+May 28 14:11 : client: [1] opened from 127.0.0.1:40884
+May 28 14:11 : client: [1] closed
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/12 - 宋冬野 - Intro.mp3
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/11 - 宋冬野 - 安和橋.mp3
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/10 - 宋冬野 - 連衣裙.mp3
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/09 - 宋冬野 - 卡比巴拉的海.mp3
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/08 - 宋冬野 - 關憶北.mp3
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/07 - 宋冬野 - 六層樓.mp3
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/06 - 宋冬野 - 夢遺少年.mp3
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/05 - 宋冬野 - 斑馬，斑馬.mp3
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/04 - 宋冬野 - 董小姐.mp3
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/03 - 宋冬野 - 鴿子.mp3
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/02 - 宋冬野 - 莉莉安.mp3
+May 28 14:11 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice06_Seneca.mp3
+May 28 14:11 : update: removing cdrom/宋冬野/安和橋北/宋冬野 - 安和橋北/01 - 宋冬野 - 給抱著盒子的姑娘.mp3
+May 28 14:11 : update: removing cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/11 - Thrice - Salt And Shadow.mp3
+May 28 14:11 : update: removing cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/10 - Thrice - Whistleblower.mp3
+May 28 14:11 : update: removing cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/09 - Thrice - Death From Above.mp3
+May 28 14:11 : update: removing cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/08 - Thrice - Stay With Me.mp3
+May 28 14:11 : update: removing cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/07 - Thrice - Black Honey.mp3
+May 28 14:11 : update: removing cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/06 - Thrice - Seneca.mp3
+May 28 14:11 : update: removing cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/05 - Thrice - The Long Defeat.mp3
+May 28 14:11 : update: removing cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/04 - Thrice - Wake Up.mp3
+May 28 14:11 : update: removing cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/03 - Thrice - The Window.mp3
+May 28 14:11 : update: removing cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/02 - Thrice - Blood In The Sand.mp3
+May 28 14:11 : update: removing cdrom/thrice/tobeeverywhereistobenowhere/Thrice - To Be Everywhere Is To Be Nowhere/01 - Thrice - Hurricane.mp3
+May 28 14:11 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice09_DeathFromAbove.mp3
+May 28 14:11 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice04_WakeUp.mp3
+May 28 14:11 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice01_Hurricane.mp3
+May 28 14:11 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice02_BloodInTheSand.mp3
+May 28 14:11 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice08_StayWithMe.mp3
+May 28 14:11 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice11_SaltAndShadow.mp3
+May 28 14:11 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice07_BlackHoney.mp3
+May 28 14:11 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice05_TheLongDefeat.mp3
+May 28 14:11 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice03_TheWindow.mp3
+May 28 14:11 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice10_Whistleblower.mp3
+May 28 14:11 : update: removing cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/01 - Kina Grannis - When Will I Learn.mp3
+May 28 14:11 : update: removing cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/02 - Kina Grannis - History.mp3
+May 28 14:11 : update: removing cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/03 - Kina Grannis - In the Waiting.mp3
+May 28 14:11 : update: removing cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/04 - Kina Grannis - Birdsong.mp3
+May 28 14:11 : update: removing cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/05 - Kina Grannis - California.mp3
+May 28 14:11 : update: removing cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/06 - Kina Grannis - For Now.mp3
+May 28 14:11 : update: removing cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/07 - Kina Grannis - Lonesome.mp3
+May 28 14:11 : update: removing cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/08 - Kina Grannis - Beth.mp3
+May 28 14:11 : update: removing cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/09 - Kina Grannis - Souvenirs.mp3
+May 28 14:11 : update: removing cdrom/kinagrannis/inthewaiting/Kina Grannis - In the Waiting/10 - Kina Grannis - All Along.mp3
+May 28 14:11 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis05_California.mp3
+May 28 14:11 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis07_Lonesome.mp3
+May 28 14:11 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis09_Souvenirs.mp3
+May 28 14:11 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis03_IntheWaiting.mp3
+May 28 14:11 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis02_History.mp3
+May 28 14:11 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis10_AllAlong.mp3
+May 28 14:11 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis01_WhenWillILearn.mp3
+May 28 14:11 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis04_Birdsong.mp3
+May 28 14:11 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis08_Beth.mp3
+May 28 14:11 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis06_ForNow.mp3
+May 28 14:11 : update: removing cdrom/mree/themiddle/Mree - The Middle/01 - Mree - In the Kitchen.mp3
+May 28 14:11 : update: removing cdrom/mree/themiddle/Mree - The Middle/02 - Mree - The Middle.mp3
+May 28 14:11 : update: removing cdrom/mree/themiddle/Mree - The Middle/03 - Mree - Kiki's Song.mp3
+May 28 14:11 : update: removing cdrom/mree/themiddle/Mree - The Middle/04 - Mree - When You Come Home.mp3
+May 28 14:11 : update: removing cdrom/mree/themiddle/Mree - The Middle/05 - Mree - Like a River.mp3
+May 28 14:11 : update: added cdrom/mree/themiddle/Mree05_LikeaRiver.mp3
+May 28 14:11 : update: added cdrom/mree/themiddle/Mree02_TheMiddle.mp3
+May 28 14:11 : update: added cdrom/mree/themiddle/Mree04_WhenYouComeHome.mp3
+May 28 14:11 : update: added cdrom/mree/themiddle/Mree03_Kiki'sSong.mp3
+May 28 14:11 : update: added cdrom/mree/themiddle/Mree01_IntheKitchen.mp3
+May 28 14:11 : update: removing cdrom/amalee/hourglass/AmaLee - Hourglass/01 - AmaLee - Hourglass.mp3
+May 28 14:11 : update: removing cdrom/amalee/hourglass/AmaLee - Hourglass/02 - AmaLee - Escape.mp3
+May 28 14:11 : update: removing cdrom/amalee/hourglass/AmaLee - Hourglass/03 - AmaLee - Shatter.mp3
+May 28 14:11 : update: removing cdrom/amalee/hourglass/AmaLee - Hourglass/04 - AmaLee - Shall We Dance.mp3
+May 28 14:11 : update: removing cdrom/amalee/hourglass/AmaLee - Hourglass/05 - AmaLee - Stars Align.mp3
+May 28 14:11 : update: added cdrom/amalee/hourglass/AmaLee03_Shatter.mp3
+May 28 14:11 : update: added cdrom/amalee/hourglass/AmaLee04_ShallWeDance.mp3
+May 28 14:11 : update: added cdrom/amalee/hourglass/AmaLee02_Escape.mp3
+May 28 14:11 : update: added cdrom/amalee/hourglass/AmaLee01_Hourglass.mp3
+May 28 14:11 : update: added cdrom/amalee/hourglass/AmaLee05_StarsAlign.mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/01 - AmaLee - Colors (Code Geass).mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/02 - AmaLee - Silhouette (Naruto Shippuden).mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/03 - AmaLee - Samurai Heart (Gintama).mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/04 - AmaLee - Seven Deadly Sins (Seven Deadly Sins).mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/05 - AmaLee - Golden Time Lover (Full Metal AlchemistBrotherhood).mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/06 - AmaLee - Believe In Myself (Fairy Tail).mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/07 - AmaLee - Resonance (Soul Eater).mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/08 - AmaLee - Sayonara Memory (Naruto Shippuden).mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/09 - AmaLee - Let it Out (Full Metal Alchemist).mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/10 - AmaLee - Masayume Chasing (Fairy Tail).mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/11 - AmaLee - Rain (Full Metal Alchemist Brotherhood).mp3
+May 28 14:11 : update: removing cdrom/amalee/nostalgiaV/AmaLee - Nostalgia V/12 - AmaLee - Fly High (Haikyuu!!).mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee02_SilhouetteNarutoShippuden.mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee07_ResonanceSoulEater.mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee11_RainFullMetalAlchemistBrotherhood.mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee03_SamuraiHeartGintama.mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee05_GoldenTimeLoverFullMetalAlchemistBrotherhood.mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee10_MasayumeChasingFairyTail.mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee04_SevenDeadlySinsSevenDeadlySins.mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee06_BelieveInMyselfFairyTail.mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee01_ColorsCodeGeass.mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee08_SayonaraMemoryNarutoShippuden.mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee12_FlyHighHaikyuu.mp3
+May 28 14:11 : update: added cdrom/amalee/nostalgiaV/AmaLee09_LetItOutFullMetalAlchemist.mp3
+May 28 14:11 : update: added cdrom/amalee/patreondownloads/Again Fruits Basket (AmaLee).mp3
+May 28 14:11 : update: added cdrom/amalee/patreondownloads/SnowFairy (AmaLee).mp3
+May 28 14:11 : update: added cdrom/amalee/patreondownloads/Monster Without A Name (AmaLee).mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野09_卡比巴拉的海.mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野12_Intro.mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野03_鴿子.mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野11_安和橋.mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野02_莉莉安.mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野06_夢遺少年.mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野08_關憶北.mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野01_給抱著盒子的姑娘.mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野07_六層樓.mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野04_董小姐.mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野10_連衣裙.mp3
+May 28 14:11 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野05_斑馬，斑馬.mp3
+May 28 14:11 : update: removing yt/lofi/a t c a f e _ l o f i.mp4
+May 28 14:11 : update: removing yt/lofi/asokah_IAlwaysSmileButMyEyesAreSad.mp4
+May 28 14:11 : update: removing yt/lofi/BreathOfTheWild_LofiHipHop.mp4
+May 28 14:11 : update: removing yt/lofi/burbank_asaint.mp4
+May 28 14:11 : update: removing yt/lofi/chuckee_goinfarV2.mp4
+May 28 14:11 : update: removing yt/lofi/FinalFantasyIX_Chill.m4a
+May 28 14:11 : update: removing yt/lofi/MRSJ_Arrietty.mp4
+May 28 14:11 : update: removing yt/lofi/n i n t e n d o and l o f i I I I.m4a
+May 28 14:11 : update: removing yt/lofi/n i n t e n d o and l o f i I I.m4a
+May 28 14:11 : update: removing yt/lofi/n i n t e n d o and l o f i.m4a
+May 28 14:11 : update: removing yt/lofi/nawhij_withyou.mp4
+May 28 14:11 : update: removing yt/lofi/p o k e m o n and l o f i.mp4
+May 28 14:11 : update: removing yt/lofi/PianoShoegazer_GhostlyLove.mp4
+May 28 14:11 : update: removing yt/lofi/potsu_lovesick.mp4
+May 28 14:11 : update: removing yt/lofi/Setton_HighSchoolLove.mp4
+May 28 14:11 : update: removing yt/lofi/slipfunc_cherrysmile.mp4
+May 28 14:11 : update: removing yt/lofi/Soulitune_Intimacy.mp4
+May 28 14:11 : update: removing yt/lofi/SunYehoshua_heartbreaker.mp4
+May 28 14:11 : update: removing yt/lofi/wellcheeze.mp4
+May 28 14:11 : update: removing yt/lofi/z e l d a and l o f i.mp4
+May 28 14:11 : update: removing yt/lofi/ZeldaAndChill.mp4
+May 28 14:11 : update: removing yt/misc/BalladOfTheWindFish_TaylorDavis.webm
+May 28 14:11 : update: removing yt/misc/Gerry&ThePacemakers_You'llNeverWalkAlone.m4a
+May 28 14:11 : update: removing yt/misc/KissFromARose_pianocover_EllaPraprotnik.mkv
+May 28 14:11 : update: removing yt/misc/MrRobotS2E6.mkv
+May 28 14:11 : update: removing yt/misc/TheDikembeMutomboSong_JimmyKimmel_AloeBlacc.mkv
+May 28 14:11 : update: added yt/misc/TaylorDavis_BalladOfTheWindFish.m4a
+May 28 14:11 : update: added yt/misc/GerryAndThePacemakers_YoullNeverWalkAlone.m4a
+May 28 14:11 : update: added yt/misc/EllaPraprotnik_KissFromARose.m4a
+May 28 14:11 : update: added yt/animevibe/AnimeVibe_SettonHighSchoolLove.m4a
+May 28 14:11 : update: removing yt/amalee/youtube/AngelBeats                - BraveSong.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/AngelBeats                - MySong.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/AngelBeats                - MySoulYourBeats.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/AttackonTitan             - CallYourHeroesMedley.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/AttackonTitan             - GurennoYumiyaLullaby.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/AttackonTitan             - ReluctantHeroesLullaby.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/AttackonTitan             - WingsofFreedom.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/AyashinoCeres             - Scarlet.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/BlackButler               - AokiTsukiMichite.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/ChobitsED2                - NingyoHime.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/Clannad                   - DangoDaikazoku.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/DNAngel                   - TrueLight.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/Erased                    - ReRe&Medley.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/Escaflowne                - SoraSakamotoMaaya.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/FinalFantasyXIII          - PromiseSerahsTheme.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/FireEmblemFates           - LostinThoughtsAllAlone.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/FullMetalPanic            - SoreGaAiDeshou.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/FullMoonwoSagashite       - EternalSnow.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/GuiltyCrown               - BiosDelta.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/GuiltyCrown               - Departures.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/GundamSeed                - MizunoAkashi.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/hackSign                  - FakeWingsYukiKajiura.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/HaruhiSuzumiya            - GodKnows.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/Inuyasha                  - EyHeart&FukaiMoriMashup.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/KabanerioftheIronFortress - Ninelie.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/KingdomHearts             - LullabyMashup.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/MermaidMelody             - LegendofMermaid.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/Nana                      - ALittlePain.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/Parasyte                  - LetMeHear.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/ReZero                    - STYXHELIXMYTH&ROID.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/RWBY                      - RedLikeRoses.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/SpiceandWolf              - TabinoTochuu.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/SwordArtOnline            - CrossingFieldAcoustic.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/SwordArtOnline            - YumeSekai.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/SwordArtOnlineII          - Startear.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/TerraBattle2              - HighSky.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/TokyoGhoul                - GlassySky.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/TokyoGhoul                - UnravelFemale.mp4
+May 28 14:11 : update: removing yt/amalee/youtube/Tsubasa                   - ReservoirChronicleSynchronicity.mp4
+May 28 14:11 : update: added yt/amalee/mp4/DNAngel_TrueLight.mp4
+May 28 14:11 : update: added yt/amalee/mp4/FireEmblemFates_LostinThoughtsAllAlone.mp4
+May 28 14:11 : update: added yt/amalee/mp4/AyashinoCeres_Scarlet.mp4
+May 28 14:11 : update: added yt/amalee/mp4/Escaflowne_SoraSakamotoMaaya.mp4
+May 28 14:11 : update: added yt/amalee/mp4/Inuyasha_EyHeart&FukaiMoriMashup.mp4
+May 28 14:11 : update: added yt/amalee/mp4/ReZero_STYXHELIXMYTH&ROID.mp4
+May 28 14:11 : update: added yt/amalee/mp4/HaruhiSuzumiya_GodKnows.mp4
+May 28 14:11 : update: added yt/amalee/mp4/KabanerioftheIronFortress_Ninelie.mp4
+May 28 14:11 : update: added yt/amalee/mp4/AttackonTitan_GurennoYumiyaLullaby.mp4
+May 28 14:11 : update: added yt/amalee/mp4/AttackonTitan_ReluctantHeroesLullaby.mp4
+May 28 14:11 : update: added yt/amalee/mp4/BlackButler_AokiTsukiMichite.mp4
+May 28 14:11 : update: added yt/amalee/mp4/RWBY_RedLikeRoses.mp4
+May 28 14:11 : update: added yt/amalee/mp4/AngelBeats_MySong.mp4
+May 28 14:11 : update: added yt/amalee/mp4/FullMetalPanic_SoreGaAiDeshou.mp4
+May 28 14:11 : update: added yt/amalee/mp4/AttackonTitan_WingsofFreedom.mp4
+May 28 14:11 : client: [2] opened from 127.0.0.1:40888
+May 28 14:11 : client: [3] opened from 127.0.0.1:40892
+May 28 14:11 : client: [4] opened from 127.0.0.1:40896
+May 28 14:11 : update: added yt/amalee/mp4/hackSign_FakeWingsYukiKajiura.mp4
+May 28 14:11 : update: added yt/amalee/mp4/SpiceandWolf_TabinoTochuu.mp4
+May 28 14:11 : update: added yt/amalee/mp4/Parasyte_LetMeHear.mp4
+May 28 14:11 : update: added yt/amalee/mp4/AngelBeats_MySoulYourBeats.mp4
+May 28 14:11 : update: added yt/amalee/mp4/AttackonTitan_CallYourHeroesMedley.mp4
+May 28 14:11 : update: added yt/amalee/mp4/GundamSeed_MizunoAkashi.mp4
+May 28 14:11 : update: added yt/amalee/mp4/TokyoGhoul_GlassySky.mp4
+May 28 14:11 : update: added yt/amalee/mp4/GuiltyCrown_Departures.mp4
+May 28 14:11 : update: added yt/amalee/mp4/KingdomHearts_LullabyMashup.mp4
+May 28 14:11 : update: added yt/amalee/mp4/SwordArtOnline_YumeSekai.mp4
+May 28 14:11 : update: added yt/amalee/mp4/SwordArtOnlineII_Startear.mp4
+May 28 14:11 : update: added yt/amalee/mp4/ChobitsED2_NingyoHime.mp4
+May 28 14:11 : update: added yt/amalee/mp4/SwordArtOnline_CrossingFieldAcoustic.mp4
+May 28 14:11 : update: added yt/amalee/mp4/TokyoGhoul_UnravelFemale.mp4
+May 28 14:11 : update: added yt/amalee/mp4/FullMoonwoSagashite_EternalSnow.mp4
+May 28 14:11 : update: added yt/amalee/mp4/MermaidMelody_LegendofMermaid.mp4
+May 28 14:11 : update: added yt/amalee/mp4/Tsubasa_ReservoirChronicleSynchronicity.mp4
+May 28 14:11 : update: added yt/amalee/mp4/GuiltyCrown_BiosDelta.mp4
+May 28 14:11 : update: added yt/amalee/mp4/Nana_ALittlePain.mp4
+May 28 14:11 : update: added yt/amalee/mp4/FinalFantasyXIII_PromiseSerahsTheme.mp4
+May 28 14:11 : update: added yt/amalee/mp4/Erased_ReRe&Medley.mp4
+May 28 14:11 : update: added yt/amalee/mp4/TerraBattle2_HighSky.mp4
+May 28 14:11 : update: added yt/amalee/mp4/AngelBeats_BraveSong.mp4
+May 28 14:11 : update: added yt/amalee/mp4/Clannad_DangoDaikazoku.mp4
+May 28 14:11 : update: added yt/amalee/m4a/061-080/Haikyuu!! - 'I'm a Believer' (FULL Opening) _ ENGLISH ver _ AmaLee-90ROhLwSfCY.m4a
+May 28 14:11 : update: added yt/amalee/m4a/061-080/Haikyuu!! - 'Imagination' (FULL Opening) _ ENGLISH ver _ AmaLee-20qwhDOXpZg.m4a
+May 28 14:11 : update: added yt/amalee/m4a/061-080/Free! Eternal Summer ED - 'FUTURE FISH' _ ENGLISH ver-9NXvXjg6U90.m4a
+May 28 14:11 : update: added yt/amalee/m4a/061-080/Fullmetal Alchemist - Brotherhood - 'Again' (Opening) _ ENGLISH ver _ AmaLee-R-WRihrquec.m4a
+May 28 14:11 : update: added yt/amalee/m4a/061-080/Mystic Messenger - 'Mysterious Messenger' (Opening) _ AmaLee Ver-3zZq8R6pym4.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Final Fantasy X - 'Suteki Da Ne' _ AmaLee Ver-0DzpfD17cdE.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Anohana - 'Aoi Shiori' (FULL Opening) _ ENGLISH ver _ AmaLee & Dima-NT7L6SbmCiU.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Macross - 'Do You Remember Love' _ ENGLISH ver _ AmaLee-AxODsKeC2ds.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Black Butler ED - 'Kagayaku Sora no Shijima ni wa' _ ENGLISH ver _ AmaLee-c3qnbWNR-AQ.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Seraph of the End  - 'X.U.' (FULL Opening) _ AmaLee ver-F81uA7XZCDA.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Yuri!!! on ICE - 'History Maker' (FULL Opening) - Dean Fujioka _ AmaLee Ver-L3yHWOFDXIo.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Erased - 'Re -Re -' (Opening & Ending Medley) _ ENGLISH ver _ AmaLee-N_bAbpoKD1s.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Vocaloid - 'Answer'  _ ENGLISH ver _ AmaLee-kbyl31Twz4Y.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Kiznaiver - 'Lay Your Hands On Me' (FULL Opening) _ AmaLee ver-XPNSNVFuzQ4.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Macross Frontier - 'Aimo' - lullaby _ ENGLISH ver _ AmaLee-gAYEGms1JwU.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Vocaloid - 'ECHO' Crusher-P _ Gumi _ AmaLee & dj-Jo-p4e5reGtKJA.m4a
+May 28 14:11 : update: added yt/amalee/m4a/081-100/Persona 5 - 'Life Will Change' FULL _ AmaLee Ver-BQGRN0D1SDA.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Black Butler - 'Lacrimosa' (Ending) _ ENGLISH ver _ Annalie-UM-5__ASlWw.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Ancient Magus' Bride - 'Here' (FULL Opening) JUNNA _ ENGLISH ver _ AmaLee-LUnPZstS9DQ.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Fire Emblem Fates - 'Lost in Thoughts All Alone' _ ENGLISH ver _ AmaLee-lsz5ijRQvUY.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Inuyasha - 'Every Heart & Fukai Mori' Mashup _ ENGLISH ver _ AmaLee-K1l9zJd8ULA.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Madoka Magica - 'Magia' (Ending) _ ENGLISH ver _ AmaLee-b2Chwj5JEww.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Re -Creators - 'Gravity Wall' (FULL Opening) _ ENGLISH ver _ AmaLee-drJqDmEGIes.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Burn Your Fat With Me!! OP - 'Equation of Happiness'  [Official Ver] _ AmaLee-5Iy66XFAplc.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Digimon - 'Butter-Fly' (Opening) _ ENGLISH ver _ AmaLee-a9jFnUJenzg.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Angel Beats - 'My Song' _ ENGLISH ver _ AmaLee-B7nVPp1M3PI.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Vocaloid - 'Just Be Friends' _ ENGLISH ver _ AmaLee-XBR7y9rC5Fc.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Angel Beats - 'Brave Song' (Ending) _ ENGLISH ver _ AmaLee-Pei0vzjvpRM.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Fushigi Yuugi - 'Itoshii Hito No Tame ni' (Opening) _ ENGLISH ver _ AmaLee-RjTSSFnSYoE.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Sword Art Online - 'Yume Sekai' (Ending) _ ENGLISH ver _ AmaLee-lkzMXiIcc0g.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Shakugan no Shana - 'Being' (Opening) _ ENGLISH ver _ AmaLee-ksg5nHYkqHA.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Nana - 'A Little Pain' (FULL Ending) _ ENGLISH ver _ AmaLee-QsXVymwns64.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Haruhi Suzumiya - 'God Knows' (FULL) _ ENGLISH ver _ AmaLee-Gz9cTIm6z4w.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/My Hero Academia - 'Dakara Hitori Ja Nai' (Ending) _ ENGLISH Ver _ AmaLee-hqGoNzw3qfs.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Vocaloid - 'Love is War' - lullaby _ ENGLISH ver _ AmaLee-lZr_Re6nr4Q.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Blue Exorcist 2 - 'Itteki no Eikyou' (Opening) _ ENGLISH ver _ AmaLee-K6MX0zh3iNc.m4a
+May 28 14:11 : update: added yt/amalee/m4a/021-040/Kill la Kill - 'Gomen ne liko ja Irarenai' (Ending) _ ENGLISH ver _ AmaLee-07KLWnOKWmI.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Kabaneri of the Iron Fortress - 'Ninelie'  (Ending) _ ENGLISH ver _ AmaLee-1K6A9QWYjcs.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Escaflowne - 'Sora' - Sakamoto Ma'aya _ AmaLee Ver-dGYZCni_WQU.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/GANGSTA - 'Renegade' (FULL Opening) _  ENGLISH ver _ AmaLee-597HTCai29Q.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Final Fantasy XIII - 'Promise' - Serah's Theme _ ENGLISH ver _ AmaLee-1BAuAkqIM6E.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Kingdom Hearts - 'Simple and Clean & Sanctuary' _ AmaLee & Adrisaurus-_HBN751X1d0.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Kingdom Hearts - 'Dearly Beloved' Vocal Cover (FULL) _ AmaLee ver-IB1NMf9Qe-Y.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/[Official Ver] 'Broken Machine' Shattered Heaven _ AmaLee-Tt1wjCgV6S8.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/[Official Ver] 'Intro + Main Theme' - Rival Threads _ AmaLee-JcnZK-TbQMs.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Fullmetal Alchemist - 'Motherland' (Ending) _ ENGLISH ver _ Annalie-uG0pR2MaeX4.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Tokyo Ghoul - 'Unravel' (Opening) Female ver _ ENGLISH ver _ AmaLee-c0UR2-ElL6g.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/[Official Ver] 'Garden of Dreams' Anonymous Agony _ AmaLee-5znRL8eVKgI.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/[Original] 'Monsters' single (AmaLee & VOXEL)-6in-5Q3OmNA.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Sword Art Online - 'Crossing Field' (Opening) -  Remix _ ENGLISH ver _ AmaLee-Y7QFVSiPtsM.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Gundam Seed - 'Mizu no Akashi' _ ENGLISH ver _ AmaLee-K2aSaftTtFc.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Maleficent 'Once Upon A Dream' _ AmaLee ver-11sUD9wiWWE.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Kill la Kill - 'Before My Body is Dry' (FULL) _ AmaLee ver-xUw-TRDSLUs.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/[Official Ver] 'Dream Spell' Autumn Rose _ AmaLee-X4rmZ9CXPw0.m4a
+May 28 14:11 : update: added yt/amalee/m4a/101-120/Fate_Stay Night - 'Brave Shine' (FULL Opening) _ ENGLISH ver _ AmaLee-Y9055dqYAU0.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Noragami Aragoto - 'Hey Kids!!' (Opening) _ ENGLISH ver _ AmaLee-iWtTSzULPWI.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Sword Art Online - 'Crossing Field' (Opening) _ ENGLISH ver _ AmaLee-MO60ahwc8FI.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Attack on Titan - 'Guren no Yumiya' (Opening) _ ENGLISH ver _ AmaLee-lTGElV-2GQk.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Evangelion - 'Cruel Angel's Thesis' (FULL Opening) _ ENGLISH ver _ AmaLee-ZmJ5oBdJTXQ.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Sword Art Online - 'Overfly' (Ending) _ ENGLISH ver _ AmaLee-rBXz0hO8C1g.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Naruto Shippuden - 'Closer' (Opening) _ ENGLISH ver _ AmaLee & PelleK-bnbG4hFIXEA.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Guilty Crown - 'Departures' (Ending) _ ENGLISH ver _ AmaLee-bHtKt1xP6Oc.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Arslan Senki - 'Lapis Lazuli' (Ending) _ ENGLISH ver _ AmaLee & Miku-tan)-_de94rSr8m8.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Sword Art Online II - 'Courage' (Opening) _ ENGLISH ver _ AmaLee-0tn5g2pF5PU.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Aldnoah.Zero - 'Heavenly Lies' (aLIEz & Heavenly Blue Mashup) _ ENGLISH ver _ AmaLee-MkELGbT9_jM.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Magi - The Labyrinth of Magic - 'The Bravery' (Ending) _ ENGLISH ver _ AmaLee-fNigFYpXc8s.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/No Game No Life - 'This Game' (Opening) _ ENGLISH ver _ AmaLee-stlbq_w3zrY.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Pokémon - 'Pokémon Theme' (FULL Opening) _ AmaLee (ft. Natewantstobattle)-prt1jjuivM8.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Sword Art Online - Ordinal Scale - 'Catch The Moment' _ ENGLISH ver _ AmaLee-tBp75SOP7Is.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Aldnoah.Zero - 'aLIEz' (FULL Ending) _ ENGLISH ver _ AmaLee-9G9CPZ8Zd7k.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Sword Art Online II - 'Ignite' (Opening) _ ENGLISH ver _ AmaLee-9qLJWh1eY_c.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/The Irregular at Magic High - 'Rising Hope' (Opening) _ ENGLISH ver _ AmaLee-PCJdbCVuAO8.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Bungou Stray Dogs 2 - 'Reason Living' (Opening) _ ENGLISH ver _ AmaLee-ybdEhvdWlS4.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Sword Art Online - 'Innocence' (FULL Opening) _ ENGLISH ver _ AmaLee-X0ue4VZ0Nv8.m4a
+May 28 14:11 : update: added yt/amalee/m4a/001-020/Gurren Lagann - 'Sorairo Days' (FULL Opening) _ ENGLISH ver _ AmaLee-junUjHUmGF8.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Full Metal Panic - 'Sore Ga, Ai Deshou' (Opening) _ ENGLISH ver _ AmaLee-08a5wuy9SuA.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Kyary Pamyu Pamyu - 'PONPONPON' _ ENGLISH ver _ AmaLee-qe8BleTkZyA.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Guilty Crown - 'My Dearest' (Opening) _ ENGLISH ver _ AmaLee-a-nauksf7sw.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Yumekui Merry - 'Daydream Syndrome' (Opening) _ ENGLISH ver _ AmaLee-2EcdzPkLrZg.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Tokyo Mew Mew - 'My Sweet Heart' _ ENGLISH ver _ AmaLee-1ieSViv2zDM.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/My Hero Academia - 'Sora ni Utaeba' (Opening 3) _ ENGLISH Ver _ AmaLee-L5chBq-vTWU.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Izetta - The Last Witch - 'Cross The Line' (Opening) _ ENGLISH Ver _ AmaLee-pvpgz9NJ4bc.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Attack on Titan - 'Reluctant Heroes' - Lullaby _ AmaLee ver-bOFhatyCEhQ.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Naruto Shippuden - 'Lovers' (Opening) _ ENGLISH Ver _ AmaLee-4X1jZW9j66I.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Aldnoah.Zero - 'Heavenly Blue' (Opening) _ ENGLISH ver _ AmaLee-onSjMeURIiA.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/K-ON!! - 'Listen!!' (Ending) _ ENGLISH ver _ AmaLee-gBiF8ULimE4.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Tokyo Ghoul √A - 'Glassy Sky' (FULL) _ AmaLee ver-E-cvKiFf0n0.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Parasyte - 'Let Me Hear' (FULL Opening) _ ENGLISH ver _ AmaLee-pAAmkocOGwY.m4a
+May 28 14:11 : update: added yt/amalee/m4a/041-060/Guilty Crown - 'Bios Delta' (βίος-δ) _ ENGLISH ver _ AmaLee-Om7J4cMpxU0.m4a
+May 28 14:11 : update: added yt/gamechops/GameChops_ZeldaAndChill.m4a
+May 28 14:11 : update: added yt/kingdomhearts/Chirithy_KingdomHeartsIIOST.m4a
+May 28 14:11 : update: added yt/kingdomhearts/OfficialVideogamesSoundtracksOST_KingdomHeartsIOST.m4a
+May 28 14:11 : update: added yt/kingdomhearts/ThornedKnight_KingdomHeartsIIIOST.m4a
+May 28 14:11 : update: added yt/lofihiphop/LofiHipHop_SoulituneIntimacy.m4a
+May 28 14:11 : update: added yt/lofihiphop/LofiHipHop_ChuckeeGoinFar.m4a
+May 28 14:11 : update: added yt/synth/Synth_AtCafe.m4a
+May 28 14:11 : update: added yt/chillplace/ChillPlace_ZeldaAndLofi.m4a
+May 28 14:11 : update: added yt/chillplace/ChillPlace_FinalFantasyIX.m4a
+May 28 14:11 : update: added yt/chillplace/ChillPlace_PokemonAndLofi.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/Bin boy(빈보이) - I Never Wanna Leave This Bed-exe-EDaJTaE.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/BENJAMIN -KEY - Singing In The Rain-mqWJC_9lZ64.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/asokah - I always smile, but my eyes are sad-FiyXZhH4HCM.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/YOOYONGSOO - 10am-lAWuxww28b0.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/wofy - . (w_ plan8)-_7CAg8E9r9E.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/wellcheeze - 뭉게구름이 피어나고 두리둥실 춤을 춘다-kZiXN5M3Q4Y.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/Sweet William - Walkin-smrH3com5X8.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/Sun Yehoshua - heartbreaker-0SFvFfanRmc.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/Stay Tuned - are you there-BX3l8gkKJb4.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/Soulitune - Maturity-n9vntePm4Lo.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/Soulitune - Intimacy-iNJ-Zq9sT8Y.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/slipfunc - cherry smile-x5VhS0_xchw.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/potsu - lovesick-mHWvPzICJfQ.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/Piano Shoegazer - Ghostly Love-kzu8noO1MLk.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/omar - away from here-R8PRQZd-_oE.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/nawhij - with you-sls44rlHpRg.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/MRSJ - Arrietty-HWfjhNkDhd4.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/Kid in Seoul - the memories we’ve shared, the times we’ve spent-uYDtRe8phEU.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/iwamizu - The Girl from France-YQsnpok9JC8.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/edenbyeden - nightcall-dvGSbgpgK50.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/chuckee. - goin far (version 2)-MFf3-hXwRcs.m4a
+May 28 14:11 : update: removing yt/mellowbeatseeker/burbank - a saint-PJCJnn2Z43E.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_Wofy_plan8.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_PianoShoegazerGhostlyLove.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_WellCheeze.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_SweetWilliam_Walkin.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_BurbankASaint.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_MRSJArrietty.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_IwamizuTheGirlFromFrance.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_OmarAwayFromHere.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_SunYehoshuaHeartbreaker.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_StayTuned_AreYouThere.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_AsokahIAlwaysSmileButMyEyesAreSad.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_SoulituneMaturity.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_NawhijWithYou.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_EdenByEdenNightcall.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_BinBoyINeverWannaLeaveThisBed.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_YOOYONGSOO_10am.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_BENJAMINKEYSingingInTheRain.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_KidInSeoul_TheMemoriesWeveSharedTheTimesSeveSpent.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_PotsuLovesick.m4a
+May 28 14:11 : update: added yt/mellowbeatseeker/MellowbeatSeeker_SlipfuncCherrySmile.m4a
+May 28 14:11 : update: removing yt/chilledcow/Artesia. - Her-1RyGw9ofNCA.m4a
+May 28 14:11 : update: removing yt/chilledcow/Aso - Loungin-cLUrYRUxvEY.m4a
+May 28 14:11 : update: removing yt/chilledcow/boxboys - disability-HrMALvLN5Xo.m4a
+May 28 14:11 : update: removing yt/chilledcow/BLVK. - under the trees ｡゜-cr9B3Ma9NUo.m4a
+May 28 14:11 : update: removing yt/chilledcow/nikom w_ squid ethics-vQ2mrzaBp9o.m4a
+May 28 14:11 : update: removing yt/chilledcow/Neoplasma - thinking about you (w. Oui Lele)-yRidRbA4lks.m4a
+May 28 14:11 : update: removing yt/chilledcow/mattdeguia - daylight-5g0R6xdNy4s.m4a
+May 28 14:11 : update: removing yt/chilledcow/Matt Quentin - Waves-d8WVILsTWLw.m4a
+May 28 14:11 : update: removing yt/chilledcow/Matt Quentin - Home-tgRC1otV7p4.m4a
+May 28 14:11 : update: removing yt/chilledcow/Kazam ☾ - raindrops-9eX7lIuSE4M.m4a
+May 28 14:11 : update: removing yt/chilledcow/Kalaido - Hanging Lanterns-xzXemfeXkZw.m4a
+May 28 14:11 : update: removing yt/chilledcow/just big hills - Shinjuku-G85eCKo0fpI.m4a
+May 28 14:11 : update: removing yt/chilledcow/Joakim Karud - Dreams-rQO8escJC78.m4a
+May 28 14:11 : update: removing yt/chilledcow/flovry - car radio-J4IDQ4hHh7w.m4a
+May 28 14:11 : update: removing yt/chilledcow/charlie toØ human - Walk In The Park-cXnRtgl2bfQ.m4a
+May 28 14:11 : update: removing yt/chilledcow/けｍ SURF - Take Care-HTNXz6WspCU.m4a
+May 28 14:11 : update: removing yt/chilledcow/けｍ SURF - 6am-RTcv4sMCq3M.m4a
+May 28 14:11 : update: removing yt/chilledcow/tymú - walk with me-a9CIRuoSaR8.m4a
+May 28 14:11 : update: removing yt/chilledcow/Tom Misch - Wonder (Aso Remake)-bivy0KZE-10.m4a
+May 28 14:11 : update: removing yt/chilledcow/sugiwa - remember me-w4DufcPodLw.m4a
+May 28 14:11 : update: removing yt/chilledcow/steezy prime - explore-IGNwBFUeNXk.m4a
+May 28 14:11 : update: removing yt/chilledcow/potsu x lando! - breakfast-EHUUfLj-JFA.m4a
+May 28 14:11 : update: removing yt/chilledcow/Orca Vibes - Gypsy-naKpYLqymOs.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_KazamRaindrops.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_BoxBoysDisability.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_PotsuxLandoBreakfast.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_BLVKUnderTheTrees.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_SteezyPrimeExplore.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_FlovryCarRadio.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_KalaidoHangingLanterns.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_CharlieTooHuman_WalkInThePark.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_OrcaVibesGypsy.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_Nikomw_SquidEthics.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_TomMischWonder.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_SugiwaRememberMe.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_ArtesiaHer.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_MattQuentinWaves.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_MattQuentinHome.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_JoakimKarudDreams.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_NeoplasmaThinkingAboutYou.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_MattdeguiaDaylight.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_SURF6am.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_SURFTakeCare.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_JustBigHillsShinjuku.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_AsoLoungin.m4a
+May 28 14:11 : update: added yt/chilledcow/ChilledCow_TymuWalkWithMe.m4a
+May 28 14:11 : update: added yt/neowavemusic/NeowaveMusic_BotWLofi.m4a
+May 28 14:11 : update: added yt/nintendoandchill/NintendoAndChill_nintendoadlofi2.m4a
+May 28 14:11 : update: added yt/nintendoandchill/NintendoAndChill_nintendoadlofi1.m4a
+May 28 14:11 : update: added yt/nintendoandchill/NintendoAndChill_nintendoadlofi3.m4a
+May 28 15:08 : client: [5] opened from 127.0.0.1:43324
+May 28 15:08 : client: [5] closed
+May 28 15:08 : client: [6] opened from 127.0.0.1:43328
+May 28 15:08 : client: [6] closed
+May 28 15:09 : client: [7] opened from 127.0.0.1:43370
+May 28 15:09 : client: [7] closed
+May 28 15:09 : client: [8] opened from 127.0.0.1:43374
+May 28 15:09 : client: [8] closed
+May 28 15:10 : client: [9] opened from 127.0.0.1:43426
+May 28 15:10 : client: [9] closed
+May 28 15:10 : client: [10] opened from 127.0.0.1:43430
+May 28 15:10 : client: [10] closed
+May 28 15:10 : client: [11] opened from 127.0.0.1:43434
+May 28 15:10 : client: [11] closed
+May 28 15:10 : client: [12] opened from 127.0.0.1:43438
+May 28 15:10 : client: [12] closed
+May 28 15:11 : client: [0] closed
+May 28 17:05 : client: [13] opened from 127.0.0.1:47832
+May 28 17:05 : client: [13] closed
+May 28 17:05 : client: [14] opened from 127.0.0.1:47836
+May 28 17:05 : client: [14] closed
+May 28 17:46 : client: [3] closed
+May 28 17:46 : client: [2] closed
+May 28 17:46 : player: played "yt/cloakanddagger/season1/Morgxn_Home.m4a"

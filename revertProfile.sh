@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 # Revert configurations back to original profile
-# Finds all backup files [all files and directories ending in
+# Finds all backup files [all files and directories ending in 
 # $bakext] and replaces them with their respective dot file name
 #
 # For example, if the backup file ~/.dotify/.vimrc.yanbak exists, it replaces
