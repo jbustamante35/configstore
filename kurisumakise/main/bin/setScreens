@@ -1,0 +1,19 @@
+#!/bin/sh
+# Set single or dual display
+
+num="$1"
+layouts="$HOME"/.screenlayout
+
+case $num in
+    1)
+        "$layouts"/singleScreen.sh
+        ;;
+
+    2)
+        "$layouts"/dualScreen.sh
+        ;;
+    *)
+        "$layouts"/singleScreen.sh
+        ;;
+esac
+

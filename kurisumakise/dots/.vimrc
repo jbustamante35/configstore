@@ -1,0 +1,1 @@
+/home/jbustamante/.config/nvim/init.vim

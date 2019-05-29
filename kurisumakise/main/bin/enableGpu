@@ -1,0 +1,40 @@
+#!/bin/sh
+# Taken from forum answer to get nvidia driver with bumblebee working
+# See reply from Graff:
+# https://bbs.archlinux.org/viewtopic.php?id=238389
+#
+# Usage:
+# ## Final remarks
+# 1. Reboot and verify that nvidia is not loaded ```lsmod | grep nvidia```
+# 2. Disconnect charger and verify on *powertop* that power consumption is ~4W
+#       on idle (Dell XPS 4k, undervolt -168mV core / -145mV cache, disabled
+#       touchscreen, powertop --auto-tune)
+# 3. Enable GPU by using script.
+# 4. Verify if GPU is loaded by using ```nvidia-smi```
+# 5. Run unigine-valley ```optirun unigine-valley```
+# 6. Close all nvidia applications and disable gpu.
+# 7. Check again power consumption, it should have similar value as before.
+
+# Allow to load nvidia module
+mv /etc/modprobe.d/disable-nvidia.conf /etc/modprobe.d/disable-nvidia.conf.disable
+
+# remove NVIDIA card (currently in power/control = auto)
+echo -n 1 > /sys/bus/pci/devices/0000\:01\:00.0/remove
+sleep 1
+# change PCIe power control
+echo -n on > /sys/bus/pci/devices/0000\:00\:01.0/power/control
+sleep 1
+# rescan for NVIDIA card (defaults to power/control = on)
+echo -n 1 > /sys/bus/pci/rescan
+
+## Additional comment from this site:
+# I tried solution above and it worked but I had to add one more step: I had to
+# ran `modprobe nvidia` after executing enableGpu.sh . Another user had same
+# effect by running `nvidia-smi` (which also loads nvidia module). So if you
+# get `Cannot access secondary GPU` or any similar error with this method,
+# try adding `modprobe nvidia` to last line of the enableGpu.sh script. Be
+# careful when testing though, in my case, `unigine-valley` did not teminate
+# properly so I could not unload nvidia module. I had to manually kill `
+# valley_x64` process to unload it.
+
+# modprobe nvidia;

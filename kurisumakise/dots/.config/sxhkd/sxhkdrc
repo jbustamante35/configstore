@@ -1,0 +1,404 @@
+#                  `                                  `
+#              `,+ `                        `      ,`#
+#             +#`,:``                       ``    '`@``+`
+#           `; :# '  `                        `   `@``@,
+#           #, `: ,      ``                      ``#`  : :
+#           ;+ # ,               ++++++++++++++`   ; .+``+
+#           ; #. '         `     @@@@@@@@@@@@@@`     ;#, #
+#             #  :       `:'      @      ;. '@,      '.@
+#          ,: #; ,        #`      @      ;` ;@+      .`@ +
+#          . @,.+#       .@@     .#      ;` .@#    `'+` ;'
+#          `@; ,+`       .@@   ` +:      ;`  @@     +:#,+;
+#      `   #`#`# +       `@@    `@`@`    ;`  @@     ,`@,.;`
+#          + ; +.,        #   `.,#,,#,```',` @@     @'` +.`
+#         ``@'`,@`  `'@@@@@@@@@@@`+@#@@@@@+''@@     ,'; '#``
+#          +`#;;,;  +@@,,,@@@@@@@.@+#@@#` .;`. `    @ +`;:.``
+#         `' + # .  +@@`.`#@@@@@@:@##@+ #@@@@@#     @`: @.`  `
+#           @'`+@.  +@@:,:#@@@@@@'@@#@ @@@@#@@@@`    #+`##    `
+#          ' ;`,;+  +@@@@+@@@@@@@+@@@`#@@;   .@@#   @`',.,
+#          ;`+ + :  +@#  `  :@@@@@#@# @@: :@+ `@@`  @`, +,
+#           @'`##   ''`##@@@.,@@@@,:..@@ ;@+@@ +@#  `@#'#+
+#            @++      @@@@@@@ #@@@@@:#@@ @' `@ :@@    ##;
+#            .@'     `@@.  +@+`@@@@#;.@@ @@ ;@ '@+  ` @@
+#             #`    `:@#.`#`@@       .@@` @@@, @@+   `+`
+#             :,   ` :@@`'+.@@       `@@@  `` +#@     @
+#              +    ``@@, `@@;         @@@+.;@#@:     @
+#              @     `'@@@@@@          `@#@@@@@:     `+
+#              '`      :@@@'             :#@#+```    #`
+#               @      `                        `    @
+#               ',      `                        `  @`
+#
+#                   ###### #### ###### #     # #######
+#                    #   # #     #   # #  #  # #  #  #
+#                   ###### #### ###### #  #  # #  #  #
+#                    #   #    #  #     #  #  # #  #  #
+#                   ###### ####  #     ####### #     #
+#
+####################### SXHD Shortcuts and Keybindings ########################
+
+
+###############################################################################
+############################## Hardware Control ###############################
+###############################################################################
+
+########################### Window Manager Control ############################
+# sxhkdrc [reload | quit/restart | close/kill]
+super + c
+    pkill -USR1 -x sxhkd
+
+super + alt + {z,c}
+    bspc {quit,wm -r}
+
+super + {_,shift + }q
+    bspc node -{c,k}
+
+# power control [suspend | shutdown prompt]
+super + shift + p
+    systemctl suspend && lockScreen
+
+alt + Delete
+    ~/.config/polybar/scripts/i3shutdown
+
+############################### Volume Control ################################
+XF86AudioMute
+    pulseaudio-ctl mute
+
+XF86AudioRaiseVolume
+    pulseaudio-ctl up 05
+
+shift + XF86AudioRaiseVolume
+    pulseaudio-ctl up 10
+
+ctrl + XF86AudioRaiseVolume
+    pulseaudio-ctl up 01
+
+XF86AudioLowerVolume
+    pulseaudio-ctl down 05
+
+shift + XF86AudioLowerVolume
+    pulseaudio-ctl down 10
+
+ctrl + XF86AudioLowerVolume
+    pulseaudio-ctl down 01
+
+############################# Brightness Control ##############################
+XF86MonBrightnessDown
+    xbacklight -dec 5
+
+shift + XF86MonBrightnessDown
+    xbacklight -dec 10
+
+XF86MonBrightnessUp
+    xbacklight -inc 5
+
+shift + XF86MonBrightnessUp
+    xbacklight -inc 10
+
+############################### Display Control ###############################
+# Display control [xrandr]
+alt + w
+    setScreens 1
+
+alt + shift + w
+    setScreens 2
+
+###############################################################################
+################################ Applications #################################
+###############################################################################
+
+############################### Main Utilities ################################
+# Terminals [urxvtc , tmux , kitty]
+super + Return
+    urxvt
+
+super + shift + Return
+    primusrun kitty
+
+super + grave
+    urxvtc
+
+alt + grave
+    urxvtc -e tmux
+
+super + n
+    urxvtc
+
+super + shift + n
+    urxvtd -q -o -f
+
+super + b
+    kitty -e tmux
+
+super + shift + b
+    primusrun kitty -e tmux
+
+# Program launcher
+super + d
+    rofi_run
+
+ctrl + alt + d
+    switchRofi
+
+# System Utilities [ranger , htop , gotop ]
+super + r
+    urxvt -e ranger
+
+super + ctrl + r
+    romoji
+
+super + ctrl + p
+    clippw lb primary
+
+alt + ctrl + p
+    clippw etc primary
+
+shift + ctrl + p
+    clippw glab primary
+
+super + ctrl + h
+    urxvt -name htop -e htop
+
+alt + ctrl + h
+    urxvt -name gotop -e gotop -p -b -s -r 2
+
+############################### Misc Utilities ################################
+# Browsers [brave , firefox , qutebrowser , surf]
+super + shift + f
+    firefox
+
+super + shift + g
+    brave
+
+super + shift + h
+    qutebrowser
+
+ctrl + shift + h
+    surf google.com
+
+alt + shift + f
+    primusrun firefox
+
+alt + shift + g
+    primusrun brave
+
+alt + shift + h
+    primusrun qutebrowser
+
+## Misc applications [touchpad, mpd, screenshot, screenrecord, vimwiki]
+# Touchpad
+alt + t
+    touchpadctl dev
+
+ctrl + super + t
+    touchpadctl tap
+
+# MPD
+XF86AudioPrev
+    mpc prev
+
+XF86AudioPlay
+    mpc toggle
+
+XF86AudioNext
+    mpc next
+
+# VimWiki
+alt + o
+    urxvt -e nvim -c :VimwikiDiaryIndex
+
+alt + p
+    urxvt -e nvim -c :VimwikiMakeDiaryNote
+
+# Function applications [Fn Keys]
+super + XF86AudioMute
+    optirun -b primus nvidia-settings -c :8
+
+super + XF86AudioLowerVolume
+    primusrun gpmdp
+
+super + XF86AudioRaiseVolume
+    primusrun spotify
+
+super + XF86AudioPrev
+    primusrun droidsurf
+
+super + XF86AudioPlay
+    primusrun caprine
+
+super + XF86AudioNext
+    primusrun yakyak
+
+super + F7
+    primusrun slack
+
+super + XF86Display
+    primusrun discord
+
+super + XF86Search
+    primusrun krita
+
+# Must hold Fn key [can't override keyboard brightness]
+super + F10
+    primusrun inkscape
+
+super + XF86MonBrightnessDown
+    primusrun gimp
+
+super + XF86MonBrightnessUp
+    primusrun fiji
+
+# Alternative Function applications [Alt + Fn Keys]
+alt + XF86AudioMute
+    pamac-manager
+
+alt + XF86AudioLowerVolume
+    urxvt -name ncmpcpp -e ncmpcpp
+
+#alt + XF86AudioRaiseVolume
+alt + F3
+    urxvt -name pulsemixer -e pulsemixer
+
+#alt + XF86AudioPrev
+alt + F4
+    arandr
+
+alt + XF86AudioPlay
+    optirun -b primus steam
+
+alt + XF86AudioNext
+    urxvt -e nvim -c :Calendar
+
+alt + F7
+    urxvt -name conkyconf -e nvim ~/.config/conky/notepad/todo.md
+
+# Must hold Fn key [can't override odd paste function]
+alt + F8
+    urxvt -name conkyconf -e nvim ~/.config/conky/notepad/shopping.md
+
+alt + XF86Search
+    setkbmap -option "caps:swapescape"
+
+# Must hold Fn key [can't override keyboard brightness]
+alt + F10
+    xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources
+
+alt + XF86MonBrightnessDown
+    regencolors colorthief 1 -l
+    #regencolors $WALEND 1 -l
+
+alt + XF86MonBrightnessUp
+    regencolors colorthief 1
+    #regencolors $WALEND 1
+
+
+###############################################################################
+############################# General Navigation ##############################
+###############################################################################
+
+############################## Navigate Focus #################################
+# Focus node in given direction
+super + {_,shift + }{j,k,l,semicolon}
+    bspc node -{f,s} {west,south,north,east}
+
+# Focus node for given path jump
+super + {p,b,comma,period}
+    bspc node -f @{parent,brother,first,second}
+
+# Focus next/previous node in current desktop
+super + {_,shift + }c
+    bspc node -f {next,prev}.local
+
+# Focus next/previous desktop in current monitor
+super + bracket{left,right}
+    bspc desktop -f {prev,next}.local
+
+super + shift + bracket{left,right}
+    bspc node -d {prev,next}.local
+
+# Focus last node/desktop
+super + Tab
+    bspc desktop -f last
+
+# Focus older or newer node in focus history
+super + {o,i}
+    bspc wm -h off; \
+    bspc node {older,newer} -f; \
+    bspc wm -h on
+
+########################### Move Between Workspaces ###########################
+# Focus or send to given desktop
+super + {_,shift + }{1-9,0}
+    bspc {desktop -f,node -d} '^{1-9,10}'
+
+# Use alt + 1-5 to send to secondary display
+alt + {_,shift + }{1,2,3,4,5}
+    bspc {desktop -f,node -d} '^{6,7,8,9,10}'
+
+# Move focus to next desktop
+super + {_,shift + }w
+        bspc {monitor -f next,node -m next}
+
+#super + w
+#        bspc monitor -f next
+
+# Preselect the direction/ratio
+super + ctrl + {j,k,l,semicolon}
+    bspc node -p {west,south,north,east}
+
+super + ctrl + {1-9}
+    bspc node -o 0.{1-9}
+
+# Set split orientation [h: horizontal (east) | v: vertical (south)]
+super + {h,v}
+    bspc node -p {east,south}
+
+# Cancel the preselection for the focused node/desktop
+super + ctrl + space
+    bspc node -p cancel
+
+super + ctrl + shift + space
+    bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+############################### Resize Windows ################################
+# Expand window by moving one side outward
+super + shift + {y,u,i,o}
+    bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+shift + alt + {y,u,i,o}
+    bspc node -z {left -50 0,bottom 0 50,top 0 -50,right 50 0}
+
+# Contract window by moving one side inward
+super + ctrl + shift + {y,u,i,o}
+    bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+alt + ctrl + shift + {y,u,i,o}
+    bspc node -z {right -50 0,top 0 50,bottom 0 -50,left 50 0}
+
+# Move floating window
+super + {Left,Down,Up,Right}
+    bspc node -v {-20 0,0 20,0 -20,20 0}
+
+super + shift + {Left,Down,Up,Right}
+    bspc node -v {-50 0,0 50,0 -50,50 0}
+
+############################### Window Layouts ################################
+# Alternate between tiled/monocle layout
+super + m
+    bspc desktop -l next
+
+# Send newest marked node to newest preselected node
+super + y
+    bspc node newest.marked.local -n newest.!automatic.local
+
+# Swap current node and biggest node
+super + g
+    bspc node -s biggest
+
+# Set window state and node flags
+super + {t,shift + t,shift + space,f}
+    bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+super + ctrl + {m,x,y,z}
+    bspc node -g {marked,locked,sticky,private}
+
+
