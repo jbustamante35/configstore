@@ -1,17 +1,17 @@
+!! Global Settings
+*antialias: true
+*autohint:  true
+
 !! URxvt configuration
 ! Settings
 URxvt.termName:         rxvt-256color
-URxvt.font:             xft:inconsolata:pixelsize=20:minspace=True, \
-                        xft:inconsolata:size=20
-URxvt.boldfont:         xft:inconsolata:pixelsize=25:minspace=True, \
-                        xft:inconsolata:pixelsize=25
 URxvt.saveLines:        10000
 
 !! Transparency
 ! real
 URxvt*depth: 32
 !URxvt*background:       [75]#000000
-URxvt*background:       [100]#000000
+URxvt*background:       [90]#000000
 
 ! fake transparency
 !URxvt*transparent:      true
@@ -28,6 +28,29 @@ URxvt.iso14755:         false
 URxvt.iso14755_52:      false
 URxvt.internalBorder:   5
 
+!! Fonts
+#define font1 Inconsolata
+#define font2 Droid Sans
+#define font3 Source Code Pro
+#define font4 DejaVu Sans
+
+URxvt.font:             xft:font1:pixelsize=20:minspace=True, \
+                        xft:font2:pixelsize=20:minspace=True, \
+                        xft:font3:pixelsize=20:minspace=True, \
+                        xft:font4:pixelsize=20:minspace=True
+URxvt.boldfont:         xft:font1:pixelsize=20:minspace=True, \
+                        xft:font2:pixelsize=20:minspace=True, \
+                        xft:font3:pixelsize=20:minspace=True, \
+                        xft:font4:pixelsize=20:minspace=True
+URxvt.italicfont:       xft:font1:pixelsize=20:minspace=True, \
+                        xft:font2:pixelsize=20:minspace=True, \
+                        xft:font3:pixelsize=20:minspace=True, \
+                        xft:font4:pixelsize=20:minspace=True
+URxvt.bolditalicfont:   xft:font1:pixelsize=20:minspace=True, \
+                        xft:font2:pixelsize=20:minspace=True, \
+                        xft:font3:pixelsize=20:minspace=True, \
+                        xft:font4:pixelsize=20:minspace=True
+
 !! Extensions and Plugins
 ! Main
 URxvt.perl-lib:         ~/.urxvt/ext/
@@ -43,7 +66,7 @@ URxvt.keysym.M-v:         perl:clipboard:paste
 URxvt.keysym.M-C-v:       perl:clipboard:paste_escaped
 
 ! url-select
-URxvt.keysym.M-l:            perl:url-select:select_next
+URxvt.keysym.M-m:            perl:url-select:select_next
 URxvt.url-select.autocopy:   true
 URxvt.url-select.button:     2
 URxvt.url-select.launcher:   surf
@@ -55,10 +78,10 @@ URxvt.keysym.M-s:                 perl:keyboard-select:search
 URxvt.keyboard-select.clipboard:  true
 
 !! resize-font
-URxvt.keysym.M-j:         resize-font:smaller
-URxvt.keysym.M-k:         resize-font:bigger
-URxvt.keysym.M-equal:     resize-font:reset
-URxvt.keysym.M-question:  resize-font:show
+URxvt.keysym.C-minus:         resize-font:smaller
+URxvt.keysym.C-plus:         resize-font:bigger
+URxvt.keysym.C-equals:         resize-font:reset
+URxvt.keysym.C-question:  resize-font:show
 
 !! Matcher
 URxvt.url-launcher:    surf

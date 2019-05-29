@@ -1,9 +1,13 @@
+.Xresources
 .aliases
+.functions
+.vimrc
+.xinitrc
+.zshrc
 bin
 compton
 conky
 dunst
-.functions
 i3
 i3blocks
 lock.png
@@ -15,9 +19,5 @@ ranger
 rofi
 rtv
 tmux
-.vimrc
 wall.png
-.xinitrc
-.Xresources
 zathura
-.zshrc

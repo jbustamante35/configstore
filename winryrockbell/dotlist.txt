@@ -1,3 +1,4 @@
+.Xresources
 .aliases
 .bash_profile
 .config
@@ -16,6 +17,5 @@
 .vimrc
 .weatherreport
 .xinitrc
-.Xresources
 .zprofile
 .zshrc
