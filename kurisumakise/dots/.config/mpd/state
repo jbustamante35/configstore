@@ -1,0 +1,66 @@
+sw_volume: 100
+audio_device_state:0:pulse audio
+audio_device_state:1:mpd alsamixer-output
+audio_device_state:1:toggle_visualizer
+state: pause
+current: 1
+time: 248.733000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:yt/torikelly/Hallelujah_ToriKelly.m4a
+1:yt/theishter/AngelBeatsED_BraveSong.m4a
+2:yt/theishter/AttackonTitanOP_GurennoYumiya.m4a
+3:yt/theishter/AttackonTitanSeason2OP_ShinzouwoSasageyo!.m4a
+4:yt/theishter/BlueExorcistSeason2OP_IttekinoEikyou.m4a
+5:yt/theishter/BokuDakegaInaiMachiED_SorewaChiisanaHikarinoYouna(ERASEDED).m4a
+6:yt/theishter/BokuDakegaInaiMachiOP_ReRe(ERASEDOP).m4a
+7:yt/theishter/BokuDakegaInaiMachiOST_ERASEDSoundtrack.m4a
+8:yt/theishter/BokunoHeroAcademiaOP_THEDAY.m4a
+9:yt/theishter/BokunoHeroAcademiaSeason2OP_PeaceSign.m4a
+10:yt/theishter/BokunoPicoOP_KoiwoShiyouyo.m4a
+11:yt/theishter/BokuranoOP_Uninstall.m4a
+12:yt/theishter/EromangaSenseiOP_Hitorigoto(Piano).m4a
+13:yt/theishter/FateApocryphaOPFULL_EiyuuUnmeinoUta.m4a
+14:yt/theishter/FinalFantasyXVOST_MainTheme(Somnus)ft.xclassicalcatx.m4a
+15:yt/theishter/GuiltyCrownOP_MyDearest(fullversion).m4a
+16:yt/theishter/GuiltyCrownOST_Krone.m4a
+17:yt/theishter/HaitoGensounoGrimgarED_Harvest.m4a
+18:yt/theishter/HaitoGensounoGrimgarOP_KnewDay.m4a
+19:yt/theishter/KabanerioftheIronFortressED_Ninelie.m4a
+20:yt/theishter/KabanerioftheIronFortressOP_KabanerioftheIronFortress.m4a
+21:yt/theishter/KiminonawaOST_KatawareDoki(Piano).m4a
+22:yt/theishter/KiminonawaOST_Nandemonaiya(Mitsuha'sversion).m4a
+23:yt/theishter/KiminonawaOST_Sparkle(piano).m4a
+24:yt/theishter/KiminonawaOST_ZenZenZense.m4a
+25:yt/theishter/KoenoKatachiOST_Lit.m4a
+26:yt/theishter/KOn!_ThemeSong.m4a
+27:yt/theishter/LoveLive!_SnowHalation.m4a
+28:yt/theishter/MusaigennoPhantomWorldOP_NAKEDDIVE.m4a
+29:yt/theishter/OnePunchManOP_THEHERO!!.m4a
+30:yt/theishter/OnePunchManOST_MainTheme.m4a
+31:yt/theishter/ReZeroED2_STAYALIVE[REMISTHEBESTGIRLINANIMEHISTORY].m4a
+32:yt/theishter/ReZerokaraHajimeruIsekaiSeikatsuED_STYXHELIX.m4a
+33:yt/theishter/ReZerokaraHajimeruIsekaiSeikatsuOP_REDO.m4a
+34:yt/theishter/ReZeroOP2_ParadisusParadoxum.m4a
+35:yt/theishter/ReZeroOST_ElegyForRem.m4a
+36:yt/theishter/ReZeroOST_Wishing.m4a
+37:yt/theishter/ShakugannoShanaOP1_HishokunoSora(PianoDuetft.Fantasiex3).m4a
+38:yt/theishter/Shelter_PorterRobinsonandMadeon(piano).m4a
+39:yt/theishter/ShigatsuwaKiminoUso(YourLieinApril)OST_WatashinoUso.m4a
+40:yt/theishter/ShigatsuwaKiminoUsoOP_HikaruNara.m4a
+41:yt/theishter/ShokugekinoSomaOP1_KibounoUta.m4a
+42:yt/theishter/SwordArtOnlineOST_InYourPast_ATenderFeeling.m4a
+43:yt/theishter/TokyoGhoulOP–Unravel(Acoustic)_mpkVCBqDSU0.m4a
+44:yt/theishter/VioletEvergardenOST_SoundtrackTheme.m4a
+45:yt/theishter/YouCanBecomeAHero!_BokunoHeroAcademiaOST(Piano).m4a
+46:yt/theishter/YourLieinAprilOST_Again.m4a
+47:yt/theishter/Yuri!!!OnICEOP_HistoryMaker.m4a
+48:yt/theishter/Yuri!!!onIceOST_ThemeofKingJJ.m4a
+49:yt/theishter/Yuri!!!onIceOST_YurionIce.m4a
+playlist_end

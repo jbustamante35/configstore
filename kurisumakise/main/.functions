@@ -1,0 +1,71 @@
+#############
+# FUNCTIONS #
+#############
+
+# create directory and move to it
+mvcd () {
+	mkdir $1;
+	cd $1;
+}
+
+# move to directory and show contents
+cl () {
+	cd $1 && la -F;
+}
+
+# check current status of dropbox syncing
+drchk () {
+    cd $HOME/Dropbox;
+    dropbox-cli filestatus && printf "\n" && dropbox-cli status;
+    printf "\n";
+    cd -;
+    dropbox-cli filestatus ;
+}
+
+# unzip into directory of the same name
+uz () {
+    nm=$1
+    unzip "$nm".zip -d "$nm"
+}
+
+# Reload color schemes
+clrs () {
+    xrdb -load ~/.cache/wal/colors.Xresources;
+    xrdb -merge ~/.Xresources;
+}
+
+# compile and run kotlin program
+kotlinr () {
+    echo Compiling, please wait...
+	kotlinc $1 -include-runtime -d out.jar
+	java -jar out.jar
+}
+
+# Reset pywal source colors and choose backend
+wali () {
+    bak="$1"
+    sat="$2"
+
+    wal -c ;
+    clrs ;
+    wal --backend "$bak" -i ~/.config/wall.png --saturate "$sat" -q
+
+}
+
+# Select video player and video type from current directory [default mpv]
+mvid () {
+    vt="$1"
+    pl="$2"
+
+    case "$pl" in
+        "")
+            mpv "$(ls *"$vt" | dmenu -l 30)"
+            #ls *"$vt" | dmenu -l 30 | xargs -I {} mpv "{}"
+            ;;
+        *)
+            "$pl" "$(ls *"$vt" | dmenu -l 30)"
+            #ls *"$vt" | dmenu -l 30 | xargs -I {} "$pl" "{}"
+            ;;
+    esac
+}
+

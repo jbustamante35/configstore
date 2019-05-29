@@ -1,0 +1,72 @@
+-- vim: filetype=lua
+--
+-- CONFIG
+conky.config = {
+    -- Windows
+    own_window             = true,
+    own_window_type        = 'override',
+    own_window_class       = 'Conky',
+    own_window_title       = 'Monitor Conky',
+    own_window_hints       = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    own_window_colour      = 'black',
+    own_window_transparent = true,
+
+    -- Spacing
+    use_spacer             = 'left',
+    xftalpha               = 1,
+    gap_x                  = 15,
+    gap_y                  = 50,
+
+    -- Refresh
+    update_interval        = 3,
+    cpu_avg_samples        = 8,
+    double_buffer          = true,
+    alignment              = 'top_right',
+    no_buffers             = true,
+    imlib_cache_size       = 0,
+
+    -- Borders
+    background             = true,
+    draw_shades            = false,
+    draw_borders           = false,
+    draw_outline           = false,
+    uppercase              = false,
+    stippled_borders       = 5,
+    border_inner_margin    = 5,
+    border_outer_margin    = 5,
+    border_width           = 1,
+    maximum_width          = 500,
+
+    -- Colors
+    override_utf8_locale   = true,
+    default_shade_color    = '000000',
+    default_outline_color  = '000000',
+
+    -- Fonts
+    use_xft                = true,
+    font                   = 'Cantarell:size=12',
+
+    -- Font Colors [Keys | Apps | Headin]
+    default_color = 'F8E243',
+    color2        = 'ffffff',
+    color3        = 'C9665B'
+}
+
+-- TEXT
+-- Function Key Bindings
+conky.text = [[
+${color3} ${font Cantarell} FUNCTION KEY BINDINGS (Main)
+${font} ${voffset 1} ${hr 2} $color
+${voffset 1} ${color2} ${font Cantarell} Nvidia Settings    $alignr ${color} F1
+${voffset 1} ${color2} ${font Cantarell} Google Music       $alignr ${color} F2
+${voffset 1} ${color2} ${font Cantarell} Spotify            $alignr ${color} F3
+${voffset 1} ${color2} ${font Cantarell} Android Messages   $alignr ${color} F4
+${voffset 1} ${color2} ${font Cantarell} Facebook Messenger $alignr ${color} F5
+${voffset 1} ${color2} ${font Cantarell} Google Hangouts    $alignr ${color} F6
+${voffset 1} ${color2} ${font Cantarell} Slack              $alignr ${color} F7
+${voffset 1} ${color2} ${font Cantarell} Discord            $alignr ${color} F8
+${voffset 1} ${color2} ${font Cantarell} Krita              $alignr ${color} F9
+${voffset 1} ${color2} ${font Cantarell} Inkscape           $alignr ${color} F10
+${voffset 1} ${color2} ${font Cantarell} Gimp               $alignr ${color} F11
+${voffset 1} ${color2} ${font Cantarell} Fiji               $alignr ${color} F12
+]]

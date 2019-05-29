@@ -1,0 +1,29 @@
+#!/bin/sh
+# Youtube-dl to run on a list from a text file
+# Uses my shortcut script to download in m4a filetype
+# List should be in the following format [may be changed]:
+#
+#  @ Artist1_Song1 -- No spaces! This is the filename
+#  https://url2    -- Youtube or URL to extract
+#
+#  @ Artist1_Song2 -- Sort (make an attempt to) by artists
+#  https://url3    -- Youtube or URL to extract
+#
+#  @ ArtistN_Songn -- Continue for all artists and songs
+#  https://urlNn   -- Youtube or URL to extract
+#
+# TODO:
+# [ ] Add other metadata from script
+# [ ] Make this table format in a markdown file
+#
+
+list="$1"
+ytdl="youtube-dl -f 'bestaudio[ext=m4a]'"
+
+while read fin url; do
+    #printf "${fin} - ${url}\n${ytdl} ${url} -o ${fin}\n\n"
+    printf "Downloading ${url} as ${fin}.m4a\n\n";
+    #"$ytdl '$url' -o $fin"
+    youtube-dl -f 'bestaudio[ext=m4a]' "$url" -o "$fin".m4a
+done < "$list"
+
