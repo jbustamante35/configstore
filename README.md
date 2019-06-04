@@ -13,10 +13,8 @@ The devices I'm currently tracking are:
 | :---          | :---                 | :---                  | :---                   |
 | WinryRockbell | Main ASUS laptop     | Manjaro 18.0.4        | Spalding Lab           |
 | RinTohsaka    | Dell laptop          | Arch                  | Eagle Heights          |
-| Archer (dead) | Dell laptop          | Arch                  | Eagle Heights          |
 | JDev          | Remote Desktop       | Scientific Linux 6.10 | Birge Hall Server Room |
 | Potato        | Samsung Chromebook 3 | Gallium OS            | Portable laptop        |
-| Aqua (dead)   | Samsung Chromebook 3 | Android 7.1.1         | Portable laptop        |
 | Megatron      | ACER laptop          | Arch                  | Sunshine Drive         |
 
 ## Usage

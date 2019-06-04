@@ -1,4 +1,0 @@
-.aliases
-.bashrc
-.functions
-.vimrc

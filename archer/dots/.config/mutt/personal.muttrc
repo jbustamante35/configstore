@@ -1,3 +1,0 @@
-macro index,pager i1 '<sync-mailbox><enter-command>source "/home/jbustamante/.config/mutt"/accounts/gmailjb.muttrc<enter><change-folder>!<enter>;<check-stats>'
-source /home/jbustamante/.config/mutt/accounts/gmailjb.muttrc
-macro index,pager i2 '<sync-mailbox><enter-command>source "/home/jbustamante/.config/mutt"/accounts/wiscjb.muttrc<enter><change-folder>!<enter>;<check-stats>'
