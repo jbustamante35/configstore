@@ -1,60 +1,54 @@
-# TODO [ write some documentation here ]
-#  And maybe a corny ascii art symbol
+###############################################################################
+# The following lines were added by compinstall
+zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
+zstyle ':completion:*' list-colors ''
+zstyle ':completion:*' matcher-list '' 'm:{[:lower:]}={[:upper:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} r:|[._-]=** r:|=**' 'l:|=* r:|=*'
+zstyle ':completion:*' menu select=long
+zstyle ':completion:*' select-prompt '%SScrolling active: current selection at %p%s'
+zstyle ':completion:*' use-compctl true
+zstyle :compinstall filename '/home/jbustamante/.zshrc'
 
-export PROFILE=winryrockbell # Set profile for device
-export ZSH="/home/jbustamante/.oh-my-zsh" # Path to your oh-my-zsh installation.
-
-# Set name of the theme to load
-ZSH_THEME="nanotech"
-
-# Which plugins would you like to load? Add wisely, as too many plugins slow down shell startup.
-plugins=(
-    extract
-    web-search
-    vagrant
-    cp
-    colorize
-    web-search
-)
-
-source $ZSH/oh-my-zsh.sh
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=300000
+SAVEHIST=300000
+setopt appendhistory autocd extendedglob nomatch notify
+unsetopt beep
 bindkey -v
+# End of lines configured by zsh-newuser-install
+###############################################################################
 
-# Aliases
+export PROFILE=winryrockbell
+export WALEND=schemer
+
+# Source aliases, functions, and shortcuts
 als=~/.aliases
-if [ -f ${als} ]; then
-    . ${als}
+if [ -f $als ]; then
+    source $als
 fi
 
-# Functions
-funcs=~/.functions
-if [ -f ${funcs} ]; then
-    . ${funcs}
+fncs=~/.functions
+if [ -f $fncs ]; then
+    source $fncs
 fi
 
-# Shortcuts
-shrt=~/.scripts/shortcuts.zsh
-if [ -f ${shrt} ]; then
-    . ${shrt}
-    . ~/.shortcuts
+shrt=~/.scripts/shortcuts.sh
+if [ -f $shrt ]; then
+    bash $shrt
+    source ~/.shortcuts
 fi
 
-# source additional configs
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
-source ~/.shortcuts
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# Enable zsh-completions
+autoload -U compinit && compinit
+fpath=($HOME/.zsh/zsh-completions/src $fpath)
+source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-ENABLE_CORRECTION= "true"             # Enable command auto-correction.
-COMPLETION_WAITING_DOTS= "true"       # Display red dots whilst waiting for completion.
-DISABLE_UNTRACKED_FILES_DIRTY= "true" # Disable marking untracked files under VCS as dirty. This makes repository status check for large repositories much, much faster.
+# Configure command prompt
+source $HOME/.zsh/zsh-git-prompt/zshrc.sh
 
-# Set-up local NPM package directory
-export NPM_PACKAGES="/home/jbustamante/.npm-packages"
-export NODE_PATH="$NPM_PACKAGES/lib/node_modules${NODE_PATH:+:$NODE_PATH}"
-export PATH="$NPM_PACKAGES/bin:$PATH"
-# Unset manpath so we can inherit from /etc/manpath via the `manpath` command
-unset MANPATH  # delete if you already modified MANPATH elsewhere in your config
-export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+autoload -U colors && colors
+PROMPT="%{$fg[red]%}[ %{$fg[yellow]%}%~%{$fg[red]%} ] "
 

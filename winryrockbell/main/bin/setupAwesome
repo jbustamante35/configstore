@@ -1,0 +1,36 @@
+#!/bin/sh
+
+## Startup script for Awesome WM
+
+# Kill running daemons
+killall dunst conky compton nm-applet blueman-applet optimus-manager-qt && \
+    mpd --kill ;
+
+# Set displays
+setScreens 2 intel home;
+
+# Set Xresources and wallpaper
+feh --bg-scale $HOME/.config/wall.png
+regencolors $WALEND 1
+
+# Applets [bluetooth , wifi , optimus-manager]
+nm-applet & \
+blueman-applet & \
+optimus-manager-qt &
+
+# Dropbox autostart
+#dropbox-cli autostart
+dropbox-cli start
+
+# Touchpad tap
+touchpadctl tap
+
+# MPD | Compton | Conky | Dunst
+mpd &
+bash ~/.config/conky/conky.sh &
+dunst   -config ~/.config/dunst/dunstrc &
+compton --config ~/.config/compton/compton.conf -b  ;
+
+# URxvt daemon
+urxvtd -q -o -f
+

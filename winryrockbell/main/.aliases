@@ -29,6 +29,7 @@ alias ll='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
 alias lsl='ll | less'
+alias lll='ls /*'
 
 # some work aliases
 alias ..='cl ..'
@@ -45,20 +46,23 @@ alias ph='cl /home/jbustamante/Dok/spaldingshell'
 # filesystem aliases
 alias mkdir='mkdir -pv '
 alias df='pydf -h '
-alias dolp='dolphin .'
-alias dlph='dolphin .'
+alias thun='thunar .'
+alias thnr='thunar .'
 alias mnt='mount | column -t'
-alias pping='prettyping '
-alias app='sudo aptitude '
+alias pping='prettyping'
+alias ppg='prettyping google.com'
 alias pin='sudo pacman -S'
 alias psr='pacman -Ss'
 alias prm='sudo pacman -Rsu'
 alias yin='yay  -S'
 alias ysr='yay -Ss'
 alias yrm='yay -Rsu'
-alias ain='yaourt  -S'
-alias asr='yaourt -Ss'
-alias arm='yaourt -Rsu'
+alias ain='pikaur  -S'
+alias asr='pikaur -Ss'
+alias arm='pikaur -Rsu'
+alias min='pamac install'
+alias msr='pamac search'
+alias mrm='pamac remove -o'
 
 # misc system aliases
 alias dff='df -gha'
@@ -84,8 +88,10 @@ alias alert='notify-send --urgency=low -i \
 
 # aliases to vpn to UW Madison
 #alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu --username jbustamante'
-alias vpn2me='sudo openconnect --protocol=gp uwmadison.vpn.wisc.edu -u jbustamante'
-alias vnc2me='vncviewer localhost:5902'
+alias vpn2me='sudo openconnect --protocol=gp uwmadison.vpn.wisc.edu'
+#alias sshsetsub='ssh -L 5901:localhost:5901 -N -f -l jbustamante 128.104.98.118 -p 22'
+alias sshsetdev='ssh -L 5901:localhost:5901 -N -f -l jbustamante 128.104.98.13 -p 50013'
+#alias vnc2me='vncviewer localhost:5901'
 
 # aliases to ssh with  X11 port forwarding
 alias ssh2me='ssh -C -p 50013 jbustamante@128.104.98.13 -L 5902:localhost:5902'
@@ -112,11 +118,14 @@ alias mconsole='matlab -nodesktop -nosplash'
 alias sl='sl -e'
 alias zt='zathura'
 alias cnv='convert -resize'
+alias bt='bluetoothctl'
 
 # application aliases
 alias rtv='rtv --enable-media'
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias weather='/home/jbustamante/.scripts/i3scripts/i3weather && cat /home/jbustamante/.weatherreport'
+alias rr='curl -s -L http://bit.ly/10hA8iC | bash'
+alias psay='curl parrot.live'
 
 # iRODS aliases
 alias idata='irodsFs -o allow_other $HOME/idata'

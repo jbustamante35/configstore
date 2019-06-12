@@ -121,7 +121,6 @@ let g:joy_pure = 1
 let g:instant_markdown_autostart = 0
 let g:markdown_composer_open_browser = 0
 nmap <Leader>a :ComposerOpen<CR>
-" Test
 
 " IndentGuides: Customize look of indented spaces
 let g:indent_guides_auto_color = 0
@@ -131,7 +130,7 @@ let g:indent_guides_start_level = 2
 let g:indent_guides_enable_on_vim_startup = 0
 
 " TComment: Plugin to shortcut toggling comments
-map <c-_> :TComment<CR>
+map <C-_> :TComment<CR>
 
 " Tabularize: Auto format = signs and variable:
 nmap <C-h> :Tabularize /=<CR>
@@ -291,7 +290,5 @@ nnoremap <silent> <C-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
 
 " SearchPulse: pulsing cursor after search
 let g:vim_search_pulse_mode = 'pattern'
-
-
 
 

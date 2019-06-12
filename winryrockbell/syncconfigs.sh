@@ -35,6 +35,7 @@ ${sync} ~/.dotify/.zshrc               ${main}
 ${sync} ~/.dotify/.vimrc               ${main}
 ${sync} ~/.dotify/.xinitrc             ${main}
 ${sync} ~/.dotify/.Xresources          ${main}
+${sync} ~/.dotify/.config/awesome      ${main}
 ${sync} ~/.dotify/.config/i3           ${main}
 ${sync} ~/.dotify/.config/i3blocks     ${main}
 ${sync} ~/.dotify/.config/compton      ${main}

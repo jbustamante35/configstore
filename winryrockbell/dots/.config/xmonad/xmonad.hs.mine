@@ -1,0 +1,78 @@
+-- vim: filetype=haskell
+-------------------------------------------------------------------------------
+------------------                                       _  -------------------
+------------------ __  ___ __ ___   ___  _ __   __ _  __| | -------------------
+------------------ \ \/ / '_ ` _ \ / _ \| '_ \ / _` |/ _` | -------------------
+------------------  >  <| | | | | | (_) | | | | (_| | (_| | -------------------
+------------------ /_/\_\_| |_| |_|\___/|_| |_|\__,_|\__,_| -------------------
+------------------                                          -------------------
+-------------------------------------------------------------------------------
+import XMonad
+import XMonad.Util.Run (spawnPipe)           -- ???
+import XMonad.Util.Paste                     -- X-Selection Paste
+import XMonad.Util.EZConfig (additionalKeys) -- Extra Workspaces
+import XMonad.Hooks.ManageDocks              -- Docks/Panels/Trays
+import XMonad.Hooks.DynamicLog               -- Set up Xmobar
+import System.IO                             -- ???
+
+--
+myManageHooks = composeAll
+[
+    className =? "Gimp" --> doFloat
+]
+
+--
+main = do
+    xmoproc <- spawnPipe "xmobar"
+    xmonad $defaultConfig {
+        -- Main Configurations --
+        terminal           = term,
+        modMask            = mod,
+        borderWidth        = bdr,
+        workspaces         = wspaces,
+        normalBorderColor  = bColorNrm,
+        focusedBorderColor = bColorFcs,
+
+        -- Key Bindings --
+        keys          = myKeys,
+        mouseBindings = myMouse,
+
+        -- Layouts --
+        layoutHook = avoidStruts $ layoutHook defaultConfig,
+        manageHook = manageHook defaultConfig <+> manageDocks,
+        logHook    = dynamicLogWithPP xmobarPP {
+                            ppOutput = hPutStrLn xmproc,
+                            ppTitle  = xmobarColor "green" "" . shorten 50
+                            },
+        handleEventHook = myEventHook,
+        startupHook     = myStartupHook
+
+    } `additionalKeys` [
+        ((mod4Mask .|. shiftMask, xK_z), spawn "xscreensaver-command -lock"),
+        ((controlMask, xK_Print)       , spawn "sleep 0.2; scrot -s"),
+        ((0, xK_Print)                 , spawn "scrot")
+    ]
+
+-------------------------------------------------------------------------------
+------------------------------- Main Variables --------------------------------
+-------------------------------------------------------------------------------
+term    = "urxvt"
+mod     = mod4Mask
+bdr     = 3
+wspaces = ["01" , "02" , "03" , "04" , "05" , "06" , "07" , "08" , "09" ] ++ (map snd myExtraWorkspaces)
+
+-------------------------------------------------------------------------------
+----------------------------- Additional Hotkeys ------------------------------
+-------------------------------------------------------------------------------
+myKeys  = [
+
+] ++ [
+-- Increase number of workspaces --
+    ((mod, key) , (windows $ W.greedyView ws)) |
+    (key , ws) <- myExtraWorkspaces
+] ++ [
+    ((mod .|. shiftMask , key) , (windows $ W.shift ws)) |
+    (key , ws) <- myExtraWorkspaces
+]
+
+

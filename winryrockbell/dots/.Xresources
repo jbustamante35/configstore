@@ -29,27 +29,27 @@ URxvt.iso14755_52:      false
 URxvt.internalBorder:   5
 
 !! Fonts
-#define font1 Inconsolata
+#define font1 Source Code Pro
 #define font2 Droid Sans
-#define font3 Source Code Pro
+#define font3 Inconsolata
 #define font4 DejaVu Sans
 
-URxvt.font:             xft:font1:pixelsize=20:minspace=True, \
-                        xft:font2:pixelsize=20:minspace=True, \
-                        xft:font3:pixelsize=20:minspace=True, \
-                        xft:font4:pixelsize=20:minspace=True
-URxvt.boldfont:         xft:font1:pixelsize=20:minspace=True, \
-                        xft:font2:pixelsize=20:minspace=True, \
-                        xft:font3:pixelsize=20:minspace=True, \
-                        xft:font4:pixelsize=20:minspace=True
-URxvt.italicfont:       xft:font1:pixelsize=20:minspace=True, \
-                        xft:font2:pixelsize=20:minspace=True, \
-                        xft:font3:pixelsize=20:minspace=True, \
-                        xft:font4:pixelsize=20:minspace=True
-URxvt.bolditalicfont:   xft:font1:pixelsize=20:minspace=True, \
-                        xft:font2:pixelsize=20:minspace=True, \
-                        xft:font3:pixelsize=20:minspace=True, \
-                        xft:font4:pixelsize=20:minspace=True
+URxvt.font:             xft:font1:pixelsize=20:minspace=false, \
+                        xft:font2:pixelsize=20:minspace=false, \
+                        xft:font3:pixelsize=20:minspace=false, \
+                        xft:font4:pixelsize=20:minspace=false
+URxvt.boldfont:         xft:font1:pixelsize=20:minspace=false, \
+                        xft:font2:pixelsize=20:minspace=false, \
+                        xft:font3:pixelsize=20:minspace=false, \
+                        xft:font4:pixelsize=20:minspace=false
+URxvt.italicfont:       xft:font1:pixelsize=20:minspace=false, \
+                        xft:font2:pixelsize=20:minspace=false, \
+                        xft:font3:pixelsize=20:minspace=false, \
+                        xft:font4:pixelsize=20:minspace=false
+URxvt.bolditalicfont:   xft:font1:pixelsize=20:minspace=false, \
+                        xft:font2:pixelsize=20:minspace=false, \
+                        xft:font3:pixelsize=20:minspace=false, \
+                        xft:font4:pixelsize=20:minspace=false
 
 !! Extensions and Plugins
 ! Main

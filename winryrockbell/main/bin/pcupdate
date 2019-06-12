@@ -4,7 +4,7 @@
 echo "Updating packages..."
 sudo pacman -Syu
 yay -Syu
-yaourt -Syu
+pikaur -Syu
 echo "Packages up to date!"
 
 #echo "Updating Julia..."

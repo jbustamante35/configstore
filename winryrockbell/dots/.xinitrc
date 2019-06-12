@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # ~/.xinitrc
 #
@@ -9,7 +9,7 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-DEFAULT_SESSION=startkde
+SESSION=${1:-xfce}
 
 # merge in defaults and keymaps
 
@@ -30,10 +30,6 @@ if [ -f "$usermodmap" ]; then
 fi
 
 # start some nice programs
-profile=~/.profile
-if [ -f "$profile" ]; then
-    source "$profile"
-fi
 
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
     for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
@@ -44,7 +40,7 @@ fi
 
 get_session(){
 	local dbus_args=(--sh-syntax --exit-with-session)
-	case $1 in
+	case "$SESSION" in
 		awesome) dbus_args+=(awesome) ;;
 		bspwm) dbus_args+=(bspwm-session) ;;
 		budgie) dbus_args+=(budgie-desktop) ;;
@@ -61,7 +57,8 @@ get_session(){
 		mate) dbus_args+=(mate-session) ;;
 		xfce) dbus_args+=(xfce4-session) ;;
 		openbox) dbus_args+=(openbox-session) ;;
-		*) dbus_args+=($DEFAULT_SESSION) ;;
+		xmonad) dbus_args+=(xmonad) ;;
+		*) dbus_args+=("$SESSION") ;;
 	esac
 
 	echo "dbus-launch ${dbus_args[*]}"

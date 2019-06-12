@@ -10,6 +10,7 @@ config.bind(";dt", "set downloads.location.directory ~/.dotify ;; hint links dow
 config.bind(";gg", "set downloads.location.directory ~/go ;; hint links download")
 config.bind(";h", "set downloads.location.directory ~/ ;; hint links download")
 config.bind(";m", "set downloads.location.directory ~/Music ;; hint links download")
+config.bind(";mm", "set downloads.location.directory ~/Mail ;; hint links download")
 config.bind(";pp", "set downloads.location.directory ~/Pictures ;; hint links download")
 config.bind(";s", "set downloads.location.directory ~/.scripts ;; hint links download")
 config.bind(";suk", "set downloads.location.directory ~/Documents/misc/suckless ;; hint links download")

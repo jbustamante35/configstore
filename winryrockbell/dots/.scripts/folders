@@ -11,6 +11,7 @@ dt      ~/.dotify
 gg      ~/go
 h       ~/
 m       ~/Music
+mm      ~/Mail
 pp      ~/Pictures
 s       ~/.scripts
 suk     ~/Documents/misc/suckless

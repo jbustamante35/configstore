@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="1917.18"
-         height="1083.01"
+         width="0"
+         height="0"
          rx="0"
          ry="0" />
       <eventcontext
@@ -422,7 +422,6 @@
        offset="0"
        offsetunits="mm" />
     <group
-       unit="mm"
        id="measure"
        fontsize="10"
        precision="2"
@@ -574,19 +573,7 @@
        id="transformation"
        applyseparately="0" />
     <group
-       id="align"
-       panel_size="1"
-       panel_ratio="100"
-       panel_mode="1"
-       panel_wrap="0"
-       panel_border="0"
-       x="0"
-       y="0"
-       w="263"
-       h="499"
-       visible="1"
-       state="2"
-       placement="1" />
+       id="align" />
     <group
        id="xml" />
     <group
@@ -611,22 +598,9 @@
        id="export"
        default=""
        append_extension="1"
-       path=""
-       panel_size="1"
-       panel_ratio="100"
-       panel_mode="1"
-       panel_wrap="0"
-       panel_border="0"
-       x="0"
-       y="0"
-       w="395"
-       h="473"
-       visible="0"
-       state="2"
-       placement="1">
+       path="">
       <group
-         id="exportarea"
-         value="drawing" />
+         id="exportarea" />
       <group
          id="defaultxdpi" />
     </group>
@@ -635,7 +609,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/jbustamante/Dropbox/Pictures/gimps"
+       path=""
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -650,11 +624,10 @@
     <group
        id="import"
        enable_preview="1"
-       path="/home/jbustamante/Dropbox/Pictures/screenshots/rice/"
-       ask="0"
-       link="embed"
-       scale="optimizeQuality"
-       forcexdpi="0" />
+       path=""
+       ask="1"
+       link="link"
+       scale="optimizeSpeed" />
     <group
        id="debug"
        redirect="0" />
@@ -985,20 +958,18 @@
        id="rendering" />
   </group>
   <group
-     id="extensions"
-     org.inkscape.input.gdkpixbuf.png.scale="optimizeQuality"
-     org.inkscape.input.gdkpixbuf.png.do_not_ask="1" />
+     id="extensions" />
   <group
      id="desktop"
      style="line-height:1.25">
     <group
-       width="626"
-       height="1045"
-       x="40"
-       y="61"
+       width="640"
+       height="480"
+       x="0"
+       y="0"
        fullscreen="0"
        id="geometry"
-       maximized="0" />
+       maximized="1" />
     <group
        id="XYfront" />
     <group

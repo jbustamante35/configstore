@@ -46,3 +46,13 @@ mvid () {
     ext="$1"
     ply="$2"
 }
+
+# Set-up VNC local forwarding
+vnc2me () {
+    ssh -L "$1":localhost:"$1" -N -f -l jbustamante 128.104.98.118 -p 22
+    #ssh -L "$1":localhost:"$1" -N -f submit
+}
+
+
+
+
