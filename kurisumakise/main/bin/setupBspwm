@@ -6,7 +6,7 @@
 killall dunst & killall conky & killall compton & killall polybar & mpd --kill ;
 
 # Set displays
-setScreens 2;
+setScreens 3;
 
 # Set Xresources and wallpaper
 regencolors $WALEND 1

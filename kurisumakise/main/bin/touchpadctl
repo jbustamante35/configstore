@@ -8,28 +8,30 @@ case $cmd in
 tap)
     # Control tap-to-click
     toggle=1
+    tapstring="libinput Tapping Enabled"
 
-    currVal=$(xinput -list-props "$pad" | grep 'libinput Tapping Enabled' | \
+    currVal=$(xinput -list-props "$pad" | grep "$tapstring" | \
         head -1 | awk '{print $NF}')
 
     if [ "$currVal" -eq 1 ]; then
         toggle=0
     fi
 
-    xinput -set-prop "$pad" 'libinput Tapping Enabled' "$toggle"
+    xinput -set-prop "$pad" "$tapstring" "$toggle"
     ;;
 
 dev)
     # Toggle touchpad
     toggle=1
+    devstring="Device Enabled"
     currVal=$(xinput -list-props "$pad" | \
-    grep "Device Enabled" | awk '{print $NF}')
+    grep "$devstring" | awk '{print $NF}')
 
     if [ "$currVal" -eq 1 ]; then
         toggle=0
     fi
 
-    xinput -set-prop "$pad" 'Device Enabled' $toggle
+    xinput -set-prop "$pad" "$devstring" $toggle
     ;;
 
 *)

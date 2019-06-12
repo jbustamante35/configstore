@@ -12,6 +12,11 @@ case $num in
     2)
         "$layouts"/dualScreen.sh
         ;;
+
+    3)
+        "$layouts"/tripleScreen.sh
+        ;;
+
     *)
         "$layouts"/singleScreen.sh
         ;;

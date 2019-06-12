@@ -1,3 +1,4 @@
+# vim: filetype=sh
 ###########
 # ALIASES #
 ###########
@@ -28,6 +29,7 @@ alias ll='ls -alFh --group-directories-first'
 alias la='ls -A --group-directories-first'
 alias l='ls -CF --group-directories-first'
 alias lsl='ll --group-directories-first | less'
+alias lll='ls /*'
 
 # some cd aliases
 alias ccd='cd'
@@ -60,6 +62,10 @@ alias yrm='yay -Rsu'
 alias ain='yaourt -S'
 alias asr='yaourt -Ss'
 alias arm='yaourt -Rsu'
+alias min='pamac install'
+alias msr='pamac search'
+alias mrm='pamac remove -o'
+alias tgrep='tree | egrep -i'
 
 # more filesystem aliases
 alias dff='df -gha'
@@ -69,9 +75,10 @@ alias myip='curl http://ipecho.net/plain; echo'
 alias db='sudo updatedb'
 alias rm='rm -I'
 alias RM='sudo rm -Ird'
-alias kl='RM */.git'
-alias kll='RM */*/.git'
-alias klll='RM */*/*/.git'
+alias kl='RM .??*/.git*'
+alias kll='RM .??*/*/.git*'
+alias klll='RM .??*/*/*/.git*'
+alias kllll='RM .??*/*/*/*/.git*'
 
 # misc aliases
 alias vim='nvim'
@@ -80,11 +87,11 @@ alias sl='sl -e'
 alias wf='sudo wifi-menu'
 alias bt='bluetoothctl'
 alias pping='prettyping'
+alias ppg='prettyping google.com'
 alias term='export TERM=xterm-256color'
 alias bfg='java -jar ~/bin/bfg-1.13.0.jar'
-alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias bat='bat --color=auto'
-alias matlab='matlab -nosplash'
+#alias matlab='matlab -nosplash'
 alias dki='docker images -a'
 alias dkp='docker system prune'
 alias zt='zathura'
@@ -98,7 +105,7 @@ alias twitchme='gotwitch -p mpv -w yan_yan11'
 alias sshs='ssh sub'
 alias sshj='ssh jdev'
 alias vpnj='sudo openconnect --protocol=gp uwmadison.vpn.wisc.edu -u jbustamante -b'
-alias vnc2me='vncviewer localhost:590$1'
+#alias vnc2me='vncviewer localhost:590$1'
 #alias sshx='ssh -L 50013:localhost:50013 jdev'
 #alias sshs='ssh -L 50013:128.104.98.13:50013 submit'
 
@@ -113,16 +120,16 @@ alias rst='sudo make clean install -C ~/Documents/suckless/dwm-6.1'
 alias mk='make && sudo make install'
 
 # Neomutt aliases
-alias gmdl='offlineimap -a gmailjb'
-alias gma='neomutt -f /home/jbustamante/.mail/gmailjb/\[Gmail\].All\ Mail/'
-alias gmi='neomutt -f ~/.mail/gmailjb/INBOX'
-alias gmd='neomutt -f ~/.mail/gmailjb/[Gmail].Drafts'
-alias gms="neomutt -f ~/.mail/gmailjb/[Gmail].Sent\ Mail"
-alias wmdl='offlineimap -a wiscjb'
-alias wma='neomutt -f ~/.mail/wiscjb/Archive'
-alias wmi='neomutt -f ~/.mail/wiscjb/INBOX'
-alias wmd='neomutt -f ~/.mail/wiscjb/Drafts'
-alias wms='neomutt -f ~/.mail/wiscjb/Sent\ Items'
+alias gmdl='mbsync gmail'
+alias gma='neomutt -f ~/.local/share/mail/gmail/\[Gmail].All\ Mail'
+alias gmi='neomutt -f ~/.local/share/mail/gmail/INBOX/'
+alias gmd='neomutt -f ~/.local/share/mail/gmail/\[Gmail].Drafts'
+alias gms="neomutt -f ~/.local/share/mail/gmail/\[Gmail].Sent\ Mail"
+alias wmdl='mbsync wisc'
+alias wma='neomutt -f ~/.local/share/mail/wisc/Archive'
+alias wmi='neomutt -f ~/.local/share/mail/wisc/INBOX'
+alias wmd='neomutt -f ~/.local/share/mail/wisc/Drafts'
+alias wms='neomutt -f ~/.local/share/mail/wisc/Sent\ Items'
 
 # Git aliases
 alias gst='git status'

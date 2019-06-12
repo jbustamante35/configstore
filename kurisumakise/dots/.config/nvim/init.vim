@@ -139,6 +139,7 @@
 
 " InstantMarkdown: real-time markdown viewer
 let g:instant_markdown_autostart = 0
+nmap <Leader>z :InstantMarkdownPreview<CR>
 
 " MarkdownComposer: markdown viewer for neovim
 let g:markdown_composer_browser = 'qutebrowser'

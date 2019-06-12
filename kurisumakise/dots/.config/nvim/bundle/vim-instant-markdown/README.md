@@ -1,5 +1,12 @@
 vim-instant-markdown
 ====================
+Testing to see which is faster <br />
+I don't get why InstantMarkdown isn't editing in real-time anymore. It must
+have something to do with the fact that there are 2 composers open at once. <br />
+
+How about now oh ok now it works with both! The trick was to use ensure both
+opened in the same browser
+
 Want to instantly preview finnicky markdown files, but don't want to leave your favorite editor, or have to do it in some crappy browser textarea? **vim-instant-markdown** is your friend! When you open a markdown file in vim, a browser window will open which shows the compiled markdown in real-time, and closes once you close the file in vim.
 
 As a bonus, [github-flavored-markdown][gfm] is supported, and styles used while previewing are the same as those github uses!
