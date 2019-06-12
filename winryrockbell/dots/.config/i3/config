@@ -1,0 +1,419 @@
+# vim: filetype=i3
+#                  `                                  `
+#              `,+ `                        `      ,`#
+#             +#`,:``                       ``    '`@``+`
+#           `; :# '  `                        `   `@``@,
+#           #, `: ,      ``                      ``#`  : :
+#           ;+ # ,               ++++++++++++++`   ; .+``+
+#           ; #. '         `     @@@@@@@@@@@@@@`     ;#, #
+#             #  :       `:'      @      ;. '@,      '.@
+#          ,: #; ,        #`      @      ;` ;@+      .`@ +
+#          . @,.+#       .@@     .#      ;` .@#    `'+` ;'
+#          `@; ,+`       .@@   ` +:      ;`  @@     +:#,+;
+#      `   #`#`# +       `@@    `@`@`    ;`  @@     ,`@,.;`
+#          + ; +.,        #   `.,#,,#,```',` @@     @'` +.`
+#         ``@'`,@`  `'@@@@@@@@@@@`+@#@@@@@+''@@     ,'; '#``
+#          +`#;;,;  +@@,,,@@@@@@@.@+#@@#` .;`. `    @ +`;:.``
+#         `' + # .  +@@`.`#@@@@@@:@##@+ #@@@@@#     @`: @.`  `
+#           @'`+@.  +@@:,:#@@@@@@'@@#@ @@@@#@@@@`    #+`##    `
+#          ' ;`,;+  +@@@@+@@@@@@@+@@@`#@@;   .@@#   @`',.,
+#          ;`+ + :  +@#  `  :@@@@@#@# @@: :@+ `@@`  @`, +,
+#           @'`##   ''`##@@@.,@@@@,:..@@ ;@+@@ +@#  `@#'#+
+#            @++      @@@@@@@ #@@@@@:#@@ @' `@ :@@    ##;
+#            .@'     `@@.  +@+`@@@@#;.@@ @@ ;@ '@+  ` @@
+#             #`    `:@#.`#`@@       .@@` @@@, @@+   `+`
+#             :,   ` :@@`'+.@@       `@@@  `` +#@     @
+#              +    ``@@, `@@;         @@@+.;@#@:     @
+#              @     `'@@@@@@          `@#@@@@@:     `+
+#              '`      :@@@'             :#@#+```    #`
+#               @      `                        `    @
+#               ',      `                        `  @`
+#                              ______
+#                            _ |___  )
+#                           (_)  __) )
+#                           | | |__  )
+#                           | | ___) )
+#                           |_||_____)
+#
+################################################################################
+
+set $mod        Mod4
+set $alt        Mod1
+set $term       urxvtc
+set $walsat     "1"
+set $walend     schemer
+font            pango:DejaVu Sans Mono,10
+
+#################### Main Setup ##############################
+# Startup Commands
+exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
+exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
+exec_always --no-startup-id bash ~/.config/conky/conky.sh
+exec_always --no-startup-id regencolors $walend $walsat
+exec        --no-startup-id nm-applet
+exec        --no-startup-id dropbox-cli start
+#exec        --no-startup-id pb-for-desktop
+exec        --no-startup-id touchpadctl tap 1
+#exec        --no-startup-id authenticate_pamac.sh
+exec        --no-startup-id urxvtd -q -o -f
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+c         reload
+bindsym $mod+Shift+c   restart
+bindsym $alt+Delete    exec --no-startup-id  ~/.scripts/i3scripts/i3shutdown
+bindsym Control+$alt+l exec --no-startup-id  i3lock -i ~/.config/lock.png -t -f -p default
+bindsym $mod+Shift+p   exec --no-startup-id  systemctl suspend && lockScreen
+bindsym $mod+Shift+e   exec --no-startup-id  "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# Volume Control [pulseaudio]
+bindsym XF86AudioMute                exec --no-startup-id pulseaudio-ctl mute
+bindsym XF86AudioRaiseVolume	     exec --no-startup-id pulseaudio-ctl up 05
+bindsym Shift+XF86AudioRaiseVolume   exec --no-startup-id pulseaudio-ctl up 10
+bindsym Control+XF86AudioRaiseVolume exec --no-startup-id pulseaudio-ctl up 01
+bindsym XF86AudioLowerVolume	     exec --no-startup-id pulseaudio-ctl down 05
+bindsym Shift+XF86AudioLowerVolume   exec --no-startup-id pulseaudio-ctl down 10
+bindsym Control+XF86AudioLowerVolume exec --no-startup-id pulseaudio-ctl down 01
+
+# Brightness/Gamma Control
+bindsym XF86MonBrightnessDown       exec --no-startup-id xbacklight -dec 5
+bindsym Shift+XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
+bindsym XF86MonBrightnessUp         exec --no-startup-id xbacklight -inc 5
+bindsym Shift+XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 10
+
+# Configure i3gaps
+for_window [class="^.*"] border pixel 3
+gaps inner 20
+gaps outer 20
+
+# i3-gaps resizing
+bindsym $mod+t		split toggle
+bindsym $mod+Shift+t	gaps inner current set 15; gaps outer current set 15
+bindsym $mod+Shift+d	gaps inner current set 0; gaps outer current set 0
+bindsym $mod+s		gaps inner current plus 5
+bindsym $mod+Shift+s	gaps inner current minus 5
+bindsym $mod+z		gaps outer current plus 5
+bindsym $mod+Shift+z	gaps outer current minus 5
+
+# Screen setups
+# Buttons And Shame          - Full triple screens in lab
+# Long Tall Cowboy Christmas - Full triple screens, left screen portrait mode
+# Reasonable Enough 1        - Single screen at reasonable resolution
+# Three Amigos               - Triple screen at reasonable resolution, all correct positions
+# Left Dell                  - Full double screens, Dell monitor as left screen
+# Reasonable Enough 2        - Double screen at reasonable resolution, Dell monitor as left screen
+bindsym $alt+Shift+w    exec --no-startup-id buttonsandshame
+bindsym $alt+Control+w  exec --no-startup-id longtallcowboychristmas
+bindsym $alt+w          exec --no-startup-id reasonableenough 1
+bindsym $mod+Shift+w    exec --no-startup-id threeamigos
+bindsym $mod+Control+w  exec --no-startup-id leftdell
+
+##################### Applications ##############################
+# Screenshots [ u: focused window | s: selection ]
+bindsym Print                   exec --no-startup-id scrot -e    'mv $f ~/Pictures/screenshots/'
+bindsym Shift+Print		exec --no-startup-id scrot -u -e 'mv $f ~/Pictures/screenshots/'
+bindsym Control+Shift+Print     exec --no-startup-id scrot -s -e 'mv $f ~/Pictures/screenshots/'
+
+# Screen recordings [I'd rather specify formatting each time instead of having headless key bindings]
+bindsym $mod+Print      exec --no-startup-id    simplescreenrecorder
+
+# Terminals [ b: bash | n: zsh/st |`: urxvt/kitty ]
+bindsym $mod+b                  exec --no-startup-id kitty
+bindsym $mod+Shift+b            exec --no-startup-id primusrun kitty
+bindsym $mod+n                  exec --no-startup-id urxvtc
+bindsym $mod+Shift+n            exec --no-startup-id urxvtd -q -o -f
+bindsym $mod+grave              exec --no-startup-id urxvt -e tmux
+bindsym $mod+Shift+grave        exec --no-startup-id urxvt -title "floating"
+bindsym $alt+grave              exec --no-startup-id terminator
+bindsym $alt+Shift+grave        exec --no-startup-id terminator -e /bin/bash
+
+# Browsers [normal and gpu]
+bindsym $mod+Shift+g    exec --no-startup-id brave
+bindsym $mod+Shift+f    exec --no-startup-id firefox
+bindsym $mod+Shift+h    exec --no-startup-id qutebrowser
+bindsym Control+Shift+h exec --no-startup-id surf bing.com
+
+# Original format had optirun -b primus <application>
+bindsym $alt+Shift+g   exec --no-startup-id primusrun brave
+bindsym $alt+Shift+f   exec --no-startup-id primusrun firefox
+bindsym $alt+Shift+h   exec --no-startup-id primusrun qutebrowser
+
+# System Applications
+bindsym $mod+r          exec --no-startup-id urxvt -e ranger
+bindsym $mod+Control+r  exec --no-startup-id romoji
+bindsym $alt+Control+p  exec --no-startup-id gpg -d ~/.ssh/bak/.pw.gpg | xclip
+bindsym $mod+Control+h  exec --no-startup-id $term -e htop
+bindsym $mod+Control+j  exec --no-startup-id $term -e gotop
+
+# Misc
+bindsym $mod+y  exec --no-startup-id $term -e calcurse
+#bindsym $alt+u  exec --no-startup-id $term -e nvim -c :VimwikiUISelect
+bindsym $alt+i  exec --no-startup-id $term -e nvim -c :VimwikiIndex
+bindsym $alt+o  exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
+bindsym $alt+p  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
+
+# Function buttons - Hardware accelerated graphical applications
+# Original format had optirun -b primus <application>
+#bindsym $alt+Shift+g   exec --no-startup-id optirun -b primus gpmdp
+bindsym $mod+F1  exec --no-startup-id optirun -b primus nvidia-settings -c :8
+bindsym $mod+F2  exec --no-startup-id primusrun gpmdp
+bindsym $mod+F3  exec --no-startup-id primusrun spotify
+bindsym $mod+F4  exec --no-startup-id primusrun caprine
+bindsym $mod+F5  exec --no-startup-id primusrun yakyak
+bindsym $mod+F6  exec --no-startup-id primusrun slack
+bindsym $mod+F7  exec --no-startup-id primusrun discord
+bindsym $mod+F8  exec --no-startup-id primusrun steam
+bindsym $mod+F9  exec --no-startup-id primusrun krita
+bindsym $mod+F10 exec --no-startup-id primusrun inkscape
+bindsym $mod+F11 exec --no-startup-id primusrun gimp
+bindsym $mod+F12 exec --no-startup-id primusrun fiji
+
+# Function buttons [alt]
+bindsym $alt+F1  exec --no-startup-id pamac-manager
+bindsym $alt+F2  exec --no-startup-id $term -e ncmpcpp
+bindsym $alt+F3  exec --no-startup-id $term -e pulsemixer
+bindsym $alt+F4  exec --no-startup-id arandr
+bindsym $alt+F5  exec --no-startup-id droidsurf
+bindsym $alt+F6  exec --no-startup-id $term -e nvim -c :Calendar
+bindsym $alt+F7  exec --no-startup-id $term -e rtv --enable-media
+#bindsym $alt+F8  exec --no-startup-id
+bindsym $alt+F9  exec --no-startup-id setkbmap -option "caps:swapescape"
+bindsym $alt+F10 exec --no-startup-id xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources
+bindsym $alt+F11 exec --no-startup-id regencolors $walend $walsat -l
+bindsym $alt+F12 exec --no-startup-id regencolors $walend $walsat
+
+################### General Navigation ###############################
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+workspace_auto_back_and_forth yes
+
+# start terminal, kill focused window, toggle touchpad, start rofi
+bindsym $mod+Return       exec $term
+bindsym $mod+Shift+Return exec $term -e tmux -f ~/.tmux.conf
+bindsym $mod+Shift+q      kill
+bindsym $alt+t            exec --no-startup-id touchpadctl dev
+bindsym $mod+d            exec --no-startup-id rofi_run
+bindsym $mod+Control+d    exec --no-startup-id switchRofi
+
+# change focus
+bindsym $mod+j          focus left
+bindsym $mod+k          focus down
+bindsym $mod+l          focus up
+bindsym $mod+semicolon  focus right
+bindsym $mod+Left       focus left
+bindsym $mod+Down       focus down
+bindsym $mod+Up         focus up
+bindsym $mod+Right      focus right
+
+# move focused window
+bindsym $mod+Shift+j          move  left 50
+bindsym $mod+Shift+k          move  down 50
+bindsym $mod+Shift+l          move    up 50
+bindsym $mod+Shift+semicolon  move right 50
+bindsym $mod+Shift+Left       move  left 10
+bindsym $mod+Shift+Down       move  down 10
+bindsym $mod+Shift+Up         move    up 10
+bindsym $mod+Shift+Right      move right 10
+
+# split orientation [ h: horizontal | v: veritcal ]
+bindsym $mod+h split h
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+e           layout toggle split
+bindsym $mod+w           layout tabbed
+bindsym $mod+Control+s   layout stacking
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space	 focus mode_toggle
+
+# focus to parent or child container
+bindsym $mod+a       focus parent
+bindsym $mod+Shift+a focus child
+
+# improved window resizing [from Luke Smith config]
+bindsym $mod+Shift+y    exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  5"
+bindsym $mod+Shift+o    exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 5"
+bindsym $mod+Shift+u    exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  5"
+bindsym $mod+Shift+i    exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    5"
+
+bindsym $mod+$alt+y     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize left  20"
+bindsym $mod+$alt+o     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize right 20"
+bindsym $mod+$alt+u     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize down  20"
+bindsym $mod+$alt+i     exec --no-startup-id "bash ~/.scripts/i3scripts/i3resize up    20"
+
+# scratchpad management
+bindsym $alt+minus       scratchpad show
+bindsym $alt+Shift+minus move scratchpad
+
+######################### Workspace Management ###########################
+# [NOTE]
+# Try not to bind $alt to workspace management, since I use the Alt key
+# to manage workspaces in my remote desktop
+# Workspace variables
+set $ws01 "01"
+set $ws02 "02"
+set $ws03 "03"
+set $ws04 "04"
+set $ws05 "05"
+set $ws06 "06"
+set $ws07 "07"
+set $ws08 "08"
+set $ws09 "09"
+set $ws10 "10"
+
+# switch to workspace
+bindsym $mod+1 workspace $ws01
+bindsym $mod+2 workspace $ws02
+bindsym $mod+3 workspace $ws03
+bindsym $mod+4 workspace $ws04
+bindsym $mod+5 workspace $ws05
+bindsym $mod+6 workspace $ws06
+bindsym $mod+7 workspace $ws07
+bindsym $mod+8 workspace $ws08
+bindsym $mod+9 workspace $ws09
+bindsym $mod+0 workspace $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws01
+bindsym $mod+Shift+2 move container to workspace $ws02
+bindsym $mod+Shift+3 move container to workspace $ws03
+bindsym $mod+Shift+4 move container to workspace $ws04
+bindsym $mod+Shift+5 move container to workspace $ws05
+bindsym $mod+Shift+6 move container to workspace $ws06
+bindsym $mod+Shift+7 move container to workspace $ws07
+bindsym $mod+Shift+8 move container to workspace $ws08
+bindsym $mod+Shift+9 move container to workspace $ws09
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+# send programs to specific workspaces
+assign  [title="Krita"]            $ws08
+assign  [class="Inkscape"]         $ws08
+assign  [class="Gimp"]             $ws08
+assign  [class="Steam"]            $ws08
+assign  [class="android-messages"] $ws09
+assign  [class="Caprine"]          $ws09
+assign  [class="yakyak"]           $ws09
+assign  [class="Slack"]            $ws09
+assign  [class="discord"]          $ws09
+assign  [class="PB for Desktop"]   $ws09
+assign  [class="Google Play"]      $ws10
+
+# Some windows don't get titles until after they init
+for_window [title="Messages for web"] move to workspace $ws09
+for_window [class="Spotify"] move to workspace $ws10
+
+# assign floating
+for_window [title="ImageJ"]                 floating enable border pixel 1
+for_window [title="pulsemixer"]             floating enable border pixel 1
+for_window [title="htop"]                   floating enable border pixel 1
+for_window [title="gotop"]                  floating enable border pixel 1
+for_window [class="URxvt" title="floating"] floating enable border pixel 1
+
+###################### i3bar Configuration #############################
+## Set colors from .Xresources
+set_from_resource $foreground        foreground      #000000
+set_from_resource $foreground_bold   color66         #000000
+set_from_resource $background        background      #000000
+set_from_resource $cursor            color9          #000000
+set_from_resource $color0            color0          #000000
+set_from_resource $color8            color8          #000000
+set_from_resource $color1            color1          #000000
+set_from_resource $color9            color9          #000000
+set_from_resource $color2            color2          #000000
+set_from_resource $color10           color10         #000000
+set_from_resource $color3            color3          #000000
+set_from_resource $color11           color11         #000000
+set_from_resource $color4            color4          #000000
+set_from_resource $color12           color12         #000000
+set_from_resource $color5            color5          #000000
+set_from_resource $color13           color13         #000000
+set_from_resource $color6            color6          #000000
+set_from_resource $color14           color14         #000000
+set_from_resource $color7            color7          #000000
+set_from_resource $color15           color15         #000000
+set $transparent		                     #00000000
+
+# Set colors for containers
+#CONTAINER              BORDER       BACKGROUND    TEXT         INDICATOR     CHILDBORDER
+client.focused          $foreground  $background   $color1      $foreground   $color2
+client.unfocused        $color3      $background   $color4      $color0       $background
+client.focused_inactive $color1      $background   $color1      $color8       $foreground_bold
+client.urgent           $color14     $color14      $color12     $color13      $color12
+client.background       $background
+
+# Set colors for i3bar
+bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+
+# Primary monitor
+bar {
+    output primary
+    font pango:Inconsolata, Awesome 10
+    colors {
+        background              $background
+        statusline              $foreground
+        separator               $color2
+
+        #WORKSPACE              BORDER            FILL         TEXT
+        focused_workspace       $background       $background  $foreground
+        active_workspace        $background       $background  $color13
+        inactive_workspace      $background       $background  $cursor
+        urgent_workspace        $color14          $color13     $color12
+
+    }
+
+    status_command i3blocks
+    position top
+    separator_symbol "🚡"
+}
+
+# When connected to left-only monitor [becuase right monitor is a stupid ho]
+bar {
+    output DP1
+    font pango:Inconsolata, Awesome 10
+    colors {
+        background              $background
+        statusline              $foreground
+        separator               $color2
+
+        #WORKSPACE              BORDER            FILL         TEXT
+        focused_workspace       $background       $background  $foreground
+        active_workspace        $background       $background  $color13
+        inactive_workspace      $background       $background  $cursor
+        urgent_workspace        $color14          $color13     $color12
+
+    }
+
+    status_command i3blocks
+    position top
+    separator_symbol "🥔"
+    tray_output DP1
+}
+
+# When connected to triple monitors
+bar {
+    output HDMI1
+    output DP2
+    font pango:Inconsolata, Awesome 10
+    colors {
+        background              $background
+        statusline              $foreground
+        separator               $color2
+
+        #WORKSPACE              BORDER            FILL         TEXT
+        focused_workspace       $background       $background  $foreground
+        active_workspace        $background       $background  $color13
+        inactive_workspace      $background       $background  $cursor
+        urgent_workspace        $color14          $color13     $color12
+
+    }
+
+    status_command i3blocks
+    position top
+    separator_symbol "🥔"
+    tray_output DP2
+}
+
+

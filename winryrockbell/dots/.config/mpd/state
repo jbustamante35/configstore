@@ -1,0 +1,89 @@
+sw_volume: 100
+audio_device_state:0:pulse audio
+audio_device_state:1:mpd alsamixer-output
+audio_device_state:1:toggle_visualizer
+state: play
+current: 62
+time: 4.189000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:yt/cloakanddagger/season1/7kingZ_BornForThis.m4a
+1:yt/cloakanddagger/season1/LeoIslo_LushLife.m4a
+2:yt/cloakanddagger/season1/EricClapton_GoodNightIrene.m4a
+3:yt/cloakanddagger/season1/CandaceColesAndDarienDorsey_BreakinTheRules.m4a
+4:yt/cloakanddagger/season1/Various_SonsAndDaughters.m4a
+5:yt/cloakanddagger/season1/SAYWUT_RUReady.m4a
+6:yt/cloakanddagger/season2/RunforYourLife_TheSeige.m4a
+7:yt/cloakanddagger/season2/NesbyPhips_WalkAlone.m4a
+8:yt/cloakanddagger/season2/Cinephile_Medusa.m4a
+9:yt/cloakanddagger/season1/BishopBriggs_DarkSide.m4a
+10:yt/cloakanddagger/season2/AlexisRenee_ToLoveSomebody.m4a
+11:yt/cloakanddagger/season1/OliviaHolt_ComeSailAway.m4a
+12:yt/cloakanddagger/season1/AmpLive_FlightInGMinor.m4a
+13:yt/cloakanddagger/season2/JohnnyCash_InTheSweetByeAndBye.m4a
+14:yt/cloakanddagger/season1/Cathedrals_Harlem.m4a
+15:yt/cloakanddagger/season2/Bohnes_12Rounds.m4a
+16:yt/cloakanddagger/season1/IsakDanielson_Ending.m4a
+17:yt/cloakanddagger/season1/NDIDIO_NoMercy .m4a
+18:yt/cloakanddagger/season2/ZaydeWolf_Shout.m4a
+19:yt/cloakanddagger/season1/EmparaMi_Wanderlust.m4a
+20:yt/cloakanddagger/season1/MILCK_Quiet.m4a
+21:yt/cloakanddagger/season2/JoannaHaleMcGill_HymntoStBrigid.m4a
+22:yt/cloakanddagger/season2/TheSeige_RightNow.m4a
+23:yt/cloakanddagger/season2/Marmozets_LostInTranslation.m4a
+24:yt/cloakanddagger/season2/Wonkru_Facts.m4a
+25:yt/cloakanddagger/season2/Ayelle_Reclaim.m4a
+26:yt/cloakanddagger/season1/NevelleViracocha_DIRRTYGAME.m4a
+27:yt/cloakanddagger/season2/TheRevivalists_OhNo.m4a
+28:yt/cloakanddagger/season1/AlexDaKid_AmericanFuneral.m4a
+29:yt/cloakanddagger/season2/Moirai'sChoir_DelhiadeFrance.m4a
+30:yt/cloakanddagger/season1/Mansionair_Easier.m4a
+31:yt/cloakanddagger/season1/Thutmose_RunWild.m4a
+32:yt/cloakanddagger/season1/LucienParker_Impossible.m4a
+33:yt/cloakanddagger/season2/GaliaArad_BabyOneMoreTime.m4a
+34:yt/cloakanddagger/season2/MartenHorger_SoHigh.m4a
+35:yt/cloakanddagger/season2/BOGA_BlackHeart.m4a
+36:yt/cloakanddagger/season1/Ruelle_SecretsAndLies.m4a
+37:yt/cloakanddagger/season1/TheKinks_Sleepwalker.m4a
+38:yt/cloakanddagger/season2/WAR+HALL_AllThisPower.m4a
+39:yt/cloakanddagger/season1/PortugalTheMan_RichFriends.m4a
+40:yt/cloakanddagger/season1/EllieGoulding_DeadInTheWater.m4a
+41:yt/cloakanddagger/season1/MassiveAttack_VoodooInMyBlood.m4a
+42:yt/cloakanddagger/season1/CAMPFIRE_Demons.m4a
+43:yt/cloakanddagger/season2/TommeeProfitt_CanYouFeelTheHeatNow.m4a
+44:yt/cloakanddagger/season1/Vonavi_FeelTheEmbrace.m4a
+45:yt/cloakanddagger/season2/KatieGarfield_IKnowYourSecrets.m4a
+46:yt/cloakanddagger/season2/TheAcid_BasicInstinct.m4a
+47:yt/cloakanddagger/season2/HarryAndJeanieWest_SweetByeAndBye.m4a
+48:yt/cloakanddagger/season1/DamnyAndMCJusto_FirstClassFly.m4a
+49:yt/cloakanddagger/season1/Morgxn_Home.m4a
+50:yt/cloakanddagger/season2/KinPalo_Twisted.m4a
+51:yt/cloakanddagger/season1/LouisMattrs_FearInMe.m4a
+52:yt/cloakanddagger/season2/LuxVeritas_VoicesInTheWater.m4a
+53:yt/cloakanddagger/season2/Geoffroy_RaisedByWolves.m4a
+54:yt/cloakanddagger/season1/SiobhanSainte_BurnItDown.m4a
+55:yt/cloakanddagger/season2/Thutmose_StillIRise.m4a
+56:yt/cloakanddagger/season2/LeopardSkinnies_Rise.m4a
+57:yt/cloakanddagger/season1/DOE_WeAre.m4a
+58:yt/cloakanddagger/season2/StyloBeddoe_LastOnesLeft.m4a
+59:yt/cloakanddagger/season1/ThePhantoms_GetWhatICameFor.m4a
+60:yt/cloakanddagger/season2/GracePotterAndTheNocturnals_TheLionTheBeastTheBeat.m4a
+61:yt/cloakanddagger/season1/Fleurie_Breathe.m4a
+62:yt/cloakanddagger/season1/TommeeProfitt_TurnsYouIntoStone.m4a
+63:yt/cloakanddagger/season1/JaiWolf_Starlight.m4a
+64:yt/cloakanddagger/season2/NajeeThe1_Supernova.m4a
+65:yt/cloakanddagger/season1/Kngdavd_YouNeverKnow.m4a
+66:yt/cloakanddagger/season1/Overcoats_LeaveTheLightOn.m4a
+67:yt/cloakanddagger/season2/SidneySamson_Riverside.m4a
+68:yt/cloakanddagger/season1/Bea Miller_ToTheGrave.m4a
+69:yt/cloakanddagger/season2/HotChip_Flutes.m4a
+70:yt/cloakanddagger/season1/DJHollygrove_CreepUpOnEm.m4a
+71:yt/cloakanddagger/season1/BarnsCourtney_Hellfire.m4a
+72:yt/cloakanddagger/season2/AubreyJoseph_Numb.m4a
+playlist_end

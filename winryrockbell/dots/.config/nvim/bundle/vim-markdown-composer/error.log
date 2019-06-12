@@ -1,0 +1,56 @@
+2019-05-29T08:19:45.284598734-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:33021/" }
+    method: Get
+    remote_addr: V6([::1]:40726)
+    local_addr: V6([::1]:33021)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-05-29T08:19:50.796751252-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:33021/" }
+    method: Get
+    remote_addr: V6([::1]:40738)
+    local_addr: V6([::1]:33021)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-06-05T23:54:31.659616703-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:43055/" }
+    method: Get
+    remote_addr: V6([::1]:36140)
+    local_addr: V6([::1]:43055)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-06-05T23:54:35.795062638-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:43055/" }
+    method: Get
+    remote_addr: V6([::1]:36140)
+    local_addr: V6([::1]:43055)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-06-05T23:54:43.044783972-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:43055/" }
+    method: Get
+    remote_addr: V6([::1]:36422)
+    local_addr: V6([::1]:43055)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-06-08T23:54:30.643971016-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:38539/" }
+    method: Get
+    remote_addr: V6([::1]:47284)
+    local_addr: V6([::1]:38539)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-06-09T00:03:42.779811867-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:39233/" }
+    method: Get
+    remote_addr: V6([::1]:37942)
+    local_addr: V6([::1]:39233)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })

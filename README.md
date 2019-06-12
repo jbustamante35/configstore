@@ -9,13 +9,14 @@ managed by the '*dotify*' Ruby program <https://rubygems.org/gems/dotify/version
 
 The devices I'm currently tracking are:
 
-| **Device**    | **Description**      | **OS**                | **Homebase**           |
-| :---          | :---                 | :---                  | :---                   |
-| WinryRockbell | Main ASUS laptop     | Manjaro 18.0.4        | Spalding Lab           |
-| RinTohsaka    | Dell laptop          | Arch                  | Eagle Heights          |
-| JDev          | Remote Desktop       | Scientific Linux 6.10 | Birge Hall Server Room |
-| Potato        | Samsung Chromebook 3 | Gallium OS            | Portable laptop        |
-| Megatron      | ACER laptop          | Arch                  | Sunshine Drive         |
+| **Device**    | **Description**      | **OS**                | **WM**       | **Homebase**           |
+| :---          | :---                 | :---                  | :---         | :---                   |
+| WinryRockbell | Main ASUS laptop     | Manjaro               | Awesome,Xfce | Spalding Lab           |
+| KurisuMakise  | Dell laptop          | Manjaro               | Bspwm,Deepin | Eagle Heights          |
+| RinTohsaka    | Dell laptop          | Arch                  | i3,Xfce      | Eagle Heights          |
+| JDev          | Remote Desktop       | Scientific Linux 6.10 | Metacity     | Birge Hall Server Room |
+| Potato        | Samsung Chromebook 3 | Gallium OS            | Dwm,Xfce     | Portable laptop        |
+| Megatron      | ACER laptop          | Arch                  | Arch         | Sunshine Drive         |
 
 ## Usage
 All configuration files are automatically saved into their respective device's directory every

@@ -1,0 +1,89 @@
+# i3blocks config file
+# Global properties
+command=/usr/lib/i3blocks/$BLOCK_NAME
+separator_block_width=30
+markup=pango
+
+[disk]
+label=📦
+command=~/.scripts/i3scripts/i3disk nvme0n1p4
+interval=60
+
+[memory]
+label=🐏
+interval=5
+command=~/.scripts/i3scripts/i3memory
+
+[cpu_usage]
+label=💽
+interval=10
+min_width=CPU: 100.00%
+
+[gpu_load]
+label=🚗
+interval=10
+command=~/.scripts/i3scripts/i3gpuload
+
+[temperature]
+command=~/.scripts/i3scripts/i3temperature -w 55 -c 70
+interval=10
+
+[email]
+command=~/.scripts/i3scripts/i3mail
+interval=30
+signal=12
+
+[battery2]
+command=~/.scripts/i3scripts/i3battery2
+interval=60
+separator=false
+separator_block_width=10
+
+[batterybar]
+command=~/.scripts/i3scripts/i3batterybar
+interval=60
+min_width=bat: ■■■■■■■■
+
+[mediaplayer]
+label=🎼
+instance=gpmdp
+interval=5
+signal=10
+
+[music]
+label=🎼
+command=~/.scripts/i3scripts/gplayer --not-playing --layout t-A-p
+separator_block_width=13
+interval=1
+#colo=#EEFF66
+
+[volume-pulseaudio]
+command=~/.scripts/i3scripts/i3volume_pulseaudio -d -c "#FF0000" -C "#aa610e" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇
+interval=1
+signal=10
+
+[wifi]
+label=📡
+interval=10
+signal=10
+
+[time]
+label=📅
+command=echo $(date '+%m-%d-%Y(%a)|%I:%M%p') 🕓
+interval=30
+
+[keyindicator]
+instance=CAPS
+interval=once
+signal=11
+
+[keyindicator]
+instance=NUM
+interval=once
+signal=11
+
+[shutdown_menu]
+full_text=🌀
+command=~/.scripts/i3scripts/i3shutdown
+
+

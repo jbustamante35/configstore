@@ -1,0 +1,89 @@
+!! Global Settings
+*antialias: true
+*autohint:  true
+
+!! URxvt configuration
+! Settings
+URxvt.termName:         rxvt-256color
+URxvt.saveLines:        10000
+
+!! Transparency
+! real
+URxvt*depth: 32
+!URxvt*background:       [75]#000000
+URxvt*background:       [90]#000000
+
+! fake transparency
+!URxvt*transparent:      true
+!URxvt*shading:          30
+
+!! Aesthetics
+URxvt.intensityStyles:  false
+URxvt.scrollBar:        false
+URxvt.cursorColor:      cyan
+URxvt.cursorBlink:      true
+URxvt.cursorUnderline:  true
+URxvt.scrollstyle:      plain
+URxvt.iso14755:         false
+URxvt.iso14755_52:      false
+URxvt.internalBorder:   5
+
+!! Fonts
+#define font1 Source Code Pro
+#define font2 Droid Sans
+#define font3 Inconsolata
+#define font4 DejaVu Sans
+
+URxvt.font:             xft:font1:pixelsize=20:minspace=false, \
+                        xft:font2:pixelsize=20:minspace=false, \
+                        xft:font3:pixelsize=20:minspace=false, \
+                        xft:font4:pixelsize=20:minspace=false
+URxvt.boldfont:         xft:font1:pixelsize=20:minspace=false, \
+                        xft:font2:pixelsize=20:minspace=false, \
+                        xft:font3:pixelsize=20:minspace=false, \
+                        xft:font4:pixelsize=20:minspace=false
+URxvt.italicfont:       xft:font1:pixelsize=20:minspace=false, \
+                        xft:font2:pixelsize=20:minspace=false, \
+                        xft:font3:pixelsize=20:minspace=false, \
+                        xft:font4:pixelsize=20:minspace=false
+URxvt.bolditalicfont:   xft:font1:pixelsize=20:minspace=false, \
+                        xft:font2:pixelsize=20:minspace=false, \
+                        xft:font3:pixelsize=20:minspace=false, \
+                        xft:font4:pixelsize=20:minspace=false
+
+!! Extensions and Plugins
+! Main
+URxvt.perl-lib:         ~/.urxvt/ext/
+URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select,clipboard
+URxvt.colorUL:		#4682B4
+
+!! clipboard management
+URxvt.clipboard.copycmd:  xclip -i -sel clip
+URxvt.clipboard.pastecmd: xclip -o -sel clip
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c:         perl:clipboard:copy
+URxvt.keysym.M-v:         perl:clipboard:paste
+URxvt.keysym.M-C-v:       perl:clipboard:paste_escaped
+
+! url-select
+URxvt.keysym.M-m:            perl:url-select:select_next
+URxvt.url-select.autocopy:   true
+URxvt.url-select.button:     2
+URxvt.url-select.launcher:   surf
+URxvt.url-select.underline:  true
+
+!! keyboard-select:
+URxvt.keysym.M-Escape:            perl:keyboard-select:activate
+URxvt.keysym.M-s:                 perl:keyboard-select:search
+URxvt.keyboard-select.clipboard:  true
+
+!! resize-font
+URxvt.keysym.C-minus:         resize-font:smaller
+URxvt.keysym.C-plus:         resize-font:bigger
+URxvt.keysym.C-equals:         resize-font:reset
+URxvt.keysym.C-question:  resize-font:show
+
+!! Matcher
+URxvt.url-launcher:    surf
+URxvt.matcher.button:  1
+

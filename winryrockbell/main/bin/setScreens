@@ -1,0 +1,26 @@
+#!/bin/sh
+# Use screen(s) at reasonable resolution with Intel or Nvidia drivers
+# Wrapper for displaySetups layouts but adds location
+
+loc="$3"
+case "$loc" in
+    home)
+        # Display settings for home [AOC monitor]
+        num="$1"b
+        drv="$2"
+        ;;
+
+    lab)
+        # Display settings for lab [Dell monitors]
+        num="$1"
+        drv="$2"
+        ;;
+
+    *)
+        # Default to single display with Intel driver in lab
+        num=1
+        drv="intel"
+        ;;
+esac
+
+displaySetups "$num" "$drv"
