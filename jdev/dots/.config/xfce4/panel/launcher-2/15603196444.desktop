@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MATLAB R2018b
+Comment=Matlab R2018b
+Icon=
+Exec=matlab -nosplash
+Path=
+Terminal=false
+StartupNotify=false

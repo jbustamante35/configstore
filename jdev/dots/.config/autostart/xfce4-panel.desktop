@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Type=Application
+Exec=xfce4-panel
+Hidden=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Xfce Panel
+Name=Xfce Panel
+Comment[en_US]=Start with Xfce panel
+Comment=Start with Xfce panel

@@ -2,5 +2,10 @@
 .bashrc
 bin
 .functions
+ranger
+.shortcuts
+tmux
 .vimrc
+wall.png
+.Xresources
 .zshrc

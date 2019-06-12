@@ -1,3 +1,4 @@
-TerminalEmulator=gnome-terminal
+TerminalEmulator=urxvt
 FileManager=Thunar
+MailReader=evolution
 

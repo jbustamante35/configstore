@@ -16,19 +16,13 @@ cl () {
 # clear color cache and re-load Xresources
 clrs () {
     xrdb -load ~/.cache/wal/colors.Xresources ;
-    xrdb -merge ~/.Xresources
-}
-
-# easily create alias [not very flexible yet]
-ali () {
-	alias $1=$2
+    xrdb -merge ~/.Xresources ;
 }
 
 wali () {
     bak="$1"
     sat="$2"
 
-    #wal -c ;
-    clrs ;
-    wal --backend "$bak" -i ~/.config/wall.png --saturate $sat -q
+    clrs && \
+    wal -c --backend "$bak" -i ~/.config/wall.png --saturate $sat -q ;
 }
