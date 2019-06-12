@@ -1,8 +1,0 @@
-[$Version]
-update_info=kscreenlocker.upd:0.1-autolock
-
-[Greeter]
-Theme=Psion
-
-[Greeter][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Path/contents/images/2560x1440.jpg

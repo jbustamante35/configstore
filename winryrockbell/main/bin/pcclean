@@ -1,7 +1,0 @@
-#!/bin/bash
-
-echo "Cleaning pc..."
-
-sudo pacman -Sc && yay -Sc && yaourt -Sc
-
-echo "pc cleaned!"
