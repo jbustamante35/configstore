@@ -11,39 +11,40 @@ dotdirs=$(ls -A ~/.dotify)
 
 # Check if directories exist
 if [[ ! -d "$repo" ]]; then
-        mkdir $repo
+    mkdir $repo
 fi
 
 if [[ ! -d "$main" ]]; then
-        mkdir $main
+    mkdir $main
 fi
 
 if [[ ! -d "$dots" ]]; then
-        mkdir $dots
+    mkdir $dots
 fi
 
 echo "Profile: $profile"
 echo "Syncing configuration..."
 
 # main
-${sync} ~/bin                 ${main}
-${sync} ~/.dotify/.aliases    ${main}
-${sync} ~/.dotify/.functions  ${main}
-${sync} ~/.dotify/.bashrc     ${main}
-${sync} ~/.dotify/.zshrc      ${main}
-${sync} ~/.dotify/.vimrc      ${main}
-#${sync} ~/.dotify/.config/i3/config ${main}
-#${sync} ~/.dotify/.config/i3blocks/config ${main}
-#${sync} ~/.dotify/.bash_aliases ${main}
-#${sync} ~/.dotify/.bash_functions ${main}
-#${sync} ~/.dotify/.zsh_aliases ${main}
-#${sync} ~/.dotify/.zsh_functions ${main}
-#${sync} ~/.dotify/.oh-my-zsh ${main}
-#${sync} ~/.dotify/.vim* ${main}
+${sync} ~/bin                          ${main}
+${sync} ~/.dotify/.aliases             ${main}
+${sync} ~/.dotify/.functions           ${main}
+${sync} ~/.dotify/.shortcuts           ${main}
+${sync} ~/.dotify/.bashrc              ${main}
+${sync} ~/.dotify/.zshrc               ${main}
+${sync} ~/.dotify/.vimrc               ${main}
+${sync} ~/.dotify/.xinitrc             ${main}
+${sync} ~/.dotify/.Xresources          ${main}
+${sync} ~/.dotify/.config/tmux         ${main}
+${sync} ~/.dotify/.config/ranger       ${main}
+${sync} ~/.dotify/.config/qutebrowser  ${main}
+${sync} ~/.dotify/.config/zathura      ${main}
+${sync} ~/.dotify/.config/wall.png     ${main}
+${sync} ~/.dotify/.config/lock.png     ${main}
 
 # dots
 for dot in $dotdirs; do
-        ${sync} ~/.dotify/${dot} ${dots}
+    ${sync} ~/.dotify/${dot} ${dots}
 done
 
 printf "\nSaving 'main' and 'dots' lists...\n"
@@ -52,11 +53,11 @@ mainlist=$repo/mainlist.txt
 dotlist=$repo/dotlist.txt
 
 if [[ ! -f "$mainlist" ]]; then
-        touch $mainlist
+    touch $mainlist
 fi
 
 if [[ ! -f "$dotlist" ]]; then
-        touch $dotlist
+    touch $dotlist
 fi
 echo $dotdirs | tr " " "\n" > $dotlist
 echo $maindirs | tr " " "\n" > $mainlist

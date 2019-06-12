@@ -3,6 +3,7 @@ cfc  ~/.scripts/configs
 cfr  ~/.config/ranger/rc.conf
 cfv  ~/.vimrc
 cfx  ~/.Xresources
+pr   ~/.profile
 br   ~/.bashrc
 zr   ~/.zshrc
 ba   ~/.aliases

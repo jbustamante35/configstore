@@ -14,15 +14,15 @@ if [ -x /usr/bin/dircolors ]; then
     alias dir='dir --color=auto'
     alias vdir='vdir --color=auto'
 
-     alias grep='grep --color=auto'
-     alias fgrep='fgrep --color=auto'
-     alias egrep='egrep --color=auto'
- fi
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
 
- # colored GCC warnings and errors
- export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+# colored GCC warnings and errors
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
- # some more ls aliases
+# some more ls aliases
 alias ls='ls -N --color=auto --group-directories-first'
 alias ll='ls -alFh'
 alias la='ls -A'
@@ -74,16 +74,17 @@ alias irods2me='iget -r /iplant/home/jbustamante35/${1} ${1}'
 alias ranger='python ~/Misc/ranger/ranger.py'
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/Screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias term='export TERM=xterm-256color'
+alias pping='prettyping'
+alias gotop='gotop -p -r'
 alias matlab='matlab -nosplash'
 alias medit='matlab -nodesktop -nosplash -nodisplay'
 alias mconsole='matlab -nodesktop -nosplash'
 alias kl='RM */.git'
 alias kll='RM */*/.git'
 alias klll='RM */*/*/.git'
-#alias wali='clrs && wal --backend colorz -i ~/.config/wall.png --saturate'
 alias cnv='convert -resize'
 alias dsp='display'
-#alias tmux='tmux -f ~/.config/tmux/tmux.conf'
+alias bat='cat'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -102,8 +103,8 @@ alias ava="gnome-terminal --profile='AVA'"
 # VimWiki aliases
 alias jrnl='vim ~/Documents/jbwiki/journal.wiki/index.wiki'
 alias labn='vim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
-alias ojrnl='xdg-open ~/Documents/jbwiki/journal.wiki_html/index.html'
-alias olabn='xdg-open ~/Documents/jbwiki/labnotes.wiki_html/index.html'
+alias ojrnl='firefox ~/Documents/jbwiki/journal.wiki_html/index.html'
+alias olabn='firefox ~/Documents/jbwiki/labnotes.wiki_html/index.html'
 
 # Git aliases
 alias gst='git status'

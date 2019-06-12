@@ -6,18 +6,22 @@ export ZSH="/home/jbustamante/.oh-my-zsh"
 ZSH_THEME="refined"
 
 plugins=(
-    zsh-autosuggestions
     extract
-    web-search
-    #cp
     vagrant
-    vi-mode
+    cp
     colorize
+    web-search
+    zsh-completions
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    #vi-mode
 )
 
 # Skip sourcing of potentially unsafe directories
 ZSH_DISABLE_COMPFIX="true"
 source $ZSH/oh-my-zsh.sh
+bindkey -v
+autoload -U compinit && compinit
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -50,3 +54,7 @@ COMPLETION_WAITING_DOTS="true"
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
 DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Source additional configs
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+
