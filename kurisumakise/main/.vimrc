@@ -1,1 +1,1 @@
-/home/jbustamante/.config/nvim/init.vim
+../dots/.config/nvim/init.vim
