@@ -94,6 +94,12 @@ XF86MonBrightnessUp
 shift + XF86MonBrightnessUp
     xbacklight -inc 10
 
+ctrl + shift + XF86MonBrightnessDown
+    xbacklight -set 1
+
+ctrl + shift + XF86MonBrightnessUp
+    xbacklight -set 100
+
 ############################### Display Control ###############################
 # Display control [xrandr]
 alt + w
@@ -161,6 +167,9 @@ super + ctrl + h
 alt + ctrl + h
     urxvt -name gotop -e gotop -p -b -s -r 2
 
+alt + shift + h
+    urxvt -name nvtop -e nvtop
+
 ############################### Misc Utilities ################################
 # Browsers [brave , firefox , qutebrowser , surf]
 super + shift + f
@@ -176,13 +185,16 @@ ctrl + shift + h
     surf google.com
 
 alt + shift + f
-    primusrun firefox
+    firefox
+    #primusrun firefox
 
 alt + shift + g
-    primusrun brave
+    brave
+    #primusrun brave
 
 alt + shift + h
-    primusrun qutebrowser
+    qutebrowser
+    #primusrun qutebrowser
 
 ## Misc applications [touchpad, mpd, screenshot, screenrecord, vimwiki]
 # Touchpad
@@ -209,30 +221,33 @@ alt + o
 alt + p
     urxvt -e nvim -c :VimwikiMakeDiaryNote
 
+# Screenshot / Screen recording
+
+
 # Function applications [Fn Keys]
 super + XF86AudioMute
     optirun -b primus nvidia-settings -c :8
 
 super + XF86AudioLowerVolume
-    primusrun gpmdp
+    gpmdp
 
 super + XF86AudioRaiseVolume
-    primusrun spotify
+    spotify
 
 super + XF86AudioPrev
-    primusrun droidsurf
+    droidsurf
 
 super + XF86AudioPlay
-    primusrun caprine
+    caprine
 
 super + XF86AudioNext
-    primusrun yakyak
+    yakyak
 
 super + F7
-    primusrun slack
+    slack
 
 super + XF86Display
-    primusrun discord
+    discord
 
 super + XF86Search
     primusrun krita
@@ -333,6 +348,10 @@ super + {_,shift + }{1-9,0}
 # Use alt + 1-5 to send to secondary display
 alt + {_,shift + }{1,2,3,4,5}
     bspc {desktop -f,node -d} '^{6,7,8,9,10}'
+
+# Use alt + 6-9,0 to send to tertiary display
+ctrl + {_,shift + }{1,2,3,4,5}
+    bspc {desktop -f,node -d} '^{11,12,13,14,15}'
 
 # Move focus to next desktop
 super + {_,shift + }w

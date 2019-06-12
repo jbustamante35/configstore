@@ -8,14 +8,14 @@ zstyle ':completion:*' select-prompt '%SScrolling active: current selection at %
 zstyle ':completion:*' use-compctl true
 zstyle :compinstall filename '/home/jbustamante/.zshrc'
 
-autoload -Uz compinit
-compinit
+#autoload -Uz compinit
+#compinit
 # End of lines added by compinstall
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
-HISTSIZE=300000
-SAVEHIST=300000
-setopt appendhistory autocd extendedglob nomatch notify
+export HISTFILE="$HOME/.histfile"
+export HISTSIZE=1000000
+export SAVEHIST=1000000
+setopt appendhistory autocd extendedglob nomatch notify incappendhistory sharehistory extendedhistory
 unsetopt beep
 bindkey -v
 # End of lines configured by zsh-newuser-install
@@ -44,6 +44,7 @@ fi
 autoload -U compinit && compinit
 fpath=($HOME/.zsh/zsh-completions/src $fpath)
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Configure command prompt
 source $HOME/.zsh/zsh-git-prompt/zshrc.sh

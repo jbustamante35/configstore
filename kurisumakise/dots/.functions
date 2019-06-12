@@ -1,3 +1,4 @@
+# vim: filetype=sh
 #############
 # FUNCTIONS #
 #############
@@ -52,6 +53,30 @@ wali () {
 
 }
 
+# Locate, Select, and Excecute [pipe locate and fzf into application]
+lse () {
+    # typ: search query for filtering by file or filetype
+    # app: application to run selected file
+    typ="$1"
+    app="$2"
+    ver="$3"
+
+    case $ver in
+        1)
+            # Search through entire filesystem
+            "$app" "$(locate "*$typ" | fzf)"
+            ;;
+        2)
+            # Search through current directory tree
+            "$app" "$(locate "$(pwd)/*$typ" | fzf)"
+            ;;
+        *)
+            # Default to version 1
+            "$app" "$(locate "*$typ" | fzf)"
+            ;;
+    esac
+}
+
 # Select video player and video type from current directory [default mpv]
 mvid () {
     vt="$1"
@@ -67,5 +92,74 @@ mvid () {
             #ls *"$vt" | dmenu -l 30 | xargs -I {} "$pl" "{}"
             ;;
     esac
+}
+
+# View VNC display
+vnc2me () {
+    dsp="$1"
+    vncviewer localhost:"$dsp"
+}
+
+# Set-up VNC local forwarding
+vncsetup () {
+    dsp="$1"
+    svr="$2"
+    case $svr in
+        subb)
+            # Submit Machine to background
+            ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 128.104.98.118 -p 22
+            #ssh -L "$dsp":localhost:"$dsp" -N -f submit
+            ;;
+        sub)
+            # Submit Machine
+            ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.118 -p 22
+            #ssh -L "$dsp":localhost:"$dsp" -N -f submit
+            ;;
+        devb)
+            # Jdev remote machine to background
+            ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 128.104.98.13 -p 50013
+            #ssh -L "$dsp":localhost:"$dsp" -N -f jdev
+            ;;
+        dev)
+            # Jdev remote machine
+            ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.13 -p 50013
+            #ssh -L "$dsp":localhost:"$dsp" -N -f jdev
+            ;;
+        *)
+            # Default to Jdev remote machine
+            ssh -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.13 -p 50013
+            #ssh -L "$dsp":localhost:"$dsp" -N -f jdev
+            ;;
+    esac
+}
+
+# Screenshot setup
+shttr () {
+    pdir="$HOME/Pictures/screenshots/"
+    sel="$1"
+    #fout=$pdir/'%y%m%d_$wx$h_$n.png'
+
+#    case "$sel" in
+#        s)
+#            # Selected window
+#            scrot -s -e 'mv $f "$pdir"'
+#            ;;
+#        u)
+#            # Active window
+#            scrot -u -e 'mv $f "$pdir"'
+#            ;;
+#        f)
+#            # Full screen
+#            scrot -e 'mv $f "$pdir"'
+#            ;;
+#        *)
+#            # Default to full screen
+#            scrot -e 'mv $f' $pdir"
+#            ;;
+#    esac
+
+    scrot "$sel" -e 'mv $f "$pdir.png"'
+    printf "sel: $sel | dir: $pdir | fout: $f"
+
 }
 

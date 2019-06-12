@@ -1,10 +1,9 @@
 Shopping List
 ~~~~~~~~~~~~~ Groceries ~~~~~~~~~~~
-- Baby spinach
-- Grape tomatoes
-- Small tomatoes
-- Yogurt dressing
-- Baby carrots
+- Orange Juice
+- V8 Juice
+- Yogurt
 
 ~~~~~~~~~~~~~~ Misc ~~~~~~~~~~~~~~~
-- Bspwm Configuration
+- DWM Configuration (Potato)
+- Xmonad Configuration (Winry)
