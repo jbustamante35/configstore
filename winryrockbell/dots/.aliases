@@ -26,6 +26,7 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 # some more ls aliases
 alias ls='ls -N --color=auto --group-directories-first'
 alias ll='ls -alFh'
+alias lo='ls -lFh'
 alias la='ls -A'
 alias l='ls -CF'
 alias lsl='ll | less'
@@ -71,9 +72,10 @@ alias psg='ps auxf | fgrep -v grep | fgrep -ie VSZ -e '
 alias myip='curl http://ipecho.net/plain; echo'
 alias rm='rm -I'
 alias RM='sudo rm -Ird'
-alias kl='RM */.git'
-alias kll='RM */*/.git'
-alias klll='RM */*/*/.git'
+alias kl='RM .??*/.git*'
+alias kll='RM .??*/*/.git*'
+alias klll='RM .??*/*/*/.git*'
+alias kllll='RM .??*/*/*/*/.git*'
 alias db='sudo updatedb'
 alias xcolors='xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources'
 alias xwal='wal -i ~/.config/wall.png --saturate 0.8'
@@ -117,6 +119,7 @@ alias medit='matlab -nodesktop -nosplash -nodisplay'
 alias mconsole='matlab -nodesktop -nosplash'
 alias sl='sl -e'
 alias zt='zathura'
+alias nb='newsboat'
 alias cnv='convert -resize'
 alias bt='bluetoothctl'
 
@@ -138,6 +141,19 @@ alias labn='vim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
 alias ojrnl='qutebrowser ~/Documents/jbwiki/journal.wiki_html/index.html'
 alias olabn='qutebrowser ~/Documents/jbwiki/labnotes.wiki_html/index.html'
 
+# Neomutt aliases
+alias gmdl='mbsync gmail'
+alias gma='neomutt -F ~/.config/mutt/gmail.muttrc -f ~/Mail/gmail/\[Gmail].All\ Mail'
+alias gmi='neomutt -F ~/.config/mutt/gmail.muttrc -f ~/Mail/gmail/INBOX/'
+alias gmd='neomutt -F ~/.config/mutt/gmail.muttrc -f ~/Mail/gmail/\[Gmail].Drafts'
+alias gms="neomutt -F ~/.config/mutt/gmail.muttrc -f ~/Mail/gmail/\[Gmail].Sent\ Mail"
+alias wmdl='mbsync wisc'
+alias wma='neomutt -F ~/.config/mutt/wisc.muttrc  -f ~/Mail/wisc/Archive'
+alias wmi='neomutt -F ~/.config/mutt/wisc.muttrc  -f ~/Mail/wisc/INBOX'
+alias wmd='neomutt -F ~/.config/mutt/wisc.muttrc  -f ~/Mail/wisc/Drafts'
+alias wms='neomutt -F ~/.config/mutt/wisc.muttrc  -f ~/Mail/wisc/Sent\ Items'
+alias nmn='notmuch new'
+
 # Suckless aliases
 alias mk='sudo make clean install'
 alias pt='patch < $1'
@@ -151,4 +167,4 @@ alias gpush='git push origin'
 alias gpull='git pull origin master'
 
 
-
+# vim: filetype=sh

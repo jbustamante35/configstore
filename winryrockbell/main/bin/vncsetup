@@ -1,0 +1,41 @@
+#!/bin/sh
+# Set-up for VNC local forwarding
+
+dsp="$1"
+svr="$2"
+
+case $svr in
+    subb)
+        ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 128.104.98.118 -p 22
+        ;;
+
+    sub)
+        ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.118 -p 22
+        ;;
+    devb)
+        ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 128.104.98.13 -p 50013
+        ;;
+
+    dev)
+        ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.13 -p 50013
+        ;;
+    kurisub)
+        ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 192.168.1.23 -p 3355
+        ;;
+
+    kurisu)
+        ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 192.168.1.23 -p 3355
+        ;;
+    potatob)
+        ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 192.168.1.16 -p 5335
+        ;;
+
+    potato)
+        ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 192.168.1.16 -p 5335
+        ;;
+    *)
+        # Default to JDev
+        ssh -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.13 -p 50013
+        ;;
+esac
+

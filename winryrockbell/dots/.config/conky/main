@@ -36,7 +36,7 @@ conky.config = {
     border_outer_margin = 5,
     border_width        = 1,
     --minimum_size        = 300,
-    maximum_width       = 500,
+    maximum_width       = 400,
 
     -- Colors
     default_shade_color   = '000000',
@@ -45,12 +45,12 @@ conky.config = {
     -- Fonts
     override_utf8_locale = true,
     use_xft              = true,
-    font                 = 'Cantarell:size=9',
+    font                 = 'Cantarell:size=12',
 
     -- Font Colors [Text | Titles | Heading]
-    default_color = 'ffffff',
-    color2        = 'ff2e2e',
-    color3        = '8eef00',
+    default_color = 'e6dec8',
+    color2        = 'ff0699',
+    color3        = 'ff9e98',
 }
 
 -- TEXT
@@ -61,14 +61,14 @@ conky.config = {
 -- MPD Music
 -- Fortune
 conky.text = [[
-${color3} ${font Cantarell} ${nodename}
-${color} ${font Cantarell:size=12} ${time %A}, ${time %e %B %Y}
+${color3} ${nodename}
+${color} ${font Cantarell:size=14} ${time %A}, ${time %e %B %Y}
 
 ${color2} ${font Cantarell:bold}STATS ${font Cantarell} ${voffset -6} ${hr 2} $color
-${voffset 5} ${color} ${font Cantarell}uptime $alignr ${color} ${uptime_short}
-${voffset 1} ${color} ${font Cantarell}disk   $alignr ${color} ${fs_used /} - ${fs_size /}
-${voffset 1} ${color} ${font Cantarell}memory $alignr ${color} $mem - $memmax
-${voffset 1} ${color} ${font Cantarell}swap   $alignr ${color} $swap - $swapmax
+${voffset 5} ${color} uptime $alignr ${color} ${uptime_short}
+${voffset 1} ${color} disk   $alignr ${color} ${fs_used /} - ${fs_size /}
+${voffset 1} ${color} memory $alignr ${color} $mem - $memmax
+${voffset 1} ${color} swap   $alignr ${color} $swap - $swapmax
 
 ${color2} ${font Cantarell:bold}CPU UTILIZATION ${font} ${voffset -6} ${hr 2} $color
 ${color} ${cpugraph 60}

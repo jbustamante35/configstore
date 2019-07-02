@@ -38,6 +38,8 @@ ${sync} ~/.dotify/.Xresources          ${main}
 ${sync} ~/.dotify/.config/awesome      ${main}
 ${sync} ~/.dotify/.config/i3           ${main}
 ${sync} ~/.dotify/.config/i3blocks     ${main}
+${sync} ~/.dotify/.config/fluxbox      ${main}
+${sync} ~/.dotify/.config/openbox      ${main}
 ${sync} ~/.dotify/.config/compton      ${main}
 ${sync} ~/.dotify/.config/conky        ${main}
 ${sync} ~/.dotify/.config/dunst        ${main}
@@ -50,8 +52,9 @@ ${sync} ~/.dotify/.config/ncmpcpp      ${main}
 ${sync} ~/.dotify/.config/ranger       ${main}
 ${sync} ~/.dotify/.config/qutebrowser  ${main}
 ${sync} ~/.dotify/.config/zathura      ${main}
-${sync} ~/.dotify/.config/wall.png     ${main}
-${sync} ~/.dotify/.config/lock.png     ${main}
+${sync} ~/.dotify/.config/grub.jpg     ${main}
+${sync} ~/.dotify/.config/wall.jpg     ${main}
+${sync} ~/.dotify/.config/lock.jpg     ${main}
 
 # dots
 for dot in $dotdirs; do

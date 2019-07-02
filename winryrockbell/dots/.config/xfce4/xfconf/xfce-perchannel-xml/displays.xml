@@ -4,9 +4,9 @@
   <property name="Default" type="empty">
     <property name="eDP1" type="string" value="Laptop">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="6120bd24eb322c6724bd120477d39e1250068377"/>
-      <property name="Resolution" type="string" value="2048x1152"/>
-      <property name="RefreshRate" type="double" value="59.999891"/>
+      <property name="EDID" type="string" value="520228a19f176e06cc059b23ff98f5fccbaeccaf"/>
+      <property name="Resolution" type="string" value="1366x768"/>
+      <property name="RefreshRate" type="double" value="59.998545"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="true"/>
@@ -132,6 +132,19 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
+    <property name="VNC-0" type="string" value="VNC-0">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value=""/>
+      <property name="Resolution" type="string" value="1280x800"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
   </property>
   <property name="ActiveProfile" type="string" value="Default"/>
   <property name="Notify" type="bool" value="true"/>
@@ -177,5 +190,8 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
+  </property>
+  <property name="Schemes" type="empty">
+    <property name="Apply" type="string" value="Default"/>
   </property>
 </channel>

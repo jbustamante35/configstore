@@ -54,3 +54,11 @@ Request {
     local_addr: V6([::1]:39233)
 }
 Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-07-01T21:35:02.410578501-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:37969/" }
+    method: Get
+    remote_addr: V6([::1]:35972)
+    local_addr: V6([::1]:37969)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })

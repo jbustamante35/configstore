@@ -114,8 +114,9 @@ imap <C-b> <br />
 imap <Leader>i <br />
 
 """""""""""""""""""""""""""""" Plugins """"""""""""""""""""""""""""""""""""""""
-" Joy: Set Escape Insert Mode to TAB key
+" Joy: Set Escape Insert Mode to TAB key [and set Shift+Tab as tab]
 let g:joy_pure = 1
+imap <S-Tab> \t
 
 " MarkdownComposer: Markdown file browser viewer
 let g:instant_markdown_autostart = 0
