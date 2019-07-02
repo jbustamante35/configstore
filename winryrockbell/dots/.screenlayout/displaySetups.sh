@@ -49,6 +49,12 @@ case "$drv" in
 esac
 
 case "$num" in
+    0b)
+        # VNC Display
+        vnc=VNC-0
+        xrandr \
+            --output "$vnc" --primary --mode 1344x727 --pos 0x0 --rotate normal
+        ;;
     1)
         # Primary only in lab
         xrandr \

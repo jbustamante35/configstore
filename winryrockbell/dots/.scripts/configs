@@ -21,6 +21,8 @@ cfx     ~/.Xresources
 ck1     ~/.config/conky/main
 ck2     ~/.config/conky/func
 ck3     ~/.config/conky/alts
+ck4     ~/.config/conky/shopping
+ck5     ~/.config/conky/todo
 cv      ~/Documents/LaTeX/cv.tex
 eb      ~/Documents/LaTeX/uni.bib
 pr      ~/.profile

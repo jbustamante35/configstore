@@ -60,3 +60,4 @@ export AOC_HOME="HDMI1"
 # Swap CAPSLOCK and ESCAPE
 setxkbmap -option "caps:swapescape"
 
+# vim: filetype=sh

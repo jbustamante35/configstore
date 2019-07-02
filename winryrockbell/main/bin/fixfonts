@@ -1,0 +1,18 @@
+#!/usr/bin/env fontforge
+
+Open("$1")
+CIDFlatten()
+Generate("$1":r + ".ttf")
+Close()
+
+Open("$1":r + ".ttf")
+
+Select(0uf96a)
+Copy()
+Select(0u7d22)
+Paste()
+SelectNone()
+
+Generate("$1":r + ".ttf")
+Close()
+

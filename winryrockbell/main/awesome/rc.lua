@@ -15,6 +15,8 @@ local gears = require("gears")
 local awful = require("awful")
 require("awful.autofocus")
 
+-- local vicious = require("vicious")
+
 -- Widget and layout library
 local wibox = require("wibox")
 
@@ -135,6 +137,9 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 -------------------------------------------------------------------------------
 -- Create a textclock widget
 mytextclock = wibox.widget.textclock()
+
+-- MPD Widget
+-- mpdwidget = vicious.widgets.mpc_all()
 
 -- Create a wibox for each screen and add it
 local taglist_buttons = gears.table.join(
@@ -283,6 +288,7 @@ function(s)
 
             -- Middle widgets
             s.mytasklist,
+            -- mpdwidget,
 
         {
             -- Right widgets
@@ -588,19 +594,6 @@ globalkeys = gears.table.join(
         {description = "Triple screen, lab, Driver", group = "launcher"}),
 
 ---------------------------- Brightness and Audio -----------------------------
-    --awful.key({}), "XF86MonBrightnessUp",
---     awful.key({}), "F4",
---         function ()
---             awful.spawn("xbacklight" .. "-dec" .. "10")
---         end,
---         {description = "set backlight down", group = "launcher"},
---
---     awful.key({}), "F5",
---         function ()
---             awful.spawn("xbacklight" .. "-inc" .. "10")
---         end,
---         {description = "set backlight up", group = "launcher"}
-
     awful.key( { }, "F5",
         function ()
             awful.spawn("xbacklight" .. " -dec " .. "10")
@@ -799,33 +792,33 @@ globalkeys = gears.table.join(
 
     awful.key({ altkey }, "F6",
         function ()
+            awful.spawn(termapp .. " openmutt " .. "gmail")
+        end,
+        {description = "Neomutt Gmail Account", group = "launcher"}),
+
+    awful.key({ altkey }, "F7",
+        function ()
+            awful.spawn(termapp .. " openmutt " .. "wisc")
+        end,
+        {description = "Neomutt Wisc Mail Account", group = "launcher"}),
+
+    awful.key({ altkey }, "F8",
+        function ()
             awful.spawn("droidsurf")
         end,
         {description = "Android Messages", group = "launcher"}),
 
-    awful.key({ altkey }, "F7",
-        function ()
-            awful.spawn(termapp .. "rtv" .. " --enable-media")
-        end,
-        {description = "Command-line Reddit", group = "launcher"}),
-
-    awful.key({ altkey }, "F8",
-        function ()
-            awful.spawn(editor_cmd .. " /home/jbustamante/.config/conky/func")
-        end,
-        {description = "Edit To-Do List", group = "launcher"}),
-
     awful.key({ altkey }, "F9",
         function ()
-            awful.spawn(editor_cmd .. " /home/jbustamante/.config/conky/alts")
+            awful.spawn(editor_cmd .. " /home/jbustamante/Dropbox/Misc/config/conky/notepad/shopping.md")
         end,
         {description = "Shopping List", group = "launcher"}),
 
     awful.key({ altkey }, "F10",
         function ()
-            awful.spawn("thunar")
+            awful.spawn(editor_cmd .. " /home/jbustamante/Dropbox/Misc/config/conky/notepad/todo.md")
         end,
-        {description = "Thunar File Manager", group = "launcher"}),
+        {description = "Todo List", group = "launcher"}),
 
     awful.key({ altkey }, "F11",
         function ()
@@ -1020,8 +1013,8 @@ awful.rules.rules = {
         },
         class = {
           "Arandr",
-          "Blueman-manager",
-          "Sxiv"
+          "Blueman-manager"
+          --"Sxiv"
           },
 
         -- Note that the name property shown in xprop might be set slightly after creation of the client

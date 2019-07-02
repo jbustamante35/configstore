@@ -6,7 +6,11 @@ cf      ~/.config
 d       ~/Documents
 dok     ~/Dok
 dr      ~/Dropbox
+drc     ~/Dropbox/Misc/config
+dre     ~/Dropbox/EdgarSpalding
 drp     ~/Dropbox/Pictures
+drr     ~/Dropbox/ResearchArticles/computationalbiology/edgarspalding
+dru     ~/Dropbox/Classes/uwmadison/phd
 dt      ~/.dotify
 gg      ~/go
 h       ~/
