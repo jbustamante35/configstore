@@ -281,29 +281,29 @@ alt + XF86AudioPlay
     optirun -b primus steam
 
 alt + XF86AudioNext
-    urxvt -e nvim -c :Calendar
+    urxvt -e neomutt -F ~/.config/mutt/gmail.muttrc -f ~/Mail/gmail/INBOX
 
 alt + F7
-    urxvt -name conkyconf -e nvim ~/.config/conky/notepad/todo.md
+    urxvt -e neomutt -F ~/.config/mutt/wisc.muttrc -f ~/Mail/wisc/INBOX
 
 # Must hold Fn key [can't override odd paste function]
 alt + F8
-    urxvt -name conkyconf -e nvim ~/.config/conky/notepad/shopping.md
+    urxvt -name conkyconf -e nvim ~/Dropbox/Misc/config/conky/notepad/todo.md
 
 alt + XF86Search
-    setkbmap -option "caps:swapescape"
+    urxvt -name conkyconf -e nvim ~/Dropbox/Misc/config/conky/notepad/shopping.md
 
 # Must hold Fn key [can't override keyboard brightness]
 alt + F10
     xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources
 
 alt + XF86MonBrightnessDown
-    regencolors colorthief 1 -l
-    #regencolors $WALEND 1 -l
+    regencolors "$WALEND" 1 -l
+    #regencolors schemer 1 -l
 
 alt + XF86MonBrightnessUp
-    regencolors colorthief 1
-    #regencolors $WALEND 1
+    regencolors "$WALEND" 1
+    #regencolors schemer 1
 
 
 ###############################################################################
@@ -352,6 +352,15 @@ alt + {_,shift + }{1,2,3,4,5}
 # Use alt + 6-9,0 to send to tertiary display
 ctrl + {_,shift + }{1,2,3,4,5}
     bspc {desktop -f,node -d} '^{11,12,13,14,15}'
+
+# Toggle window from scratchpad
+super + {shift +}minus
+    id=$(cat /tmp/scratchid); \
+        bspc node $id --flag hidden;bspc node -f $id
+
+super + minus
+    id=$(cat /tmp/scratchid); \
+        bspc node $id --flag marked=on;bspc node -f $id
 
 # Move focus to next desktop
 super + {_,shift + }w

@@ -49,8 +49,7 @@ wali () {
 
     wal -c ;
     clrs ;
-    wal --backend "$bak" -i ~/.config/wall.png --saturate "$sat" -q
-
+    wal --backend "$bak" -i ~/.config/wall.png --saturate "$sat" -q ;
 }
 
 # Locate, Select, and Excecute [pipe locate and fzf into application]
@@ -123,6 +122,16 @@ vncsetup () {
         dev)
             # Jdev remote machine
             ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.13 -p 50013
+            #ssh -L "$dsp":localhost:"$dsp" -N -f jdev
+            ;;
+        winryb)
+            # WinryRockbell to background
+            ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 192.168.1.29 -p 3553
+            #ssh -L "$dsp":localhost:"$dsp" -N -f jdev
+            ;;
+        winry)
+            # WinryRockbell ASUS
+            ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 192.168.1.29 -p 3553
             #ssh -L "$dsp":localhost:"$dsp" -N -f jdev
             ;;
         *)

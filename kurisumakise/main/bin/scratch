@@ -1,0 +1,4 @@
+#!/usr/bin/sh
+# Emulate dropdown terminal scratchpad, similar to i3
+bspc query -N -n .floating > /tmp/scratchid
+$SHELL

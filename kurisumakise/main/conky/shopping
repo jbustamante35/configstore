@@ -44,5 +44,5 @@ conky.config = {
 
 -- TEXT
 conky.text = [[
-${voffset 0}${offset 0}${color}${font}${exec cat ~/.config/conky/notepad/shopping.md | fmt -s -w 36 | sed 's/^/    /'}${font}
+${voffset 0}${offset 0}${color}${font}${exec cat ~/Dropbox/Misc/config/conky/notepad/shopping.md | fmt -s -w 36 | sed 's/^/    /'}${font}
 ]]

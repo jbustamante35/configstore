@@ -2,7 +2,7 @@
 # This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login exists.
 
 export PROFILE=kurisumakise
-export WALEND=colorthief
+export WALEND=schemer
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then

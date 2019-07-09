@@ -49,10 +49,10 @@ ${sync} ~/.dotify/.config/ncmpcpp      ${main}
 ${sync} ~/.dotify/.config/ranger       ${main}
 ${sync} ~/.dotify/.config/qutebrowser  ${main}
 ${sync} ~/.dotify/.config/zathura      ${main}
-${sync} ~/.dotify/.config/wall.png     ${main}
-${sync} ~/.dotify/.config/grub.png     ${main}
-${sync} ~/.dotify/.config/login.png    ${main}
-${sync} ~/.dotify/.config/lock.png     ${main}
+${sync} ~/.dotify/.config/wall.jpg     ${main}
+${sync} ~/.dotify/.config/grub.jpg     ${main}
+${sync} ~/.dotify/.config/login.jpg    ${main}
+${sync} ~/.dotify/.config/lock.jpg     ${main}
 
 # dots
 for dot in $dotdirs; do

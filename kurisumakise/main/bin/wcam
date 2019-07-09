@@ -1,0 +1,49 @@
+#!/bin/sh
+# webcam recording shortcuts
+# NOTE
+# I still haven't figured out how to save recordings...
+tool="$1"
+file="$2"
+fldr="$HOME/Videos/screenrecordings"
+dev="/dev/video0"
+default=mpv
+
+echo "Recording with $tool on device $dev into $fldr/$file"
+
+case $tool in
+mplayer)
+    fname="$fldr/wcam"
+    echo "Recording started in $fname"
+    mplayer tv:// -tv driver=v4l2:width=640:height=480:device="$dev" \
+        -fps 15 -vf screenshot
+    echo "Recording stopped in $fname"
+    ;;
+
+mpv)
+    fname="$fldr/wcam"
+    echo "Recording started in $fname"
+    mpv --demuxer-lavf-format video4linux2 \
+        --demuxer-lavf-o-set input_format=mjpeg "$dev" \
+        --screenshot-directory="$fname"
+    echo "Recording stopped in $fname"
+    ;;
+
+hidden)
+    hidden="$fldr/.misc"
+    nm="$2"
+    fname="$hidden/$nm"
+    echo "Recording started in $fname"
+    ffmpeg -f v4l2 -video_size 640x480 -i "$dev" -f alsa -i default \
+        -c:v libx264 -preset ultrafast -c:a aac "$fname".mp4
+    echo "Recording stopped in $fname"
+    ;;
+
+*)
+    fname="$fldr/wcam"
+    echo "Recording started in $fname/$file using default $default"
+    "$default" --demuxer-lavf-format video4linux2 \
+        --demuxer-lavf-o-set input_format=mjpeg "$dev" \
+        --screenshot-directory="$fname"
+    echo "Recording stopped in $fname/$file"
+    ;;
+esac
