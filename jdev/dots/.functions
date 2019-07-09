@@ -26,3 +26,31 @@ wali () {
     clrs && \
     wal -c --backend "$bak" -i ~/.config/wall.png --saturate $sat -q ;
 }
+
+
+# Find, Search, Execute
+lse () {
+    # typ: filter by search query
+    # app: run selection with application
+    # ver: run on full filesystem (1) or subdirectory tree (2)
+    typ="$1"
+    app="$2"
+    ver="$3"
+
+    case $ver in
+        1)
+            # Search through entire file system
+            "$app" "$(locate "*$typ" | fzf)"
+            ;;
+        2)
+            # Localized search through current directory tree
+            "$app" "$(locate "$(pwd)/*$typ" | fzf)"
+            ;;
+        *)
+            # Default to searching entire file system
+            "$app" "$(locate "*$typ" | fzf)"
+            ;;
+    esac
+}
+
+# vim: syntax=sh

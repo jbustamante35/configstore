@@ -25,9 +25,11 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 # some more ls aliases
 alias ls='ls -N --color=auto --group-directories-first'
 alias ll='ls -alFh'
+alias lo='ls -lFh'
 alias la='ls -A'
 alias l='ls -CF'
 alias lsl='ll | less'
+alias lll='ls /*'
 
 # some cd aliases
 alias ccd='cd'
@@ -79,17 +81,17 @@ alias gotop='gotop -p -r'
 alias matlab='matlab -nosplash'
 alias medit='matlab -nodesktop -nosplash -nodisplay'
 alias mconsole='matlab -nodesktop -nosplash'
-alias kl='RM */.git'
-alias kll='RM */*/.git'
-alias klll='RM */*/*/.git'
+alias kl=  'RM .??*/.git*'
+alias kll= 'RM .??*/*/.git*'
+alias klll='RM .??*/*/*/.git*'
+alias kllll='RM .??*/*/*/*/.git*'
 alias cnv='convert -resize'
 alias dsp='display'
 alias bat='cat'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|ta
-    il -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # set editor and pkg-config path
 export EDITOR='vim'
@@ -114,3 +116,4 @@ alias gcomm='git commit -m'
 alias gpush='git push origin'
 alias gpull='git pull origin master'
 
+# vim: filetype=sh

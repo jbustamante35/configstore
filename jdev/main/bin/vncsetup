@@ -1,0 +1,26 @@
+#!/bin/sh
+# Set-up for VNC local forwarding 
+
+dsp="$1" 
+svr="$2" 
+
+case $svr in
+    subb) 
+        ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 128.104.98.118 -p 22 
+        ;;
+
+    sub) 
+        ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.118 -p 22 
+        ;;
+    devb) 
+        ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 128.104.98.13 -p 50013 
+        ;;
+
+    dev) 
+        ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.13 -p 50013 
+        ;;
+    *) 
+        ssh -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.13 -p 50013 
+        ;;
+esac
+
