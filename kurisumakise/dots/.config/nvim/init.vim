@@ -263,4 +263,7 @@ noremap <silent> <C-d> :call smooth_scroll#down(&scroll, 0, 2)<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Testing testing from source nvim
+" It worked [from ~/.vimrc]
+" Yay [from ~/.dotify/.vimrc]
 

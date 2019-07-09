@@ -99,6 +99,10 @@ bspc rule -a URxvt:gotop      state=floating follow=on
 bspc rule -a URxvt:nvtop      state=floating follow=on
 bspc rule -a URxvt:pulsemixer state=floating follow=on
 
+# Scratchpad [doesn't work]
+#bspc rule -a scratchpad sticky=on state=floating hidden=on
+#urxvt -C scratchpad -e ~/bin/scratch &
+
 ############################## Bar Configuration ##############################
 ## TODO
 # Polybar or better Lemonbar

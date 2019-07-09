@@ -85,6 +85,7 @@ image/x-png=deepin-custom-feh.desktop
 x-scheme-handler/ftp=brave.desktop
 audio/x-wav=dde-file-manager-custom-open-audio-x-wav.desktop
 x-scheme-handler/discord-424004941485572097=discord-424004941485572097.desktop
+x-scheme-handler/discord-555940169526673428=discord-555940169526673428.desktop
 
 [Added Associations]
 x-scheme-handler/http=brave.desktop;qutebrowser.desktop;

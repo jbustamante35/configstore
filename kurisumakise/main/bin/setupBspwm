@@ -9,7 +9,7 @@ killall dunst & killall conky & killall compton & killall polybar & mpd --kill ;
 setScreens 3;
 
 # Set Xresources and wallpaper
-regencolors $WALEND 1
+regencolors "$WALEND" 1
 
 # Applets [bluetooth , wifi]
 
@@ -22,7 +22,7 @@ touchpadctl tap
 
 # MPD | Compton | Conky | Dunst
 mpd &
-bash ~/.config/conky/conky.sh &
+myconky &
 dunst   -config ~/.config/dunst/dunstrc &
 compton --config ~/.config/compton/compton.conf -b  ;
 
