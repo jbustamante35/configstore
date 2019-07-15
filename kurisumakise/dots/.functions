@@ -24,7 +24,7 @@ drchk () {
 }
 
 # unzip into directory of the same name
-uz () {
+uzp () {
     nm=$1
     unzip "$nm".zip -d "$nm"
 }
@@ -49,7 +49,7 @@ wali () {
 
     wal -c ;
     clrs ;
-    wal --backend "$bak" -i ~/.config/wall.png --saturate "$sat" -q ;
+    wal --backend "$bak" -i ~/.config/wall.jpg --saturate "$sat" -q ;
 }
 
 # Locate, Select, and Excecute [pipe locate and fzf into application]
@@ -93,53 +93,25 @@ mvid () {
     esac
 }
 
+# Start tmux session on remote host
+tsh () {
+    host="$1"
+    ssnname="$2"
+
+    if [ -z "$ssnname" ]; then
+        echo "Provide name of session [Example: tsh <host> main]"
+        return 1;
+    fi
+
+    echo ssh "$host" -t "tmux -CC attach -t $ssnname || tmux -CC new $ssnname"
+    ssh $host -t "tmux -CC attach -t $ssnname || tmux -CC new $ssnname"
+
+}
+
 # View VNC display
 vnc2me () {
     dsp="$1"
-    vncviewer localhost:"$dsp"
-}
-
-# Set-up VNC local forwarding
-vncsetup () {
-    dsp="$1"
-    svr="$2"
-    case $svr in
-        subb)
-            # Submit Machine to background
-            ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 128.104.98.118 -p 22
-            #ssh -L "$dsp":localhost:"$dsp" -N -f submit
-            ;;
-        sub)
-            # Submit Machine
-            ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.118 -p 22
-            #ssh -L "$dsp":localhost:"$dsp" -N -f submit
-            ;;
-        devb)
-            # Jdev remote machine to background
-            ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 128.104.98.13 -p 50013
-            #ssh -L "$dsp":localhost:"$dsp" -N -f jdev
-            ;;
-        dev)
-            # Jdev remote machine
-            ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.13 -p 50013
-            #ssh -L "$dsp":localhost:"$dsp" -N -f jdev
-            ;;
-        winryb)
-            # WinryRockbell to background
-            ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 192.168.1.29 -p 3553
-            #ssh -L "$dsp":localhost:"$dsp" -N -f jdev
-            ;;
-        winry)
-            # WinryRockbell ASUS
-            ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 192.168.1.29 -p 3553
-            #ssh -L "$dsp":localhost:"$dsp" -N -f jdev
-            ;;
-        *)
-            # Default to Jdev remote machine
-            ssh -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.13 -p 50013
-            #ssh -L "$dsp":localhost:"$dsp" -N -f jdev
-            ;;
-    esac
+    vncviewer localhost:"$dsp" -passwd ~/.vnc/passwd
 }
 
 # Screenshot setup

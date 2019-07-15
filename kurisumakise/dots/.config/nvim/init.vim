@@ -189,7 +189,7 @@ let g:calendar_google_task     = 1
 " Lightline: Setup lightline status bar
 set laststatus=2
 let g:lightline = {
-    \ 'colorscheme': 'powerline',
+    \ 'colorscheme': 'jellybeans',
     \ 'active': {
     \   'left': [ ['mode', 'paste' ],
     \             ['readonly', 'filename', 'modified', 'charvaluehex' ] ]
@@ -198,6 +198,11 @@ let g:lightline = {
     \   'charvaluehex': '0x%B'
     \ },
 \ }
+
+" TmuxLine: Statusline generator for tmux
+let g:tmuxline_powerline_separators = 0
+let g:Tmuxline                      = lightline
+
 
 " Template: Automated template plugin
 let g:templates_directory = '~/.vim/bundle/vim-templates/templates'

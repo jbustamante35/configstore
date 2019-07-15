@@ -8,4 +8,4 @@ lit=$3
 wal -c ;
 xrdb -load ~/.cache/wal/colors.Xresources;
 xrdb -merge ~/.Xresources;
-wal --backend "$bak" -i ~/.config/wall.png --saturate "$sat" $lit -q ;
+wal --backend "$bak" -i ~/.config/wall.jpg --saturate "$sat" $lit -q ;

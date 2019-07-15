@@ -6,9 +6,9 @@ compton
 conky
 dunst
 .functions
-grub.png
-lock.png
-login.png
+grub.jpg
+lock.jpg
+login.jpg
 mpd.conf
 mpv
 ncmpcpp
@@ -20,7 +20,7 @@ rtv
 sxhkd
 tmux
 .vimrc
-wall.png
+wall.jpg
 .xinitrc
 .Xresources
 zathura
