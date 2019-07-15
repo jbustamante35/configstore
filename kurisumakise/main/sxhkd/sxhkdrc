@@ -46,7 +46,7 @@
 super + c
     pkill -USR1 -x sxhkd
 
-super + alt + {z,c}
+super + shift + {x,c}
     bspc {quit,wm -r}
 
 super + {_,shift + }q
@@ -102,11 +102,14 @@ ctrl + shift + XF86MonBrightnessUp
 
 ############################### Display Control ###############################
 # Display control [xrandr]
-alt + w
+alt + z
     setScreens 1
 
-alt + shift + w
+alt + shift + z
     setScreens 2
+
+ctrl + shift + z
+    setScreens 3
 
 ###############################################################################
 ################################ Applications #################################
@@ -183,18 +186,6 @@ super + shift + h
 
 ctrl + shift + h
     surf google.com
-
-alt + shift + f
-    firefox
-    #primusrun firefox
-
-alt + shift + g
-    brave
-    #primusrun brave
-
-alt + shift + h
-    qutebrowser
-    #primusrun qutebrowser
 
 ## Misc applications [touchpad, mpd, screenshot, screenrecord, vimwiki]
 # Touchpad
@@ -320,7 +311,7 @@ super + {p,b,comma,period}
     bspc node -f @{parent,brother,first,second}
 
 # Focus next/previous node in current desktop
-super + {_,shift + }c
+alt + {_,shift + }c
     bspc node -f {next,prev}.local
 
 # Focus next/previous desktop in current monitor
