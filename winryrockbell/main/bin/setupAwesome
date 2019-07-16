@@ -10,7 +10,7 @@ killall dunst conky compton nm-applet blueman-applet optimus-manager-qt && \
 setScreens 2 nvidia home;
 
 # Set Xresources and wallpaper
-feh --bg-scale $HOME/.config/wall.png
+feh --bg-scale $HOME/.config/wall.jpg
 regencolors $WALEND 1
 
 # Applets [bluetooth , wifi , power , volume , optimus-manager , pamac]

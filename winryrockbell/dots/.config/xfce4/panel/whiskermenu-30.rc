@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
-recent=xsensors.desktop,mugshot.desktop
+recent=optimus-manager-qt.desktop,libreoffice-startcenter.desktop,xsensors.desktop,mugshot.desktop
 button-title=Applications
 button-icon=unturned
 button-single-row=false

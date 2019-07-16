@@ -14,7 +14,7 @@ cl () {
 }
 
 # unzip into directory of the same name as zip file
-uz () {
+uzp () {
     nm=$1;
     unzip "$nm".zip -d "$nm";
 }
@@ -38,7 +38,7 @@ clrs () {
 # Set color scheme
 wali () {
     clrs ;
-    wal --backend "$1" -i ~/.config/wall.png --saturate 1 -q ;
+    wal --backend "$1" -i ~/.config/wall.jpg --saturate 1 -q ;
 }
 
 # Select videos by file extension and choose video player
@@ -49,11 +49,8 @@ mvid () {
 
 # Set-up VNC local forwarding
 vnc2me () {
-    #ssh -L "$1":localhost:"$1" -N -f -l jbustamante 128.104.98.118 -p 22
-    #ssh -L "$1":localhost:"$1" -N -f submit
     dsp="$1"
     vncviewer localhost:"$dsp" -passwd ~/.vnc/passwd
 }
-
 
 # vim: filetype=sh

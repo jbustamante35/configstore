@@ -71,7 +71,7 @@ editor     = os.getenv("EDITOR") or "nvim"
 editor_cmd = terminal .. " -e " .. editor
 termapp    = terminal .. " -e "
 browser    = os.getenv("BROWSER") or "qutebrowser"
-walend     = os.getenv("WALEND") or " schemer "
+walend     = os.getenv("WALEND") or " colorz "
 walsat     = " 1 "
 driver     = "nvidia"
 
@@ -684,6 +684,30 @@ globalkeys = gears.table.join(
             awful.spawn("clippw" .. " gm " .. "clip")
         end,
         {description = "Get Secret gm", group = "launcher"}),
+
+    awful.key({ altkey, "Control" }, "d",
+        function ()
+            awful.spawn("mpc toggle")
+        end,
+        {description = "Toggle music", group = "launcher"}),
+
+    awful.key({ altkey, "Control" }, "s",
+        function ()
+            awful.spawn("mpc prev")
+        end,
+        {description = "Previous song", group = "launcher"}),
+
+    awful.key({ altkey, "Control" }, "f",
+        function ()
+            awful.spawn("mpc next")
+        end,
+        {description = "Next song", group = "launcher"}),
+
+    awful.key({ altkey, "Control" }, "x",
+        function ()
+            awful.spawn("showSongInfo 1")
+        end,
+        {description = "Show song info", group = "launcher"}),
 
 ------------------------------ Function Bindings ------------------------------
     awful.key({ modkey }, "F1",
