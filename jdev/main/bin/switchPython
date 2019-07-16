@@ -1,0 +1,26 @@
+#!/bin/sh
+# Toggle between python2 and python3 as main python
+
+# Current version
+ver=$(python --version | awk '{print $2}' | cut -f1 -d.)
+
+case $ver in
+2)
+    # Switch from 2 --> 3
+    sudo ln -sf /usr/bin/python3 /usr/bin/python
+    curr=3
+    ;;
+
+3)
+    # Switch from 3 --> 2
+    sudo ln -sf /usr/bin/python2 /usr/bin/python
+    curr=2
+    ;;
+
+*)
+    # Do nothing
+    echo "Can't determine python version"
+    ;;
+
+esac
+echo "Switched from Python$ver to Python$curr"

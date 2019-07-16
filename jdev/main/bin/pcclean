@@ -1,4 +1,5 @@
-echo "Updating package repository..."
-sudo yum clean all -y
-echo "Finished updating packages!"
+#!/bin/sh
 
+echo "Cleaning pc..."
+sudo apt autoremove -y && sudo apt autoclean -y
+echo "pc cleaned"

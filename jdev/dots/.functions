@@ -13,20 +13,33 @@ cl () {
 	cd $1 && la -F;
 }
 
-# clear color cache and re-load Xresources
+# unzip into directory of the same name as zip file
+uzp () {
+	nm=$1;
+	unzip "$nm".zip -d "$nm";
+}
+
+# check current status of dropbox syncing
+drchk () {
+	cd ~/Dropbox
+	dropbox filestatus && printf "\n\n\n" && dropbox status
+	cd -
+        printf "\n" && dropbox filestatus
+}
+
 clrs () {
     xrdb -load ~/.cache/wal/colors.Xresources ;
-    xrdb -merge ~/.Xresources ;
+    xrdb -merge ~/.Xresources
 }
 
 wali () {
     bak="$1"
     sat="$2"
 
-    clrs && \
-    wal -c --backend "$bak" -i ~/.config/wall.png --saturate $sat -q ;
+    wal -c ;
+    clrs ;
+    wal --backend "$bak" -i ~/.config/wall.jpg --saturate $sat -q
 }
-
 
 # Find, Search, Execute
 lse () {

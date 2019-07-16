@@ -1,60 +1,49 @@
-# Set profile name for this device
-export PROFILE=jdev
+# The following lines were added by compinstall
+zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
+zstyle ':completion:*' list-colors ''
+zstyle ':completion:*' matcher-list '' 'm:{[:lower:]}={[:upper:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} r:|[._-]=** r:|=**' 'l:|=* r:|=*'
+zstyle ':completion:*' menu select=long
+zstyle ':completion:*' select-prompt '%SScrolling active: current selection at %p%s'
+zstyle ':completion:*' use-compctl true
+zstyle :compinstall filename '/home/jbustamante/.zshrc'
 
-# Path to your oh-my-zsh installation.
-export ZSH="/home/jbustamante/.oh-my-zsh"
-ZSH_THEME="refined"
-
-plugins=(
-    extract
-    vagrant
-    cp
-    colorize
-    web-search
-    zsh-completions
-    zsh-autosuggestions
-    zsh-syntax-highlighting
-    #vi-mode
-)
-
-# Skip sourcing of potentially unsafe directories
-ZSH_DISABLE_COMPFIX="true"
-source $ZSH/oh-my-zsh.sh
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=20000
+SAVEHIST=20000
+setopt appendhistory autocd extendedglob nomatch notify
+unsetopt beep
 bindkey -v
+# End of lines configured by zsh-newuser-install
+
+# Source aliases, functions, and shortcuts
+als=~/.aliases
+if [ -f $als ]; then
+    source $als
+fi
+
+fncs=~/.functions
+if [ -f $fncs ]; then
+    source $fncs
+fi
+
+shrt=~/.scripts/shortcuts.sh
+if [ -f $shrt ]; then
+    bash $shrt
+    source ~/.shortcuts
+fi
+
+# Enable zsh plugins
 autoload -U compinit && compinit
+fpath=($HOME/.zsh/zsh-completions/src $fpath)
+source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source $HOME/.zsh/zsh-git-prompt/zshrc.sh
+
+autoload -U colors && colors
+#PROMPT="%{$fg[green]%}[ %{$fg[yellow]%}%~%{$fg[green]%} $(git_super_status) ] "
+PROMPT="%{$fg[green]%}[ %{$fg[yellow]%}%~%{$fg[green]%} ] "
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# Aliases
-als=~/.aliases
-if [ -f ${als} ]; then
-    . ${als}
-fi
-
-# Function definitions
-funcs=~/.functions
-if [ -f ${funcs} ]; then
-    . ${funcs}
-fi
-
-# Shortcut bindings
-shrt=~/.scripts/shortcuts.zsh
-if [ -f ${shrt} ]; then
-    . ${shrt}
-    . ~/.shortcuts
-fi
-
-# Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Source additional configs
-export SSH_KEY_PATH="~/.ssh/rsa_id"
-

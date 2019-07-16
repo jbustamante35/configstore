@@ -1,0 +1,18 @@
+# vim: filetype=muttrc
+mailboxes =gmail
+mailboxes =gmail/INBOX =gmail/[Gmail].All\ Mail =gmail/[Gmail].Sent\ Mail =gmail/[Gmail].Drafts
+set spoolfile        = "+INBOX"
+set record           = /dev/null
+set trash            = "+[Gmail].Trash"
+set postponed        = "+[Gmail].Drafts"
+set mbox             = "+[Gmail].All Mail"
+set header_cache     = ~/.config/neomutt/accounts/gmail/cache/headers
+set message_cachedir = ~/.config/neomutt/accounts/gmail/cache/bodies
+set certificate_file = ~/.config/neomutt/accounts/gmail/certificate_file
+
+# Move across folders
+bind index,pager g noop
+macro index,pager gi "<change-folder>=gmail/INBOX<enter>"
+macro index,pager ga "<change-folder>=gmail/[Gmail].All\ Mail<enter>"
+macro index,pager gd "<change-folder>=gmail/[Gmail].Drafts<enter>"
+macro index,pager gs "<change-folder>=gmail/[Gmail].Sent\ Mail<enter>"
