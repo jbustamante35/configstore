@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Do this before nm-applet... I don't know why
+(sleep 1 && /usr/bin/ck-launch-session) &
+/usr/bin/stalonetray --geometry 16x16+150-586 --icon-size 16 &
+(sleep 2 && /usr/bin/nm-applet) &
+conky -c /home/jbustamante/.conky-dwm | while true; do /usr/bin/dwm > /dev/null; done;

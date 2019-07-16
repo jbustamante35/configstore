@@ -1,4 +1,4 @@
-TerminalEmulator=urxvt
 WebBrowser=surf
-MailReader=custom-MailReader
+MailReader=thunderbird
+TerminalEmulator=custom-TerminalEmulator
 

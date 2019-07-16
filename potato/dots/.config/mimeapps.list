@@ -7,4 +7,12 @@ x-scheme-handler/https=exo-web-browser.desktop
 application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;xarchiver.desktop;
 image/gif=ristretto.desktop;
 x-scheme-handler/mailto=exo-mail-reader.desktop
+text/html=qutebrowser.desktop;
+application/xhtml+xml=qutebrowser.desktop;
+application/pdf=zathura-pdf-poppler.desktop;
+
+[Default Applications]
+text/html=qutebrowser.desktop
+application/xhtml+xml=qutebrowser.desktop
+application/pdf=zathura-pdf-poppler.desktop
 

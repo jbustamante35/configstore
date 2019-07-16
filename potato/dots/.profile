@@ -39,17 +39,17 @@ fi
 #GOROOT='/usr/lib/go'
 #GOPATH=/home/jbustamante/go
 RUBYPATH=/home/jbustamante/.gem/ruby/2.5.0
-PYTHON=/usr/bin/python
+#PYTHON=/usr/bin/python
 #JUPYTER=/usr/local/bin/jupyter
 
-#export TERMINAL=urxvt
-export TERMINAL=gnome-terminal
-export BROWSER=firefox
+export TERMINAL=st
+export BROWSER=surf
 export EDITOR=nvim
+export WALEND=haishoku
 export MPD_PORT=6000
 #export PATH=$PATH:$MYPATH:$MYBIN:$GOROOT/bin:$GOPATH/bin:$RUBYPATH/bin
 export PATH=$PATH:$MYPATH:$MYBIN:$RUBYPATH/bin
 
 # Swap CAPSLOCK and ESCAPE
-setxkbmap -option "caps:swapescape"
+#setxkbmap -option "caps:swapescape"
 
