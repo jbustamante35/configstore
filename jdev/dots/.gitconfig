@@ -1,15 +1,5 @@
 [user]
-    name  = Julian Bustamante
-    email = jbustamante35@gmail.com
-[core]
-    editor = vim
-    pager  = diff-so-fancy | less --tabs=4 -R
+	name  = Julian Bustamante
+	email = jbustamante35@gmail.com
 [credential]
-    #helper = cache --timeout = 3600
-    helper  = store
-[help]
-    autocorrect = 1
-    browser     = 1
-[gui]
-	recentrepo = /home/jbustamante/Software/carrotsweeper
-	recentrepo = /home/jbustamante/Documents/configstore.bak
+	helper = store

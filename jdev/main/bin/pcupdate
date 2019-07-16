@@ -1,9 +1,15 @@
-echo "Updating package repository..."
-sudo yum update -y && sudo yum upgrade -y
-echo "Finished updating packages!"
+#!/bin/sh
 
-echo "Updating anaconda..."
-conda update --all -y
-echo "Done updating anaconda!"
+echo "Updating pc"
+sudo apt update -y && sudo apt upgrade -y
+echo "apt updated..."
 
+echo "updating pip"
+update_pip
+#pip install $(pip list --outdated | awk '{ print $1 }') --upgrade
+#pip3 install $(pip3 list --outdated | awk '{ print $1 }') --upgrade
+echo "pip updated..."
 
+echo "updating julia"
+#julia -e "Pkg.update()"
+echo "julia updated..."

@@ -1,0 +1,7 @@
+#!/bin/bash
+# Script to replace dmenu with rofi
+
+theme="~/.config/rofi/rofi_theme.rasi"
+rofi -modi window,drun,run \
+    -show drun -sidebar-mode -terminal urxvt \
+    -show-icons true -config "$theme"

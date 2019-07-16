@@ -18,8 +18,8 @@ URxvt*internalBorder:  5
 ! Transparency
 URxvt*depth:        32
 URxvt*background:   [90]#000000
-URxvt*transparent:  true
-URxvt*.shading:     25
+!URxvt*transparent:  true
+!URxvt*.shading:     25
 
 !!Fonts
 #define font1 DejaVu Sans Mono
@@ -64,7 +64,7 @@ URxvt*keysym.M-C-v:        perl:clipboard:paste_escaped
 URxvt*keysym.M-l:	    perl:url-select:select_next
 URxvt*url-select.autocopy:  true
 URxvt*url-select.button:    2
-URxvt*url-select.launcher:  firefox
+URxvt*url-select.launcher:  brave-browser-beta
 URxvt*url-select.underline: true
 
 !! keyboard-select:
@@ -79,7 +79,7 @@ URxvt*keysym.C-equals:    resize-font:reset
 URxvt*keysym.C-question:  resize-font:show
 
 !! Matcher
-URxvt*url-launcher:         firefox
+URxvt*url-launcher:         brave-browser-beta
 URxvt*matcher.button:       1
 
 !! rofi

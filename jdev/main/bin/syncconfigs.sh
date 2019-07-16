@@ -35,12 +35,22 @@ ${sync} ~/.dotify/.zshrc               ${main}
 ${sync} ~/.dotify/.vimrc               ${main}
 ${sync} ~/.dotify/.xinitrc             ${main}
 ${sync} ~/.dotify/.Xresources          ${main}
+${sync} ~/.dotify/.config/openbox      ${main}
+${sync} ~/.dotify/.config/compton      ${main}
+${sync} ~/.dotify/.config/conky        ${main}
+${sync} ~/.dotify/.config/dunst        ${main}
 ${sync} ~/.dotify/.config/tmux         ${main}
+${sync} ~/.dotify/.config/rofi         ${main}
+${sync} ~/.dotify/.config/rtv          ${main}
+${sync} ~/.dotify/.config/mpd/mpd.conf ${main}
+${sync} ~/.dotify/.config/mpv          ${main}
+${sync} ~/.dotify/.config/ncmpcpp      ${main}
 ${sync} ~/.dotify/.config/ranger       ${main}
 ${sync} ~/.dotify/.config/qutebrowser  ${main}
 ${sync} ~/.dotify/.config/zathura      ${main}
-${sync} ~/.dotify/.config/wall.png     ${main}
-${sync} ~/.dotify/.config/lock.png     ${main}
+${sync} ~/.dotify/.config/grub.jpg     ${main}
+${sync} ~/.dotify/.config/wall.jpg     ${main}
+${sync} ~/.dotify/.config/lock.jpg     ${main}
 
 # dots
 for dot in $dotdirs; do
