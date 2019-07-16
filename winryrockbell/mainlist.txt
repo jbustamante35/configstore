@@ -11,7 +11,6 @@ grub.jpg
 i3
 i3blocks
 lock.jpg
-lock.png
 mpd.conf
 mpv
 ncmpcpp
@@ -23,7 +22,6 @@ rtv
 .shortcuts
 tmux
 wall.jpg
-wall.png
 .xinitrc
 .Xresources
 zathura

@@ -6,7 +6,7 @@
     <value type="int" value="1"/>
     <value type="int" value="2"/>
     <property name="panel-0" type="empty">
-      <property name="position" type="string" value="p=6;x=672;y=24"/>
+      <property name="position" type="string" value="p=6;x=1024;y=18"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
@@ -38,15 +38,15 @@
       <property name="leave-opacity" type="uint" value="85"/>
       <property name="enter-opacity" type="uint" value="90"/>
       <property name="span-monitors" type="bool" value="false"/>
-      <property name="output-name" type="string" value="VNC-0"/>
+      <property name="output-name" type="string" value="Primary"/>
     </property>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=11;x=3092;y=13"/>
       <property name="size" type="uint" value="24"/>
       <property name="mode" type="uint" value="0"/>
-      <property name="output-name" type="string" value="HDMI-1"/>
+      <property name="output-name" type="string" value="HDMI1"/>
       <property name="length" type="uint" value="65"/>
-      <property name="position-locked" type="bool" value="false"/>
+      <property name="position-locked" type="bool" value="true"/>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0.000000"/>
@@ -71,9 +71,9 @@
       <property name="length-adjust" type="bool" value="true"/>
     </property>
     <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=4;x=3411;y=1062"/>
+      <property name="position" type="string" value="p=12;x=1068;y=1132"/>
       <property name="size" type="uint" value="33"/>
-      <property name="output-name" type="string" value="HDMI1"/>
+      <property name="output-name" type="string" value="eDP1"/>
       <property name="length" type="uint" value="58"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="background-style" type="uint" value="1"/>
@@ -138,6 +138,7 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="size-max" type="uint" value="24"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="blueman-tray"/>
         <value type="string" value="volumeicon"/>
         <value type="string" value="network"/>
         <value type="string" value="gajim"/>
@@ -173,7 +174,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="audacious;chromium.instance1619;chromium.instance18601;chromium.instance19565;chromium.instance19843;chromium.instance25926;google-play-music-desktop-player"/>
+      <property name="mpris-players" type="string" value="audacious;chromium.instance14267;chromium.instance1619;chromium.instance18601;chromium.instance19565;chromium.instance19843;chromium.instance25926;chromium.instance6284;google-play-music-desktop-player"/>
     </property>
     <property name="plugin-8" type="string" value="whiskermenu"/>
     <property name="plugin-10" type="string" value="xfce4-mpc-plugin"/>

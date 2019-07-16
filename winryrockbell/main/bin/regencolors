@@ -8,5 +8,5 @@ light=$3
 wal -c ;
 xrdb -load ~/.cache/wal/colors.Xresources ;
 xrdb -merge ~/.Xresources ;
-wal --backend "$walend" -i ~/.config/wall.png --saturate "$walsat" $light
+wal --backend "$walend" -i ~/.config/wall.jpg --saturate "$walsat" $light
 

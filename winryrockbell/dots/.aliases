@@ -91,16 +91,9 @@ alias alert='notify-send --urgency=low -i \
 # aliases to vpn to UW Madison
 #alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu --username jbustamante'
 alias vpn2me='sudo openconnect --protocol=gp uwmadison.vpn.wisc.edu'
-#alias sshsetsub='ssh -L 5901:localhost:5901 -N -f -l jbustamante 128.104.98.118 -p 22'
-alias sshsetdev='ssh -L 5901:localhost:5901 -N -f -l jbustamante 128.104.98.13 -p 50013'
-#alias vnc2me='vncviewer localhost:5901'
 
 # aliases to ssh with  X11 port forwarding
-alias ssh2me='ssh -C -p 50013 jbustamante@128.104.98.13 -L 5902:localhost:5902'
-alias ssh2off='ssh -YC -p 50118 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
-alias ssh2off2='ssh -YC -p 22 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
-alias sshx='ssh jdev'
-alias sshy='ssh -XC jdev'
+alias sshj='ssh jdev'
 alias sshs='ssh submit'
 
 # useful docker aliases
@@ -165,6 +158,6 @@ alias gadd='git add -A'
 alias gcomm='git commit -m'
 alias gpush='git push origin'
 alias gpull='git pull origin master'
-
+alias gclone='git clone'
 
 # vim: filetype=sh

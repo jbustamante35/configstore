@@ -5,11 +5,11 @@
 xmodmap "/home/jbustamante/.Xmodmap"
 
 # Set Xresources and wallpaper
-feh --bg-scale $HOME/.config/wall.png
+feh --bg-scale $HOME/.config/wall.jpg
 regencolors $WALEND 1
 
 # Set displays
-setScreens 0 nvidia home;
+#setScreens 0 nvidia home;
 
 # Touchpad and mouse
 touchpadctl tap

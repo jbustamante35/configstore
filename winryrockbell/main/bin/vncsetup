@@ -5,37 +5,33 @@ dsp="$1"
 svr="$2"
 
 case $svr in
-    subb)
-        ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 128.104.98.118 -p 22
-        ;;
-
     sub)
-        ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.118 -p 22
-        ;;
-    devb)
-        ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 128.104.98.13 -p 50013
+        ip=128.104.98.118
+        port=22
         ;;
 
     dev)
-        ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.13 -p 50013
-        ;;
-    kurisub)
-        ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 192.168.1.23 -p 3355
+        ip=128.104.98.13
+        port=22
         ;;
 
     kurisu)
-        ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 192.168.1.23 -p 3355
-        ;;
-    potatob)
-        ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante 192.168.1.16 -p 5335
+        ip=192.168.1.23
+        port=3355
         ;;
 
     potato)
-        ssh -Y -L "$dsp":localhost:"$dsp" -l jbustamante 192.168.1.16 -p 5335
+        ip=192.168.1.16
+        port=5335
         ;;
+
     *)
         # Default to JDev
-        ssh -L "$dsp":localhost:"$dsp" -l jbustamante 128.104.98.13 -p 50013
+        ip=128.104.98.13
+        port=22
         ;;
 esac
+
+# Setup VNC display with local forwarding set to background
+ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante "$ip" -p "$port"
 

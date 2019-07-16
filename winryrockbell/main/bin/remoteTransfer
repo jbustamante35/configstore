@@ -1,0 +1,72 @@
+#!/bin/sh
+# Transfer files across servers
+# Set $drc to giv for transferring from local filesystem to server
+# Set $drc to rec for transferring from server to local filesystem
+srv="$1"
+drc="$2"
+
+# Select server to transfer
+case $srv in
+    jdev)
+        # JDev remote server
+        ip=128.104.98.13
+        port=22
+        ;;
+
+    sub)
+        # Spalding lab submit machine
+        ip=128.104.98.118
+        port=22
+        ;;
+
+    winry)
+        # Winry Rockbell (ASUS)
+        ip=192.168.1.29
+        port=3553
+        ;;
+
+    kurisu)
+        # Kurisu Makise (Dell)
+        ip=192.168.1.23
+        port=3355
+        ;;
+
+    potato)
+        # Potato (Chromebook)
+        ip=192.168.1.13
+        port=5335
+        ;;
+
+    *)
+        # Default to JDev
+        ip=128.104.98.13
+        port=22
+        ;;
+esac
+
+# Determine direction to transfer
+case $drc in
+    giv)
+    from="$3"
+    to="jbustamante@$ip:${4}"
+    ;;
+
+    rec)
+    from="jbustamante@$ip:${3}"
+    to="$4"
+    ;;
+
+    *)
+    # Default to giving file
+    from="$3"
+    to="jbustamante@$ip:${4}"
+    ;;
+esac
+
+
+
+# Run command
+#echo "sudo scp -r -P $port $from $to"
+#sudo scp -r -P $port $from $to
+scp -r -P $port $from $to
+
