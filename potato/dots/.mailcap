@@ -48,7 +48,7 @@ video/*; mpv '%s' --autofit 640x480 --loop=inf; test=test -n "$DISPLAY"
 
 # View true images in the terminal, supported by rxvt-unicode, xterm and st
 # Requires the w3m-img package
-# image/*; w3m -o 'ext_image_viewer=off' '%s'; needsterminal
+image/*; w3m -o 'ext_image_viewer=off' '%s'; needsterminal
 
 # Don't have a solution for albums yet
 image/x-imgur-album; echo

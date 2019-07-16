@@ -15,7 +15,7 @@ compinit
 HISTFILE=~/.histfile
 HISTSIZE=20000
 SAVEHIST=20000
-setopt appendhistory autocd extendedglob nomatch notify
+setopt appendhistory autocd extendedglob nomatch notify inc_append_history share_history
 unsetopt beep
 bindkey -v
 # End of lines configured by zsh-newuser-install
@@ -41,11 +41,11 @@ fi
 autoload -U compinit && compinit
 fpath=($HOME/.zsh/zsh-completions/src $fpath)
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $HOME/.zsh/zsh-git-prompt/zshrc.sh
+#source $HOME/.zsh/zsh-git-prompt/zshrc.sh
 
 autoload -U colors && colors
-#PROMPT="%{$fg[red]%}[ %{$fg[yellow]%}%~%{$fg[red]%} ] "
-PROMPT="%{$fg[red]%}[ %{$fg[yellow]%}%~%{$fg[red]%} $(git_super_status) ] "
+PROMPT="%{$fg[yellow]%}[ %{$fg[blue]%}%~%{$fg[yellow]%} ] "
+#PROMPT="%{$fg[blue]%}[ %{$fg[green]%}%~%{$fg[blue]%} $(git_super_status) ] "
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

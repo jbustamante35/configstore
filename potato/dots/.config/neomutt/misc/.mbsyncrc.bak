@@ -1,0 +1,48 @@
+IMAPStore gmail-remote
+Host imap.gmail.com
+Port 993
+User jbustamante35@gmail.com
+PassCmd "pass gmail"
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore gmail-local
+Subfolders Verbatim
+Path /media/jbustamante/voltron/Mail/gmail/
+Inbox /media/jbustamante/voltron/Mail/gmail/INBOX
+Flatten .
+
+Channel gmail
+Expunge Both
+Master :gmail-remote:
+Slave :gmail-local:
+Patterns *
+Create Both
+SyncState *
+MaxMessages 0
+# End profile
+
+IMAPStore wisc-remote
+Host outlook.office365.com
+Port 993
+User jbustamante@wisc.edu
+PassCmd "pass wmail"
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore wisc-local
+Subfolders Verbatim
+Path /media/jbustamante/voltron/Mail/wisc/
+Inbox /media/jbustamante/voltron/Mail/wisc/INBOX
+Flatten .
+
+Channel wisc
+Expunge Both
+Master :wisc-remote:
+Slave :wisc-local:
+Patterns *
+Create Both
+SyncState *
+MaxMessages 0
+# End profile
+

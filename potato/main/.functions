@@ -13,13 +13,8 @@ cl () {
 	cd $1 && la -F;
 }
 
-# easily create alias [not very flexible yet]
-ali () {
-	alias $1=$2
-}
-
 # unzip into directory of the same name as zip file
-uz () {
+uzp () {
 	nm=$1;
 	unzip "$nm".zip -d "$nm";
 }
@@ -32,16 +27,70 @@ drchk () {
         printf "\n" && dropbox filestatus
 }
 
+# Regenerate color scheme
 clrs () {
     xrdb -load ~/.cache/wal/colors.Xresources ;
     xrdb -merge ~/.Xresources
 }
 
+# Regenerate color scheme to match wallpaper
 wali () {
     bak="$1"
     sat="$2"
+    light="$3"
 
     wal -c ;
     clrs ;
-    wal --backend "$bak" -i ~/.config/wall.png --saturate $sat -q
+    wal --backend "$bak" -i ~/.config/wall.png --saturate "$sat" -q $light
 }
+
+# Set my key configuration
+mykeys () {
+    xmodmap -e "keycode 133 = Escape Super_L"
+    xmodmap -e "keycode 108 = Insert Overlay1_Enable Alt_R"
+    xmodmap -e "keycode 105 = Delete Control_R"
+
+    # Fix F8 F9 F10
+    #xmodmap -e "keycode 73 = XF86AudioMute F8 XF86AudioMute"
+    #xmodmap -e "keycode 74 = XF86AudioLowerVolume F9 XF86AudioLowerVolume"
+    #xmodmap -e "keycode 75 = XF86AudioRaiseVolume F10 XF86AudioRaiseVolume"
+}
+
+# Locate, Select, and Excecute [pipe locate and fzf into application]
+lse () {
+    # typ: search query for filtering by file or filetype
+    # app: application to run selected file
+    typ="$1"
+    app="$2"
+    ver="$3"
+
+    case $ver in
+        1)
+            # Search through entire filesystem
+            "$app" "$(locate "*$typ" | fzf)"
+            ;;
+        2)
+            # Search through current directory tree
+            "$app" "$(locate "$(pwd)/*$typ" | fzf)"
+            ;;
+        *)
+            # Default to version 1
+            "$app" "$(locate "*$typ" | fzf)"
+            ;;
+    esac
+}
+
+# View VNC display
+vnc2me () {
+    dsp="$1"
+    vncviewer localhost:"$dsp" -passwd ~/.vnc/passwd
+}
+
+# Setup for trayer
+#mytray () {
+#    trayer --edge top --width 5 --transparent true --alpha 50 \
+#    --iconspacing 2 --expand true --SetDockType false
+#}
+
+
+# vim: filetype=sh

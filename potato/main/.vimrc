@@ -193,6 +193,9 @@ let g:lightline = {
     \ },
 \ }
 
+" TmuxLine: statusline for tmux
+let g:Tmuxline = lightline
+
 " Syntacstic: Syntax checking for python and bash [ more to come maybe ]
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}

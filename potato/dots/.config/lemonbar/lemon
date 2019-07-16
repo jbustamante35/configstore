@@ -1,0 +1,37 @@
+#!/bin/sh
+# Testing out lemonbar configs
+
+# Clock
+Clock() {
+        DATETIME=$(date "+%a %b %d, %T")
+
+        echo -n "$DATETIME"
+}
+
+# Battery
+Battery() {
+        BATPERC=$(acpi --battery | cut -d, -f2)
+        echo "$BATPERC"
+}
+
+while true; do
+    # Print battery
+    echo "%{r}$(Battery) %{c}%{F#FFFF00}%{B#0000FF} $(Clock) %{F-}%{B-}"
+    sleep 1;
+
+#    # Print battery
+#    echo "%{r}$(Battery)"
+#
+#    # Print clock
+#    echo "%{c}%{F#FFFF00}%{B#0000FF} $(Clock) %{F-}%{B-}"
+#    sleep 1
+done |
+
+# Init bar
+lemonbar -p -d -b -B#0f171b -F#cedcdd
+
+#lemonbar -p -d -B#c0262626 -F#A0A0A0 -g 1834x20+45+0 \
+# -f Inconsolata:size=10 \
+# -f DejaVu Sans:size=10 \
+# eDP-1 \
+# | zsh
