@@ -1,1 +1,37 @@
-/home/jbustamante/Dropbox/Misc/config/newsboat/urls
+# General News
+https://news.google.com/rss                                                                        news
+https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/world/rss.xml   news
+http://feeds.bbci.co.uk/news/world/rss.xml                                                         news
+https://www.buzzfeed.com/world.xml                                                                 news
+
+# Technology
+https://feeds.feedburner.com/techcrunch   tech
+https://www.theverge.com/rss/index.xml    tech
+https://www.polygon.com/rss/index.xml     tech
+https://www.techmeme.com/feed.xml         tech
+http://feeds.feedburner.com/TechCrunch    tech
+
+# Gaming
+http://www.nintendolife.com/feeds/latest   gaming
+http://feeds.ign.com/ign/games-all         gaming
+
+# Sports
+https://www.espn.com/espn/rss/news                sports   "~ESPN"
+https://www.reddit.com/r/sports/.rss?format=xml   sports
+https://www.sporttechie.com/feed/                 sports   tech
+
+# Science
+https://www.theverge.com/science/rss/index.xml         science
+https://uwmadscience.news.wisc.edu/feed                science
+https://www.wired.com/category/science/feed            science
+https://www.sciencemag.org/rss/weekly_news_email.xml   science
+
+# Misc
+https://feeds.feedburner.com/InterestingThingOfTheDay                                     misc
+https://www.linux.com/feeds/rss                                                           misc linux "~Linux News"
+https://www.tecmint.com/feed/                                                             misc linux
+https://news.google.com/rss                                                               misc linux
+https://news.google.com/rss/search?cf=all&pz=1&q=linux&hl=en-US&gl=US&ceid=US:en          misc linux "~Google Linux News"
+https://distrowatch.com/news/dw.xml                                                       misc linux
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLUW3LUwQvegyqk2Iqi-YD7Do-AyD4W0s1   misc linux
+https://news.ycombinator.com/rss                                                          misc linux

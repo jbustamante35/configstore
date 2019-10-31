@@ -27,9 +27,9 @@ c.tabs.show = 'multiple'
 ######################### Custom Bindings #####################################
 ## Show a scrollbar.
 ## Type: Bool
-c.scrolling.bar = False
+c.scrolling.bar    = 'never'
 c.url.default_page = 'https://bing.com'
-c.url.start_pages = ['https://bing.com']
+c.url.start_pages  = ['https://bing.com']
 
 ## Definitions of search engines which can be used via the address bar.
 ## Maps a searchengine name (such as `DEFAULT`, or `ddg`) to a URL with a
