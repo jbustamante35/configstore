@@ -1,0 +1,12 @@
+#!/bin/sh
+#Convert a movie file [mp4|mov|flv] to a gif
+
+dur="$1"
+start="$2"
+vin="$3"
+fname="${vin%.*}"
+vout="$fname.gif"
+
+echo "dur: $dur | start: $start | vin: $vin | fname: $fname | vout: $vout"
+ffmpeg -t "$dur" -ss "$start" -i "$vin" "$vout"
+#echo ffmpeg -t "$dur" -ss "$start" -i "$vin" "$vout"

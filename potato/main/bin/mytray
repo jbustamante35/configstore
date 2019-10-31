@@ -1,0 +1,10 @@
+#!/bin/sh
+# Startup script for trayer
+
+trayer \
+    --edge bottom \
+    --align right \
+    --width 10 \
+    --transparent true \
+    --tint red \
+    --padding 4

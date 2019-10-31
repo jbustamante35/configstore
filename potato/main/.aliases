@@ -32,23 +32,15 @@ alias l='ls -CF'
 alias lsl='ll | less'
 alias lll='ls /*'
 
-# some work aliases
+# some cd aliases
 alias ..='cl ..'
-alias uw='cl ~/Dropbox/Classes/uwmadison'
-alias ra='cl ~/Dropbox/ResearchArticles/computationalbiology/edgarspalding'
-alias es='cl ~/Dropbox/EdgarSpalding'
-alias sw='cl ~/Dropbox/EdgarSpalding/projects'
-alias hq='cl ~/Dropbox/EdgarSpalding/projects/hypoquantyl'
-alias cs='cl ~/Dropbox/EdgarSpalding/projects/carrotsweeper'
-alias sp='cl ~/Dropbox/EdgarSpalding/projects/sphinctolyzer'
-alias qd='cl ~/Dropbox/EdgarSpalding/projects/quantdracala/quantdracala'
-alias ph='cl ~/Dok/spaldingshell'
 
 # filesystem aliases
 alias mkdir='mkdir -pv '
 alias df='pydf -h '
 alias thn='thunar .'
 alias thr='thunar .'
+alias rg='ranger .'
 alias mnt='mount | column -t'
 alias pping='prettyping'
 alias ppg='prettyping google.com'
@@ -77,16 +69,22 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && \
     '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # aliases to vpn to UW Madison
-alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu --username jbustamante'
-#alias vpn2me='sudo openconnect --protocol=gp uwmadison.vpn.wisc.edu -u jbustamante -b'
+#alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu --username jbustamante'
+alias vpn2me='sudo openconnect --protocol=gp uwmadison.vpn.wisc.edu -u jbustamante -b'
 
-# aliases to ssh with  X11 port forwarding
-alias ssh2me='ssh -C -p 50013 jbustamante@128.104.98.13 -L 5902:localhost:5902'
-alias ssh2off='ssh -YC -p 50118 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
-alias ssh2off2='ssh -YC -p 22 -L 50013:128.104.98.13:50013 jbustamante@128.104.98.118'
-alias ssh2rin='ssh -YC -p 22 jbustamante@192.168.1.11'
+# aliases to ssh with X11 port forwarding
 alias sshs='ssh submit'
 alias sshj='ssh jdev'
+alias sshw='ssh winry'
+alias sshk='ssh kurisu'
+alias sshr='ssh rin'
+alias ssho='ssh office'
+alias sshst='ssh submit -t tmux'
+alias sshjt='ssh jdev   -t tmux'
+alias sshwt='ssh winry  -t tmux'
+alias sshkt='ssh kurisu -t tmux'
+alias sshrt='ssh rin    -t tmux'
+alias sshot='ssh office -t tmux'
 
 # useful docker aliases
 alias dkb='docker build -t'
@@ -107,15 +105,21 @@ alias kllll='RM .??*/*/*/*/.git*'
 # application aliases
 alias rtv='rtv --enable-media '
 alias zt='zathura'
+alias sx='sxiv -tr .'
 alias nb='newsboat'
+alias nf='neofetch'
 alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
 alias weather='/home/jbustamante/.scripts/i3scripts/i3weather && cat /home/jbustamante/.weatherreport'
+alias vs='vncserver'
+alias vsl='vncserver -list'
+alias vsk='vncserver -kill'
+
 
 # VimWiki aliases
-alias jrnl='vim ~/Documents/jbwiki/journal.wiki/index.wiki'
-alias labn='vim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
-alias ojrnl='qutebrowser ~/Documents/jbwiki/journal.wiki_html/index.html'
-alias olabn='qutebrowser ~/Documents/jbwiki/labnotes.wiki_html/index.html'
+alias jrnl='nvim ~/Documents/jbwiki/journal.wiki/index.wiki'
+alias labn='nvim ~/Documents/jbwiki/labnotes.wiki/index.wiki'
+alias ojrnl='surf ~/Documents/jbwiki/journal.wiki_html/index.html'
+alias olabn='surf ~/Documents/jbwiki/labnotes.wiki_html/index.html'
 
 # window manager aliases
 alias mk='sudo make clean install'

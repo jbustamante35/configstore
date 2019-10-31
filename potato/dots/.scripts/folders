@@ -4,7 +4,6 @@ bb  ~/bin
 c   ~/Documents/configstore
 cf  ~/.config
 d   ~/Documents
-dok ~/Dok
 dr  ~/Dropbox
 drp ~/Dropbox/Pictures
 dt  ~/.dotify
@@ -19,12 +18,13 @@ s   ~/.scripts
 sk  ~/Documents/misc/suckless
 vv  ~/Videos
 wk  ~/Documents/jbwiki
-uw  ~/Dropbox/Classes/uwmadison
-ra  ~/Dropbox/ResearchArticles/computationalbiology/edgarspalding
-es  ~/Dropbox/EdgarSpalding
+dru ~/Dropbox/Classes/uwmadison
+drr ~/Dropbox/ResearchArticles/computationalbiology/edgarspalding
+dre ~/Dropbox/EdgarSpalding
+hyp ~/Dropbox/EdgarSpalding/labdata/development/HypoQuantyl
+car ~/Dropbox/EdgarSpalding/labdata/development/CarrotSweeper
 sw  ~/Dropbox/EdgarSpalding/projects
 hq  ~/Dropbox/EdgarSpalding/projects/hypoquantyl
 cs  ~/Dropbox/EdgarSpalding/projects/carrotsweeper
 sp  ~/Dropbox/EdgarSpalding/projects/sphinctolyzer
 qd  ~/Dropbox/EdgarSpalding/projects/quantdracala/quantdracala
-ph  ~/Dok/spaldingshell

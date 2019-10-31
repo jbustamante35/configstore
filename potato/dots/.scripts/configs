@@ -15,6 +15,7 @@ cfx     ~/.Xresources
 cfy     ~/.xinitrc
 ck1     ~/.config/conky/main
 ck2     ~/.config/conky/func
+ck3     ~/.config/conky/bladerunnertime
 skd     ~/Documents/misc/suckless/dwm-6.2/config.h
 sks     ~/Documents/misc/suckless/surf-2.0/config.h
 skt     ~/Documents/misc/suckless/st-0.8.2/config.h

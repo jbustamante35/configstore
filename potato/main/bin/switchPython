@@ -1,0 +1,36 @@
+#!/bin/sh
+# Toggle between python2 and python3 as main python
+
+# Current version
+#ver=$(python --version | awk '{print $2}' | cut -f1 -d.)
+ver="$1"
+shw="$2"
+
+case $ver in
+2)
+    # Switch from 3 --> 2
+    sudo ln -sf /usr/bin/python2 /usr/bin/python
+    curr=2
+    msg="Switched from Python$ver to Python$curr"
+    ;;
+
+3)
+    # Switch from 2 --> 3
+    sudo ln -sf /usr/bin/python3 /usr/bin/python
+    curr=3
+    msg="Switched from Python$ver to Python$curr"
+    ;;
+
+*)
+    # Toggle between versions [not yet implemented because I'm an idiot]
+    msg="Can't determine python version"
+    ;;
+esac
+
+# Show output in terminal or as notification
+if [ "$shw" -eq 1 ]; then
+    notify-send "Python Switcher" "$msg" -u low
+else
+    echo "$msg"
+fi
+

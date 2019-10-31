@@ -38,8 +38,8 @@
 |        |           |            |            |           |
 
 - Videos watched
-| *Video* | *Duration* | *Platform* | *Location* | *Summary* |
-|         |            |            |            |           |
+| *Video* | *Channel* | *Duration* | *Platform* | *Location* | *Summary* |
+|         |           |            |            |            |           |
 
 - Movies watched
 | *Movie* | *Platform* | *Location* | *Summary* |
@@ -52,6 +52,14 @@
 - Video games played
 | *Video Game* | *Platform* | *Location* | *Summary* |
 |              |            |            |           |
+
+- Podcasts listened to
+| *Podcast* | *Channel* | *Location* | *Summary* |
+|           |           |            |           |
+
+- Books/Articles read
+| *Book/Article* | *Media* | *Location* | *Summary* |
+|                |         |            |           |
 
 ==== Activities ====
 | *Activity* | *Start* | *End* | *Location* | *Summary* |

@@ -217,7 +217,7 @@ inoremap <expr> <Tab> pumvisible() ?"\<C-n>" ; "ᐅ"
 
 
 " GitGutter: Live tracking of git changes
-nmap <leader>g :GitGutterToggle<CR>
+"nmap <leader>g :GitGutterToggle<CR>
 nmap <leader>G :GitGutterLineHighlightsToggle<CR>
 
 " NERDtree: File system explorer within Vim

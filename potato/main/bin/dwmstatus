@@ -1,0 +1,23 @@
+#!/bin/sh
+# Starup script for dwm status bar
+
+# MPD currently paying
+mpd="$(showSongInfo)"
+
+# Temperature
+
+# Brightness
+brite="LIT $(xbacklight -get | cut -f1 -d.)%"
+
+# Volume
+vol="VOL $(pulseaudio-ctl full-status | cut -f1 -d\ )%"
+
+# Battery
+bat="BAT $(~/.config/dwm/statusbarscripts/batterystatus)"
+
+# Time and Data
+tdate="$(date +'(%a) %m.%d.%y | %H:%M %P')"
+
+# Set status!
+msg="$mpd | $brite | $vol | $bat | $tdate"
+xsetroot -name "$msg"

@@ -16,6 +16,7 @@ rtv
 .shortcuts
 tmux
 .vimrc
+.xinitrc
 .Xresources
 zathura
 .zshrc
