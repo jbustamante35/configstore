@@ -34,22 +34,22 @@ URxvt.internalBorder:   5
 #define font3 Inconsolata
 #define font4 DejaVu Sans
 
-URxvt.font:             xft:font1:pixelsize=20:minspace=false, \
-                        xft:font2:pixelsize=20:minspace=false, \
-                        xft:font3:pixelsize=20:minspace=false, \
-                        xft:font4:pixelsize=20:minspace=false
-URxvt.boldfont:         xft:font1:pixelsize=20:minspace=false, \
-                        xft:font2:pixelsize=20:minspace=false, \
-                        xft:font3:pixelsize=20:minspace=false, \
-                        xft:font4:pixelsize=20:minspace=false
-URxvt.italicfont:       xft:font1:pixelsize=20:minspace=false, \
-                        xft:font2:pixelsize=20:minspace=false, \
-                        xft:font3:pixelsize=20:minspace=false, \
-                        xft:font4:pixelsize=20:minspace=false
-URxvt.bolditalicfont:   xft:font1:pixelsize=20:minspace=false, \
-                        xft:font2:pixelsize=20:minspace=false, \
-                        xft:font3:pixelsize=20:minspace=false, \
-                        xft:font4:pixelsize=20:minspace=false
+URxvt.font:             xft:font1:pixelsize=16:minspace=false, \
+                        xft:font2:pixelsize=16:minspace=false, \
+                        xft:font3:pixelsize=16:minspace=false, \
+                        xft:font4:pixelsize=16:minspace=false
+URxvt.boldfont:         xft:font1:pixelsize=16:minspace=false, \
+                        xft:font2:pixelsize=16:minspace=false, \
+                        xft:font3:pixelsize=16:minspace=false, \
+                        xft:font4:pixelsize=16:minspace=false
+URxvt.italicfont:       xft:font1:pixelsize=16:minspace=false, \
+                        xft:font2:pixelsize=16:minspace=false, \
+                        xft:font3:pixelsize=16:minspace=false, \
+                        xft:font4:pixelsize=16:minspace=false
+URxvt.bolditalicfont:   xft:font1:pixelsize=16:minspace=false, \
+                        xft:font2:pixelsize=16:minspace=false, \
+                        xft:font3:pixelsize=16:minspace=false, \
+                        xft:font4:pixelsize=16:minspace=false
 
 !! Extensions and Plugins
 ! Main

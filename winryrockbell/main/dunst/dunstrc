@@ -144,7 +144,7 @@
     background  = "#900000"
     foreground  = "#ffffff"
     frame_color = "#ff0000"
-    timeout     = 0
+    timeout     = 60
     icon        = ~/Pictures/downloads/HomeboiBeethoven.jpg
 
 [shortcuts]

@@ -47,6 +47,7 @@ alias ph='cl /home/jbustamante/Dok/spaldingshell'
 # filesystem aliases
 alias mkdir='mkdir -pv '
 alias df='pydf -h '
+alias rg='ranger .'
 alias thun='thunar .'
 alias thnr='thunar .'
 alias mnt='mount | column -t'
@@ -93,8 +94,19 @@ alias alert='notify-send --urgency=low -i \
 alias vpn2me='sudo openconnect --protocol=gp uwmadison.vpn.wisc.edu'
 
 # aliases to ssh with  X11 port forwarding
-alias sshj='ssh jdev'
 alias sshs='ssh submit'
+alias sshj='ssh jdev'
+alias sshk='ssh kurisu'
+alias sshp='ssh potato'
+alias ssho='ssh office'
+alias sshst='ssh submit -t tmux'
+alias sshjt='ssh jdev   -t tmux'
+alias sshkt='ssh kurisu -t tmux'
+alias sshpt='ssh potato -t tmux'
+alias sshot='ssh office -t tmux'
+alias vs='vncserver'
+alias vsl='vncserver -list'
+alias vsk='vncserver -kill'
 
 # useful docker aliases
 alias dkb='docker build -t'
@@ -112,9 +124,11 @@ alias medit='matlab -nodesktop -nosplash -nodisplay'
 alias mconsole='matlab -nodesktop -nosplash'
 alias sl='sl -e'
 alias zt='zathura'
+alias nf='neofetch'
 alias nb='newsboat'
 alias cnv='convert -resize'
 alias bt='bluetoothctl'
+alias sx='sxiv -tr .'
 
 # application aliases
 alias rtv='rtv --enable-media'
@@ -122,6 +136,9 @@ alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$w
 alias weather='/home/jbustamante/.scripts/i3scripts/i3weather && cat /home/jbustamante/.weatherreport'
 alias rr='curl -s -L http://bit.ly/10hA8iC | bash'
 alias psay='curl parrot.live'
+alias wrd='freeoffice-textmaker'
+alias ppt='freeoffice-presentations'
+alias xls='freeoffice-planmaker'
 
 # iRODS aliases
 alias idata='irodsFs -o allow_other $HOME/idata'

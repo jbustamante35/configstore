@@ -1,5 +1,0 @@
-
-xmonad.hs:45:28: error: Not in scope: ‘altMask’
-   |
-45 |                          , altMask            = mod1Mask
-   |                            ^^^^^^^

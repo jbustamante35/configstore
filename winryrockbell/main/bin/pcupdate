@@ -5,9 +5,10 @@ echo "Updating packages..."
 sudo pacman -Syu
 yay -Syu
 pikaur -Syu
+#pamac update && pamac upgrade
 echo "Packages up to date!"
 
-#echo "Updating Julia..."
-#julia -e "Pkg.update()"
-#echo "Julia updated!"
+echo "Updating Julia..."
+julia -e "using Pkg ; Pkg.update()"
+echo "Julia updated!"
 

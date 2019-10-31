@@ -41,6 +41,7 @@ PYTHON=/usr/bin/python
 #JUPYTER=/usr/local/bin/jupyter
 
 export TERMINAL=urxvt
+#export BROWSER=brave-beta
 export BROWSER=qutebrowser
 export EDITOR=nvim
 export PATH=$PATH:$MYPATH:$MYBIN:$GOROOT/bin:$GOPATH/bin:$RUBYPATH/bin

@@ -23,18 +23,18 @@ case "$drv" in
 
     nvidia)
     # Get display names with Nvidia driver
-    #me="$PRIMARYDISPLAY-1"
-    #delS1="$SMALL_DELL1-1"
-    #delS2="$SMALL_DELL2-1"
-    #delL="$LARGE_DELL-1"
-    #aoc="$AOC_HOME-1"
+    me="$PRIMARYDISPLAY-1"
+    delS1="$SMALL_DELL1-1"
+    delS2="$SMALL_DELL2-1"
+    delL="$LARGE_DELL-1"
+    aoc="$AOC_HOME-1"
 
     # Fix on 06-11-2019 made display names switch
-    me="$PRIMARYDISPLAY"
-    delS1="$SMALL_DELL1"
-    delS2="$SMALL_DELL2"
-    delL="$LARGE_DELL"
-    aoc="$AOC_HOME"
+    #me="$PRIMARYDISPLAY"
+    #delS1="$SMALL_DELL1"
+    #delS2="$SMALL_DELL2"
+    #delL="$LARGE_DELL"
+    #aoc="$AOC_HOME"
     ;;
 
 *)

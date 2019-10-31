@@ -22,7 +22,7 @@ bindkey -v
 ###############################################################################
 
 export PROFILE=winryrockbell
-export WALEND=colorz
+export WALEND=haishoku
 
 # Source aliases, functions, and shortcuts
 als=~/.aliases
@@ -51,5 +51,6 @@ source $HOME/.zsh/zsh-git-prompt/zshrc.sh
 
 autoload -U colors && colors
 #PROMPT="%{$fg[red]%}[ %{$fg[yellow]%}%~%{$fg[red]%} $(git_super_status) ] "
-PROMPT="%{$fg[red]%}[ %{$fg[yellow]%}%~%{$fg[red]%} ] "
+#PROMPT="%{$fg[red]%}[ %{$fg[yellow]%}%~%{$fg[red]%} ] "
+PROMPT="%{$fg[red]%}<< %{$fg[yellow]%}%~%{$fg[red]%} >> "
 

@@ -110,7 +110,8 @@ bindsym $mod+grave       exec --no-startup-id kitty
 bindsym $mod+$sht+grave  exec --no-startup-id kitty -e tmux
 
 # Browsers [normal and gpu]
-bindsym $mod+$sht+g  exec --no-startup-id brave
+bindsym $mod+$sht+g  exec --no-startup-id brave-beta
+bindsym $alt+$sht+g  exec --no-startup-id google-chrome-beta
 bindsym $mod+$sht+f  exec --no-startup-id firefox
 bindsym $mod+$sht+h  exec --no-startup-id qutebrowser
 bindsym $alt+$sht+h  exec --no-startup-id surf bing.com
@@ -144,10 +145,10 @@ bindsym $mod+F1  exec --no-startup-id nvidia-settings
 bindsym $mod+F2  exec --no-startup-id gpmdp
 bindsym $mod+F3  exec --no-startup-id spotify
 bindsym $mod+F4  exec --no-startup-id caprine
-bindsym $mod+F5  exec --no-startup-id yakyak
-bindsym $mod+F6  exec --no-startup-id slack
-bindsym $mod+F7  exec --no-startup-id discord
-bindsym $mod+F8  exec --no-startup-id steam
+bindsym $mod+F5  exec --no-startup-id droidsurf surf droid
+bindsym $mod+F6  exec --no-startup-id yakyak
+bindsym $mod+F7  exec --no-startup-id slack
+bindsym $mod+F8  exec --no-startup-id discord
 bindsym $mod+F9  exec --no-startup-id krita
 bindsym $mod+F10 exec --no-startup-id inkscape
 bindsym $mod+F11 exec --no-startup-id gimp
@@ -155,13 +156,13 @@ bindsym $mod+F12 exec --no-startup-id fiji
 
 # Function buttons [alt]
 bindsym $alt+F1  exec --no-startup-id pamac-manager
-bindsym $alt+F2  exec --no-startup-id $term -e ncmpcpp
+bindsym $alt+F2  exec --no-startup-id $term -title "ncmpcpp" -e ncmpcpp
 bindsym $alt+F3  exec --no-startup-id audacious
 bindsym $alt+F4  exec --no-startup-id $term -e pulsemixer
 bindsym $alt+F5  exec --no-startup-id arandr
 bindsym $alt+F6  exec --no-startup-id $term -e openmutt gmail
 bindsym $alt+F7  exec --no-startup-id $term -e openmutt wisc
-bindsym $alt+F8  exec --no-startup-id droidsurf
+bindsym $alt+F8  exec --no-startup-id steam
 bindsym $alt+F9  exec --no-startup-id $term -e nvim ~/Dropbox/Misc/config/conky/notepad/shopping.md
 bindsym $alt+F10 exec --no-startup-id $term -e nvim ~/Dropbox/Misc/config/conky/notepad/todo.md
 bindsym $alt+F11 exec --no-startup-id regencolors $walend $walsat -l
@@ -280,17 +281,19 @@ assign  [title="Krita"]            $ws08
 assign  [class="Inkscape"]         $ws08
 assign  [class="Gimp"]             $ws08
 assign  [class="Steam"]            $ws08
-assign  [class="android-messages"] $ws09
+#assign  [class="android-messages"] $ws09
 assign  [class="Caprine"]          $ws09
 assign  [class="yakyak"]           $ws09
 assign  [class="Slack"]            $ws09
 assign  [class="discord"]          $ws09
-assign  [class="PB for Desktop"]   $ws09
+#assign  [class="PB for Desktop"]   $ws09
 assign  [class="Google Play"]      $ws10
+assign  [class="Audacious"]      $ws10
 
 # Some windows don't get titles until after they init
-for_window [title="Messages for web"] move to workspace $ws09
-for_window [class="Spotify"]          move to workspace $ws10
+#for_window [title="Messages for web"] move to workspace $ws09
+for_window [class="Spotify"]               move to workspace $ws10
+for_window [class="URxvt" title="ncmpcpp"] move to workspace $ws10
 
 # assign floating
 for_window [title="ImageJ"]                 floating enable border pixel 1
@@ -338,7 +341,8 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 # Primary monitor
 bar {
-    output primary
+    #output primary
+    output eDP-1-1
     font pango:Inconsolata, Awesome 14
     colors {
         background              $background
@@ -355,13 +359,15 @@ bar {
 
     status_command i3blocks
     position top
-    separator_symbol "🚡"
+    #separator_symbol "🚡"
+    separator_symbol "🚜"
 }
 
 # When connected to left-only monitor [becuase right monitor is a stupid ho]
 bar {
     #output DP1
-    output HDMI1
+    #output HDMI-1
+    output HDMI-1-1
     font pango:Inconsolata, Awesome 14
     colors {
         background              $background
@@ -378,8 +384,10 @@ bar {
 
     status_command i3blocks
     position top
-    separator_symbol "🥔"
-    tray_output DP1
+    #separator_symbol "🥔"
+    separator_symbol "🚜"
+    #tray_output DP-1-1
+    tray_output primary
 }
 
 # When connected to triple monitors

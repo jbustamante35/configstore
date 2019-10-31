@@ -50,12 +50,12 @@ instance=mpd
 interval=5
 signal=10
 
-[music]
-label=🎼
-command=~/.scripts/i3scripts/gplayer --not-playing --layout t-A-p
-separator_block_width=13
-interval=1
-#colo=#EEFF66
+#[music]
+#label=🎼
+#command=~/.scripts/i3scripts/gplayer --not-playing --layout t-A-p
+#separator_block_width=13
+#interval=1
+##colo=#EEFF66
 
 [volume-pulseaudio]
 command=~/.scripts/i3scripts/i3volume_pulseaudio -d -c "#FF0000" -C "#aa610e" -H 🔊 -M 🔉 -T 20 -L 🔈 -t 5 -X 🔇

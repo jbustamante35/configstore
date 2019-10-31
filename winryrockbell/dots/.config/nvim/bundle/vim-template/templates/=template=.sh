@@ -1,10 +1,17 @@
 #! /bin/sh
 #
 # %FFILE%
-# Copyright (C) %YEAR% %USER% <%MAIL%>
+# %YEAR% %USER% <%MAIL%>
 #
-# Distributed under terms of the %LICENSE% license.
+# %HERE%
+#
+# Usage:
+#
+#
+# Input:
+#
+#
+# Output:
+#
 #
 
-
-%HERE%

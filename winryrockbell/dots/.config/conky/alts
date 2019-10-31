@@ -64,9 +64,9 @@ ${voffset 1} ${color2} Pulsemixer        $alignr ${color} F4
 ${voffset 1} ${color2} ArandR            $alignr ${color} F5
 ${voffset 1} ${color2} Neomutt (Gmail)   $alignr ${color} F6
 ${voffset 1} ${color2} Neomutt (Wisc)    $alignr ${color} F7
-${voffset 1} ${color2} Android Messages  $alignr ${color} F8
+${voffset 1} ${color2} Steam (Proton)    $alignr ${color} F8
 ${voffset 1} ${color2} Shopping List     $alignr ${color} F9
-${voffset 1} ${color2} Color Source      $alignr ${color} F10
+${voffset 1} ${color2} To-Do List        $alignr ${color} F10
 ${voffset 1} ${color2} Pywal (light)     $alignr ${color} F11
 ${voffset 1} ${color2} Pywal (dark)      $alignr ${color} F12
 ]]
