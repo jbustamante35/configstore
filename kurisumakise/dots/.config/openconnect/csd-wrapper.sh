@@ -1,1 +1,0 @@
-hipreport.sh

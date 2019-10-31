@@ -1,6 +1,7 @@
 ba      ~/.aliases
 bf      ~/.functions
 br      ~/.bashrc
+bp      ~/.profile
 cfb     ~/.config/bspwm/bspwmrc
 cfc     ~/.scripts/configs
 cfd     ~/.config/dunst/dunstrc
@@ -21,7 +22,7 @@ ck3     ~/.config/conky/alts
 ck4     ~/.config/conky/todo
 ck5     ~/.config/conky/shopping
 ck6     ~/.config/conky/zeldatime
-pro     ~/.profile
+zp      ~/.zprofile
 za      ~/.aliases
 zf      ~/.functions
 zr      ~/.zshrc

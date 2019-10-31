@@ -31,8 +31,8 @@ c.downloads.location.directory = '~/Downloads'
 ######################## End of Default Config ################################
 ## Show a scrollbar.
 c.scrolling.bar = 'never'
-c.url.default_page = 'https://bing.com'
-c.url.start_pages = ['https://bing.com']
+c.url.default_page = 'https://www.bing.com'
+c.url.start_pages = ['https://www.bing.com']
 
 ## The default zoom level.
 ## Type: Perc
@@ -48,8 +48,8 @@ c.zoom.default = '100%'
 ## `:open google qutebrowser`.
 ## Type: Dict
 c.url.searchengines = {
-      'DEFAULT': 'https://bing.com/?q={}',
-      'b': 'https://bing.com/?q={}',
+      'DEFAULT': 'https://www.bing.com/search?q={}',
+      'b': 'https://www.bing.com/search?q={}',
       'bim': 'https://www.bing.com/images/search?q={}',
       'g': 'https://www.google.com/search?q={}',
       'gim': 'https://www.google.com/search?tbm=isch&q={}',

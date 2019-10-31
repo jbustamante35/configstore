@@ -2,12 +2,12 @@
 # Run updates
 
 echo "Updating packages..."
-sudo pacman -Syu
-yay -Syu
-yaourt -Syu
+sudo pacman -Syu;
+yay -Sua;
+yaourt -Syua;
 echo "Packages up to date!"
 
-#echo "Updating Julia..."
-#julia -e "Pkg.update()"
-#echo "Julia updated!"
+echo "Updating Julia..."
+julia -e "using Pkg ; Pkg.update()"
+echo "Julia updated!"
 

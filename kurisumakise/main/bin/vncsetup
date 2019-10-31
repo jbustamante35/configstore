@@ -9,22 +9,39 @@ case $svr in
         # Spalding Lab Submit Machine
         ip=128.104.98.118
         port=22
+        user=jbustamante
         ;;
 
     dev)
         # JDev remote server
         ip=128.104.98.13
         port=22
+        user=jbustamante
+        ;;
+
+    jo)
+        # Lab office desktop
+        ip=192.168.10.110
+        port=133
+        user=jbustamante
+        ;;
+
+    off)
+        # Lab office desktop
+        ip=128.104.98.153
+        port=133
+        user=kinematics
         ;;
 
     *)
         # Default to JDev server
         ip=128.104.98.13
         port=22
+        user=jbustamante
         ;;
 esac
 
 # Setup VNC server on remote machine
-ssh -L "$dsp":localhost:"$dsp" -N -f -l jbustamante "$ip" -p "$port"
+ssh -L "$dsp":localhost:"$dsp" -N -f -l "$user" "$ip" -p "$port"
 
 

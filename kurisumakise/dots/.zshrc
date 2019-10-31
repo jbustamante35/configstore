@@ -50,5 +50,6 @@ source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $HOME/.zsh/zsh-git-prompt/zshrc.sh
 
 autoload -U colors && colors
+#PROMPT="%{$fg[red]%}[ %{$fg[yellow]%}%~%{$fg[red]%} ] "
 PROMPT="%{$fg[red]%}[ %{$fg[yellow]%}%~%{$fg[red]%} ] "
 
