@@ -1,0 +1,57 @@
+#!/bin/sh
+# Set-up for VNC local forwarding
+
+dsp="$1"
+svr="$2"
+
+case $svr in
+    me)
+        user=jbustamante
+        ip=127.0.0.1
+        port=5335
+        ;;
+
+    sub)
+        # Spalding Submit Machine
+        user=jbustamante
+        ip=128.104.98.118
+        port=22
+        ;;
+
+    dev)
+        # JDev remote server
+        user=jbustamante
+        ip=128.104.98.13
+        port=22
+        ;;
+
+    winry)
+        user=jbustamante
+        ip=192.168.1.29
+        port=3553
+        ;;
+
+    kurisu)
+        # JDev remote server
+        user=jbustamante
+        ip=192.168.1.23
+        port=3553
+        ;;
+
+    office)
+        # Spalding Lab Office
+        user=kinematics
+        ip=128.104.98.158
+        port=133
+        ;;
+
+    *)
+        # Default to JDev
+        user=jbustamante
+        ip=128.104.98.13
+        port=22
+        ;;
+esac
+
+# Start the server in the background
+ssh -L "$dsp":localhost:"$dsp" -N -f -l "$user" "$ip" -p "$port"

@@ -44,7 +44,8 @@ source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 #source $HOME/.zsh/zsh-git-prompt/zshrc.sh
 
 autoload -U colors && colors
-PROMPT="%{$fg[yellow]%}[ %{$fg[blue]%}%~%{$fg[yellow]%} ] "
+PROMPT="%{$fg[yellow]%} ( %{$fg[blue]%}%~%{$fg[yellow]%} ) "
+#PROMPT="%{$fg[yellow]%}[ %{$fg[blue]%}%~%{$fg[yellow]%} ] "
 #PROMPT="%{$fg[blue]%}[ %{$fg[green]%}%~%{$fg[blue]%} $(git_super_status) ] "
 
 

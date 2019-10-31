@@ -1,0 +1,13 @@
+#!/bin/sh
+
+ver="$1"
+
+case $ver in
+    lock)
+        fortune -e startrek -l | cowsay -f mech-and-cow
+        ;;
+
+    *)
+        fortune -e wisdom | cowsay -f moofasa -e "OO" -T "||" -W 80 | lolcat
+        ;;
+esac

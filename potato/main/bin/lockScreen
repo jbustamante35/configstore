@@ -1,0 +1,15 @@
+#!/bin/sh
+# Wrapper to lock screen using slock with fortune+cowsay
+
+ver="$1"
+msg=$(luckycow lock)
+
+case $ver in
+    1)
+        systemctl suspend && slock -m "$msg"
+        ;;
+    *)
+        slock -m "$msg"
+        ;;
+esac
+
