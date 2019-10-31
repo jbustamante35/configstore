@@ -10,7 +10,7 @@ drc     ~/Dropbox/Misc/config
 dre     ~/Dropbox/EdgarSpalding
 drp     ~/Dropbox/Pictures
 drr     ~/Dropbox/ResearchArticles/computationalbiology/edgarspalding
-dru     ~/Dropbox/Classes/uwmadison/phd
+drw     ~/Dropbox/Classes/uwmadison/phd
 dt      ~/.dotify
 gg      ~/go
 h       ~/
@@ -21,12 +21,11 @@ s       ~/.scripts
 sk      ~/Documents/misc/suckless
 vv      ~/Videos
 wk      ~/Documents/jbwiki
-cdcl    ~/Dropbox/Classes/uwmadison
-cdra    ~/Dropbox/ResearchArticles/computationalbiology/edgarspalding
-cdes    ~/Dropbox/EdgarSpalding
 sw      ~/Dropbox/EdgarSpalding/projects
 hq      ~/Dropbox/EdgarSpalding/projects/hypoquantyl
 cs      ~/Dropbox/EdgarSpalding/projects/carrotsweeper
 sp      ~/Dropbox/EdgarSpalding/projects/sphinctolyzer
 qd      ~/Dropbox/EdgarSpalding/projects/quantdracala/quantdracala
 ph      ~/Dok/spaldingshell
+hyp     ~/Dropbox/EdgarSpalding/labdata/development/HypoQuantyl
+car     ~/Dropbox/EdgarSpalding/labdata/development/CarrotSweeper

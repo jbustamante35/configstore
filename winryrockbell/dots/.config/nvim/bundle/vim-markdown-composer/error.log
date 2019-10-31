@@ -62,3 +62,219 @@ Request {
     local_addr: V6([::1]:37969)
 }
 Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-07-15T22:33:29.617448738-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:35165/" }
+    method: Get
+    remote_addr: V6([::1]:39510)
+    local_addr: V6([::1]:35165)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-07-15T22:33:45.950595162-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:40253/" }
+    method: Get
+    remote_addr: V6([::1]:51032)
+    local_addr: V6([::1]:40253)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-07-15T22:33:48.695257270-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:40253/" }
+    method: Get
+    remote_addr: V6([::1]:51032)
+    local_addr: V6([::1]:40253)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-07-15T22:34:26.146803549-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:33099/" }
+    method: Get
+    remote_addr: V6([::1]:35234)
+    local_addr: V6([::1]:33099)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-11T23:27:27.412895263-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:46303/" }
+    method: Get
+    remote_addr: V6([::1]:52934)
+    local_addr: V6([::1]:46303)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-11T23:33:24.538622315-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:46303/" }
+    method: Get
+    remote_addr: V6([::1]:53020)
+    local_addr: V6([::1]:46303)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-11T23:36:40.977950398-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:36637/" }
+    method: Get
+    remote_addr: V6([::1]:60532)
+    local_addr: V6([::1]:36637)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-11T23:39:51.304523014-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:42631/" }
+    method: Get
+    remote_addr: V6([::1]:59386)
+    local_addr: V6([::1]:42631)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-11T23:39:58.776784068-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:40823/" }
+    method: Get
+    remote_addr: V6([::1]:40770)
+    local_addr: V6([::1]:40823)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-11T23:41:01.895236445-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:40875/" }
+    method: Get
+    remote_addr: V6([::1]:43694)
+    local_addr: V6([::1]:40875)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-11T23:41:11.447960743-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:40875/" }
+    method: Get
+    remote_addr: V6([::1]:43746)
+    local_addr: V6([::1]:40875)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-11T23:44:05.846709545-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:38373/" }
+    method: Get
+    remote_addr: V6([::1]:35192)
+    local_addr: V6([::1]:38373)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-11T23:45:39.390585607-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:36065/" }
+    method: Get
+    remote_addr: V6([::1]:55104)
+    local_addr: V6([::1]:36065)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-12T00:11:39.046254597-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:37395/" }
+    method: Get
+    remote_addr: V6([::1]:55870)
+    local_addr: V6([::1]:37395)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-12T00:11:41.171087660-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:37395/" }
+    method: Get
+    remote_addr: V6([::1]:55874)
+    local_addr: V6([::1]:37395)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-12T00:11:44.167555775-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:37395/" }
+    method: Get
+    remote_addr: V6([::1]:55874)
+    local_addr: V6([::1]:37395)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-12T10:31:16.769278135-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:44269/" }
+    method: Get
+    remote_addr: V6([::1]:58340)
+    local_addr: V6([::1]:44269)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-14T19:13:42.533356510-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:40409/" }
+    method: Get
+    remote_addr: V6([::1]:53744)
+    local_addr: V6([::1]:40409)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-17T22:15:13.586111347-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:33691/" }
+    method: Get
+    remote_addr: V6([::1]:53800)
+    local_addr: V6([::1]:33691)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-17T22:15:16.297563553-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:33691/" }
+    method: Get
+    remote_addr: V6([::1]:53808)
+    local_addr: V6([::1]:33691)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-22T12:49:11.248457942-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:42947/" }
+    method: Get
+    remote_addr: V6([::1]:44086)
+    local_addr: V6([::1]:42947)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-22T12:49:46.846141973-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:38023/" }
+    method: Get
+    remote_addr: V6([::1]:51000)
+    local_addr: V6([::1]:38023)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-22T12:49:46.846605193-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:38259/" }
+    method: Get
+    remote_addr: V6([::1]:50238)
+    local_addr: V6([::1]:38259)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-22T12:49:49.370682295-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:38023/" }
+    method: Get
+    remote_addr: V6([::1]:51032)
+    local_addr: V6([::1]:38023)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-22T12:50:14.485450182-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:42561/" }
+    method: Get
+    remote_addr: V6([::1]:35168)
+    local_addr: V6([::1]:42561)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-22T12:50:14.485853601-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:45559/" }
+    method: Get
+    remote_addr: V6([::1]:43498)
+    local_addr: V6([::1]:45559)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })
+2019-09-22T12:50:17.147553190-05:00 [ERROR] iron::iron:Error handling:
+Request {
+    url: Url { generic_url: "http://[::1]:45559/" }
+    method: Get
+    remote_addr: V6([::1]:43534)
+    local_addr: V6([::1]:45559)
+}
+Error was: RenderError(RenderError { desc: "Template not found: markdown_view", template_name: None, line_no: None, column_no: None, cause: None })

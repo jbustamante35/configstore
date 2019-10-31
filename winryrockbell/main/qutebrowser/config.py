@@ -74,12 +74,12 @@ c.url.auto_search = 'naive'
 ## `:open google qutebrowser`.
 ## Type: Dict
 c.url.searchengines = {
-        'DEFAULT': 'https://bing.com/?q={}',
-        'b': 'https://bing.com/?q={}',
+        'DEFAULT': 'https://bing.com/search?q={}',
+        'b': 'https://bing.com/search?q={}',
         'bim': 'https://bing.com/images/?q={}',
         'g': 'https://google.com/search?q={}',
         'gim': 'https://www.google.com/search?hl=en&site=imghp&tbm=isch&source=hp&q={}',
-        'd': 'https://duckduckgo.com/?q={}&t=ha&iar=images',
+        'd': 'https://duckduckgo.com/?q={}',
         'dim': 'https://duckduckgo.com/?q={}&iar=images&iax=images&ia=images',
         'w': 'https://www.wikipedia.org/search-redirect.php?family=wikipedia&language=en&search={}&language=en&go=Go',
         'yt': 'https://www.youtube.com/results?search_query={}',

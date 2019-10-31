@@ -51,11 +51,11 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=0
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 
 # Display names for monitors
-export PRIMARYDISPLAY="eDP1"
+export PRIMARYDISPLAY="eDP-1"
 export SMALL_DELL1="DP-1"
 export SMALL_DELL2="DP-2"
 export LARGE_DELL="HDMI-1"
-export AOC_HOME="HDMI1"
+export AOC_HOME="HDMI-1"
 
 # Swap CAPSLOCK and ESCAPE
 setxkbmap -option "caps:swapescape"

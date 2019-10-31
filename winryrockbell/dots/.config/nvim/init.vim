@@ -119,9 +119,14 @@ let g:joy_pure = 1
 imap <S-Tab> \t
 
 " MarkdownComposer: Markdown file browser viewer
-let g:instant_markdown_autostart = 0
+let g:markdown_composer_browser      = 'brave'
 let g:markdown_composer_open_browser = 0
-nmap <Leader>a :ComposerOpen<CR>
+"nmap <Leader>a :ComposerOpen<CR>
+
+" InstantMarkdown: Quick markdown file browser viewer
+let g:instant_markdown_autostart = 0
+let g:instant_markdown_slow      = 1
+nmap <Leader>a :InstantMarkdownPreview<CR>
 
 " IndentGuides: Customize look of indented spaces
 let g:indent_guides_auto_color = 0
@@ -131,7 +136,7 @@ let g:indent_guides_start_level = 2
 let g:indent_guides_enable_on_vim_startup = 0
 
 " TComment: Plugin to shortcut toggling comments
-map <C-_> :TComment<CR>
+map <Leader>_ :TComment<CR>
 
 " Tabularize: Auto format = signs and variable:
 nmap <C-h> :Tabularize /=<CR>
@@ -142,6 +147,8 @@ vmap <C-j> :Tabularize /:\zs<CR>
 " Template settings
 let g:templates_no_autocmd = 1
 let g:templates_directory  = '/home/jbustamante/.vim/bundle/vim-template/templates'
+let g:email                = 'jbustamante35@gmail.com'
+let g:user                 = 'Julian Bustamante'
 nmap <leader>tmp :Template<CR>
 
 " Calendar: calendar management plugin [ alternative that syncs with Google Calendar ]
@@ -239,45 +246,6 @@ if executable('ag')
 endif
 
 nmap <C-p> :Ack<space>
-
-" FZF: Fuzzy Finder for Vim
-"nmap <C-p> :Files<CR>
-
-"let g:fzf_action = {
-"    \ 'ctrl-t': 'tab split',
-"    \ 'ctrl-x': 'split',
-"    \ 'ctrl-p': 'vsplit' }
-"
-"" Default fzf layout
-"" - down / up / left / right
-"let g:fzf_layout = { 'down': '~40%' }
-"
-"" In Neovim, you can set up fzf window using a Vim command
-"let g:fzf_layout = { 'window': 'enew' }
-"let g:fzf_layout = { 'window': '-tabnew' }
-"let g:fzf_layout = { 'window': '10split enew' }
-"
-"" Customize fzf colors to match your color scheme
-"let g:fzf_colors =
-"\ { 'fg':      ['fg', 'Normal'],
-"  \ 'bg':      ['bg', 'Normal'],
-"  \ 'hl':      ['fg', 'Comment'],
-"  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-"  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
-"  \ 'hl+':     ['fg', 'Statement'],
-"  \ 'info':    ['fg', 'PreProc'],
-"  \ 'border':  ['fg', 'Ignore'],
-"  \ 'prompt':  ['fg', 'Conditional'],
-"  \ 'pointer': ['fg', 'Exception'],
-"  \ 'marker':  ['fg', 'Keyword'],
-"  \ 'spinner': ['fg', 'Label'],
-"  \ 'header':  ['fg', 'Comment'] }
-"
-"" Enable per-command history.
-"" CTRL-N and CTRL-P will be automatically bound to next-history and
-"" previous-history instead of down and up. If you don't like the change,
-"" explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
-"let g:fzf_history_dir = '~/.local/share/fzf-history'
 
 " Rainbow: colored parentheses
 let g:rainbow_active = 1

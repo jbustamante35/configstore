@@ -3,7 +3,7 @@
 ## Startup script for Awesome WM
 
 # Kill running daemons
-killall dunst conky compton nm-applet blueman-applet optimus-manager-qt && \
+killall dunst conky compton nm-applet blueman-applet optimus-manager-qt xfce4-notifyd && \
     mpd --kill ;
 
 # Set displays
@@ -31,7 +31,7 @@ unclutter -idle 2 &
 
 # MPD | Compton | Conky | Dunst
 mpd &
-myconky 0 &
+myconky &
 dunst   -config ~/.config/dunst/dunstrc &
 compton --config ~/.config/compton/compton.conf -b &
 

@@ -2,5 +2,6 @@
 # Use youtube-dl to download audio-only .m4a file from inputted URL
 
 url="$1"
-youtube-dl -f 'bestaudio[ext=m4a]' "$url"
+out="$2"
+youtube-dl -f 'bestaudio[ext=m4a]' "$url" -o "$out"
 
