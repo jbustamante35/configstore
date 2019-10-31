@@ -1,4 +1,5 @@
 # You can add comments to these files with #
+rt   /
 h    ~/
 bb   ~/bin
 gg   ~/go
@@ -20,7 +21,10 @@ drp  ~/Dropbox/Pictures
 drc  ~/Dropbox/Classes/uwmadison
 drr  ~/Dropbox/ResearchArticles/computationalbiology/edgarspalding
 dre  ~/Dropbox/EdgarSpalding
+dat  ~/Dropbox/EdgarSpalding/labdata
 sw   ~/Dropbox/EdgarSpalding/projects
+hyp  ~/Dropbox/EdgarSpalding/labdata/development/HypoQuantyl
+car  ~/Dropbox/EdgarSpalding/labdata/development/CarrotSweeper
 hq   ~/Dropbox/EdgarSpalding/projects/hypoquantyl
 cs   ~/Dropbox/EdgarSpalding/projects/carrotsweeper
 sp   ~/Dropbox/EdgarSpalding/projects/sphinctolyzer

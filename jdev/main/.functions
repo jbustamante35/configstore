@@ -41,6 +41,12 @@ wali () {
     wal --backend "$bak" -i ~/.config/wall.jpg --saturate $sat -q
 }
 
+vnc2me () {
+    dsp="$1"
+
+    vncviewer localhost:"$dsp" -passwd ~/.vnc/passwd
+}
+
 # Find, Search, Execute
 lse () {
     # typ: filter by search query
@@ -64,6 +70,14 @@ lse () {
             "$app" "$(locate "*$typ" | fzf)"
             ;;
     esac
+}
+
+# Shortcut for converting tif to jpg
+cnvv () {
+    img="$1"
+    pct="$2"
+
+    convert -resize "$pct" "$img".tif "$img".jpg
 }
 
 # vim: syntax=sh
