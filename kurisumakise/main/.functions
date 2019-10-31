@@ -23,11 +23,21 @@ drchk () {
     dropbox-cli filestatus ;
 }
 
-# unzip into directory of the same name
-uzp () {
-    nm=$1
-    unzip "$nm".zip -d "$nm"
-}
+## unzip into directory of the same name
+#uzp () {
+#    nm=$1
+#    unzip "$nm".zip -d "$nm"
+#}
+
+# unzips all zip files in directory with custom unzip command
+#uzp_all () {
+#    #din="$(ls *.zip)"
+#    din=$($PWD/*.zip)
+#    echo "$din"
+#    for fin in $din; do
+#        echo $fin;
+#    done
+#}
 
 # Reload color schemes
 clrs () {
@@ -142,5 +152,12 @@ shttr () {
     scrot "$sel" -e 'mv $f "$pdir.png"'
     printf "sel: $sel | dir: $pdir | fout: $f"
 
+}
+
+# Convert color image to grayscale
+cl2gr () {
+    fin=$1
+    fout=$2
+    convert "$fin" -set colorspace Gray -separate -average "$fout"
 }
 

@@ -179,7 +179,10 @@ super + shift + f
     firefox
 
 super + shift + g
-    brave
+    brave-beta
+
+ctrl  + shift + g
+    google-chrome-beta
 
 super + shift + h
     qutebrowser
@@ -226,7 +229,7 @@ super + XF86AudioRaiseVolume
     spotify
 
 super + XF86AudioPrev
-    droidsurf
+    droidsurf surf droid
 
 super + XF86AudioPlay
     caprine

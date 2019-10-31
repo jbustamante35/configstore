@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-fill '/home/jbustamante/.config/wall.jpg' 
+feh --no-fehbg --bg-fill '/home/jbustamante/.config/wall.jpg' 

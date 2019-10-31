@@ -19,7 +19,6 @@ rtv
 .shortcuts
 sxhkd
 tmux
-.vimrc
 wall.jpg
 .xinitrc
 .Xresources

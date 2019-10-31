@@ -1,0 +1,4 @@
+#!/bin/sh
+# unzip into directory of the same name
+nm=$1
+unzip "$nm".zip -d "$nm"

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# unzips all zip files in directory with custom unzip command
+din="$1"
+ext=".zip"
+echo "root dir: $din"
+for fin in $din/*; do
+    in="$(basename $fin $ext)"
+    printf "\nUnzipping $in...\n\n";
+    uzp $in
+    printf "\nFinished unzipping $in!\n\n";
+done

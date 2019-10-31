@@ -35,7 +35,7 @@ RUBYPATH=/home/jbustamante/.gem/ruby/2.6.0
 
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 export TERMINAL=urxvt
-export BROWSER=qutebrowser
+export BROWSER=brave
 export EDITOR=nvim
 export PATH=$PATH:$MYPATH:$MYBIN:$GOROOT/bin:$GOPATH/bin:$RUBYPATH/bin
 

@@ -1,1 +1,0 @@
-(1){"type":"perf.startupTime.v1","msg":{"ts":1562254042259,"t_since_start":5166997,"gfx_before_init":148056,"gfx_initialized":166945,"gfx_done":543575,"first_scene":547790,"scene_init":4573945,"scene_done":5166980,"splash_begin":548123,"splash_fading_out":4553817}}

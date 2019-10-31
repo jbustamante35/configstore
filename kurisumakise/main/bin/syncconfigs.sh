@@ -32,7 +32,6 @@ ${sync} ~/.dotify/.functions           ${main}
 ${sync} ~/.dotify/.shortcuts           ${main}
 ${sync} ~/.dotify/.bashrc              ${main}
 ${sync} ~/.dotify/.zshrc               ${main}
-${sync} ~/.dotify/.vimrc               ${main}
 ${sync} ~/.dotify/.xinitrc             ${main}
 ${sync} ~/.dotify/.Xresources          ${main}
 ${sync} ~/.dotify/.config/bspwm        ${main}

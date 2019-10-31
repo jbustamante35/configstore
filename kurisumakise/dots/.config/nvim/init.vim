@@ -26,7 +26,7 @@
 "                           \ V /| | | | | | | | | (__
 "                            \_/ |_|_| |_| |_|_|  \___|
 "
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" Main configs
 " Pathogen: plugin manager
     execute pathogen#infect()
@@ -57,7 +57,7 @@
     set splitright
     set background=dark
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" Settings and colors
 " Set color of ruler at line 80
     highlight ColorColumn ctermbg=darkgray
@@ -122,7 +122,7 @@
     vnoremap <C-c> "+y
     nmap <C-p> "+p
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" Plugin Implementation
 " Joy: change escape from Insert Mode to TAB key
     let g:joy_pure = 1
@@ -185,7 +185,6 @@ let g:calendar_clock_12hour    = 0
 let g:calendar_google_calendar = 1
 let g:calendar_google_task     = 1
 
-
 " Lightline: Setup lightline status bar
 set laststatus=2
 let g:lightline = {
@@ -202,7 +201,6 @@ let g:lightline = {
 " TmuxLine: Statusline generator for tmux
 let g:tmuxline_powerline_separators = 0
 let g:Tmuxline                      = lightline
-
 
 " Template: Automated template plugin
 let g:templates_directory = '~/.vim/bundle/vim-templates/templates'
@@ -240,13 +238,13 @@ nmap <C-l> :LLPStartPreview<CR>
 " SmoothScroll: more pleasant scrollinng
 noremap <silent> <C-u> :call smooth_scroll#up(&scroll, 0, 2)<CR>
 noremap <silent> <C-d> :call smooth_scroll#down(&scroll, 0, 2)<CR>
-"noremap <silent> <C-b> :call smooth_scroll#up(&scroll*2, 0, 4)<CR>
-"noremap <silent> <C-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
+noremap <silent> <C-b> :call smooth_scroll#up(&scroll*2, 0, 4)<CR>
+noremap <silent> <C-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
 
 " Pandoc: LaTeX compiler and viewer [TODO]
 
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" UNCATEGORIZED [ from Luke Smith voidrice ]
 
 " Compile document
@@ -266,7 +264,7 @@ noremap <silent> <C-d> :call smooth_scroll#down(&scroll, 0, 2)<CR>
     autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Testing testing from source nvim
 " It worked [from ~/.vimrc]
