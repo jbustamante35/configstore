@@ -1,0 +1,11 @@
+[user]
+    email = jbustamante35@gmail.com
+    name  = Julian Bustamante
+[core]
+    editor = nvim
+    #pager  = diff-so-fancy | less --tabs = 4
+[credential]
+    helper = store
+[help]
+    autocorrect = 1
+    browser     = 1

@@ -1,0 +1,15 @@
+.aliases
+.bashrc
+.config
+.dotrc
+.functions
+.gitconfig
+.profile
+.scripts
+.shortcuts
+.urxvt
+.vnc
+.Xresources
+.zprofile
+.zsh
+.zshrc

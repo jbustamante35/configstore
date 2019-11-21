@@ -17,6 +17,7 @@ The devices I'm currently tracking are:
 | Potato        | Dell Inspiron 11 Chromebook | Gallium OS | Dwm,Xfce                | Portable laptop        |
 | RinTohsaka    | Dell laptop                 | Arch       | i3,Xfce                 | Eagle Heights          |
 | Megatron      | ACER laptop                 | Arch       | Arch                    | Sunshine Drive         |
+| MolineJo      | Dell Desktop PC             | MX Linux   | Xfce, Bspwm             | Spalding Lab           |
 
 ## Usage
 All configuration files are automatically saved into their respective device's directory every

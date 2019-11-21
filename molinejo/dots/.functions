@@ -1,0 +1,83 @@
+#############
+# FUNCTIONS #
+#############
+
+# create directory and move to it
+mvcd () {
+	mkdir $1;
+	cd $1;
+}
+
+# move to directory and show contents
+cl () {
+	cd $1 && la -F;
+}
+
+# unzip into directory of the same name as zip file
+uzp () {
+	nm=$1;
+	unzip "$nm".zip -d "$nm";
+}
+
+# check current status of dropbox syncing
+drchk () {
+	cd ~/Dropbox
+	dropbox filestatus && printf "\n\n\n" && dropbox status
+	cd -
+        printf "\n" && dropbox filestatus
+}
+
+clrs () {
+    xrdb -load ~/.cache/wal/colors.Xresources ;
+    xrdb -merge ~/.Xresources
+}
+
+wali () {
+    bak="$1"
+    sat="$2"
+
+    wal -c ;
+    clrs ;
+    wal --backend "$bak" -i ~/.config/wall.jpg --saturate $sat -q
+}
+
+vnc2me () {
+    dsp="$1"
+
+    vncviewer localhost:"$dsp" -passwd ~/.vnc/passwd
+}
+
+# Find, Search, Execute
+lse () {
+    # typ: filter by search query
+    # app: run selection with application
+    # ver: run on full filesystem (1) or subdirectory tree (2)
+    typ="$1"
+    app="$2"
+    ver="$3"
+
+    case $ver in
+        1)
+            # Search through entire file system
+            "$app" "$(locate "*$typ" | fzf)"
+            ;;
+        2)
+            # Localized search through current directory tree
+            "$app" "$(locate "$(pwd)/*$typ" | fzf)"
+            ;;
+        *)
+            # Default to searching entire file system
+            "$app" "$(locate "*$typ" | fzf)"
+            ;;
+    esac
+}
+
+# Shortcut for converting tif to jpg
+cnvv () {
+    img="$1"
+    pct="$2"
+
+    convert -resize "$pct" "$img".tif "$img".jpg
+}
+
+# vim: syntax=sh

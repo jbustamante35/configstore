@@ -1,0 +1,13 @@
+#!/bin/bash
+#str=$(pydf | grep nvme0n1p4)
+#total=echo $str | $(cut -f2 -d" ")
+#used=echo $str | $(cut -f4 -d" ")
+#remaining=echo $str | $(cut -f7 -d" ")
+#printf "string: $str\ntotal: $total\nused: $used\nremaining: $remaining\n"
+
+# For some reason this broke when switching to Linux Mint [03-11-2019]
+# This version is uglier but fixes it
+total=$(pydf | grep nvme0n1p4 | cut -f2 -d' ')
+used=$(pydf | grep nvme0n1p4 | cut -f4 -d' ')
+remaining=$(pydf | grep nvme0n1p4 | cut -f7 -d' ')
+printf "total: $total\nused: $used\nremaining: $remaining\n"
