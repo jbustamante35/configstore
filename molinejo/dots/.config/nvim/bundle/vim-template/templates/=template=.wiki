@@ -1,0 +1,73 @@
+= %MONTH%.%DAY%.%YEAR% TITLE =
+
+==== EVENT1 ====
+
+==== EVENT2 ====
+
+==== EVENTN ====
+
+-------------------------------------------------------------------------------
+=== Activities Summary ===
+==== Meals ====
+- Breakfast
+    -
+- Lunch
+    -
+- Dinner
+    -
+
+==== Sleep and Wake Times ====
+- Slept [ time ]
+    * [ ] Sleeping Pill
+    * [ ] ASMR
+
+- Woke up [ time ]
+    * [ ] Snoozed alarm
+    * [ ] Used phone
+
+- Sleep assessment
+
+
+==== Work ====
+| *Start* | *End* |
+|         |       |
+
+==== Media ====
+- TV shows watched
+| *Show* | *Episode* | *Platform* | *Location* | *Summary* |
+|        |           |            |            |           |
+
+- Videos watched
+| *Video* | *Channel* | *Duration* | *Platform* | *Location* | *Summary* |
+|         |           |            |            |            |           |
+
+- Movies watched
+| *Movie* | *Platform* | *Location* | *Summary* |
+|         |            |            |           |
+
+- Sports watched
+| *Game* | *Sport* | *Platform* | *Location* | *Score* | *Summary* |
+|        |         |            |            |         |           |
+
+- Video games played
+| *Video Game* | *Platform* | *Location* | *Summary* |
+|              |            |            |           |
+
+- Podcasts listened to
+| *Podcast* | *Channel* | *Location* | *Summary* |
+|           |           |            |           |
+
+- Books/Articles read
+| *Book/Article* | *Media* | *Location* | *Summary* |
+|                |         |            |           |
+
+==== Activities ====
+| *Activity* | *Start* | *End* | *Location* | *Summary* |
+|            |         |       |            |           |
+
+
+==== Finances ====
+| *Item* | *Cost* | *Method/Card* | *Location/Website* | *Summary* |
+|        |        |               |                    |           |
+
+

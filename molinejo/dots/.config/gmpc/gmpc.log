@@ -1,0 +1,196 @@
+07/11/2019-14:59:49:Info:A new metadata plugin was added, gmpc has purged all failed hits from the cache
+07/11/2019-15:00:06:Info:<b>Added profile:</b> 'New Profile'
+07/11/2019-15:00:28:Critical:<b>error code 12: host &quot;jbustamante@128.104.98.13&quot; not found: Name or service not known</b>
+07/11/2019-15:00:36:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:00:40:Critical:<b>error code 14: mpd not running on port 22 on host &quot;128.104.98.13&quot;</b>
+07/11/2019-15:00:46:Info:Connected to mpd
+07/11/2019-15:00:46:Info:MPD Database has been updated at: Thu 11 Jul 2019 02:14:05 PM CDT
+07/11/2019-15:05:11:Info:Disconnected from mpd
+07/11/2019-15:05:11:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:14:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:15:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:16:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:16:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:17:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:17:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:18:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:19:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:22:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:24:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:29:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:37:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:05:39:Info:Connected to mpd
+07/11/2019-15:05:39:Info:MPD Database has been updated at: Thu 11 Jul 2019 02:14:05 PM CDT
+07/11/2019-15:12:17:Info:Disconnected from mpd
+07/11/2019-15:12:17:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:12:21:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:12:23:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:12:29:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:12:36:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:12:36:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:12:44:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:12:44:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:12:53:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:12:54:Critical:<b>error code 14: mpd not running on port 22 on host &quot;128.104.98.13&quot;</b>
+07/11/2019-15:13:02:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:13:03:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:13:57:Critical:<b>error code 14: mpd not running on port 22 on host &quot;128.104.98.13&quot;</b>
+07/11/2019-15:14:00:Critical:<b>error code 14: mpd not running on port 22 on host &quot;128.104.98.13&quot;</b>
+07/11/2019-15:14:04:Critical:<b>error code 14: mpd not running on port 22 on host &quot;128.104.98.13&quot;</b>
+07/11/2019-15:14:09:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:14:11:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:14:17:Info:Connected to mpd
+07/11/2019-15:14:45:Info:<b>Added profile:</b> 'New Profile'
+07/11/2019-15:15:17:Info:Disconnected from mpd
+07/11/2019-15:15:17:Info:Connected to mpd
+07/11/2019-15:15:17:Info:MPD Database has been updated at: Wed 06 Nov 2019 05:10:30 PM CST
+07/11/2019-15:21:52:Critical:<b>error code 17: connection closed</b>
+07/11/2019-15:21:52:Info:Disconnected from mpd
+07/11/2019-15:21:58:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6600: Operation now in progress</b>
+07/11/2019-15:22:04:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6600: Operation now in progress</b>
+07/11/2019-15:22:11:Info:Connected to mpd
+07/11/2019-15:22:15:Info:Disconnected from mpd
+07/11/2019-15:22:15:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6600: Operation now in progress</b>
+07/11/2019-15:22:21:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6600: Operation now in progress</b>
+07/11/2019-15:22:27:Info:Connected to mpd
+07/11/2019-15:22:27:Info:MPD Database has been updated at: Thu 11 Jul 2019 02:14:05 PM CDT
+07/11/2019-15:22:35:Info:<b>Added profile:</b> 'New Profile'
+07/11/2019-15:23:07:Info:Disconnected from mpd
+07/11/2019-15:23:07:Info:Connected to mpd
+07/11/2019-15:23:10:Info:Disconnected from mpd
+07/11/2019-15:23:10:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:23:16:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:23:17:Info:Connected to mpd
+07/11/2019-15:23:17:Info:MPD Database has been updated at: Thu 11 Jul 2019 02:14:05 PM CDT
+07/11/2019-15:23:46:Info:Disconnected from mpd
+07/11/2019-15:23:46:Info:Connected to mpd
+07/11/2019-15:23:51:Info:Disconnected from mpd
+07/11/2019-15:23:51:Critical:<b>error code 13: problems connecting to &quot;localhost&quot; on port 6600: Operation now in progress</b>
+07/11/2019-15:23:57:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:24:00:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:24:03:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:24:10:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:24:18:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:24:27:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:24:37:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:24:48:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:25:00:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:25:13:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:25:27:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:25:42:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:25:58:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:26:15:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:26:33:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:26:52:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:27:12:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:27:33:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:27:55:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:28:18:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:28:42:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:29:07:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:29:33:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:30:00:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:30:28:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:30:57:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:31:27:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:31:58:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:32:30:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:33:03:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:33:37:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:34:12:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:34:48:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:35:25:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:36:03:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:36:42:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:37:22:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:38:03:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:38:45:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:39:28:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:40:12:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:40:57:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:41:43:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:42:30:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:43:18:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:44:07:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:44:57:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:45:48:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:46:40:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:47:33:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:48:27:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:49:22:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:50:18:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:51:15:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:52:13:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:53:12:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:54:12:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:55:13:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:56:15:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:57:18:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:58:22:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-15:59:27:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:00:32:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:01:37:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:02:42:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:03:47:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:04:52:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:05:57:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:07:02:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:08:07:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:09:12:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:10:17:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:11:22:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:12:27:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:13:32:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:14:37:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:15:42:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:16:47:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:17:52:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:18:57:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:20:02:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:21:07:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:22:12:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:23:17:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:24:22:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:25:27:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:26:32:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:27:37:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:28:42:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:29:47:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:30:52:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:31:57:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:33:02:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:34:07:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:35:12:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:36:17:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:37:22:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:38:27:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:39:32:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:40:37:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:41:42:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:42:47:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:43:52:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:44:57:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:46:02:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:47:07:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-16:48:12:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-17:46:37:Info:Connected to mpd
+07/11/2019-17:46:50:Info:Disconnected from mpd
+07/11/2019-17:46:50:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-17:46:56:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 6000: Operation now in progress</b>
+07/11/2019-17:47:02:Info:Connected to mpd
+07/11/2019-17:48:09:Info:Disconnected from mpd
+07/11/2019-17:48:09:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 8000: Operation now in progress</b>
+07/11/2019-17:48:12:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 8000: Operation now in progress</b>
+07/11/2019-17:48:15:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 8000: Operation now in progress</b>
+07/11/2019-17:48:21:Info:Connected to mpd
+07/11/2019-17:48:37:Info:Disconnected from mpd
+07/11/2019-17:48:37:Info:Connected to mpd
+07/11/2019-17:49:19:Info:Disconnected from mpd
+07/11/2019-17:49:19:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 8000: Operation now in progress</b>
+07/11/2019-17:49:24:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 8000: Operation now in progress</b>
+07/11/2019-17:49:30:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 8000: Operation now in progress</b>
+07/11/2019-17:49:31:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 8000: Operation now in progress</b>
+07/11/2019-17:49:32:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 8000: Operation now in progress</b>
+07/11/2019-17:49:37:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 8000: Operation now in progress</b>
+07/11/2019-17:49:45:Critical:<b>error code 13: problems connecting to &quot;128.104.98.13&quot; on port 8000: Operation now in progress</b>
+07/11/2019-17:49:54:Info:Connected to mpd

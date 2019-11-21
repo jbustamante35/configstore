@@ -1,0 +1,17 @@
+.aliases
+.bashrc
+bin
+compton
+conky
+.functions
+lock.jpg
+mpd.conf
+ncmpcpp
+qutebrowser
+ranger
+rofi
+.shortcuts
+tmux
+wall.jpg
+.Xresources
+.zshrc

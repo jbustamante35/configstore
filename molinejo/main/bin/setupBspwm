@@ -1,0 +1,31 @@
+#!/bin/sh
+
+## Startup script for Bspwm
+
+# Kill running daemons
+killall dunst conky compton polybar && mpd --kill ;
+
+# Set displays
+#setScreens 2;
+
+# Set Xresources and wallpaper
+regencolors "$WALEND" 1
+
+# Applets [bluetooth , wifi]
+
+# Dropbox autostart
+#dropbox-cli autostart
+#dropbox-cli start
+
+# Touchpad tap
+touchpadctl tap
+
+# MPD | Compton | Conky | Dunst
+mpd &
+myconky &
+dunst   -config ~/.config/dunst/dunstrc &
+compton --config ~/.config/compton/compton.conf -b  ;
+
+# URxvt daemon
+urxvtd -q -o -f
+

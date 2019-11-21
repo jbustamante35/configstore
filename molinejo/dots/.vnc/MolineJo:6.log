@@ -1,0 +1,172 @@
+
+Xvnc TigerVNC 1.9.0 - built Dec  1 2018 21:51:29
+Copyright (C) 1999-2018 TigerVNC Team and many others (see README.rst)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12003000, The X.Org Foundation
+
+
+Mon Oct 28 23:50:49 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5906
+ vncext:      created VNC server for screen 0
+xrdb: No such file or directory
+xrdb: can't open file '/home/jbustamante/.Xresource'
+
+Mon Oct 28 23:51:56 2019
+ Connections: accepted: [::1]::48816
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Mon Oct 28 23:51:58 2019
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Mon Oct 28 23:52:04 2019
+ Connections: closed: [::1]::48816 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 6
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 6 rects, 3.52146 Mpixels
+ EncodeManager:            96 B (1:146728 ratio)
+ EncodeManager:     Indexed RLE: 1 rects, 66 pixels
+ EncodeManager:                  106 B (1:2.60377 ratio)
+ EncodeManager:   Total: 7 rects, 3.52153 Mpixels
+ EncodeManager:          202 B (1:69733.6 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":6"
+      after 1811 requests (1811 known processed) with 0 events remaining.
+
+Mon Oct 28 23:52:39 2019
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Xvnc TigerVNC 1.9.0 - built Dec  1 2018 21:51:29
+Copyright (C) 1999-2018 TigerVNC Team and many others (see README.rst)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12003000, The X.Org Foundation
+
+
+Mon Oct 28 23:53:26 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5906
+ vncext:      created VNC server for screen 0
+urxvt: perl extension 'clipboard' not found in perl library search path
+urxvt: perl extension 'keyboard-select' not found in perl library search path
+urxvt: perl extension 'resize-font' not found in perl library search path
+urxvt: perl extension 'url-select' not found in perl library search path
+
+Mon Oct 28 23:53:33 2019
+ Connections: accepted: [::1]::48830
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Mon Oct 28 23:53:34 2019
+ ComparingUpdateTracker: 304.484 kpixels in / 4.096 kpixels out
+ ComparingUpdateTracker: (1:74.3369 ratio)
+
+Mon Oct 28 23:53:37 2019
+ ComparingUpdateTracker: 411.2 kpixels in / 26.24 kpixels out
+ ComparingUpdateTracker: (1:15.6707 ratio)
+
+Mon Oct 28 23:54:39 2019
+ ComparingUpdateTracker: 61.5544 Mpixels in / 5.64431 Mpixels out
+ ComparingUpdateTracker: (1:10.9056 ratio)
+
+Mon Oct 28 23:55:44 2019
+ Connections: closed: [::1]::48830 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 859
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 2.253 krects, 17.5604 Mpixels
+ EncodeManager:            35.2031 KiB (1:1949.31 ratio)
+ EncodeManager:     Bitmap RLE: 412 rects, 283.654 kpixels
+ EncodeManager:                 12.4844 KiB (1:89.1395 ratio)
+ EncodeManager:     Indexed RLE: 2.186 krects, 6.84742 Mpixels
+ EncodeManager:                  1.84411 MiB (1:14.178 ratio)
+ EncodeManager:     Full Colour: 643 rects, 5.84211 Mpixels
+ EncodeManager:                  2.16824 MiB (1:10.2817 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 1.811 krects, 17.1534 Mpixels
+ EncodeManager:                  9.8608 MiB (1:6.63797 ratio)
+ EncodeManager:   Total: 7.305 krects, 47.687 Mpixels
+ EncodeManager:          13.9197 MiB (1:13.0746 ratio)
+ ComparingUpdateTracker: 89.3253 Mpixels in / 27.6077 Mpixels out
+ ComparingUpdateTracker: (1:3.23552 ratio)
+
+Mon Oct 28 23:57:55 2019
+ Connections: accepted: [::1]::48848
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Mon Oct 28 23:57:56 2019
+ ComparingUpdateTracker: 608.968 kpixels in / 1.216 kpixels out
+ ComparingUpdateTracker: (1:500.796 ratio)
+
+Mon Oct 28 23:57:58 2019
+ ComparingUpdateTracker: 187.285 kpixels in / 15.179 kpixels out
+ ComparingUpdateTracker: (1:12.3384 ratio)
+
+Tue Oct 29 00:09:17 2019
+ ComparingUpdateTracker: 554.984 Mpixels in / 121.885 Mpixels out
+ ComparingUpdateTracker: (1:4.55335 ratio)
+
+Tue Oct 29 00:12:53 2019
+ ComparingUpdateTracker: 425.321 Mpixels in / 95.2561 Mpixels out
+ ComparingUpdateTracker: (1:4.46503 ratio)
+
+Tue Oct 29 00:13:22 2019
+ Connections: closed: [::1]::48848 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 6015
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 457 rects, 18.4375 Mpixels
+ EncodeManager:             7.14062 KiB (1:10086.9 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 14.514 krects, 98.3674 Mpixels
+ EncodeManager:            226.781 KiB (1:1695.1 ratio)
+ EncodeManager:     Bitmap RLE: 710 rects, 400.038 kpixels
+ EncodeManager:                 21.6318 KiB (1:72.623 ratio)
+ EncodeManager:     Indexed RLE: 10.413 krects, 32.2378 Mpixels
+ EncodeManager:                  7.57954 MiB (1:16.2406 ratio)
+ EncodeManager:     Full Colour: 7.06 krects, 58.242 Mpixels
+ EncodeManager:                  22.3378 MiB (1:9.94981 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 12.853 krects, 118.127 Mpixels
+ EncodeManager:                  74.7719 MiB (1:6.02857 ratio)
+ EncodeManager:   Total: 46.007 krects, 325.812 Mpixels
+ EncodeManager:          104.939 MiB (1:11.8488 ratio)
+ ComparingUpdateTracker: 38.172 Mpixels in / 14.6353 Mpixels out
+ ComparingUpdateTracker: (1:2.60821 ratio)
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":6"
+      after 223046 requests (223043 known processed) with 0 events remaining.
+
+Tue Oct 29 00:18:24 2019
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Xvnc TigerVNC 1.9.0 - built Dec  1 2018 21:51:29
+Copyright (C) 1999-2018 TigerVNC Team and many others (see README.rst)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12003000, The X.Org Foundation
+
+
+Tue Oct 29 00:24:13 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5906
+ vncext:      created VNC server for screen 0
+urxvt: perl extension 'clipboard' not found in perl library search path
+urxvt: perl extension 'keyboard-select' not found in perl library search path
+urxvt: perl extension 'resize-font' not found in perl library search path
+urxvt: perl extension 'url-select' not found in perl library search path
+XIO:  fatal IO error 4 (Interrupted system call) on X server ":6"
+      after 3465 requests (3462 known processed) with 0 events remaining.
+
+Tue Oct 29 15:45:59 2019
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)

@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/jbustamante/Documents/jbwiki/labnotes.wiki'
+let g:netrw_dirhist_2='/home/jbustamante/Documents/jbwiki'
+let g:netrw_dirhist_3='/home/jbustamante/Documents/jbwiki/labnotes.wiki/projects/hq'
+let g:netrw_dirhist_4='/home/jbustamante/Documents/jbwiki/labnotes.wiki/projects'
+let g:netrw_dirhist_5='/home/jbustamante/Documents/jbwiki/labnotes.wiki/projects/hq'

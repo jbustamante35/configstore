@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Rxvt Color Unicode Terminal
+Comment=RXVT Unicode 256 Color
+TryExec=urxvt
+Exec=urxvtc
+Icon=utilities-terminal
+Type=Application
+Categories=Utility;TerminalEmulator;
+StartupNotify=true
+Keywords=Run;
+Actions=New
+StartupWMClass=URxvt
+X-XFCE-Source=file:///usr/share/applications/rxvt-unicode.desktop
+
+Path=~
+Terminal=false
+
+[Desktop Action New]
+Name=New Rxvt Color Unicode Terminal
+Exec=urxvt
+OnlyShowIn=Unity

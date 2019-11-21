@@ -1,0 +1,86 @@
+#! /bin/sh
+#
+#                   ###### #### ###### #     # #######
+#                    #   # #     #   # #  #  # #  #  #
+#                   ###### #### ###### #  #  # #  #  #
+#                    #   #    #  #     #  #  # #  #  #
+#                   ###### ####  #     ####### #     #
+#
+########################## BSPWM Configuration File ###########################
+
+
+################################## Main Setup ##################################
+sxhkd &
+setupBspwm
+
+# Workaround for: https://github.com/baskerville/bspwm/issues/52
+# Needed to install wmname from core repository
+wmname LG3D
+
+############################## Window Configuration ##############################
+bspc config top_padding    2
+bspc config bottom_padding 2
+bspc config left_padding   2
+bspc config right_padding  2
+
+bspc config border_width 3
+bspc config window_gap   15
+
+bspc config split_ratio        0.5
+bspc config borderless_monocle false
+bspc config gapless_monocle    false
+
+bspc config focus_follows_pointer true
+bspc config pointer_follows_focus true
+bspc config click_to_focus        any
+
+bspc config focused_border_color \#F7E144
+bspc config active_border_color  \#C8645F
+bspc config normal_border_color  \#243344
+
+
+############################ Workspace Management #############################
+bspc monitor eDP1 -d S1 S2 S3 S4 S5 # Primary
+bspc monitor DP1  -d A1 A2 A3 A4 A5 # Home AOC or Left Dell
+bspc monitor DP3  -d B1 B2 B3 B4 B5 # Right Dell
+
+# Application rules
+# Editors [monitor 08]
+bspc rule -a Gimp     desktop='^8'
+bspc rule -a Krita    desktop='^8'
+bspc rule -a Inkscape desktop='^8'
+bspc rule -a Fiji     desktop='^8' state=floating follow=on
+
+# Social [monitor 09]
+bspc rule -a Steam      desktop='^9'
+bspc rule -a Messages   desktop='^9'
+bspc rule -a Caprine:*  desktop='^9'
+bspc rule -a YakYak     desktop='^9'
+bspc rule -a Slack      desktop='^9'
+bspc rule -a Discord    desktop='^9'
+
+# Music [monitor 10]
+bspc rule -a "Google Play Music Desktop Player" desktop='^10'
+bspc rule -a Spotify desktop='^10'
+bspc rule -a URxvt:ncmpcpp desktop='^10'
+
+# Floating
+bspc rule -a URxvt:htop       state=floating follow=on
+bspc rule -a URxvt:gotop      state=floating follow=on
+bspc rule -a URxvt:nvtop      state=floating follow=on
+bspc rule -a URxvt:pulsemixer state=floating follow=on
+
+# Scratchpad [doesn't work]
+#bspc rule -a scratchpad sticky=on state=floating hidden=on
+#urxvt -C scratchpad -e ~/bin/scratch &
+
+############################## Bar Configuration ##############################
+## TODO
+# Polybar or better Lemonbar
+# Applets [wifi | bluetooth | power options]
+## Add default lemonbar panel for now
+#panel &
+polybar -c ~/.config/polybar/polybar.conf main -q --reload      &
+polybar -c ~/.config/polybar/polybar.conf secondary -q --reload &
+polybar -c ~/.config/polybar/polybar.conf tertiary -q --reload &
+
