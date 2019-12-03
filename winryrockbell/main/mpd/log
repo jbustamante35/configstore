@@ -1,0 +1,1241 @@
+Nov 06 03:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 06 03:01 : exception: Failed to open '/home/jbustamante/.config/mpd/state': No such file or directory
+Nov 06 03:01 : client: [0] opened from 127.0.0.1:32976
+Nov 06 03:02 : client: [0] closed
+Nov 06 03:02 : client: [1] opened from 127.0.0.1:32980
+Nov 06 03:02 : client: [1] closed
+Nov 09 14:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 14:50 : client: [0] opened from 127.0.0.1:51376
+Nov 09 14:50 : client: [0] closed
+Nov 09 14:50 : inotify: music directory was removed - cannot continue to watch it
+Nov 09 14:51 : client: [1] opened from 127.0.0.1:51406
+Nov 09 14:51 : client: [1] closed
+Nov 09 14:51 : update: added yt/lofihiphop/LofiHipHop_SoulituneIntimacy.m4a
+Nov 09 14:51 : update: added yt/lofihiphop/LofiHipHop_ChuckeeGoinFar.m4a
+Nov 09 14:51 : update: added yt/robbierobb/RobbieRobb_InTime.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_SURFTakeCare.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_SteezyPrimeExplore.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_MattQuentinWaves.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_PotsuxLandoBreakfast.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_BLVKUnderTheTrees.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_Nikomw_SquidEthics.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_CharlieTooHuman_WalkInThePark.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_BoxBoysDisability.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_NeoplasmaThinkingAboutYou.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_MattdeguiaDaylight.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_TomMischWonder.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_JoakimKarudDreams.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_TymuWalkWithMe.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_KazamRaindrops.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_KalaidoHangingLanterns.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_SugiwaRememberMe.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_JustBigHillsShinjuku.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_AsoLoungin.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_MattQuentinHome.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_OrcaVibesGypsy.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_FlovryCarRadio.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_ArtesiaHer.m4a
+Nov 09 14:51 : update: added yt/chilledcow/ChilledCow_SURF6am.m4a
+Nov 09 14:51 : update: added yt/zefyr/Zefyr_FullmetalAlchemistBrotherhoodOST.m4a
+Nov 09 14:51 : update: added yt/gamechops/GameChops_PokeAndChill.m4a
+Nov 09 14:51 : update: added yt/gamechops/GameChops_MarioAndChill.m4a
+Nov 09 14:51 : update: added yt/gamechops/GameChops_ZeldaAndChill.m4a
+Nov 09 14:51 : update: added yt/barrymanilow/CantSmileWithoutYou_BarryManilow.m4a
+Nov 09 14:51 : update: added yt/christomlin/AmazingGraceMyChainsareGone_ChrisTomlin.m4a
+Nov 09 14:51 : update: added yt/misc/GerryAndThePacemakers_YoullNeverWalkAlone.m4a
+Nov 09 14:51 : update: added yt/misc/TaylorDavis_BalladOfTheWindFish.m4a
+Nov 09 14:51 : update: added yt/misc/EllaPraprotnik_KissFromARose.m4a
+Nov 09 14:51 : update: added yt/torikelly/Hallelujah_ToriKelly.m4a
+Nov 09 14:51 : update: added yt/animevibe/AnimeVibe_SettonHighSchoolLove.m4a
+Nov 09 14:51 : update: added yt/neowavemusic/NeowaveMusic_BotWLofi.m4a
+Nov 09 14:51 : update: added yt/stevelawrence/PortraitOfMyLove_SteveLawrence.m4a
+Nov 09 14:51 : update: added yt/chillplace/ChillPlace_ZeldaAndLofi.m4a
+Nov 09 14:51 : update: added yt/chillplace/ChillPlace_PokemonAndLofi.m4a
+Nov 09 14:51 : update: added yt/chillplace/ChillPlace_FinalFantasyIX.m4a
+Nov 09 14:51 : update: added yt/nintendoandchill/NintendoAndChill_nintendoadlofi3.m4a
+Nov 09 14:51 : update: added yt/nintendoandchill/NintendoAndChill_nintendoadlofi1.m4a
+Nov 09 14:51 : update: added yt/nintendoandchill/NintendoAndChill_nintendoadlofi2.m4a
+Nov 09 14:51 : update: added yt/synth/Synth_AtCafe.m4a
+Nov 09 14:51 : update: added yt/nourish/_-Ee6FAXV5Ar8.m4a
+Nov 09 14:51 : update: added yt/nourish/_-lbDQI45EM_c.m4a
+Nov 09 14:51 : update: added yt/nourish/_-EpvnN15FNjM.m4a
+Nov 09 14:51 : update: added yt/nourish/_-FBfVpnUxbuQ.m4a
+Nov 09 14:51 : update: added yt/nourish/_-jMphBCrEjnc.m4a
+Nov 09 14:51 : update: added yt/nourish/_-AL53zWBkzcE.m4a
+Nov 09 14:51 : update: added yt/nourish/_-t3DseLG42lc.m4a
+Nov 09 14:51 : update: added yt/nourish/_-65_d6Fd8BO4.m4a
+Nov 09 14:51 : update: added yt/nourish/_-uLkAo3WmJ0U.m4a
+Nov 09 14:51 : update: added yt/nourish/_-rLixM7dU3bs.m4a
+Nov 09 14:51 : update: added yt/nourish/_-iO0YIJVPC_g.m4a
+Nov 09 14:51 : update: added yt/nourish/_-qBqHnRweuGE.m4a
+Nov 09 14:51 : update: added yt/nourish/_-jnZ0rNNMWCU.m4a
+Nov 09 14:51 : update: added yt/nourish/_-jK_2VGOCDBg.m4a
+Nov 09 14:51 : update: added yt/nourish/_-ISNBfryBkSo.m4a
+Nov 09 14:51 : update: added yt/nourish/_-Mao7Hai3QrY.m4a
+Nov 09 14:51 : update: added yt/nourish/_-yJqvPpkovgw.m4a
+Nov 09 14:51 : update: added yt/nourish/_-I5oAfRE6-sQ.m4a
+Nov 09 14:51 : update: added yt/nourish/_-OOCeWZm5c8U.m4a
+Nov 09 14:51 : update: added yt/nourish/_-SvFfhBUsjuw.m4a
+Nov 09 14:51 : update: added yt/nourish/_-ldvcg0Dze6I.m4a
+Nov 09 14:51 : update: added yt/nourish/_-i7TNv5O_678.m4a
+Nov 09 14:51 : client: [2] opened from 127.0.0.1:51410
+Nov 09 14:51 : update: added yt/nourish/_-bKIPLerDwag.m4a
+Nov 09 14:51 : update: added yt/nourish/_-zY7Wja7WaD0.m4a
+Nov 09 14:51 : update: added yt/nourish/_-WK7D5fq4pL0.m4a
+Nov 09 14:51 : update: added yt/nourish/_-KKS2hUiz6NI.m4a
+Nov 09 14:51 : update: added yt/nourish/_-VhX5XI1fZpg.m4a
+Nov 09 14:51 : update: added yt/nourish/_-lLuFFiesqiQ.m4a
+Nov 09 14:51 : update: added yt/nourish/_-tuOJLTpzPbA.m4a
+Nov 09 14:51 : update: added yt/nourish/_-1m6T-pAZwb8.m4a
+Nov 09 14:51 : update: added yt/nourish/_-eAjs_qpEGuE.m4a
+Nov 09 14:51 : update: added yt/nourish/_-QrPyTNmEf_k.m4a
+Nov 09 14:51 : update: added yt/nourish/_-cQsu4nCckgU.m4a
+Nov 09 14:51 : update: added yt/allsonsanddaughters/ComeThouFount_AllSons&Daughters.m4a
+Nov 09 14:51 : update: added yt/kingdomhearts/OfficialVideogamesSoundtracksOST_KingdomHeartsIOST.m4a
+Nov 09 14:51 : update: added yt/kingdomhearts/ThornedKnight_KingdomHeartsIIIOST.m4a
+Nov 09 14:51 : update: added yt/kingdomhearts/Chirithy_KingdomHeartsIIOST.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/101-120/[Official Ver] 'Dream Spell' Autumn Rose _ AmaLee-X4rmZ9CXPw0.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/101-120/[Original] 'Monsters' single (AmaLee & VOXEL)-6in-5Q3OmNA.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/101-120/[Official Ver] 'Broken Machine' Shattered Heaven _ AmaLee-Tt1wjCgV6S8.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/101-120/[Official Ver] 'Intro + Main Theme' - Rival Threads _ AmaLee-JcnZK-TbQMs.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/101-120/Kill la Kill - 'Before My Body is Dry' (FULL) _ AmaLee ver-xUw-TRDSLUs.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/101-120/[Official Ver] 'Garden of Dreams' Anonymous Agony _ AmaLee-5znRL8eVKgI.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/101-120/Gundam Seed - 'Mizu no Akashi' _ ENGLISH ver _ AmaLee-K2aSaftTtFc.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/101-120/Escaflowne - 'Sora' - Sakamoto Ma'aya _ AmaLee Ver-dGYZCni_WQU.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/101-120/GANGSTA - 'Renegade' (FULL Opening) _  ENGLISH ver _ AmaLee-597HTCai29Q.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/101-120/Maleficent 'Once Upon A Dream' _ AmaLee ver-11sUD9wiWWE.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/001-020/Sword Art Online II - 'Ignite' (Opening) _ ENGLISH ver _ AmaLee-9qLJWh1eY_c.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/001-020/No Game No Life - 'This Game' (Opening) _ ENGLISH ver _ AmaLee-stlbq_w3zrY.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/001-020/Sword Art Online - 'Overfly' (Ending) _ ENGLISH ver _ AmaLee-rBXz0hO8C1g.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/001-020/Aldnoah.Zero - 'aLIEz' (FULL Ending) _ ENGLISH ver _ AmaLee-9G9CPZ8Zd7k.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/001-020/Guilty Crown - 'Departures' (Ending) _ ENGLISH ver _ AmaLee-bHtKt1xP6Oc.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/041-060/Tokyo Ghoul √A - 'Glassy Sky' (FULL) _ AmaLee ver-E-cvKiFf0n0.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/041-060/Attack on Titan - 'Reluctant Heroes' - Lullaby _ AmaLee ver-bOFhatyCEhQ.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/041-060/Parasyte - 'Let Me Hear' (FULL Opening) _ ENGLISH ver _ AmaLee-pAAmkocOGwY.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/041-060/Tokyo Mew Mew - 'My Sweet Heart' _ ENGLISH ver _ AmaLee-1ieSViv2zDM.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/041-060/Guilty Crown - 'My Dearest' (Opening) _ ENGLISH ver _ AmaLee-a-nauksf7sw.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/041-060/Naruto Shippuden - 'Lovers' (Opening) _ ENGLISH Ver _ AmaLee-4X1jZW9j66I.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/041-060/Kyary Pamyu Pamyu - 'PONPONPON' _ ENGLISH ver _ AmaLee-qe8BleTkZyA.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/041-060/Guilty Crown - 'Bios Delta' (βίος-δ) _ ENGLISH ver _ AmaLee-Om7J4cMpxU0.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/041-060/Aldnoah.Zero - 'Heavenly Blue' (Opening) _ ENGLISH ver _ AmaLee-onSjMeURIiA.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/041-060/K-ON!! - 'Listen!!' (Ending) _ ENGLISH ver _ AmaLee-gBiF8ULimE4.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/061-080/Free! Eternal Summer ED - 'FUTURE FISH' _ ENGLISH ver-9NXvXjg6U90.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/061-080/Haikyuu!! - 'Imagination' (FULL Opening) _ ENGLISH ver _ AmaLee-20qwhDOXpZg.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/081-100/Final Fantasy X - 'Suteki Da Ne' _ AmaLee Ver-0DzpfD17cdE.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/081-100/Macross - 'Do You Remember Love' _ ENGLISH ver _ AmaLee-AxODsKeC2ds.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/081-100/Vocaloid - 'ECHO' Crusher-P _ Gumi _ AmaLee & dj-Jo-p4e5reGtKJA.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/081-100/Macross Frontier - 'Aimo' - lullaby _ ENGLISH ver _ AmaLee-gAYEGms1JwU.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/081-100/Seraph of the End  - 'X.U.' (FULL Opening) _ AmaLee ver-F81uA7XZCDA.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/081-100/Persona 5 - 'Life Will Change' FULL _ AmaLee Ver-BQGRN0D1SDA.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/081-100/Vocaloid - 'Answer'  _ ENGLISH ver _ AmaLee-kbyl31Twz4Y.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/081-100/Kiznaiver - 'Lay Your Hands On Me' (FULL Opening) _ AmaLee ver-XPNSNVFuzQ4.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/021-040/Nana - 'A Little Pain' (FULL Ending) _ ENGLISH ver _ AmaLee-QsXVymwns64.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/021-040/Black Butler - 'Lacrimosa' (Ending) _ ENGLISH ver _ Annalie-UM-5__ASlWw.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/021-040/Vocaloid - 'Love is War' - lullaby _ ENGLISH ver _ AmaLee-lZr_Re6nr4Q.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/021-040/Madoka Magica - 'Magia' (Ending) _ ENGLISH ver _ AmaLee-b2Chwj5JEww.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/021-040/Angel Beats - 'Brave Song' (Ending) _ ENGLISH ver _ AmaLee-Pei0vzjvpRM.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/021-040/Sword Art Online - 'Yume Sekai' (Ending) _ ENGLISH ver _ AmaLee-lkzMXiIcc0g.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/021-040/Digimon - 'Butter-Fly' (Opening) _ ENGLISH ver _ AmaLee-a9jFnUJenzg.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/021-040/Angel Beats - 'My Song' _ ENGLISH ver _ AmaLee-B7nVPp1M3PI.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/021-040/Shakugan no Shana - 'Being' (Opening) _ ENGLISH ver _ AmaLee-ksg5nHYkqHA.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/021-040/Haruhi Suzumiya - 'God Knows' (FULL) _ ENGLISH ver _ AmaLee-Gz9cTIm6z4w.m4a
+Nov 09 14:51 : update: added yt/amalee/m4a/021-040/Vocaloid - 'Just Be Friends' _ ENGLISH ver _ AmaLee-XBR7y9rC5Fc.m4a
+Nov 09 14:51 : update: added yt/amalee/mp4/GuiltyCrown_BiosDelta.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/DNAngel_TrueLight.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/AngelBeats_MySong.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/Escaflowne_SoraSakamotoMaaya.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/GuiltyCrown_Departures.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/BlackButler_AokiTsukiMichite.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/AngelBeats_BraveSong.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/FullMetalPanic_SoreGaAiDeshou.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/SwordArtOnline_YumeSekai.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/HaruhiSuzumiya_GodKnows.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/AttackonTitan_ReluctantHeroesLullaby.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/TerraBattle2_HighSky.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/AttackonTitan_GurennoYumiyaLullaby.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/MermaidMelody_LegendofMermaid.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/Inuyasha_EyHeart&FukaiMoriMashup.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/AttackonTitan_WingsofFreedom.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/TokyoGhoul_UnravelFemale.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/GundamSeed_MizunoAkashi.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/ReZero_STYXHELIXMYTH&ROID.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/AttackonTitan_CallYourHeroesMedley.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/Tsubasa_ReservoirChronicleSynchronicity.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/KingdomHearts_LullabyMashup.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/SwordArtOnline_CrossingFieldAcoustic.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/RWBY_RedLikeRoses.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/FireEmblemFates_LostinThoughtsAllAlone.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/Nana_ALittlePain.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/hackSign_FakeWingsYukiKajiura.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/TokyoGhoul_GlassySky.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/Parasyte_LetMeHear.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/Clannad_DangoDaikazoku.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/Erased_ReRe&Medley.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/FireEmblem_TheEdgeOfDawn.mp3
+Nov 09 14:51 : update: added yt/amalee/mp4/SpiceandWolf_TabinoTochuu.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/SwordArtOnlineII_Startear.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/AyashinoCeres_Scarlet.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/FinalFantasyXIII_PromiseSerahsTheme.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/KabanerioftheIronFortress_Ninelie.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/ChobitsED2_NingyoHime.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/FullMoonwoSagashite_EternalSnow.mp4
+Nov 09 14:51 : update: added yt/amalee/mp4/AngelBeats_MySoulYourBeats.mp4
+Nov 09 14:51 : update: added yt/tenpers/Tenpers_CadenceOfHyrule.m4a
+Nov 09 14:51 : update: added yt/apalacheefalls/ApalacheeFalls_CountryRoads.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_YOOYONGSOO_10am.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_PianoShoegazerGhostlyLove.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_SoulituneMaturity.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_BENJAMINKEYSingingInTheRain.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_OmarAwayFromHere.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_WellCheeze.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_StayTuned_AreYouThere.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_BurbankASaint.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_SunYehoshuaHeartbreaker.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_AsokahIAlwaysSmileButMyEyesAreSad.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_KidInSeoul_TheMemoriesWeveSharedTheTimesSeveSpent.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_EdenByEdenNightcall.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_PotsuLovesick.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_Wofy_plan8.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_MRSJArrietty.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_BinBoyINeverWannaLeaveThisBed.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_SlipfuncCherrySmile.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_NawhijWithYou.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_IwamizuTheGirlFromFrance.m4a
+Nov 09 14:51 : update: added yt/mellowbeatseeker/MellowbeatSeeker_SweetWilliam_Walkin.m4a
+Nov 09 14:51 : update: added yt/timdeman/TimDeMan_DragonRoostIsland.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/NesbyPhips_WalkAlone.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/TheSeige_RightNow.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/AubreyJoseph_Numb.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/Wonkru_Facts.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/SidneySamson_Riverside.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/AlexisRenee_ToLoveSomebody.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/HotChip_Flutes.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/ZaydeWolf_Shout.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/Cinephile_Medusa.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/Geoffroy_RaisedByWolves.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/KinPalo_Twisted.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/GracePotterAndTheNocturnals_TheLionTheBeastTheBeat.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/JoannaHaleMcGill_HymntoStBrigid.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/Moirai'sChoir_DelhiadeFrance.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/WAR+HALL_AllThisPower.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/MartenHorger_SoHigh.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/Thutmose_StillIRise.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/NajeeThe1_Supernova.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/KatieGarfield_IKnowYourSecrets.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/Ayelle_Reclaim.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/HarryAndJeanieWest_SweetByeAndBye.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/GaliaArad_BabyOneMoreTime.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/JohnnyCash_InTheSweetByeAndBye.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/TheAcid_BasicInstinct.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/TheRevivalists_OhNo.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/TommeeProfitt_CanYouFeelTheHeatNow.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/Bohnes_12Rounds.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/Marmozets_LostInTranslation.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/LeopardSkinnies_Rise.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/BOGA_BlackHeart.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/RunforYourLife_TheSeige.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/StyloBeddoe_LastOnesLeft.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season2/LuxVeritas_VoicesInTheWater.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/Cathedrals_Harlem.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/TommeeProfitt_TurnsYouIntoStone.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/Fleurie_Breathe.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/LucienParker_Impossible.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/Mansionair_Easier.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/Ruelle_SecretsAndLies.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/AmpLive_FlightInGMinor.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/DJHollygrove_CreepUpOnEm.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/Various_SonsAndDaughters.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/JaiWolf_Starlight.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/MassiveAttack_VoodooInMyBlood.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/PortugalTheMan_RichFriends.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/DOE_WeAre.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/BarnsCourtney_Hellfire.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/BishopBriggs_DarkSide.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/DamnyAndMCJusto_FirstClassFly.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/Overcoats_LeaveTheLightOn.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/SAYWUT_RUReady.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/Bea Miller_ToTheGrave.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/IsakDanielson_Ending.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/CAMPFIRE_Demons.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/SiobhanSainte_BurnItDown.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/MILCK_Quiet.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/NevelleViracocha_DIRRTYGAME.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/CandaceColesAndDarienDorsey_BreakinTheRules.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/Thutmose_RunWild.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/7kingZ_BornForThis.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/LeoIslo_LushLife.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/NDIDIO_NoMercy .m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/EllieGoulding_DeadInTheWater.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/AlexDaKid_AmericanFuneral.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/Morgxn_Home.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/OliviaHolt_ComeSailAway.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/ThePhantoms_GetWhatICameFor.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/LouisMattrs_FearInMe.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/Vonavi_FeelTheEmbrace.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/TheKinks_Sleepwalker.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/Kngdavd_YouNeverKnow.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/EricClapton_GoodNightIrene.m4a
+Nov 09 14:51 : update: added yt/cloakanddagger/season1/EmparaMi_Wanderlust.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-13_KakarikoVillage_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-12_HyruleField_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/2-09_Intermezzo_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-08_LightSpirit'sMessage_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-06_Midna_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/2-08_SacredGrove_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-09_FaronWoods_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/2-05_KingofShadows_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-10_OokandtheBoomerang_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/2-04_Ralis,PrinceoftheZoras_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-07_HyruleCastleOvertaken_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-04_OrdonRanch_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-17_HistoryofLightandShadow_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-15_DeathMountain_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-11_TwilitParasite,Diababa_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-01_Overture_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/2-03_Rutela'sWish_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/2-02_HyruleCastleTown_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/2-06_Midna'sLament_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-14_Colin'sKidnappingandtheBattleofEldinBridge_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/2-10_HyruleFieldatNight_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-02_BackfromtheSpring_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-03_OrdonVillage_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-16_GoronGuardianDangoro_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/2-07_PrincessZelda_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/2-11_WaltzoftheBugs_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/1-05_IntotheTwilight_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/zeldareorchestrated/2-01_LakeHylia_TwilightSymphony.m4a
+Nov 09 14:51 : update: added yt/theishter/SwordArtOnlineOST_InYourPast_ATenderFeeling.m4a
+Nov 09 14:51 : update: added yt/theishter/BokuranoOP_Uninstall.m4a
+Nov 09 14:51 : update: added yt/theishter/OnePunchManOST_MainTheme.m4a
+Nov 09 14:51 : update: added yt/theishter/FateApocryphaOPFULL_EiyuuUnmeinoUta.m4a
+Nov 09 14:51 : update: added yt/theishter/Yuri!!!OnICEOP_HistoryMaker.m4a
+Nov 09 14:51 : update: added yt/theishter/GuiltyCrownOP_MyDearest(fullversion).m4a
+Nov 09 14:51 : update: added yt/theishter/Yuri!!!onIceOST_YurionIce.m4a
+Nov 09 14:51 : update: added yt/theishter/HaitoGensounoGrimgarOP_KnewDay.m4a
+Nov 09 14:51 : update: added yt/theishter/KiminonawaOST_Nandemonaiya(Mitsuha'sversion).m4a
+Nov 09 14:51 : update: added yt/theishter/ReZerokaraHajimeruIsekaiSeikatsuED_STYXHELIX.m4a
+Nov 09 14:51 : update: added yt/theishter/BokuDakegaInaiMachiED_SorewaChiisanaHikarinoYouna(ERASEDED).m4a
+Nov 09 14:51 : update: added yt/theishter/ShakugannoShanaOP1_HishokunoSora(PianoDuetft.Fantasiex3).m4a
+Nov 09 14:51 : update: added yt/theishter/OnePunchManOP_THEHERO!!.m4a
+Nov 09 14:51 : update: added yt/theishter/KoenoKatachiOST_Lit.m4a
+Nov 09 14:51 : update: added yt/theishter/GuiltyCrownOST_Krone.m4a
+Nov 09 14:51 : update: added yt/theishter/ShigatsuwaKiminoUsoOP_HikaruNara.m4a
+Nov 09 14:51 : update: added yt/theishter/KabanerioftheIronFortressOP_KabanerioftheIronFortress.m4a
+Nov 09 14:51 : update: added yt/theishter/AttackonTitanOP_GurennoYumiya.m4a
+Nov 09 14:51 : update: added yt/theishter/BokunoPicoOP_KoiwoShiyouyo.m4a
+Nov 09 14:51 : update: added yt/theishter/Yuri!!!onIceOST_ThemeofKingJJ.m4a
+Nov 09 14:51 : update: added yt/theishter/ReZeroOST_Wishing.m4a
+Nov 09 14:51 : update: added yt/theishter/ReZeroOST_ElegyForRem.m4a
+Nov 09 14:51 : update: added yt/theishter/KiminonawaOST_KatawareDoki(Piano).m4a
+Nov 09 14:51 : update: added yt/theishter/Shelter_PorterRobinsonandMadeon(piano).m4a
+Nov 09 14:51 : update: added yt/theishter/YourLieinAprilOST_Again.m4a
+Nov 09 14:51 : update: added yt/theishter/BlueExorcistSeason2OP_IttekinoEikyou.m4a
+Nov 09 14:51 : update: added yt/theishter/ShigatsuwaKiminoUso(YourLieinApril)OST_WatashinoUso.m4a
+Nov 09 14:51 : update: added yt/theishter/AttackonTitanSeason2OP_ShinzouwoSasageyo!.m4a
+Nov 09 14:51 : update: added yt/theishter/VioletEvergardenOST_SoundtrackTheme.m4a
+Nov 09 14:51 : update: added yt/theishter/ShokugekinoSomaOP1_KibounoUta.m4a
+Nov 09 14:51 : update: added yt/theishter/ReZeroED2_STAYALIVE[REMISTHEBESTGIRLINANIMEHISTORY].m4a
+Nov 09 14:51 : update: added yt/theishter/KiminonawaOST_ZenZenZense.m4a
+Nov 09 14:51 : update: added yt/theishter/ReZeroOP2_ParadisusParadoxum.m4a
+Nov 09 14:51 : update: added yt/theishter/BokuDakegaInaiMachiOST_ERASEDSoundtrack.m4a
+Nov 09 14:51 : update: added yt/theishter/FinalFantasyXVOST_MainTheme(Somnus)ft.xclassicalcatx.m4a
+Nov 09 14:51 : update: added yt/theishter/LoveLive!_SnowHalation.m4a
+Nov 09 14:51 : update: added yt/theishter/HaitoGensounoGrimgarED_Harvest.m4a
+Nov 09 14:51 : update: added yt/theishter/AngelBeatsED_BraveSong.m4a
+Nov 09 14:51 : update: added yt/theishter/ReZerokaraHajimeruIsekaiSeikatsuOP_REDO.m4a
+Nov 09 14:51 : update: added yt/theishter/KabanerioftheIronFortressED_Ninelie.m4a
+Nov 09 14:51 : update: added yt/theishter/YouCanBecomeAHero!_BokunoHeroAcademiaOST(Piano).m4a
+Nov 09 14:51 : update: added yt/theishter/EromangaSenseiOP_Hitorigoto(Piano).m4a
+Nov 09 14:51 : update: added yt/theishter/BokuDakegaInaiMachiOP_ReRe(ERASEDOP).m4a
+Nov 09 14:51 : update: added yt/theishter/BokunoHeroAcademiaSeason2OP_PeaceSign.m4a
+Nov 09 14:51 : update: added yt/theishter/KOn!_ThemeSong.m4a
+Nov 09 14:51 : update: added yt/theishter/KiminonawaOST_Sparkle(piano).m4a
+Nov 09 14:51 : update: added yt/theishter/MusaigennoPhantomWorldOP_NAKEDDIVE.m4a
+Nov 09 14:51 : update: added yt/theishter/TokyoGhoulOP–Unravel(Acoustic)_mpkVCBqDSU0.m4a
+Nov 09 14:51 : update: added yt/theishter/BokunoHeroAcademiaOP_THEDAY.m4a
+Nov 09 14:51 : update: added yt/tantrisost/TantrisOST_TwilightPrincessSoundtrack.m4a
+Nov 09 14:51 : update: added yt/elisetrouw/EliseTrouw_LineofSight.m4a
+Nov 09 14:51 : update: added yt/elisetrouw/TheGirlfromIpanema_StanGetz&AstrudGilberto(coverbyElise).m4a
+Nov 09 14:51 : update: added yt/elisetrouw/EliseTrouw_Burn(OfficialMusicVideo).m4a
+Nov 09 14:51 : update: added yt/elisetrouw/HitlikeaGirlContest_2015Finalist.m4a
+Nov 09 14:51 : update: added yt/elisetrouw/EliseTrouw_Unraveling(OfficialMusicVideo).m4a
+Nov 09 14:51 : update: added yt/elisetrouw/RadioheadMeetsThePolice_LiveLoopingMashupbyEliseTrouw.m4a
+Nov 09 14:51 : update: added yt/elisetrouw/Awake(pianoversion)_EliseTrouw.m4a
+Nov 09 14:51 : update: added yt/elisetrouw/EliseTrouw_Burn.m4a
+Nov 09 14:51 : update: added yt/elisetrouw/DrumSolo_(ElectronicMIDIGroove).m4a
+Nov 09 14:51 : update: added yt/elisetrouw/EliseTrouw_Awake(OfficialMusicVideo).m4a
+Nov 09 14:51 : update: added yt/elisetrouw/DrumSolo_(MIDIFunkGroove).m4a
+Nov 09 14:51 : update: added yt/elisetrouw/FooFightersMeets70'sBobbyCaldwell_LiveLoopingMashupbyEliseTrouw.m4a
+Nov 09 14:51 : update: added yt/elisetrouw/AskMeAnything_Interview.m4a
+Nov 09 14:51 : update: added yt/elisetrouw/Unraveling_EliseTrouw(live).m4a
+Nov 09 14:51 : update: added yt/chmusicchannel/ChMusicChannel_Rain.m4a
+Nov 09 14:51 : update: added recordings/New recording (20190520212810).wav
+Nov 09 14:51 : update: added recordings/New recording (20190520212725).wav
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/21 Recollection and Regret.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/30 Between Heaven and Earth.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/17 Unfulfilled.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/06 Life at Garreg Mach Monastery.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/13 Tearing Through Heaven.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/20 Scales of the Goddess.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/07 Dwellings of the Ancient Gods.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/32 A Place to Rest.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/23 The Leader's Path.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/01 Fire Emblem_ Three Houses Main Theme.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/25 Golden Deer and Crescent Moon.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/10 Blue Skies and a Battle.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/15 Roar of Dominion.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/04 The Archbishop.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/19 Three Crowns.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/02 Fódlan Winds.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/09 Beneath the Banner.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/27 Shambhala (Area 17 Redux).mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/22 Song of the Nabateans.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/24 The King of Lions.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/26 Javelin of Light.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/11 The Night of the Ball.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/14 Gazing at Sirius.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/03 The Land Beloved by the Goddess.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/08 A Promise.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/05 The Officers Academy.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/18 Chasing Daybreak.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/28 The Curse.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/31 Wailing.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/29 Rematch.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/12 Awakening.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/16 Descent.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem Three Houses - Lady of Hresvelg/03 Fallin'.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem Three Houses - Lady of Hresvelg/02 Lady of Hresvelg.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem Three Houses - Lady of Hresvelg/04 Rewind.mp3
+Nov 09 14:51 : update: added cdrom/edelgard/Fire Emblem Three Houses - Lady of Hresvelg/01 Lady of Hresvelg ~Three Houses~.mp3
+Nov 09 14:51 : update: added cdrom/mree/themiddle/Mree04_WhenYouComeHome.mp3
+Nov 09 14:51 : update: added cdrom/mree/themiddle/Mree05_LikeaRiver.mp3
+Nov 09 14:51 : update: added cdrom/mree/themiddle/Mree03_Kiki'sSong.mp3
+Nov 09 14:51 : update: added cdrom/mree/themiddle/Mree02_TheMiddle.mp3
+Nov 09 14:51 : update: added cdrom/mree/themiddle/Mree01_IntheKitchen.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee02_SilhouetteNarutoShippuden.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee03_SamuraiHeartGintama.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee12_FlyHighHaikyuu.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee04_SevenDeadlySinsSevenDeadlySins.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee05_GoldenTimeLoverFullMetalAlchemistBrotherhood.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee07_ResonanceSoulEater.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee10_MasayumeChasingFairyTail.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee01_ColorsCodeGeass.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee08_SayonaraMemoryNarutoShippuden.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee11_RainFullMetalAlchemistBrotherhood.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee06_BelieveInMyselfFairyTail.mp3
+Nov 09 14:51 : update: added cdrom/amalee/nostalgiaV/AmaLee09_LetItOutFullMetalAlchemist.mp3
+Nov 09 14:51 : update: added cdrom/amalee/hourglass/AmaLee05_StarsAlign.mp3
+Nov 09 14:51 : update: added cdrom/amalee/hourglass/AmaLee04_ShallWeDance.mp3
+Nov 09 14:51 : update: added cdrom/amalee/hourglass/AmaLee03_Shatter.mp3
+Nov 09 14:51 : update: added cdrom/amalee/hourglass/AmaLee02_Escape.mp3
+Nov 09 14:51 : update: added cdrom/amalee/hourglass/AmaLee01_Hourglass.mp3
+Nov 09 14:51 : update: added cdrom/amalee/patreondownloads/Shikisai (AmaLee).mp3
+Nov 09 14:51 : update: added cdrom/amalee/patreondownloads/Connect_AmaLee.mp3
+Nov 09 14:51 : update: added cdrom/amalee/patreondownloads/Monster Without A Name (AmaLee).mp3
+Nov 09 14:51 : update: added cdrom/amalee/patreondownloads/SnowFairy (AmaLee).mp3
+Nov 09 14:51 : update: added cdrom/amalee/patreondownloads/Again Fruits Basket (AmaLee).mp3
+Nov 09 14:51 : update: added cdrom/amalee/patreondownloads/The Edge of Dawn (AmaLee).mp3
+Nov 09 14:51 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis10_AllAlong.mp3
+Nov 09 14:51 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis09_Souvenirs.mp3
+Nov 09 14:51 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis04_Birdsong.mp3
+Nov 09 14:51 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis06_ForNow.mp3
+Nov 09 14:51 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis07_Lonesome.mp3
+Nov 09 14:51 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis08_Beth.mp3
+Nov 09 14:51 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis05_California.mp3
+Nov 09 14:51 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis02_History.mp3
+Nov 09 14:51 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis01_WhenWillILearn.mp3
+Nov 09 14:51 : update: added cdrom/kinagrannis/inthewaiting/KinaGrannis03_IntheWaiting.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野01_給抱著盒子的姑娘.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野04_董小姐.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野09_卡比巴拉的海.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野03_鴿子.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野10_連衣裙.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野08_關憶北.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野05_斑馬，斑馬.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野02_莉莉安.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野12_Intro.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野11_安和橋.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野07_六層樓.mp3
+Nov 09 14:51 : update: added cdrom/宋冬野_安和橋北(Song Dong Noyasu and Bridge north)/宋冬野06_夢遺少年.mp3
+Nov 09 14:51 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice03_TheWindow.mp3
+Nov 09 14:51 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice08_StayWithMe.mp3
+Nov 09 14:51 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice09_DeathFromAbove.mp3
+Nov 09 14:51 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice10_Whistleblower.mp3
+Nov 09 14:51 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice04_WakeUp.mp3
+Nov 09 14:51 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice02_BloodInTheSand.mp3
+Nov 09 14:51 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice11_SaltAndShadow.mp3
+Nov 09 14:51 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice07_BlackHoney.mp3
+Nov 09 14:51 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice06_Seneca.mp3
+Nov 09 14:51 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice01_Hurricane.mp3
+Nov 09 14:51 : update: added cdrom/thrice/tobeeverywhereistobenowhere/Thrice05_TheLongDefeat.mp3
+Nov 09 14:51 : update: added cpusounds/freedesktop/bell.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/power-unplug.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/camera-shutter.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/alarm-clock-elapsed.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/window-question.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/window-attention.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/phone-outgoing-busy.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/network-connectivity-established.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/screen-capture.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/message.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/device-added.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/power-plug.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/trash-empty.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/device-removed.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/message-new-instant.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/network-connectivity-lost.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/phone-outgoing-calling.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/dialog-warning.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/dialog-error.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/service-logout.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/complete.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/suspend-error.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/dialog-information.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/phone-incoming-call.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/audio-volume-change.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/service-login.oga
+Nov 09 14:51 : update: added cpusounds/freedesktop/audio-test-signal.oga
+Nov 09 14:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 14:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 14:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 14:52 : client: [2] closed
+Nov 09 14:52 : client: [3] opened from 127.0.0.1:51452
+Nov 09 15:23 : client: [3] closed
+Nov 09 15:24 : player: played "yt/nintendoandchill/NintendoAndChill_nintendoadlofi3.m4a"
+Nov 09 15:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 15:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 15:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 15:29 : client: [0] opened from 127.0.0.1:59752
+Nov 09 20:30 : client: [1] opened from 127.0.0.1:33000
+Nov 09 20:31 : client: [1] closed
+Nov 09 20:39 : client: [2] opened from 127.0.0.1:33112
+Nov 09 20:40 : client: [2] closed
+Nov 10 02:26 : client: [3] opened from 127.0.0.1:36508
+Nov 10 02:27 : client: [3] closed
+Nov 10 14:21 : client: [4] opened from 127.0.0.1:38996
+Nov 10 14:22 : client: [4] closed
+Nov 10 14:30 : client: [5] opened from 127.0.0.1:39220
+Nov 10 14:31 : client: [5] closed
+Nov 10 14:37 : client: [6] opened from 127.0.0.1:39610
+Nov 10 14:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 14:41 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Nov 10 15:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Nov 10 15:06 : player: played "yt/nintendoandchill/NintendoAndChill_nintendoadlofi3.m4a"
+Nov 10 15:09 : player: played "yt/mellowbeatseeker/MellowbeatSeeker_IwamizuTheGirlFromFrance.m4a"
+Nov 10 15:13 : player: played "yt/chilledcow/ChilledCow_KalaidoHangingLanterns.m4a"
+Nov 10 15:19 : player: played "yt/theishter/KabanerioftheIronFortressED_Ninelie.m4a"
+Nov 10 15:24 : player: played "yt/theishter/KiminonawaOST_ZenZenZense.m4a"
+Nov 10 15:27 : player: played "yt/theishter/KabanerioftheIronFortressOP_KabanerioftheIronFortress.m4a"
+Nov 10 15:30 : player: played "yt/theishter/LoveLive!_SnowHalation.m4a"
+Nov 10 15:31 : player: played "yt/lofihiphop/LofiHipHop_SoulituneIntimacy.m4a"
+Nov 10 15:35 : player: played "yt/animevibe/AnimeVibe_SettonHighSchoolLove.m4a"
+Nov 10 15:37 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Nov 10 15:37 : player: played "yt/theishter/EromangaSenseiOP_Hitorigoto(Piano).m4a"
+Nov 10 15:40 : player: played "yt/chilledcow/ChilledCow_JoakimKarudDreams.m4a"
+Nov 10 15:42 : player: played "yt/mellowbeatseeker/MellowbeatSeeker_BurbankASaint.m4a"
+Nov 10 15:45 : player: played "yt/mellowbeatseeker/MellowbeatSeeker_Wofy_plan8.m4a"
+Nov 10 15:50 : player: played "yt/theishter/ShigatsuwaKiminoUsoOP_HikaruNara.m4a"
+Nov 10 15:52 : player: played "yt/mellowbeatseeker/MellowbeatSeeker_EdenByEdenNightcall.m4a"
+Nov 10 16:38 : player: played "yt/nintendoandchill/NintendoAndChill_nintendoadlofi1.m4a"
+Nov 10 18:45 : exception: Failed to play on "pulse audio" (pulse): suspended
+Nov 10 19:10 : client: [7] opened from 127.0.0.1:40246
+Nov 10 19:10 : client: [7] closed
+Nov 10 19:24 : client: [8] opened from 127.0.0.1:40880
+Nov 10 19:25 : client: [8] closed
+Nov 10 21:09 : client: [6] closed
+Nov 10 21:10 : player: played "yt/synth/Synth_AtCafe.m4a"
+Nov 10 21:12 : player: played "yt/theishter/BokuDakegaInaiMachiOP_ReRe(ERASEDOP).m4a"
+Nov 10 21:16 : player: played "yt/theishter/ShokugekinoSomaOP1_KibounoUta.m4a"
+Nov 10 21:19 : player: played "yt/mellowbeatseeker/MellowbeatSeeker_OmarAwayFromHere.m4a"
+Nov 10 21:23 : player: played "yt/theishter/ReZeroOP2_ParadisusParadoxum.m4a"
+Nov 10 21:25 : player: played "yt/chilledcow/ChilledCow_ArtesiaHer.m4a"
+Nov 10 21:26 : player: played "yt/theishter/HaitoGensounoGrimgarOP_KnewDay.m4a"
+Nov 10 21:29 : player: played "yt/chilledcow/ChilledCow_SteezyPrimeExplore.m4a"
+Nov 10 21:33 : player: played "yt/theishter/ShigatsuwaKiminoUso(YourLieinApril)OST_WatashinoUso.m4a"
+Nov 10 21:34 : client: [9] opened from 127.0.0.1:44618
+Nov 10 21:34 : client: [9] closed
+Nov 10 21:37 : client: [10] opened from 127.0.0.1:44812
+Nov 10 21:37 : client: [10] closed
+Nov 10 21:37 : player: played "yt/chilledcow/ChilledCow_SugiwaRememberMe.m4a"
+Nov 10 22:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 22:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 22:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 22:27 : client: [0] opened from 127.0.0.1:37864
+Nov 10 22:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 22:27 : client: [0] closed
+Nov 10 22:28 : player: played "yt/chilledcow/ChilledCow_SugiwaRememberMe.m4a"
+Nov 10 22:28 : client: [1] opened from 127.0.0.1:37874
+Nov 10 22:30 : player: played "yt/chilledcow/ChilledCow_BLVKUnderTheTrees.m4a"
+Nov 10 22:30 : client: [1] closed
+Nov 10 22:32 : player: played "yt/theishter/BokunoHeroAcademiaOP_THEDAY.m4a"
+Nov 10 23:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 23:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 23:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 23:09 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 10 23:09 : client: [0] opened from 127.0.0.1:39304
+Nov 10 23:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 23:11 : player: played "yt/theishter/BokunoHeroAcademiaOP_THEDAY.m4a"
+Nov 10 23:13 : player: played "yt/chilledcow/ChilledCow_NeoplasmaThinkingAboutYou.m4a"
+Nov 10 23:16 : player: played "yt/theishter/FinalFantasyXVOST_MainTheme(Somnus)ft.xclassicalcatx.m4a"
+Nov 10 23:18 : client: [0] closed
+Nov 10 23:18 : client: [1] opened from 127.0.0.1:39456
+Nov 10 23:29 : client: [1] closed
+Nov 10 23:29 : client: [2] opened from 127.0.0.1:39632
+Nov 10 23:29 : player: played "yt/chillplace/ChillPlace_ZeldaAndLofi.m4a"
+Nov 10 23:32 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/16 Descent.mp3"
+Nov 10 23:35 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/06 Life at Garreg Mach Monastery.mp3"
+Nov 10 23:37 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/11 The Night of the Ball.mp3"
+Nov 10 23:40 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/02 Fódlan Winds.mp3"
+Nov 10 23:42 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/20 Scales of the Goddess.mp3"
+Nov 10 23:44 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/05 The Officers Academy.mp3"
+Nov 10 23:46 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/32 A Place to Rest.mp3"
+Nov 10 23:48 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/09 Beneath the Banner.mp3"
+Nov 10 23:53 : player: played "cdrom/edelgard/Fire Emblem Three Houses - Lady of Hresvelg/03 Fallin'.mp3"
+Nov 10 23:54 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/31 Wailing.mp3"
+Nov 10 23:57 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/14 Gazing at Sirius.mp3"
+Nov 10 23:59 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/19 Three Crowns.mp3"
+Nov 11 00:02 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/15 Roar of Dominion.mp3"
+Nov 11 00:03 : player: played "cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/26 Javelin of Light.mp3"
+Nov 11 00:08 : player: played "cdrom/edelgard/Fire Emblem Three Houses - Lady of Hresvelg/01 Lady of Hresvelg ~Three Houses~.mp3"
+Nov 11 00:13 : player: played "cdrom/edelgard/Fire Emblem Three Houses - Lady of Hresvelg/02 Lady of Hresvelg.mp3"
+Nov 11 22:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 11 22:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 11 22:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 11 23:02 : client: [0] opened from 127.0.0.1:33390
+Nov 11 23:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 11 23:03 : player: played "yt/cloakanddagger/season1/7kingZ_BornForThis.m4a"
+Nov 11 23:06 : player: played "yt/cloakanddagger/season1/7kingZ_BornForThis.m4a"
+Nov 11 23:09 : player: played "yt/cloakanddagger/season1/Overcoats_LeaveTheLightOn.m4a"
+Nov 11 23:09 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 11 23:09 : avahi: Client Disconnected, will reconnect shortly
+Nov 11 23:09 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 11 23:13 : player: played "yt/cloakanddagger/season1/Bea Miller_ToTheGrave.m4a"
+Nov 11 23:15 : player: played "yt/cloakanddagger/season1/EmparaMi_Wanderlust.m4a"
+Nov 11 23:16 : client: [1] opened from 127.0.0.1:34446
+Nov 11 23:16 : client: [1] closed
+Nov 11 23:20 : player: played "yt/cloakanddagger/season1/Kngdavd_YouNeverKnow.m4a"
+Nov 11 23:22 : player: played "yt/cloakanddagger/season2/HarryAndJeanieWest_SweetByeAndBye.m4a"
+Nov 11 23:27 : player: played "yt/cloakanddagger/season1/EllieGoulding_DeadInTheWater.m4a"
+Nov 11 23:29 : client: [2] opened from 127.0.0.1:36278
+Nov 11 23:29 : client: [2] closed
+Nov 11 23:29 : client: [3] opened from 127.0.0.1:36356
+Nov 11 23:29 : client: [3] closed
+Nov 11 23:32 : player: played "yt/cloakanddagger/season1/MILCK_Quiet.m4a"
+Nov 11 23:35 : player: played "yt/cloakanddagger/season1/NevelleViracocha_DIRRTYGAME.m4a"
+Nov 11 23:41 : player: played "yt/cloakanddagger/season2/GracePotterAndTheNocturnals_TheLionTheBeastTheBeat.m4a"
+Nov 12 02:50 : client: [4] opened from 127.0.0.1:42470
+Nov 12 02:50 : client: [4] closed
+Nov 12 02:50 : client: [5] opened from 127.0.0.1:42474
+Nov 12 02:50 : client: [5] closed
+Nov 12 10:47 : client: [6] opened from 127.0.0.1:42478
+Nov 12 10:47 : client: [6] closed
+Nov 12 10:47 : client: [7] opened from 127.0.0.1:42482
+Nov 12 10:47 : client: [7] closed
+Nov 12 11:54 : client: [8] opened from 127.0.0.1:43362
+Nov 12 11:54 : client: [8] closed
+Nov 12 11:54 : client: [9] opened from 127.0.0.1:43366
+Nov 12 11:54 : client: [9] closed
+Nov 12 19:22 : client: [10] opened from 127.0.0.1:43370
+Nov 12 19:22 : client: [10] closed
+Nov 12 19:22 : client: [11] opened from 127.0.0.1:43374
+Nov 12 19:22 : client: [11] closed
+Nov 12 22:00 : client: [12] opened from 127.0.0.1:45820
+Nov 12 22:01 : client: [12] closed
+Nov 13 00:22 : client: [13] opened from 127.0.0.1:48556
+Nov 13 00:22 : client: [13] closed
+Nov 13 00:22 : client: [14] opened from 127.0.0.1:48560
+Nov 13 00:22 : client: [14] closed
+Nov 13 10:56 : client: [15] opened from 127.0.0.1:48564
+Nov 13 10:56 : client: [15] closed
+Nov 13 10:56 : client: [16] opened from 127.0.0.1:48568
+Nov 13 10:56 : client: [16] closed
+Nov 13 11:00 : client: [0] closed
+Nov 13 11:56 : client: [17] opened from 127.0.0.1:51492
+Nov 13 11:56 : client: [17] closed
+Nov 13 11:56 : client: [18] opened from 127.0.0.1:51496
+Nov 13 11:56 : client: [18] closed
+Nov 13 19:27 : client: [19] opened from 127.0.0.1:51500
+Nov 13 19:27 : client: [19] closed
+Nov 13 19:27 : client: [20] opened from 127.0.0.1:51504
+Nov 13 19:27 : client: [20] closed
+Nov 13 19:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 19:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 19:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 19:30 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 13 19:31 : client: [0] opened from 127.0.0.1:48650
+Nov 13 19:31 : client: [0] closed
+Nov 13 19:31 : client: [1] opened from 127.0.0.1:48654
+Nov 13 19:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 19:32 : client: [2] opened from 127.0.0.1:48900
+Nov 13 19:32 : client: [2] closed
+Nov 13 19:32 : client: [3] opened from 127.0.0.1:48906
+Nov 13 19:32 : client: [3] closed
+Nov 13 19:32 : client: [4] opened from 127.0.0.1:48910
+Nov 13 19:32 : client: [4] closed
+Nov 13 20:18 : player: played "yt/cloakanddagger/season2/ZaydeWolf_Shout.m4a"
+Nov 13 20:21 : player: played "yt/theishter/LoveLive!_SnowHalation.m4a"
+Nov 13 20:25 : player: played "yt/chilledcow/ChilledCow_KalaidoHangingLanterns.m4a"
+Nov 13 20:30 : player: played "yt/cloakanddagger/season1/Ruelle_SecretsAndLies.m4a"
+Nov 13 20:33 : player: played "yt/cloakanddagger/season2/Thutmose_StillIRise.m4a"
+Nov 13 20:36 : player: played "yt/cloakanddagger/season2/Wonkru_Facts.m4a"
+Nov 13 20:38 : player: played "yt/theishter/BokunoHeroAcademiaOP_THEDAY.m4a"
+Nov 13 20:42 : player: played "yt/cloakanddagger/season1/EricClapton_GoodNightIrene.m4a"
+Nov 13 20:46 : player: played "yt/cloakanddagger/season2/TommeeProfitt_CanYouFeelTheHeatNow.m4a"
+Nov 13 20:48 : player: played "yt/mellowbeatseeker/MellowbeatSeeker_SunYehoshuaHeartbreaker.m4a"
+Nov 13 20:52 : player: played "yt/cloakanddagger/season1/Bea Miller_ToTheGrave.m4a"
+Nov 13 20:58 : player: played "yt/cloakanddagger/season1/OliviaHolt_ComeSailAway.m4a"
+Nov 13 21:01 : player: played "yt/theishter/YouCanBecomeAHero!_BokunoHeroAcademiaOST(Piano).m4a"
+Nov 13 21:02 : client: [5] opened from 127.0.0.1:52100
+Nov 13 21:02 : client: [5] closed
+Nov 14 02:17 : client: [1] closed
+Nov 14 02:17 : client: [6] opened from 127.0.0.1:57752
+Nov 14 02:17 : client: [6] closed
+Nov 14 02:17 : client: [7] opened from 127.0.0.1:57756
+Nov 14 02:17 : client: [7] closed
+Nov 14 11:18 : client: [8] opened from 127.0.0.1:57760
+Nov 14 11:18 : client: [8] closed
+Nov 14 11:18 : client: [9] opened from 127.0.0.1:57764
+Nov 14 11:18 : client: [9] closed
+Nov 14 11:21 : client: [10] opened from 127.0.0.1:57842
+Nov 14 11:32 : client: [11] opened from 127.0.0.1:57924
+Nov 14 11:32 : client: [11] closed
+Nov 14 11:32 : client: [12] opened from 127.0.0.1:57928
+Nov 14 11:32 : client: [12] closed
+Nov 14 21:16 : client: [13] opened from 127.0.0.1:57932
+Nov 14 21:16 : client: [13] closed
+Nov 14 21:16 : client: [14] opened from 127.0.0.1:57936
+Nov 14 21:16 : client: [14] closed
+Nov 14 22:14 : client: [15] opened from 127.0.0.1:59792
+Nov 14 22:14 : client: [15] closed
+Nov 14 22:15 : player: played "yt/theishter/BokuDakegaInaiMachiOST_ERASEDSoundtrack.m4a"
+Nov 14 22:17 : player: played "yt/cloakanddagger/season2/NesbyPhips_WalkAlone.m4a"
+Nov 14 22:19 : player: played "yt/cloakanddagger/season2/LeopardSkinnies_Rise.m4a"
+Nov 14 22:20 : client: [16] opened from 127.0.0.1:59966
+Nov 14 22:20 : client: [16] closed
+Nov 14 22:22 : player: played "yt/theishter/FinalFantasyXVOST_MainTheme(Somnus)ft.xclassicalcatx.m4a"
+Nov 14 22:23 : client: [17] opened from 127.0.0.1:60130
+Nov 14 22:23 : client: [17] closed
+Nov 14 22:25 : player: played "yt/cloakanddagger/season2/KinPalo_Twisted.m4a"
+Nov 14 22:30 : player: played "yt/cloakanddagger/season1/Cathedrals_Harlem.m4a"
+Nov 14 22:32 : player: played "yt/mellowbeatseeker/MellowbeatSeeker_PotsuLovesick.m4a"
+Nov 14 22:34 : player: played "yt/theishter/EromangaSenseiOP_Hitorigoto(Piano).m4a"
+Nov 14 22:37 : player: played "yt/cloakanddagger/season1/AlexDaKid_AmericanFuneral.m4a"
+Nov 14 22:40 : player: played "yt/cloakanddagger/season1/PortugalTheMan_RichFriends.m4a"
+Nov 14 22:44 : player: played "yt/cloakanddagger/season2/WAR+HALL_AllThisPower.m4a"
+Nov 14 22:49 : player: played "yt/theishter/OnePunchManOP_THEHERO!!.m4a"
+Nov 14 22:51 : player: played "yt/cloakanddagger/season2/NajeeThe1_Supernova.m4a"
+Nov 14 22:57 : player: played "yt/theishter/BlueExorcistSeason2OP_IttekinoEikyou.m4a"
+Nov 14 22:59 : player: played "yt/theishter/BokunoPicoOP_KoiwoShiyouyo.m4a"
+Nov 14 23:02 : player: played "yt/mellowbeatseeker/MellowbeatSeeker_SlipfuncCherrySmile.m4a"
+Nov 14 23:06 : player: played "yt/theishter/Yuri!!!onIceOST_YurionIce.m4a"
+Nov 14 23:09 : player: played "yt/cloakanddagger/season1/Overcoats_LeaveTheLightOn.m4a"
+Nov 14 23:11 : player: played "yt/cloakanddagger/season1/EmparaMi_Wanderlust.m4a"
+Nov 14 23:14 : client: [18] opened from 127.0.0.1:33610
+Nov 14 23:14 : client: [18] closed
+Nov 14 23:49 : client: [10] closed
+Nov 14 23:49 : player: played "yt/theishter/AttackonTitanOP_GurennoYumiya.m4a"
+Nov 15 00:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 00:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 00:19 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 15 00:44 : player: played "yt/theishter/AttackonTitanOP_GurennoYumiya.m4a"
+Nov 15 00:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 00:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 00:44 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 15 01:00 : player: played "yt/theishter/AttackonTitanOP_GurennoYumiya.m4a"
+Nov 15 01:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 01:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 01:22 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 15 01:23 : player: played "yt/theishter/AttackonTitanOP_GurennoYumiya.m4a"
+Nov 15 01:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 01:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 01:24 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 15 02:22 : client: [0] opened from 127.0.0.1:45720
+Nov 15 02:22 : client: [0] closed
+Nov 15 02:22 : client: [1] opened from 127.0.0.1:45724
+Nov 15 02:22 : client: [1] closed
+Nov 15 11:01 : client: [2] opened from 127.0.0.1:45978
+Nov 15 11:01 : client: [2] closed
+Nov 15 11:01 : client: [3] opened from 127.0.0.1:45982
+Nov 15 11:01 : client: [3] closed
+Nov 15 19:43 : client: [4] opened from 127.0.0.1:48472
+Nov 15 19:43 : client: [5] opened from 127.0.0.1:48478
+Nov 15 19:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 19:43 : client: [5] closed
+Nov 15 19:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Nov 15 19:45 : player: played "yt/theishter/AttackonTitanOP_GurennoYumiya.m4a"
+Nov 15 19:47 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Nov 15 19:47 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Nov 15 19:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 19:49 : client: [4] closed
+Nov 15 19:49 : client: [6] opened from 127.0.0.1:48592
+Nov 15 19:49 : client: [6] closed
+Nov 15 19:50 : player: played "yt/chillplace/ChillPlace_ZeldaAndLofi.m4a"
+Nov 15 19:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 19:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 19:51 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 15 19:51 : client: [0] opened from 127.0.0.1:60394
+Nov 15 19:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 01:04 : client: [1] opened from 127.0.0.1:36892
+Nov 16 01:04 : client: [1] closed
+Nov 16 01:04 : client: [2] opened from 127.0.0.1:36896
+Nov 16 01:04 : client: [2] closed
+Nov 16 11:01 : client: [3] opened from 127.0.0.1:36900
+Nov 16 11:01 : client: [3] closed
+Nov 16 11:01 : client: [4] opened from 127.0.0.1:36904
+Nov 16 11:01 : client: [4] closed
+Nov 16 17:41 : client: [5] opened from 127.0.0.1:44194
+Nov 16 17:41 : client: [5] closed
+Nov 16 17:41 : client: [6] opened from 127.0.0.1:44198
+Nov 16 17:41 : client: [6] closed
+Nov 16 20:34 : client: [7] opened from 127.0.0.1:44202
+Nov 16 20:34 : client: [7] closed
+Nov 16 20:34 : client: [8] opened from 127.0.0.1:44206
+Nov 16 20:34 : client: [8] closed
+Nov 16 20:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 20:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 20:46 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 16 20:48 : player: played "yt/chillplace/ChillPlace_ZeldaAndLofi.m4a"
+Nov 16 21:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 21:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 21:35 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 16 21:44 : client: [0] opened from 127.0.0.1:46846
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 12 The Grey Goose by Burl Ives-asVaEhwYJX8.mp4
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 8 Love by Nancy Adams-OtZRX0ohLIw.mp4
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 5 Fooba Wooba John by Burl Ives-jyL2LJvkbN8.mp4
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 9 Buckeye Jim by Burl Ives-YiljtRj6hqM.mp4
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 4 Heroes and Villains by The Beach Boys-GcyXqYzW0R0.mp4
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 2 The Ballad of Davy Crockett by Wellingtons-swphMleoxzg.mkv
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 14 Une Petite Île by Georges Delerue-q0Lny-h-8kc.mkv
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 10 High-Speed French Train-66BFch1REx0.mkv
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 11 Whack-Bat Majorette-czdS5tI1YOY.mkv
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 7 Jimmy Squirrel and Co.-L5y0WINNHns.mkv
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 6 Boggis, Bunce, and Bean-rlxomj7c7Lo.mkv
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 13 Bean's Secret Cidar Cellar-NeUhNC9E6Mw.mkv
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 3 Mr. Fox in the Fields-GSxvjQy2zc0.mkv
+Nov 16 21:48 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 1 American Empirical Pictures-ihl9UHqAOSg.mkv
+Nov 16 21:59 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 24 Ol' Man River by The Beach Boys-3RUK3BUQzIA.mkv
+Nov 16 21:59 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 25 Let Her Dance by Bobby Fuller Four-sYZ40lDrqb0.mp4
+Nov 16 21:59 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 16 Fantastic Mr. Fox aka Petey' by Jarvis Cocker-t6GcIAw9ZYM.mkv
+Nov 16 21:59 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 19 Just Another Dead Rat in a Garbage Pail-2vRWi-HlUVM.mkv
+Nov 16 21:59 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 22 Stunt Expo 2004-kXtiRNn8ZVY.mkv
+Nov 16 21:59 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 23 Canis Lupus-zYsRG66eAoE.mkv
+Nov 16 21:59 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 17 Night and Day by Art Tatum-OmAmnR-cxuA.mkv
+Nov 16 21:59 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 21 Great Harrowsford Square-WscQgSf56t8.mkv
+Nov 16 21:59 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 20 Le Grand Choral by Georges Delerue-ngd7p2sLWic.mkv
+Nov 16 21:59 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 18 Kristofferson's Theme-sK9MXodyhtM.mkv
+Nov 17 00:54 : client: [1] opened from 127.0.0.1:49506
+Nov 17 00:54 : client: [1] closed
+Nov 17 00:54 : client: [2] opened from 127.0.0.1:49510
+Nov 17 00:54 : client: [2] closed
+Nov 17 12:45 : update: removing yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 9 Buckeye Jim by Burl Ives-YiljtRj6hqM.mp4
+Nov 17 12:45 : update: removing yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 8 Love by Nancy Adams-OtZRX0ohLIw.mp4
+Nov 17 12:45 : update: removing yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 7 Jimmy Squirrel and Co.-L5y0WINNHns.mkv
+Nov 17 12:45 : update: removing yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 6 Boggis, Bunce, and Bean-rlxomj7c7Lo.mkv
+Nov 17 12:45 : update: removing yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 5 Fooba Wooba John by Burl Ives-jyL2LJvkbN8.mp4
+Nov 17 12:45 : update: removing yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 4 Heroes and Villains by The Beach Boys-GcyXqYzW0R0.mp4
+Nov 17 12:45 : update: removing yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 3 Mr. Fox in the Fields-GSxvjQy2zc0.mkv
+Nov 17 12:45 : update: removing yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 2 The Ballad of Davy Crockett by Wellingtons-swphMleoxzg.mkv
+Nov 17 12:45 : update: removing yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 1 American Empirical Pictures-ihl9UHqAOSg.mkv
+Nov 17 12:45 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 09 Buckeye Jim by Burl Ives-YiljtRj6hqM.mp4
+Nov 17 12:45 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 07 Jimmy Squirrel and Co.-L5y0WINNHns.mkv
+Nov 17 12:45 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 04 Heroes and Villains by The Beach Boys-GcyXqYzW0R0.mp4
+Nov 17 12:45 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 06 Boggis, Bunce, and Bean-rlxomj7c7Lo.mkv
+Nov 17 12:45 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 01 American Empirical Pictures-ihl9UHqAOSg.mkv
+Nov 17 12:45 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 08 Love by Nancy Adams-OtZRX0ohLIw.mp4
+Nov 17 12:45 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 05 Fooba Wooba John by Burl Ives-jyL2LJvkbN8.mp4
+Nov 17 12:45 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 03 Mr. Fox in the Fields-GSxvjQy2zc0.mkv
+Nov 17 12:45 : update: added yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 02 The Ballad of Davy Crockett by Wellingtons-swphMleoxzg.mkv
+Nov 17 12:45 : client: [3] opened from 127.0.0.1:49642
+Nov 17 12:45 : client: [3] closed
+Nov 17 12:45 : update: added yt/amalee/m4a/101-120/Kingdom Hearts - 'Dearly Beloved' Vocal Cover (FULL) _ AmaLee ver-IB1NMf9Qe-Y.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/101-120/Fullmetal Alchemist - 'Motherland' (Ending) _ ENGLISH ver _ Annalie-uG0pR2MaeX4.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/101-120/Sword Art Online - 'Crossing Field' (Opening) -  Remix _ ENGLISH ver _ AmaLee-Y7QFVSiPtsM.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/101-120/Final Fantasy XIII - 'Promise' - Serah's Theme _ ENGLISH ver _ AmaLee-1BAuAkqIM6E.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/101-120/Kingdom Hearts - 'Simple and Clean & Sanctuary' _ AmaLee & Adrisaurus-_HBN751X1d0.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/101-120/Fate_Stay Night - 'Brave Shine' (FULL Opening) _ ENGLISH ver _ AmaLee-Y9055dqYAU0.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/101-120/Kabaneri of the Iron Fortress - 'Ninelie'  (Ending) _ ENGLISH ver _ AmaLee-1K6A9QWYjcs.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/101-120/Tokyo Ghoul - 'Unravel' (Opening) Female ver _ ENGLISH ver _ AmaLee-c0UR2-ElL6g.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Sword Art Online - Ordinal Scale - 'Catch The Moment' _ ENGLISH ver _ AmaLee-tBp75SOP7Is.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Aldnoah.Zero - 'Heavenly Lies' (aLIEz & Heavenly Blue Mashup) _ ENGLISH ver _ AmaLee-MkELGbT9_jM.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Attack on Titan - 'Guren no Yumiya' (Opening) _ ENGLISH ver _ AmaLee-lTGElV-2GQk.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Gurren Lagann - 'Sorairo Days' (FULL Opening) _ ENGLISH ver _ AmaLee-junUjHUmGF8.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Bungou Stray Dogs 2 - 'Reason Living' (Opening) _ ENGLISH ver _ AmaLee-ybdEhvdWlS4.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Magi - The Labyrinth of Magic - 'The Bravery' (Ending) _ ENGLISH ver _ AmaLee-fNigFYpXc8s.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Sword Art Online II - 'Courage' (Opening) _ ENGLISH ver _ AmaLee-0tn5g2pF5PU.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Sword Art Online - 'Crossing Field' (Opening) _ ENGLISH ver _ AmaLee-MO60ahwc8FI.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Evangelion - 'Cruel Angel's Thesis' (FULL Opening) _ ENGLISH ver _ AmaLee-ZmJ5oBdJTXQ.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Sword Art Online - 'Innocence' (FULL Opening) _ ENGLISH ver _ AmaLee-X0ue4VZ0Nv8.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Arslan Senki - 'Lapis Lazuli' (Ending) _ ENGLISH ver _ AmaLee & Miku-tan)-_de94rSr8m8.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Naruto Shippuden - 'Closer' (Opening) _ ENGLISH ver _ AmaLee & PelleK-bnbG4hFIXEA.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Pokémon - 'Pokémon Theme' (FULL Opening) _ AmaLee (ft. Natewantstobattle)-prt1jjuivM8.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/Noragami Aragoto - 'Hey Kids!!' (Opening) _ ENGLISH ver _ AmaLee-iWtTSzULPWI.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/001-020/The Irregular at Magic High - 'Rising Hope' (Opening) _ ENGLISH ver _ AmaLee-PCJdbCVuAO8.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/041-060/Full Metal Panic - 'Sore Ga, Ai Deshou' (Opening) _ ENGLISH ver _ AmaLee-08a5wuy9SuA.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/041-060/Izetta - The Last Witch - 'Cross The Line' (Opening) _ ENGLISH Ver _ AmaLee-pvpgz9NJ4bc.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/041-060/Yumekui Merry - 'Daydream Syndrome' (Opening) _ ENGLISH ver _ AmaLee-2EcdzPkLrZg.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/041-060/My Hero Academia - 'Sora ni Utaeba' (Opening 3) _ ENGLISH Ver _ AmaLee-L5chBq-vTWU.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/061-080/Mystic Messenger - 'Mysterious Messenger' (Opening) _ AmaLee Ver-3zZq8R6pym4.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/061-080/Fullmetal Alchemist - Brotherhood - 'Again' (Opening) _ ENGLISH ver _ AmaLee-R-WRihrquec.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/061-080/Haikyuu!! - 'I'm a Believer' (FULL Opening) _ ENGLISH ver _ AmaLee-90ROhLwSfCY.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/081-100/Anohana - 'Aoi Shiori' (FULL Opening) _ ENGLISH ver _ AmaLee & Dima-NT7L6SbmCiU.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/081-100/Yuri!!! on ICE - 'History Maker' (FULL Opening) - Dean Fujioka _ AmaLee Ver-L3yHWOFDXIo.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/081-100/Erased - 'Re -Re -' (Opening & Ending Medley) _ ENGLISH ver _ AmaLee-N_bAbpoKD1s.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/081-100/Black Butler ED - 'Kagayaku Sora no Shijima ni wa' _ ENGLISH ver _ AmaLee-c3qnbWNR-AQ.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/021-040/Fire Emblem Fates - 'Lost in Thoughts All Alone' _ ENGLISH ver _ AmaLee-lsz5ijRQvUY.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/021-040/Re -Creators - 'Gravity Wall' (FULL Opening) _ ENGLISH ver _ AmaLee-drJqDmEGIes.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/021-040/Kill la Kill - 'Gomen ne liko ja Irarenai' (Ending) _ ENGLISH ver _ AmaLee-07KLWnOKWmI.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/021-040/Blue Exorcist 2 - 'Itteki no Eikyou' (Opening) _ ENGLISH ver _ AmaLee-K6MX0zh3iNc.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/021-040/My Hero Academia - 'Dakara Hitori Ja Nai' (Ending) _ ENGLISH Ver _ AmaLee-hqGoNzw3qfs.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/021-040/Fushigi Yuugi - 'Itoshii Hito No Tame ni' (Opening) _ ENGLISH ver _ AmaLee-RjTSSFnSYoE.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/021-040/Ancient Magus' Bride - 'Here' (FULL Opening) JUNNA _ ENGLISH ver _ AmaLee-LUnPZstS9DQ.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/021-040/Burn Your Fat With Me!! OP - 'Equation of Happiness'  [Official Ver] _ AmaLee-5Iy66XFAplc.m4a
+Nov 17 12:45 : update: added yt/amalee/m4a/021-040/Inuyasha - 'Every Heart & Fukai Mori' Mashup _ ENGLISH ver _ AmaLee-K1l9zJd8ULA.m4a
+Nov 17 12:45 : update: added cdrom/edelgard/Fire Emblem_ Three Houses Sound Selection/33 The Edge of Dawn (Seasons of Warefare) (Short Version).mp3
+Nov 17 12:46 : player: played "yt/chillplace/ChillPlace_ZeldaAndLofi.m4a"
+Nov 17 12:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 17 12:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 18 01:31 : client: [4] opened from 127.0.0.1:35724
+Nov 18 01:31 : client: [4] closed
+Nov 18 01:31 : client: [5] opened from 127.0.0.1:35728
+Nov 18 01:31 : client: [5] closed
+Nov 19 11:21 : client: [6] opened from 127.0.0.1:35732
+Nov 19 11:21 : client: [6] closed
+Nov 19 11:21 : client: [7] opened from 127.0.0.1:35736
+Nov 19 11:21 : client: [7] closed
+Nov 19 11:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 19 11:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 19 11:23 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 19 11:23 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 19 11:24 : client: [0] opened from 127.0.0.1:40892
+Nov 19 11:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 19 11:27 : client: [1] opened from 127.0.0.1:40916
+Nov 19 11:27 : client: [2] opened from 127.0.0.1:40918
+Nov 19 11:27 : client: [3] opened from 127.0.0.1:40924
+Nov 20 02:03 : client: [0] closed
+Nov 20 02:07 : client: [4] opened from 127.0.0.1:50582
+Nov 20 02:07 : client: [4] closed
+Nov 20 02:07 : client: [5] opened from 127.0.0.1:50586
+Nov 20 02:07 : client: [5] closed
+Nov 21 02:54 : client: [6] opened from 127.0.0.1:55826
+Nov 21 02:54 : client: [6] closed
+Nov 21 02:54 : client: [7] opened from 127.0.0.1:55830
+Nov 21 02:54 : client: [7] closed
+Nov 21 21:59 : client: [8] opened from 127.0.0.1:55834
+Nov 21 21:59 : client: [8] closed
+Nov 21 21:59 : client: [9] opened from 127.0.0.1:55838
+Nov 21 21:59 : client: [9] closed
+Nov 22 01:02 : client: [10] opened from 127.0.0.1:59416
+Nov 22 01:02 : client: [10] closed
+Nov 22 01:02 : client: [11] opened from 127.0.0.1:59420
+Nov 22 01:02 : client: [11] closed
+Nov 22 11:06 : client: [12] opened from 127.0.0.1:60666
+Nov 22 11:06 : client: [12] closed
+Nov 22 11:06 : client: [13] opened from 127.0.0.1:60670
+Nov 22 11:06 : client: [13] closed
+Nov 22 11:35 : client: [14] opened from 127.0.0.1:34214
+Nov 22 11:35 : client: [14] closed
+Nov 22 11:35 : client: [15] opened from 127.0.0.1:34218
+Nov 22 11:35 : client: [15] closed
+Nov 22 17:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 22 17:39 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 17:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 22 17:39 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Nov 22 17:39 : client: [0] opened from 127.0.0.1:41154
+Nov 22 17:39 : client: [1] opened from 127.0.0.1:41158
+Nov 22 17:39 : client: [2] opened from 127.0.0.1:41162
+Nov 22 17:42 : client: [3] opened from 127.0.0.1:41432
+Nov 22 17:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 22 17:46 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 17:46 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 17:46 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 19 Just Another Dead Rat in a Garbage Pail-2vRWi-HlUVM.mkv"
+Nov 22 17:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 17:47 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 17:47 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 03 Mr. Fox in the Fields-GSxvjQy2zc0.mkv"
+Nov 22 17:47 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 17:48 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 01 American Empirical Pictures-ihl9UHqAOSg.mkv"
+Nov 22 17:49 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 09 Buckeye Jim by Burl Ives-YiljtRj6hqM.mp4"
+Nov 22 17:50 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 17:50 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 05 Fooba Wooba John by Burl Ives-jyL2LJvkbN8.mp4"
+Nov 22 17:52 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 17:52 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 17:53 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 22 Stunt Expo 2004-kXtiRNn8ZVY.mkv"
+Nov 22 17:54 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 17:54 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 16 Fantastic Mr. Fox aka Petey' by Jarvis Cocker-t6GcIAw9ZYM.mkv"
+Nov 22 17:57 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 17:58 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 04 Heroes and Villains by The Beach Boys-GcyXqYzW0R0.mp4"
+Nov 22 18:01 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 18:01 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 18:01 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 21 Great Harrowsford Square-WscQgSf56t8.mkv"
+Nov 22 18:02 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 18:02 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 18:03 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 14 Une Petite Île by Georges Delerue-q0Lny-h-8kc.mkv"
+Nov 22 18:04 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 18:04 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 18:04 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 18 Kristofferson's Theme-sK9MXodyhtM.mkv"
+Nov 22 18:06 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 18:06 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 02 The Ballad of Davy Crockett by Wellingtons-swphMleoxzg.mkv"
+Nov 22 18:09 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 25 Let Her Dance by Bobby Fuller Four-sYZ40lDrqb0.mp4"
+Nov 22 18:11 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 18:11 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 12 The Grey Goose by Burl Ives-asVaEhwYJX8.mp4"
+Nov 22 18:13 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 18:13 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 18:13 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 23 Canis Lupus-zYsRG66eAoE.mkv"
+Nov 22 18:13 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 18:14 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 06 Boggis, Bunce, and Bean-rlxomj7c7Lo.mkv"
+Nov 22 18:15 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 18:15 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 08 Love by Nancy Adams-OtZRX0ohLIw.mp4"
+Nov 22 18:17 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 18:17 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 18:17 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 17 Night and Day by Art Tatum-OmAmnR-cxuA.mkv"
+Nov 22 18:19 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 18:19 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 20 Le Grand Choral by Georges Delerue-ngd7p2sLWic.mkv"
+Nov 22 19:20 : player: played "yt/chillplace/ChillPlace_FinalFantasyIX.m4a"
+Nov 22 19:23 : player: played "yt/amalee/mp4/Escaflowne_SoraSakamotoMaaya.mp4"
+Nov 22 19:26 : player: played "yt/cloakanddagger/season2/KinPalo_Twisted.m4a"
+Nov 22 19:30 : player: played "yt/amalee/mp4/Parasyte_LetMeHear.mp4"
+Nov 22 19:40 : player: played "yt/nourish/_-ISNBfryBkSo.m4a"
+Nov 22 21:33 : client: [4] opened from 127.0.0.1:44854
+Nov 22 21:33 : client: [4] closed
+Nov 22 21:33 : client: [5] opened from 127.0.0.1:44924
+Nov 22 21:33 : client: [5] closed
+Nov 22 21:35 : player: played "yt/zeldareorchestrated/1-02_BackfromtheSpring_TwilightSymphony.m4a"
+Nov 22 21:38 : ffmpeg/opus: Could not update timestamps for skipped samples.
+Nov 22 21:38 : player: played "yt/amalee/mp4/AttackonTitan_GurennoYumiyaLullaby.mp4"
+Nov 22 21:41 : ffmpeg/opus: Could not update timestamps for discarded samples.
+Nov 22 21:41 : player: played "yt/fantasticmrfox/Fantastic Mr. Fox (Soundtrack) - 11 Whack-Bat Majorette-czdS5tI1YOY.mkv"
+Nov 22 21:44 : player: played "yt/cloakanddagger/season2/MartenHorger_SoHigh.m4a"
+Nov 22 21:49 : client: [6] opened from 127.0.0.1:45132
+Nov 22 21:49 : client: [6] closed
+Nov 23 00:08 : client: [7] opened from 127.0.0.1:47814
+Nov 23 00:08 : client: [7] closed
+Nov 23 00:08 : client: [8] opened from 127.0.0.1:47818
+Nov 23 00:08 : client: [8] closed
+Nov 23 11:09 : client: [9] opened from 127.0.0.1:48110
+Nov 23 11:09 : client: [9] closed
+Nov 23 11:09 : client: [10] opened from 127.0.0.1:48114
+Nov 23 11:09 : client: [10] closed
+Nov 23 19:41 : client: [11] opened from 127.0.0.1:48118
+Nov 23 19:41 : client: [11] closed
+Nov 23 19:41 : client: [12] opened from 127.0.0.1:48122
+Nov 23 19:41 : client: [12] closed
+Nov 23 21:46 : client: [13] opened from 127.0.0.1:50844
+Nov 23 21:46 : client: [13] closed
+Nov 23 21:58 : client: [14] opened from 127.0.0.1:51048
+Nov 23 21:58 : client: [14] closed
+Nov 23 22:51 : client: [15] opened from 127.0.0.1:51832
+Nov 23 22:51 : client: [15] closed
+Nov 23 22:53 : client: [16] opened from 127.0.0.1:51910
+Nov 23 22:53 : client: [16] closed
+Nov 24 01:10 : client: [17] opened from 127.0.0.1:53284
+Nov 24 01:10 : client: [17] closed
+Nov 24 01:10 : client: [18] opened from 127.0.0.1:53288
+Nov 24 01:10 : client: [18] closed
+Nov 24 01:46 : client: [19] opened from 127.0.0.1:53292
+Nov 24 01:46 : client: [19] closed
+Nov 24 01:46 : client: [20] opened from 127.0.0.1:53296
+Nov 24 01:46 : client: [20] closed
+Nov 24 02:25 : client: [21] opened from 127.0.0.1:53888
+Nov 24 02:25 : client: [21] closed
+Nov 24 02:25 : client: [22] opened from 127.0.0.1:53892
+Nov 24 02:25 : client: [22] closed
+Nov 24 16:26 : client: [23] opened from 127.0.0.1:53896
+Nov 24 16:26 : client: [23] closed
+Nov 24 16:26 : client: [24] opened from 127.0.0.1:53900
+Nov 24 16:26 : client: [24] closed
+Nov 24 17:39 : client: [25] opened from 127.0.0.1:55228
+Nov 24 17:39 : client: [25] closed
+Nov 24 17:39 : client: [26] opened from 127.0.0.1:55234
+Nov 24 17:39 : client: [26] closed
+Nov 24 18:33 : client: [27] opened from 127.0.0.1:55980
+Nov 24 18:33 : client: [27] closed
+Nov 24 19:35 : client: [28] opened from 127.0.0.1:56888
+Nov 24 19:35 : client: [28] closed
+Nov 24 19:37 : client: [29] opened from 127.0.0.1:56938
+Nov 24 19:37 : client: [29] closed
+Nov 25 01:39 : client: [30] opened from 127.0.0.1:33048
+Nov 25 01:39 : client: [30] closed
+Nov 25 01:39 : client: [31] opened from 127.0.0.1:33052
+Nov 25 01:39 : client: [31] closed
+Nov 25 18:52 : client: [32] opened from 127.0.0.1:34872
+Nov 25 18:52 : client: [32] closed
+Nov 25 18:53 : client: [33] opened from 127.0.0.1:34888
+Nov 25 18:53 : client: [33] closed
+Nov 25 19:14 : client: [34] opened from 127.0.0.1:35106
+Nov 25 19:14 : player: played "yt/zefyr/Zefyr_FullmetalAlchemistBrotherhoodOST.m4a"
+Nov 25 19:14 : client: [34] closed
+Nov 25 19:14 : client: [35] opened from 127.0.0.1:35118
+Nov 25 19:14 : client: [35] closed
+Nov 25 19:15 : client: [36] opened from 127.0.0.1:35136
+Nov 25 19:15 : client: [36] closed
+Nov 25 19:15 : client: [37] opened from 127.0.0.1:35140
+Nov 25 19:15 : client: [37] closed
+Nov 25 19:15 : client: [38] opened from 127.0.0.1:35148
+Nov 25 19:20 : client: [38] closed
+Nov 25 19:20 : client: [39] opened from 127.0.0.1:35204
+Nov 25 19:22 : client: [39] closed
+Nov 25 19:22 : client: [40] opened from 127.0.0.1:35228
+Nov 25 19:22 : client: [40] closed
+Nov 25 19:22 : client: [41] opened from 127.0.0.1:35232
+Nov 25 19:25 : client: [42] opened from 127.0.0.1:35286
+Nov 25 19:27 : client: [43] opened from 127.0.0.1:35306
+Nov 25 19:40 : client: [42] closed
+Nov 25 19:43 : client: [43] closed
+Nov 25 19:44 : client: [41] closed
+Nov 25 20:47 : client: [1] closed
+Nov 25 20:47 : client: [2] closed
+Nov 25 20:47 : client: [0] closed
+Nov 25 20:50 : client: [44] opened from 127.0.0.1:36794
+Nov 25 20:50 : client: [45] opened from 127.0.0.1:36798
+Nov 25 20:50 : client: [46] opened from 127.0.0.1:36802
+Nov 25 21:41 : client: [3] closed
+Nov 26 02:10 : client: [47] opened from 127.0.0.1:40482
+Nov 26 02:10 : client: [47] closed
+Nov 26 02:10 : client: [48] opened from 127.0.0.1:40486
+Nov 26 02:10 : client: [48] closed
+Nov 26 12:31 : client: [49] opened from 127.0.0.1:40490
+Nov 26 12:31 : client: [49] closed
+Nov 26 12:31 : client: [50] opened from 127.0.0.1:40494
+Nov 26 12:31 : client: [50] closed
+Dec 01 00:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 01 00:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 01 00:07 : client: [0] opened from 127.0.0.1:45400
+Dec 01 00:07 : client: [1] opened from 127.0.0.1:45404
+Dec 01 00:07 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Dec 01 00:07 : client: [2] opened from 127.0.0.1:45424
+Dec 01 00:32 : client: [3] opened from 127.0.0.1:45632
+Dec 01 00:32 : client: [3] closed
+Dec 01 00:32 : client: [4] opened from 127.0.0.1:45636
+Dec 01 00:32 : client: [4] closed
+Dec 01 11:31 : client: [5] opened from 127.0.0.1:45640
+Dec 01 11:31 : client: [5] closed
+Dec 01 11:31 : client: [6] opened from 127.0.0.1:45644
+Dec 01 11:31 : client: [6] closed
+Dec 01 12:48 : update: added cdrom/amalee/patreondownloads/Ignite (AmaLee).mp3
+Dec 01 12:48 : update: added cdrom/amalee/patreondownloads/Mayday (AmaLee) EXPLICIT ver.mp3
+Dec 01 12:48 : update: added cdrom/amalee/patreondownloads/Mayday (AmaLee) CLEAN ver.mp3
+Dec 01 12:48 : update: added cdrom/amalee/patreondownloads/Ignite (AmaLee)-1.wav
+Dec 01 12:48 : update: added cdrom/amalee/patreondownloads/Ignite (AmaLee).wav
+Dec 01 12:51 : update: added cdrom/amalee/patreondownloads/Mayday (AmaLee) EXPLICIT ver.wav
+Dec 01 12:51 : update: added cdrom/amalee/patreondownloads/Question (AmaLee).mp3
+Dec 01 12:51 : update: added cdrom/amalee/patreondownloads/Last Stardust (AmaLee).mp3
+Dec 01 12:53 : update: added cdrom/amalee/patreondownloads/Question (AmaLee).wav
+Dec 01 12:57 : update: added cdrom/amalee/patreondownloads/Last Stardust (AmaLee).wav
+Dec 01 13:00 : update: added cdrom/amalee/patreondownloads/Beautiful Cruel World (AmaLee).wav
+Dec 01 13:00 : update: added cdrom/amalee/patreondownloads/Beautiful Cruel World (AmaLee).mp3
+Dec 01 13:00 : update: added cdrom/amalee/patreondownloads/RedFraction (AmaLee).mp3
+Dec 01 13:00 : update: added cdrom/amalee/patreondownloads/Blood Teller (Future Diary).mp3
+Dec 01 13:00 : update: added cdrom/amalee/patreondownloads/No Limit (AmaLee).mp3
+Dec 01 13:44 : client: [7] opened from 127.0.0.1:46714
+Dec 01 13:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 01 14:07 : client: [8] opened from 127.0.0.1:47258
+Dec 01 14:07 : client: [8] closed
+Dec 01 15:19 : client: [9] opened from 127.0.0.1:48712
+Dec 01 15:19 : client: [9] closed
+Dec 01 18:05 : client: [10] opened from 127.0.0.1:50226
+Dec 01 18:05 : client: [10] closed
+Dec 01 18:05 : client: [11] opened from 127.0.0.1:50230
+Dec 01 18:05 : client: [11] closed
+Dec 01 18:21 : client: [12] opened from 127.0.0.1:50922
+Dec 01 18:21 : client: [12] closed
+Dec 01 23:23 : player: played "yt/tantrisost/TantrisOST_TwilightPrincessSoundtrack.m4a"
+Dec 01 23:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 01 23:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 01 23:24 : client: [0] opened from 127.0.0.1:59170
+Dec 01 23:24 : client: [1] opened from 127.0.0.1:59174
+Dec 01 23:24 : client: [2] opened from 127.0.0.1:59182
+Dec 01 23:24 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Dec 01 23:25 : client: [3] opened from 127.0.0.1:59280
+Dec 02 00:36 : client: [4] opened from 127.0.0.1:60284
+Dec 02 00:36 : client: [4] closed
+Dec 02 00:36 : client: [5] opened from 127.0.0.1:60288
+Dec 02 00:36 : client: [5] closed
+Dec 02 09:54 : client: [6] opened from 127.0.0.1:60292
+Dec 02 09:54 : client: [6] closed
+Dec 02 09:54 : client: [7] opened from 127.0.0.1:60296
+Dec 02 09:54 : client: [7] closed
+Dec 02 10:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 10:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 10:20 : client: [0] opened from 127.0.0.1:33282
+Dec 02 10:20 : client: [1] opened from 127.0.0.1:33286
+Dec 02 10:20 : client: [2] opened from 127.0.0.1:33290
+Dec 02 10:20 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Dec 02 10:20 : client: [3] opened from 127.0.0.1:33318
+Dec 02 10:30 : client: [4] opened from 127.0.0.1:33334
+Dec 02 10:30 : client: [4] closed
+Dec 02 10:30 : client: [5] opened from 127.0.0.1:33338
+Dec 02 10:30 : client: [5] closed
+Dec 02 17:48 : client: [6] opened from 127.0.0.1:33342
+Dec 02 17:48 : client: [6] closed
+Dec 02 17:48 : client: [7] opened from 127.0.0.1:33346
+Dec 02 17:48 : client: [7] closed
+Dec 02 21:50 : client: [3] closed
+Dec 02 21:53 : client: [0] closed
+Dec 02 21:53 : client: [1] closed
+Dec 02 21:53 : client: [2] closed
+Dec 02 22:37 : player: played "yt/tantrisost/TantrisOST_TwilightPrincessSoundtrack.m4a"
+Dec 02 22:38 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 22:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 22:38 : client: [0] opened from 127.0.0.1:50472
+Dec 02 22:38 : client: [1] opened from 127.0.0.1:50476
+Dec 02 22:38 : client: [2] opened from 127.0.0.1:50480
+Dec 02 22:38 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Dec 02 22:39 : client: [1] closed
+Dec 02 22:39 : client: [0] closed
+Dec 02 22:39 : client: [2] closed
+Dec 02 22:39 : player: played "yt/tantrisost/TantrisOST_TwilightPrincessSoundtrack.m4a"
+Dec 02 22:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 22:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 22:40 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Dec 02 22:40 : client: [0] opened from 127.0.0.1:37008
+Dec 02 22:40 : client: [1] opened from 127.0.0.1:37010
+Dec 02 22:40 : client: [2] opened from 127.0.0.1:37014
+Dec 02 23:19 : player: played "yt/tantrisost/TantrisOST_TwilightPrincessSoundtrack.m4a"
+Dec 02 23:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 23:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 23:20 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Dec 02 23:20 : client: [0] opened from 127.0.0.1:48376
+Dec 02 23:20 : client: [1] opened from 127.0.0.1:48380
+Dec 02 23:20 : client: [2] opened from 127.0.0.1:48384
+Dec 02 23:22 : client: [1] closed
+Dec 02 23:22 : client: [0] closed
+Dec 02 23:22 : client: [2] closed
+Dec 02 23:22 : player: played "yt/tantrisost/TantrisOST_TwilightPrincessSoundtrack.m4a"
+Dec 02 23:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 23:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 23:23 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Dec 02 23:23 : client: [0] opened from 127.0.0.1:36458
+Dec 02 23:23 : client: [1] opened from 127.0.0.1:36462
+Dec 02 23:23 : client: [2] opened from 127.0.0.1:36466
+Dec 02 23:23 : client: [0] closed
+Dec 02 23:23 : client: [1] closed
+Dec 02 23:23 : client: [2] closed
+Dec 02 23:23 : player: played "yt/tantrisost/TantrisOST_TwilightPrincessSoundtrack.m4a"
+Dec 02 23:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 23:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 23:27 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Dec 02 23:27 : client: [0] opened from 127.0.0.1:49042
+Dec 02 23:27 : client: [1] opened from 127.0.0.1:49040
+Dec 02 23:27 : client: [2] opened from 127.0.0.1:49046
+Dec 02 23:38 : client: [3] opened from 127.0.0.1:49426
+Dec 02 23:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 23:45 : client: [3] closed
+Dec 02 23:45 : player: played "yt/tantrisost/TantrisOST_TwilightPrincessSoundtrack.m4a"
+Dec 02 23:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 23:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 23:47 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Dec 02 23:47 : client: [0] opened from 127.0.0.1:34214
+Dec 02 23:47 : client: [1] opened from 127.0.0.1:34216
+Dec 02 23:47 : client: [2] opened from 127.0.0.1:34220
+Dec 02 23:49 : player: played "yt/tantrisost/TantrisOST_TwilightPrincessSoundtrack.m4a"
+Dec 02 23:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 23:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 23:50 : avahi: Service 'Music Player @ WinryRockbell' successfully established.
+Dec 02 23:50 : client: [0] opened from 127.0.0.1:57518
+Dec 02 23:50 : client: [1] opened from 127.0.0.1:57522
+Dec 02 23:50 : client: [2] opened from 127.0.0.1:57526
+Dec 02 23:52 : client: [0] closed
+Dec 02 23:52 : client: [1] closed
+Dec 02 23:52 : client: [2] closed
+Dec 02 23:52 : client: [3] opened from 127.0.0.1:57566
+Dec 02 23:52 : client: [4] opened from 127.0.0.1:57570
+Dec 02 23:52 : client: [5] opened from 127.0.0.1:57574

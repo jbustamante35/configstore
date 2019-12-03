@@ -6,7 +6,7 @@ markup=pango
 
 [disk]
 label=📦
-command=~/.scripts/i3scripts/i3disk nvme0n1p4
+command=~/.scripts/i3scripts/i3disk nvme0n1p3
 interval=60
 
 [memory]

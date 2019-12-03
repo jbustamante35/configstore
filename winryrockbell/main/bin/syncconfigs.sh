@@ -27,39 +27,42 @@ echo "Syncing configuration..."
 
 # main
 ${sync} ~/bin                          ${main}
-${sync} ~/.dotify/.aliases             ${main}
-${sync} ~/.dotify/.functions           ${main}
-${sync} ~/.dotify/.shortcuts           ${main}
-${sync} ~/.dotify/.bashrc              ${main}
-${sync} ~/.dotify/.zshrc               ${main}
-${sync} ~/.dotify/.vimrc               ${main}
-${sync} ~/.dotify/.xinitrc             ${main}
-${sync} ~/.dotify/.Xresources          ${main}
-${sync} ~/.dotify/.config/awesome      ${main}
-${sync} ~/.dotify/.config/i3           ${main}
-${sync} ~/.dotify/.config/i3blocks     ${main}
-${sync} ~/.dotify/.config/fluxbox      ${main}
-${sync} ~/.dotify/.config/openbox      ${main}
-${sync} ~/.dotify/.config/compton      ${main}
-${sync} ~/.dotify/.config/conky        ${main}
-${sync} ~/.dotify/.config/dunst        ${main}
-${sync} ~/.dotify/.config/tmux         ${main}
-${sync} ~/.dotify/.config/rofi         ${main}
-${sync} ~/.dotify/.config/rtv          ${main}
-${sync} ~/.dotify/.config/mpd/mpd.conf ${main}
-${sync} ~/.dotify/.config/mpv          ${main}
-${sync} ~/.dotify/.config/ncmpcpp      ${main}
-${sync} ~/.dotify/.config/ranger       ${main}
-${sync} ~/.dotify/.config/qutebrowser  ${main}
-${sync} ~/.dotify/.config/zathura      ${main}
-${sync} ~/.dotify/.config/grub.jpg     ${main}
-${sync} ~/.dotify/.config/wall.jpg     ${main}
-${sync} ~/.dotify/.config/lock.jpg     ${main}
+${sync} ~/.aliases             ${main}
+${sync} ~/.functions           ${main}
+${sync} ~/.shortcuts           ${main}
+${sync} ~/.bashrc              ${main}
+${sync} ~/.zshrc               ${main}
+${sync} ~/.vimrc               ${main}
+${sync} ~/.xinitrc             ${main}
+${sync} ~/.Xresources          ${main}
+${sync} ~/.config/compton      ${main}
+${sync} ~/.config/conky        ${main}
+${sync} ~/.config/dunst        ${main}
+${sync} ~/.config/grub.jpg     ${main}
+${sync} ~/.config/i3           ${main}
+${sync} ~/.config/i3blocks     ${main}
+${sync} ~/.config/lock.jpg     ${main}
+${sync} ~/.config/login.jpg    ${main}
+${sync} ~/.config/mpd          ${main}
+${sync} ~/.config/mutt         ${main}
+${sync} ~/.config/ncmpcpp      ${main}
+${sync} ~/.config/neofetch     ${main}
+${sync} ~/.config/newsboat     ${main}
+${sync} ~/.config/nvim         ${main}
+${sync} ~/.config/openbox      ${main}
+${sync} ~/.config/qutebrowser  ${main}
+${sync} ~/.config/ranger       ${main}
+${sync} ~/.config/rofi         ${main}
+${sync} ~/.config/rtv          ${main}
+${sync} ~/.config/sway         ${main}
+${sync} ~/.config/tmux         ${main}
+${sync} ~/.config/wall.jpg     ${main}
+${sync} ~/.config/zathura      ${main}
 
-# dots
-for dot in $dotdirs; do
-    ${sync} ~/.dotify/${dot} ${dots}
-done
+# dots [deprecated because of too many issues
+#for dot in $dotdirs; do
+#    ${sync} ~/.dotify/${dot} ${dots}
+#done
 
 printf "\nSaving 'main' and 'dots' lists...\n"
 maindirs=$(ls -A $main)
