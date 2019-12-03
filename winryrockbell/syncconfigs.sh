@@ -32,6 +32,10 @@ ${sync} ~/.functions           ${main}
 ${sync} ~/.shortcuts           ${main}
 ${sync} ~/.bashrc              ${main}
 ${sync} ~/.gitconfig           ${main}
+${sync} ~/.mbsyncrc            ${main}
+${sync} ~/.profile             ${main}
+${sync} ~/.zprofile            ${main}
+${sync} ~/.zsh                 ${main}
 ${sync} ~/.zshrc               ${main}
 ${sync} ~/.vimrc               ${main}
 ${sync} ~/.xinitrc             ${main}
