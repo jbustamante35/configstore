@@ -1,7 +1,0 @@
-#!/bin/sh
-# wrapper script to get my mail
-
-/usr/bin/mailsync ;
-
-notify-send "You got Mail!" "Mail got you" ;
-

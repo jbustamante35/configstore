@@ -1,0 +1,65 @@
+# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+# see /usr/share/doc/bash/examples/startup-files for examples.
+# the files are located in the bash-doc package.
+
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+#umask 022
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	    . "$HOME/.bashrc"
+    fi
+fi
+
+# if running zsh
+if [ -n "$ZSH_VERSION" ]; then
+    # include .zshrc if it exists
+    if [ -f "$HOME/.zshrc" ]; then
+	    source "$HOME/.zshrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    MYPATH="$HOME/.local/bin"
+fi
+
+if [ -d "$HOME/bin" ]; then
+	MYBIN="$HOME/bin"
+fi
+
+# set miscellaneous paths
+GOROOT='/usr/lib/go'
+GOPATH=/home/jbustamante/go
+RUBYPATH=/home/jbustamante/.gem/ruby/2.6.0
+
+export TERMINAL=urxvt
+export BROWSER=firefox
+export EDITOR=nvim
+export PATH=$PATH:$MYPATH:$MYBIN:$GOROOT/bin:$GOPATH/bin:$RUBYPATH/bin
+
+# Default .profile
+#Eexport QT_QPA_PLATFORMTHEME="qt5ct"
+#Eexport QT_AUTO_SCREEN_SCALE_FACTOR=0
+#Eexport GTK2_RC_FILES="$HOME/.gtkrc-2.0"
+
+# Display names for monitors in intel mode
+export PRIMARYDISPLAY="eDP1"
+export AOC_HOME="HDMI1"
+export SMALL_DELL1="DP1"
+export SMALL_DELL2="DP2"
+export LARGE_DELL="HDMI1"
+
+# Swap CAPSLOCK and ESCAPE
+# Xorg
+setxkbmap -option "caps:swapescape"
+
+# Wayland
+gsettings set org.gnome.desktop.input-sources xkb-options "['caps:ctrl_modifier']"
+
+# vim: filetype=sh
