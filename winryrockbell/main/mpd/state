@@ -1,0 +1,45 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:0:mpd alsamixer-output
+audio_device_state:1:toggle_visualizer
+state: pause
+current: 0
+time: 14116.643000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:yt/tantrisost/TantrisOST_TwilightPrincessSoundtrack.m4a
+1:yt/zeldareorchestrated/1-05_IntotheTwilight_TwilightSymphony.m4a
+2:yt/zeldareorchestrated/1-01_Overture_TwilightSymphony.m4a
+3:yt/zeldareorchestrated/1-08_LightSpirit'sMessage_TwilightSymphony.m4a
+4:yt/zeldareorchestrated/2-08_SacredGrove_TwilightSymphony.m4a
+5:yt/zeldareorchestrated/2-01_LakeHylia_TwilightSymphony.m4a
+6:yt/zeldareorchestrated/2-06_Midna'sLament_TwilightSymphony.m4a
+7:yt/zeldareorchestrated/2-04_Ralis,PrinceoftheZoras_TwilightSymphony.m4a
+8:yt/zeldareorchestrated/1-10_OokandtheBoomerang_TwilightSymphony.m4a
+9:yt/zeldareorchestrated/2-10_HyruleFieldatNight_TwilightSymphony.m4a
+10:yt/zeldareorchestrated/1-14_Colin'sKidnappingandtheBattleofEldinBridge_TwilightSymphony.m4a
+11:yt/zeldareorchestrated/1-04_OrdonRanch_TwilightSymphony.m4a
+12:yt/zeldareorchestrated/2-11_WaltzoftheBugs_TwilightSymphony.m4a
+13:yt/zeldareorchestrated/2-02_HyruleCastleTown_TwilightSymphony.m4a
+14:yt/zeldareorchestrated/1-09_FaronWoods_TwilightSymphony.m4a
+15:yt/zeldareorchestrated/2-03_Rutela'sWish_TwilightSymphony.m4a
+16:yt/zeldareorchestrated/1-11_TwilitParasite,Diababa_TwilightSymphony.m4a
+17:yt/zeldareorchestrated/1-15_DeathMountain_TwilightSymphony.m4a
+18:yt/zeldareorchestrated/2-09_Intermezzo_TwilightSymphony.m4a
+19:yt/zeldareorchestrated/1-06_Midna_TwilightSymphony.m4a
+20:yt/zeldareorchestrated/1-02_BackfromtheSpring_TwilightSymphony.m4a
+21:yt/zeldareorchestrated/1-16_GoronGuardianDangoro_TwilightSymphony.m4a
+22:yt/zeldareorchestrated/1-03_OrdonVillage_TwilightSymphony.m4a
+23:yt/zeldareorchestrated/1-12_HyruleField_TwilightSymphony.m4a
+24:yt/zeldareorchestrated/1-17_HistoryofLightandShadow_TwilightSymphony.m4a
+25:yt/zeldareorchestrated/1-13_KakarikoVillage_TwilightSymphony.m4a
+26:yt/zeldareorchestrated/2-07_PrincessZelda_TwilightSymphony.m4a
+27:yt/zeldareorchestrated/1-07_HyruleCastleOvertaken_TwilightSymphony.m4a
+28:yt/zeldareorchestrated/2-05_KingofShadows_TwilightSymphony.m4a
+playlist_end

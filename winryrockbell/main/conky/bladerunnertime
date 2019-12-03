@@ -40,8 +40,8 @@ minimum_width  = 400,
 minimum_height = 400,
 maximum_width  = 800,
 
-gap_x = 180,--## left | right
-gap_y = -160,--## up | down
+gap_x = 120,--## left | right
+gap_y = -130,--## up | down
 
 alignment = 'bottom_left',
 
@@ -68,7 +68,9 @@ double_buffer    = true,
 use_xft              = true,
 override_utf8_locale = true,
 uppercase            = false,
-font                 = 'Roboto:size = 10',
+font                 = 'Blade Runner Movie Font:size=10',
+font2                = 'Blade Runner Movie Font:size=70',
+font3                = 'Blade Runner Movie Font:size=40',
 xftalpha             = 1,
 
 --##  Colour Settings  ###########################
@@ -93,7 +95,7 @@ color1        = '#ff9e98', -- Orangeish [BM]
 };
 
 conky.text = [[
-${font Unifont:size=70}$alignr${time %I}${color0}:${time %M %p}${font}${color}
-${font Unifont:size=40}${voffset 12}$alignr ${color1} ${color0}${execi 300 LANG=${template9} LC_TIME=${template9} date +"%A"}${color} \
-${color1} ${color}${execi 300 LANG=${template9} LC_TIME=${template9} date +"%m.%d.%y"}
+${font2}$alignr${time %I}${color0}:${time %M %p}${font}${color}
+${font3}${voffset 12}$alignr ${color1} ${color0}${execi 300 LANG=${template9} LC_TIME=${template9} date +"%A"}${color} \
+B ${color1} ${color}${execi 300 LANG=${template9} LC_TIME=${template9} date +"%m.%d.%y"}
 ]]

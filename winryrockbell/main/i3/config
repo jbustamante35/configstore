@@ -49,7 +49,7 @@ font            pango:Droid Sans Mono,14
 
 #################### Main Setup ##############################
 # Startup Commands
-exec --no-startup-id setupAwesome
+exec --no-startup-id /home/jbustamante/bin/setupi3
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+c        reload
@@ -288,7 +288,7 @@ assign  [class="Slack"]            $ws09
 assign  [class="discord"]          $ws09
 #assign  [class="PB for Desktop"]   $ws09
 assign  [class="Google Play"]      $ws10
-assign  [class="Audacious"]      $ws10
+assign  [class="Gnome-music"]      $ws10
 
 # Some windows don't get titles until after they init
 #for_window [title="Messages for web"] move to workspace $ws09
@@ -341,9 +341,9 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 # Primary monitor
 bar {
-    #output primary
-    output eDP-1-1
-    font pango:Inconsolata, Awesome 14
+    output eDP1
+    #output eDP-1
+    font pango:Inconsolata, Awesome 10
     colors {
         background              $background
         statusline              $foreground
@@ -365,10 +365,9 @@ bar {
 
 # When connected to left-only monitor [becuase right monitor is a stupid ho]
 bar {
-    #output DP1
+    output HDMI1
     #output HDMI-1
-    output HDMI-1-1
-    font pango:Inconsolata, Awesome 14
+    font pango:Inconsolata, Awesome 10
     colors {
         background              $background
         statusline              $foreground
