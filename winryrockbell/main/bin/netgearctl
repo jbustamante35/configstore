@@ -1,1 +1,31 @@
-/home/jbustamante/Documents/apps/netgearctl/netgearctl.py
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+# vim:fenc=utf-8
+#
+# Copyright © 2020 Julian Bustamante <jbustamante35@gmail.com>
+#
+# Distributed under terms of the MIT license.
+
+"""
+
+"""
+
+# Control devices connected to my NetGear router
+
+from pynetgear import Netgear
+import urllib3
+import subprocess
+
+urllib3.disable_warnings()
+
+pw      = subprocess.check_output("pass netgear", shell = True).strip().decode()
+pt      = int(subprocess.check_output("pass netgearport", shell = True).strip().decode())
+#netgear = Netgear(password=pw, port=pt)
+netgear = Netgear(password=pw)
+#devs    = netgear.get_attached_devices()
+
+devs = []
+for i in netgear.get_attached_devices():
+    devs.append(i)
+    print(i)
+
