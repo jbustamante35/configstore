@@ -20,7 +20,7 @@
     "markdown-it-plantuml": "^1.3.0",
     "markdown-it-task-lists": "^2.1.1",
     "neovim": "^4.2.1",
-    "next": "^7.0.2",
+    "next": "^9.3.2",
     "next-routes": "^1.4.2",
     "opener": "^1.5.1",
     "react": "^16.5.2",
