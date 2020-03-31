@@ -1,0 +1,135 @@
+#!/bin/bash
+# 2020 Julian Bustamante <jbustamante35@gmail.com>
+#
+# gpxextract: extract GPS information from exif metadata
+#
+# Simple script to extract GPS exif metadata from an image. I've only tried
+# this with Google Photos images, so it'll need tons of work to use for any
+# other image format with metadata. Nonetheless, the output can be directly
+# copy-pasted into Google Maps to find the location."
+#
+# Usage:
+#       gpsextract [-OPTION] [image] [verbosity]
+#
+# Input:
+#       -i,--image     path to image with GPS metadata
+#       -v,--verbose   verbose output (for debugging)
+#       -h,--help      show this help documentation
+#
+# Output:
+#       decimal form latitude, longitude coordinates
+#
+############################ Parse Arguments ##################################
+POSITIONAL=()
+while [[ $# -gt 0 ]]; do
+    key="$1"
+
+    case $key in
+        -h|--help)
+            HELP=1
+            shift && shift
+            ;;
+        -v|--verbose)
+            VERBOSE=1
+            shift && shift
+            ;;
+        -i|--image)
+            IMAGE="$2"
+            shift && shift
+            ;;
+        *)
+            POSITIONAL+=("$1")
+            shift
+            ;;
+    esac
+done
+
+set -- "${POSITIONAL[@]}"
+
+img="$IMAGE"
+verb="${VERBOSE:0}"
+showhelp="${HELP:0}"
+
+########################### Sub Functions #####################################
+# Show help documentation
+show_help () {
+    echo  "2020 Julian Bustamante <jbustamante35@gmail.com>"
+    echo  ""
+    echo  "gpxextract: extract GPS information from exif metadata"
+    echo  ""
+    echo  "Simple script to extract GPS exif metadata from an image. I've only tried"
+    echo  "this with Google Photos images, so it'll need tons of work to use for any"
+    echo  "other image format with metadata. Nonetheless, the output can be directly"
+    echo  "copy-pasted into Google Maps to find the location."
+    echo  ""
+    echo  "Usage:"
+    echo  "      gpsextract [-OPTION] [image] [verbosity]"
+    echo  ""
+    echo  "Input:"
+    echo  "      -i,--image     path to image with GPS metadata"
+    echo  "      -v,--verbose   verbose output (for debugging)"
+    echo  "      -h,--help      show this help documentation"
+    echo  ""
+    echo  "Output:"
+    echo  "      decimal form latitude, longitude coordinates"
+}
+
+# Extract exif GPS information
+convert_to_decimal () {
+    dat="$1"
+    deg1=`echo $dat | cut -d, -f1 | cut -d/ -f1`
+    deg2=`echo $dat | cut -d, -f1 | cut -d/ -f2`
+    min1=`echo $dat | cut -d, -f2 | cut -d/ -f1`
+    min2=`echo $dat | cut -d, -f2 | cut -d/ -f2`
+    sec1=`echo $dat | cut -d, -f3 | cut -d/ -f1`
+    sec2=`echo $dat | cut -d, -f3 | cut -d/ -f2`
+    dat2dec=`convert xc: -format "%[fx:($deg1/$deg2) + ($min1/$min2)/60 + \
+        ($sec1/$sec2)/3600]" info:`
+
+    echo $dat2dec
+}
+
+# Determine modifier for direction
+check_direction () {
+    dir="$1"
+    plusdir="$2"
+    mindir="$3"
+
+    case $dir in
+        $plusdir)
+            mod="+" ;;
+        $mindir)
+            mod="-" ;;
+        *)
+            mod="&" ;;
+    esac
+
+    echo $mod
+}
+
+############################ Run Program ######################################
+# Show Documenation
+if [ "$showhelp" == 1 ] ; then
+    show_help && exit
+fi
+
+# Get Latitude
+rawlat=`identify -format "%[EXIF:GPSLatitude]" $img`
+lat=$(convert_to_decimal "$rawlat")
+latdir=`identify -format "%[EXIF:GPSLatitudeRef]" $img`
+latmod=$(check_direction "$latdir" "N" "S")
+
+# Get Longitude
+rawlong=`identify -format "%[EXIF:GPSLongitude]" $img`
+long=$(convert_to_decimal "$rawlong")
+longdir=`identify -format "%[EXIF:GPSLongitudeRef]" $img`
+longmod=$(check_direction "$longdir" "E" "W")
+
+# Verbose debugging
+if [ "$verb" == 1 ] ; then
+    echo "Latitude:  $rawlat  | $lat   | $latdir   | $latmod"
+    echo "Longitude: $rawlong | $long  | $longdir  | $longmod"
+fi
+
+# Output Latitude, Longitude
+echo "$latmod$lat, $longmod$long"

@@ -1,0 +1,162 @@
+#############
+# FUNCTIONS #
+#############
+
+# create directory and move to it
+mvcd () {
+    mkdir $1;
+    cd $1;
+}
+
+# move to directory and show contents
+cl () {
+    cd $1 && la -F;
+}
+
+# unzip into directory of the same name as zip file
+uzp () {
+    nm=$1;
+    unzip "$nm".zip -d "$nm";
+}
+
+# check current status of dropbox syncing
+drchk () {
+    cd $HOME/Dropbox
+    dropbox-cli filestatus && printf "\n\n\n" && dropbox-cli status
+    printf "\n"
+    cd -
+    dropbox-cli filestatus && printf "\n"
+}
+
+# load color configs
+clrs () {
+    wal -c
+    xrdb -load ~/.cache/wal/colors.Xresources ;
+    xrdb -merge ~/.Xresources ;
+}
+
+# Select videos by file extension and choose video player
+mvid () {
+    ext="$1"
+    sly="$2"
+}
+
+# Refresh color cache and reset pywal [deprecated - use regencolors instead]
+wali () {
+    bak="$1"
+    sat="$2"
+
+    wal -c ;
+    clrs ;
+    wal --backend "$bak" -i ~/.config/wall.jpg --saturate $sat -q
+}
+
+# Locate, Sift, Execute
+lse () {
+    # typ: filter by search query
+    # app: run selection with application
+    # ver: run on full filesystem (1) or subdirectory tree (2)
+    typ="$1"
+    app="$2"
+    ver="$3"
+
+    case $ver in
+        1)
+            # Search through entire file system
+            "$app" "$(locate "*$typ" | fzf)"
+            ;;
+        2)
+            # Localized search through current directory tree
+            "$app" "$(locate "$(pwd)/*$typ" | fzf)"
+            ;;
+        *)
+            # Default to searching entire file system
+            "$app" "$(locate "*$typ" | fzf)"
+            ;;
+    esac
+}
+
+# Shortcut for converting tif to jpg
+cnvv () {
+    img="$1"
+    pct="$2"
+
+    convert -resize "$pct" "$img".tif "$img".jpg
+}
+
+## Set-up VNC local forwarding
+#vnc2me () {
+#    dsp="$1"
+#    vncviewer localhost:"$dsp" -passwd ~/.vnc/passwd
+#}
+
+## Setup VNC to JDev
+#vncj () {
+#    num="$1"
+#
+#    case $num in
+#        1)
+#            disps=(5902)
+#            ;;
+#        2)
+#            disps=(5902 5903)
+#            ;;
+#        3)
+#            disps=(5902 5903 5904)
+#            ;;
+#        *)
+#            echo "Enter only 1 - 3"
+#            exit;
+#            ;;
+#    esac
+#
+#    echo "megakill ssh | $num"
+#
+#    for (( i = 0; i < "$num"; i = i + 1 )); do
+#        echo "vncsetup ${disps[$i]} &"
+#    done
+#
+#    sleep 0 ;
+#
+#    for (( i=0; i <"$num"; i=i+1 )); do
+#        echo "vnc2me ${disps[$i]} &"
+#    done
+#}
+
+## Mega Kill
+#megakill () {
+#    process="$1"
+#    super="$2"
+#
+#    case $super in
+#        1)
+#            sudo pkill "$process"
+#            sudo killall "$process"
+#            ;;
+#        *)
+#            ;;
+#    esac
+#
+#    pkill "$process"
+#    killall "$process"
+#}
+
+# Compile C code to bin directory
+gcomp () {
+    fin="$1"
+    fout="$(echo $fin | cut -d'.' -f1)"
+    typ="$(echo $fin | cut -d'.' -f2)"
+    cbin="/home/jbustamante/Dropbox/ComputerProgramming/programminglanguages/c++/bin"
+    case $typ in
+        c)
+            gcc="gcc"
+            ;;
+        cpp)
+            gcc="g++"
+            ;;
+    esac
+            $gcc $fin -o $cbin/$fout
+            #echo $gcc $fin -o $cbin/$fout
+}
+
+# vim: filetype=sh

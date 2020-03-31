@@ -1,0 +1,4 @@
+#!/bin/sh
+# Set-up VNC local forwarding
+dsp="$1"
+vncviewer localhost:"$dsp" -passwd ~/.vnc/passwd

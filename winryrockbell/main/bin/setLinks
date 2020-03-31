@@ -1,0 +1,178 @@
+#!/bin/bash
+# setLinks: Sets soft-links for the main HypoQuantyl datasets to generalize
+# naming conventions for matfiles.
+#
+# After training of all Curve objects to obtain the neural net models, there
+# are several datasets that store PCA for coordinates, curves, data folding,
+# and vectors, models for neural networks, image and contour inputs, and
+# splitting indices for the training and validation sets.
+#
+# These data are outputted as .mat files into the directory in which training
+# was done, and needs to be moved into the directory containing all other .mat
+# files. These then go into respective sub-directories for the specific dataset
+# they belong to.
+#
+# Lastly, these datasets need to be soft-linked to maintain a generalized
+# naming convention, so that loading them does not require hard-coded file
+# searching. Instead, the soft-link will allow me to simply search for the
+# generalized filename to load the most recent data.
+#
+# This script sets the soft-links for PCA data and neural net models (both the
+# input and output). In preparing this script, you should first move all
+# matfiles into the corresponding sub-directory in the base directory that
+# contains all the other HypoQuantyl matfiles.
+#
+# Usage:
+#	setLinks <date-string> <number-of-curves> <verbosity>
+#
+# Input:
+#       date-string: date string query (in yymmdd format)
+#       number-of-curves: total number of curves used (for pca data)
+#       verbosity: 0 for debug information, 1 to run command, or nothing
+#
+# Examples:
+# The following will search for datasets from 02.10.2020 that contain 500
+# trained Curves, but will not set the soft-links to the generalized filename.
+# Instead it will only print a string detailing the command that will run.
+#       setLinks 200210 500 0
+#
+# This command will run the actual commands that will set the soft-links to the
+# generalized filenames.
+#       setLinks 200210 500 1
+#
+
+# Select date, set number of curves, and verbosity
+date="$1"
+numcrvs="$2"
+verb="$3"
+
+# Base Directories for Matfiles and Manifests
+MATFILES=$HOME/Dropbox/EdgarSpalding/labdata/development/HypoQuantyl/datasets/matfiles/
+MANIFESTS=$MATFILES/manifests
+
+# PCA Datasets
+pca_dir=$MATFILES/pca
+pca_man=$MANIFESTS/manifest_pca.txt
+
+# Net Inputs
+inn_dir=$MATFILES/netinputs
+inn_man=$MANIFESTS/manifest_netinputs.txt
+
+# Net Outputs
+out_dir=$MATFILES/netoutputs
+out_man=$MANIFESTS/manifest_netoutputs.txt
+
+linkPCA () {
+    # Set soft links for PCA data
+    date="$1"
+    dDir="$2"
+    dMan="$3"
+    verb="$4"
+    numcrvs="$5"
+    currDir=$(pwd)
+
+    cd "$dDir"
+
+    # Get strings to link and set
+    toLink=$(awk '{print $1}' "$dMan" | sed -r "s/\*/$numcrvs/g")
+    toSet=$(awk '{print $2}' "$dMan" | sed "s/\n+//g")
+    idxLink=( $toLink )
+    idxSet=( $toSet )
+
+    # Get substring from files to link from
+    # Filenames should be in the format $date_pcaResults_substring_%dPCs.mat
+    fin=$(find -name "$date*")
+    str=$(echo "$fin" | awk -F _ '{print $3}')
+    idxFin=( $fin )
+
+    # Match file to raw link and set to soft link
+    for s in $str; do
+        # Index for file out
+        fid=$(echo "$fin" | grep -n "$s" | awk -F ":" '{print $1}')
+        fidx=$(( $fid-1 ))
+        fout=$(echo "${idxFin[$fidx]}" | sed 's/\.\///g')
+
+        # Index for manifest file
+        id=$(echo "$toLink" | grep -n "$s" | awk -F ":" '{print $1}')
+        idx=$(( $id-1 ))
+
+        fout=$(echo "${idxFin[$fidx]}" | sed 's/\.\///g')
+        lnk=$(echo "${idxSet[$idx]}")
+
+        case $verb in
+            0)
+                # Debug by printing out variables
+                echo "$idx | ln -sf $fout --> $lnk"
+                ;;
+            1)
+                # Run the commands
+                ln -sf $fout $lnk
+                ;;
+            *)
+                # Do nothing
+                ;;
+        esac
+    done
+
+    cd "$currDir"
+}
+
+linkNets () {
+    # Set soft links for neural net inputs or outputs
+    date="$1"
+    dDir="$2"
+    dMan="$3"
+    verb="$4"
+
+    currDir=$(pwd)
+
+    cd "$dDir"
+
+    # Get strings to link and set
+    toLink=$(awk '{print $1}' "$dMan")
+    toSet=$(awk '{print $2}' "$dMan" | sed "s/\n+//g")
+    subDir=$(awk '{print $3}' "$dMan" | sed "s/\n+//g")
+    idxLink=( $toLink )
+    idxSet=( $toSet )
+    idxDir=( $subDir )
+
+    # Get substring from files to link from
+    # Filenames should be in the format $date_pcaResults_substring_%dPCs.mat
+    fin=$(find -name "$date*")
+    str=$(echo "$fin" | awk -F _ '{print $2}')
+    idxFin=( $fin )
+
+    # Match file to raw link and set to soft link
+    for s in $str; do
+        # Index for file out
+        fid=$(echo "$fin" | grep -n "$s" | awk -F ":" '{print $1}')
+        fidx=$(( $fid-1 ))
+        fout=$(echo "${idxFin[$fidx]}" | sed 's/\.\///g')
+
+        # Index for manifest file
+        id=$(echo "$toLink" | grep -n "$s" | awk -F ":" '{print $1}')
+        idx=$(( $id-1 ))
+        din=$(echo "${idxDir[$idx]}")
+        lnk=$(echo "${idxSet[$idx]}")
+
+        case $verb in
+            0)
+                # Debug by printing out variables
+                echo "$idx | ln -sf $fout --> $din/$lnk"
+                ;;
+            1)
+                # Run the commands
+                ln -sf $fout $lnk
+                ;;
+            *)
+                # Do nothing
+                ;;
+        esac
+    done
+
+    cd "$currDir"
+}
+
+linkPCA  $date $pca_dir $pca_man $verb $numcrvs
+linkNets $date $inn_dir $inn_man $verb
+linkNets $date $out_dir $out_man $verb

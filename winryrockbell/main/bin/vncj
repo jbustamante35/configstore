@@ -1,0 +1,34 @@
+#!/bin/sh
+num="$1"
+host="jdev"
+
+case $num in
+    1)
+        disps=(5902)
+        ;;
+    2)
+        disps=(5902 5903)
+        ;;
+    3)
+        disps=(5902 5903 5904)
+        ;;
+    *)
+        echo "Enter only 1 - 3"
+        exit;
+        ;;
+esac
+
+echo "megakill ssh 1 | $num"
+megakill ssh 1 ;
+
+for (( i = 0; i < "$num"; i = i + 1 )); do
+    echo "vncsetup ${disps[$i]} "$host" &"
+    vncsetup ${disps[$i]} "$host" &
+done
+
+sleep 1 ;
+
+for (( i=0; i <"$num"; i=i+1 )); do
+    echo "vnc2me ${disps[$i]} &"
+    vnc2me ${disps[$i]} &
+done

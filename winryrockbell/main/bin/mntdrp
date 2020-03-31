@@ -1,0 +1,32 @@
+#!/bin/sh
+
+# Sub-function to remove directory if exists
+remdir () {
+    [ -s "$1" ]
+    if [ $? ]; then
+        echo "No $1 to remove"
+    else
+        echo "Removing $1"
+        rm "$1"
+    fi
+}
+
+# Remove current links and make new directory
+remdir ~/Music
+remdir ~/Pictures
+remdir ~/Videos
+
+# Mount Dropbox if empty, otherwise don't
+drp="$HOME/Dropbox"
+if [ "$(ls -A $drp)" ]; then
+    echo "$drp not empty; don't mount"
+else
+    echo "$drp is empty; mount it"
+    sshfs jbustamante@128.104.98.13:"$drp" "$drp"
+fi
+
+# Link Music-Pictures-Videos
+ln -s "$drp/Music" ~/Music
+ln -s "$drp/Pictures/devices/$PROFILE/pics" ~/Pictures
+ln -s "$drp/Pictures/devices/$PROFILE/vids" ~/Videos
+

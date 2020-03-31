@@ -1,0 +1,76 @@
+#!/bin/sh
+# Commands for controlling Hue lights scene
+# Get commands and constants
+
+# For some reason i3 can't get environmental variables
+#huehub="$HUEHUB"
+#huelights="$HUELIGHTS"
+huehub="eaglesnest"
+huelights="4"
+scene="$1"
+ctl="huecli"
+brite="$ctl set-brightness $huehub"
+temp="$ctl set-temperature $huehub"
+toggle="$ctl turn-$scene $huehub"
+
+# Set the scene!
+case $scene in
+    off)
+        # Turn off all lights
+        for (( i=1; i <= "$huelights"; i=i+1 )); do
+            $toggle $i
+        done
+        notify-send "Hue Control" "Turned off $huelights lights"
+        ;;
+
+    on)
+        # Turn off all lights
+        for (( i=1; i <= "$huelights"; i=i+1 )); do
+            $toggle $i
+        done
+        notify-send "Hue Control" "Turned on $huelights lights"
+        ;;
+
+    studying)
+        # Studying
+        litebrite=(0 240 254 230 20) # Brightness from 1-254
+        litetemp=(0 150 100 150 200) # Temperature from 154-500
+
+        for (( i=1; i <= "$huelights"; i=i+1 )); do
+            $brite $i ${litebrite[$i]}
+            $temp  $i ${litetemp[$i]}
+        done
+        notify-send "Hue Control" "Set $huelights lights to Studying mode"
+        ;;
+
+    tv)
+        # Basic TV show scene
+        litebrite=(0 80 100 80 35)    # Brightness from 1-254
+        litetemp=(0 350 400 350 480) # Temperature from 154-500
+
+        for (( i=1; i <= "$huelights"; i=i+1 )); do
+            $brite $i ${litebrite[$i]}
+            $temp  $i ${litetemp[$i]}
+        done
+        notify-send "Hue Control" "Set $huelights lights to TV mode"
+        ;;
+
+    movie)
+        # Darker movie theatre scene
+        litebrite=(0 20 25 20 10)    # Brightness from 1-254
+        litetemp=(0 450 500 400 500) # Temperature from 154-500
+
+        for (( i=1; i <= "$huelights"; i=i+1 )); do
+            $brite $i ${litebrite[$i]}
+            $temp  $i ${litetemp[$i]}
+        done
+        notify-send "Hue Control" "Set $huelights lights to Movie mode"
+        ;;
+    *)
+        # Show help
+        printf "Select a scene [off|on|studying|tv|movie]\n"
+        exit;
+        ;;
+esac
+
+

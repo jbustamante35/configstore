@@ -1,0 +1,15 @@
+#!/bin/sh
+process="$1"
+super="$2"
+
+case $super in
+    1)
+        sudo pkill "$process"
+        sudo killall "$process"
+        ;;
+    *)
+        ;;
+esac
+
+pkill "$process"
+killall "$process"

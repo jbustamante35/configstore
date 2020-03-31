@@ -1,0 +1,24 @@
+#!/bin/sh
+# Pipeline to lock screen and show current song
+
+song=$(mpc status | head -1)
+lng=$(mpc status | head -1 | wc | awk '{print $3}')
+
+echo $lng
+if [ $lng -gt 31 ]; then
+    betterlockscreen -l
+else
+    betterlockscreen -l -t "$song"
+fi
+
+#end="$1"
+#case $end in
+#    end)
+#        systemctl suspend &&
+#        xscreensaver-command -lock && xscreensaver -no-splash
+#        ;;
+#    *)
+#        xscreensaver-command -lock && xscreensaver -no-splash
+#        ;;
+#esac
+

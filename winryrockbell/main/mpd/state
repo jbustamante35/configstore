@@ -1,0 +1,47 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:0:mpd alsamixer-output
+audio_device_state:1:toggle_visualizer
+state: pause
+current: 5
+time: 182.688000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:yt/tetriseffect/Tetris Effect - The Deep - Yours Forever - Theater Mode-TCp2BS_L0yE.m4a
+1:yt/tetriseffect/Tetris Effect - Balloon High - Look Up - Theater Mode-6HrIZsVaUeE.m4a
+2:yt/tetriseffect/Tetris Effect - Stratosphere - Here - Theater Mode-QmJHCAN41ps.m4a
+3:yt/tetriseffect/Tetris Effect - Karma Wheel - Pulse - Theater Mode-zCuICXcpkus.m4a
+4:yt/tetriseffect/Tetris Effect - Mermaid Cove - World of Colors - Theater Mode-ZfnKOPTEUtI.m4a
+5:yt/tetriseffect/Tetris Effect - Da Vinci - Bright Shadow - Theater Mode-u4-eVz7JjAo.m4a
+6:yt/tetriseffect/Tetris Effect - Jellyfish Chorus - Joy - Theater Mode-ipObdtRGYDE.m4a
+7:yt/tetriseffect/Tetris Effect - Sunset Breeze - Moments - Theater Mode-iG6yviQPaS8.m4a
+8:yt/tetriseffect/Tetris Effect - Hula Soul -  'Aumakua - Theater Mode-5fNtTiqMaAw.m4a
+9:yt/tetriseffect/Tetris Effect - (With More Sound Effects) - Dolphin Surf - You and I  - Theater Mode-bUtVKGRrrE0.m4a
+10:yt/tetriseffect/Tetris Effect - Aurora Peak - Snows - Theater Mode-zxXW83gYpTI.m4a
+11:yt/tetriseffect/Tetris Effect - Ritual Passion - Flames - Theater Mode-NmIiwj86OQA.m4a
+12:yt/tetriseffect/Tetris Effect - Downtown Jazz - City Lights - Theater Mode-oADySUP-f3w.m4a
+13:yt/tetriseffect/Tetris Effect  - Jeweled Veil - Temptation - Theater Mode-GrotooUa8fk.m4a
+14:yt/tetriseffect/Tetris Effect - Stratosphere - Like Never Before - Theater Mode-faX7fXEA6L8.m4a
+15:yt/tetriseffect/Tetris Effect - Orbit - Hometown - Theater Mode-m4_PsfMQvz0.m4a
+16:yt/tetriseffect/Tetris Effect - (With More Sound Effects) Orbit - Hometown - Theater Mode-Vlu6PsaSRdE.m4a
+17:yt/tetriseffect/Tetris Effect - Yin and Yang - Chains - Theater Mode-hvOyw_lsXqc.m4a
+18:yt/tetriseffect/Tetris Effect - Forest Dawn - Boscage - Theater Mode-ujcLDBWnwsg.m4a
+19:yt/tetriseffect/Tetris Effect - Zen Blossoms - Unfold - Theater Mode-EkFCrAIqaGs.m4a
+20:yt/tetriseffect/Tetris Effect - Prayer Circle - Spring Field - Theater Mode-7QWijux8Lio.m4a
+21:yt/tetriseffect/Tetris Effect - Starfall - Secrets - Theater Mode-2ad1jWGT-MQ.m4a
+22:yt/tetriseffect/Tetris Effect - Dolphin Surf - You and I  - Theater Mode-Vj8BhL8RV68.m4a
+23:yt/tetriseffect/Tetris Effect - Celebration - All Nations - Theater Mode-LOSkajVoiL8.m4a
+24:yt/tetriseffect/Tetris Effect  - Spirit Canyon - New Beginnings - Theater Mode-UNKUYAWQr54.m4a
+25:yt/tetriseffect/Tetris Effect - Metamorphosis - Always Been But Never Dreamed - Theater Mode-QeZne1wVyl0.m4a
+26:yt/tetriseffect/Tetris Effect - Pharaoh's Code - Next Chapter - Theater Mode-8D7cYQY6r0g.m4a
+27:yt/tetriseffect/Tetris Effect - Kaleidoscope - 3 senses - Theater Mode-C1FvZbDWyXc.m4a
+28:yt/tetriseffect/Tetris Effect - Deserted - Lunar Discourse - Theater Mode-IKfmlgKaTnI.m4a
+29:yt/tetriseffect/Tetris Effect - Stratosphere - So They Say - Theater Mode-EKaDAFzeGAA.m4a
+30:yt/tetriseffect/Tetris Effect - Turtle Dreams - Around Me - Theater Mode-GhE1Efpgh08.m4a
+playlist_end
