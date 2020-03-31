@@ -1,1 +1,1 @@
-/home/jbustamante/.dotify/.config/nvim
+.config/nvim
