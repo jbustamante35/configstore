@@ -44,7 +44,7 @@ get_session(){
 		bspwm) dbus_args+=(bspwm) ;;
 		budgie) dbus_args+=(budgie-desktop) ;;
 		cinnamon) dbus_args+=(cinnamon-session) ;;
-		deepin) dbus_args+=(startdde) ;;
+		#deepin) dbus_args+=(startdde) ;;
 		enlightenment) dbus_args+=(enlightenment_start) ;;
 		fluxbox) dbus_args+=(startfluxbox) ;;
 		gnome) dbus_args+=(gnome-session) ;;

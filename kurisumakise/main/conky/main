@@ -5,7 +5,8 @@ conky.config = {
     -- Windows
     own_window             = true,
     own_window_transparent = true,
-    own_window_type        = 'override',
+    --own_window_type        = 'override',
+    own_window_type        = 'desktop',
     own_window_class       = 'Conky',
     own_window_title       = 'Monitor Conky',
     own_window_hints       = 'undecorated,below,sticky,skip_taskbar,skip_pager',
@@ -48,10 +49,11 @@ conky.config = {
     use_xft              = true,
     font                 = 'Cantarell:size=10',
 
-    -- Font Colors [Text | Titles | Heading]
+    -- Font Colors [Text | Titles | Heading | Quote]
     default_color = 'ffffff',
-    color2        = 'C9665B',
-    color3        = 'F8E243',
+    color2        = 'ffe81f',
+    color3        = 'CE0C2C',
+    color4        = '17AF0A',
 }
 
 -- TEXT
@@ -62,7 +64,7 @@ conky.config = {
 -- MPD Music
 -- Fortune
 conky.text = [[
-${color3} ${font Cantarell} ${nodename}
+${color3} ${font Cantarell:bold} ${nodename}
 ${color} ${font Cantarell:size=12} ${time %A}, ${time %e %B %Y}
 
 ${color2} ${font Cantarell:bold}STATS ${font Cantarell} ${voffset -6} ${hr 2} $color
@@ -85,7 +87,7 @@ ${color2}${font Cantarell:bold}MPD MUSIC ${font} ${voffset -6} ${hr 2} $color
 ${voffset 5}${if_mpd_playing}$mpd_artist - $mpd_title $alignr $mpd_elapsed/$mpd_length
 ($mpd_status) $alignr${mpd_bar 7,220}   $mpd_percent% ${endif}
 
-${color2} ${font Cantarell:bold}FORTUNE ${font} ${voffset -6} ${hr 2} $color
-${voffset 5} $alignr ${color}  ${execi 300 fortune -s | cowsay -f moose -e '@@' -T '[]' -W 50
+${color2} ${font Cantarell:bold}QUOTE ${font} ${voffset -6} ${hr 2} $color
+${voffset 5}$alignr${color1}${exec cat ~/Dropbox/Misc/config/conky/quote/starwars.txt}
 ]]
 

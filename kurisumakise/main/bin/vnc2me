@@ -1,0 +1,4 @@
+#!/bin/sh
+# Connect to VNC display with password in ~/.vnc
+dsp="$1"
+vncviewer localhost:"$dsp" -passwd ~/.vnc/passwd

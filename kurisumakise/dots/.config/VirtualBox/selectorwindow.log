@@ -1,0 +1,21 @@
+00:00:00.599069 VirtualBox GUI VM Selector Window 6.0.14 r132055 linux.amd64 (Oct 16 2019 06:57:26) release log
+00:00:00.599074 Log opened 2019-11-27T07:14:40.857925000Z
+00:00:00.599076 Build Type: release
+00:00:00.599081 OS Product: Linux
+00:00:00.599085 OS Release: 4.19.85-1-MANJARO
+00:00:00.599088 OS Version: #1 SMP PREEMPT Thu Nov 21 10:38:39 UTC 2019
+00:00:00.599127 DMI Product Name: XPS 15 9570
+00:00:00.599145 DMI Product Version: 
+00:00:00.599246 Host RAM: 15678MB (15.3GB) total, 14701MB (14.3GB) available
+00:00:00.599253 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.599254 Process ID: 5794
+00:00:00.599256 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.599305 Qt version: 5.13.2
+00:00:00.719803 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.719832 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.062208 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 17x70 x 929x987
+00:00:01.090044 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:01.117212 refreshCertificates/#1: Certificate '/etc/ca-certificates/extracted/objsign-ca-bundle.pem' is empty
+00:00:01.119750 refreshCertificates/#3: Found 1/298 SSL certs we/you trust (previously 0/0).
+00:00:11.951359 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:11.951409 GUI: UIMediumEnumerator: Medium-enumeration finished!

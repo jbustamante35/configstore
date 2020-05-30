@@ -1,6 +1,5 @@
 # General News
 https://news.google.com/rss                                                                        news
-https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/world/rss.xml   news
 http://feeds.bbci.co.uk/news/world/rss.xml                                                         news
 https://www.buzzfeed.com/world.xml                                                                 news
 
@@ -17,7 +16,7 @@ http://feeds.ign.com/ign/games-all         gaming
 
 # Sports
 https://www.espn.com/espn/rss/news                sports   "~ESPN"
-https://www.reddit.com/r/sports/.rss?format=xml   sports
+https://www.reddit.com/r/sports/.rss?format=xml   sports   "Reddit Sports"
 https://www.sporttechie.com/feed/                 sports   tech
 
 # Science
@@ -25,13 +24,18 @@ https://www.theverge.com/science/rss/index.xml         science
 https://uwmadscience.news.wisc.edu/feed                science
 https://www.wired.com/category/science/feed            science
 https://www.sciencemag.org/rss/weekly_news_email.xml   science
+https://feed.theskepticsguide.org/feed/sgu             science
 
 # Misc
 https://feeds.feedburner.com/InterestingThingOfTheDay                                     misc
 https://www.linux.com/feeds/rss                                                           misc linux "~Linux News"
 https://www.tecmint.com/feed/                                                             misc linux
-https://news.google.com/rss                                                               misc linux
 https://news.google.com/rss/search?cf=all&pz=1&q=linux&hl=en-US&gl=US&ceid=US:en          misc linux "~Google Linux News"
 https://distrowatch.com/news/dw.xml                                                       misc linux
 https://www.youtube.com/feeds/videos.xml?playlist_id=PLUW3LUwQvegyqk2Iqi-YD7Do-AyD4W0s1   misc linux
 https://news.ycombinator.com/rss                                                          misc linux
+
+# Luke Smith
+https://lukesmith.xyz/rss.xml                                                  misc linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA   misc linux
+https://notrelated.libsyn.com/rss                                              misc linux

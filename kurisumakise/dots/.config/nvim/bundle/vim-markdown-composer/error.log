@@ -223,3 +223,80 @@ stack backtrace:
   11: start_thread (0x7fb587d9aa91)
   12: __clone (0x7fb587caecd2)
   13: <unknown> (0x0)
+2019-12-22T20:54:33.071746749-06:00 [ERROR] log_panics:thread 'unnamed' panicked at 'called `Result::unwrap()` on an `Err` value: IoError(Os { code: 32, kind: BrokenPipe, message: "Broken pipe" })': src/libcore/result.rs:997
+stack backtrace:
+   0: log_panics::init::{{closure}}::h4b9c12c248a8574c (0x559b3b978389)
+   1: rust_panic_with_hook (0x559b3bc7d4d8)
+             at src/libstd/panicking.rs:482
+   2: continue_panic_fmt (0x559b3bc7cf71)
+             at src/libstd/panicking.rs:385
+   3: rust_begin_unwind (0x559b3bc7ce55)
+   4: panic_fmt (0x559b3bc9ad5c)
+             at src/libcore/panicking.rs:85
+   5: core::result::unwrap_failed::h503a612c23cc6281 (0x559b3ba27b08)
+   6: std::sys_common::backtrace::__rust_begin_short_backtrace::h25e16e1b128a191f (0x559b3ba24eb6)
+   7: std::panicking::try::do_call::h411ea380f77d8867 (0x559b3ba2cfc5)
+   8: __rust_maybe_catch_panic (0x559b3bc86f79)
+             at src/libpanic_unwind/lib.rs:87
+   9: <F as alloc::boxed::FnBox<A>>::call_box::h9a0be654f21cdeb3 (0x559b3ba30667)
+  10: call_once<(),()> (0x559b3bc862ed)
+             at /rustc/6c2484dc3c532c052f159264e970278d8b77cdc9/src/liballoc/boxed.rs:759
+      start_thread
+             at src/libstd/sys_common/thread.rs:14
+      thread_start
+             at src/libstd/sys/unix/thread.rs:81
+  11: start_thread (0x7fe7e8ccf4ce)
+  12: clone (0x7fe7e8be42d2)
+  13: <unknown> (0x0)
+2019-12-22T20:54:33.167567600-06:00 [ERROR] log_panics:thread 'unnamed' panicked at 'called `Result::unwrap()` on an `Err` value: IoError(Os { code: 32, kind: BrokenPipe, message: "Broken pipe" })': src/libcore/result.rs:997
+stack backtrace:
+   0: log_panics::init::{{closure}}::h4b9c12c248a8574c (0x559b3b978389)
+   1: rust_panic_with_hook (0x559b3bc7d4d8)
+             at src/libstd/panicking.rs:482
+   2: continue_panic_fmt (0x559b3bc7cf71)
+             at src/libstd/panicking.rs:385
+   3: rust_begin_unwind (0x559b3bc7ce55)
+   4: panic_fmt (0x559b3bc9ad5c)
+             at src/libcore/panicking.rs:85
+   5: core::result::unwrap_failed::h503a612c23cc6281 (0x559b3ba27b08)
+   6: std::sys_common::backtrace::__rust_begin_short_backtrace::h25e16e1b128a191f (0x559b3ba24eb6)
+   7: std::panicking::try::do_call::h411ea380f77d8867 (0x559b3ba2cfc5)
+   8: __rust_maybe_catch_panic (0x559b3bc86f79)
+             at src/libpanic_unwind/lib.rs:87
+   9: <F as alloc::boxed::FnBox<A>>::call_box::h9a0be654f21cdeb3 (0x559b3ba30667)
+  10: call_once<(),()> (0x559b3bc862ed)
+             at /rustc/6c2484dc3c532c052f159264e970278d8b77cdc9/src/liballoc/boxed.rs:759
+      start_thread
+             at src/libstd/sys_common/thread.rs:14
+      thread_start
+             at src/libstd/sys/unix/thread.rs:81
+  11: start_thread (0x7fe7e8ccf4ce)
+  12: clone (0x7fe7e8be42d2)
+  13: <unknown> (0x0)
+2020-02-22T17:47:19.243532316-06:00 [ERROR] log_panics:thread 'main' panicked at 'error while decoding value': src/main.rs:121
+stack backtrace:
+   0: log_panics::init::{{closure}}::h4b9c12c248a8574c (0x55a7495b7389)
+   1: rust_panic_with_hook (0x55a7498bc4d8)
+             at src/libstd/panicking.rs:482
+   2: continue_panic_fmt (0x55a7498bbf71)
+             at src/libstd/panicking.rs:385
+   3: begin_panic_fmt (0x55a7498bbebe)
+             at src/libstd/panicking.rs:340
+   4: markdown_composer::main::hbaf32719b5ea6a11 (0x55a7495b1d62)
+   5: std::rt::lang_start::{{closure}}::hc81cbcb8c5571cc2 (0x55a7495aaa72)
+   6: {{closure}} (0x55a7498bbdf2)
+             at src/libstd/rt.rs:49
+      do_call<closure,i32>
+             at src/libstd/panicking.rs:297
+   7: __rust_maybe_catch_panic (0x55a7498c5f79)
+             at src/libpanic_unwind/lib.rs:87
+   8: try<i32,closure> (0x55a7498bc8fc)
+             at src/libstd/panicking.rs:276
+      catch_unwind<closure,i32>
+             at src/libstd/panic.rs:388
+      lang_start_internal
+             at src/libstd/rt.rs:48
+   9: main (0x55a7495b2221)
+  10: __libc_start_main (0x7f43546c1152)
+  11: _start (0x55a7495a21ad)
+  12: <unknown> (0x0)

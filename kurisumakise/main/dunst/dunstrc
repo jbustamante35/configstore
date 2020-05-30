@@ -146,7 +146,7 @@
     #background  = "#210100"
     #foreground  = "#bd560a"
     #frame_color = "#d9880b"
-    background   = "#0056ea"
+    background   = "#000000"
     foreground   = "#feff1b"
     frame_color  = "#0049cf"
     frame_width  = 1

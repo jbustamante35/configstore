@@ -1,10 +1,10 @@
 sw_volume: 100
-audio_device_state:1:pulse audio
-audio_device_state:0:mpd alsamixer-output
+audio_device_state:0:pulse audio
+audio_device_state:1:mpd alsamixer-output
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 5
-time: 161.857000
+current: 1
+time: 51.246000
 random: 0
 repeat: 0
 single: 0
@@ -13,58 +13,58 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:yt/chilledcow/ChilledCow_ArtesiaHer.m4a
-1:yt/chilledcow/ChilledCow_SURF6am.m4a
-2:yt/mellowbeatseeker/MellowbeatSeeker_AsokahIAlwaysSmileButMyEyesAreSad.m4a
-3:yt/mellowbeatseeker/MellowbeatSeeker_KidInSeoul_TheMemoriesWeveSharedTheTimesSeveSpent.m4a
-4:yt/chilledcow/ChilledCow_PotsuxLandoBreakfast.m4a
-5:yt/mellowbeatseeker/MellowbeatSeeker_NawhijWithYou.m4a
-6:yt/chilledcow/ChilledCow_NeoplasmaThinkingAboutYou.m4a
-7:yt/mellowbeatseeker/MellowbeatSeeker_EdenByEdenNightcall.m4a
-8:yt/gamechops/GameChops_ZeldaAndChill.m4a
-9:yt/chilledcow/ChilledCow_MattQuentinHome.m4a
-10:yt/chilledcow/ChilledCow_MattQuentinWaves.m4a
-11:yt/chilledcow/ChilledCow_Nikomw_SquidEthics.m4a
-12:yt/mellowbeatseeker/MellowbeatSeeker_PianoShoegazerGhostlyLove.m4a
-13:yt/nintendoandchill/NintendoAndChill_nintendoadlofi3.m4a
-14:yt/mellowbeatseeker/MellowbeatSeeker_IwamizuTheGirlFromFrance.m4a
-15:yt/chillplace/ChillPlace_PokemonAndLofi.m4a
-16:yt/mellowbeatseeker/MellowbeatSeeker_OmarAwayFromHere.m4a
-17:yt/chilledcow/ChilledCow_BLVKUnderTheTrees.m4a
-18:yt/chilledcow/ChilledCow_SURFTakeCare.m4a
-19:yt/mellowbeatseeker/MellowbeatSeeker_StayTuned_AreYouThere.m4a
-20:yt/mellowbeatseeker/MellowbeatSeeker_PotsuLovesick.m4a
-21:yt/chilledcow/ChilledCow_BoxBoysDisability.m4a
-22:yt/mellowbeatseeker/MellowbeatSeeker_SoulituneMaturity.m4a
-23:yt/lofihiphop/LofiHipHop_SoulituneIntimacy.m4a
-24:yt/chilledcow/ChilledCow_AsoLoungin.m4a
-25:yt/chilledcow/ChilledCow_FlovryCarRadio.m4a
-26:yt/chilledcow/ChilledCow_JoakimKarudDreams.m4a
-27:yt/chilledcow/ChilledCow_TomMischWonder.m4a
-28:yt/mellowbeatseeker/MellowbeatSeeker_YOOYONGSOO_10am.m4a
-29:yt/neowavemusic/NeowaveMusic_BotWLofi.m4a
-30:yt/chilledcow/ChilledCow_SteezyPrimeExplore.m4a
-31:yt/chilledcow/ChilledCow_JustBigHillsShinjuku.m4a
-32:yt/mellowbeatseeker/MellowbeatSeeker_Wofy_plan8.m4a
-33:yt/mellowbeatseeker/MellowbeatSeeker_SweetWilliam_Walkin.m4a
-34:yt/chillplace/ChillPlace_ZeldaAndLofi.m4a
-35:yt/chilledcow/ChilledCow_KalaidoHangingLanterns.m4a
-36:yt/chilledcow/ChilledCow_OrcaVibesGypsy.m4a
-37:yt/chilledcow/ChilledCow_SugiwaRememberMe.m4a
-38:yt/synth/Synth_AtCafe.m4a
-39:yt/mellowbeatseeker/MellowbeatSeeker_SlipfuncCherrySmile.m4a
-40:yt/chilledcow/ChilledCow_KazamRaindrops.m4a
-41:yt/mellowbeatseeker/MellowbeatSeeker_BurbankASaint.m4a
-42:yt/nintendoandchill/NintendoAndChill_nintendoadlofi2.m4a
-43:yt/chilledcow/ChilledCow_TymuWalkWithMe.m4a
-44:yt/mellowbeatseeker/MellowbeatSeeker_WellCheeze.m4a
-45:yt/chillplace/ChillPlace_FinalFantasyIX.m4a
-46:yt/nintendoandchill/NintendoAndChill_nintendoadlofi1.m4a
+0:yt/chilledcow/ChilledCow_MattdeguiaDaylight.m4a
+1:yt/mellowbeatseeker/MellowbeatSeeker_OmarAwayFromHere.m4a
+2:yt/chilledcow/ChilledCow_OrcaVibesGypsy.m4a
+3:yt/chillplace/ChillPlace_PokemonAndLofi.m4a
+4:yt/synth/Synth_AtCafe.m4a
+5:yt/mellowbeatseeker/MellowbeatSeeker_WellCheeze.m4a
+6:yt/chillplace/ChillPlace_ZeldaAndLofi.m4a
+7:yt/chilledcow/ChilledCow_CharlieTooHuman_WalkInThePark.m4a
+8:yt/nintendoandchill/NintendoAndChill_nintendoadlofi2.m4a
+9:yt/mellowbeatseeker/MellowbeatSeeker_PianoShoegazerGhostlyLove.m4a
+10:yt/mellowbeatseeker/MellowbeatSeeker_KidInSeoul_TheMemoriesWeveSharedTheTimesSeveSpent.m4a
+11:yt/gamechops/GameChops_ZeldaAndChill.m4a
+12:yt/chilledcow/ChilledCow_KalaidoHangingLanterns.m4a
+13:yt/mellowbeatseeker/MellowbeatSeeker_BinBoyINeverWannaLeaveThisBed.m4a
+14:yt/chilledcow/ChilledCow_TomMischWonder.m4a
+15:yt/chilledcow/ChilledCow_PotsuxLandoBreakfast.m4a
+16:yt/mellowbeatseeker/MellowbeatSeeker_EdenByEdenNightcall.m4a
+17:yt/mellowbeatseeker/MellowbeatSeeker_PotsuLovesick.m4a
+18:yt/chilledcow/ChilledCow_ArtesiaHer.m4a
+19:yt/chilledcow/ChilledCow_NeoplasmaThinkingAboutYou.m4a
+20:yt/chilledcow/ChilledCow_MattQuentinHome.m4a
+21:yt/mellowbeatseeker/MellowbeatSeeker_SunYehoshuaHeartbreaker.m4a
+22:yt/chilledcow/ChilledCow_JustBigHillsShinjuku.m4a
+23:yt/chilledcow/ChilledCow_AsoLoungin.m4a
+24:yt/chilledcow/ChilledCow_TymuWalkWithMe.m4a
+25:yt/mellowbeatseeker/MellowbeatSeeker_SlipfuncCherrySmile.m4a
+26:yt/chilledcow/ChilledCow_SURF6am.m4a
+27:yt/mellowbeatseeker/MellowbeatSeeker_SoulituneMaturity.m4a
+28:yt/mellowbeatseeker/MellowbeatSeeker_BurbankASaint.m4a
+29:yt/chilledcow/ChilledCow_FlovryCarRadio.m4a
+30:yt/mellowbeatseeker/MellowbeatSeeker_AsokahIAlwaysSmileButMyEyesAreSad.m4a
+31:yt/chilledcow/ChilledCow_SugiwaRememberMe.m4a
+32:yt/mellowbeatseeker/MellowbeatSeeker_YOOYONGSOO_10am.m4a
+33:yt/mellowbeatseeker/MellowbeatSeeker_Wofy_plan8.m4a
+34:yt/chilledcow/ChilledCow_KazamRaindrops.m4a
+35:yt/chilledcow/ChilledCow_SURFTakeCare.m4a
+36:yt/mellowbeatseeker/MellowbeatSeeker_NawhijWithYou.m4a
+37:yt/nintendoandchill/NintendoAndChill_nintendoadlofi1.m4a
+38:yt/chilledcow/ChilledCow_MattQuentinWaves.m4a
+39:yt/chilledcow/ChilledCow_SteezyPrimeExplore.m4a
+40:yt/chillplace/ChillPlace_FinalFantasyIX.m4a
+41:yt/lofihiphop/LofiHipHop_ChuckeeGoinFar.m4a
+42:yt/mellowbeatseeker/MellowbeatSeeker_MRSJArrietty.m4a
+43:yt/chilledcow/ChilledCow_BoxBoysDisability.m4a
+44:yt/chilledcow/ChilledCow_BLVKUnderTheTrees.m4a
+45:yt/mellowbeatseeker/MellowbeatSeeker_IwamizuTheGirlFromFrance.m4a
+46:yt/lofihiphop/LofiHipHop_SoulituneIntimacy.m4a
 47:yt/mellowbeatseeker/MellowbeatSeeker_BENJAMINKEYSingingInTheRain.m4a
-48:yt/chilledcow/ChilledCow_CharlieTooHuman_WalkInThePark.m4a
-49:yt/mellowbeatseeker/MellowbeatSeeker_BinBoyINeverWannaLeaveThisBed.m4a
-50:yt/mellowbeatseeker/MellowbeatSeeker_SunYehoshuaHeartbreaker.m4a
-51:yt/lofihiphop/LofiHipHop_ChuckeeGoinFar.m4a
-52:yt/mellowbeatseeker/MellowbeatSeeker_MRSJArrietty.m4a
-53:yt/chilledcow/ChilledCow_MattdeguiaDaylight.m4a
+48:yt/chilledcow/ChilledCow_JoakimKarudDreams.m4a
+49:yt/mellowbeatseeker/MellowbeatSeeker_SweetWilliam_Walkin.m4a
+50:yt/mellowbeatseeker/MellowbeatSeeker_StayTuned_AreYouThere.m4a
+51:yt/nintendoandchill/NintendoAndChill_nintendoadlofi3.m4a
+52:yt/neowavemusic/NeowaveMusic_BotWLofi.m4a
+53:yt/chilledcow/ChilledCow_Nikomw_SquidEthics.m4a
 playlist_end

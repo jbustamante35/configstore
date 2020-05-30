@@ -4,7 +4,8 @@
 conky.config = {
     -- Windows
     own_window             = true,
-    own_window_type        = 'override',
+    --own_window_type        = 'override',
+    own_window_type        = 'desktop',
     own_window_class       = 'Conky',
     own_window_title       = 'Monitor Conky',
     own_window_hints       = 'undecorated,below,sticky,skip_taskbar,skip_pager',
@@ -47,9 +48,9 @@ conky.config = {
     font                   = 'Cantarell:size=12',
 
     -- Font Colors [Keys | Apps | Headin]
-    default_color = 'F8E243',
-    color2        = 'ffffff',
-    color3        = 'C9665B'
+    default_color = 'ffffff',
+    color2        = 'ffe81f',
+    color3        = '1968c7',
 }
 
 -- TEXT

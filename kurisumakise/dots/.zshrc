@@ -34,6 +34,11 @@ if [ -f $fncs ]; then
     source $fncs
 fi
 
+envs=~/.envs
+if [ -f $envs ]; then
+    source $envs
+fi
+
 shrt=~/.scripts/shortcuts.sh
 if [ -f $shrt ]; then
     bash $shrt

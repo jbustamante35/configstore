@@ -1,7 +1,9 @@
 #!/bin/sh
 # Switches the soft link to $HOME/.config/rofi/rofi_theme.rasi
 
-rofi_path="$(ls $HOME/.config/rofi/themes | dmenu -l 50)"
+rofi_dir="$HOME/.config/rofi/themes"
+rofi_path="$(ls $rofi_dir | dmenu -l 50)"
 curr_theme="$HOME/.config/rofi/rofi_theme.rasi"
 
-ln -sf "themes/$rofi_path" "$curr_theme"
+#echo ln -sf "$rofi_dir/$rofi_path" "$curr_theme"
+ln -sf "$rofi_dir/$rofi_path" "$curr_theme"

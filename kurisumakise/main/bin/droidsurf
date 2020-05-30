@@ -6,7 +6,7 @@
 browser="$1"
 app="$2"
 
-
+# Select application
 case $app in
     droid)
         url="https://messages.google.com/web/conversations"
@@ -26,8 +26,12 @@ case $app in
     spotify)
         url="https://open.spotify.com/browse"
         ;;
+    plex)
+        url="https://app.plex.tv/desktop"
+        ;;
 esac
 
+# Select browser
 case $browser in
     chrome)
         web="chrome"
@@ -54,5 +58,4 @@ esac
 
 "$web" "$cmd"
 #"$web" "$url"
-
 

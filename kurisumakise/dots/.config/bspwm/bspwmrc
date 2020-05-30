@@ -69,9 +69,16 @@ bspc config normal_border_color  \#243344
 
 
 ############################ Workspace Management #############################
-bspc monitor eDP1 -d A1 A2 A3 A4 A5 # Primary
-bspc monitor DP1  -d S1 S2 S3 S4 S5 # Home AOC or Left Dell
-bspc monitor DP3  -d B1 B2 B3 B4 B5 # Right Dell
+bspc monitor eDP-1-1 -d 1 2 3 4 5 6 7 8 9 10 # Single Display [nvidia]
+
+#bspc monitor eDP-1-1 -d 1 2 3 4 5  # Main display [nvidia]
+#bspc monitor DP-1-3  -d 6 7 8 9 10 # TCL Roku 55"
+#bspc monitor eDP1 -d A1 A2 A3 A4 A5 # Primary
+#bspc monitor DP1  -d S1 S2 S3 S4 S5 # Home AOC or Left Dell
+#bspc monitor DP3  -d B1 B2 B3 B4 B5 # Right Dell
+
+#bspc monitor eDP1 -d A1 A2 A3 A4 A5 # Primary
+#bspc monitor DP3  -d B1 B2 B3 B4 B5 # Jacob's LG Monitor
 
 # Application rules
 # Editors [monitor 08]
@@ -110,6 +117,6 @@ bspc rule -a URxvt:pulsemixer state=floating follow=on
 ## Add default lemonbar panel for now
 #panel &
 polybar -c ~/.config/polybar/polybar.conf main -q --reload      &
-polybar -c ~/.config/polybar/polybar.conf secondary -q --reload &
-polybar -c ~/.config/polybar/polybar.conf tertiary -q --reload &
+#polybar -c ~/.config/polybar/polybar.conf secondary -q --reload &
+#polybar -c ~/.config/polybar/polybar.conf tertiary -q --reload &
 

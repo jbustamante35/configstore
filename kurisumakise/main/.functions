@@ -23,22 +23,6 @@ drchk () {
     dropbox-cli filestatus ;
 }
 
-## unzip into directory of the same name
-#uzp () {
-#    nm=$1
-#    unzip "$nm".zip -d "$nm"
-#}
-
-# unzips all zip files in directory with custom unzip command
-#uzp_all () {
-#    #din="$(ls *.zip)"
-#    din=$($PWD/*.zip)
-#    echo "$din"
-#    for fin in $din; do
-#        echo $fin;
-#    done
-#}
-
 # Reload color schemes
 clrs () {
     xrdb -load ~/.cache/wal/colors.Xresources;
@@ -77,7 +61,11 @@ lse () {
             ;;
         2)
             # Search through current directory tree
-            "$app" "$(locate "$(pwd)/*$typ" | fzf)"
+            "$app" "$(tree -Nif | egrep -i  "*$typ" | fzf)"
+            ;;
+        3)
+            # Search file contents instead of files
+            "$app" "$(ag -Qil "$typ" | fzf)"
             ;;
         *)
             # Default to version 1
@@ -103,7 +91,7 @@ mvid () {
     esac
 }
 
-# Start tmux session on remote host
+# Start tmux session on remote host [doesn't work]
 tsh () {
     host="$1"
     ssnname="$2"
@@ -119,39 +107,17 @@ tsh () {
 }
 
 # View VNC display
-vnc2me () {
-    dsp="$1"
-    vncviewer localhost:"$dsp" -passwd ~/.vnc/passwd
-}
+vpnj () {
+    vpn="openconnect"
+    killme="$1"
+    megakill "$vpn" 1
 
-# Screenshot setup
-shttr () {
-    pdir="$HOME/Pictures/screenshots/"
-    sel="$1"
-    #fout=$pdir/'%y%m%d_$wx$h_$n.png'
-
-#    case "$sel" in
-#        s)
-#            # Selected window
-#            scrot -s -e 'mv $f "$pdir"'
-#            ;;
-#        u)
-#            # Active window
-#            scrot -u -e 'mv $f "$pdir"'
-#            ;;
-#        f)
-#            # Full screen
-#            scrot -e 'mv $f "$pdir"'
-#            ;;
-#        *)
-#            # Default to full screen
-#            scrot -e 'mv $f' $pdir"
-#            ;;
-#    esac
-
-    scrot "$sel" -e 'mv $f "$pdir.png"'
-    printf "sel: $sel | dir: $pdir | fout: $f"
-
+    case "$killme" in
+        k) ;;
+        *)
+            sudo "$vpn" --protocol=gp uwmadison.vpn.wisc.edu -u jbustamante -b
+            ;;
+    esac
 }
 
 # Convert color image to grayscale
@@ -161,3 +127,52 @@ cl2gr () {
     convert "$fin" -set colorspace Gray -separate -average "$fout"
 }
 
+# Clock CPU or Core temperatures
+clock_cpu () {
+    int="$2"
+    case "$1" in
+        speed)
+            cmd='cat /proc/cpuinfo'
+            regex="MHz"
+            ;;
+
+        temps)
+            cmd="sensors"
+            regex="Core "
+            ;;
+
+        fans)
+            cmd="sensors"
+            regex="fan"
+            ;;
+
+        *) ;;
+    esac
+
+    echo watch -n $int "$cmd | grep $regex |"
+    watch -n $int "$cmd | grep $regex"
+}
+
+# Check hwmon or thermal devices
+check_devices () {
+    case "$1" in
+        hwmon)
+            din="/sys/class/hwmon/hwmon*"
+            fin="name"
+            ;;
+
+        thermal)
+            din="/sys/class/thermal/thermal_zone*"
+            fin="type"
+            ;;
+        *)
+            echo "Enter [hwmon|thermal]"
+            din=""
+            fin=""
+            ;;
+    esac
+
+    for i in "$din"; do
+        echo "$i: $(<$i/"$fin")";
+    done
+}

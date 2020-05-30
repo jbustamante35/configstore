@@ -10,7 +10,7 @@ URxvt*saveLines:       40000
 URxvt*loginShell:      true
 URxvt*intensityStyles: false
 URxvt*depth:           32
-URxvt*background:      [90]#000000
+URxvt*background:      [95]#000000
 URxvt*scrollBar:       false
 URxvt*cursorColor:     cyan
 URxvt*cursorBlink:     1
@@ -26,8 +26,10 @@ URxvt*internalBorder:  5
 !! Fonts
 #define font1         Source Code Pro
 #define font2         Inconsolata
-#define font3         Droid Sans Mono
-#define font4         DejaVu Sans Mono
+#define font3         Symbola
+#define font4         EmojiOne Color
+!#define font3         Droid Sans Mono
+!#define font4         DejaVu Sans Mono
 
 URxvt*font:           xft:font1:pixelsize=16, \
                       xft:font2:pixelsize=14:minspace=false, \

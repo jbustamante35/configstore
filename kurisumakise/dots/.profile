@@ -32,10 +32,11 @@ GOROOT='/usr/lib/go'
 GOPATH=/home/jbustamante/go
 RUBYPATH=/home/jbustamante/.gem/ruby/2.6.0
 #PYTHON=/usr/bin/python
+MEDNAFEN_HOME=$HOME/.config/mednafen
 
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 export TERMINAL=urxvt
-export BROWSER=brave
+export BROWSER=firefox
 export EDITOR=nvim
 export PATH=$PATH:$MYPATH:$MYBIN:$GOROOT/bin:$GOPATH/bin:$RUBYPATH/bin
 

@@ -1,0 +1,11 @@
+# My personalized mappings
+# - F7  without Fn maps to nothing
+# - F8  without Fn maps Super_L for some reason and selects all windows
+# - F10 without Fn maps backlight by default, even when paired with Meta keys
+# - F3 with Alt (XF86AudioRaiseVolume) mapping doesn't work, and needs to be F3
+# - F4 with Alt (XF86AudioPrev) mapping doesn't work, and needs to be F4
+# - F7 with Alt maps to nothing
+# - F8 with Alt (XF86Search) maps 'p' for some strange reason
+# - F7 with Alt (XF86Search) maps 'p' for some strange reason
+
+

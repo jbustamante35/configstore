@@ -1,4 +1,5 @@
 ba      ~/.aliases
+be      ~/.envs
 bf      ~/.functions
 br      ~/.bashrc
 bp      ~/.profile
@@ -24,5 +25,6 @@ ck5     ~/.config/conky/shopping
 ck6     ~/.config/conky/zeldatime
 zp      ~/.zprofile
 za      ~/.aliases
+ze      ~/.envs
 zf      ~/.functions
 zr      ~/.zshrc

@@ -1,0 +1,20 @@
+#!/bin/sh
+delay="$1"
+sel="$2"
+
+#SCREENSHOT_DIR="$HOME/Pictures/screenshots"
+#SCREENSHOT_NAME='%y%m%d_%H%M%S_$capture.png'
+
+case $sel in
+    a)
+        capture="full"
+        echo "Capturing all screens"
+        scrot '%y%m%d_%H%M%S_full.png' -e 'mv $f ~/Pictures/screenshots' -c -d "$delay"
+        ;;
+    *)
+        capture="select"
+        echo "Select screen to capture"
+        scrot '%y%m%d_%H%M%S_select.png' -e 'mv $f ~/Pictures/screenshots' -u -c -d "$delay"
+        ;;
+esac
+
