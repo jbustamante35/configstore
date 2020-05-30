@@ -13,6 +13,10 @@ case $num in
         "$layouts"/dualScreen.sh
         ;;
 
+    2b)
+        "$layouts"/dualScreen2.sh
+        ;;
+
     3)
         "$layouts"/tripleScreen.sh
         ;;

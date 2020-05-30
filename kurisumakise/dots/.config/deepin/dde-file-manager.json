@@ -1,0 +1,23 @@
+{
+    "BookMark": {
+        "Items": [
+            {
+                "created": "2019-12-24T22:17:17",
+                "lastModified": "2019-12-24T22:17:17",
+                "locateUrl": "home/jbustamante/Dropbox",
+                "mountPoint": "device:/dev/nvme0n1p3",
+                "name": "Dropbox",
+                "url": "file:///home/jbustamante/Dropbox"
+            }
+        ]
+    },
+    "GenericAttribute": {
+        "AutoMount": true,
+        "ShowedFileSuffixOnRename": false
+    },
+    "SideBar/ItemOrder": {
+        "bookmark": [
+            "bookmark:file:///home/jbustamante/Dropbox?mount_point=device:/dev/nvme0n1p3&locate_url=home/jbustamante/Dropbox#Dropbox"
+        ]
+    }
+}

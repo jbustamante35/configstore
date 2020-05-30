@@ -1,0 +1,39 @@
+#!/bin/sh
+# Setup VNC to JDev
+num="$1"
+kill="$2"
+host="jdev"
+
+case $num in
+    1)
+        disps=(5902)
+        ;;
+    2)
+        disps=(5902 5903)
+        ;;
+    3)
+        disps=(5902 5903 5904)
+        ;;
+    *)
+        echo "Only 3 displays can be setup"
+        exit
+        ;;
+esac
+
+if [ "$kill" -eq 1 ]; then
+    # Kill all working VNC connections
+    megakill ssh 1 ;
+fi
+
+# Set up VNC displays
+for (( i=0; i<"$num"; i=i+1 )); do
+    vncsetup "${disps[$i]}" "$host" &
+done
+
+sleep 1;
+
+# View VNC displays
+for (( i=0; i<"$num"; i=i+1 )); do
+    vnc2me "${disps[$i]}" &
+done
+

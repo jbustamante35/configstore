@@ -1,0 +1,13 @@
+show_frame=true
+fg_set=false
+bg_set=false
+timezone=America/Los_Angeles
+width_set=false
+height_set=false
+lines_vertically=true
+rotation=0
+data0=\ ( %a )  %m.%d.%y [ %H:%M %p ]\ 
+font0=Sans 10
+tooltip=%A %d %B %Y/%V
+hib_timing=true
+

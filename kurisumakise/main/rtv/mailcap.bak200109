@@ -1,0 +1,51 @@
+###############################################################################
+#                                  _
+#                             _ __| |___   __
+#                            | '__| __\ \ / /
+#                            | |  | |_ \ V /
+#                            |_|   \__| \_/
+#
+###############################################################################
+#
+#                              Mailcap 101
+# - The first entry with a matching MIME type will be executed, * is a wildcard
+# - %s will be replaced with the image or video url
+# - Add ``test=test -n "$DISPLAY"`` if your command opens a new window
+# - Add ``needsterminal`` for commands that use the terminal
+# - Add ``copiousoutput`` for commands that dump text to stdout
+
+###############################################################################
+# Commands below this point will open media in a separate window without
+# pausing execution of RTV.
+###############################################################################
+
+# Images
+# Note that rtv returns a list of urls for imgur albums, so we don't put quotes
+# around the `%s`
+#image/x-imgur-album; feh -g 1920x1080 %s;                     test=test -n "$DISPLAY"
+#image/gif;           mpv '%s' --autofit 1920x1080 --loop=inf; test=test -n "$DISPLAY"
+#image/*;             feh -g 1920x1080 '%s';                   test=test -n "$DISPLAY"
+image/x-imgur-album; feh -Z --scale-down %s;                     test=test -n "$DISPLAY"
+image/gif;           mpv '%s' --autofit 640x360 --loop=inf; test=test -n "$DISPLAY"
+image/*;             feh -g 640x360 --scale-down '%s';                   test=test -n "$DISPLAY"
+
+# Videos
+video/x-youtube; mpv --ytdl-format=bestvideo+bestaudio/best '%s' --autofit 1920x1080; test=test -n "$DISPLAY"
+#video/x-youtube; vlc '%s' --width 640 --height 480; test=test -n "$DISPLAY"
+
+# Mpv is a simple and effective video streamer
+video/*; mpv '%s' --autofit 1920x1080 --loop=inf; test=test -n "$DISPLAY"
+
+###############################################################################
+# Commands below this point will attempt to display media directly in the
+# terminal when a desktop is not available (e.g. inside of an SSH session)
+###############################################################################
+
+# View true images in the terminal, supported by rxvt-unicode, xterm and st
+#image/*; w3m -o 'ext_image_viewer=off' '%s'; needsterminal
+image/*; w3m -o 'ext_image_viewer=on' '%s'; needsterminal
+
+# Full motion videos - requires a framebuffer to view
+video/x-youtube; mpv -vo drm -quiet '%s'; needsterminal
+video/*;         mpv -vo drm -quiet '%s'; needsterminal
+

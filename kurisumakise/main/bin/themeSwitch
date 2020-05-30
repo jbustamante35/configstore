@@ -1,0 +1,51 @@
+#!/bin/sh
+#
+# themeSwitch
+# Toggle between night and day desktop themes
+# Copyright (C) 2020 jbustamante <jbustamante@KurisuMakise>
+#
+# Distributed under terms of the MIT license.
+#
+
+regencolors="/home/jbustamante/bin/regencolors"
+myconky="/home/jbustamante/bin/myconky"
+
+theme="$1"
+quote="$2"
+DEBUG="$3"
+
+main_pic="/home/jbustamante/.config/wall.jpg"
+main_pywal="wal"
+main_quote="/home/jbustamante/Dropbox/Misc/config/conky/quote"
+
+case "$theme" in
+    day)
+        pic="/home/jbustamante/.config/wall_day.jpg"
+        pywal="colorz"
+        ;;
+
+    night)
+        pic="/home/jbustamante/.config/wall_night.jpg"
+        pywal="wal"
+        ;;
+    *)
+        pic="$main_pic"
+        pywal="$main_pywal"
+        ;;
+esac
+
+case "$DEBUG" in
+    1)
+        printf "ln -sf ${pic} ${main_pic}\n"
+        printf "${regencolors} ${pywal} 1\n"
+        printf "fortune -e ${quote} > ${main_quote}/${quote}.txt\n"
+        printf "pkill conky && ${myconky} ;\n"
+        ;;
+    *)
+        ln -sf "$pic" "$main_pic"
+        "$regencolors" "$pywal" 1
+        fortune -e "$quote" > "$main_quote/$quote.txt"
+
+        pkill conky && "$myconky" ;
+        ;;
+esac

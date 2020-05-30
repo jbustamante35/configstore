@@ -1,0 +1,13 @@
+#!/bin/sh
+# Download image from url, store into cache directory and view with sxiv
+
+app="$1"
+url="$2"
+dir="$HOME/.cache/sxiv/web"
+img="sxiv_image.jpg"
+
+curl -o "$dir/$img" "$url"
+
+# View image or play video
+"$app" "$dir/$img"
+

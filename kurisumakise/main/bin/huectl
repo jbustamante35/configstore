@@ -1,0 +1,164 @@
+#!/bin/sh
+# huectl: Set a mood for your hue lights!
+#
+# Usage:
+#       huectl id mood
+#
+# Parameters:
+#       id: alias of Hue Bridge [eaglesnest|jacbo]
+#       mood: activate 1 of 4 lighting themes [on|off|work|movie]
+#
+# Brightness between 1 - 254
+# Temperature between 154 - 500
+
+# Information
+id="$1"
+mood="$2"
+notify="$4"
+
+#hue="/usr/local/bin/huecli"
+huerun=dotnet
+huepath=/home/jbustamante/Documents/apps/huecli/bin/Debug/netcoreapp2.0/huecli.dll
+hue="$huerun $huepath"
+num=3
+sleep_time=1
+minbrite=20
+maxbrite=254
+mintemp=500
+maxtemp=154
+
+
+# Set the mood
+if [ -z $notify ]; then
+    msg="Setting $num lights to $mood mode."
+    notify-send "Hue Control" "$msg" -u low ;
+fi
+
+case $mood in
+    on)
+        # Turn on all lights
+        for ((i=1; i <= $num; i++)); do
+            $hue turn-on "$id" "$i" &
+        done
+        ;;
+
+    off)
+        # Turn off all lights
+        for ((i=1; i <= $num; i++)); do
+            $hue turn-off "$id" "$i" &
+        done
+        ;;
+
+    work)
+        # Bright light for studying
+        huectl "$id" on
+        for ((i=1; i <= $num; i++)); do
+            $hue set-brightness  "$id" "$i" "$maxbrite" &
+            $hue set-temperature "$id" "$i" "$maxtemp" &
+        done
+        ;;
+
+    movie)
+        # Dim lighting for watching movies
+        huectl "$id" on
+        for ((i=1; i <= $num; i++)); do
+            $hue set-brightness  "$id" "$i" "$maxbrite" &
+            $hue set-temperature "$id" "$i" "$mintemp" &
+        done
+        ;;
+
+    blink)
+        # Blink lights as notification
+        blinks="$3"
+        for ((i=1; i <= $blinks; i++)); do
+            huectl "$id" off
+            huectl "$id" on
+        done
+        ;;
+
+    fireplace)
+        # Blink lights as notification
+
+        # Sub-functions
+        # Random number
+        getRand () {
+            if [ $# -ne 2 ]; then
+                echo -e "\nUsage:\t$0 START END\n"
+                exit 1
+            fi
+
+            DIFF=$(($2-$1+1))
+            RANDOM=$$
+
+            R=$(($(($RANDOM%$DIFF))+$1))
+            S=$(($(($RANDOM%$DIFF))+$1))
+            echo $R $S
+        }
+
+        # Light setting
+        setLight () {
+            id="$1"
+            idx="$2"
+            brite="$3"
+            temp="$4"
+
+            $hue set-brightness  "$id" "$idx" "$brite" &
+            $hue set-temperature "$id" "$idx" "$temp"
+        }
+
+        # Cycle lights like a fireplace
+        cycles="$3"
+        verbose="$4"
+        for i in `seq $cycles`; do
+            # Get random numbers
+            B1=$(getRandomNumbers 40   254  1)
+            B2=$(getRandomNumbers 120  254  1)
+            B3=$(getRandomNumbers 100  254  1)
+            T1=$(getRandomNumbers 400  500 1)
+            T2=$(getRandomNumbers 400  500 1)
+            T3=$(getRandomNumbers 480  500 1)
+
+            # Set lights
+            setLight "$id" 1 $B1 $T1 &
+            setLight "$id" 2 $B2 $T2 &
+            setLight "$id" 3 $B3 $T3
+
+            # Debug values
+            if [ ! -z $verbose ]; then
+                echo "Cycle $i of $cycles"
+                echo Light 1 $B1 $T1
+                echo Light 2 $B2 $T2
+                echo Light 3 $B3 $T3
+                echo ""
+            fi
+        done
+        ;;
+
+# Brightness between 1 - 254
+# Temperature between 154 - 500
+
+    c)
+        # Set custom brightness and temperature for specific light
+        ;;
+
+    *)
+        # Print help
+        echo "huectl: Set a mood for your hue lights!"
+        echo ""
+        echo "Usage:"
+        echo "      huectl id mood [blink_number|fireplace_cycles] verbose"
+        echo ""
+        echo "Parameters:"
+        echo "      id: alias of Hue Bridge [eaglesnest|jacbo]"
+        echo "      mood: activate 1 of 4 lighting themes [on|off|work|movie|blink|fireplace]"
+        notify="1"
+        sleep_time=0
+        ;;
+esac
+
+if [ -z $notify ]; then
+    sleep "$sleep_time" ;
+    notify-send "Hue Control" "Done!" -u low ;
+fi
+
+

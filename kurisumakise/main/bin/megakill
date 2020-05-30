@@ -1,0 +1,19 @@
+#!/bin/sh
+# MegaKill
+process="$1"
+super="$2"
+
+# Super killer
+case $super in
+    1)
+        sudo pkill $process
+        sudo killall $process
+        ;;
+    *)
+        ;;
+esac
+
+# Normal killer
+pkill $process
+killall $process
+

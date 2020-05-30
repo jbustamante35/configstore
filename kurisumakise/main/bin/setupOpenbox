@@ -11,16 +11,19 @@ setScreens 1 ;
 # Touchpad and mouse
 touchpadctl tap
 unclutter -idle 2 &
-idesk &
+#idesk &
 
 # MPD | Compton | Conky | Dunst
-mpd &
+#mpd &
 #myconky 1 &
-dunst   -config ~/.config/dunst/dunstrc &
-compton --config ~/.config/compton/compton.conf -b &
+#dunst   -config ~/.config/dunst/dunstrc &
+compton --config ~/.config/compton/compton_remote.conf -b &
 
 # URxvt daemon
 urxvtd -q -o -f &
 
 # Setup Xfce Panel.
-#xfce4-panel &
+xfce4-panel &
+
+
+

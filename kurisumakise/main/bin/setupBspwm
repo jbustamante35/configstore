@@ -3,10 +3,11 @@
 ## Startup script for Bspwm
 
 # Kill running daemons
-killall dunst & killall conky & killall compton & killall polybar & mpd --kill ;
+killall dunst & killall conky & killall picom & killall polybar & mpd --kill ;
 
 # Set displays
-setScreens 3;
+#setScreens 2b;
+setScreens 1;
 
 # Set Xresources and wallpaper
 regencolors "$WALEND" 1
@@ -20,15 +21,14 @@ dropbox-cli start
 # Touchpad tap
 touchpadctl tap
 
-# MPD | Compton | Conky | Dunst
+# MPD | Picom | Conky | Dunst
+# Picom was formerly Compton
 mpd &
 myconky &
-dunst   -config ~/.config/dunst/dunstrc &
-compton --config ~/.config/compton/compton.conf -b  ;
+dunst -config ~/.config/dunst/dunstrc &
+picom --config ~/.config/compton/picom.conf -b  ;
 
-# URxvt daemon
-urxvtd -q -o -f
-
-# Enable GPU
-#systemctl restart disable-nvidia-on-shutdown.service
-
+# Misc tasks
+unclutter --timeout 10 --ignore-scrolling --jitter 5 --fork &
+urxvtd -q -o -f &
+protonmail-bridge --noninteractive &

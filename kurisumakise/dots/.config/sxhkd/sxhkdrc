@@ -19,26 +19,6 @@
 #          ;`+ + :  +@#  `  :@@@@@#@# @@: :@+ `@@`  @`, +,
 #           @'`##   ''`##@@@.,@@@@,:..@@ ;@+@@ +@#  `@#'#+
 #            @++      @@@@@@@ #@@@@@:#@@ @' `@ :@@    ##;
-#            .@'     `@@.  +@+`@@@@#;.@@ @@ ;@ '@+  ` @@
-#             #`    `:@#.`#`@@       .@@` @@@, @@+   `+`
-#             :,   ` :@@`'+.@@       `@@@  `` +#@     @
-#              +    ``@@, `@@;         @@@+.;@#@:     @
-#              @     `'@@@@@@          `@#@@@@@:     `+
-#              '`      :@@@'             :#@#+```    #`
-#               @      `                        `    @
-#               ',      `                        `  @`
-#
-#                   ###### #### ###### #     # #######
-#                    #   # #     #   # #  #  # #  #  #
-#                   ###### #### ###### #  #  # #  #  #
-#                    #   #    #  #     #  #  # #  #  #
-#                   ###### ####  #     ####### #     #
-#
-####################### SXHD Shortcuts and Keybindings ########################
-
-
-###############################################################################
-############################## Hardware Control ###############################
 ###############################################################################
 
 ########################### Window Manager Control ############################
@@ -54,7 +34,7 @@ super + {_,shift + }q
 
 # power control [suspend | shutdown prompt]
 super + shift + p
-    systemctl suspend && lockScreen
+    lockScreen & systemctl suspend
 
 alt + Delete
     ~/.config/polybar/scripts/i3shutdown
@@ -88,11 +68,17 @@ XF86MonBrightnessDown
 shift + XF86MonBrightnessDown
     xbacklight -dec 10
 
+ctrl + XF86MonBrightnessDown
+    xbacklight -dec 1
+
 XF86MonBrightnessUp
     xbacklight -inc 5
 
 shift + XF86MonBrightnessUp
     xbacklight -inc 10
+
+ctrl + XF86MonBrightnessUp
+    xbacklight -inc 1
 
 ctrl + shift + XF86MonBrightnessDown
     xbacklight -set 1
@@ -121,7 +107,7 @@ super + Return
     urxvt
 
 super + shift + Return
-    primusrun kitty
+    kitty
 
 super + grave
     urxvtc
@@ -139,7 +125,7 @@ super + b
     kitty -e tmux
 
 super + shift + b
-    primusrun kitty -e tmux
+    kitty -e tmux
 
 # Program launcher
 super + d
@@ -152,7 +138,7 @@ ctrl + alt + d
 super + r
     urxvt -e ranger
 
-super + ctrl + r
+super + alt + r
     romoji
 
 super + ctrl + p
@@ -173,15 +159,18 @@ alt + ctrl + h
 alt + shift + h
     urxvt -name nvtop -e nvtop
 
+ctrl + alt + x
+    showSongInfo
+
 ############################### Misc Utilities ################################
 # Browsers [brave , firefox , qutebrowser , surf]
 super + shift + f
     firefox
 
 super + shift + g
-    brave-beta
+    brave
 
-ctrl  + shift + g
+alt + shift + g
     google-chrome-beta
 
 super + shift + h
@@ -193,10 +182,10 @@ ctrl + shift + h
 ## Misc applications [touchpad, mpd, screenshot, screenrecord, vimwiki]
 # Touchpad
 alt + t
-    touchpadctl dev
+    touchpadctl dev 1
 
-ctrl + super + t
-    touchpadctl tap
+ctrl + alt + t
+    touchpadctl tap 1
 
 # MPD
 XF86AudioPrev
@@ -220,7 +209,7 @@ alt + p
 
 # Function applications [Fn Keys]
 super + XF86AudioMute
-    optirun -b primus nvidia-settings -c :8
+    nvidia-settings
 
 super + XF86AudioLowerVolume
     gpmdp
@@ -244,21 +233,21 @@ super + XF86Display
     discord
 
 super + XF86Search
-    primusrun krita
+    krita
 
 # Must hold Fn key [can't override keyboard brightness]
 super + F10
-    primusrun inkscape
+    inkscape
 
 super + XF86MonBrightnessDown
-    primusrun gimp
+    gimp
 
 super + XF86MonBrightnessUp
-    primusrun fiji
+    fiji
 
 # Alternative Function applications [Alt + Fn Keys]
 alt + XF86AudioMute
-    pamac-manager
+    droidsurf chrome plex
 
 alt + XF86AudioLowerVolume
     urxvt -name ncmpcpp -e ncmpcpp
@@ -272,7 +261,7 @@ alt + F4
     arandr
 
 alt + XF86AudioPlay
-    optirun -b primus steam
+    steam
 
 alt + XF86AudioNext
     urxvt -e neomutt -F ~/.config/mutt/gmail.muttrc -f ~/Mail/gmail/INBOX
@@ -282,18 +271,17 @@ alt + F7
 
 # Must hold Fn key [can't override odd paste function]
 alt + F8
-    urxvt -name conkyconf -e nvim ~/Dropbox/Misc/config/conky/notepad/todo.md
+    urxvt -e neomutt -F ~/.config/mutt/pmail.muttrc -f ~/Mail/pmail/INBOX
 
 alt + XF86Search
-    urxvt -name conkyconf -e nvim ~/Dropbox/Misc/config/conky/notepad/shopping.md
+    urxvt -name conkyconf -e nvim ~/Dropbox/Misc/config/conky/notepad/todo.md
 
 # Must hold Fn key [can't override keyboard brightness]
 alt + F10
-    xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources
+    urxvt -name conkyconf -e nvim ~/Dropbox/Misc/config/conky/notepad/shopping.md
 
 alt + XF86MonBrightnessDown
-    regencolors "$WALEND" 1 -l
-    #regencolors schemer 1 -l
+    xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources
 
 alt + XF86MonBrightnessUp
     regencolors "$WALEND" 1
@@ -340,12 +328,12 @@ super + {_,shift + }{1-9,0}
     bspc {desktop -f,node -d} '^{1-9,10}'
 
 # Use alt + 1-5 to send to secondary display
-alt + {_,shift + }{1,2,3,4,5}
-    bspc {desktop -f,node -d} '^{6,7,8,9,10}'
+#alt + {_,shift + }{1,2,3,4,5}
+    #bspc {desktop -f,node -d} '^{6,7,8,9,10}'
 
 # Use alt + 6-9,0 to send to tertiary display
-ctrl + {_,shift + }{1,2,3,4,5}
-    bspc {desktop -f,node -d} '^{11,12,13,14,15}'
+#ctrl + {_,shift + }{1,2,3,4,5}
+    #bspc {desktop -f,node -d} '^{11,12,13,14,15}'
 
 # Toggle window from scratchpad
 super + {shift +}minus
@@ -367,7 +355,8 @@ super + {_,shift + }w
 super + ctrl + {j,k,l,semicolon}
     bspc node -p {west,south,north,east}
 
-super + ctrl + {1-9}
+#super + ctrl + {1-9}
+super + alt + {1-9}
     bspc node -o 0.{1-9}
 
 # Set split orientation [h: horizontal (east) | v: vertical (south)]
@@ -422,5 +411,3 @@ super + {t,shift + t,shift + space,f}
 
 super + ctrl + {m,x,y,z}
     bspc node -g {marked,locked,sticky,private}
-
-
