@@ -1,0 +1,11 @@
+/home/jbustamante/.config/nvim/bundle/vim-markdown-composer/target/release/deps/libbase64-87663ca46a41dd0b.rlib: /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/lib.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/chunked_encoder.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/display.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/line_wrap.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/tables.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/encode.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/decode.rs
+
+/home/jbustamante/.config/nvim/bundle/vim-markdown-composer/target/release/deps/base64-87663ca46a41dd0b.d: /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/lib.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/chunked_encoder.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/display.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/line_wrap.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/tables.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/encode.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/decode.rs
+
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/lib.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/chunked_encoder.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/display.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/line_wrap.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/tables.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/encode.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.9.3/src/decode.rs:

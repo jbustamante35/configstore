@@ -1,0 +1,10 @@
+/home/jbustamante/.config/nvim/bundle/vim-markdown-composer/target/release/deps/liberror_chain-872eefd103981c05.rlib: /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/lib.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/impl_error_chain_kind.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/error_chain.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/quick_main.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/example_generated.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/backtrace.rs
+
+/home/jbustamante/.config/nvim/bundle/vim-markdown-composer/target/release/deps/error_chain-872eefd103981c05.d: /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/lib.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/impl_error_chain_kind.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/error_chain.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/quick_main.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/example_generated.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/backtrace.rs
+
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/lib.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/impl_error_chain_kind.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/error_chain.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/quick_main.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/example_generated.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.1/src/backtrace.rs:

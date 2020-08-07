@@ -1,0 +1,11 @@
+/home/jbustamante/.config/nvim/bundle/vim-markdown-composer/target/release/deps/libcrc32fast-4419606ab01dbf4e.rlib: /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/lib.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/baseline.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/combine.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/specialized/mod.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/table.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/specialized/pclmulqdq.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/specialized/aarch64.rs
+
+/home/jbustamante/.config/nvim/bundle/vim-markdown-composer/target/release/deps/crc32fast-4419606ab01dbf4e.d: /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/lib.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/baseline.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/combine.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/specialized/mod.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/table.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/specialized/pclmulqdq.rs /home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/specialized/aarch64.rs
+
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/lib.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/baseline.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/combine.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/specialized/mod.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/table.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/specialized/pclmulqdq.rs:
+/home/jbustamante/.cargo/registry/src/github.com-1ecc6299db9ec823/crc32fast-1.2.0/src/specialized/aarch64.rs:
