@@ -10,3 +10,6 @@
 [help]
     autocorrect = 1
     browser     = 1
+[pull]
+	rebase = true
+	ff = only

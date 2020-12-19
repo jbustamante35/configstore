@@ -55,17 +55,17 @@ elseif !has( 'timers' )
   call s:restore_cpo()
   finish
 elseif ( v:version > 800 || ( v:version == 800 && has( 'patch1436' ) ) ) &&
-     \ !has( 'python_compiled' ) && !has( 'python3_compiled' )
+     \ !has( 'python3_compiled' )
   echohl WarningMsg |
         \ echomsg "YouCompleteMe unavailable: requires Vim compiled with " .
-        \ "Python (2.7.1+ or 3.5.1+) support." |
+        \ "Python (3.6.0+) support." |
         \ echohl None
   call s:restore_cpo()
   finish
-" These calls try to load the Python 2 and Python 3 libraries when Vim is
+" These calls try to load the Python 3 libraries when Vim is
 " compiled dynamically against them. Since only one can be loaded at a time on
 " some platforms, we first check if Python 3 is available.
-elseif !has( 'python3' ) && !has( 'python' )
+elseif !has( 'python3' )
   echohl WarningMsg |
         \ echomsg "YouCompleteMe unavailable: unable to load Python." |
         \ echohl None
@@ -205,6 +205,9 @@ let g:ycm_goto_buffer_command =
 
 let g:ycm_disable_for_files_larger_than_kb =
       \ get( g:, 'ycm_disable_for_files_larger_than_kb', 1000 )
+
+let g:ycm_auto_hover =
+      \ get( g:, 'ycm_auto_hover', 'CursorHold' )
 
 "
 " List of ycmd options.

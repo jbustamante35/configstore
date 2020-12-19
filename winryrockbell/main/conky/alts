@@ -12,39 +12,39 @@ conky.config = {
     own_window_transparent = true,
 
     -- Spacing
-    use_spacer             = 'left',
-    xftalpha               = 1,
-    gap_x                  = 15,
-    gap_y                  = 400,
+    use_spacer = 'left',
+    xftalpha   = 1,
+    gap_x      = 15,
+    gap_y      = 400,
 
     -- Refresh
-    update_interval        = 3,
-    cpu_avg_samples        = 8,
-    double_buffer          = true,
-    alignment              = 'top_right',
-    no_buffers             = true,
-    imlib_cache_size       = 0,
+    update_interval  = 3,
+    cpu_avg_samples  = 8,
+    double_buffer    = true,
+    alignment        = 'top_right',
+    no_buffers       = true,
+    imlib_cache_size = 0,
 
     -- Borders
-    background             = true,
-    draw_shades            = false,
-    draw_borders           = false,
-    draw_outline           = false,
-    uppercase              = false,
-    stippled_borders       = 5,
-    border_inner_margin    = 5,
-    border_outer_margin    = 5,
-    border_width           = 1,
-    maximum_width          = 500,
+    background          = true,
+    draw_shades         = false,
+    draw_borders        = false,
+    draw_outline        = false,
+    uppercase           = false,
+    stippled_borders    = 5,
+    border_inner_margin = 5,
+    border_outer_margin = 5,
+    border_width        = 1,
+    maximum_width       = 500,
 
     -- Colors
-    override_utf8_locale   = true,
-    default_shade_color    = '000000',
-    default_outline_color  = '000000',
+    override_utf8_locale  = true,
+    default_shade_color   = '000000',
+    default_outline_color = '000000',
 
     -- Fonts
-    use_xft                = true,
-    font                   = 'Cantarell:size=14',
+    use_xft = true,
+    font    = 'Cantarell:size = 14',
 
     -- Font Colors [Text | Titles | Heading]
     default_color = 'e6dec8',
@@ -57,16 +57,16 @@ conky.config = {
 conky.text = [[
 ${color3} FUNCTION KEY BINDINGS (alts)
 ${voffset 1} ${hr 2} $color
-${voffset 1} ${color2} Pamac             $alignr ${color} F1
-${voffset 1} ${color2} Ncmpcpp           $alignr ${color} F2
-${voffset 1} ${color2} Audacious         $alignr ${color} F3
-${voffset 1} ${color2} Pulsemixer        $alignr ${color} F4
-${voffset 1} ${color2} ArandR            $alignr ${color} F5
-${voffset 1} ${color2} Neomutt (Gmail)   $alignr ${color} F6
-${voffset 1} ${color2} Neomutt (Wisc)    $alignr ${color} F7
-${voffset 1} ${color2} Steam (Proton)    $alignr ${color} F8
-${voffset 1} ${color2} Shopping List     $alignr ${color} F9
-${voffset 1} ${color2} To-Do List        $alignr ${color} F10
-${voffset 1} ${color2} Pywal (light)     $alignr ${color} F11
-${voffset 1} ${color2} Pywal (dark)      $alignr ${color} F12
+${voffset 1} ${color2} Lab Meeting          $alignr ${color} F1
+${voffset 1} ${color2} Ncmpcpp              $alignr ${color} F2
+${voffset 1} ${color2} ArandR               $alignr ${color} F3
+${voffset 1} ${color2} Pulsemixer           $alignr ${color} F4
+${voffset 1} ${color2} Neomutt (Gmail)      $alignr ${color} F5
+${voffset 1} ${color2} Neomutt (Wisc)       $alignr ${color} F6
+${voffset 1} ${color2} Neomutt (Pmail)      $alignr ${color} F7
+${voffset 1} ${color2} Steam (Proton)       $alignr ${color} F8
+${voffset 1} ${color2} Shopping List        $alignr ${color} F9
+${voffset 1} ${color2} To-Do List           $alignr ${color} F10
+${voffset 1} ${color2} Theme Switch (day)   $alignr ${color} F11
+${voffset 1} ${color2} Theme Switch (night) $alignr ${color} F12
 ]]

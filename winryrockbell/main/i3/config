@@ -1,33 +1,4 @@
 # vim: filetype=i3
-#                  `                                  `
-#              `,+ `                        `      ,`#
-#             +#`,:``                       ``    '`@``+`
-#           `; :# '  `                        `   `@``@,
-#           #, `: ,      ``                      ``#`  : :
-#           ;+ # ,               ++++++++++++++`   ; .+``+
-#           ; #. '         `     @@@@@@@@@@@@@@`     ;#, #
-#             #  :       `:'      @      ;. '@,      '.@
-#          ,: #; ,        #`      @      ;` ;@+      .`@ +
-#          . @,.+#       .@@     .#      ;` .@#    `'+` ;'
-#          `@; ,+`       .@@   ` +:      ;`  @@     +:#,+;
-#      `   #`#`# +       `@@    `@`@`    ;`  @@     ,`@,.;`
-#          + ; +.,        #   `.,#,,#,```',` @@     @'` +.`
-#         ``@'`,@`  `'@@@@@@@@@@@`+@#@@@@@+''@@     ,'; '#``
-#          +`#;;,;  +@@,,,@@@@@@@.@+#@@#` .;`. `    @ +`;:.``
-#         `' + # .  +@@`.`#@@@@@@:@##@+ #@@@@@#     @`: @.`  `
-#           @'`+@.  +@@:,:#@@@@@@'@@#@ @@@@#@@@@`    #+`##    `
-#          ' ;`,;+  +@@@@+@@@@@@@+@@@`#@@;   .@@#   @`',.,
-#          ;`+ + :  +@#  `  :@@@@@#@# @@: :@+ `@@`  @`, +,
-#           @'`##   ''`##@@@.,@@@@,:..@@ ;@+@@ +@#  `@#'#+
-#            @++      @@@@@@@ #@@@@@:#@@ @' `@ :@@    ##;
-#            .@'     `@@.  +@+`@@@@#;.@@ @@ ;@ '@+  ` @@
-#             #`    `:@#.`#`@@       .@@` @@@, @@+   `+`
-#             :,   ` :@@`'+.@@       `@@@  `` +#@     @
-#              +    ``@@, `@@;         @@@+.;@#@:     @
-#              @     `'@@@@@@          `@#@@@@@:     `+
-#              '`      :@@@'             :#@#+```    #`
-#               @      `                        `    @
-#               ',      `                        `  @`
 #                              ______
 #                            _ |___  )
 #                           (_)  __) )
@@ -37,19 +8,19 @@
 #
 ################################################################################
 
-set $mod        Mod4
-set $alt        Mod1
-set $ctl        Control
-set $sht        Shift
-set $term       urxvtc
-set $gap        15
-set $walsat     "1"
-set $walend     schemer
-font            pango:Droid Sans Mono,14
+set $mod    Mod4
+set $alt    Mod1
+set $ctl    Control
+set $sht    Shift
+set $term   urxvtc
+set $gap    15
+set $walsat "1"
+set $walend schemer
+font        pango:Droid Sans Mono,14
 
 #################### Main Setup ##############################
 # Startup Commands
-exec --no-startup-id /home/jbustamante/bin/setupi3
+exec --no-startup-id /home/jbustamante/bin/wm_i3
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+c        reload
@@ -90,17 +61,16 @@ bindsym $mod+z		gaps outer current plus  5
 bindsym $mod+$sht+z	gaps outer current minus 5
 
 # Screen setups: set number of screens with graphics driver naming and location
-bindsym $alt+w        exec --no-startup-id setScreens 1 nvidia home
-bindsym $alt+$sht+w   exec --no-startup-id setScreens 2 nvidia home
-bindsym $alt+$ctl+w   exec --no-startup-id setScreens 3 nvidia home
+#bindsym $alt+w        exec --no-startup-id setScreens 1 nvidia home
+#bindsym $alt+$sht+w   exec --no-startup-id setScreens 2 nvidia home
+#bindsym $alt+$ctl+w   exec --no-startup-id setScreens 3 nvidia home
 
 ##################### Applications ##############################
-# Screenshots [ u: focused window | s: selection ]
-bindsym Print            exec --no-startup-id scrot -e    'mv $f ~/Pictures/screenshots/'
-bindsym $sht+Print	 exec --no-startup-id scrot -u -e 'mv $f ~/Pictures/screenshots/'
-bindsym $ctl+$sht+Print  exec --no-startup-id scrot -s -e 'mv $f ~/Pictures/screenshots/'
+# Screenshots
+bindsym Print            exec --no-startup-id scrt 0
+bindsym $sht+Print	 exec --no-startup-id scrt 0 a
 
-# Screen recordings [I'd rather specify formatting each time instead of having headless key bindings]
+# Screen recordings
 bindsym $mod+Print  exec --no-startup-id  simplescreenrecorder
 
 # Terminals
@@ -118,16 +88,17 @@ bindsym $mod+$sht+f  exec --no-startup-id firefox
 bindsym $mod+$sht+h  exec --no-startup-id qutebrowser
 bindsym $alt+$sht+h  exec --no-startup-id surf bing.com
 
-# Music Player Daemon $ctl
+# Music Player Daemon
 bindsym $alt+$ctl+s   exec --no-startup-id mpc toggle
 bindsym $alt+$ctl+d   exec --no-startup-id mpc prev
 bindsym $alt+$ctl+f   exec --no-startup-id mpc next
 bindsym $alt+$ctl+x   exec --no-startup-id showSongInfo 1
 
 # Secrets of the Dead
-bindsym $mod+$alt+p  exec --no-startup-id pass show pmail | xclip -sel clip
-bindsym $mod+$ctl+p  exec --no-startup-id clippw pw clip
-bindsym $alt+$ctl+p  exec --no-startup-id clippw gm clip
+bindsym $mod+$alt+p  exec --no-startup-id clippw lp clip 1
+bindsym $mod+$ctl+p  exec --no-startup-id clippw pw clip 1
+bindsym $alt+$ctl+p  exec --no-startup-id clippw gm clip 1
+bindsym $alt+$sht+p  exec --no-startup-id clippw gg clip 1
 
 # System Applications
 bindsym $mod+r       exec --no-startup-id urxvt -title "floating" -e ranger
@@ -137,46 +108,46 @@ bindsym $mod+$ctl+j  exec --no-startup-id $term -e gotop
 bindsym $mod+$ctl+k  exec --no-startup-id $term -e nvtop
 
 # Misc
-bindsym $mod+y  exec --no-startup-id $term -e calcurse
+bindsym $mod+y  exec --no-startup-id $term -title "floating" -e clr
 bindsym $alt+i  exec --no-startup-id $term -e nvim -c :VimwikiIndex
 bindsym $alt+o  exec --no-startup-id $term -e nvim -c :VimwikiDiaryIndex
 bindsym $alt+p  exec --no-startup-id $term -e nvim -c :VimwikiMakeDiaryNote
 
-# Hue Lights Control
-bindsym $sht+$alt+j exec --no-startup-id huectl off
-bindsym $sht+$alt+k exec --no-startup-id huectl on
-bindsym $sht+$alt+s exec --no-startup-id huectl studying
-bindsym $sht+$alt+v exec --no-startup-id huectl tv
-bindsym $sht+$alt+m exec --no-startup-id huectl movie
+# Hue Lights Control [experimental]
+#bindsym $sht+$alt+j exec --no-startup-id huectl off
+#bindsym $sht+$alt+k exec --no-startup-id huectl on
+#bindsym $sht+$alt+s exec --no-startup-id huectl studying
+#bindsym $sht+$alt+v exec --no-startup-id huectl tv
+#bindsym $sht+$alt+m exec --no-startup-id huectl movie
 
 # Function buttons - Hardware accelerated graphical applications
 # Original format had optirun -b primus <application>
 bindsym $mod+F1  exec --no-startup-id nvidia-settings
-bindsym $mod+F2  exec --no-startup-id gpmdp
+bindsym $mod+F2  exec --no-startup-id ytmdp
 bindsym $mod+F3  exec --no-startup-id spotify
-bindsym $mod+F4  exec --no-startup-id caprine
-bindsym $mod+F5  exec --no-startup-id droidsurf surf droid
-bindsym $mod+F6  exec --no-startup-id yakyak
-bindsym $mod+F7  exec --no-startup-id slack
-bindsym $mod+F8  exec --no-startup-id discord
+bindsym $mod+F4  exec --no-startup-id droidsurf $BROWSER fbmessenger
+bindsym $mod+F5  exec --no-startup-id droidsurf $BROWSER droid
+bindsym $mod+F6  exec --no-startup-id droidsurf $BROWSER ghangouts
+bindsym $mod+F7  exec --no-startup-id droidsurf $BROWSER reddit
+bindsym $mod+F8  exec --no-startup-id droidsurf $BROWSER twitter
 bindsym $mod+F9  exec --no-startup-id krita
 bindsym $mod+F10 exec --no-startup-id inkscape
 bindsym $mod+F11 exec --no-startup-id gimp
 bindsym $mod+F12 exec --no-startup-id fiji
 
 # Function buttons [alt]
-bindsym $alt+F1  exec --no-startup-id pamac-manager
+bindsym $alt+F1  exec --no-startup-id droidsurf chrome labmeeting
 bindsym $alt+F2  exec --no-startup-id $term -title "ncmpcpp" -e ncmpcpp
-bindsym $alt+F3  exec --no-startup-id lollypop
+bindsym $alt+F3  exec --no-startup-id arandr
 bindsym $alt+F4  exec --no-startup-id $term -e pulsemixer
-bindsym $alt+F5  exec --no-startup-id arandr
-bindsym $alt+F6  exec --no-startup-id $term -e openmutt gmail
-bindsym $alt+F7  exec --no-startup-id $term -e openmutt wisc
+bindsym $alt+F5  exec --no-startup-id $term -e openmutt gmail
+bindsym $alt+F6  exec --no-startup-id $term -e openmutt wisc
+bindsym $alt+F7  exec --no-startup-id $term -e openmutt pmail
 bindsym $alt+F8  exec --no-startup-id steam
 bindsym $alt+F9  exec --no-startup-id $term -e nvim ~/Dropbox/Misc/config/conky/notepad/shopping.md
 bindsym $alt+F10 exec --no-startup-id $term -e nvim ~/Dropbox/Misc/config/conky/notepad/todo.md
-bindsym $alt+F11 exec --no-startup-id regencolors $walend $walsat -l
-bindsym $alt+F12 exec --no-startup-id regencolors $walend $walsat
+bindsym $alt+F11 exec --no-startup-id themeSwitch day 0
+bindsym $alt+F12 exec --no-startup-id themeSwitch night 0
 
 ################### General Navigation ###############################
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -285,26 +256,24 @@ bindsym $mod+$sht+9 move container to workspace $ws09
 bindsym $mod+$sht+0 move container to workspace $ws10
 
 # send programs to specific workspaces
-assign  [title="Krita"]            $ws08
-assign  [class="Inkscape"]         $ws08
-assign  [class="Gimp"]             $ws08
-assign  [class="Steam"]            $ws08
-assign  [class="Caprine"]          $ws09
-assign  [class="yakyak"]           $ws09
-assign  [class="Slack"]            $ws09
-assign  [class="discord"]          $ws09
-#assign  [class="PB for Desktop"]   $ws09
-assign  [class="Google Play"]      $ws10
-assign  [class="Gnome-music"]      $ws10
+assign [title="Krita"]                     $ws08
+assign [class="Gimp"]                      $ws08
+assign [class="Steam"]                     $ws08
+assign [class="discord"]                   $ws09
+assign [class="Google Play"]               $ws10
+assign [class="youtube-music-desktop-app"] $ws10
+assign [class="Gnome-music"]               $ws10
 
 # Some windows don't get titles until after they init
 #for_window [title="Messages for web"] move to workspace $ws09
 for_window [class="Spotify"]               move to workspace $ws10
 for_window [class="URxvt" title="ncmpcpp"] move to workspace $ws10
+#for_window [class="Inkscape"]              move to workspace $ws08
 
 # assign floating
 for_window [title="ImageJ"]                 floating enable border pixel 1
 for_window [title="pulsemixer"]             floating enable border pixel 1
+for_window [title="SimpleScreenRecorder"]   floating enable border pixel 1
 for_window [title="htop"]                   floating enable border pixel 1
 for_window [title="gotop"]                  floating enable border pixel 1
 for_window [title="nvtop"]                  floating enable border pixel 1
@@ -348,9 +317,9 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 # Primary monitor
 bar {
-    output eDP1
-    #output eDP-1
-    font pango:Inconsolata, Awesome 12
+    #output eDP1
+    output eDP-1-1
+    font pango:Inconsolata, Awesome 14
     colors {
         background              $background
         statusline              $foreground
@@ -372,9 +341,9 @@ bar {
 
 # When connected to left-only monitor [becuase right monitor is a stupid ho]
 bar {
-    output HDMI1
-    #output HDMI-1
-    font pango:Inconsolata, Awesome 12
+    #output HDMI1
+    output HDMI-1-1
+    font pango:Inconsolata, Awesome 14
     colors {
         background              $background
         statusline              $foreground

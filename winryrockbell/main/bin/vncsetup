@@ -46,7 +46,7 @@ case $svr in
         user=jbustamante
         #ip=192.168.1.23
         ip="kurisu"
-        port=3553
+        port=3355
         ;;
 
     office)

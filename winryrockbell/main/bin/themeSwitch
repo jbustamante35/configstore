@@ -1,0 +1,64 @@
+#!/bin/sh
+#
+# themeSwitch
+# Toggle between night and day desktop themes
+# Copyright (C) 2020 jbustamante <jbustamante@KurisuMakise>
+#
+# Distributed under terms of the MIT license.
+#
+
+regencolors="/home/jbustamante/bin/regencolors"
+pywalfox="/home/jbustamante/.local/bin/pywalfox"
+quoteSwitch="/home/jbustamante/bin/quoteSwitch"
+#myconky="/home/jbustamante/bin/myconky"
+#megakill="/home/jbustamante/bin/megakill"
+
+theme="$1"
+quote="$2"
+DEBUG="$3"
+
+main_pic="/home/jbustamante/.config/wall.jpg"
+main_pywal="wal"
+main_quote="/home/jbustamante/Dropbox/Misc/config/conky/quote"
+
+case "$theme" in
+    day)
+        pic="/home/jbustamante/.config/wall_day.jpg"
+        pywal="colorz"
+        ;;
+
+    night)
+        pic="/home/jbustamante/.config/wall_night.jpg"
+        pywal="wal"
+        ;;
+    *)
+        pic="$main_pic"
+        pywal="$main_pywal"
+        ;;
+esac
+
+case "$DEBUG" in
+    1)
+        printf "\nDebug Mode\n"
+
+        printf "\n\nSoft-link wallpaper theme to file"
+        printf "\n ln -sf $pic $main_pic"
+
+        printf "\n\nSetting color scheme from XResources"
+        printf "\n $regencolors $pywal 1"
+
+        printf "\n\nSetting Firefox color scheme"
+        printf "\n $pywalfox update"
+
+        printf "\n\n Updating quote file"
+        printf "\n $quoteSwitch $quote 0"
+        ;;
+    *)
+        ln -sf "$pic" "$main_pic"
+        "$regencolors" "$pywal" 1
+        "$pywalfox" update
+
+        # Update quote
+        "$quoteSwitch" "$quote" 0
+        ;;
+esac

@@ -1,29 +1,3 @@
-"
-"                                 @
-"                                 #
-"                                 #
-"                 ,@@             @
-"                @:#              @
-"          `   `@#:`              @
-"         .##      #   ##@@@@@@@@@@@@@@
-"          @@#     ,.  @@@@@#@@@#@#@@@@`
-"          @@@:     @  @@@@@@..  #@@#@@ `
-"          @@@@#`   ;@@@@@@@@,';;;@@@'' `
-"     @; @@@':;@@#:;@#@@@@@@@;.   @#@;:
-"     #@@# +`:@@ .@@ #@# ,@@##`,,,@@@,,
-"      @: ##@@@@#: #@`@#+@@#@ ... ##@``
-"       @@@#,``'@@# #'@@#@@@# @@@ @':
-"       @@,#'`   #@` @,,.,,,,,,,,,@@,@@
-"      ;@;,     , @@.@#@@@@@@@@@@@@@@@@
-"     `@@   #@@` @'#@;@``````````` @```
-"     ;@#  #@ :@ ` @; #          ,@@@'
-"      @++`@,  #   @+ #         +@@@#@@
-"      @@@`'@ +@  `@@           @@:  #@'
-"     `@@:  #@@   #@.          #@  @.`@@
-"      #@+@     @ @@           @@ ' @ #@
-"       @@'  `+@`@@'           '@, ;  @@
-"       :@##+,:@@@;             @@,  #@.
-"           @` :                  +#@   `
 "             _ __  __   _(_)_ __ ___
 "            | '_  \\ \ / / | '_ ` _ \
 "            | | | | \ V /| | | | | | |
@@ -34,8 +8,7 @@
 "             \ V /| | | | | | | | | (__
 "              \_/ |_|_| |_| |_|_|  \___|
 "
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+""""""""""""""""""""""" Main Configs """"""""""""""""""""""""""""""""""""""""""
 execute pathogen#infect()
 execute pathogen#helptags()
 
@@ -49,13 +22,16 @@ set showcmd         " command in bottom bar
 set number          " line numbers
 set wrap            " word wrap for long lines
 set ruler           " no idea
-set tabstop=8       " length to set tab key
+set tabstop=4       " length to set tab key
 set softtabstop=0   " spaces per tab when editing
 set expandtab       " tabs are spaces
 set shiftwidth=4    " set tab = 4 spaces
 set smarttab        " contextual tab location
 set cursorline      " underline current line
 set colorcolumn=80  " ruler at line 100
+set foldlevelstart=20
+set autoread
+set wildmode=longest,list,full
 set wildmenu        " visual autocomplete
 set showmatch       " highlight matching
 set hlsearch        " highlight matching searches
@@ -65,10 +41,9 @@ set smartcase       " case sensitive only if searching capital letters
 set splitbelow      " split pane to bottom
 set splitright      " split pane to right
 set updatetime=100
-"set background=dark
+set background=dark
 
 """""""""""""""""""""""""" Custom Settings """"""""""""""""""""""""""""""""""""
-
 " Format column ruler
 highlight ColorColumn ctermbg=darkgray
 
@@ -113,6 +88,14 @@ map <Leader>t :put =strftime('%m.%d.%Y')<CR>
 imap <C-b> <br />
 imap <Leader>i <br />
 
+" Replace tabs with spaces
+map <Leader>y :%s/\t/    /g<CR>
+
+" Copy-Paste from clipboard
+    "vnoremap <C-c> "*Y :let @+=@*<CR>
+vnoremap <C-c> "+y
+nmap <C-p> "+p
+
 """""""""""""""""""""""""""""" Plugins """"""""""""""""""""""""""""""""""""""""
 " Joy: Set Escape Insert Mode to TAB key [and set Shift+Tab as tab]
 let g:joy_pure = 1
@@ -129,11 +112,11 @@ let g:instant_markdown_slow      = 1
 "nmap <Leader>a :InstantMarkdownPreview<CR>
 
 " IndentGuides: Customize look of indented spaces
-let g:indent_guides_auto_color = 0
+let g:indent_guides_auto_color            = 0
+let g:indent_guides_start_level           = 2
+let g:indent_guides_enable_on_vim_startup = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
-let g:indent_guides_start_level = 2
-let g:indent_guides_enable_on_vim_startup = 0
 
 " TComment: Plugin to shortcut toggling comments
 map <Leader>_ :TComment<CR>
@@ -143,6 +126,8 @@ nmap <C-h> :Tabularize /=<CR>
 vmap <C-h> :Tabularize /=<CR>
 nmap <C-j> :Tabularize /:\zs<CR>
 vmap <C-j> :Tabularize /:\zs<CR>
+nmap <C-k> :Tabularize /\|<CR>
+vmap <C-k> :Tabularize /\|<CR>
 
 " Template settings
 let g:templates_no_autocmd = 1
@@ -157,6 +142,9 @@ let g:calendar_google_calendar  = 1
 let g:calendar_google_task      = 1
 let g:calendar_event_start_time = 1
 let g:calendar_date_month_name  = 1
+
+" Wiki: interpret .md files, etc. as .markdown
+    let g:vimwiki_ext2syntax = {'.Rmd': 'markdown', '.rmd': 'markdown','.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
 
 " VimWiki: wikipedia-based personal journal
 let g:vimwiki_list = [
@@ -181,8 +169,8 @@ function! ToggleCalendar()
 endfunction
 
 :autocmd FileType vimwiki map c :call ToggleCalendar()<CR>
-"let g:vimwiki_dir_link = 'diary'
-let g:vimwiki_dir_link = 'index'
+"let g:vimwiki_dir_link      = 'diary'
+let g:vimwiki_dir_link       = 'index'
 let g:wimwiki_table_mappings = 0
 :nmap <Leader>wc :Vimwiki2HTML<CR>
 :nmap <leader>wa :VimwikiAll2HTML<CR>
@@ -204,7 +192,7 @@ let g:lightline = {
 " TmuxLine: statusline for tmux
 let g:Tmuxline = lightline
 
-" Syntacstic: Syntax checking for python and bash [ more to come maybe ]
+" Syntastic: Syntax checking for python and bash [ more to come maybe ]
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -262,5 +250,4 @@ nnoremap <silent> <C-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
 
 " SearchPulse: pulsing cursor after search
 let g:vim_search_pulse_mode = 'pattern'
-
 

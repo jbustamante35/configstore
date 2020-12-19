@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# clrcmd: select color and save to clipboard
+#
+# 2020 Julian Bustamante <jbustamante35@gmail.com>
+#
+
+clr="$(colorpicker --one-shot --short | cat)"
+echo "$clr" | xclip -sel clip
+
+msg="Saved $clr to clipboard"
+notify-send "Colorpicker" "$msg" -u normal

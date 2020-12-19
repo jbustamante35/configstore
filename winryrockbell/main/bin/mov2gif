@@ -1,5 +1,5 @@
 #!/bin/sh
-#Convert a movie file [mp4|mov|flv] to a gif
+# Convert a movie file [mp4|mov|flv] to a gif
 
 dur="$1"
 start="$2"

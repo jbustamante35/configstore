@@ -126,7 +126,7 @@ c.downloads.location.directory = '~/Downloads'
 
 # Hide the statusbar unless a message is shown.
 # Type: Bool
-c.statusbar.hide = False
+#c.statusbar.hide = 0
 
 # When to show the tab bar.
 # Type: String
@@ -157,8 +157,8 @@ c.scrolling.smooth = False
 c.scrolling.bar            = 'never'
 #c.url.default_page        = 'https://bing.com'
 #c.url.start_pages         = ['https://bing.com']
-c.url.default_page         = '/home/jbustamante/Documents/misc/startpage/index.html'
-c.url.start_pages          = ['/home/jbustamante/Documents/misc/startpage/index.html']
+c.url.default_page         = '/home/jbustamante/Documents/repos/startpage/index.html'
+c.url.start_pages          = ['/home/jbustamante/Documents/repos/startpage/index.html']
 #c.content.user_stylesheets = ['/home/jbustamante/Documents/misc/startpage/style.css']
 
 ## Definitions of search engines which can be used via the address bar.

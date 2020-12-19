@@ -1,13 +1,10 @@
 #!/bin/bash
 # Synchronize all configuration files to configstore repository
-# Must have dotifytracking configuration files
 
 sync="rsync -avzu --delete --progress -h"
 profile=$PROFILE
 repo=~/Documents/configstore/$profile
 main=$repo/main
-dots=$repo/dots
-dotdirs=$(ls -A ~/.dotify)
 
 # Check if directories exist
 if [[ ! -d "$repo" ]]; then
@@ -16,10 +13,6 @@ fi
 
 if [[ ! -d "$main" ]]; then
     mkdir $main
-fi
-
-if [[ ! -d "$dots" ]]; then
-    mkdir $dots
 fi
 
 echo "Profile: $profile"
@@ -66,24 +59,15 @@ ${sync} ~/.config/tmux         ${main}
 ${sync} ~/.config/wall.jpg     ${main}
 ${sync} ~/.config/zathura      ${main}
 
-# dots [deprecated because of too many issues
-#for dot in $dotdirs; do
-#    ${sync} ~/.dotify/${dot} ${dots}
-#done
 
-printf "\nSaving 'main' and 'dots' lists...\n"
+printf "\nSaving 'main' lists...\n"
 maindirs=$(ls -A $main)
 mainlist=$repo/mainlist.txt
-dotlist=$repo/dotlist.txt
 
 if [[ ! -f "$mainlist" ]]; then
     touch $mainlist
 fi
 
-if [[ ! -f "$dotlist" ]]; then
-    touch $dotlist
-fi
-echo $dotdirs | tr " " "\n" > $dotlist
 echo $maindirs | tr " " "\n" > $mainlist
 
 #printf "Copying ${profile}'s scripts to respective directory...\n"

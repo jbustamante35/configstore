@@ -3,10 +3,11 @@
 # Wrapper for displaySetups layouts but adds location
 
 loc="$3"
+drc="$4"
 case "$loc" in
     home)
         # Display settings for home [AOC monitor]
-        num="$1"b
+        num="$1""$drc"
         drv="$2"
         ;;
 
@@ -17,7 +18,7 @@ case "$loc" in
         ;;
 
     *)
-        # Default to single display with Intel driver in lab
+        # Default to single display with Intel driver
         num=1
         drv="intel"
         ;;

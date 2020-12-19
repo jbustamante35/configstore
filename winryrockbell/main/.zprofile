@@ -10,32 +10,17 @@
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
-    # include .bashrc if it exists
-    if [ -f "$HOME/.bashrc" ]; then
-	    . "$HOME/.bashrc"
-    fi
+    [ -f "$HOME/.bashrc" ] && . "$HOME/.bashrc"
 fi
 
 # if running zsh
 if [ -n "$ZSH_VERSION" ]; then
-    # include .zshrc if it exists
-    if [ -f "$HOME/.zshrc" ]; then
-	    source "$HOME/.zshrc"
-    fi
+    [ -f "$HOME/.zshrc" ] && source "$HOME/.zshrc"
 fi
 
-## set PATH so it includes user's private bin if it exists
-#if [ -d "$HOME/.local/bin" ] ; then
-#    MYPATH="$HOME/.local/bin"
-#fi
-#
-#if [ -d "$HOME/bin" ]; then
-#	MYBIN="$HOME/bin"
-#fi
-
 # My custom paths
-MYPATH="$HOME/.local/bin"
-MYBIN="$HOME/bin"
+[ -d "$HOME/.local/bin" ] && MYPATH="$HOME/.local/bin"
+[ -d "$HOME/bin" ]        && MYBIN="$HOME/bin"
 
 # set miscellaneous paths
 GOROOT='/usr/lib/go'
@@ -54,12 +39,13 @@ export PATH=$PATH:$MYPATH:$MYBIN:$GOROOT/bin:$GOPATH/bin:$RUBYPATH/bin:$JULIAPAT
 HUEHUB=eaglesnest
 HUELIGHTS=$(huecli get-lighting "$HUEHUB" | wc | awk '{print $1}')
 
+
 # Display names for monitors in intel mode
-export PRIMARYDISPLAY="eDP1"
-export AOC_HOME="HDMI1"
-export SMALL_DELL1="DP1"
-export SMALL_DELL2="DP2"
-export LARGE_DELL="HDMI1"
+export PRIMARYDISPLAY="eDP-1"
+export AOC_HOME="HDMI-1"
+export SMALL_DELL1="DP-1"
+export SMALL_DELL2="DP-2"
+export LARGE_DELL="HDMI-1"
 
 # Swap CAPSLOCK and ESCAPE
 # Xorg

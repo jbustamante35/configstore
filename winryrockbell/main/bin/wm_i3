@@ -1,0 +1,49 @@
+#!/bin/sh
+
+## Startup script for Awesome WM
+
+# Kill running daemons
+#killall dunst conky compton nm-applet blueman-applet optimus-manager-qt xfce4-notifyd && \
+killall dunst conky picom nm-applet blueman-applet && \
+    mpd --kill ;
+
+# Set displays [AOC monitor to left]
+#setScreens 2 intel home l;
+setScreens 1 nvidia home ;
+
+# Set Xresources and wallpaper
+feh --bg-scale $HOME/.config/wall.jpg
+regencolors $WALEND 1
+
+# Applets [bluetooth , wifi , power , volume , optimus-manager , pamac]
+nm-applet &
+blueman-applet &
+xfce4-power-manager &
+#optimus-manager-qt &
+#volumeicon &
+#pamac-tray &
+
+# Dropbox autostart
+#dropbox-cli autostart
+dropbox-cli start
+
+# Touchpad and mouse
+touchpadctl tap
+unclutter --idle 10 --ignore-scrolling  -b &
+xedgewarp -b &
+
+# MPD | Picom | Conky | Dunst
+mpd &
+myconky &
+dunst   -config ~/.config/dunst/dunstrc &
+picom --config ~/.config/picom/picom.conf -b &
+redshift -c ~/.config/redshift/redshift.conf &
+
+# URxvt daemon
+urxvtd -q -o -f &
+
+# ProtonMail Bridge
+protonmail-bridge --noninteractive &
+
+# Open SSH Port Locally
+#ufw allow from 192.168.1.1/24 &

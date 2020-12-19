@@ -18,6 +18,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
+    alias egrepi='egrep -i'
 fi
 
 # colored GCC warnings and errors
@@ -33,30 +34,26 @@ alias l='ls -CF'
 alias lss='la *'
 alias lsl='ll | less'
 alias lll='ls /*'
-
-# some work aliases
 alias ..='cl ..'
-alias cdcl='cl /home/jbustamante/Dropbox/Classes/uwmadison'
-alias cdra='cl /home/jbustamante/Dropbox/ResearchArticles/computationalbiology/edgarspalding'
-alias cdes='cl /home/jbustamante/Dropbox/EdgarSpalding'
-alias sw='cl /home/jbustamante/Dropbox/EdgarSpalding/projects                              '
-alias hq='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/hypoquantyl'
-alias cs='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/carrotsweeper'
-alias sp='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/sphinctolyzer'
-alias qd='cl /home/jbustamante/Dropbox/EdgarSpalding/projects/quantdracala/quantdracala'
-alias ph='cl /home/jbustamante/Dok/spaldingshell'
+
+# tree aliases
+alias treet='tree -Nif'
+alias treed='tree -dNif'
+alias tvim='vim "$(treet | fzf)"'
+alias tcd='cd "$(treed | fzf)"'
 
 # filesystem aliases
 alias mkdir='mkdir -pv '
 alias df='pydf -h '
 alias rg='ranger .'
-alias natu='nautilus .'
-alias naut='nautilus .'
-alias thun='thunar .'
-alias thnr='thunar .'
+alias natu='nautilus . &'
+alias naut='nautilus . &'
+alias thun='thunar . &'
+alias thnr='thunar . &'
 alias mnt='mount | column -t'
 alias pping='prettyping'
 alias ppg='prettyping google.com'
+alias ppj='prettyping 128.104.98.13'
 alias pin='sudo pacman -S'
 alias psr='pacman -Ss'
 alias prm='sudo pacman -Rsu'
@@ -67,7 +64,7 @@ alias yrm='yay -Rsu'
 alias yup='yay -Syu'
 alias ain='pikaur -S'
 alias asr='pikaur -Ss'
-#alias arm='pikaur -Rsu'
+alias arm='pikaur -Rsu'
 alias aup='pikaur -Syu'
 
 # misc system aliases
@@ -77,40 +74,23 @@ alias psg='ps auxf | fgrep -v grep | fgrep -ie VSZ -e '
 alias myip='curl http://ipecho.net/plain; echo'
 alias rm='rm -I'
 alias RM='sudo rm -Ird'
-alias kl='RM ??*/.git*'
-alias kll='RM ??*/*/.git*'
-alias klll='RM ??*/*/*/.git*'
-alias kllll='RM ??*/*/*/*/.git*'
-#alias kl='RM .??*/.git*'
-#alias kll='RM .??*/*/.git*'
-#alias klll='RM .??*/*/*/.git*'
-#alias kllll='RM .??*/*/*/*/.git*'
+alias kl='rm -rd $(tree -daif | egrep -i "\.git")'
 alias db='sudo updatedb'
-alias xcolors='xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources'
-alias xwal='wal -i ~/.config/wall.png --saturate 0.8'
 alias orun='optirun'
 alias orunp='optirun -b primus'
-
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
-alias alert='notify-send --urgency=low -i \
-"$([ $? = 0 ] && echo terminal || echo error)" \
-"$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
-# aliases to vpn to UW Madison
-#alias vpn2me='globalprotect connect -p uwmadison.vpn.wisc.edu --username jbustamante'
-alias vpn2me='sudo openconnect --protocol=gp uwmadison.vpn.wisc.edu'
 
 # aliases to ssh with  X11 port forwarding
 alias sshs='ssh submit'
 alias sshj='ssh jdev'
 alias sshk='ssh kurisu'
 alias sshp='ssh potato'
+alias sshr='ssh rin'
 alias ssho='ssh office'
 alias sshst='ssh submit -t tmux'
-alias sshjt='ssh jdev   -t tmux attach -t remote_main'
+alias sshjt='ssh jdev   -t tmux a -t remote_main'
 alias sshkt='ssh kurisu -t tmux'
 alias sshpt='ssh potato -t tmux'
+alias sshrt='ssh rin    -t tmux'
 alias sshot='ssh office -t tmux'
 alias vs='vncserver'
 alias vsl='vncserver -list'
@@ -136,20 +116,22 @@ alias nf='neofetch'
 alias nb='newsboat'
 alias cnv='convert -resize'
 alias bt='bluetoothctl'
-alias sx='sxiv -tr .'
-alias sv='sxiv -tr'
-alias tx='tmux attach -t main'
-alias scrt='scrot -d 2'
+alias sx='sxiv -atr .'
+alias sv='sxiv -atr'
+alias mpl='mplayer -loop 0'
+alias tx='tmux a'
 
 # application aliases
 alias rtv='rtv --enable-media'
-alias shutr="shutter -f -e -o '/home/jbustamante/Pictures/screenshots/%y%m%d_\$wx\$h_\$nb_name.png'"
-alias weather='/home/jbustamante/.scripts/i3scripts/i3weather && cat /home/jbustamante/.weatherreport'
+#alias weather='/home/jbustamante/.scripts/i3scripts/i3weather && cat /home/jbustamante/.weatherreport'
 alias rr='curl -s -L http://bit.ly/10hA8iC | bash'
 alias psay='curl parrot.live'
 alias wrd='textmaker18'
 alias ppt='presentations18'
 alias xls='planmaker18'
+alias adj_cam='v4l2ucp'
+#alias prezoom='xrandr --output eDP-1-1 --mode 1920x1080'
+#alias postzoom='xrandr --output eDP-1-1 --mode 2048x1152'
 
 # iRODS aliases
 alias idata='irodsFs -o allow_other $HOME/idata'
@@ -164,20 +146,20 @@ alias olabn='qutebrowser ~/Documents/jbwiki/labnotes.wiki_html/index.html'
 
 # Neomutt aliases
 alias gmdl='mbsync gmail'
-alias gma='neomutt -F ~/.config/mutt/gmail.muttrc -f ~/Mail/gmail/\[Gmail].All\ Mail'
-alias gmi='neomutt -F ~/.config/mutt/gmail.muttrc -f ~/Mail/gmail/INBOX/'
-alias gmd='neomutt -F ~/.config/mutt/gmail.muttrc -f ~/Mail/gmail/\[Gmail].Drafts'
-alias gms="neomutt -F ~/.config/mutt/gmail.muttrc -f ~/Mail/gmail/\[Gmail].Sent\ Mail"
+alias gma='openmutt gmail all'
+alias gmi='openmutt gmail home'
+alias gmd='openmutt gmail drafts'
+alias gms='openmutt gmail sent'
 alias wmdl='mbsync wisc'
-alias wma='neomutt -F ~/.config/mutt/wisc.muttrc  -f ~/Mail/wisc/Archive'
-alias wmi='neomutt -F ~/.config/mutt/wisc.muttrc  -f ~/Mail/wisc/INBOX'
-alias wmd='neomutt -F ~/.config/mutt/wisc.muttrc  -f ~/Mail/wisc/Drafts'
-alias wms='neomutt -F ~/.config/mutt/wisc.muttrc  -f ~/Mail/wisc/Sent\ Items'
+alias wma='openmutt wisc all'
+alias wmi='openmutt wisc home'
+alias wmd='openmutt wisc drafts'
+alias wms='openmutt wisc sent'
 alias pmdl='mbsync pmail'
-alias pma='neomutt -F ~/.config/mutt/pmail.muttrc  -f ~/Mail/pmail/Archive'
-alias pmi='neomutt -F ~/.config/mutt/pmail.muttrc  -f ~/Mail/pmail/INBOX'
-alias pmd='neomutt -F ~/.config/mutt/pmail.muttrc  -f ~/Mail/pmail/Drafts'
-alias pms='neomutt -F ~/.config/mutt/pmail.muttrc  -f ~/Mail/pmail/Sent\ Items'
+alias pma='openmutt pmail all'
+alias pmi='openmutt pmail home'
+alias pmd='openmutt pmail drafts'
+alias pms='openmutt pmail sent'
 alias nmn='notmuch new'
 
 # Suckless aliases
@@ -197,7 +179,5 @@ alias gclone='git clone'
 alias pvnc='sudo protonvpn connect -f'
 alias pvnd='sudo protonvpn disconnect'
 alias pvns='protonvpn status'
-
-
 
 # vim: filetype=sh

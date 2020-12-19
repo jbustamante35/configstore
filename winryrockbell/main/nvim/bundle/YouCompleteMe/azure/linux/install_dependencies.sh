@@ -1,12 +1,28 @@
 # Exit immediately if a command returns a non-zero status.
 set -e
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+sudo apt-get update
+sudo apt-get install libsqlite3-dev
 
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-
-brew install pyenv
-
+sudo apt-get install -y build-essential \
+                        libssl-dev \
+                        zlib1g-dev \
+                        libbz2-dev \
+                        libreadline-dev \
+                        libsqlite3-dev \
+                        wget \
+                        curl \
+                        llvm \
+                        libncurses5-dev \
+                        libncursesw5-dev \
+                        xz-utils \
+                        tk-dev \
+                        libffi-dev \
+                        liblzma-dev \
+                        python-openssl \
+                        git
+curl https://pyenv.run | bash
+export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 
 # In order to work with ycmd, python *must* be built as a shared library. This

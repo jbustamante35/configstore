@@ -40,8 +40,8 @@ minimum_width  = 400,
 minimum_height = 400,
 maximum_width  = 800,
 
-gap_x = 120,--## left | right
-gap_y = -130,--## up | down
+gap_x = 500,--## left | right
+gap_y = -200,--## up | down
 
 alignment = 'bottom_left',
 

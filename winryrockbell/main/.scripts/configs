@@ -9,7 +9,7 @@ cfc     ~/.scripts/configs
 cfd     ~/.config/dunst/dunstrc
 cff     ~/.scripts/folders
 cfk     ~/.config/conky/conky.sh
-cfm     ~/.config/compton/compton.conf
+cfm     ~/.config/picom/picom.conf
 cfp     ~/.config/polybar/polybar.conf
 cfq     ~/.config/qutebrowser/config.py
 cfr     ~/.config/ranger/rc.conf
@@ -22,7 +22,7 @@ ck2     ~/.config/conky/func
 ck3     ~/.config/conky/alts
 ck4     ~/.config/conky/todo
 ck5     ~/.config/conky/shopping
-ck6     ~/.config/conky/zeldatime
+ck6     ~/.config/conky/bladerunnertime
 zp      ~/.zprofile
 za      ~/.aliases
 ze      ~/.envs

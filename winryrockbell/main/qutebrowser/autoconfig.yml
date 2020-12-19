@@ -6,5 +6,8 @@
 
 config_version: 2
 settings:
+  content.geolocation:
+    https://www.wcvb.com: false
   content.notifications:
     https://www.reddit.com: false
+    https://www.wcvb.com: false

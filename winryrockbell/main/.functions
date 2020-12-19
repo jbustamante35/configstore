@@ -28,11 +28,15 @@ drchk () {
     dropbox-cli filestatus && printf "\n"
 }
 
-# load color configs
-clrs () {
-    wal -c
-    xrdb -load ~/.cache/wal/colors.Xresources ;
-    xrdb -merge ~/.Xresources ;
+# open modified files from git repository with vim
+gchk () {
+    vim "$(echo "$(git status | egrepi modified)" | awk '{print $2}' | fzf)"
+}
+
+drrst () {
+    dropbox-cli stop ;
+    sleep 2 ;
+    dropbox-cli start ;
 }
 
 # Select videos by file extension and choose video player
@@ -41,105 +45,39 @@ mvid () {
     sly="$2"
 }
 
-# Refresh color cache and reset pywal [deprecated - use regencolors instead]
-wali () {
-    bak="$1"
-    sat="$2"
-
-    wal -c ;
-    clrs ;
-    wal --backend "$bak" -i ~/.config/wall.jpg --saturate $sat -q
-}
-
-# Locate, Sift, Execute
-lse () {
-    # typ: filter by search query
-    # app: run selection with application
-    # ver: run on full filesystem (1) or subdirectory tree (2)
-    typ="$1"
-    app="$2"
-    ver="$3"
-
-    case $ver in
-        1)
-            # Search through entire file system
-            "$app" "$(locate "*$typ" | fzf)"
-            ;;
-        2)
-            # Localized search through current directory tree
-            "$app" "$(locate "$(pwd)/*$typ" | fzf)"
-            ;;
-        *)
-            # Default to searching entire file system
-            "$app" "$(locate "*$typ" | fzf)"
-            ;;
-    esac
-}
-
 # Shortcut for converting tif to jpg
 cnvv () {
     img="$1"
     pct="$2"
+    ext="$(echo $img | cut -d'.' -f1)"
 
-    convert -resize "$pct" "$img".tif "$img".jpg
+    convert -resize "$pct" "$img" "$fin".jpg
 }
 
-## Set-up VNC local forwarding
-#vnc2me () {
-#    dsp="$1"
-#    vncviewer localhost:"$dsp" -passwd ~/.vnc/passwd
-#}
+# Convert all files in directory
+cnvall () {
+    ext="$1"
+    pct="$2"
 
-## Setup VNC to JDev
-#vncj () {
-#    num="$1"
-#
-#    case $num in
-#        1)
-#            disps=(5902)
-#            ;;
-#        2)
-#            disps=(5902 5903)
-#            ;;
-#        3)
-#            disps=(5902 5903 5904)
-#            ;;
-#        *)
-#            echo "Enter only 1 - 3"
-#            exit;
-#            ;;
-#    esac
-#
-#    echo "megakill ssh | $num"
-#
-#    for (( i = 0; i < "$num"; i = i + 1 )); do
-#        echo "vncsetup ${disps[$i]} &"
-#    done
-#
-#    sleep 0 ;
-#
-#    for (( i=0; i <"$num"; i=i+1 )); do
-#        echo "vnc2me ${disps[$i]} &"
-#    done
-#}
+    for i in *."$ext" ; do
+        cnvv "$i" "$pct" ;
+    done
+}
 
-## Mega Kill
-#megakill () {
-#    process="$1"
-#    super="$2"
-#
-#    case $super in
-#        1)
-#            sudo pkill "$process"
-#            sudo killall "$process"
-#            ;;
-#        *)
-#            ;;
-#    esac
-#
-#    pkill "$process"
-#    killall "$process"
-#}
+# Setup VPN to JDev
+vpnj () {
+    killme="$1"
+    vpn="openconnect"
+
+    case "$killme" in
+        k)
+            megakill ssh 1;
+            ;;
+        *)
+            sudo "$vpn" --protocol=gp uwmadison.vpn.wisc.edu -u jbustamante -b ;
+            ;;
+    esac
+}
 
 # Compile C code to bin directory
 gcomp () {
@@ -157,6 +95,80 @@ gcomp () {
     esac
             $gcc $fin -o $cbin/$fout
             #echo $gcc $fin -o $cbin/$fout
+}
+
+# Pre and Post Zoom resolutions
+prezoom () {
+    xrandr --output eDP-1-1 --mode 1920x1080
+    regencolors wal 1 ;
+}
+
+postzoom () {
+    xrandr --output eDP-1-1 --mode 2048x1152 ;
+    regencolors wal 1 ;
+}
+
+# Toggle touch screen
+screenctl () {
+    HID="hid_multitouch"
+    cmd="$1"
+
+    case "$cmd" in
+        "on") sudo modprobe "$HID" ;;
+        "off") sudo modprobe -r "$HID" ;;
+        *) echo "Setting should be [on|off]" && exit ;;
+    esac
+
+}
+
+# Clock CPU or Core temperatures
+clock_cpu () {
+    int="$2"
+    case "$1" in
+        speed)
+            cmd='cat /proc/cpuinfo'
+            regex="MHz"
+            ;;
+
+        temps)
+            cmd="sensors"
+            regex="Core "
+            ;;
+
+        fans)
+            cmd="sensors"
+            regex="fan"
+            ;;
+
+        *) ;;
+    esac
+
+    echo watch -n $int "$cmd | grep $regex |"
+    watch -n $int "$cmd | grep $regex"
+}
+
+# Check hwmon or thermal devices
+check_devices () {
+    case "$1" in
+        hwmon)
+            din="/sys/class/hwmon/hwmon*"
+            fin="name"
+            ;;
+
+        thermal)
+            din="/sys/class/thermal/thermal_zone*"
+            fin="type"
+            ;;
+        *)
+            echo "Enter [hwmon|thermal]"
+            din=""
+            fin=""
+            ;;
+    esac
+
+    for i in "$din"; do
+        echo "$i: $(<$i/"$fin")";
+    done
 }
 
 # vim: filetype=sh

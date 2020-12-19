@@ -16,7 +16,7 @@ bind index,pager p noop
 bind index,pager D noop
 bind index,pager C noop
 bind index gg first-entry
-macro index o "<shell-escape>mailsync -V gmail<enter>" "run mbsync to sync gmail"
+macro index o "<shell-escape>mbsync gmail<enter>" "run mbsync to sync gmail"
 unmailboxes *
 
 set spoolfile = "+INBOX"

@@ -3,8 +3,13 @@
 
 fin="$1"
 sel="$2"
+notify="$3"
 x=$HOME/.ssh/.bak/."$fin".gpg
 
 #echo "gpg -d '$x' | tail -1 | xclip $sel \n"
 gpg -d "$x" | tail -1 | xclip -selection "$sel"
 
+if [ "$notify" == 1 ]; then
+    msg="Copied $fin to $sel"
+    notify-send "Clippw" "$msg" -u low
+fi

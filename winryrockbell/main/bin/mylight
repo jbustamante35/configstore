@@ -1,0 +1,49 @@
+#! /bin/sh
+#
+# mylight.sh
+# Control backlight using xbacklight or xrandr
+#
+# Set brightness to value
+# xbacklight -set <val>
+# xrandr --output $DSP --brightness <val>
+#
+# Increase brightness
+# xbacklight -inc <increment>
+# xbacklight -dec <increment>
+#
+# Decrease brightness
+# xrandr --output $DSP --brightness $(<increment> + <value>)
+# xrandr --output $DSP --brightness $(<decrement> + <value>)
+#
+# 2020 Julian Bustamante <jbustamante35@gmail.com>
+#
+# Usage:
+#       mylight [set|up|down|reset] <value>
+
+drv="$DRIVER"
+mon="$(xrandr --listactivemonitors | grep 0: | awk '{print $4}')"
+cmd="$1"
+val="$2"
+
+case $drv in
+    intel)
+        app="xbacklight"
+        xset="-set"
+        up="-inc"
+        down="-dec"
+        ;;
+
+    nvidia)
+        app="xrandr"
+        xset="--brightness"
+        up=""
+        down=""
+        ;;
+
+    *)
+        echo "Couldn't determine driver...exiting"
+        exit
+        ;;
+esac
+
+

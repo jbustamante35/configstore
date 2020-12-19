@@ -63,8 +63,8 @@ ${voffset 1} ${color2} Spotify            $alignr ${color} F3
 ${voffset 1} ${color2} Facebook Messenger $alignr ${color} F4
 ${voffset 1} ${color2} Android Messages   $alignr ${color} F5
 ${voffset 1} ${color2} Google Hangouts    $alignr ${color} F6
-${voffset 1} ${color2} Slack              $alignr ${color} F7
-${voffset 1} ${color2} Discord            $alignr ${color} F8
+${voffset 1} ${color2} Reddit             $alignr ${color} F7
+${voffset 1} ${color2} Twitter            $alignr ${color} F8
 ${voffset 1} ${color2} Krita              $alignr ${color} F9
 ${voffset 1} ${color2} Inkscape           $alignr ${color} F10
 ${voffset 1} ${color2} Gimp               $alignr ${color} F11
