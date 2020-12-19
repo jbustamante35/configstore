@@ -3,11 +3,11 @@
 
 app="$1"
 url="$2"
+ext="$3"
 dir="$HOME/.cache/sxiv/web"
 img="sxiv_image.jpg"
 
 curl -o "$dir/$img" "$url"
 
 # View image or play video
-"$app" "$dir/$img"
-
+"$app" "$ext" "$dir/$img"

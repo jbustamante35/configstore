@@ -1,0 +1,18 @@
+# vim: filetype=muttrc
+mailboxes =wisc
+mailboxes =wisc/INBOX =wisc/Archive =wisc/Sent\ Items =wisc/Drafts
+set spoolfile        = "+INBOX"
+set record           = /dev/null
+set trash            = "+Trash"
+set postponed        = "+Drafts"
+set header_cache     = ~/.config/neomutt/accounts/wisc/cache/headers
+set message_cachedir = ~/.config/neomutt/accounts/wisc/cache/bodies
+set certificate_file = ~/.config/neomutt/accounts/wisc/certificate_file
+
+# Move across folders
+bind index w noop
+bind pager w noop
+macro index,pager wi "<change-folder>=wisc/INBOX<enter>"
+macro index,pager wa "<change-folder>=wisc/Archive<enter>"
+macro index,pager wd "<change-folder>=wisc/Drafts<enter>"
+macro index,pager ws "<change-folder>=wisc/Sent\ Items<enter>"

@@ -4,13 +4,13 @@
 conky.config = {
     -- Windows
     own_window             = true,
-    --own_window_type        = 'override',
-    own_window_type        = 'desktop',
+    own_window_transparent = true,
+    own_window_type        = 'override',
+    -- own_window_type        = 'desktop',
     own_window_class       = 'Conky',
     own_window_title       = 'Monitor Conky',
     own_window_hints       = 'undecorated,below,sticky,skip_taskbar,skip_pager',
     own_window_colour      = 'black',
-    own_window_transparent = true,
 
     -- Spacing
     use_spacer             = 'left',
@@ -56,18 +56,18 @@ conky.config = {
 -- TEXT
 -- Alt Function Key Bindings
 conky.text = [[
-${color3} ${font Cantarell} FUNCTION KEY BINDINGS (Alts)
+${color3} ${font} FUNCTION KEY BINDINGS (Alts)
 ${font} ${voffset 1} ${hr 2} $color
-${voffset 1} ${color2} ${font Cantarell} Pamac              $alignr ${color} F1
-${voffset 1} ${color2} ${font Cantarell} Ncmpcpp            $alignr ${color} F2
-${voffset 1} ${color2} ${font Cantarell} Pulsemixer         $alignr ${color} F3
-${voffset 1} ${color2} ${font Cantarell} ArandR             $alignr ${color} F4
-${voffset 1} ${color2} ${font Cantarell} Steam (proton)     $alignr ${color} F5
-${voffset 1} ${color2} ${font Cantarell} Mutt Mail (Gmail)  $alignr ${color} F6
-${voffset 1} ${color2} ${font Cantarell} Mutt Mail (Wisc)   $alignr ${color} F7
-${voffset 1} ${color2} ${font Cantarell} Mutt Mail (Proton) $alignr ${color} F8
-${voffset 1} ${color2} ${font Cantarell} Todo List          $alignr ${color} F9
-${voffset 1} ${color2} ${font Cantarell} Shopping List      $alignr ${color} F10
-${voffset 1} ${color2} ${font Cantarell} Reload Colors      $alignr ${color} F11
-${voffset 1} ${color2} ${font Cantarell} Pywal (dark)       $alignr ${color} F12
+${voffset 1} ${color2} ${font} Pamac              $alignr ${color} F1
+${voffset 1} ${color2} ${font} Ncmpcpp            $alignr ${color} F2
+${voffset 1} ${color2} ${font} Pulsemixer         $alignr ${color} F3
+${voffset 1} ${color2} ${font} ArandR             $alignr ${color} F4
+${voffset 1} ${color2} ${font} Steam (proton)     $alignr ${color} F5
+${voffset 1} ${color2} ${font} Mutt Mail (Gmail)  $alignr ${color} F6
+${voffset 1} ${color2} ${font} Mutt Mail (Wisc)   $alignr ${color} F7
+${voffset 1} ${color2} ${font} Mutt Mail (Proton) $alignr ${color} F8
+${voffset 1} ${color2} ${font} Todo List          $alignr ${color} F9
+${voffset 1} ${color2} ${font} Shopping List      $alignr ${color} F10
+${voffset 1} ${color2} ${font} Reload Colors      $alignr ${color} F11
+${voffset 1} ${color2} ${font} Pywal (dark)       $alignr ${color} F12
 ]]

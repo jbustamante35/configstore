@@ -5,7 +5,7 @@ dsp="$1"
 svr="$2"
 
 case $svr in
-    off)
+    office)
         # Lab office desktop
         user=kinematics
         ;;
@@ -19,3 +19,4 @@ esac
 # Setup VNC server on remote machine
 #ssh -L "$dsp":localhost:"$dsp" -N -f -l "$user" "$svr" -p "$port"
 ssh -L "$dsp":localhost:"$dsp" -N -f -l "$user" "$svr"
+echo "ssh -L $dsp:localhost:$dsp -N -f -l $user $svr"

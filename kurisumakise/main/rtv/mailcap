@@ -26,8 +26,9 @@
 #image/gif; mpv '%s' --autofit 640x480 --loop=inf; test=test -n "$DISPLAY"
 #image/*; feh -g 640x480 '%s'; test=test -n "$DISPLAY"
 image/x-imgur-album; sxweb sxiv %s;
-image/gif; mpv '%s' --autofit 641x480 --loop=inf; test=test -n "$DISPLAY"
+image/gif; mpv '%s' --autofit=641x480 --loop=inf; test=test -n "$DISPLAY"
 image/*; sxweb sxiv '%s';
+video/*; mpv '%s' --autofit=640x480 --loop=inf; test=test -n "$DISPLAY"
 
 # Youtube videos are assigned a custom mime-type, which can be streamed with
 # vlc or youtube-dl.
@@ -35,7 +36,7 @@ image/*; sxweb sxiv '%s';
 video/x-youtube; mpv --ytdl-format=best '%s' --autofit 640x480; test=test -n "$DISPLAY"
 
 # Mpv is a simple and effective video streamer
-video/*; mpv '%s' --autofit 640x480 --loop=inf; test=test -n "$DISPLAY"
+#video/*; mpv '%s' --autofit 640x480 --loop=inf; test=test -n "$DISPLAY"
 
 ###############################################################################
 # Commands below this point will attempt to display media directly in the
@@ -55,4 +56,3 @@ image/*; curl -s '%s' | convert - jpg:/tmp/rtv.jpg && img2txt -f utf8 /tmp/rtv.j
 # Full motion videos - requires a framebuffer to view
 video/x-youtube; mpv -vo drm -quiet '%s'; needsterminal
 video/*; mpv -vo drm -quiet '%s'; needsterminal
-

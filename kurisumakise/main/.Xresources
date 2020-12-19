@@ -68,7 +68,7 @@ URxvt*keysym.M-C-v:       perl:clipboard:paste_escaped
 URxvt*keysym.M-m:	    perl:url-select:select_next
 URxvt*url-select.autocopy:  true
 URxvt*url-select.button:    2
-URxvt*url-select.launcher:  surf
+URxvt*url-select.launcher:  firefox
 URxvt*url-select.underline: true
 
 !! keyboard-select:
@@ -84,7 +84,7 @@ URxvt*keysym.M-equal:     resize-font:reset
 URxvt*keysym.M-question:  resize-font:show
 
 !! Matcher
-URxvt*url-launcher:         surf
+URxvt*url-launcher:         firefox
 URxvt*matcher.button:       1
 
 !!!! Rofi
@@ -93,7 +93,3 @@ URxvt*matcher.button:       1
 !rofi.color-normal: background, FOREGROUND, background, background, color1
 !rofi.color-active: background, FOREGROUND, background, background, color1
 !rofi.color-urgent: background, FOREGROUND, background, background, color1
-
-
-
-

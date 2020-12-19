@@ -1,0 +1,47 @@
+#!/bin/sh
+# Open Neomutt email inbox with specific account
+
+account="$1"
+box="$2"
+
+config=$HOME/.config/mutt/"$account".muttrc
+
+case $box in
+    home)
+        # Go to home folder
+        inbox=$HOME/Mail/"$account"/INBOX
+        ;;
+    all)
+        # Open all mail or archive
+        if [ "$account" = "gmail" ]; then
+            inbox="$HOME/Mail/$account/[Gmail].All Mail"
+        else
+            inbox="$HOME/Mail/$account/Archive"
+        fi
+        ;;
+    drafts)
+        # Open Drafts folder
+        if [ "$account" = "gmail" ]; then
+            inbox="$HOME/Mail/$account/[Gmail].Drafts"
+        else
+            inbox="$HOME/Mail/$account/Drafts"
+        fi
+        ;;
+    sent)
+        # Open Sent folder
+        if [ "$account" = "gmail" ]; then
+            inbox="$HOME/Mail/$account/[Gmail].Sent Mail"
+        elif [ "$account" = "wisc" ]; then
+            inbox="$HOME/Mail/$account/Sent Items"
+        else
+            inbox="$HOME/Mail/$account/Sent"
+        fi
+        ;;
+    *)
+        # Default to home
+        inbox=$HOME/Mail/"$account"/INBOX
+        ;;
+esac
+
+#echo "neomutt -F $config -f $inbox"
+neomutt -F "$config" -f "$inbox"

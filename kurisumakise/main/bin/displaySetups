@@ -1,0 +1,62 @@
+#!/bin/sh
+# Use screen(s) at reasonable resolution with Intel or Nvidia drivers
+
+num="$1"
+drv="$2"
+MAINRES="1920x1080"
+AOCRES="1920x1080"
+
+case "$drv" in
+    intel)
+    # Get display names with Intel driver
+    me="$PRIMARYDISPLAY"
+    aoc="$AOC_HOME"
+    ;;
+
+    nvidia)
+    # Get display names with Nvidia driver
+    me="$PRIMARYDISPLAY-1"
+    aoc="$AOC_HOME-1"
+    ;;
+
+*)
+    # Default to no appending DISPLAY-1
+    me="$PRIMARYDISPLAY"
+    aoc="$AOC_HOME"
+    ;;
+
+esac
+
+case "$num" in
+    0b)
+        # VNC Display
+        vnc=VNC-0
+        xrandr \
+            --output "$vnc" --primary --mode 1344x727 --pos 0x0 --rotate normal
+        ;;
+    1)
+        # Single display
+        xrandr \
+            --output "$me"  --primary --mode "$MAINRES" --pos 0x0 --rotate normal \
+            --output "$aoc" --off
+        ;;
+    2r)
+        # AOC display at home RIGHT of main
+        xrandr \
+            --output "$me"  --primary --mode "$MAINRES" --pos 0x0 --rotate normal \
+            --output "$aoc" --mode "$AOCRES" --pos 2048x0 --rotate normal
+        ;;
+
+    2l)
+        # AOC display at home LEFT of main
+        xrandr \
+            --output "$me" --primary --mode "$MAINRES" --pos 1920x0 --rotate normal \
+            --output "$aoc" --mode "$AOCRES" --pos 0x0 --rotate normal
+        ;;
+
+    *)
+        # Default to primary only
+        xrandr \
+            --output "$me" --primary --mode "$MAINRES" --pos 0x0 --rotate normal
+        ;;
+esac

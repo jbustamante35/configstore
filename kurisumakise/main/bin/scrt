@@ -8,13 +8,18 @@ sel="$2"
 case $sel in
     a)
         capture="full"
-        echo "Capturing all screens"
+        msg="Capturing all screens"
+        echo "$msg";
+        notify-send "Screenshot" “Capturing all screens”;
+        sleep 0.1;
         scrot '%y%m%d_%H%M%S_full.png' -e 'mv $f ~/Pictures/screenshots' -c -d "$delay"
         ;;
     *)
         capture="select"
-        echo "Select screen to capture"
+        msg="Select screen to capture"
+        echo "$msg";
+        notify-send "Screenshot" “Select screen to capture”;
+        sleep 0.1;
         scrot '%y%m%d_%H%M%S_select.png' -e 'mv $f ~/Pictures/screenshots' -u -c -d "$delay"
         ;;
 esac
-

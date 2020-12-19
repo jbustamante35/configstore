@@ -3,5 +3,5 @@
 echo "Cleaning pc..."
 sudo pacman -Scc;
 yay -Sc;
-yaourt -Sc;
+#yaourt -Sc;
 echo "pc cleaned!"

@@ -1,34 +1,4 @@
 #! /bin/sh
-#                  `                                  `
-#              `,+ `                        `      ,`#
-#             +#`,:``                       ``    '`@``+`
-#           `; :# '  `                        `   `@``@,
-#           #, `: ,      ``                      ``#`  : :
-#           ;+ # ,               ++++++++++++++`   ; .+``+
-#           ; #. '         `     @@@@@@@@@@@@@@`     ;#, #
-#             #  :       `:'      @      ;. '@,      '.@
-#          ,: #; ,        #`      @      ;` ;@+      .`@ +
-#          . @,.+#       .@@     .#      ;` .@#    `'+` ;'
-#          `@; ,+`       .@@   ` +:      ;`  @@     +:#,+;
-#      `   #`#`# +       `@@    `@`@`    ;`  @@     ,`@,.;`
-#          + ; +.,        #   `.,#,,#,```',` @@     @'` +.`
-#         ``@'`,@`  `'@@@@@@@@@@@`+@#@@@@@+''@@     ,'; '#``
-#          +`#;;,;  +@@,,,@@@@@@@.@+#@@#` .;`. `    @ +`;:.``
-#         `' + # .  +@@`.`#@@@@@@:@##@+ #@@@@@#     @`: @.`  `
-#           @'`+@.  +@@:,:#@@@@@@'@@#@ @@@@#@@@@`    #+`##    `
-#          ' ;`,;+  +@@@@+@@@@@@@+@@@`#@@;   .@@#   @`',.,
-#          ;`+ + :  +@#  `  :@@@@@#@# @@: :@+ `@@`  @`, +,
-#           @'`##   ''`##@@@.,@@@@,:..@@ ;@+@@ +@#  `@#'#+
-#            @++      @@@@@@@ #@@@@@:#@@ @' `@ :@@    ##;
-#            .@'     `@@.  +@+`@@@@#;.@@ @@ ;@ '@+  ` @@
-#             #`    `:@#.`#`@@       .@@` @@@, @@+   `+`
-#             :,   ` :@@`'+.@@       `@@@  `` +#@     @
-#              +    ``@@, `@@;         @@@+.;@#@:     @
-#              @     `'@@@@@@          `@#@@@@@:     `+
-#              '`      :@@@'             :#@#+```    #`
-#               @      `                        `    @
-#               ',      `                        `  @`
-#
 #                   ###### #### ###### #     # #######
 #                    #   # #     #   # #  #  # #  #  #
 #                   ###### #### ###### #  #  # #  #  #
@@ -40,11 +10,11 @@
 
 ################################## Main Setup ##################################
 sxhkd &
-setupBspwm
+wm_bspwm
 
 # Workaround for: https://github.com/baskerville/bspwm/issues/52
 # Needed to install wmname from core repository
-wmname LG3D
+#wmname LG3D
 
 ############################## Window Configuration ##############################
 bspc config top_padding    2
@@ -67,9 +37,12 @@ bspc config focused_border_color \#F7E144
 bspc config active_border_color  \#C8645F
 bspc config normal_border_color  \#243344
 
-
 ############################ Workspace Management #############################
-bspc monitor eDP-1-1 -d 1 2 3 4 5 6 7 8 9 10 # Single Display [nvidia]
+bspc monitor eDP1 -d 1 2 3 4 5 6 7 8 9 10 # Single Display [nouvau]
+#bspc monitor eDP1 -d A1 A2 A3 A4 A5 # Primary
+#bspc monitor DP3  -d B1 B2 B3 B4 B5 # Jacob's LG Monitor
+
+#bspc monitor eDP-1-1 -d 1 2 3 4 5 6 7 8 9 10 # Single Display [nvidia]
 
 #bspc monitor eDP-1-1 -d 1 2 3 4 5  # Main display [nvidia]
 #bspc monitor DP-1-3  -d 6 7 8 9 10 # TCL Roku 55"
@@ -77,10 +50,11 @@ bspc monitor eDP-1-1 -d 1 2 3 4 5 6 7 8 9 10 # Single Display [nvidia]
 #bspc monitor DP1  -d S1 S2 S3 S4 S5 # Home AOC or Left Dell
 #bspc monitor DP3  -d B1 B2 B3 B4 B5 # Right Dell
 
-#bspc monitor eDP1 -d A1 A2 A3 A4 A5 # Primary
-#bspc monitor DP3  -d B1 B2 B3 B4 B5 # Jacob's LG Monitor
-
 # Application rules
+# Gaming [monitor 07]
+bspc rule -a Steam      desktop='^7'
+bspc rule -a Discord    desktop='^7'
+
 # Editors [monitor 08]
 bspc rule -a Gimp     desktop='^8'
 bspc rule -a Krita    desktop='^8'
@@ -88,12 +62,10 @@ bspc rule -a Inkscape desktop='^8'
 bspc rule -a Fiji     desktop='^8' state=floating follow=on
 
 # Social [monitor 09]
-bspc rule -a Steam      desktop='^9'
 bspc rule -a Messages   desktop='^9'
 bspc rule -a Caprine:*  desktop='^9'
 bspc rule -a YakYak     desktop='^9'
 bspc rule -a Slack      desktop='^9'
-bspc rule -a Discord    desktop='^9'
 
 # Music [monitor 10]
 bspc rule -a "Google Play Music Desktop Player" desktop='^10'
@@ -101,6 +73,7 @@ bspc rule -a Spotify desktop='^10'
 bspc rule -a URxvt:ncmpcpp desktop='^10'
 
 # Floating
+bspc rule -a URxvt:float      state=floating follow=on
 bspc rule -a URxvt:htop       state=floating follow=on
 bspc rule -a URxvt:gotop      state=floating follow=on
 bspc rule -a URxvt:nvtop      state=floating follow=on
@@ -119,4 +92,3 @@ bspc rule -a URxvt:pulsemixer state=floating follow=on
 polybar -c ~/.config/polybar/polybar.conf main -q --reload      &
 #polybar -c ~/.config/polybar/polybar.conf secondary -q --reload &
 #polybar -c ~/.config/polybar/polybar.conf tertiary -q --reload &
-

@@ -1,11 +1,29 @@
 #!/bin/sh
 
 # Show current song and time as notification
+show="$1"
 
-info=$(mpc status | head -2)
-song=$(echo "$info" | head -1)
-time=$(echo "$info" | tail -1 | awk '{print $3}')
+# Get current song and time
+info="$(mpc status | head -2)"
+song="$(echo "$info" | head -1)"
+time="$(echo "$info" | tail -1 | awk '{print $3}')"
 
+# If no song title given, parse the file name
+if [[ "$song" == *"/"* ]]; then
+    fin="$(basename "$(mpc -f %file% | head -1)")"
+    ext=".$(echo "$fin" | awk -F . '{if (NF>1) {print $NF}}')"
+    song="$(basename "$fin" "$ext")"
+fi
+
+# Show song and current time
+ttl="Music Player [Now Playing]"
 str="$song - [ $time ]"
-echo $str
-notify-send "Current Song" "$str" -u low
+
+case "$show" in
+    1)
+        notify-send "$ttl" "$str" -u normal -i audio-headphones
+        ;;
+    *)
+        echo "$str"
+        ;;
+esac

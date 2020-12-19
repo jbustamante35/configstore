@@ -1,27 +1,17 @@
-#                  `                                  `
-#              `,+ `                        `      ,`#
-#             +#`,:``                       ``    '`@``+`
-#           `; :# '  `                        `   `@``@,
-#           #, `: ,      ``                      ``#`  : :
-#           ;+ # ,               ++++++++++++++`   ; .+``+
-#           ; #. '         `     @@@@@@@@@@@@@@`     ;#, #
-#             #  :       `:'      @      ;. '@,      '.@
-#          ,: #; ,        #`      @      ;` ;@+      .`@ +
-#          . @,.+#       .@@     .#      ;` .@#    `'+` ;'
-#          `@; ,+`       .@@   ` +:      ;`  @@     +:#,+;
-#      `   #`#`# +       `@@    `@`@`    ;`  @@     ,`@,.;`
-#          + ; +.,        #   `.,#,,#,```',` @@     @'` +.`
-#         ``@'`,@`  `'@@@@@@@@@@@`+@#@@@@@+''@@     ,'; '#``
-#          +`#;;,;  +@@,,,@@@@@@@.@+#@@#` .;`. `    @ +`;:.``
-#         `' + # .  +@@`.`#@@@@@@:@##@+ #@@@@@#     @`: @.`  `
-#           @'`+@.  +@@:,:#@@@@@@'@@#@ @@@@#@@@@`    #+`##    `
-#          ' ;`,;+  +@@@@+@@@@@@@+@@@`#@@;   .@@#   @`',.,
-#          ;`+ + :  +@#  `  :@@@@@#@# @@: :@+ `@@`  @`, +,
-#           @'`##   ''`##@@@.,@@@@,:..@@ ;@+@@ +@#  `@#'#+
-#            @++      @@@@@@@ #@@@@@:#@@ @' `@ :@@    ##;
-###############################################################################
+#! /bin/sh
+#                       ####  #    # #    # #    # #####
+#                      #       #  #  #    # #   #  #    #
+#                       ####    ##   ###### ####   #    #
+#                           #   ##   #    # #  #   #    #
+#                      #    #  #  #  #    # #   #  #    #
+#                       ####  #    # #    # #    # #####
+#
+########################## SXHKD Configuration File ###########################
 
+
+###############################################################################
 ########################### Window Manager Control ############################
+###############################################################################
 # sxhkdrc [reload | quit/restart | close/kill]
 super + c
     pkill -USR1 -x sxhkd
@@ -115,6 +105,9 @@ super + grave
 alt + grave
     urxvtc -e tmux
 
+alt + shift + grave
+    urxvtc -name float
+
 super + n
     urxvtc
 
@@ -122,9 +115,6 @@ super + shift + n
     urxvtd -q -o -f
 
 super + b
-    kitty -e tmux
-
-super + shift + b
     kitty -e tmux
 
 # Program launcher
@@ -141,14 +131,17 @@ super + r
 super + alt + r
     romoji
 
+super + alt + p
+    clippw lp clip 1
+
 super + ctrl + p
-    clippw lb primary
+    clippw pw clip 1
 
 alt + ctrl + p
-    clippw etc primary
+    clippw gm clip 1
 
-shift + ctrl + p
-    clippw glab primary
+ctrl + shift + p
+    clippw pg clip 1
 
 super + ctrl + h
     urxvt -name htop -e htop
@@ -158,9 +151,6 @@ alt + ctrl + h
 
 alt + shift + h
     urxvt -name nvtop -e nvtop
-
-ctrl + alt + x
-    showSongInfo
 
 ############################### Misc Utilities ################################
 # Browsers [brave , firefox , qutebrowser , surf]
@@ -172,6 +162,9 @@ super + shift + g
 
 alt + shift + g
     google-chrome-beta
+
+ctrl + shift + g
+    droidsurf chrome labmeeting
 
 super + shift + h
     qutebrowser
@@ -197,6 +190,9 @@ XF86AudioPlay
 XF86AudioNext
     mpc next
 
+ctrl + alt + x
+    showSongInfo 1
+
 # VimWiki
 alt + o
     urxvt -e nvim -c :VimwikiDiaryIndex
@@ -205,7 +201,18 @@ alt + p
     urxvt -e nvim -c :VimwikiMakeDiaryNote
 
 # Screenshot / Screen recording
+Print
+    scrt 0
 
+shift + Print
+    scrt 0 a
+
+super + Print
+    simplescreenrecorder
+
+
+alt + w
+    weather
 
 # Function applications [Fn Keys]
 super + XF86AudioMute
@@ -218,19 +225,19 @@ super + XF86AudioRaiseVolume
     spotify
 
 super + XF86AudioPrev
-    droidsurf surf droid
+    droidsurf brave fbmessenger
 
 super + XF86AudioPlay
-    caprine
+    droidsurf brave droid
 
 super + XF86AudioNext
-    yakyak
+    droidsurf brave ghangouts
 
 super + F7
-    slack
+    droidsurf brave reddit
 
 super + XF86Display
-    discord
+    droidsurf brave twitter
 
 super + XF86Search
     krita
@@ -247,31 +254,31 @@ super + XF86MonBrightnessUp
 
 # Alternative Function applications [Alt + Fn Keys]
 alt + XF86AudioMute
-    droidsurf chrome plex
+    droidsurf chrome labmeeting
 
 alt + XF86AudioLowerVolume
     urxvt -name ncmpcpp -e ncmpcpp
 
 #alt + XF86AudioRaiseVolume
 alt + F3
-    urxvt -name pulsemixer -e pulsemixer
+    arandr
 
 #alt + XF86AudioPrev
 alt + F4
-    arandr
+    urxvt -name pulsemixer -e pulsemixer
 
 alt + XF86AudioPlay
-    steam
+    urxvt -e openmutt gmail
 
 alt + XF86AudioNext
-    urxvt -e neomutt -F ~/.config/mutt/gmail.muttrc -f ~/Mail/gmail/INBOX
+    urxvt -e openmutt wisc
 
 alt + F7
-    urxvt -e neomutt -F ~/.config/mutt/wisc.muttrc -f ~/Mail/wisc/INBOX
+    urxvt -e openmutt pmail
 
 # Must hold Fn key [can't override odd paste function]
 alt + F8
-    urxvt -e neomutt -F ~/.config/mutt/pmail.muttrc -f ~/Mail/pmail/INBOX
+    steam
 
 alt + XF86Search
     urxvt -name conkyconf -e nvim ~/Dropbox/Misc/config/conky/notepad/todo.md
@@ -280,13 +287,13 @@ alt + XF86Search
 alt + F10
     urxvt -name conkyconf -e nvim ~/Dropbox/Misc/config/conky/notepad/shopping.md
 
-alt + XF86MonBrightnessDown
-    xrdb -load ~/.cache/wal/colors.Xresources && xrdb -merge ~/.Xresources
+#alt + XF86MonBrightnessDown
+alt + F11
+    themeSwitch day 0
 
-alt + XF86MonBrightnessUp
-    regencolors "$WALEND" 1
-    #regencolors schemer 1
-
+#alt + XF86MonBrightnessUp
+alt + F12
+    themeSwitch night 0
 
 ###############################################################################
 ############################# General Navigation ##############################
@@ -328,8 +335,8 @@ super + {_,shift + }{1-9,0}
     bspc {desktop -f,node -d} '^{1-9,10}'
 
 # Use alt + 1-5 to send to secondary display
-#alt + {_,shift + }{1,2,3,4,5}
-    #bspc {desktop -f,node -d} '^{6,7,8,9,10}'
+ctrl + {_,shift + }{1,2,3,4,5}
+    bspc {desktop -f,node -d} '^{6,7,8,9,10}'
 
 # Use alt + 6-9,0 to send to tertiary display
 #ctrl + {_,shift + }{1,2,3,4,5}

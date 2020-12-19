@@ -23,10 +23,11 @@ drchk () {
     dropbox-cli filestatus ;
 }
 
-# Reload color schemes
-clrs () {
-    xrdb -load ~/.cache/wal/colors.Xresources;
-    xrdb -merge ~/.Xresources;
+# Restart Dropbox
+drpstp () {
+    dropbox-cli stop ;
+    sleep 1 ;
+    dropbox-cli start ;
 }
 
 # compile and run kotlin program
@@ -34,44 +35,6 @@ kotlinr () {
     echo Compiling, please wait...
 	kotlinc $1 -include-runtime -d out.jar
 	java -jar out.jar
-}
-
-# Reset pywal source colors and choose backend
-wali () {
-    bak="$1"
-    sat="$2"
-
-    wal -c ;
-    clrs ;
-    wal --backend "$bak" -i ~/.config/wall.jpg --saturate "$sat" -q ;
-}
-
-# Locate, Select, and Excecute [pipe locate and fzf into application]
-lse () {
-    # typ: search query for filtering by file or filetype
-    # app: application to run selected file
-    typ="$1"
-    app="$2"
-    ver="$3"
-
-    case $ver in
-        1)
-            # Search through entire filesystem
-            "$app" "$(locate "*$typ" | fzf)"
-            ;;
-        2)
-            # Search through current directory tree
-            "$app" "$(tree -Nif | egrep -i  "*$typ" | fzf)"
-            ;;
-        3)
-            # Search file contents instead of files
-            "$app" "$(ag -Qil "$typ" | fzf)"
-            ;;
-        *)
-            # Default to version 1
-            "$app" "$(locate "*$typ" | fzf)"
-            ;;
-    esac
 }
 
 # Select video player and video type from current directory [default mpv]
@@ -91,33 +54,39 @@ mvid () {
     esac
 }
 
-# Start tmux session on remote host [doesn't work]
-tsh () {
-    host="$1"
-    ssnname="$2"
-
-    if [ -z "$ssnname" ]; then
-        echo "Provide name of session [Example: tsh <host> main]"
-        return 1;
-    fi
-
-    echo ssh "$host" -t "tmux -CC attach -t $ssnname || tmux -CC new $ssnname"
-    ssh $host -t "tmux -CC attach -t $ssnname || tmux -CC new $ssnname"
-
-}
-
-# View VNC display
+# Start Openconnect VPN to UW Campus
 vpnj () {
     vpn="openconnect"
     killme="$1"
     megakill "$vpn" 1
 
     case "$killme" in
-        k) ;;
+        k)
+            megakill ssh 1
+            ;;
         *)
             sudo "$vpn" --protocol=gp uwmadison.vpn.wisc.edu -u jbustamante -b
             ;;
     esac
+}
+
+# Shortcut to convert image to compressed jpg
+cnvv () {
+    img="$1"
+    pct="$2"
+    ext="$(echo $img | cut -d'.' -f1)"
+
+    convert -resize "$pct" "$img" "$fin".jpg
+}
+
+# Convert all images in directory
+cnvall () {
+    ext="$1"
+    pct="$2"
+
+    for i in *."$ext" ; do
+        cnvv "$i" "$pct" ;
+    done
 }
 
 # Convert color image to grayscale
@@ -176,3 +145,12 @@ check_devices () {
         echo "$i: $(<$i/"$fin")";
     done
 }
+
+# Set up secondary monitor on BSPWM
+bspwm_addsecondary () {
+    bspc monitor eDP1 -d A1 A2 A3 A4 A5 ;
+    bspc monitor "$1" -d B1 B2 B3 B4 B5 ;
+    bspc wm -r ;
+    polybar -c ~/.config/polybar/polybar.conf secondary -q --reload &
+}
+

@@ -6,5 +6,6 @@
 
 config_version: 2
 settings:
-  content.geolocation:
-    https://www.bing.com: true
+  content.notifications:
+    https://www.reddit.com: false
+    https://www.youtube.com: false

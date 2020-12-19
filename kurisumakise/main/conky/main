@@ -1,12 +1,12 @@
 -- vim: syntax=lua
---
+
 -- CONFIG
 conky.config = {
     -- Windows
     own_window             = true,
     own_window_transparent = true,
-    --own_window_type        = 'override',
-    own_window_type        = 'desktop',
+    own_window_type        = 'override',
+    -- own_window_type        = 'desktop',
     own_window_class       = 'Conky',
     own_window_title       = 'Monitor Conky',
     own_window_hints       = 'undecorated,below,sticky,skip_taskbar,skip_pager',
@@ -64,14 +64,9 @@ conky.config = {
 -- MPD Music
 -- Fortune
 conky.text = [[
-${color3} ${font Cantarell:bold} ${nodename}
-${color} ${font Cantarell:size=12} ${time %A}, ${time %e %B %Y}
-
-${color2} ${font Cantarell:bold}STATS ${font Cantarell} ${voffset -6} ${hr 2} $color
-${voffset 5} ${color} ${font Cantarell}uptime $alignr ${color} ${uptime_short}
-${voffset 1} ${color} ${font Cantarell}disk   $alignr ${color} ${fs_used /} - ${fs_size /}
-${voffset 1} ${color} ${font Cantarell}memory $alignr ${color} $mem - $memmax
-${voffset 1} ${color} ${font Cantarell}swap   $alignr ${color} $swap - $swapmax
+${color3} ${font Cantarell:bold:size=16} ${nodename}
+${color} ${font Cantarell:size=16} ${time %A}, ${time %e %B %Y}
+${voffset 5} ${color2} ${font size=16}Uptime ${color} ${uptime_short}
 
 ${color2} ${font Cantarell:bold}CPU UTILIZATION ${font} ${voffset -6} ${hr 2} $color
 ${color} ${cpugraph 60}
@@ -88,6 +83,15 @@ ${voffset 5}${if_mpd_playing}$mpd_artist - $mpd_title $alignr $mpd_elapsed/$mpd_
 ($mpd_status) $alignr${mpd_bar 7,220}   $mpd_percent% ${endif}
 
 ${color2} ${font Cantarell:bold}QUOTE ${font} ${voffset -6} ${hr 2} $color
-${voffset 5}$alignr${color1}${exec cat ~/Dropbox/Misc/config/conky/quote/starwars.txt}
+${voffset 5}${color1}${exec bat ~/Dropbox/Misc/config/conky/quote/quote.txt}
 ]]
 
+-- ${color2} ${font Cantarell:bold}STATS ${font} ${voffset -6} ${hr 2} $color
+-- ${voffset 5} ${color} ${font}uptime $alignr ${color} ${uptime_short}
+-- ${voffset 1} ${color} ${font}disk   $alignr ${color} ${fs_used /} - ${fs_size /}
+-- ${voffset 1} ${color} ${font}memory $alignr ${color} $mem - $memmax
+-- ${voffset 1} ${color} ${font}swap   $alignr ${color} $swap - $swapmax
+
+
+-- ${voffset 5}${color1}${exec bat ~/Dropbox/Misc/config/conky/quote/quote.txt}
+-- ${voffset 5}${color1}${execi 3600 quoteSwitch 0 1}
