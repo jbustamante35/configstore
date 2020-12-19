@@ -1,13 +1,10 @@
 #!/bin/bash
 # Synchronize all configuration files to configstore repository
-# Must have dotifytracking configuration files
 
 sync="rsync -avzu --delete --progress -h"
 profile=$PROFILE
 repo=~/Documents/configstore/$profile
 main=$repo/main
-dots=$repo/dots
-dotdirs=$(ls -A ~/.dotify)
 
 # Check if directories exist
 if [[ ! -d "$repo" ]]; then
@@ -18,59 +15,45 @@ if [[ ! -d "$main" ]]; then
     mkdir $main
 fi
 
-if [[ ! -d "$dots" ]]; then
-    mkdir $dots
-fi
-
 echo "Profile: $profile"
 echo "Syncing configuration..."
 
 # main
-${sync} ~/bin                          ${main}
-${sync} ~/.dotify/.aliases             ${main}
-${sync} ~/.dotify/.functions           ${main}
-${sync} ~/.dotify/.shortcuts           ${main}
-${sync} ~/.dotify/.bashrc              ${main}
-${sync} ~/.dotify/.zshrc               ${main}
-${sync} ~/.dotify/.xinitrc             ${main}
-${sync} ~/.dotify/.Xresources          ${main}
-${sync} ~/.dotify/.config/bspwm        ${main}
-${sync} ~/.dotify/.config/sxhkd        ${main}
-${sync} ~/.dotify/.config/compton      ${main}
-${sync} ~/.dotify/.config/conky        ${main}
-${sync} ~/.dotify/.config/dunst        ${main}
-${sync} ~/.dotify/.config/tmux         ${main}
-${sync} ~/.dotify/.config/rofi         ${main}
-${sync} ~/.dotify/.config/rtv          ${main}
-${sync} ~/.dotify/.config/mpd/mpd.conf ${main}
-${sync} ~/.dotify/.config/mpv          ${main}
-${sync} ~/.dotify/.config/ncmpcpp      ${main}
-${sync} ~/.dotify/.config/ranger       ${main}
-${sync} ~/.dotify/.config/qutebrowser  ${main}
-${sync} ~/.dotify/.config/zathura      ${main}
-${sync} ~/.dotify/.config/wall.jpg     ${main}
-${sync} ~/.dotify/.config/grub.jpg     ${main}
-${sync} ~/.dotify/.config/login.jpg    ${main}
-${sync} ~/.dotify/.config/lock.jpg     ${main}
+${sync} ~/bin                  ${main}
+${sync} ~/.aliases             ${main}
+${sync} ~/.functions           ${main}
+${sync} ~/.shortcuts           ${main}
+${sync} ~/.bashrc              ${main}
+${sync} ~/.zshrc               ${main}
+${sync} ~/.xinitrc             ${main}
+${sync} ~/.Xresources          ${main}
+${sync} ~/.config/bspwm        ${main}
+${sync} ~/.config/sxhkd        ${main}
+${sync} ~/.config/compton      ${main}
+${sync} ~/.config/conky        ${main}
+${sync} ~/.config/dunst        ${main}
+${sync} ~/.config/tmux         ${main}
+${sync} ~/.config/rofi         ${main}
+${sync} ~/.config/rtv          ${main}
+${sync} ~/.config/mpd/mpd.conf ${main}
+${sync} ~/.config/mpv          ${main}
+${sync} ~/.config/ncmpcpp      ${main}
+${sync} ~/.config/ranger       ${main}
+${sync} ~/.config/qutebrowser  ${main}
+${sync} ~/.config/zathura      ${main}
+${sync} ~/.config/wall.jpg     ${main}
+${sync} ~/.config/grub.jpg     ${main}
+${sync} ~/.config/login.jpg    ${main}
+${sync} ~/.config/lock.jpg     ${main}
 
-# dots
-for dot in $dotdirs; do
-    ${sync} ~/.dotify/${dot} ${dots}
-done
-
-printf "\nSaving 'main' and 'dots' lists...\n"
+printf "\nSaving 'main' lists...\n"
 maindirs=$(ls -A $main)
 mainlist=$repo/mainlist.txt
-dotlist=$repo/dotlist.txt
 
 if [[ ! -f "$mainlist" ]]; then
     touch $mainlist
 fi
 
-if [[ ! -f "$dotlist" ]]; then
-    touch $dotlist
-fi
-echo $dotdirs | tr " " "\n" > $dotlist
 echo $maindirs | tr " " "\n" > $mainlist
 
 #printf "Copying ${profile}'s scripts to respective directory...\n"
@@ -79,4 +62,3 @@ echo $maindirs | tr " " "\n" > $mainlist
 `cp ~/bin/revertProfile.sh $repo`
 
 printf "Finished syncing configuration for $profile"
-

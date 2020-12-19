@@ -1,1 +1,0 @@
-{"rustc":8727041129544277308,"features":"[]","target":12843470831059667576,"profile":2574335274271406459,"path":13900004672135040065,"deps":[["bitflags v1.0.4","bitflags",2941503605508459353],["memchr v2.2.0","memchr",9575771817559816429],["unicase v2.4.0","unicase",11700018999586155487]],"local":[{"Precalculated":"0.5.1"}],"rustflags":[],"edition":"Edition2018"}

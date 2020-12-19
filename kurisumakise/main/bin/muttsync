@@ -1,0 +1,35 @@
+#!/bin/sh
+#
+# muttsync: sync neomutt mail
+# 2020 Julian Bustamante <jbustamante35@gmail.com>
+#
+# Usage:
+#
+#
+# Input:
+#
+
+mail="$1"
+notify="$2"
+sync="mbsync"
+
+# Sync Mail
+if [ "$notify" == 1 ]; then
+    msg="Fetching mail for $mail..."
+    notify-send "Mail Sync" "$msg" -u normal
+fi
+
+case "$mail" in
+    all)
+        "$sync" -a;
+        ;;
+    *)
+        "$sync" "$mail"
+        ;;
+esac
+
+# Done message
+if [ "$notify" == 1 ]; then
+    msg="DONE! [$mail]"
+    notify-send "Mail Sync" "$msg" -u normal
+fi

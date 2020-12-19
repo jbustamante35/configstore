@@ -1,0 +1,31 @@
+#! /bin/sh
+#
+# lse.sh
+# Copyright (C) 2020 jbustamante <jbustamante@KurisuMakise>
+#
+# Distributed under terms of the MIT license.
+#
+# typ: search query for filtering by file or filetype
+# app: application to run selected file
+typ="$1"
+app="$2"
+ver="$3"
+
+case $ver in
+    1)
+        # Search through entire filesystem
+        "$app" "$(locate "*$typ" | fzf)"
+        ;;
+    2)
+        # Search through current directory tree
+        "$app" "$(tree -Nif | egrep -i  "*$typ" | fzf)"
+        ;;
+    3)
+        # Search file contents instead of files
+        "$app" "$(ag -Qil "$typ" | fzf)"
+        ;;
+    *)
+        # Default to version 1
+        "$app" "$(locate "*$typ" | fzf)"
+        ;;
+esac

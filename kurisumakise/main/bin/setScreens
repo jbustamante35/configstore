@@ -1,28 +1,27 @@
 #!/bin/sh
-# Set single or dual display
+# Use screen(s) at reasonable resolution with Intel or Nvidia drivers
+# Wrapper for displaySetups layouts but adds location
 
-num="$1"
-layouts="$HOME"/.screenlayout
-
-case $num in
-    1)
-        "$layouts"/singleScreen.sh
+location="$3"
+direction="$4"
+case "$location" in
+    home)
+        # Display settings for home [AOC monitor]
+        num="$1""$direction"
+        drv="$2"
         ;;
 
-    2)
-        "$layouts"/dualScreen.sh
-        ;;
-
-    2b)
-        "$layouts"/dualScreen2.sh
-        ;;
-
-    3)
-        "$layouts"/tripleScreen.sh
+    lab)
+        # Display settings for lab [Dell monitors]
+        num="$1"
+        drv="$2"
         ;;
 
     *)
-        "$layouts"/singleScreen.sh
+        # Default to single display with Intel driver in lab
+        num=
+        drv="intel"
         ;;
 esac
 
+displaySetups "$drv" "$num"

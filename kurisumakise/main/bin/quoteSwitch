@@ -1,0 +1,36 @@
+#! /bin/sh
+#
+# quoteSwitch: change the quote in conky's quote file
+#
+# 2020 Julian Bustamante <jbustamante35@gmail.com>
+#
+# Usage:
+#
+
+quote="$1"
+verbose="$2"
+#din="$HOME/Dropbox/Misc/config/conky/quote"
+din="/home/jbustamante/Dropbox/Misc/config/conky/quote"
+fin="$din/quote.txt"
+
+# Determine if quote should be re-linked
+case "$quote" in
+    0)
+        # Use the last-used quote
+        quote="$(basename $(readlink $fin | awk -F . '{print $1}'))" ;
+        ;;
+    *)
+        ;;
+esac
+
+# Refresh soft-link to quote
+fortune -s -e "$quote" > "$din/$quote.txt" ;
+ln -sf "$din/$quote.txt" "$fin" ;
+
+case "$verbose" in
+    1)
+        bat "$fin" ;
+        ;;
+    *)
+        ;;
+esac

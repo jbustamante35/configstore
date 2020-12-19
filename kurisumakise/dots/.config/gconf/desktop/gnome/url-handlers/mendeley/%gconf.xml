@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="enabled" mtime="1572479032" type="bool" value="true"/>
-	<entry name="command" mtime="1572479031" type="string">
-		<stringvalue>/home/jbustamante/.local/share/mendeleydesktop %s</stringvalue>
-	</entry>
-</gconf>

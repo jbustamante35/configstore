@@ -2,7 +2,6 @@
 .bashrc
 bin
 bspwm
-compton
 conky
 dunst
 .functions

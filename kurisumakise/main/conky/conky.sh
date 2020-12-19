@@ -7,12 +7,12 @@ case "$1" in
 esac
 
 # Primary Screen
-conky -X "$dsp"  -c "$HOME"/.config/conky/main      -d & \
-conky -X "$dsp"  -c "$HOME"/.config/conky/func      -d & \
-conky -X "$dsp"  -c "$HOME"/.config/conky/alts      -d & \
-conky -X "$dsp"  -c "$HOME"/.config/conky/todo      -d & \
-conky -X "$dsp"  -c "$HOME"/.config/conky/shopping  -d & \
-conky -X "$dsp"  -c "$HOME"/.config/conky/time      -d ;
+conky -X "$dsp"  -c "$HOME"/.config/conky/main      -d -q & \
+conky -X "$dsp"  -c "$HOME"/.config/conky/func      -d -q & \
+conky -X "$dsp"  -c "$HOME"/.config/conky/alts      -d -q & \
+conky -X "$dsp"  -c "$HOME"/.config/conky/todo      -d -q & \
+conky -X "$dsp"  -c "$HOME"/.config/conky/shopping  -d -q & \
+conky -X "$dsp"  -c "$HOME"/.config/conky/time      -d -q ;
 
 
 ## Secondary Screen [right]

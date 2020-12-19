@@ -4,13 +4,13 @@
 conky.config = {
     -- Windows
     own_window             = true,
-    --own_window_type        = 'override',
-    own_window_type        = 'desktop',
+    own_window_transparent = true,
+    own_window_type        = 'override',
+    -- own_window_type        = 'desktop',
     own_window_class       = 'Conky',
     own_window_title       = 'Monitor Conky',
     own_window_hints       = 'undecorated,below,sticky,skip_taskbar,skip_pager',
     own_window_colour      = 'black',
-    own_window_transparent = true,
 
     -- Spacing
     use_spacer             = 'left',
@@ -56,18 +56,18 @@ conky.config = {
 -- TEXT
 -- Function Key Bindings
 conky.text = [[
-${color3} ${font Cantarell} FUNCTION KEY BINDINGS (Main)
+${color3} ${font} FUNCTION KEY BINDINGS (Main)
 ${font} ${voffset 1} ${hr 2} $color
-${voffset 1} ${color2} ${font Cantarell} Nvidia Settings    $alignr ${color} F1
-${voffset 1} ${color2} ${font Cantarell} Google Music       $alignr ${color} F2
-${voffset 1} ${color2} ${font Cantarell} Spotify            $alignr ${color} F3
-${voffset 1} ${color2} ${font Cantarell} Android Messages   $alignr ${color} F4
-${voffset 1} ${color2} ${font Cantarell} Facebook Messenger $alignr ${color} F5
-${voffset 1} ${color2} ${font Cantarell} Google Hangouts    $alignr ${color} F6
-${voffset 1} ${color2} ${font Cantarell} Slack              $alignr ${color} F7
-${voffset 1} ${color2} ${font Cantarell} Discord            $alignr ${color} F8
-${voffset 1} ${color2} ${font Cantarell} Krita              $alignr ${color} F9
-${voffset 1} ${color2} ${font Cantarell} Inkscape           $alignr ${color} F10
-${voffset 1} ${color2} ${font Cantarell} Gimp               $alignr ${color} F11
-${voffset 1} ${color2} ${font Cantarell} Fiji               $alignr ${color} F12
+${voffset 1} ${color2} ${font} Nvidia Settings    $alignr ${color} F1
+${voffset 1} ${color2} ${font} Google Music       $alignr ${color} F2
+${voffset 1} ${color2} ${font} Spotify            $alignr ${color} F3
+${voffset 1} ${color2} ${font} Android Messages   $alignr ${color} F4
+${voffset 1} ${color2} ${font} Facebook Messenger $alignr ${color} F5
+${voffset 1} ${color2} ${font} Google Hangouts    $alignr ${color} F6
+${voffset 1} ${color2} ${font} Slack              $alignr ${color} F7
+${voffset 1} ${color2} ${font} Discord            $alignr ${color} F8
+${voffset 1} ${color2} ${font} Krita              $alignr ${color} F9
+${voffset 1} ${color2} ${font} Inkscape           $alignr ${color} F10
+${voffset 1} ${color2} ${font} Gimp               $alignr ${color} F11
+${voffset 1} ${color2} ${font} Fiji               $alignr ${color} F12
 ]]

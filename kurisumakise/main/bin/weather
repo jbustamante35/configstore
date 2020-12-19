@@ -1,0 +1,12 @@
+#! /bin/sh
+#
+# weather
+# Copyright (C) 2020 jbustamante <jbustamante@KurisuMakise>
+#
+# Distributed under terms of the MIT license.
+#
+url="https://radar.weather.gov/lite/N0R/MKX_loop.gif"
+
+notify-send "⛅" "Loading Doppler Radar"
+#mpv --loop "$url"
+sxweb "sxiv" "$url" "-a"

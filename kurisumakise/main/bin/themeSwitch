@@ -8,7 +8,10 @@
 #
 
 regencolors="/home/jbustamante/bin/regencolors"
-myconky="/home/jbustamante/bin/myconky"
+pywalfox="/home/jbustamante/.local/bin/pywalfox"
+quoteSwitch="/home/jbustamante/bin/quoteSwitch"
+#myconky="/home/jbustamante/bin/myconky"
+#megakill="/home/jbustamante/bin/megakill"
 
 theme="$1"
 quote="$2"
@@ -36,16 +39,18 @@ esac
 
 case "$DEBUG" in
     1)
-        printf "ln -sf ${pic} ${main_pic}\n"
-        printf "${regencolors} ${pywal} 1\n"
-        printf "fortune -e ${quote} > ${main_quote}/${quote}.txt\n"
-        printf "pkill conky && ${myconky} ;\n"
+        printf "ln -sf $pic $main_pic\n"
+        printf "$regencolors $pywal 1\n"
+        printf "$pywalfox update\n"
         ;;
     *)
         ln -sf "$pic" "$main_pic"
         "$regencolors" "$pywal" 1
-        fortune -e "$quote" > "$main_quote/$quote.txt"
+        "$pywalfox" update
 
-        pkill conky && "$myconky" ;
+        # Update quote
+        "$quoteSwitch" "$quote" 0
+
+        #"$megakill" conky && "$myconky" ;
         ;;
 esac
